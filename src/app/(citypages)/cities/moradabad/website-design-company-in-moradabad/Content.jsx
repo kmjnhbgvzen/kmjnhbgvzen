@@ -25,9 +25,6 @@ const Content = () => {
         <div className="flex-1 px-4 sm:px-8 md:px-16 py-0 order-1 lg:order-1">
 
           <div className="space-y-8 text-gray-700 leading-relaxed max-w-4xl">
-            <h2 className="text-2xl sm:text-3xl font-semibold text-gray-900">
-              Website Design Company in Moradabad | Zentrix Infotech
-            </h2>
             <p>
               Searching for the top website design company in Moradabad? Zentrix Infotech delivers stunning, user-friendly designs using modern tools like Tailwind CSS, React, and Next.js. Our creative team crafts websites that captivate visitors and convert them into loyal customers.
             </p>

@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Banner() {
   return (
-    <section className="relative w-full h-[500px] sm:h-[600px] md:h-[570px] overflow-hidden">
+    <section className="relative w-[400px] md:w-full h-[300px] sm:h-[400px] md:h-[570px] overflow-hidden">
       <div className="absolute inset-0">
         {/* eslint-disable-next-line @next/next/no-img-element */}
         <img
@@ -15,8 +15,8 @@ export default function Banner() {
       </div>
       
       <div className="relative z-20 flex items-center justify-center h-full px-4">
-        <div className="text-center text-white max-w-5xl">
-          <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-serif font-medium tracking-wide capitalize mb-4 md:mb-6 leading-tight">
+        <div className="text-center text-white max-w-5xl mt-18">
+          <h1 className="text-4xl sm:text-4xl md:text-5xl lg:text-6xl font-serif font-medium tracking-wide capitalize mb-4 md:mb-6 leading-tight">
             Website Developer in Moradabad
           </h1>
           <p className="text-base sm:text-lg md:text-xl lg:text-2xl font-serif font-medium text-white tracking-wide drop-shadow-lg">

@@ -25,9 +25,7 @@ const Content = () => {
         <div className="flex-1 px-4 sm:px-8 md:px-16 py-0 order-1 lg:order-1">
 
           <div className="space-y-8 text-gray-700 leading-relaxed max-w-4xl">
-            <h2 className="text-2xl sm:text-3xl font-semibold text-gray-900">
-              Website Development in Moradabad | Zentrix Infotech
-            </h2>
+            
             <p>
               Need expert website development in Moradabad? Zentrix Infotech creates custom, high-speed websites with React, Next.js, and Tailwind CSS that rank high locally and convert visitors into customers fast.
             </p>

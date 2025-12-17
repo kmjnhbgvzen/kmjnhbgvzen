@@ -25,9 +25,6 @@ const Content = () => {
         <div className="flex-1 px-4 sm:px-8 md:px-16 py-0 order-1 lg:order-1">
 
           <div className="space-y-8 text-gray-700 leading-relaxed max-w-4xl">
-            <h2 className="text-2xl sm:text-3xl font-semibold text-gray-900">
-              Best Web Development Company in Moradabad | Zentrix Infotech
-            </h2>
             <p>
               Looking for the best web development company in Moradabad to transform your business online? Zentrix Infotech, a local leader in Moradabad, builds high-performance websites using React, Next.js, and Tailwind CSS. We deliver custom solutions that drive leads, boost sales, and establish your brand authority.
             </p>
@@ -101,9 +98,7 @@ const Content = () => {
               <p>
                 <strong>Café E-Commerce Launch:</strong> From zero to ₹2.5 lakhs revenue in first quarter. Online orders now make up 40% of sales.
               </p>
-              <p>
-                <strong>IT Services Ranking Boost:</strong> Top 3 Google position for &quot;IT services Moradabad.&quot; Organic traffic up 400%.
-              </p>
+              
               <p>
                 <strong>Brassware Exporter Site:</strong> Export inquiries doubled with multilingual support and product galleries.
               </p>
@@ -197,9 +192,14 @@ const Content = () => {
 
             <div className="space-y-6 mt-6">
               <div>
-                <h3 className="font-semibold text-gray-900 mb-3">Q1. How much does a website cost from the best web development company in Moradabad?</h3>
-                <p>A: Packages start at ₹15,000 for basic sites, ₹35,000+ for e-commerce. Custom quotes based on features.</p>
-              </div>
+  <h3 className="font-semibold text-gray-900 mb-3">
+    Q1. How does the best web development company in Moradabad determine website requirements?
+  </h3>
+  <p>
+    A: Website requirements are determined based on your business goals, type of website, required features, design preferences, and scalability needs. A customized solution is planned after understanding your specific objectives.
+  </p>
+</div>
+
 
               <div>
                 <h3 className="font-semibold text-gray-900 mb-3">Q2. How long to build my website?</h3>
