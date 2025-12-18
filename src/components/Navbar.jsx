@@ -190,7 +190,7 @@ export default function Navbar() {
                                             <NestedDropdown id="mobile" href="/services/mobile-development" label="MOBILE DEVELOPMENT" links={mobileDevLinks} />
                                             <NestedDropdown id="web" href="/services/web-development" label="WEB DEVELOPMENT" links={webDevLinks} />
                                             <NestedDropdown href="/services/software-development" label="SOFTWARE DEVELOPMENT" icon={false} />
-                                            <NestedDropdown href="/services/ui-designing" label="UI & UX DESIGNING" icon={false} />
+                                            <NestedDropdown href="/services/ui-ux-designing" label="UI & UX DESIGNING" icon={false} />
                                             <NestedDropdown href="/services/cloud-solutions" label="CLOUD SOLUTIONS" icon={false} />
                                         </div>
                                     </div>
