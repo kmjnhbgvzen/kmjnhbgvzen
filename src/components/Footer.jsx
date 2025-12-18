@@ -22,12 +22,12 @@ import Link from 'next/link';
 
 const Footer = () => {
   const solutions = [
-    { name: "Software Development", href: "/software-development", icon: Code },
-    { name: "Digital Marketing", href: "/digital-marketing", icon: Megaphone },
-    { name: "Web Development", href: "/web-development", icon: Monitor },
-    { name: "UI/UX Design", href: "/ui-designer", icon: Palette },
-    { name: "Mobile App Development", href: "/mobile-development", icon: Smartphone },
-    { name: "Cloud Solutions", href: "/cloud-solutions", icon: Cloud },
+    { name: "Software Development", href: "/services/software-development", icon: Code },
+    { name: "Digital Marketing", href: "/services/digital-marketing", icon: Megaphone },
+    { name: "Web Development", href: "/services/web-development", icon: Monitor },
+    { name: "UI/UX Designing", href: "/services/ui-ux-designing", icon: Palette },
+    { name: "Mobile App Development", href: "/services/mobile-development", icon: Smartphone },
+    { name: "Cloud Solutions", href: "/services/cloud-solutions", icon: Cloud },
     
   ];
 

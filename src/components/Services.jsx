@@ -11,42 +11,42 @@ const Services = () => {
       title: "Web Development",
       description: "Custom websites and web applications built with modern technologies for optimal performance and user experience.",
       color: "#3B82F6",
-      link: "web-development"
+      link: "/services/web-development"
     },
     {
       icon: Palette,
       title: "UI/UX Design",
       description: "Beautiful, intuitive interfaces designed to engage users and drive conversions with attention to detail.",
       color: "#8B5CF6",
-      link: "ui-designer"
+      link: "/services/ui-ux-designing"
     },
     {
       icon: Smartphone,
       title: "Mobile Apps",
       description: "Native and cross-platform mobile applications that deliver seamless experiences on iOS and Android.",
       color: "#EC4899",
-      link: "mobile-development"
+      link: "/services/mobile-development"
     },
     {
       icon: Cpu,
       title: "Software Development",
       description: "Comprehensive software solutions to improve efficiency and drive innovation in your business operations.",
       color: "#10B981",
-      link: "software-development"
+      link: "/services/software-development"
     },
     {
       icon: TrendingUp,
       title: "Digital Marketing",
       description: "Strategic digital marketing campaigns to boost your online presence and drive measurable business growth.",
       color: "#F59E0B",
-      link: "digital-marketing"
+      link: "/services/digital-marketing"
     },
     {
       icon: Cloud,
       title: "Cloud Solution",
       description: "Scalable cloud infrastructure and services to enhance performance, security, and business continuity.",
       color: "#06B6D4",
-      link: "cloud-solutions"
+      link: "/services/cloud-solutions"
     }
   ];
 

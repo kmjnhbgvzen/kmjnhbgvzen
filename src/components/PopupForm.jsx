@@ -310,7 +310,7 @@ const PopupQueryForm = () => {
                   <option value="Mobile Development">Mobile Development</option>
                   <option value="Web Development">Web Development</option>
                   <option value="Software Development">Software Development</option>
-                  <option value="UI & UX Design">UI & UX Design</option>
+                  <option value="UI & UX Designing">UI & UX Designing</option>
                   <option value="Cloud Solutions">Cloud Solutions</option>
                   <option value="Custom">Other Services</option>
                 </select>

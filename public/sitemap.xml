@@ -11,11 +11,41 @@
     <loc>https://www.zentrixinfotech.com/about-us</loc>
     <priority>0.7</priority>
   </url>
+  <url>
+    <loc>https://www.zentrixinfotech.com/why-choose-us</loc>
+    <priority>0.7</priority>
+  </url>
 
   <url>
     <loc>https://www.zentrixinfotech.com/services</loc>
     <priority>0.7</priority>
   </url>
+
+  <url>
+    <loc>https://www.zentrixinfotech.com/services/software-development</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.zentrixinfotech.com/services/web-development</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.zentrixinfotech.com/services/ui-ux-designing</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.zentrixinfotech.com/services/mobile-development</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.zentrixinfotech.com/services/digital-marketing</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.zentrixinfotech.com/services/cloud-solutions</loc>
+    <priority>0.7</priority>
+  </url>
+
 
   <url>
     <loc>https://www.zentrixinfotech.com/portfolio</loc>
@@ -104,5 +134,7 @@
     <loc>https://www.zentrixinfotech.com/cities/moradabad/affordable-web-development-in-moradabad</loc>
     <priority>0.7</priority>  
   </url>
+
+
 
 </urlset>

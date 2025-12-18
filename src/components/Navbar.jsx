@@ -80,23 +80,23 @@ export default function Navbar() {
     ];
 
     const digitalMarketingLinks = [
-        { href: "/seo-service", label: "SEO SERVICE" },
-        { href: "/social-media-optimization", label: "SOCIAL MEDIA OPTIMIZATION" },
-        { href: "/ads-management", label: "ADS MANAGEMENT" }
+        { href: "/services/digital-marketing/seo-service", label: "SEO SERVICE" },
+        { href: "/services/digital-marketing/social-media-optimization", label: "SOCIAL MEDIA OPTIMIZATION" },
+        { href: "/services/digital-marketing/ads-management", label: "ADS MANAGEMENT" }
     ];
 
     const mobileDevLinks = [
-        { href: "/ios-development", label: "iOS DEVELOPMENT" },
-        { href: "/android-development", label: "ANDROID DEVELOPMENT" }
+        { href: "/services/mobile-development/ios-development", label: "iOS DEVELOPMENT" },
+        { href: "/services/mobile-development/android-development", label: "ANDROID DEVELOPMENT" }
     ];
 
     const webDevLinks = [
-        { href: "/angular-js", label: "ANGULAR JS" },
-        { href: "/wordpress", label: "WORDPRESS" },
-        { href: "/drupal", label: "DRUPAL" },
-        { href: "/laravel", label: "LARAVEL" },
-        { href: "/magneto", label: "MAGNETO" },
-        { href: "/react-js", label: "REACT JS" },
+        { href: "/services/web-development/angular-js", label: "ANGULAR JS" },
+        { href: "/services/web-development/wordpress", label: "WORDPRESS" },
+        { href: "/services/web-development/drupal", label: "DRUPAL" },
+        { href: "/services/web-development/laravel", label: "LARAVEL" },
+        { href: "/services/web-development/magneto", label: "MAGNETO" },
+        { href: "/services/web-development/react-js", label: "REACT JS" },
         { href: "/shopify", label: "SHOPIFY" }
     ];
 
@@ -186,12 +186,12 @@ export default function Navbar() {
                                     <div className="absolute top-full left-0 w-56 bg-white rounded-md shadow-lg border border-gray-200 z-50">
                                         <div className="py-2">
                                             <DropdownItem href="/services">ALL SERVICES</DropdownItem>
-                                            <NestedDropdown id="digital" href="/digital-marketing" label="DIGITAL MARKETING" links={digitalMarketingLinks} />
-                                            <NestedDropdown id="mobile" href="/mobile-development" label="MOBILE DEVELOPMENT" links={mobileDevLinks} />
-                                            <NestedDropdown id="web" href="/web-development" label="WEB DEVELOPMENT" links={webDevLinks} />
-                                            <NestedDropdown href="/software-development" label="SOFTWARE DEVELOPMENT" icon={false} />
-                                            <NestedDropdown href="/ui-designer" label="UI & UX DESIGNER" icon={false} />
-                                            <NestedDropdown href="/cloud-solutions" label="CLOUD SOLUTIONS" icon={false} />
+                                            <NestedDropdown id="digital" href="/services/digital-marketing" label="DIGITAL MARKETING" links={digitalMarketingLinks} />
+                                            <NestedDropdown id="mobile" href="/services/mobile-development" label="MOBILE DEVELOPMENT" links={mobileDevLinks} />
+                                            <NestedDropdown id="web" href="/services/web-development" label="WEB DEVELOPMENT" links={webDevLinks} />
+                                            <NestedDropdown href="/services/software-development" label="SOFTWARE DEVELOPMENT" icon={false} />
+                                            <NestedDropdown href="/services/ui-designing" label="UI & UX DESIGNING" icon={false} />
+                                            <NestedDropdown href="/services/cloud-solutions" label="CLOUD SOLUTIONS" icon={false} />
                                         </div>
                                     </div>
                                 )}
@@ -262,7 +262,7 @@ export default function Navbar() {
 
                                         {/* Digital Marketing */}
                                         <div>
-                                            <Link href="/digital-marketing" onClick={closeMobileMenu} className="block px-3 py-2 text-sm font-semibold rounded-md transition-all duration-200 mb-2"
+                                            <Link href="/services/digital-marketing" onClick={closeMobileMenu} className="block px-3 py-2 text-sm font-semibold rounded-md transition-all duration-200 mb-2"
                                                 style={{ color: '#475569' }}
                                                 onMouseEnter={(e) => { e.currentTarget.style.color = '#0ea5e9'; e.currentTarget.style.backgroundColor = 'white'; }}
                                                 onMouseLeave={(e) => { e.currentTarget.style.color = '#475569'; e.currentTarget.style.backgroundColor = 'transparent'; }}>
@@ -291,7 +291,7 @@ export default function Navbar() {
 
                                         {/* Mobile Development */}
                                         <div>
-                                            <Link href="/mobile-development" onClick={closeMobileMenu} className="block px-3 py-2 text-sm font-semibold rounded-md transition-all duration-200 mb-2"
+                                            <Link href="/services/mobile-development" onClick={closeMobileMenu} className="block px-3 py-2 text-sm font-semibold rounded-md transition-all duration-200 mb-2"
                                                 style={{ color: '#475569' }}
                                                 onMouseEnter={(e) => { e.currentTarget.style.color = '#0ea5e9'; e.currentTarget.style.backgroundColor = 'white'; }}
                                                 onMouseLeave={(e) => { e.currentTarget.style.color = '#475569'; e.currentTarget.style.backgroundColor = 'transparent'; }}>
@@ -320,7 +320,7 @@ export default function Navbar() {
 
                                         {/* Web Development */}
                                         <div>
-                                            <Link href="/web-development" onClick={closeMobileMenu} className="block px-3 py-2 text-sm font-semibold rounded-md transition-all duration-200 mb-2"
+                                            <Link href="/services/web-development" onClick={closeMobileMenu} className="block px-3 py-2 text-sm font-semibold rounded-md transition-all duration-200 mb-2"
                                                 style={{ color: '#475569' }}
                                                 onMouseEnter={(e) => { e.currentTarget.style.color = '#0ea5e9'; e.currentTarget.style.backgroundColor = 'white'; }}
                                                 onMouseLeave={(e) => { e.currentTarget.style.color = '#475569'; e.currentTarget.style.backgroundColor = 'transparent'; }}>
@@ -348,7 +348,7 @@ export default function Navbar() {
                                         </div>
 
                                         {/* Software Development */}
-                                        <Link href="/software-development" onClick={closeMobileMenu} className="block px-3 py-2 text-sm font-semibold rounded-md transition-all duration-200 mb-2"
+                                        <Link href="/services/software-development" onClick={closeMobileMenu} className="block px-3 py-2 text-sm font-semibold rounded-md transition-all duration-200 mb-2"
                                             style={{ color: '#475569' }}
                                             onMouseEnter={(e) => { e.currentTarget.style.color = '#0ea5e9'; e.currentTarget.style.backgroundColor = 'white'; }}
                                             onMouseLeave={(e) => { e.currentTarget.style.color = '#475569'; e.currentTarget.style.backgroundColor = 'transparent'; }}>
@@ -356,13 +356,13 @@ export default function Navbar() {
                                         </Link>
 
                                         {/* UI & UX Designer */}
-                                        <Link href="/ui-designer" onClick={closeMobileMenu} className="block px-3 py-2 text-sm font-semibold rounded-md transition-all duration-200 mb-2"
+                                        <Link href="/services/ui-ux-designing" onClick={closeMobileMenu} className="block px-3 py-2 text-sm font-semibold rounded-md transition-all duration-200 mb-2"
                                             style={{ color: '#475569' }}
                                             onMouseEnter={(e) => { e.currentTarget.style.color = '#0ea5e9'; e.currentTarget.style.backgroundColor = 'white'; }}
                                             onMouseLeave={(e) => { e.currentTarget.style.color = '#475569'; e.currentTarget.style.backgroundColor = 'transparent'; }}>
-                                            UI & UX DESIGNER
+                                            UI & UX DESIGNING
                                         </Link>
-                                        <Link href="/cloud-solutions" onClick={closeMobileMenu} className="block px-3 py-2 text-sm font-semibold rounded-md transition-all duration-200 mb-2"
+                                        <Link href="/services/cloud-solutions" onClick={closeMobileMenu} className="block px-3 py-2 text-sm font-semibold rounded-md transition-all duration-200 mb-2"
                                             style={{ color: '#475569' }}
                                             onMouseEnter={(e) => { e.currentTarget.style.color = '#0ea5e9'; e.currentTarget.style.backgroundColor = 'white'; }}
                                             onMouseLeave={(e) => { e.currentTarget.style.color = '#475569'; e.currentTarget.style.backgroundColor = 'transparent'; }}>

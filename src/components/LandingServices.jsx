@@ -8,49 +8,49 @@ const ServicesSection = () => {
       icon: <Code className="w-12 h-12" />,
       title: "Web Development",
       description: "Build fast, responsive, and scalable websites tailored to your business needs and goals.",
-      link: "/web-development"
+      link: "/services/web-development"
     },
     {
       icon: <Palette className="w-12 h-12" />,
       title: "Design & Branding",
       description: "Build a memorable brand identity with compelling designs that resonate with your target audience.",
-      link: "/ui-ux-design"
+      link: "/services/ui-ux-designing"
     },
     {
       icon: <Users className="w-12 h-12" />,
       title: "Social Media Optimization",
       description: "Engage and grow your community with strategic social media management and compelling content.",
-      link: "/social-media-optimization"
+      link: "/services/social-media-optimization"
     },
     {
       icon: <TrendingUp className="w-12 h-12" />,
       title: "Digital Marketing",
       description: "Boost your online presence with comprehensive digital strategies that deliver real results.",
-      link: "/digital-marketing"
+      link: "/services/digital-marketing"
     },
     {
       icon: <Smartphone className="w-12 h-12" />,
       title: "Mobile Development",
       description: "Create powerful mobile applications for iOS and Android that engage users on the go.",
-      link: "/mobile-development"
+      link: "/services/mobile-development"
     },
     {
       icon: <Layers className="w-12 h-12" />,
       title: "Software Development",
       description: "Custom software solutions built to streamline your operations and scale with your business.",
-      link: "/software-development"
+      link: "/services/software-development"
     },
     {
       icon: <Figma className="w-12 h-12" />,
-      title: "UI & UX Design",
+      title: "UI & UX Designing",
       description: "Design intuitive and beautiful user experiences that keep your customers coming back.",
-      link: "/ui-ux-designer"
+      link: "/services/ui-ux-designing"
     },
     {
       icon: <Cloud className="w-12 h-12" />,
       title: "Cloud Solutions",
       description: "Leverage cloud technology for secure, scalable, and cost-effective infrastructure solutions.",
-      link: "/cloud-solutions"
+      link: "/services/cloud-solutions"
     }
   ];
 
