@@ -1,6 +1,6 @@
 import React from "react";
 import Content from "./Content";
-import FAQSchema from "@/components/FAQSchema";
+import FAQSchema from "./FAQSchema";
 
 export const metadata = {
   title:
