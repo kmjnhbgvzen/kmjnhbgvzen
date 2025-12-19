@@ -17,6 +17,31 @@ const nextConfig = {
         destination: "/services/mobile-development",
         permanent: true, // 301 redirect (SEO-safe)
       },
+      {
+        source: "/web-development",
+        destination: "/services/web-development",
+        permanent: true, // 301 redirect (SEO-safe)
+      },
+      {
+        source: "/ui-ux-design",
+        destination: "/services/ui-ux-design",
+        permanent: true, // 301 redirect (SEO-safe)
+      },
+      {
+        source: "/software-development",
+        destination: "/services/software-development",
+        permanent: true, // 301 redirect (SEO-safe)
+      },
+      {
+        source: "/cloud-solutions",
+        destination: "/services/cloud-solutions",
+        permanent: true, // 301 redirect (SEO-safe)
+      },
+      {
+        source: "/logo-branding",
+        destination: "/services/ui-ux-design",
+        permanent: true, // 301 redirect (SEO-safe)
+      },
     ];
   },
 };
