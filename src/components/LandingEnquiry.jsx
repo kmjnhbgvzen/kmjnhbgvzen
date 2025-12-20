@@ -35,85 +35,43 @@ const TechServicesForm = () => {
       if (renderAttemptedRef.current) return;
       
       const container = document.getElementById('recaptcha-container');
-      if (!container) {
-        console.error('Container not found');
-        return;
-      }
-
-      if (!window.grecaptcha || !window.grecaptcha.render) {
-        console.log('grecaptcha not ready yet');
+      if (!container || !window.grecaptcha || !window.grecaptcha.render) {
         return;
       }
 
       try {
-        console.log('Rendering reCAPTCHA...');
         renderAttemptedRef.current = true;
         
         recaptchaRef.current = window.grecaptcha.render('recaptcha-container', {
           sitekey: RECAPTCHA_SITE_KEY,
           theme: 'light',
           size: 'normal',
-          callback: (token) => {
-            console.log('reCAPTCHA success!');
-          },
-          'error-callback': () => {
-            console.error('reCAPTCHA error - check console');
-            setError('reCAPTCHA failed. Please check that your domain is authorized in Google reCAPTCHA admin.');
-          },
-          'expired-callback': () => {
-            console.log('reCAPTCHA expired');
-          }
         });
         
-        console.log('reCAPTCHA rendered with widget ID:', recaptchaRef.current);
         setRecaptchaLoaded(true);
       } catch (error) {
         console.error('reCAPTCHA render error:', error);
-        setError('Failed to initialize reCAPTCHA: ' + error.message);
-        renderAttemptedRef.current = false; // Allow retry
+        setError('Failed to initialize reCAPTCHA');
+        renderAttemptedRef.current = false;
       }
     };
 
-    // Try to render immediately if grecaptcha is already available
     if (window.grecaptcha && window.grecaptcha.render) {
-      console.log('grecaptcha already available');
       setTimeout(renderRecaptcha, 100);
       return;
     }
 
-    // Set up global callback
     window.onRecaptchaLoad = () => {
-      console.log('reCAPTCHA script loaded via callback');
       setTimeout(renderRecaptcha, 100);
     };
 
-    // Check if script already exists
     const existingScript = document.querySelector('script[src*="recaptcha"]');
     
-    if (existingScript) {
-      console.log('reCAPTCHA script already in DOM');
-      // Wait for it to load
-      const checkInterval = setInterval(() => {
-        if (window.grecaptcha && window.grecaptcha.render) {
-          clearInterval(checkInterval);
-          renderRecaptcha();
-        }
-      }, 100);
-      
-      // Stop checking after 10 seconds
-      setTimeout(() => clearInterval(checkInterval), 10000);
-    } else {
-      console.log('Loading reCAPTCHA script...');
+    if (!existingScript) {
       const script = document.createElement('script');
       script.src = `https://www.google.com/recaptcha/api.js?onload=onRecaptchaLoad&render=explicit`;
       script.async = true;
       script.defer = true;
-      
-      script.onerror = () => {
-        console.error('Failed to load reCAPTCHA script');
-        setError('Failed to load reCAPTCHA. Please check your internet connection.');
-      };
-      
       document.head.appendChild(script);
       scriptLoadedRef.current = true;
     }
@@ -140,65 +98,68 @@ const TechServicesForm = () => {
     setError("");
     setIsSubmitting(true);
 
-    // Validate phone number
+    // Validate required fields
     if (!formData.phone.trim()) {
       setError('Phone number is required.');
       setIsSubmitting(false);
       return;
     }
 
-    // Verify reCAPTCHA
-    let recaptchaResponse = '';
-    try {
-      if (!window.grecaptcha) {
-        setError("reCAPTCHA not loaded. Please refresh the page.");
-        setIsSubmitting(false);
-        return;
-      }
+    if (!formData.name.trim()) {
+      setError('Name is required.');
+      setIsSubmitting(false);
+      return;
+    }
 
-      if (recaptchaRef.current === null) {
+    if (!formData.email.trim()) {
+      setError('Email is required.');
+      setIsSubmitting(false);
+      return;
+    }
+
+    // Get reCAPTCHA token
+    let recaptchaToken = '';
+    try {
+      if (!window.grecaptcha || recaptchaRef.current === null) {
         setError("reCAPTCHA not initialized. Please refresh the page.");
         setIsSubmitting(false);
         return;
       }
 
-      recaptchaResponse = window.grecaptcha.getResponse(recaptchaRef.current);
-      console.log('reCAPTCHA response received:', recaptchaResponse ? 'Yes' : 'No');
+      recaptchaToken = window.grecaptcha.getResponse(recaptchaRef.current);
       
-      if (!recaptchaResponse) {
-        setError("Please complete the reCAPTCHA verification by checking the box.");
+      if (!recaptchaToken) {
+        setError("Please complete the reCAPTCHA verification.");
         setIsSubmitting(false);
         return;
       }
     } catch (err) {
-      console.error('reCAPTCHA verification error:', err);
+      console.error('reCAPTCHA error:', err);
       setError("reCAPTCHA verification failed: " + err.message);
       setIsSubmitting(false);
       return;
     }
 
-    // Create form data
-    const submitData = new FormData();
-    Object.entries(formData).forEach(([key, value]) => {
-      submitData.append(key, value);
-    });
-
-    submitData.append("g-recaptcha-response", recaptchaResponse);
-    submitData.append("_next", "https://www.zentrixinfotech.com/thankyou");
-    submitData.append("_subject", "New Tech Services Inquiry from " + formData.name);
-    submitData.append("_captcha", "false");
-    submitData.append("_template", "table");
-
     try {
-      await fetch("https://formsubmit.co/zentrixit@gmail.com", {
+      // Submit to YOUR serverless function
+      const response = await fetch("/api/submit-form", {
         method: "POST",
-        mode: "no-cors",
-        body: submitData,
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({
+          ...formData,
+          recaptchaToken: recaptchaToken,
+        }),
       });
 
-      console.log('Form submitted successfully');
-      
-      // Show success message
+      const data = await response.json();
+
+      if (!response.ok) {
+        throw new Error(data.error || 'Submission failed');
+      }
+
+      // Success!
       setSuccess(true);
       setIsSubmitting(false);
       
@@ -213,11 +174,7 @@ const TechServicesForm = () => {
       
       // Reset reCAPTCHA
       if (window.grecaptcha && recaptchaRef.current !== null) {
-        try {
-          window.grecaptcha.reset(recaptchaRef.current);
-        } catch (e) {
-          console.error('Reset error:', e);
-        }
+        window.grecaptcha.reset(recaptchaRef.current);
       }
       
       // Redirect after 2 seconds
@@ -227,16 +184,12 @@ const TechServicesForm = () => {
 
     } catch (error) {
       console.error("Form submission error:", error);
-      setError("There was an error submitting the form. Please try again.");
+      setError(error.message || "Failed to submit form. Please try again.");
       setIsSubmitting(false);
       
-      // Reset reCAPTCHA
+      // Reset reCAPTCHA on error
       if (window.grecaptcha && recaptchaRef.current !== null) {
-        try {
-          window.grecaptcha.reset(recaptchaRef.current);
-        } catch (e) {
-          console.error('Reset error:', e);
-        }
+        window.grecaptcha.reset(recaptchaRef.current);
       }
     }
   };
@@ -288,7 +241,7 @@ const TechServicesForm = () => {
         <div className="grid grid-cols-2 gap-3">
           <div>
             <label className="block text-xs text-gray-600 mb-1">
-              Name 
+              Name <span className="text-red-500">*</span>
             </label>
             <input
               type="text"
@@ -301,7 +254,7 @@ const TechServicesForm = () => {
           </div>
           <div>
             <label className="block text-xs text-gray-600 mb-1">
-              Email 
+              Email <span className="text-red-500">*</span>
             </label>
             <input
               type="email"
