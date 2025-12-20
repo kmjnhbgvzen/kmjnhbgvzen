@@ -24,7 +24,7 @@ const nextConfig = {
       },
       {
         source: "/ui-ux-design",
-        destination: "/services/ui-ux-design",
+        destination: "/services/ui-ux-designing",
         permanent: true, // 301 redirect (SEO-safe)
       },
       {
@@ -39,7 +39,7 @@ const nextConfig = {
       },
       {
         source: "/logo-branding",
-        destination: "/services/ui-ux-design",
+        destination: "/services/ui-ux-designing",
         permanent: true, // 301 redirect (SEO-safe)
       },
     ];
