@@ -234,8 +234,11 @@ const Content = () => {
               Let&apos;s build a website that reflects your brand, attracts the right audience, and supports long-term business growth.
             </p>
             <p className="mt-4">
-              <strong>👉 Contact us today to discuss your project.</strong>
+              <strong> Contact us today to discuss your project.</strong><br />
+              <strong> Call:</strong> 7248800839<br />
+              <strong> Email:</strong> info@zentrixinfotech.com
             </p>
+           
 
             <div className="mt-8 p-6 bg-blue-50 rounded-lg border-l-4 border-blue-600">
               <p className="font-semibold text-gray-900 text-lg">
