@@ -92,7 +92,9 @@ export const metadata = {
 
   // ✅ ✅ ✅ FAVICON
   icons: {
-    icon: "/favicon.ico",
+    icon: [
+    { url: "/favicon.ico", sizes: "any" }, // fallback
+    ],
   },
 };
 
