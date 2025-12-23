@@ -202,12 +202,10 @@ const Content = () => {
               <strong>📞</strong> 7248800839<br />
               <strong>📧</strong> info@zentrixinfotech.com
             </p>
-            <p className="mt-4">
-              <strong>🌐 Free Mobile Audit →</strong>
-            </p>
+            
 
             <h2 className="text-xl sm:text-2xl font-semibold text-gray-900">
-              Strategic Internal Links
+              Our Offerings
             </h2>
             <ul className="list-disc list-inside space-y-2 ml-4">
               <li>Mobile Website Development</li>

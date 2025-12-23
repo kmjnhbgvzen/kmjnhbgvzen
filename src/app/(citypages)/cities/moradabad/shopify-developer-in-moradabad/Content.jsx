@@ -211,11 +211,12 @@ const Content = () => {
             </p>
 
             <h2 className="text-xl sm:text-2xl font-semibold text-gray-900">
-              Strategic Internal Links
+              Core Services
             </h2>
             <ul className="list-disc list-inside space-y-2 ml-4">
               <li>Shopify Theme Customization</li>
               <li>Custom Shopify Apps</li>
+              <li>Shopify Websites</li>
               <li>Ecommerce Migration</li>
               <li>Shopify SEO Services</li>
               <li>Store Speed Optimization</li>
