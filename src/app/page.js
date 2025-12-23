@@ -13,10 +13,10 @@ import Gif from "@/components/Gif";
 
 export const metadata = {
   title:
-    "Zentrix Infotech – Website Development, Software Development and Digital Marketing Company",
+    "Zentrix Infotech | Website Development, Custom Software and Digital Marketing Company",
 
   description:
-    "Zentrix Infotech is a professional digital marketing, web development, mobile app, software development, UI/UX design, and cloud solutions company delivering affordable IT services for businesses.",
+    "Zentrix Infotech is a leading IT company offering affordable web development, custom software development, mobile app solutions, UI/UX design, cloud services, and digital marketing solutions for businesses worldwide.",
 
   keywords: [
     "digital marketing company",
