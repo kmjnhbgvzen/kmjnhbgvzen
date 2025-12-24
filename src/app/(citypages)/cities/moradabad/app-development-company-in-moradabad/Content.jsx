@@ -318,7 +318,10 @@ const Content = () => {
               If you are searching for a reliable app development company in Moradabad that understands local business needs, we are here to help. Whether you need an internal business app, a customer-facing mobile solution, or an automation tool, our team delivers practical and scalable applications.
             </p>
             <p className="mt-4">
-              <strong>📞 Contact us today for a free consultation and discover how a custom mobile app can transform your business operations.</strong>
+              <strong>📞 Contact us today for a free consultation and discover how a custom mobile app can transform your business operations.</strong><br />
+              📞 <strong>Call:</strong> 7248800839<br />
+              📧 <strong>Email:</strong> info@zentrixinfotech.com
+
             </p>
 
             <div className="mt-8 p-6 bg-blue-50 rounded-lg border-l-4 border-blue-600">
