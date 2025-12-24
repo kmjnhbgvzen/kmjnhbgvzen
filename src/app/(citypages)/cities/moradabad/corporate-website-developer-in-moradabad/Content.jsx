@@ -1,21 +1,9 @@
 import React from "react";
 import LandingEnquiry from "@/components/LandingEnquiry";
 import RecentBlog from "@/components/RecentBlog";
+import CityInternalLinks from "@/components/CityInternalLinks";
 
-const PostNavigation = ({ slug }) => {
-  return (
-    <div className="mt-12 pt-8 border-t border-gray-300">
-      <div className="flex justify-between items-center">
-        <button className="text-blue-600 hover:text-blue-700 font-semibold">
-          ← Previous Article
-        </button>
-        <button className="text-blue-600 hover:text-blue-700 font-semibold">
-          Next Article →
-        </button>
-      </div>
-    </div>
-  );
-};
+
 
 const Content = () => {
   return (
@@ -204,9 +192,7 @@ const Content = () => {
               <strong>📞</strong> 7248800839<br />
               <strong>📧</strong> info@zentrixinfotech.com
             </p>
-            <p className="mt-4">
-              <strong>🌐 Executive Consultation →</strong>
-            </p>
+           
 
             <h2 className="text-xl sm:text-2xl font-semibold text-gray-900">
               What We Deliver
@@ -270,7 +256,10 @@ const Content = () => {
             </div>
           </div>
 
-          <PostNavigation slug="corporate-website-developer-moradabad" />
+          <CityInternalLinks
+            city="moradabad"
+            currentSlug="/cities/moradabad/corporate-website-developer-in-moradabad"
+          />
         </div>
 
         {/* Form Section - Smart positioning with CSS order */}

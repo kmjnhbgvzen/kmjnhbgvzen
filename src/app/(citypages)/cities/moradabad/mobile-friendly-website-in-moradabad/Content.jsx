@@ -1,21 +1,8 @@
 import React from "react";
 import LandingEnquiry from "@/components/LandingEnquiry";
 import RecentBlog from "@/components/RecentBlog";
+import CityInternalLinks from "@/components/CityInternalLinks";
 
-const PostNavigation = ({ slug }) => {
-  return (
-    <div className="mt-12 pt-8 border-t border-gray-300">
-      <div className="flex justify-between items-center">
-        <button className="text-blue-600 hover:text-blue-700 font-semibold">
-          ← Previous Article
-        </button>
-        <button className="text-blue-600 hover:text-blue-700 font-semibold">
-          Next Article →
-        </button>
-      </div>
-    </div>
-  );
-};
 
 const Content = () => {
   return (
@@ -266,7 +253,10 @@ const Content = () => {
             </div>
           </div>
 
-          <PostNavigation slug="mobile-friendly-website-moradabad" />
+          <CityInternalLinks
+            city="moradabad"
+            currentSlug="/cities/moradabad/mobile-friendly-website-in-moradabad"
+          />
         </div>
 
         {/* Form Section - Smart positioning with CSS order */}
