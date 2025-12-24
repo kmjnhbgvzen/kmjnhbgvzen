@@ -76,6 +76,10 @@ export const citySlugs = {
       title: "Website Maintenance in Moradabad",
       slug: "/cities/moradabad/website-maintenance-in-moradabad",
     },
+    {
+      title: "Custom Software Development Company in Moradabad",
+      slug: "/cities/moradabad/custom-software-development-company-in-moradabad",
+    }
   ],
 
   delhi: [

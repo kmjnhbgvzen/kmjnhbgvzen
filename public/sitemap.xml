@@ -2,102 +2,106 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
   <url>
-    <loc>https://www.zentrixinfotech.com/</loc>
-    <lastmod>2025-12-07</lastmod>
-    <priority>1.0</priority>
-  </url>
+  <loc>https://www.zentrixinfotech.com/</loc>
+  <priority>1.0</priority>
+</url>
+
+<url>
+  <loc>https://www.zentrixinfotech.com/services</loc>
+  <priority>0.9</priority>
+</url>
+
+<url>
+  <loc>https://www.zentrixinfotech.com/services/software-development</loc>
+  <priority>0.9</priority>
+</url>
+
+<url>
+  <loc>https://www.zentrixinfotech.com/services/web-development</loc>
+  <priority>0.85</priority>
+</url>
+
+<url>
+  <loc>https://www.zentrixinfotech.com/services/mobile-development</loc>
+  <priority>0.85</priority>
+</url>
+
+<url>
+  <loc>https://www.zentrixinfotech.com/services/ui-ux-designing</loc>
+  <priority>0.8</priority>
+</url>
+
+<url>
+  <loc>https://www.zentrixinfotech.com/services/digital-marketing</loc>
+  <priority>0.8</priority>
+</url>
+
+<url>
+  <loc>https://www.zentrixinfotech.com/services/cloud-solutions</loc>
+  <priority>0.8</priority>
+</url>
+
+<url>
+  <loc>https://www.zentrixinfotech.com/portfolio</loc>
+  <priority>0.8</priority>
+</url>
+
+<url>
+  <loc>https://www.zentrixinfotech.com/about-us</loc>
+  <priority>0.8</priority>
+</url>
+
+<url>
+  <loc>https://www.zentrixinfotech.com/why-choose-us</loc>
+  <priority>0.8</priority>
+</url>
+
+<url>
+  <loc>https://www.zentrixinfotech.com/contact-us</loc>
+  <priority>0.9</priority>
+</url>
+
+<url>
+  <loc>https://www.zentrixinfotech.com/cities</loc>
+  <priority>0.85</priority>
+</url>
+
+<url>
+  <loc>https://www.zentrixinfotech.com/privacy-policy</loc>
+  <priority>0.2</priority>
+</url>
+
+<url>
+  <loc>https://www.zentrixinfotech.com/terms-of-service</loc>
+  <priority>0.2</priority>
+</url>
+
+<url>
+  <loc>https://www.zentrixinfotech.com/cookies-policy</loc>
+  <priority>0.2</priority>
+</url>
+
+<url>
+  <loc>https://www.zentrixinfotech.com/licenses</loc>
+  <priority>0.2</priority>
+</url>
+
 
   <url>
-    <loc>https://www.zentrixinfotech.com/about-us</loc>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.zentrixinfotech.com/why-choose-us</loc>
-    <priority>0.7</priority>
-  </url>
+  <loc>https://www.zentrixinfotech.com/cities/delhi</loc>
+  <priority>0.85</priority>
+</url>
 
-  <url>
-    <loc>https://www.zentrixinfotech.com/services</loc>
-    <priority>0.7</priority>
-  </url>
+<url>
+  <loc>https://www.zentrixinfotech.com/cities/noida</loc>
+  <priority>0.85</priority>
+</url>
 
-  <url>
-    <loc>https://www.zentrixinfotech.com/services/software-development</loc>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.zentrixinfotech.com/services/web-development</loc>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.zentrixinfotech.com/services/ui-ux-designing</loc>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.zentrixinfotech.com/services/mobile-development</loc>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.zentrixinfotech.com/services/digital-marketing</loc>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.zentrixinfotech.com/services/cloud-solutions</loc>
-    <priority>0.7</priority>
-  </url>
+<url>
+  <loc>https://www.zentrixinfotech.com/cities/moradabad</loc>
+  <priority>0.85</priority>
+</url>
 
-
-  <url>
-    <loc>https://www.zentrixinfotech.com/portfolio</loc>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://www.zentrixinfotech.com/contact-us</loc>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://www.zentrixinfotech.com/privacy-policy</loc>
-    <priority>0.2</priority>
-  </url>
-
-  <url>
-    <loc>https://www.zentrixinfotech.com/terms-of-service</loc>
-    <priority>0.2</priority>
-  </url>
-
-  <url>
-    <loc>https://www.zentrixinfotech.com/cookies-policy</loc>
-    <priority>0.2</priority>
-  </url>
-
-  <url>
-    <loc>https://www.zentrixinfotech.com/licenses</loc>
-    <priority>0.2</priority>
-  </url>
-
-
-
-  <url>
-    <loc>https://www.zentrixinfotech.com/cities</loc>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://www.zentrixinfotech.com/cities/delhi</loc>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://www.zentrixinfotech.com/cities/noida</loc>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://www.zentrixinfotech.com/cities/moradabad</loc>
-    <priority>0.7</priority>
-  </url>
 
   <url>
     <loc>https://www.zentrixinfotech.com/cities/moradabad/best-digital-marketing-in-moradabad</loc>
@@ -194,6 +198,14 @@
     <loc>https://www.zentrixinfotech.com/cities/moradabad/web-application-development-in-moradabad</loc>
     <priority>0.7</priority>
   </url>
+  <url>
+    <loc>https://www.zentrixinfotech.com/cities/moradabad/custom-website-development-company-in-moradabad</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.zentrixinfotech.com/cities/moradabad/app-development-company-in-moradabad</loc>
+    <priority>0.7</priority>
+  </url>  
   
 
 
