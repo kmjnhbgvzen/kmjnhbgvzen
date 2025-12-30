@@ -362,17 +362,17 @@ const Hero = () => {
               },
               {
                 linear: "from-slate-200/70 to-slate-500/30 backdrop-blur-lg border border-white/20 shadow-lg",
-                img: "/logo-2.png",
+                img: "/",
                 alt: "Logo Variant 2"
               },
               {
                 linear: "from-purple-200/60 to-pink-200/30 backdrop-blur-xl border border-white/20 shadow-xl",
-                img: "/logo-3.png",
+                img: "/",
                 alt: "Logo Variant 3"
               },
               {
                 linear: "from-blue-200/60 to-cyan-200/30 backdrop-blur-xl border border-white/20 shadow-xl",
-                img: "/logo-4.png",
+                img: "/",
                 alt: "Logo Variant 4"
               }
 
