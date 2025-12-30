@@ -324,7 +324,7 @@ export const blogs = [
   subtitle: "Future-Proof Your Business Growth in 2026",
   category: "Digital Marketing",
   author: "Zentrix Infotech",
-  date: "2025-12-31",
+  date: "2025-12-30",
   readTime: "7 min read",
   image: "https://plus.unsplash.com/premium_photo-1684356819161-ddd759e4a4ae?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8c2VhcmNoJTIwZW5naW5lJTIwb3B0aW1pemF0aW9ufGVufDB8fDB8fHww",
 
