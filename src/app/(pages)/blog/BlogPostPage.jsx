@@ -3,7 +3,7 @@
 import React, { useState, useMemo } from "react";
 import Link from "next/link";
 import Image from "next/image";
-import { Calendar, Clock, Tag } from "lucide-react";
+import { Calendar, Clock, ArrowRight, Tag } from "lucide-react";
 import { blogs } from "@/data/blogs";
 
 const POSTS_PER_PAGE = 12;
@@ -147,6 +147,12 @@ const OurBlogPage = () => {
                   <p className="text-xs md:text-sm text-gray-600 line-clamp-2 mb-3">
                     {post.content}
                   </p>
+
+                   {/* Read More */}
+  <span className="inline-flex items-center gap-1 text-sm font-medium text-blue-600 group-hover:text-blue-700 transition mb-3">
+    Read More
+    <ArrowRight size={14} className="transition-transform group-hover:translate-x-1" />
+  </span>
 
                   {/* Tags */}
                   {post.tags && post.tags.length > 0 && (

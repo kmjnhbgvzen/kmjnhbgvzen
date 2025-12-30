@@ -33,7 +33,7 @@ const Blog = () => {
           {featuredPosts.map((post) => (
             <Link
               key={post.id}
-              href={`/blogs/${post.slug}`}
+              href={`/blog/${post.slug}`}
               className="group bg-white rounded-xl shadow-sm hover:shadow-xl transition-all duration-500 border border-slate-100 overflow-hidden hover:-translate-y-1"
             >
               {/* Image */}
@@ -78,6 +78,12 @@ const Blog = () => {
                 <p className="text-sm md:text-base text-slate-600 mb-3 line-clamp-2">
                   {post.content}
                 </p>
+
+                {/* Read More */}
+  <span className="inline-flex items-center gap-1 text-sm font-medium text-blue-600 group-hover:text-blue-700 transition mb-3">
+    Read More
+    <ArrowRight size={14} className="transition-transform group-hover:translate-x-1" />
+  </span>
 
                 {/* Tags */}
                 <div className="flex flex-wrap gap-1.5 pt-3 border-t">

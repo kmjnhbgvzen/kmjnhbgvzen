@@ -10,13 +10,32 @@ import {
   Share2,
   Linkedin,
   Twitter,
+  Instagram,
   MessageCircle,
   Facebook,
 } from "lucide-react";
+import { usePathname } from "next/navigation";
 import { blogs } from "@/data/blogs";
+
+  
+
 
 export default function BlogClient({ blog }) {
   const [progress, setProgress] = useState(0);
+  const pathname = usePathname();
+  const shareUrl = `https://www.zentrixinfotech.com${pathname}`;
+  const shareTitle = blog.title;
+
+  const handleInstagramShare = async () => {
+  try {
+    await navigator.clipboard.writeText(shareUrl);
+    alert("Link copied! Paste it on Instagram.");
+  } catch {
+    alert("Unable to copy link");
+  }
+};
+
+
 
   useEffect(() => {
     const onScroll = () => {
@@ -370,22 +389,62 @@ export default function BlogClient({ blog }) {
               )}
 
               {/* Share */}
-              <div className="bg-gray-50 border border-gray-200 rounded-xl md:rounded-2xl p-4 md:p-5 lg:p-6 shadow-sm">
-                <h4 className="font-serif text-sm md:text-base lg:text-lg mb-3 md:mb-4 flex items-center gap-2 text-gray-900">
-                  <Share2 className="w-4 h-4 md:w-[18px] md:h-[18px]" /> Share Article
-                </h4>
-                <div className="flex gap-2 md:gap-3">
-                  <button className="p-2 md:p-3 bg-white border border-gray-300 rounded-lg hover:bg-blue-50 hover:border-blue-400 transition-all">
-                    <Twitter className="w-4 h-4 md:w-[18px] md:h-[18px] text-gray-600" />
-                  </button>
-                  <button className="p-2 md:p-3 bg-white border border-gray-300 rounded-lg hover:bg-blue-50 hover:border-blue-400 transition-all">
-                    <Linkedin className="w-4 h-4 md:w-[18px] md:h-[18px] text-gray-600" />
-                  </button>
-                  <button className="p-2 md:p-3 bg-white border border-gray-300 rounded-lg hover:bg-blue-50 hover:border-blue-400 transition-all">
-                    <Facebook className="w-4 h-4 md:w-[18px] md:h-[18px] text-gray-600" />
-                  </button>
-                </div>
-              </div>
+<div className="bg-gray-50 border border-gray-200 rounded-xl md:rounded-2xl p-4 md:p-5 lg:p-6 shadow-sm">
+  <h4 className="font-serif text-sm md:text-base lg:text-lg mb-3 md:mb-4 flex items-center gap-2 text-gray-900">
+    <Share2 className="w-4 h-4 md:w-[18px] md:h-[18px]" /> Share Article
+  </h4>
+
+  <div className="flex gap-2 md:gap-3">
+    {/* Twitter / X */}
+    <a
+      href={`https://twitter.com/intent/tweet?url=${encodeURIComponent(
+        shareUrl
+      )}&text=${encodeURIComponent(shareTitle)}`}
+      target="_blank"
+      rel="noopener noreferrer"
+      aria-label="Share on Twitter"
+      className="p-2 md:p-3 bg-white border border-gray-300 rounded-lg hover:bg-blue-50 hover:border-blue-400 transition-all"
+    >
+      <Twitter className="w-4 h-4 md:w-[18px] md:h-[18px] text-gray-600" />
+    </a>
+
+    {/* LinkedIn */}
+    <a
+      href={`https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(
+        shareUrl
+      )}`}
+      target="_blank"
+      rel="noopener noreferrer"
+      aria-label="Share on LinkedIn"
+      className="p-2 md:p-3 bg-white border border-gray-300 rounded-lg hover:bg-blue-50 hover:border-blue-400 transition-all"
+    >
+      <Linkedin className="w-4 h-4 md:w-[18px] md:h-[18px] text-gray-600" />
+    </a>
+
+    {/* Facebook */}
+    <a
+      href={`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(
+        shareUrl
+      )}`}
+      target="_blank"
+      rel="noopener noreferrer"
+      aria-label="Share on Facebook"
+      className="p-2 md:p-3 bg-white border border-gray-300 rounded-lg hover:bg-blue-50 hover:border-blue-400 transition-all"
+    >
+      <Facebook className="w-4 h-4 md:w-[18px] md:h-[18px] text-gray-600" />
+    </a>
+
+    {/* Instagram (Copy Link) */}
+    <button
+      onClick={handleInstagramShare}
+      aria-label="Copy link for Instagram"
+      className="p-2 md:p-3 bg-white border border-gray-300 rounded-lg hover:bg-pink-50 hover:border-pink-400 transition-all"
+    >
+      <Instagram className="w-4 h-4 md:w-[18px] md:h-[18px] text-gray-600" />
+    </button>
+  </div>
+</div>
+
             </aside>
           </div>
         </section>
