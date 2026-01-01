@@ -30,7 +30,7 @@ export const blogs = [
           {
             type: "paragraph",
             text:
-              "A website gives complete control over branding, messaging, content, and user experience—unlike third-party platforms where visibility and ownership are limited."
+              "A website gives complete control over branding, messaging, content, and user experience unlike third-party platforms where visibility and ownership are limited."
           },
           {
             type: "callout",
@@ -85,7 +85,7 @@ export const blogs = [
           {
             type: "quote",
             text:
-              "SEO is no longer about shortcuts—it’s about delivering real value and earning visibility.",
+              "SEO is no longer about shortcuts it’s about delivering real value and earning visibility.",
             author: "Jordan Teicher"
           }
         ]
@@ -241,7 +241,7 @@ export const blogs = [
           {
             type: "paragraph",
             text:
-              "A professional website is more than an online presence—it is a strategic business asset that builds trust, attracts customers, and supports sustainable growth."
+              "A professional website is more than an online presence it is a strategic business asset that builds trust, attracts customers, and supports sustainable growth."
           },
           {
             type: "paragraph",
@@ -339,7 +339,7 @@ export const blogs = [
           {
             type: "paragraph",
             text:
-              "Modern SEO aligns your website with how users search, read, and make decisions—ensuring your business appears exactly when customers need it most."
+              "Modern SEO aligns your website with how users search, read, and make decisions ensuring your business appears exactly when customers need it most."
           }
         ]
       },
@@ -393,7 +393,7 @@ export const blogs = [
             type: "callout",
             style: "success",
             text:
-              "✅ SEO marketing reaches customers at the decision stage—when they are most likely to convert."
+              "✅ SEO marketing reaches customers at the decision stage when they are most likely to convert."
           }
         ]
       },
@@ -460,7 +460,7 @@ export const blogs = [
           {
             type: "paragraph",
             text:
-              "In 2026, SEO marketing is not just about ranking on Google—it is about visibility, trust, and sustainable business growth. Businesses that prioritize SEO today secure long-term success, while those that delay risk falling behind permanently."
+              "In 2026, SEO marketing is not just about ranking on Google it is about visibility, trust, and sustainable business growth. Businesses that prioritize SEO today secure long-term success, while those that delay risk falling behind permanently."
           },
           {
             type: "callout",
@@ -547,7 +547,19 @@ export const blogs = [
           {
             type: "paragraph",
             text:
-              "A high-performance website is more than just good design. It is a fast, stable, mobile-friendly system built to support your marketing and sales goals. When paired with services like our [web development](https://www.zentrixinfotech.com/services/web-development) expertise and integrated with strong content strategies, performance becomes a key differentiator."
+              <>A high-performance website is more than just good design. It is a fast,
+        stable, mobile-friendly system built to support your marketing and sales
+        goals. When paired with services like our{" "}
+        <a
+          href="https://www.zentrixinfotech.com/services/web-development"
+          className="text-blue-600 hover:underline"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          web development
+        </a>{" "}
+        expertise and integrated with strong content strategies, performance
+        becomes a key differentiator.</>
           },
 
           {
@@ -558,7 +570,20 @@ export const blogs = [
           {
             type: "paragraph",
             text:
-              "Performance is a known SEO ranking factor. A well-optimized website benefits greatly when combined with premium SEO strategies such as our [SEO services](https://www.zentrixinfotech.com/services/digital-marketing/seo-service), driving more qualified, high-intent visitors from Google and other search engines."
+              <>
+              Performance is a known SEO ranking factor. 
+              A well-optimized website benefits greatly when combined with premium 
+              SEO strategies such as our {" "}
+        <a
+          href="https://www.zentrixinfotech.com/services/digital-marketing/seo-service"
+          className="text-blue-600 hover:underline"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          SEO services,
+        </a>{" "}
+      driving more qualified, high-intent visitors from Google and other search engines.
+              </>
           }
         ]
       },
@@ -572,8 +597,24 @@ export const blogs = [
           },
           {
             type: "paragraph",
-            text:
-              "When your website loads quickly and passes Core Web Vitals, search engines reward it with higher rankings. Combining performance with our digital marketing expertise — such as [Digital Marketing](https://www.zentrixinfotech.com/services/digital-marketing) — enhances your reach for competitive keywords and increases lead potential."
+            
+          text:
+              <>
+              When your website loads quickly and passes Core Web Vitals,
+              search engines reward it with higher rankings. 
+              Combining performance with our digital marketing 
+              expertise such as  {" "}
+          <a
+          href="https://www.zentrixinfotech.com/services/digital-marketing"
+          className="text-blue-600 hover:underline"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Digital Marketing
+        </a>{" "}
+      enhances your reach for competitive keywords and increases lead potential.
+              </>
+
           },
         ]
       },
@@ -584,7 +625,7 @@ export const blogs = [
           {
             type: "paragraph",
             text:
-              "Many businesses do not need more traffic — they need better conversions from the audience they already attract. A high-performance website retains users longer, and small speed gains can lead to significantly higher conversion rates."
+              "Many businesses do not need more traffic they need better conversions from the audience they already attract. A high-performance website retains users longer, and small speed gains can lead to significantly higher conversion rates."
           },
           {
             type: "paragraph",
@@ -600,7 +641,7 @@ export const blogs = [
           {
             type: "paragraph",
             text:
-              "People often associate the quality of a website with the quality of the business. Fast, responsive websites signal professionalism, reliability, and technical competence — all of which increase trust and credibility."
+              "People often associate the quality of a website with the quality of the business. Fast, responsive websites signal professionalism, reliability, and technical competence all of which increase trust and credibility."
           },
           
           {
@@ -629,7 +670,7 @@ export const blogs = [
           {
             type: "paragraph",
             text:
-              "Paid marketing campaigns bring traffic — but only high-performance landing pages convert that traffic into profitable revenue. Faster pages often achieve better Quality Scores on advertising platforms, lowering cost-per-click and improving campaign ROI."
+              "Paid marketing campaigns bring traffic but only high-performance landing pages convert that traffic into profitable revenue. Faster pages often achieve better Quality Scores on advertising platforms, lowering cost-per-click and improving campaign ROI."
           }
         ]
       },
@@ -694,7 +735,7 @@ export const blogs = [
           {
             type: "paragraph",
             text:
-              "A high-performance website is not just a technical upgrade—it is a business growth asset that drives better SEO visibility, more qualified leads, and stronger sales performance."
+              "A high-performance website is not just a technical upgrade it is a business growth asset that drives better SEO visibility, more qualified leads, and stronger sales performance."
           },
           {
             type: "callout",
