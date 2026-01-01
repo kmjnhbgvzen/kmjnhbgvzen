@@ -117,12 +117,14 @@ export default function BlogClient({ blog }) {
         return (
           <figure key={index} className="my-4 md:my-6 lg:my-8">
             <div className="relative aspect-video rounded-lg md:rounded-xl overflow-hidden shadow-lg">
-              <Image
-                src={item.url}
-                alt={item.alt || "Blog image"}
-                fill
-                className="object-cover"
-              />
+              {item.url && (
+  <Image
+    src={item.url}
+    alt={item.alt || "Blog image"}
+    fill
+    className="object-cover"
+  />
+)}
             </div>
             {item.caption && (
               <figcaption className="text-center text-xs md:text-sm text-gray-500 mt-2 md:mt-3 italic">
@@ -235,13 +237,16 @@ export default function BlogClient({ blog }) {
         <section className="relative h-[50vh] md:h-[60vh] lg:h-[80vh] xl:h-[90vh] min-h-[350px] md:min-h-[450px] lg:min-h-[500px] w-full overflow-hidden">
           {/* Background Image with Overlay */}
           <div className="absolute inset-0">
-            <Image
-              src={blog.image}
-              alt={blog.title}
-              fill
-              className="object-cover"
-              priority
-            />
+      {blog.image && (
+  <Image
+    src={blog.image}
+    alt={blog.title}
+    fill
+    priority
+    className="object-cover"
+  />
+)}
+    
             {/* Dark gradient overlay for text readability */}
             <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-black/50 to-black/70" />
           </div>
@@ -464,12 +469,14 @@ export default function BlogClient({ blog }) {
                     className="group bg-white border border-gray-200 rounded-xl md:rounded-2xl overflow-hidden hover:shadow-xl transition-all duration-300 hover:-translate-y-1"
                   >
                     <div className="relative aspect-[16/10] overflow-hidden">
-                      <Image
-                        src={b.image}
-                        alt={b.title}
-                        fill
-                        className="object-cover group-hover:scale-105 transition-transform duration-300"
-                      />
+                      {b.image && (
+                    <Image
+    src={b.image}
+    alt={b.title}
+    fill
+    className="object-cover group-hover:scale-105 transition-transform duration-300"
+  />
+)}
                     </div>
                     <div className="p-4 md:p-5 lg:p-6">
                       <h4 className="font-serif text-sm md:text-base lg:text-lg line-clamp-2 text-gray-900 group-hover:text-blue-600 transition-colors">

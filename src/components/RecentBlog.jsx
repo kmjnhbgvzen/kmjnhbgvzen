@@ -70,9 +70,7 @@ const RecentBlogs = () => {
                 className="bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow duration-300"
               >
                 <div className="relative h-44 overflow-hidden">
-                  <img
-                    src={blog.image}
-                    alt={blog.title}
+                  <img src={blog.image || null} alt={blog.title}
                     className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
                   />
                   <div className="absolute top-3 left-3">
