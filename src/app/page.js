@@ -91,14 +91,14 @@ export const metadata = {
   },
 
   icons: {
-    icon: "/favicon.ico",
+    icon: "/zentrix_logo.jpg",
   },
 };
 
 // ✅ ✅ ✅ PAGE COMPONENT
 const Page = () => {
   return (
-    <div className="bg-[#f8fafc]">
+    <div>
       <Hero />
       <AboutCompany />
       
