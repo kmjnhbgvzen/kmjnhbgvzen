@@ -91,8 +91,11 @@ export const metadata = {
   },
 
   icons: {
-    icon: "/zentrix_logo.jpg",
-  },
+  icon: [
+    { url: "/favicon.ico", sizes: "any" },
+    
+  ],
+},
 };
 
 // ✅ ✅ ✅ PAGE COMPONENT
