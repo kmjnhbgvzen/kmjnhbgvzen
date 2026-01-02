@@ -308,7 +308,7 @@ export default function BlogClient({ blog }) {
             <div className="max-w-3xl w-full min-w-0">
               {/* Introduction */}
               <div className="mb-6 md:mb-8 lg:mb-12">
-                <p className="text-base md:text-lg lg:text-xl text-gray-700 leading-relaxed font-light">
+                <p className="text-gray-700 leading-relaxed text-sm md:text-base lg:text-lg mb-3 md:mb-4">
                   {blog.fullContent?.introduction}
                 </p>
               </div>
