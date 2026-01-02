@@ -4,10 +4,6 @@ import { useState } from "react";
 import { Mail, Phone, HelpCircle, CheckCircle, X } from "lucide-react";
 
 
-// export const metadata = {title: "Customer Support – Zentrix Infotech",description: "Get dedicated technical and customer support for all Zentrix Infotech services."};
-
-
-
 const ThankYouPopup = ({ isVisible, onClose }) => {
   if (!isVisible) return null;
 

@@ -12,7 +12,7 @@ export const metadata = {
   keywords: "website maintenance in Moradabad, web maintenance Moradabad, WordPress maintenance, website security Moradabad, website speed optimization, monthly website maintenance",
   
   alternates: {
-    canonical: "https://www.zentrixinfotech.com/cities/moradabad/responsive-web-design-in-moradabad",
+    canonical: "https://www.zentrixinfotech.com/cities/moradabad/website-maintenance-in-moradabad",
   },
 
   // ✅ ✅ ✅ OPEN GRAPH (FOR SOCIAL SHARING)
@@ -23,7 +23,7 @@ export const metadata = {
     description:
       "Professional website maintenance in Moradabad. Security, speed optimization, backups, 24/7 monitoring for WordPress, custom sites. Keep your site fast & secure. Free audit! Call 7248800839.",
 
-    url: "https://www.zentrixinfotech.com/cities/moradabad/responsive-web-design-in-moradabad",
+    url: "https://www.zentrixinfotech.com/cities/moradabad/website-maintenance-in-moradabad",
     siteName: "Zentrix Infotech",
 
     images: [

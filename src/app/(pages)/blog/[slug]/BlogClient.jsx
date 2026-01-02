@@ -11,14 +11,11 @@ import {
   Linkedin,
   Twitter,
   Instagram,
-  MessageCircle,
   Facebook,
 } from "lucide-react";
 import { usePathname } from "next/navigation";
 import { blogs } from "@/data/blogs";
-
-  
-
+import LandingEnquiry from "@/components/LandingEnquiry";
 
 export default function BlogClient({ blog }) {
   const [progress, setProgress] = useState(0);
@@ -27,15 +24,13 @@ export default function BlogClient({ blog }) {
   const shareTitle = blog.title;
 
   const handleInstagramShare = async () => {
-  try {
-    await navigator.clipboard.writeText(shareUrl);
-    alert("Link copied! Paste it on Instagram.");
-  } catch {
-    alert("Unable to copy link");
-  }
-};
-
-
+    try {
+      await navigator.clipboard.writeText(shareUrl);
+      alert("Link copied! Paste it on Instagram.");
+    } catch {
+      alert("Unable to copy link");
+    }
+  };
 
   useEffect(() => {
     const onScroll = () => {
@@ -118,13 +113,13 @@ export default function BlogClient({ blog }) {
           <figure key={index} className="my-4 md:my-6 lg:my-8">
             <div className="relative aspect-video rounded-lg md:rounded-xl overflow-hidden shadow-lg">
               {item.url && (
-  <Image
-    src={item.url}
-    alt={item.alt || "Blog image"}
-    fill
-    className="object-cover"
-  />
-)}
+                <Image
+                  src={item.url}
+                  alt={item.alt || "Blog image"}
+                  fill
+                  className="object-cover"
+                />
+              )}
             </div>
             {item.caption && (
               <figcaption className="text-center text-xs md:text-sm text-gray-500 mt-2 md:mt-3 italic">
@@ -160,46 +155,43 @@ export default function BlogClient({ blog }) {
         );
 
       case "table":
-  return (
-    <div key={index} className="my-3 md:my-5">
-      <table className="w-full table-fixed border border-gray-300 text-xs md:text-sm lg:text-base">
-        <thead className="bg-gray-100">
-          <tr>
-            {item.headers.map((header, i) => (
-              <th
-                key={i}
-                className="border border-gray-300 px-2 md:px-3 py-1.5 md:py-3 text-left text-xm font-semibold text-gray-900 break-words"
-              >
-                {header}
-              </th>
-            ))}
-          </tr>
-        </thead>
-
-        <tbody>
-          {item.rows.map((row, i) => (
-            <tr key={i} className="hover:bg-gray-50">
-              {row.map((cell, j) => (
-                <td
-                  key={j}
-                  className="border border-gray-300 px-2 md:px-3 py-1.5 md:py-2 text-gray-700 break-words"
-                >
-                  {cell}
-                </td>
-              ))}
-            </tr>
-          ))}
-        </tbody>
-      </table>
-
-      {item.caption && (
-        <p className="mt-2 text-center text-[11px] md:text-xs text-gray-500 italic">
-          {item.caption}
-        </p>
-      )}
-    </div>
-  );
-
+        return (
+          <div key={index} className="my-3 md:my-5">
+            <table className="w-full table-fixed border border-gray-300 text-xs md:text-sm lg:text-base">
+              <thead className="bg-gray-100">
+                <tr>
+                  {item.headers.map((header, i) => (
+                    <th
+                      key={i}
+                      className="border border-gray-300 px-2 md:px-3 py-1.5 md:py-3 text-left text-xm font-semibold text-gray-900 break-words"
+                    >
+                      {header}
+                    </th>
+                  ))}
+                </tr>
+              </thead>
+              <tbody>
+                {item.rows.map((row, i) => (
+                  <tr key={i} className="hover:bg-gray-50">
+                    {row.map((cell, j) => (
+                      <td
+                        key={j}
+                        className="border border-gray-300 px-2 md:px-3 py-1.5 md:py-2 text-gray-700 break-words"
+                      >
+                        {cell}
+                      </td>
+                    ))}
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+            {item.caption && (
+              <p className="mt-2 text-center text-[11px] md:text-xs text-gray-500 italic">
+                {item.caption}
+              </p>
+            )}
+          </div>
+        );
 
       case "callout":
         return (
@@ -237,16 +229,15 @@ export default function BlogClient({ blog }) {
         <section className="relative h-[50vh] md:h-[60vh] lg:h-[80vh] xl:h-[90vh] min-h-[350px] md:min-h-[450px] lg:min-h-[500px] w-full overflow-hidden">
           {/* Background Image with Overlay */}
           <div className="absolute inset-0">
-      {blog.image && (
-  <Image
-    src={blog.image}
-    alt={blog.title}
-    fill
-    priority
-    className="object-cover"
-  />
-)}
-    
+            {blog.image && (
+              <Image
+                src={blog.image}
+                alt={blog.title}
+                fill
+                priority
+                className="object-cover"
+              />
+            )}
             {/* Dark gradient overlay for text readability */}
             <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-black/50 to-black/70" />
           </div>
@@ -255,7 +246,7 @@ export default function BlogClient({ blog }) {
           <div className="relative h-full max-w-5xl mx-auto px-4 md:px-6 lg:px-8 flex flex-col justify-center items-center text-center z-10 mb-10 mt-6">
             {/* Category Badge */}
             <span className="inline-flex items-center gap-1.5 md:gap-2 px-3 md:px-4 py-1.5 md:py-2 bg-white/10 backdrop-blur-sm border border-white/20 rounded-full text-white mb-3 md:mb-4 lg:mb-6 text-xs md:text-sm">
-              <Tag className="w-3 h-3 md:w-4 md:h-4 " /> {blog.category}
+              <Tag className="w-3 h-3 md:w-4 md:h-4" /> {blog.category}
             </span>
 
             {/* Title */}
@@ -302,10 +293,10 @@ export default function BlogClient({ blog }) {
         </div>
 
         {/* CONTENT + SIDEBAR */}
-        <section className="max-w-7xl mx-auto px-4 md:px-6 lg:px-8 py-6 md:py-10 lg:py-16">
-          <div className="grid lg:grid-cols-[1fr_280px] xl:grid-cols-[1fr_300px] gap-6 md:gap-8 lg:gap-12">
+        <section className="max-w-8xl mx-auto px-4 md:px-6 lg:px-8 py-6 md:py-10 lg:py-16">
+          <div className="grid lg:grid-cols-[1fr_380px] xl:grid-cols-[1fr_420px] gap-6 md:gap-8 lg:gap-12">
             {/* MAIN CONTENT */}
-            <div className="max-w-3xl w-full min-w-0">
+            <div className="max-w-4xl w-full min-w-0">
               {/* Introduction */}
               <div className="mb-6 md:mb-8 lg:mb-12">
                 <p className="text-gray-700 leading-relaxed text-sm md:text-base lg:text-lg mb-3 md:mb-4">
@@ -370,20 +361,24 @@ export default function BlogClient({ blog }) {
               )}
             </div>
 
+            
+
             {/* SIDEBAR */}
-            <aside className="lg:sticky lg:top-24 h-fit space-y-4 md:space-y-6">
+            <aside className="lg:sticky lg:top-35 h-fit space-y-4 md:space-y-5 ">
+              
+
               {/* Table of Contents */}
               {toc.length > 0 && (
-                <div className="bg-gray-50 border border-gray-200 rounded-xl md:rounded-2xl p-4 md:p-5 lg:p-6 shadow-sm">
-                  <h4 className="font-serif text-sm md:text-base lg:text-lg mb-3 md:mb-4 text-gray-900">
+                <div className="bg-gray-50 border border-gray-200 rounded-lg p-4 shadow-sm">
+                  <h4 className="font-semibold text-sm mb-3 text-gray-900">
                     Table of Contents
                   </h4>
-                  <ul className="space-y-2 md:space-y-3">
+                  <ul className="space-y-2">
                     {toc.map((h, i) => (
                       <li key={i}>
                         <a
                           href={`#${h.replace(/\s+/g, "-")}`}
-                          className="text-gray-600 hover:text-blue-600 transition-colors text-xs md:text-sm leading-snug block hover:translate-x-1 duration-200"
+                          className="text-gray-600 hover:text-blue-600 transition-colors text-xs leading-snug block hover:translate-x-1 duration-200"
                         >
                           {h}
                         </a>
@@ -393,102 +388,72 @@ export default function BlogClient({ blog }) {
                 </div>
               )}
 
-              {/* Share */}
-<div className="bg-gray-50 border border-gray-200 rounded-xl md:rounded-2xl p-4 md:p-5 lg:p-6 shadow-sm">
-  <h4 className="font-serif text-sm md:text-base lg:text-lg mb-3 md:mb-4 flex items-center gap-2 text-gray-900">
-    <Share2 className="w-4 h-4 md:w-[18px] md:h-[18px]" /> Share Article
-  </h4>
+              {/* Enquiry Form - Desktop Only */}
+              <div className="lg:block  ">
+                <LandingEnquiry />
+              </div>
 
-  <div className="flex gap-2 md:gap-3">
-    {/* Twitter / X */}
-    <a
-      href={`https://twitter.com/intent/tweet?url=${encodeURIComponent(
-        shareUrl
-      )}&text=${encodeURIComponent(shareTitle)}`}
-      target="_blank"
-      rel="noopener noreferrer"
-      aria-label="Share on Twitter"
-      className="p-2 md:p-3 bg-white border border-gray-300 rounded-lg hover:bg-blue-50 hover:border-blue-400 transition-all"
-    >
-      <Twitter className="w-4 h-4 md:w-[18px] md:h-[18px] text-gray-600" />
-    </a>
+              {/* Share Section */}
+              <div className="bg-gray-50 border border-gray-200 rounded-lg p-4 shadow-sm">
+                <h4 className="font-semibold text-sm mb-3 flex items-center gap-2 text-gray-900">
+                  <Share2 className="w-4 h-4" /> Share
+                </h4>
 
-    {/* LinkedIn */}
-    <a
-      href={`https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(
-        shareUrl
-      )}`}
-      target="_blank"
-      rel="noopener noreferrer"
-      aria-label="Share on LinkedIn"
-      className="p-2 md:p-3 bg-white border border-gray-300 rounded-lg hover:bg-blue-50 hover:border-blue-400 transition-all"
-    >
-      <Linkedin className="w-4 h-4 md:w-[18px] md:h-[18px] text-gray-600" />
-    </a>
+                <div className="flex gap-2">
+                  {/* Twitter */}
+                  <a
+                    href={`https://twitter.com/intent/tweet?url=${encodeURIComponent(
+                      shareUrl
+                    )}&text=${encodeURIComponent(shareTitle)}`}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="Share on Twitter"
+                    className="p-2 bg-white border border-gray-300 rounded-lg hover:bg-blue-50 hover:border-blue-400 transition-all"
+                  >
+                    <Twitter className="w-4 h-4 text-gray-600" />
+                  </a>
 
-    {/* Facebook */}
-    <a
-      href={`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(
-        shareUrl
-      )}`}
-      target="_blank"
-      rel="noopener noreferrer"
-      aria-label="Share on Facebook"
-      className="p-2 md:p-3 bg-white border border-gray-300 rounded-lg hover:bg-blue-50 hover:border-blue-400 transition-all"
-    >
-      <Facebook className="w-4 h-4 md:w-[18px] md:h-[18px] text-gray-600" />
-    </a>
+                  {/* LinkedIn */}
+                  <a
+                    href={`https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(
+                      shareUrl
+                    )}`}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="Share on LinkedIn"
+                    className="p-2 bg-white border border-gray-300 rounded-lg hover:bg-blue-50 hover:border-blue-400 transition-all"
+                  >
+                    <Linkedin className="w-4 h-4 text-gray-600" />
+                  </a>
 
-    {/* Instagram (Copy Link) */}
-    <button
-      onClick={handleInstagramShare}
-      aria-label="Copy link for Instagram"
-      className="p-2 md:p-3 bg-white border border-gray-300 rounded-lg hover:bg-pink-50 hover:border-pink-400 transition-all"
-    >
-      <Instagram className="w-4 h-4 md:w-[18px] md:h-[18px] text-gray-600" />
-    </button>
-  </div>
-</div>
+                  {/* Facebook */}
+                  <a
+                    href={`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(
+                      shareUrl
+                    )}`}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="Share on Facebook"
+                    className="p-2 bg-white border border-gray-300 rounded-lg hover:bg-blue-50 hover:border-blue-400 transition-all"
+                  >
+                    <Facebook className="w-4 h-4 text-gray-600" />
+                  </a>
 
+                  {/* Instagram */}
+                  <button
+                    onClick={handleInstagramShare}
+                    aria-label="Copy link for Instagram"
+                    className="p-2 bg-white border border-gray-300 rounded-lg hover:bg-pink-50 hover:border-pink-400 transition-all"
+                  >
+                    <Instagram className="w-4 h-4 text-gray-600" />
+                  </button>
+                </div>
+              </div>
             </aside>
           </div>
         </section>
 
-        {/* RELATED BLOGS */}
-        {relatedBlogs.length > 0 && (
-          <section className="bg-gradient-to-b from-gray-50 to-white py-10 md:py-14 lg:py-20 border-t">
-            <div className="max-w-7xl mx-auto px-4 md:px-6 lg:px-8">
-              <h3 className="text-xl md:text-2xl lg:text-3xl font-serif mb-6 md:mb-8 lg:mb-10 text-gray-900">
-                Related Articles
-              </h3>
-              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6 lg:gap-8">
-                {relatedBlogs.map((b) => (
-                  <Link
-                    key={b.id}
-                    href={`/blog/${b.slug}`}
-                    className="group bg-white border border-gray-200 rounded-xl md:rounded-2xl overflow-hidden hover:shadow-xl transition-all duration-300 hover:-translate-y-1"
-                  >
-                    <div className="relative aspect-[16/10] overflow-hidden">
-                      {b.image && (
-                    <Image
-    src={b.image}
-    alt={b.title}
-    fill
-    className="object-cover group-hover:scale-105 transition-transform duration-300"
-  />
-)}
-                    </div>
-                    <div className="p-4 md:p-5 lg:p-6">
-                      <h4 className="font-serif text-sm md:text-base lg:text-lg line-clamp-2 text-gray-900 group-hover:text-blue-600 transition-colors">
-                        {b.title}
-                      </h4>
-                    </div>
-                  </Link>
-                ))}
-              </div>
-            </div>
-          </section>
-        )}
+        
       </article>
     </>
   );

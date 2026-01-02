@@ -12,6 +12,7 @@ const PopupQueryForm = () => {
     name: "",
     email: "",
     phone: "",
+    city: "",
     service: "",
     message: "",
   });
@@ -20,6 +21,11 @@ const PopupQueryForm = () => {
   const [isSubmitting, setIsSubmitting] = useState(false);
 
   const RECAPTCHA_SITE_KEY = "6LdfEigsAAAAAHguTeUVCbTNyAUs4k3oN1N4qS67";
+
+  // List of major Indian cities
+  const cities = [
+    "Delhi", "Gurgaon", "Noida", "Ghaziabad", "Faridabad", "Moradabad", "Amroha", "Chandusi", "Rampur", "Mumbai", "Bengaluru", "Chennai", "Hyderabad", "Pune", "Kolkata", "Ahmedabad", "Chandigarh", "Haldwani", "Rudrapur", "Kashipur", "Rishikesh", "Nainital", "Jaipur", "Lucknow", "Kanpur", "Dehradun", "Agra", "Meerut", "Amritsar", "Ludhiana", "Jalandhar", "Other"
+  ];
 
   useEffect(() => {
     setIsClient(true);
@@ -217,24 +223,23 @@ const PopupQueryForm = () => {
         <div className="relative p-5">
           {/* Header */}
           <div className="text-center mb-4">
-  {/* Logo Badge */}
-  <div className="inline-flex items-center justify-center w-50 h-12  mb-2 ">
-    <img 
-      src="/zentrix_logo_.png" 
-      alt="Logo" 
-      className="w-50 h-20 object-cover"
-    />
-  </div>
+            {/* Logo Badge */}
+            <div className="inline-flex items-center justify-center w-50 h-12 mb-2">
+              <img 
+                src="/zentrix_logo_.png" 
+                alt="Logo" 
+                className="w-50 h-20 object-cover"
+              />
+            </div>
 
-  <h2 className="text-xl font-medium font-serif text-black mb-1">
-    🚀 Ready to Grow?
-  </h2>
+            <h2 className="text-xl font-medium font-serif text-black mb-1">
+              🚀 Ready to Grow?
+            </h2>
 
-  <p className="text-gray-600 text-xs">
-    Get a FREE consultation! Our experts are waiting.
-  </p>
-</div>
-
+            <p className="text-gray-600 text-xs">
+              Get a FREE consultation! Our experts are waiting.
+            </p>
+          </div>
 
           {/* Error Message */}
           {error && (
@@ -280,7 +285,7 @@ const PopupQueryForm = () => {
               </div>
             </div>
 
-            {/* Phone & Service */}
+            {/* Phone & City */}
             <div className="grid grid-cols-2 gap-2">
               <div>
                 <label className="block text-xs font-medium text-gray-700 mb-0.5">
@@ -297,25 +302,44 @@ const PopupQueryForm = () => {
               </div>
               <div className="relative">
                 <label className="block text-xs font-medium text-gray-700 mb-0.5">
-                  Service
+                  City
                 </label>
                 <select
-                  name="service"
-                  value={formData.service}
+                  name="city"
+                  value={formData.city}
                   onChange={handleChange}
                   className="w-full px-3 py-2 pr-8 border border-gray-300 rounded-lg text-xs focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all bg-white/80 backdrop-blur-sm appearance-none"
                 >
-                  <option value="">Select</option>
-                  <option value="Digital Marketing">Digital Marketing</option>
-                  <option value="Mobile Development">Mobile Development</option>
-                  <option value="Web Development">Web Development</option>
-                  <option value="Software Development">Software Development</option>
-                  <option value="UI & UX Designing">UI & UX Designing</option>
-                  <option value="Cloud Solutions">Cloud Solutions</option>
-                  <option value="Custom">Other Services</option>
+                  <option value="">Select City</option>
+                  {cities.map((city) => (
+                    <option key={city} value={city}>{city}</option>
+                  ))}
                 </select>
                 <ChevronDown className="absolute right-2 top-7 w-3 h-3 text-gray-400 pointer-events-none" />
               </div>
+            </div>
+
+            {/* Service */}
+            <div className="relative">
+              <label className="block text-xs font-medium text-gray-700 mb-0.5">
+                Service
+              </label>
+              <select
+                name="service"
+                value={formData.service}
+                onChange={handleChange}
+                className="w-full px-3 py-2 pr-8 border border-gray-300 rounded-lg text-xs focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all bg-white/80 backdrop-blur-sm appearance-none"
+              >
+                <option value="">Select Service</option>
+                <option value="Digital Marketing">Digital Marketing</option>
+                <option value="Mobile Development">Mobile Development</option>
+                <option value="Web Development">Web Development</option>
+                <option value="Software Development">Software Development</option>
+                <option value="UI & UX Designing">UI & UX Designing</option>
+                <option value="Cloud Solutions">Cloud Solutions</option>
+                <option value="Custom">Other Services</option>
+              </select>
+              <ChevronDown className="absolute right-2 top-7 w-3 h-3 text-gray-400 pointer-events-none" />
             </div>
 
             {/* Message */}
