@@ -1,13 +1,31 @@
 "use client";
 
-import React from "react";
+import React, { useMemo } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { Calendar, ArrowRight, Clock, Tag } from "lucide-react";
 import { blogs } from "@/data/blogs";
 
 const Blog = () => {
-  const featuredPosts = blogs.slice(0, 3);
+  // Sort blogs by date (newest first), then take first 3
+  const featuredPosts = useMemo(() => {
+    const sorted = [...blogs].sort((a, b) => {
+      const dateA = new Date(a.date);
+      const dateB = new Date(b.date);
+      
+      // DEBUG: Check if dates are parsing correctly
+      console.log('Blog A:', a.title, '| Date:', a.date, '| Parsed:', dateA);
+      console.log('Blog B:', b.title, '| Date:', b.date, '| Parsed:', dateB);
+      console.log('Comparison result:', dateB - dateA);
+      console.log('---');
+      
+      return dateB - dateA;
+    });
+    
+    console.log('FINAL SORTED ORDER:', sorted.map(b => ({ title: b.title, date: b.date })));
+    
+    return sorted.slice(0, 3);
+  }, []);
 
   return (
     <section id="blog" className="bg-white relative overflow-hidden py-12 md:py-16">
@@ -80,10 +98,10 @@ const Blog = () => {
                 </p>
 
                 {/* Read More */}
-  <span className="inline-flex items-center gap-1 text-sm font-medium text-blue-600 group-hover:text-blue-700 transition mb-3">
-    Read More
-    <ArrowRight size={14} className="transition-transform group-hover:translate-x-1" />
-  </span>
+                <span className="inline-flex items-center gap-1 text-sm font-medium text-blue-600 group-hover:text-blue-700 transition mb-3">
+                  Read More
+                  <ArrowRight size={14} className="transition-transform group-hover:translate-x-1" />
+                </span>
 
                 {/* Tags */}
                 <div className="flex flex-wrap gap-1.5 pt-3 border-t">

@@ -805,7 +805,7 @@ export const blogs = [
   readTime: "10 min read",
   image:
     // "image:
-  "https://plus.unsplash.com/premium_photo-1663931932687-c4c2366a5c61?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+  "https://images.unsplash.com/photo-1606857521015-7f9fcf423740?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8aXQlMjBjb21wYW55fGVufDB8MHwwfHx8MA%3D%3D",
 
   content:
     "IT outsourcing vs in-house IT team is not a one-size-fits-all decision. Growing companies get the best results by balancing cost, control, and speed to market—often with a strategic outsourcing partner supporting core in-house capabilities.",

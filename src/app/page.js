@@ -90,11 +90,8 @@ export const metadata = {
     images: ["https://zentrixinfotech.com/zentrix_logo.jpg"],
   },
 
-  // ✅ ✅ ✅ FAVICON
   icons: {
-    icon: [
-    { url: "/favicon.ico", sizes: "any" }, // fallback
-    ],
+    icon: "/favicon.ico",
   },
 };
 
