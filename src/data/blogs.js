@@ -2190,7 +2190,7 @@ export const blogs = [
 
   metaTags: {
     title: "Why Moradabad Patients Can't Find Your Hospital on Google",
-    description: "Hospital owners in Moradabad: Discover why patients can't find you on Google and how to fix it. Expert local SEO, website optimization, and reputation management for healthcare providers.",
+    description: "Understand why 77% of patients search online before choosing a hospital—and how to make sure your hospital shows up when Moradabad patients seek healthcare services.",
     keywords: "hospital marketing moradabad, medical digital marketing, hospital SEO, local SEO for hospitals, google my business hospitals, healthcare marketing moradabad, patient acquisition, hospital website design,",
     alternates: {
       canonical: "https://www.zentrixinfotech.com/blog/moradabad-hospital-owners-why-patients-not-finding-you-on-google"
@@ -2199,7 +2199,7 @@ export const blogs = [
       type: "article",
       url: "https://www.zentrixinfotech.com/blog/moradabad-hospital-owners-why-patients-not-finding-you-on-google",
       title: "Moradabad Hospital Owners: Why Patients Can't Find You on Google",
-      description: "Learn why 77% of patients search online before choosing a hospital and discover how to ensure your hospital appears when Moradabad patients are searching for healthcare services.",
+      description: "Understand why 77% of patients search online before choosing a hospital—and how to make sure your hospital shows up when Moradabad patients seek healthcare services.",
       images: [
         {
           url: "https://plus.unsplash.com/premium_photo-1764687727798-80c525b5e4c6?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
@@ -2212,7 +2212,7 @@ export const blogs = [
     twitter: {
       card: "summary_large_image",
       title: "Why Moradabad Patients Can't Find Your Hospital on Google",
-      description: "Hospital owners: Stop losing patients to competitors. Learn why patients can't find you online and how to fix it with professional healthcare marketing.",
+      description: "Understand why 77% of patients search online before choosing a hospital—and how to make sure your hospital shows up when Moradabad patients seek healthcare services.",
       images: ["https://plus.unsplash.com/premium_photo-1764687727798-80c525b5e4c6?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"]
     },
     icons: {
