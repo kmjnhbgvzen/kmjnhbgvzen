@@ -20,7 +20,7 @@ const ServicesSection = () => {
       icon: <Users className="w-12 h-12" />,
       title: "Social Media Optimization",
       description: "Engage and grow your community with strategic social media management and compelling content.",
-      link: "/services/social-media-optimization"
+      link: "services/digital-marketing/social-media-optimization"
     },
     {
       icon: <TrendingUp className="w-12 h-12" />,
