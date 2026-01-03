@@ -244,7 +244,7 @@ const TechServicesForm = () => {
   if (!isClient) {
     return (
       <div className="bg-white/95 backdrop-blur-lg rounded-lg shadow-lg border border-rose-100 p-4 w-full max-w-sm mx-auto">
-        <h3 className="text-lg font-bold text-center text-gray-800 mb-3">
+        <h3 className="text-lg font-Serif font-medium text-center text-gray-800 mb-3">
           Let&apos;s Grow Your Business Together
         </h3>
         <div className="space-y-3">
@@ -258,7 +258,7 @@ const TechServicesForm = () => {
 
   return (
     <div className="bg-white/95 backdrop-blur-lg rounded-lg shadow-lg border border-rose-100 p-4 w-full max-w-sm mx-auto">
-      <h3 className="text-lg font-bold text-center text-gray-800 mb-3">
+      <h3 className="text-lg font-Serif font-medium text-center text-gray-800 mb-3">
         Let&apos;s Grow Your Business Together
       </h3>
       
