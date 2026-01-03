@@ -240,7 +240,7 @@ const AboutUsSection = () => {
                 {/* Values Content */}
                 <div className="relative z-10">
                   <div className="flex items-center mb-8">
-                    <Heart className="w-8 h-8 text-emerald-600 mr-3" />
+                    
                     <h4 className="text-2xl font-medium font-serif text-slate-900">
                       Our Values
                     </h4>

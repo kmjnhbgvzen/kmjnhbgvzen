@@ -30,11 +30,6 @@ const nextConfig = {
   async redirects() {
     return [
       {
-        source: "/whychooseus",
-        destination: "/why-choose-us",
-        permanent: true,
-      },
-      {
         source: "/digital-marketing",
         destination: "/services/digital-marketing",
         permanent: true,
