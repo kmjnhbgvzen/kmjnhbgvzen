@@ -1718,6 +1718,8 @@ export const blogs = [
   date: "2026-01-03",
   readTime: "15 min read",
   image: "https://plus.unsplash.com/premium_photo-1764687727798-80c525b5e4c6?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+  tags: ["Healthcare Marketing", "SEO", "Hospital Marketing", "Google My Business", "Digital Marketing", "Moradabad"],
+
  
 
   content: "For many hospital owners in Moradabad, one question keeps coming up: 'Our doctors are good, our facilities are strong — so why are patients not finding us online?' This is not just a marketing problem. It is now a business growth and patient trust problem.",

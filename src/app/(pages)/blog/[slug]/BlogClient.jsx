@@ -100,7 +100,7 @@ export default function BlogClient({ blog }) {
       name: "Zentrix Infotech",
       logo: {
         "@type": "ImageObject",
-        url: "https://www.zentrixinfotech.com/logo.png",
+        url: "https://zentrixinfotech.com/zentrix_logo.jpg",
       },
     },
     mainEntityOfPage: {

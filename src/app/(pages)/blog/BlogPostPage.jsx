@@ -26,10 +26,8 @@ const OurBlogPage = () => {
     return sortedBlogs.filter((blog) => {
       if (activeCategory === "All") return true;
       
-      return (
-        blog.category === activeCategory ||
-        blog.tags?.includes(activeCategory)
-      );
+      return blog.category === activeCategory;
+
     });
   }, [activeCategory, sortedBlogs]);
 
@@ -46,12 +44,10 @@ const OurBlogPage = () => {
      UNIQUE CATEGORIES + TAGS
   ----------------------------------------- */
   const categories = useMemo(() => {
-    const allCategories = blogs.flatMap((b) => [
-      b.category,
-      ...(b.tags || []),
-    ]);
-    return ["All", ...Array.from(new Set(allCategories))];
-  }, []);
+  const allCategories = blogs.map((b) => b.category);
+  return ["All", ...Array.from(new Set(allCategories))];
+}, []);
+
 
   /* ----------------------------------------
      HANDLE CATEGORY CHANGE
