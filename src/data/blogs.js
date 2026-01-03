@@ -1710,7 +1710,7 @@ export const blogs = [
 
 {
   id: 6,
-  slug: "moradabad-hospital-owners-why-patients-not-finding-you-google",
+  slug: "moradabad-hospital-owners-why-patients-not-finding-you-on-google",
   title: "Moradabad Hospital Owners: Why Patients Are Not Finding You on Google",
   subtitle: "How Patient Search Behavior Has Changed and What Your Hospital Must Do",
   category: "Digital Marketing",
@@ -2193,11 +2193,11 @@ export const blogs = [
     description: "Hospital owners in Moradabad: Discover why patients can't find you on Google and how to fix it. Expert local SEO, website optimization, and reputation management for healthcare providers.",
     keywords: "hospital marketing moradabad, medical digital marketing, hospital SEO, local SEO for hospitals, google my business hospitals, healthcare marketing moradabad, patient acquisition, hospital website design,",
     alternates: {
-      canonical: "https://www.zentrixinfotech.com/blog/moradabad-hospital-owners-why-patients-not-finding-you-google"
+      canonical: "https://www.zentrixinfotech.com/blog/moradabad-hospital-owners-why-patients-not-finding-you-on-google"
     },
     openGraph: {
       type: "article",
-      url: "https://www.zentrixinfotech.com/blog/moradabad-hospital-owners-why-patients-not-finding-you-google",
+      url: "https://www.zentrixinfotech.com/blog/moradabad-hospital-owners-why-patients-not-finding-you-on-google",
       title: "Moradabad Hospital Owners: Why Patients Can't Find You on Google",
       description: "Learn why 77% of patients search online before choosing a hospital and discover how to ensure your hospital appears when Moradabad patients are searching for healthcare services.",
       images: [
