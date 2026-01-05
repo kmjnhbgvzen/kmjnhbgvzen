@@ -91,11 +91,14 @@ export const metadata = {
   },
 
   icons: {
-  icon: [
-    { url: "/favicon.ico", sizes: "any" },
-    
-  ],
-},
+    icon: [
+      {
+        url: "/favicon.ico",
+        sizes: "48x48",
+        type: "image/x-icon",
+      },
+    ],
+  },
 };
 
 // ✅ ✅ ✅ PAGE COMPONENT
