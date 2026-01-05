@@ -14,6 +14,7 @@ import {
   Facebook,
   BookOpen,
   ArrowRight,
+  ChevronDown,
 } from "lucide-react";
 import { usePathname } from "next/navigation";
 import { blogs } from "@/data/blogs";
@@ -21,6 +22,7 @@ import LandingEnquiry from "@/components/LandingEnquiry";
 
 export default function BlogClient({ blog }) {
   const [progress, setProgress] = useState(0);
+  const [openFaqIndex, setOpenFaqIndex] = useState(null);
   const pathname = usePathname();
   const shareUrl = `https://www.zentrixinfotech.com${pathname}`;
   const shareTitle = blog.title;
@@ -131,12 +133,26 @@ export default function BlogClient({ blog }) {
       },
       {
         "@type": "ListItem",
-        position: 4,
+        position: 3,
         name: blog.title,
         item: shareUrl,
       },
     ],
   };
+
+  // FAQ structured data
+  const faqStructuredData = blog.faqs && blog.faqs.length > 0 ? {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: blog.faqs.map((faq) => ({
+      "@type": "Question",
+      name: faq.question,
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: faq.answer,
+      },
+    })),
+  } : null;
 
   // Smooth scroll handler for TOC
   const handleTOCClick = (e, heading) => {
@@ -148,6 +164,11 @@ export default function BlogClient({ blog }) {
         block: "start",
       });
     }
+  };
+
+  // Toggle FAQ
+  const toggleFaq = (index) => {
+    setOpenFaqIndex(openFaqIndex === index ? null : index);
   };
 
   // Render content based on type with HTML support
@@ -229,19 +250,19 @@ export default function BlogClient({ blog }) {
         );
 
       case "image":
-  return (
-    <figure key={index} className="my-4 md:my-6 lg:my-8">
-      <div className="relative aspect-video rounded-lg md:rounded-xl overflow-hidden shadow-lg bg-gray-200">
-        {item.url && (
-          <Image
-            src={item.url}
-            alt={item.alt || "Blog image"}
-            fill
-            className="object-cover"
-            loading="lazy"
-          />
-        )}
-      </div>
+        return (
+          <figure key={index} className="my-4 md:my-6 lg:my-8">
+            <div className="relative aspect-video rounded-lg md:rounded-xl overflow-hidden shadow-lg bg-gray-200">
+              {item.url && (
+                <Image
+                  src={item.url}
+                  alt={item.alt || "Blog image"}
+                  fill
+                  className="object-cover"
+                  loading="lazy"
+                />
+              )}
+            </div>
             {item.caption && (
               <figcaption className="text-center text-xs md:text-sm text-gray-500 mt-2 md:mt-3 italic">
                 {item.caption}
@@ -276,10 +297,9 @@ export default function BlogClient({ blog }) {
         );
 
       case "table":
-  return (
-    <div key={index} className="my-3 md:my-5 overflow-x-auto">
-      <table className="w-full border border-gray-300 text-xs md:text-sm lg:text-base">
-        {/* Rest remains the same */}
+        return (
+          <div key={index} className="my-3 md:my-5 overflow-x-auto">
+            <table className="w-full border border-gray-300 text-xs md:text-sm lg:text-base">
               <thead className="bg-gray-100">
                 <tr>
                   {item.headers.map((header, i) => (
@@ -357,6 +377,16 @@ export default function BlogClient({ blog }) {
         }}
       />
 
+      {/* JSON-LD Structured Data for FAQ */}
+      {faqStructuredData && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify(faqStructuredData),
+          }}
+        />
+      )}
+
       {/* Progress Bar with ARIA */}
       <div
         className="fixed top-0 left-0 h-1 bg-gradient-to-r from-blue-600 to-purple-600 z-50 transition-all duration-150"
@@ -407,8 +437,6 @@ export default function BlogClient({ blog }) {
           </div>
         </section>
 
-        
-
         {/* Metadata Bar - Below Image */}
         <div className="border-b bg-gray-50">
           <div className="max-w-5xl mx-auto px-4 md:px-6 py-3 md:py-4 lg:py-6 flex flex-wrap justify-center items-center gap-2 md:gap-4 lg:gap-6 text-xs md:text-sm text-gray-600">
@@ -439,11 +467,7 @@ export default function BlogClient({ blog }) {
                 {blog.readTime}
               </span>
             </span>
-           
-            
           </div>
-
-          
         </div>
 
         {/* Breadcrumb Navigation */}
@@ -471,8 +495,6 @@ export default function BlogClient({ blog }) {
                 </Link>
               </li>
               <li className="text-gray-400">/</li>
-              
-              
               <li className="text-gray-500 font-medium truncate max-w-[200px] md:max-w-none">
                 {blog.title}
               </li>
@@ -546,6 +568,31 @@ export default function BlogClient({ blog }) {
                     )}
                 </div>
               ))}
+
+              {/* FAQ Section */}
+{blog.faqs && blog.faqs.length > 0 && (
+  <div className="mt-8 md:mt-12 lg:mt-16 pt-8">
+    <h2 className="text-2xl md:text-3xl lg:text-4xl font-serif mb-6 md:mb-8 text-gray-900">
+      Frequently Asked Questions
+    </h2>
+
+    <div className="space-y-6">
+      {blog.faqs.map((faq, index) => (
+        <div key={index}>
+          <h3 className="text-base md:text-lg font-semibold text-gray-900 mb-2">
+            {faq.question}
+          </h3>
+
+          <p
+            className="text-gray-700 text-sm md:text-base leading-relaxed"
+            dangerouslySetInnerHTML={{ __html: faq.answer }}
+          />
+        </div>
+      ))}
+    </div>
+  </div>
+)}
+
 
               {/* Tags */}
               {blog.tags && blog.tags.length > 0 && (
@@ -655,7 +702,7 @@ export default function BlogClient({ blog }) {
           </div>
         </section>
 
-        {/* Related Articles Section */}
+       {/* Related Articles Section */}
         {relatedBlogs.length > 0 && (
           <section className="bg-gray-50 py-8 md:py-12 lg:py-16 border-t no-print">
             <div className="max-w-7xl mx-auto px-4 md:px-6 lg:px-8">
