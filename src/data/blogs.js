@@ -2231,7 +2231,7 @@ export const blogs = [
   date: "2026-01-05 ",
   author: "Zentrix Infotech",
   readTime: "12 min read",
-  category: "Business Growth",
+  category: "Business & Growth",
   tags: [
     "Sales Strategy","Revenue Optimization",
     "Lead Generation",
