@@ -54,7 +54,7 @@ export const metadata = {
 
   // ✅ ✅ ✅ FAVICON
   icons: {
-    icon: "/favicon.ico",
+    icon: "/favicon-v2.ico",
   },
 };
 

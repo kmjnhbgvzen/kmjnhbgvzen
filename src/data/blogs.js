@@ -300,7 +300,7 @@ export const blogs = [
       ]
     },
     icons: {
-      icon: "/favicon.ico"
+      icon: "/favicon-v2.ico"
     }
   }
 },
@@ -514,7 +514,7 @@ export const blogs = [
       ]
     },
     icons: {
-      icon: "/favicon.ico"
+      icon: "/favicon-v2.ico"
     }
   }
 },
@@ -903,7 +903,7 @@ export const blogs = [
       images: ["https://res.cloudinary.com/da12wzxoq/image/upload/v1763221058/high-performance-website_zentrix.webp"]
     },
     icons: {
-      icon: "/favicon.ico"
+      icon: "/favicon-v2.ico"
     }
   }
 },
@@ -1271,7 +1271,7 @@ export const blogs = [
       images: ["https://res.cloudinary.com/da12wzxoq/image/upload/v1763221058/it-outsourcing_zentrix.webp"]
     },
     icons: {
-      icon: "/favicon.ico"
+      icon: "/favicon-v2.ico"
     }
   }
 },
@@ -1703,7 +1703,7 @@ export const blogs = [
       images: ["https://res.cloudinary.com/da12wzxoq/image/upload/v1763221058/software-automation_zentrix.webp"]
     },
     icons: {
-      icon: "/favicon.ico"
+      icon: "/favicon-v2.ico"
     }
   }
 }, 
@@ -2216,7 +2216,7 @@ export const blogs = [
       images: ["https://plus.unsplash.com/premium_photo-1764687727798-80c525b5e4c6?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"]
     },
     icons: {
-      icon: "/favicon.ico"
+      icon: "/favicon-v2.ico"
     }
   }
 },
@@ -2706,7 +2706,7 @@ export const blogs = [
       images: ["https://images.unsplash.com/photo-1674027392887-751d6396b710?q=80&w=1332&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"]
     },
     icons: {
-      icon: "/favicon.ico"
+      icon: "/favicon-v2.ico"
     }
   }
 },
@@ -3088,7 +3088,7 @@ export const blogs = [
       images: ["https://plus.unsplash.com/premium_photo-1663931932651-ea743c9a0144?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"]
     },
     icons: {
-      icon: "/favicon.ico"
+      icon: "/favicon-v2.ico"
     }
   }
 },
@@ -3866,7 +3866,7 @@ export const blogs = [
       images: ["https://images.unsplash.com/photo-1553413077-190dd305871c?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"]
     },
     icons: {
-      icon: "/favicon.ico"
+      icon: "/favicon-v2.ico"
     }
   }
 }

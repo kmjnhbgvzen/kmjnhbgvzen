@@ -28,7 +28,7 @@ export const metadata = {
   icons: {
     icon: [
       {
-        url: "/favicon.ico",
+        url: "/favicon-v2.ico",
         sizes: "48x48",
         type: "image/x-icon",
       },
@@ -41,7 +41,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <head>
         {/* ✅ EXTRA SAFETY FOR GOOGLE */}
-        <link rel="icon" href="/favicon.ico" sizes="48x48" />
+        <link rel="icon" href="/favicon-v2.ico" sizes="48x48" />
 
         {/* ✅ GOOGLE SITE VERIFICATION */}
         <meta
