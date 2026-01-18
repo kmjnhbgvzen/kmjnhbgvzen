@@ -28,7 +28,7 @@ export const metadata = {
 
     images: [
       {
-        url: "https://zentrixinfotech.com/zentrix_logo.jpg",
+        url: "https://www.zentrixinfotech.com/zentrix_logo.jpg",
         width: 1200,
         height: 630,
         alt: "Ecommerce Website Development in Moradabad | Zentrix Infotech",
@@ -49,7 +49,7 @@ export const metadata = {
     description:
       "Looking for digital marketing services near you? Zentrix Infotech helps businesses in Moradabad grow with local SEO, Google Ads, and social media marketing. Get a free consultation today.",
 
-    images: ["https://zentrixinfotech.com/zentrix_logo.jpg"],
+    images: ["https://www.zentrixinfotech.com/zentrix_logo.jpg"],
   },
 
   // ✅ ✅ ✅ FAVICON

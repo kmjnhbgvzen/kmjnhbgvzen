@@ -30,7 +30,7 @@ export const metadata = {
 
     images: [
       {
-        url: "https://zentrixinfotech.com/zentrix_logo.jpg",
+        url: "https://www.zentrixinfotech.com/zentrix_logo.jpg",
         width: 1200,
         height: 630,
         alt: "Cities We Serve | Zentrix Infotech",
@@ -51,7 +51,7 @@ export const metadata = {
     description:
       "Explore the list of cities where Zentrix Infotech provides affordable digital marketing, web development, software development, mobile app development, UI/UX design, and cloud solutions.",
 
-    images: ["https://zentrixinfotech.com/zentrix_logo.jpg"],
+    images: ["https://www.zentrixinfotech.com/zentrix_logo.jpg"],
   },
 
   // ✅ ✅ ✅ FAVICON

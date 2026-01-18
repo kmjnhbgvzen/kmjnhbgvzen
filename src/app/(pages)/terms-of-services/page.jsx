@@ -29,7 +29,7 @@ export const metadata = {
     siteName: "Zentrix Infotech",
     images: [
       {
-        url: "https://zentrixinfotech.com/zentrix_logo.jpg",
+        url: "https://www.zentrixinfotech.com/zentrix_logo.jpg",
         width: 1200,
         height: 630,
         alt: "Zentrix Infotech Terms of Service",
@@ -44,7 +44,7 @@ export const metadata = {
     title: "Terms of Service | Zentrix Infotech",
     description:
       "Terms and conditions governing the use of Zentrix Infotech website and services.",
-    images: ["https://zentrixinfotech.com/zentrix_logo.jpg"],
+    images: ["https://www.zentrixinfotech.com/zentrix_logo.jpg"],
   },
 
   icons: {

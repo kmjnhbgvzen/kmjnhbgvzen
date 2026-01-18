@@ -37,7 +37,7 @@ export const metadata = {
     siteName: "Zentrix Infotech",
     images: [
       {
-        url: "https://zentrixinfotech.com/zentrix_logo.jpg",
+        url: "https://www.zentrixinfotech.com/zentrix_logo.jpg",
         width: 1200,
         height: 630,
         alt: "Zentrix Infotech Software Development Services",
@@ -53,7 +53,7 @@ export const metadata = {
       "Software Development Services | Affordable Custom Solutions – Zentrix Infotech",
     description:
       "Zentrix Infotech offers affordable software development services, delivering custom, scalable, and reliable software solutions tailored to business needs.",
-    images: ["https://zentrixinfotech.com/zentrix_logo.jpg"],
+    images: ["https://www.zentrixinfotech.com/zentrix_logo.jpg"],
   },
 
   icons: {

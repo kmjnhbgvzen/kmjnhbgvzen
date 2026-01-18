@@ -28,7 +28,7 @@ export const metadata = {
 
     images: [
       {
-        url: "https://zentrixinfotech.com/zentrix_logo.jpg",
+        url: "https://www.zentrixinfotech.com/zentrix_logo.jpg",
         width: 1200,
         height: 630,
         alt: "Website Redesign in Moradabad | Zentrix Infotech",
@@ -49,7 +49,7 @@ export const metadata = {
     description:
       "Professional website redesign in Moradabad. Fix slow sites, mobile issues, outdated designs. Modern, fast, SEO-friendly redesigns for local businesses. Free audit! Call 7248800839.",
 
-    images: ["https://zentrixinfotech.com/zentrix_logo.jpg"],
+    images: ["https://www.zentrixinfotech.com/zentrix_logo.jpg"],
   },
 
   // ✅ ✅ ✅ FAVICON

@@ -30,7 +30,7 @@ export const metadata = {
 
     images: [
       {
-        url: "https://zentrixinfotech.com/zentrix_logo.jpg",
+        url: "https://www.zentrixinfotech.com/zentrix_logo.jpg",
         width: 1200,
         height: 630,
         alt: "Noida | Business Digital & Technology Support",
@@ -51,7 +51,7 @@ export const metadata = {
     description:
       "Digital and technology support for businesses in Noida to improve online presence, performance, and long-term growth.",
 
-    images: ["https://zentrixinfotech.com/zentrix_logo.jpg"],
+    images: ["https://www.zentrixinfotech.com/zentrix_logo.jpg"],
   },
 
   // ✅ ✅ ✅ FAVICON

@@ -28,7 +28,7 @@ export const metadata = {
 
     images: [
       {
-        url: "https://zentrixinfotech.com/zentrix_logo.jpg",
+        url: "https://www.zentrixinfotech.com/zentrix_logo.jpg",
         width: 1200,
         height: 630,
         alt: "Corporate Website Developer in Moradabad | Zentrix Infotech",
@@ -49,7 +49,7 @@ export const metadata = {
     description:
       "Professional corporate website developer in Moradabad for hospitals, IT firms, manufacturers. Executive design, enterprise security, lead generation. React/Next.js corporate sites.",
 
-    images: ["https://zentrixinfotech.com/zentrix_logo.jpg"],
+    images: ["https://www.zentrixinfotech.com/zentrix_logo.jpg"],
   },
 
   // ✅ ✅ ✅ FAVICON

@@ -28,7 +28,7 @@ export const metadata = {
 
     images: [
       {
-        url: "https://zentrixinfotech.com/zentrix_logo.jpg",
+        url: "https://www.zentrixinfotech.com/zentrix_logo.jpg",
         width: 1200,
         height: 630,
         alt: "Affordable Web Development in Moradabad | Zentrix Infotech",
@@ -49,7 +49,7 @@ export const metadata = {
     description:
       "Cost-effective web development in Moradabad using React/Next.js. Business sites, e-commerce, mobile-optimized for local companies. Fast launch, great value.",
 
-    images: ["https://zentrixinfotech.com/zentrix_logo.jpg"],
+    images: ["https://www.zentrixinfotech.com/zentrix_logo.jpg"],
   },
 
   // ✅ ✅ ✅ FAVICON

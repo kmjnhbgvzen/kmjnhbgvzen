@@ -34,7 +34,7 @@ export const metadata = {
 
     images: [
       {
-        url: "https://zentrixinfotech.com/zentrix_logo.jpg",
+        url: "https://www.zentrixinfotech.com/zentrix_logo.jpg",
         width: 1200,
         height: 630,
         alt: "Website Design Company in Moradabad | Custom & Responsive",
@@ -55,7 +55,7 @@ export const metadata = {
     description:
       "Best website design company in Moradabad creating modern, user-friendly websites. Get custom web designs with Zentrix Infotech.",
 
-    images: ["https://zentrixinfotech.com/zentrix_logo.jpg"],
+    images: ["https://www.zentrixinfotech.com/zentrix_logo.jpg"],
   },
 
   // ✅ FAVICON

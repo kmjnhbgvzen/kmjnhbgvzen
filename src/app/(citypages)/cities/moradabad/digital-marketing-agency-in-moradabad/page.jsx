@@ -28,7 +28,7 @@ export const metadata = {
 
     images: [
       {
-        url: "https://zentrixinfotech.com/zentrix_logo.jpg",
+        url: "https://www.zentrixinfotech.com/zentrix_logo.jpg",
         width: 1200,
         height: 630,
         alt: "Digital Marketing Agency in Moradabad | Grow Your Business Online",
@@ -49,7 +49,7 @@ export const metadata = {
     description:
       "Get affordable digital marketing services in Moradabad for local businesses. SEO, Google Ads, and social media marketing to generate real leads.",
 
-    images: ["https://zentrixinfotech.com/zentrix_logo.jpg"],
+    images: ["https://www.zentrixinfotech.com/zentrix_logo.jpg"],
   },
 
   // ✅ ✅ ✅ FAVICON

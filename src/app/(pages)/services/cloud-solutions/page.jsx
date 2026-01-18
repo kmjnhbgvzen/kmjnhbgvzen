@@ -49,7 +49,7 @@ export const metadata = {
     siteName: "Zentrix Infotech",
     images: [
       {
-        url: "https://zentrixinfotech.com/zentrix_logo.jpg",
+        url: "https://www.zentrixinfotech.com/zentrix_logo.jpg",
         width: 1200,
         height: 630,
         alt: "Zentrix Infotech Cloud Solutions & Services",
@@ -65,7 +65,7 @@ export const metadata = {
       "Cloud Solutions & Services | Scalable Cloud Infrastructure – Zentrix Infotech",
     description:
       "Zentrix Infotech delivers reliable cloud solutions including cloud hosting, deployment, migration, and management to help businesses scale securely and efficiently.",
-    images: ["https://zentrixinfotech.com/zentrix_logo.jpg"],
+    images: ["https://www.zentrixinfotech.com/zentrix_logo.jpg"],
   },
 
   icons: {

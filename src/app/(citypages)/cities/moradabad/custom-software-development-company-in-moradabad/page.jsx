@@ -33,7 +33,7 @@ export const metadata = {
 
     images: [
       {
-        url: "https://zentrixinfotech.com/zentrix_logo.jpg",
+        url: "https://www.zentrixinfotech.com/zentrix_logo.jpg",
         width: 1200,
         height: 630,
         alt: "Custom Software Development in Moradabad | Business Solutions",
@@ -54,7 +54,7 @@ export const metadata = {
     description:
       "Looking for custom software development in Moradabad? We build tailored ERP, CRM & business software for local SMEs.",
 
-    images: ["https://zentrixinfotech.com/zentrix_logo.jpg"],
+    images: ["https://www.zentrixinfotech.com/zentrix_logo.jpg"],
   },
 
   // ✅ FAVICON

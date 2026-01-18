@@ -28,7 +28,7 @@ export const metadata = {
 
     images: [
       {
-        url: "https://zentrixinfotech.com/zentrix_logo.jpg",
+        url: "https://www.zentrixinfotech.com/zentrix_logo.jpg",
         width: 1200,
         height: 630,
         alt: "Website Maintenance in Moradabad | Zentrix Infotech",
@@ -49,7 +49,7 @@ export const metadata = {
     description:
       "Professional website maintenance in Moradabad. Security, speed optimization, backups, 24/7 monitoring for WordPress, custom sites. Keep your site fast & secure. Free audit! Call 7248800839.",
 
-    images: ["https://zentrixinfotech.com/zentrix_logo.jpg"],
+    images: ["https://www.zentrixinfotech.com/zentrix_logo.jpg"],
   },
 
   // ✅ ✅ ✅ FAVICON

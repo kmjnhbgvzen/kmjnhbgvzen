@@ -30,7 +30,7 @@ export const metadata = {
 
     images: [
       {
-        url: "https://zentrixinfotech.com/zentrix_logo.jpg",
+        url: "https://www.zentrixinfotech.com/zentrix_logo.jpg",
         width: 1200,
         height: 630,
         alt: "Web Application Development in Moradabad | Custom Web Apps",
@@ -51,7 +51,7 @@ export const metadata = {
     description:
       "Custom web application development in Moradabad. React/Node.js apps for hospitals, inventory, booking systems, CRMs. Scalable, secure, mobile-friendly solutions. Free consultation!",
 
-    images: ["https://zentrixinfotech.com/zentrix_logo.jpg"],
+    images: ["https://www.zentrixinfotech.com/zentrix_logo.jpg"],
   },
 
   //FAVICON

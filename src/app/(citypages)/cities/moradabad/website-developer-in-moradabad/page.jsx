@@ -33,7 +33,7 @@ export const metadata = {
 
     images: [
       {
-        url: "https://zentrixinfotech.com/zentrix_logo.jpg",
+        url: "https://www.zentrixinfotech.com/zentrix_logo.jpg",
         width: 1200,
         height: 630,
         alt: "Website Developer in Moradabad | Zentrix Infotech",
@@ -54,7 +54,7 @@ export const metadata = {
     description:
       "Hire expert website developers in Moradabad for React/Next.js sites. Business, e-commerce, apps for local companies. Fast delivery, SEO-ready. Free consultation!",
 
-    images: ["https://zentrixinfotech.com/zentrix_logo.jpg"],
+    images: ["https://www.zentrixinfotech.com/zentrix_logo.jpg"],
   },
 
   // ✅ FAVICON

@@ -49,7 +49,7 @@ export const metadata = {
     siteName: "Zentrix Infotech",
     images: [
       {
-        url: "https://zentrixinfotech.com/zentrix_logo.jpg",
+        url: "https://www.zentrixinfotech.com/zentrix_logo.jpg",
         width: 1200,
         height: 630,
         alt: "Zentrix Infotech UI/UX Design Services",
@@ -65,7 +65,7 @@ export const metadata = {
       "UI/UX Design Services | User-Focused & Affordable Design – Zentrix Infotech",
     description:
       "Zentrix Infotech offers professional UI/UX design services focused on usability, user experience, and visual clarity to help businesses create engaging digital products.",
-    images: ["https://zentrixinfotech.com/zentrix_logo.jpg"],
+    images: ["https://www.zentrixinfotech.com/zentrix_logo.jpg"],
   },
 
   icons: {

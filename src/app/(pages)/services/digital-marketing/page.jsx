@@ -33,7 +33,7 @@ export const metadata = {
     siteName: "Zentrix Infotech",
     images: [
       {
-        url: "https://zentrixinfotech.com/zentrix_logo.jpg",
+        url: "https://www.zentrixinfotech.com/zentrix_logo.jpg",
         width: 1200,
         height: 630,
         alt: "Zentrix Infotech Digital Marketing Services",
@@ -49,7 +49,7 @@ export const metadata = {
       "Digital Marketing Services | SEO, Social Media & Growth Marketing – Zentrix Infotech",
     description:
       "Zentrix Infotech offers result-driven digital marketing services including SEO, social media marketing, paid ads, content marketing, and online growth solutions tailored for businesses.",
-    images: ["https://zentrixinfotech.com/zentrix_logo.jpg"],
+    images: ["https://www.zentrixinfotech.com/zentrix_logo.jpg"],
   },
 
   icons: {

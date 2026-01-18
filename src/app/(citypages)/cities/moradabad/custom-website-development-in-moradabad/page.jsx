@@ -33,7 +33,7 @@ export const metadata = {
 
     images: [
       {
-        url: "https://zentrixinfotech.com/zentrix_logo.jpg",
+        url: "https://www.zentrixinfotech.com/zentrix_logo.jpg",
         width: 1200,
         height: 630,
         alt: "Custom Website Development in Moradabad",
@@ -54,7 +54,7 @@ export const metadata = {
     description:
       "Zentrix Infotech offers custom website development in Moradabad for businesses looking to grow online. SEO-friendly, scalable, and fully customized websites.",
 
-    images: ["https://zentrixinfotech.com/zentrix_logo.jpg"],
+    images: ["https://www.zentrixinfotech.com/zentrix_logo.jpg"],
   },
 
   // ✅ FAVICON

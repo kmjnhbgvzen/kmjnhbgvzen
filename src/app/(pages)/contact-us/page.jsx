@@ -42,7 +42,7 @@ export const metadata = {
     type: "website",
     images: [
       {
-        url: "https://zentrixinfotech.com/zentrix_logo.jpg", // 🔁 Replace with your actual contact banner image
+        url: "https://www.zentrixinfotech.com/zentrix_logo.jpg", // 🔁 Replace with your actual contact banner image
         width: 1200,
         height: 630,
         alt: "Contact Zentrix Infotech – Digital & IT Solutions Team",
@@ -57,7 +57,7 @@ export const metadata = {
       "Contact Us | Zentrix Infotech – Talk to Our Digital & IT Solutions Team",
     description:
       "Get in touch with Zentrix Infotech for affordable digital marketing, web development, software, mobile app, UI/UX design, and cloud solutions. Contact our team for project enquiries, quotes, and collaboration opportunities.",
-    images: ["https://zentrixinfotech.com/zentrix_logo.jpg"],
+    images: ["https://www.zentrixinfotech.com/zentrix_logo.jpg"],
   },
 
   // ✅ FAVICON

@@ -33,7 +33,7 @@ export const metadata = {
 
     images: [
       {
-        url: "https://zentrixinfotech.com/zentrix_logo.jpg",
+        url: "https://www.zentrixinfotech.com/zentrix_logo.jpg",
         width: 1200,
         height: 630,
         alt: "App Development Company in Moradabad | Android & Web Apps",
@@ -54,7 +54,7 @@ export const metadata = {
     description:
       "Looking for an app development company in Moradabad? We create business-focused mobile apps that drive growth and efficiency.",
 
-    images: ["https://zentrixinfotech.com/zentrix_logo.jpg"],
+    images: ["https://www.zentrixinfotech.com/zentrix_logo.jpg"],
   },
 
   // ✅ FAVICON

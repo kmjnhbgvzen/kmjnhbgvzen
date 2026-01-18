@@ -22,7 +22,7 @@ export const metadata = {
       "Explore insightful blogs from Zentrix Infotech on SEO marketing, digital transformation, web development, and scalable technology solutions.",
     images: [
       {
-        url: "https://zentrixinfotech.com/zentrix_logo.jpg",
+        url: "https://www.zentrixinfotech.com/zentrix_logo.jpg",
         width: 1200,
         height: 630,
         alt:
@@ -38,7 +38,7 @@ export const metadata = {
     description:
       "Stay updated with the latest blogs on SEO, digital marketing, web development, and business technology by Zentrix Infotech.",
     images: [
-      "https://zentrixinfotech.com/zentrix_logo.jpg",
+      "https://www.zentrixinfotech.com/zentrix_logo.jpg",
     ],
   },
 
