@@ -80,9 +80,39 @@ const nextConfig = {
         destination: "/blog",
         permanent: true,
       },
-       {
+      {
         source: "/blog/1",
         destination: "/blog",
+        permanent: true,
+      },
+      {
+        source: "/blog/3",
+        destination: "/blog",
+        permanent: true,
+      },
+      {
+        source: "/license",
+        destination: "/licenses",
+        permanent: true,
+      },
+      {
+        source: "/$",
+        destination: "/moradabad-hospital-owners-why-patients-not-finding-you-on-google",
+        permanent: true,
+      },
+       {
+        source: "/&",
+        destination: "/moradabad-hospital-owners-why-patients-not-finding-you-on-google",
+        permanent: true,
+      },
+      {
+        source: "/moradabad-hospital-owners-why-patients-not-finding-you-google",
+        destination: "/moradabad-hospital-owners-why-patients-not-finding-you-on-google",
+        permanent: true,
+      },
+      {
+        source: "/cookie-policy",
+        destination: "/cookies-policy",
         permanent: true,
       },
     ];
