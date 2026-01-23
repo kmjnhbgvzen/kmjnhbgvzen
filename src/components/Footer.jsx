@@ -266,7 +266,7 @@ const Footer = () => {
         {/* Bottom Bar (Updated) */}
         <div className="border-t border-slate-200/50 py-8">
           <div className="flex justify-center items-center text-slate-600 text-sm">
-            © 2025 Zentrix Infotech. All rights reserved.
+            © 2026 Zentrix Infotech. All rights reserved.
           </div>
         </div>
       </div>
