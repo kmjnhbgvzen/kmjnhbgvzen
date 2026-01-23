@@ -84,7 +84,75 @@ export default function BlogClient({ blog }) {
     return count;
   }, [blog]);
 
-  
+  // Generate JSON-LD Structured Data
+  const structuredData = {
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    headline: blog.title,
+    description: blog.subtitle || blog.content,
+    image: blog.image,
+    datePublished: blog.date,
+    dateModified: blog.date,
+    author: {
+      "@type": "Organization",
+      name: blog.author || "Zentrix Infotech",
+    },
+    publisher: {
+      "@type": "Organization",
+      name: "Zentrix Infotech",
+      logo: {
+        "@type": "ImageObject",
+        url: "https://www.zentrixinfotech.com/zentrix_logo.jpg",
+      },
+    },
+    mainEntityOfPage: {
+      "@type": "WebPage",
+      "@id": shareUrl,
+    },
+    wordCount: wordCount,
+    articleSection: blog.category,
+    keywords: blog.tags?.join(", ") || "",
+  };
+
+  // Breadcrumb structured data
+  const breadcrumbStructuredData = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      {
+        "@type": "ListItem",
+        position: 1,
+        name: "Home",
+        item: "https://www.zentrixinfotech.com",
+      },
+      {
+        "@type": "ListItem",
+        position: 2,
+        name: "Blog",
+        item: "https://www.zentrixinfotech.com/blog",
+      },
+      {
+        "@type": "ListItem",
+        position: 3,
+        name: blog.title,
+        item: shareUrl,
+      },
+    ],
+  };
+
+  // FAQ structured data
+  const faqStructuredData = blog.faqs && blog.faqs.length > 0 ? {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: blog.faqs.map((faq) => ({
+      "@type": "Question",
+      name: faq.question,
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: faq.answer,
+      },
+    })),
+  } : null;
 
   // Smooth scroll handler for TOC
   const handleTOCClick = (e, heading) => {
@@ -295,7 +363,29 @@ export default function BlogClient({ blog }) {
 
   return (
     <>
-      
+      {/* JSON-LD Structured Data for BlogPosting */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
+      />
+
+      {/* JSON-LD Structured Data for Breadcrumbs */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(breadcrumbStructuredData),
+        }}
+      />
+
+      {/* JSON-LD Structured Data for FAQ */}
+      {faqStructuredData && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify(faqStructuredData),
+          }}
+        />
+      )}
 
       {/* Progress Bar with ARIA */}
       <div
