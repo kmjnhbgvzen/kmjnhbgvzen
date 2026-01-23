@@ -378,14 +378,14 @@ export default function BlogClient({ blog }) {
       />
 
       {/* JSON-LD Structured Data for FAQ */}
-      {faqStructuredData && (
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify(faqStructuredData),
-          }}
-        />
-      )}
+{blog.faqs && blog.faqs.length > 0 && faqStructuredData && (
+  <script
+    type="application/ld+json"
+    dangerouslySetInnerHTML={{
+      __html: JSON.stringify(faqStructuredData),
+    }}
+  />
+)}
 
       {/* Progress Bar with ARIA */}
       <div
@@ -569,7 +569,7 @@ export default function BlogClient({ blog }) {
                 </div>
               ))}
 
-              {/* FAQ Section */}
+              {/* FAQ Section - Only render if FAQs exist */}
 {blog.faqs && blog.faqs.length > 0 && (
   <div className="mt-8 md:mt-12 lg:mt-16 pt-8">
     <h2 className="text-2xl md:text-3xl lg:text-4xl font-serif mb-6 md:mb-8 text-gray-900">
