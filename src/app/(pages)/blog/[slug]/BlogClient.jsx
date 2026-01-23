@@ -295,29 +295,7 @@ export default function BlogClient({ blog }) {
 
   return (
     <>
-      {/* JSON-LD Structured Data for BlogPosting */}
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
-      />
-
-      {/* JSON-LD Structured Data for Breadcrumbs */}
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify(breadcrumbStructuredData),
-        }}
-      />
-
-      {/* JSON-LD Structured Data for FAQ */}
-      {faqStructuredData && (
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify(faqStructuredData),
-          }}
-        />
-      )}
+      
 
       {/* Progress Bar with ARIA */}
       <div
