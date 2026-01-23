@@ -3,9 +3,8 @@ import { blogs } from "@/data/blogs";
 import BlogClient from "./BlogClient";
 
 /* ---------------- SEO METADATA ---------------- */
-export async function generateMetadata(props) {
-  const params = await props.params;
-  const slug = params.slug;
+export async function generateMetadata({ params }) {
+  const { slug } = params;
 
   const blog = blogs.find((b) => b.slug === slug);
   if (!blog) return {};
@@ -22,9 +21,8 @@ export async function generateMetadata(props) {
 }
 
 /* ---------------- PAGE ---------------- */
-export default async function BlogPage(props) {
-  const params = await props.params;
-  const slug = params.slug;
+export default function BlogPage({ params }) {
+  const { slug } = params;
 
   const blog = blogs.find((b) => b.slug === slug);
   if (!blog) return notFound();
@@ -83,7 +81,7 @@ export default async function BlogPage(props) {
           },
         ],
       },
-      ...(blog.faqs?.length
+      ...(blog.faqs && blog.faqs.length > 0
         ? [
             {
               "@type": "FAQPage",
@@ -109,7 +107,6 @@ export default async function BlogPage(props) {
           __html: JSON.stringify(blogSchema),
         }}
       />
-
       <BlogClient blog={blog} />
     </>
   );
