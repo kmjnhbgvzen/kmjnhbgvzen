@@ -33,7 +33,7 @@ const Footer = () => {
 
 
   const resources = [
-    { name: "Blog", href: "/blogs" }, 
+    { name: "Blog", href: "/blog" }, 
     { name: "Support", href: "/support" },
   ];
 
