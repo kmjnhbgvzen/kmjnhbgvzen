@@ -377,8 +377,8 @@ export default function BlogClient({ blog }) {
         }}
       />
 
-      {/* JSON-LD Structured Data for FAQ */}
-{blog.faqs && blog.faqs.length > 0 && faqStructuredData && (
+      {/* JSON-LD Structured Data for FAQ - SINGLE INSTANCE ONLY */}
+{faqStructuredData && (
   <script
     type="application/ld+json"
     dangerouslySetInnerHTML={{
