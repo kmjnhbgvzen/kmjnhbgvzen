@@ -140,19 +140,8 @@ export default function BlogClient({ blog }) {
     ],
   };
 
-  // FAQ structured data
-  const faqStructuredData = blog.faqs && blog.faqs.length > 0 ? {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    mainEntity: blog.faqs.map((faq) => ({
-      "@type": "Question",
-      name: faq.question,
-      acceptedAnswer: {
-        "@type": "Answer",
-        text: faq.answer,
-      },
-    })),
-  } : null;
+  // FAQ structured data - REMOVED (now handled in page.jsx server component)
+  // This prevents duplication - FAQ schema is generated ONCE at the server level
 
   // Smooth scroll handler for TOC
   const handleTOCClick = (e, heading) => {
@@ -377,15 +366,7 @@ export default function BlogClient({ blog }) {
         }}
       />
 
-      {/* JSON-LD Structured Data for FAQ - SINGLE INSTANCE ONLY */}
-      {faqStructuredData && (
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify(faqStructuredData),
-          }}
-        />
-      )}
+      {/* FAQ Schema is now handled in page.jsx server component */}
 
       {/* Progress Bar with ARIA */}
       <div
