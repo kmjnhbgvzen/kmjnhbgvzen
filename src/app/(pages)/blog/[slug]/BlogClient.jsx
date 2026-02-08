@@ -390,7 +390,7 @@ export default function BlogClient({ blog }) {
                 alt={blog.title}
                 fill
                 priority
-                className="object-cover"
+                className="object-fit"
               />
             )}
             {/* Dark gradient overlay for text readability */}
@@ -400,18 +400,18 @@ export default function BlogClient({ blog }) {
           {/* Hero Content */}
           <div className="relative h-full max-w-5xl mx-auto px-4 md:px-6 lg:px-8 flex flex-col justify-center items-center text-center z-10 mb-10 mt-6">
             {/* Category Badge */}
-            <span className="inline-flex items-center gap-1.5 md:gap-2 px-3 md:px-4 py-1.5 md:py-2 bg-white/10 backdrop-blur-sm border border-white/20 rounded-full text-white mb-3 md:mb-4 lg:mb-6 text-xs md:text-sm">
+            <span className="inline-flex items-center gap-1.5 md:gap-2 px-3 md:px-4 py-1.5 md:py-2 bg-white/10 backdrop-blur-sm border border-white/20 rounded-full text-white mb-3 md:mb-4 lg:mb-6 text-xs md:text-sm mt-10">
               <Tag className="w-3 h-3 md:w-4 md:h-4" /> {blog.category}
             </span>
 
             {/* Title - H1 for SEO */}
-            <h1 className="text-3xl md:text-3xl lg:text-4xl xl:text-5xl 2xl:text-6xl font-serif text-white mb-2 md:mb-3 lg:mb-4 leading-tight max-w-4xl">
+            <h1 className="text-3xl md:text-3xl lg:text-3xl xl:text-5xl 2xl:text-6xl font-serif text-white mb-2 md:mb-3 lg:mb-4 leading-tight max-w-7xl">
               {blog.title}
             </h1>
 
             {/* Subtitle */}
             {blog.subtitle && (
-              <p className="text-1xl md:text-base lg:text-lg xl:text-xl text-gray-200 font-light max-w-2xl px-2">
+              <p className="text-1xl md:text-base lg:text-lg xl:text-xl text-gray-200 font-light max-w-3xl ">
                 {blog.subtitle}
               </p>
             )}
