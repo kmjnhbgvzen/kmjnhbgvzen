@@ -293,8 +293,12 @@
     <loc>https://www.zentrixinfotech.com/industries/digital-marketing-for-doctors</loc>
     <priority>0.7</priority>
   </url>
-   <url>
+  <url>
     <loc>https://www.zentrixinfotech.com/industries/billing-software-for-retail-shops</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.zentrixinfotech.com/industries/hotel-resort-website-development</loc>
     <priority>0.7</priority>
   </url>
  
