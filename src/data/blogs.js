@@ -5399,7 +5399,7 @@ export const blogs = [
   subtitle: "Discover how Clawd Bot helps businesses automate tasks, improve customer experience, and drive smarter growth",
   content: "Learn how advanced AI assistants are transforming business operations, customer support, and scalability in 2026.",
   image: "https://res.cloudinary.com/dxpyhablz/image/upload/v1770631111/clawdbot_nykrbs.jpg",
-  date: "2026-02-19",
+  date: "2026-02-09",
   author: "Zentrix Infotech",
   readTime: "12 min read",
   category: "Web & Tech",
