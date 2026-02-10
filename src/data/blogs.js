@@ -5498,7 +5498,7 @@ export const blogs = [
   date: "2026-02-10",
   author: "Zentrix Infotech",
   readTime: "15 min read",
-  category: "SEO",
+  category: "Digital Marketing",
   tags: ["SEO", "Google Ranking", "Search Optimization", "Content Marketing", "Website Traffic", "Digital Marketing"],
   fullContent: {
     introduction: "Ranking on Google is no longer about tricks, shortcuts, or stuffing keywords into pages. In 2026, Google rewards websites that genuinely help users, load fast, feel trustworthy, and deliver real value. <strong>If your website is not appearing on the first page, you're missing traffic, leads, and revenue every single day.</strong> The good news is that ranking on Google is still achievable—if you follow the right approach. This guide explains how to rank your website on Google in 2026 using proven, future-ready SEO practices that focus on growth, visibility, and long-term results.",
