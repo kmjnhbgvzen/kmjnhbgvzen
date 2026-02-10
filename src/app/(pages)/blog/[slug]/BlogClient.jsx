@@ -20,7 +20,7 @@ import {
 import { usePathname } from "next/navigation";
 import { blogs } from "@/data/blogs";
 import LandingEnquiry from "@/components/LandingEnquiry";
-import LandingServices from "@/components/LandingServices";
+import BlogService from "@/components/BlogService";
 
 export default function BlogClient({ blog }) {
   const [progress, setProgress] = useState(0);
@@ -595,6 +595,15 @@ export default function BlogClient({ blog }) {
 
             {/* SIDEBAR */}
             <aside className="lg:sticky lg:top-35 h-fit space-y-4 md:space-y-5">
+              
+
+
+              {/* Enquiry Form - Desktop Only */}
+              <div className="lg:block no-print">
+                <LandingEnquiry />
+                <BlogService />
+              </div>
+
               {/* Compact Table of Contents */}
 {toc.length > 0 && (
   <div className="bg-gray-50 border border-gray-200 rounded-md p-3 shadow-sm no-print">
@@ -619,13 +628,6 @@ export default function BlogClient({ blog }) {
     </nav>
   </div>
 )}
-
-
-              {/* Enquiry Form - Desktop Only */}
-              <div className="lg:block no-print">
-                <LandingEnquiry />
-                <LandingServices />
-              </div>
 
               {/* Share Section */}
               <div className="bg-gray-50 border border-gray-200 rounded-lg p-4 shadow-sm no-print">
