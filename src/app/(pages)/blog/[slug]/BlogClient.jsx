@@ -3,6 +3,7 @@
 import { useEffect, useMemo, useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
+
 import {
   Calendar,
   Clock,
@@ -19,6 +20,7 @@ import {
 import { usePathname } from "next/navigation";
 import { blogs } from "@/data/blogs";
 import LandingEnquiry from "@/components/LandingEnquiry";
+import LandingServices from "@/components/LandingServices";
 
 export default function BlogClient({ blog }) {
   const [progress, setProgress] = useState(0);
@@ -593,33 +595,36 @@ export default function BlogClient({ blog }) {
 
             {/* SIDEBAR */}
             <aside className="lg:sticky lg:top-35 h-fit space-y-4 md:space-y-5">
-              {/* Table of Contents */}
-              {toc.length > 0 && (
-                <div className="bg-gray-50 border border-gray-200 rounded-lg p-4 shadow-sm no-print">
-                  <h4 className="font-semibold text-sm mb-3 text-gray-900">
-                    Table of Contents
-                  </h4>
-                  <nav aria-label="Table of contents">
-                    <ul className="space-y-2">
-                      {toc.map((h, i) => (
-                        <li key={i}>
-                          <a
-                            href={`#${h.replace(/\s+/g, "-")}`}
-                            onClick={(e) => handleTOCClick(e, h)}
-                            className="text-gray-600 hover:text-blue-600 transition-colors text-xs leading-snug block hover:translate-x-1 duration-200"
-                          >
-                            {h}
-                          </a>
-                        </li>
-                      ))}
-                    </ul>
-                  </nav>
-                </div>
-              )}
+              {/* Compact Table of Contents */}
+{toc.length > 0 && (
+  <div className="bg-gray-50 border border-gray-200 rounded-md p-3 shadow-sm no-print">
+    <h4 className="font-semibold text-xs mb-2 text-gray-900">
+      Table of Contents
+    </h4>
+
+    <nav aria-label="Table of contents">
+      <ul className="space-y-1">
+        {toc.map((h, i) => (
+          <li key={i}>
+            <a
+              href={`#${h.replace(/\s+/g, "-")}`}
+              onClick={(e) => handleTOCClick(e, h)}
+              className="text-gray-600 hover:text-blue-600 transition text-[11px] leading-tight block"
+            >
+              {h}
+            </a>
+          </li>
+        ))}
+      </ul>
+    </nav>
+  </div>
+)}
+
 
               {/* Enquiry Form - Desktop Only */}
               <div className="lg:block no-print">
                 <LandingEnquiry />
+                <LandingServices />
               </div>
 
               {/* Share Section */}
