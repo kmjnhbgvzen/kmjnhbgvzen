@@ -5679,7 +5679,7 @@ export const blogs = [
   metaTags: {
     title: "How AI Voice Videos Are Changing Digital Marketing in 2026 | Zentrix Infotech",
     description: "Discover how AI voice videos are transforming digital marketing with faster production, lower costs, and better engagement in 2026.",
-    keywords: "ai voice videos, video marketing, digital marketing, content creation, marketing automation, ai technology",
+    keywords: "ai voice videos, ai voice video marketing, ai voice over videos, ai video marketing 2026, text to speech video marketing, ai avatar voice video, digital marketing with ai videos, ai generated voice ads, video marketing trends 2026",
     alternates: {canonical: "https://www.zentrixinfotech.com/blog/how-ai-voice-videos-are-changing-digital-marketing"},
     openGraph: {type: "article", url: "https://www.zentrixinfotech.com/blog/how-ai-voice-videos-are-changing-digital-marketing", title: "How AI Voice Videos Are Changing Digital Marketing in 2026 | Zentrix Infotech", description: "Discover how AI voice videos are transforming digital marketing with faster production, lower costs, and better engagement in 2026.", images: [{url: "https://res.cloudinary.com/dxpyhablz/image/upload/v1771675409/how-ai-voice-videos-are-changing-digital-marketing_wuoak6.png", width: 1200, height: 630}]},
     twitter: {card: "summary_large_image", title: "How AI Voice Videos Are Changing Digital Marketing in 2026 | Zentrix Infotech", description: "Discover how AI voice videos are transforming digital marketing with faster production, lower costs, and better engagement in 2026.", images: ["https://res.cloudinary.com/dxpyhablz/image/upload/v1771675409/how-ai-voice-videos-are-changing-digital-marketing_wuoak6.png"]},
