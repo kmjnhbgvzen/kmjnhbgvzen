@@ -5,4 +5,14 @@
 
 @import "tailwindcss";
 
+@keyframes ring {
+  0%        { transform: rotate(0deg) scale(1); }
+  10%, 30%  { transform: rotate(15deg) scale(1.1); }
+  20%, 40%  { transform: rotate(-15deg) scale(1.1); }
+  50%, 100% { transform: rotate(0deg) scale(1); }
+}
 
+.animate-ring {
+  animation: ring 2s ease-in-out infinite;
+  transform-origin: top top;
+}

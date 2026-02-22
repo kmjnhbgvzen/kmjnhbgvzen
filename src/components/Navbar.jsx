@@ -2,7 +2,8 @@
 
 import Link from "next/link";
 import { useState } from 'react';
-import { ChevronDown, X, Menu } from 'lucide-react';
+import { ChevronDown, X, Menu, Phone } from 'lucide-react';
+
 
 
 
@@ -200,6 +201,15 @@ export default function Navbar() {
                             <NavLink href="/portfolio">Portfolio</NavLink>
                             <NavLink href="/contact-us">Contact Us</NavLink>
                             <NavLink href="/blog">Blogs</NavLink>
+
+                            {/* CTA Button */}
+<Link
+    href="/contact-us"
+    className="flex items-center gap-2 w-full sm:w-auto px-6 py-3 text-base sm:text-sm font-medium font-serif text-white rounded-full bg-gradient-to-r from-[#2eaad4] to-[#2c67f2] active:scale-95 transition-all duration-300"
+>
+    <Phone className="h-4 w-4 animate-ring" />
+    Let’s Connect
+</Link>
                         </div>
                     </div>
 
@@ -385,6 +395,16 @@ export default function Navbar() {
                                 style={{ color: '#475569' }} {...mobileHoverStyles}>
                                 Blogs
                             </Link>
+
+
+                            <Link
+    href="/contact-us"
+    onClick={closeMobileMenu}
+    className="flex items-center justify-center gap-2 w-full sm:w-auto px-6 py-3 text-base sm:text-sm font-medium font-serif text-white rounded-full bg-gradient-to-r from-[#2eaad4] to-[#2c67f2] active:scale-95 transition-all duration-300 mt-2"
+>
+    <Phone className="h-4 w-4" />
+    Let’s Connect
+</Link>
                         </div>
                     </div>
                 )}
