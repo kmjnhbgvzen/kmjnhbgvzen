@@ -5843,7 +5843,7 @@ export const blogs = [
   subtitle: "Discover proven strategies to generate leads online using SEO, paid ads, social media, and business listings to grow your business",
   content: "Learn 10 scalable, measurable, and adaptable methods for generating leads online in 2026 for businesses of all sizes.",
   image: "https://res.cloudinary.com/dxpyhablz/image/upload/v1772527781/Generate_Leads_Online_gyl1bq.png",
-  date: "2026-03-01",
+  date: "2026-03-03",
   author: "Zentrix Infotech",
   readTime: "14 min read",
   category: "Digital Marketing",
