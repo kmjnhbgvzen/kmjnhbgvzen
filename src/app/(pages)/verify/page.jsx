@@ -17,6 +17,65 @@ import {
   CheckCircle
 } from "lucide-react";
 
+// ── Animated loader component ─────────────────────────────────────────────
+function CertificateLoader() {
+  const text = "Checking certificate…";
+
+  return (
+    <div className="flex flex-col items-center justify-center gap-6 relative z-10">
+
+      {/* Spinning shield / badge ring */}
+      <div className="relative w-20 h-20">
+        {/* Outer spinning ring */}
+        <div className="absolute inset-0 rounded-full border-4 border-transparent border-t-blue-500 border-r-blue-300 animate-spin" />
+        {/* Middle pulsing ring */}
+        <div className="absolute inset-2 rounded-full border-2 border-blue-100 animate-pulse" />
+        {/* Inner icon */}
+        <div className="absolute inset-0 flex items-center justify-center">
+          <BadgeCheck className="w-8 h-8 text-blue-400 animate-pulse" />
+        </div>
+      </div>
+
+      {/* Animated text with wave effect */}
+      <div className="flex items-center gap-[2px]">
+        {text.split("").map((char, i) => (
+          <span
+            key={i}
+            className="text-gray-500 text-sm font-medium inline-block"
+            style={{
+              animation: `waveBounce 1.4s ease-in-out infinite`,
+              animationDelay: `${i * 0.05}s`,
+            }}
+          >
+            {char === " " ? "\u00A0" : char}
+          </span>
+        ))}
+      </div>
+
+      {/* Scanning bar */}
+      <div className="w-48 h-1 bg-gray-100 rounded-full overflow-hidden">
+        <div className="h-full bg-gradient-to-r from-blue-400 via-blue-500 to-indigo-500 rounded-full animate-scanBar" />
+      </div>
+
+      <style jsx>{`
+        @keyframes waveBounce {
+          0%, 100% { transform: translateY(0px); opacity: 0.5; }
+          50%       { transform: translateY(-5px); opacity: 1; }
+        }
+        @keyframes scanBar {
+          0%   { transform: translateX(-100%); }
+          100% { transform: translateX(400%); }
+        }
+        .animate-scanBar {
+          animation: scanBar 1.6s ease-in-out infinite;
+          width: 40%;
+        }
+      `}</style>
+
+    </div>
+  );
+}
+
 // ── Inner component that uses useSearchParams ──────────────────────────────
 function VerifyContent() {
 
@@ -66,20 +125,21 @@ function VerifyContent() {
     { icon: Hash,          label: "CIN",              value: certificate.cin },
     { icon: User,          label: "Name",             value: certificate.name },
     { icon: FileText,      label: "Internship Track", value: certificate.track },
+    { icon: FileText,      label: "Project Topic",    value: certificate.project },
     { icon: Building2,     label: "College",          value: certificate.college },
     { icon: GraduationCap, label: "LoR",              value: certificate.lor },
     { icon: Calendar,      label: "Start Date",       value: certificate.start },
     { icon: Calendar,      label: "End Date",         value: certificate.end },
     { icon: Calendar,      label: "Issue Date",       value: certificate.issue },
-  ] : [];
+  ].filter(field => field.value && field.value.toString().trim() !== "") : [];
 
   return (
     <div className="min-h-screen flex items-center justify-center bg-gray-50 px-3 sm:px-6 py-15 relative overflow-hidden mt-10">
 
       {/* Page Watermark */}
       <div className="absolute inset-0 flex items-center justify-center pointer-events-none select-none">
-        <span className="text-[55px] sm:text-[110px] lg:text-[170px] font-black text-gray-300 opacity-[0.12] tracking-widest whitespace-nowrap">
-          ZENTRIX
+        <span className="text-[55px] sm:text-[110px] lg:text-[100px] font-black text-gray-300 opacity-[0.12] tracking-widest whitespace-nowrap">
+          ZENTRIX INFOTECH
         </span>
       </div>
 
@@ -176,9 +236,7 @@ function VerifyContent() {
 
       ) : (
 
-        <p className="text-gray-500 relative z-10 text-sm">
-          Checking certificate…
-        </p>
+        <CertificateLoader />
 
       )}
 
@@ -191,7 +249,7 @@ export default function VerifyPage() {
   return (
     <Suspense fallback={
       <div className="min-h-screen flex items-center justify-center bg-gray-50">
-        <p className="text-gray-500 text-sm">Checking certificate…</p>
+        <CertificateLoader />
       </div>
     }>
       <VerifyContent />
