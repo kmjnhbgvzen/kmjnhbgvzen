@@ -30,7 +30,7 @@ export const certificates = [
     name: "Aditya Saini",
     project: "PCS Frames Website",
     issue: "10-02-2026",
-    image: "hhttps://res.cloudinary.com/dxpyhablz/image/upload/v1772868152/Aditya_Saini_Cert._No._ZEN20260210HR26.jpg_odxfxa.jpg"
+    image: "https://res.cloudinary.com/dxpyhablz/image/upload/v1772868152/Aditya_Saini_Cert._No._ZEN20260210HR26.jpg_odxfxa.jpg"
   },
   {
     cin: "ZEN20260303HR26",
