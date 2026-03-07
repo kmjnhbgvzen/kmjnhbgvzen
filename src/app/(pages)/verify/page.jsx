@@ -1,7 +1,7 @@
 "use client";
 
 import { useSearchParams } from "next/navigation";
-import { useEffect, useState } from "react";
+import { useEffect, useState, Suspense } from "react";
 import Image from "next/image";
 import { certificates } from "@/data/certificates";
 
@@ -17,7 +17,8 @@ import {
   CheckCircle
 } from "lucide-react";
 
-export default function VerifyPage() {
+// ── Inner component that uses useSearchParams ──────────────────────────────
+function VerifyContent() {
 
   const params = useSearchParams();
   const cinParam = params.get("cin");
@@ -126,7 +127,7 @@ export default function VerifyPage() {
                 <div className="absolute inset-0 flex items-center justify-center pointer-events-none select-none overflow-hidden">
                   <CheckCircle
                     className="text-green-500"
-                    style={{ width: "85%", height: "85%", opacity: 0.08 }}
+                    style={{ width: "75%", height: "75%", opacity: 0.06 }}
                     strokeWidth={1}
                   />
                 </div>
@@ -182,5 +183,18 @@ export default function VerifyPage() {
       )}
 
     </div>
+  );
+}
+
+// ── Page export wrapped in Suspense ───────────────────────────────────────
+export default function VerifyPage() {
+  return (
+    <Suspense fallback={
+      <div className="min-h-screen flex items-center justify-center bg-gray-50">
+        <p className="text-gray-500 text-sm">Checking certificate…</p>
+      </div>
+    }>
+      <VerifyContent />
+    </Suspense>
   );
 }
