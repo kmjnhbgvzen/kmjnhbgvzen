@@ -42,7 +42,7 @@ export const certificates = [
     start: "19-08-2025",
     end: "03-03-2026",
     issue: "03-03-2026",
-    image: "https://res.cloudinary.com/dxpyhablz/image/upload/v1772868302/Aditya_Saini_Cert._No._ZEN20250303HR26.jpg_g8bh18.jpg"
+    image: "https://res.cloudinary.com/dxpyhablz/image/upload/v1772869128/Aditya_Saini_Cert._No._ZEN20250303HR26.jpg_iz0cob.jpg"
   }
 
 ];
