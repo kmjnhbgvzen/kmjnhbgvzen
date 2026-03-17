@@ -1,15 +1,5 @@
 export const certificates = [
-  {
-    cin: "ZEN20250225HR21",
-    name: "Mansi Pathak",
-    project: "E-commerce Website",
-    college: "Kothiwal Institute of Technology & Professional Studies",
-    lor: "Yes",
-    start: "01/10/2025",
-    end: "31/10/2025",
-    issue: "08/11/2025",
-    image: "https://res.cloudinary.com/dxpyhablz/image/upload/v1772863079/mansi_pathak_cert_e1mlqr.jpg"
-  },
+  //Aaditya Saini Certificates
 
   {
     cin: "ZEN20251027HR26",
@@ -43,6 +33,24 @@ export const certificates = [
     end: "03-03-2026",
     issue: "03-03-2026",
     image: "https://res.cloudinary.com/dxpyhablz/image/upload/v1772869128/Aditya_Saini_Cert._No._ZEN20250303HR26.jpg_iz0cob.jpg"
-  }
+  },
+
+  //Ishika Gaur Certificates
+
+  {
+    cin: "ZEN20260310HR31",
+    name: "Ishika Gaur",
+    track: "Frontend Development Internship",
+    project: "Internship Certificate",
+    college: "Kothiwal Institute of Technology & Professional Studies",
+    lor: "Yes",
+    start: "10-09-2025",
+    end: "10-03-2026",
+    issue: "10-03-2026",
+    image: "https://res.cloudinary.com/dxpyhablz/image/upload/v1773739548/Ishika_certificate_ai7f7c.png"
+  },
+
+
+
 
 ];
