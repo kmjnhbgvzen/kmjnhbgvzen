@@ -47,9 +47,24 @@ export const certificates = [
     start: "10-09-2025",
     end: "10-03-2026",
     issue: "10-03-2026",
-    image: "https://res.cloudinary.com/dxpyhablz/image/upload/v1773739548/Ishika_certificate_ai7f7c.png"
+    image: "https://res.cloudinary.com/dxpyhablz/image/upload/v1774243980/Ishika_gaur_bjtvdi.png"
   },
 
+  {
+    cin: "ZEN20260308HR31",
+    name: "Ishika Gaur",
+    project: "Jigyasa Superspeciality Hospital",
+    issue: "08-03-2026",
+    image: "https://res.cloudinary.com/dxpyhablz/image/upload/v1774246026/ZEN20260308HR31_page-0001_pho5uu.jpg"
+  },
+
+  {
+    cin: "ZEN20260212HR31",
+    name: "Ishika Gaur",
+    project: "Kara Homes",
+    issue: "12-02-2026",
+    image: "https://res.cloudinary.com/dxpyhablz/image/upload/v1774246026/ZEN20260212HR31_page-0001_atrpcn.jpg"
+  },
 
 
 
