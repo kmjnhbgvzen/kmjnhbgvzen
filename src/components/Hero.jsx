@@ -9,43 +9,41 @@ const Hero = () => {
   const [particles, setParticles] = useState([]);
 
   const services = [
-    {
-      title: "Web Development Mastery",
-      prefix: "Transform Ideas Into",
-      mockup: "code",
-      icon: <Code className="w-6 h-6" />,
-      color: "from-blue-500 to-cyan-500"
-    },
-    {
-      title: "Software Development",
-      prefix: "Scale Your Business With",
-      mockup: "terminal",
-      icon: <Terminal className="w-6 h-6" />,
-      color: "from-purple-500 to-indigo-500"
-    },
-    {
-      title: "Digital Marketing Excellence",
-      prefix: "Elevate Your Brand With",
-      mockup: "analytics",
-      icon: <Megaphone className="w-6 h-6" />,
-      color: "from-orange-500 to-red-500"
-    },
-    
-    
-    {
-      title: "UI/UX Design",
-      prefix: "Create Stunning Experiences With",
-      mockup: "design",
-      icon: <Layout className="w-6 h-6" />,
-      color: "from-pink-500 to-rose-500"
-    },
-    {
-      title: "Logo Design",
-      prefix: "Build Your Identity With",
-      mockup: "logo",
-      icon: <Palette className="w-6 h-6" />,
-      color: "from-emerald-500 to-teal-500"
-    }
+   {
+  title: "Web Development",
+  prefix: "Transform Ideas With",
+  mockup: "code",
+  icon: <Code className="w-6 h-6" />,
+  color: "from-blue-500 to-cyan-500"
+},
+{
+  title: "Software Development",
+  prefix: "Scale Business With",
+  mockup: "terminal",
+  icon: <Terminal className="w-6 h-6" />,
+  color: "from-purple-500 to-indigo-500"
+},
+{
+  title: "Digital Marketing",
+  prefix: "Elevate Brand With",
+  mockup: "analytics",
+  icon: <Megaphone className="w-6 h-6" />,
+  color: "from-orange-500 to-red-500"
+},
+{
+  title: "UI/UX Design",
+  prefix: "Craft Designs With",
+  mockup: "design",
+  icon: <Layout className="w-6 h-6" />,
+  color: "from-pink-500 to-rose-500"
+},
+{
+  title: "Logo Design",
+  prefix: "Build Identity With",
+  mockup: "logo",
+  icon: <Palette className="w-6 h-6" />,
+  color: "from-emerald-500 to-teal-500"
+}
   ];
 
   const currentService = services[currentServiceIndex];
@@ -356,23 +354,23 @@ const Hero = () => {
           <div className="grid grid-cols-2 gap-3 mb-4">
             {[
               {
-                linear: "from-white/60 to-white/20 backdrop-blur-lg border border-white/30 shadow-xl",
-                img: "https://www.psdecor.in/_next/image?url=%2Fassets%2Fpslogo.PNG&w=256&q=75",
+                linear: "from-blue/60 to-blue backdrop-blur-lg border border-white/30 shadow-xl",
+                img: "https://www.thebuyzaarmart.com/images/buyzaar-logo.png",
                 alt: "Logo Variant 1"
               },
               {
                 linear: "from-slate-200/70 to-slate-500/30 backdrop-blur-lg border border-white/20 shadow-lg",
-                img: "/",
+                img: "https://res.cloudinary.com/da12wzxoq/image/upload/v1763221338/ps_logo_bv4m4a.png",
                 alt: "Logo Variant 2"
               },
               {
                 linear: "from-purple-200/60 to-pink-200/30 backdrop-blur-xl border border-white/20 shadow-xl",
-                img: "/",
+                img: "https://www.vasterior.com/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fda12wzxoq%2Fimage%2Fupload%2Fv1764841085%2Fvasteriorlogo_bmzk0r.png&w=384&q=75",
                 alt: "Logo Variant 3"
               },
               {
                 linear: "from-blue-200/60 to-cyan-200/30 backdrop-blur-xl border border-white/20 shadow-xl",
-                img: "/",
+                img: "https://res.cloudinary.com/dxpyhablz/image/upload/v1765010070/alluring_logo_vcsuge.png",
                 alt: "Logo Variant 4"
               }
 

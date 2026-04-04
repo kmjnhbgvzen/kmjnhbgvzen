@@ -1,4 +1,23 @@
 User-agent: *
-Disallow: 
+Allow: /
+
+# ✅ Allow AI crawlers explicitly
+User-agent: GPTBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: GoogleOther
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: cohere-ai
+Allow: /
 
 Sitemap: https://www.zentrixinfotech.com/sitemap.xml

@@ -24,7 +24,6 @@ export const metadata = {
     },
   },
 
-  // ✅ ADD ONLY THIS (GLOBAL FAVICON)
   icons: {
     icon: [
       {
@@ -33,6 +32,140 @@ export const metadata = {
         type: "image/x-icon",
       },
     ],
+  },
+};
+
+// ✅ ORGANIZATION SCHEMA
+const organizationSchema = {
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  name: "Zentrix Infotech",
+  url: "https://www.zentrixinfotech.com/",
+  foundingDate: "2025",
+  logo: {
+    "@type": "ImageObject",
+    url: "https://res.cloudinary.com/dewxpvl5s/image/upload/v1761370086/bg_remove_logo_zentrix_gn8ybw.png",
+    width: 512,
+    height: 512,
+  },
+  description:
+    "Zentrix Infotech is a Website Development, Custom Software, and Digital Marketing company transforming ideas into powerful digital solutions for businesses worldwide.",
+  email: "info@zentrixinfotech.com",
+  telephone: ["+91-72488-00839", "+91-63970-36898"],
+  address: [
+    {
+      "@type": "PostalAddress",
+      streetAddress: "D 2102, Kakad Paradice, Miraroad - East",
+      addressLocality: "Thane",
+      addressRegion: "Maharashtra",
+      postalCode: "401107",
+      addressCountry: "IN",
+    },
+    {
+      "@type": "PostalAddress",
+      streetAddress: "A-20, Sunshine Apartment",
+      addressLocality: "Ghaziabad",
+      addressRegion: "Uttar Pradesh",
+      postalCode: "201013",
+      addressCountry: "IN",
+    },
+  ],
+  contactPoint: [
+    {
+      "@type": "ContactPoint",
+      telephone: "+91-72488-00839",
+      contactType: "Sales",
+      availableLanguage: ["English", "Hindi"],
+    },
+    {
+      "@type": "ContactPoint",
+      telephone: "+91-63970-36898",
+      contactType: "Support",
+      availableLanguage: ["English", "Hindi"],
+    },
+  ],
+  sameAs: [
+    "https://www.facebook.com/zentrixinfotech.in/",
+    "https://www.linkedin.com/company/zentrix-infotech",
+    "https://www.instagram.com/zentrixinfotech",
+    "https://wa.me/916397036898",
+  ],
+  hasOfferCatalog: {
+    "@type": "OfferCatalog",
+    name: "Digital Services",
+    itemListElement: [
+      {
+        "@type": "Offer",
+        itemOffered: {
+          "@type": "Service",
+          name: "Web Development",
+          url: "https://www.zentrixinfotech.com/services/web-development",
+          description:
+            "Custom websites and web applications built with modern technologies for optimal performance and user experience.",
+        },
+      },
+      {
+        "@type": "Offer",
+        itemOffered: {
+          "@type": "Service",
+          name: "UI/UX Designing",
+          url: "https://www.zentrixinfotech.com/services/ui-ux-designing",
+          description:
+            "Beautiful, intuitive interfaces designed to engage users and drive conversions.",
+        },
+      },
+      {
+        "@type": "Offer",
+        itemOffered: {
+          "@type": "Service",
+          name: "Mobile App Development",
+          url: "https://www.zentrixinfotech.com/services/mobile-development",
+          description:
+            "Native and cross-platform mobile applications for iOS and Android.",
+        },
+      },
+      {
+        "@type": "Offer",
+        itemOffered: {
+          "@type": "Service",
+          name: "Software Development",
+          url: "https://www.zentrixinfotech.com/services/software-development",
+          description:
+            "Comprehensive software solutions to improve efficiency and drive innovation.",
+        },
+      },
+      {
+        "@type": "Offer",
+        itemOffered: {
+          "@type": "Service",
+          name: "Digital Marketing",
+          url: "https://www.zentrixinfotech.com/services/digital-marketing",
+          description:
+            "Strategic digital marketing campaigns to boost online presence and drive measurable business growth.",
+        },
+      },
+      {
+        "@type": "Offer",
+        itemOffered: {
+          "@type": "Service",
+          name: "Cloud Solutions",
+          url: "https://www.zentrixinfotech.com/services/cloud-solutions",
+          description:
+            "Scalable cloud infrastructure and services to enhance performance, security, and business continuity.",
+        },
+      },
+    ],
+  },
+  aggregateRating: {
+    "@type": "AggregateRating",
+    ratingValue: "4.7",
+    bestRating: "5",
+    worstRating: "1",
+    reviewCount: "270",
+  },
+  areaServed: {
+    "@type": "Country",
+    name: "India",
   },
 };
 
@@ -48,6 +181,15 @@ export default function RootLayout({ children }) {
           name="google-site-verification"
           content="NrE50hHl6c-azA8AW6DpgA0bwM54EcK2iL3JOBRgX4Q"
         />
+
+        {/* ✅ ORGANIZATION SCHEMA */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify(organizationSchema),
+          }}
+        />
+        {/* ✅ END ORGANIZATION SCHEMA */}
 
         {/* ✅ GOOGLE TAG MANAGER */}
         <Script
