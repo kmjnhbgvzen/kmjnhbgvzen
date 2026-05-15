@@ -187,17 +187,20 @@ export default function Navbar() {
                                     <div className="absolute top-full left-0 w-56 bg-white rounded-md shadow-lg border border-gray-200 z-50">
                                         <div className="py-2">
                                             <DropdownItem href="/services">ALL SERVICES</DropdownItem>
+                                            <NestedDropdown href="/services/political-campaign-management" label="POLITICAL CAMPAIGN MANAGEMENT" icon={false} />
                                             <NestedDropdown id="digital" href="/services/digital-marketing" label="DIGITAL MARKETING" links={digitalMarketingLinks} />
                                             <NestedDropdown id="mobile" href="/services/mobile-development" label="MOBILE DEVELOPMENT" links={mobileDevLinks} />
                                             <NestedDropdown id="web" href="/services/web-development" label="WEB DEVELOPMENT" links={webDevLinks} />
                                             <NestedDropdown href="/services/software-development" label="SOFTWARE DEVELOPMENT" icon={false} />
                                             <NestedDropdown href="/services/ui-ux-designing" label="UI & UX DESIGNING" icon={false} />
                                             <NestedDropdown href="/services/cloud-solutions" label="CLOUD SOLUTIONS" icon={false} />
+                                            
+                                            
                                         </div>
                                     </div>
                                 )}
                             </div>
-
+                           
                             <NavLink href="/portfolio">Portfolio</NavLink>
                             <NavLink href="/contact-us">Contact Us</NavLink>
                             <NavLink href="/blog">Blogs</NavLink>
