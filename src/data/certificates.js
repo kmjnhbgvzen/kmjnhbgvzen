@@ -97,7 +97,7 @@ export const certificates = [
   cin: "ZEN20260606HR21",
   name: "Mansi Pathak",
   designation: "Full Stack Developer",
-  project: "Experience Certificate",
+  experience: "Experience Certificate",
   company: "Zentrix Infotech",
   start: "05-01-2025",
   end: "05-06-2026",
