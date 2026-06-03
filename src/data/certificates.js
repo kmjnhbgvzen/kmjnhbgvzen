@@ -43,7 +43,7 @@ export const certificates = [
     track: "Frontend Development Internship",
     project: "Internship Certificate",
     college: "Kothiwal Institute of Technology & Professional Studies",
-    lor: "Yes",
+
     start: "10-09-2025",
     end: "10-03-2026",
     issue: "10-03-2026",
@@ -66,6 +66,18 @@ export const certificates = [
     image: "https://res.cloudinary.com/dxpyhablz/image/upload/v1774246026/ZEN20260212HR31_page-0001_atrpcn.jpg"
   },
 
-
+  //Smriti Diwaker Certificates
+  {
+    cin: "ZEN20260602HR35",
+    name: "Smriti Diwakar",
+    track: "SEO Internship",
+    project: "Internship Certificate",
+    college: "Kothiwal Institute of Technology & Professional Studies",
+  
+    start: "25-11-2025",
+    end: "01-06-2026",
+    issue: "02-06-2026",
+    image: "https://res.cloudinary.com/dxpyhablz/image/upload/v1780466587/smriti_diwakar_lbjlso.png"
+  },
 
 ];
