@@ -80,4 +80,28 @@ export const certificates = [
     image: "https://res.cloudinary.com/dxpyhablz/image/upload/v1780466587/smriti_diwakar_lbjlso.png"
   },
 
+  // Mansi Pathak Certificates
+  {
+    cin: "ZEN20260106HR21",
+    name: "Mansi Pathak",
+    track: "Full Stack Development Internship",
+    project: "Internship Certificate",
+    college: "Kothiwal Institute of Technology & Professional Studies",
+    start: "05-07-2025",
+    end: "05-01-2026",
+    issue: "06-01-2026",
+    image: "https://res.cloudinary.com/dxpyhablz/image/upload/v1780471602/Mansi_Internship_Certificate_jwmb90.png"
+  },
+
+  {
+  cin: "ZEN20260606HR21",
+  name: "Mansi Pathak",
+  designation: "Full Stack Developer",
+  project: "Experience Certificate",
+  company: "Zentrix Infotech",
+  start: "05-01-2025",
+  end: "05-06-2026",
+  issue: "06-06-2026",
+  image: "https://res.cloudinary.com/dxpyhablz/image/upload/v1780471666/Mansi_Job_Certificate_wxrouq.png"
+  }
 ];

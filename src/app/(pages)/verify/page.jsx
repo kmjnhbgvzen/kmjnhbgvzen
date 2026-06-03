@@ -125,6 +125,7 @@ function VerifyContent() {
     { icon: Hash,          label: "CIN",              value: certificate.cin },
     { icon: User,          label: "Name",             value: certificate.name },
     { icon: FileText,      label: "Internship Track", value: certificate.track },
+    { icon: User,     label: "Designation",      value: certificate.designation },
     { icon: FileText,      label: "Project Topic",    value: certificate.project },
     { icon: Building2,     label: "College",          value: certificate.college },
     { icon: GraduationCap, label: "LoR",              value: certificate.lor },
