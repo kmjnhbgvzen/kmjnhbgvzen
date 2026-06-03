@@ -102,6 +102,6 @@ export const certificates = [
   start: "05-01-2025",
   end: "05-06-2026",
   issue: "06-06-2026",
-  image: "https://res.cloudinary.com/dxpyhablz/image/upload/v1780471666/Mansi_Job_Certificate_wxrouq.png"
+  image: "https://res.cloudinary.com/dxpyhablz/image/upload/v1780473734/Mansi_Job_Certificate_ti0uoa.png"
   }
 ];
