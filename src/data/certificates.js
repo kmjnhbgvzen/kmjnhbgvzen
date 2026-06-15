@@ -103,5 +103,17 @@ export const certificates = [
   end: "05-06-2026",
   issue: "06-06-2026",
   image: "https://res.cloudinary.com/dxpyhablz/image/upload/v1780473734/Mansi_Job_Certificate_ti0uoa.png"
-  }
+  },
+
+  //Arun Kumar Certificates
+  {
+  cin: "ZEN20260615HR41",
+  name: "Arun Kumar",
+  track: "Web Development Internship",
+  project: "Internship Certificate",
+  start: "01 February 2026",
+  end: "15 June 2026",
+  issue: "15 June 2026",
+  image: "https://res.cloudinary.com/dxpyhablz/image/upload/v1781526421/arun-kumar-certificate_qtwur9.jpg"
+}
 ];
