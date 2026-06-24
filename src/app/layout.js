@@ -54,13 +54,13 @@ const organizationSchema = {
   telephone: ["+91-72488-00839", "+91-63970-36898"],
   address: [
     {
-      "@type": "PostalAddress",
-      streetAddress: "D 2102, Kakad Paradice, Miraroad - East",
-      addressLocality: "Thane",
-      addressRegion: "Maharashtra",
-      postalCode: "401107",
-      addressCountry: "IN",
-    },
+  "@type": "PostalAddress",
+  "streetAddress": "12/11, Buddhi Vihar Phase 2",
+  "addressLocality": "Moradabad",
+  "addressRegion": "Uttar Pradesh",
+  "postalCode": "244001",
+  "addressCountry": "IN"
+},
     {
       "@type": "PostalAddress",
       streetAddress: "A-20, Sunshine Apartment",

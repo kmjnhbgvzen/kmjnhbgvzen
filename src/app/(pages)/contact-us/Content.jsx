@@ -217,11 +217,10 @@ export default function ContactUs() {
                                             <h3 className="text-lg sm:text-xl font-bold text-[#1E293B] mb-2">Our Offices</h3>
                                             <div className="space-y-2">
                                                 <p className="text-sm text-gray-600 wrap-break-word">
-                                                    1. D 2102, Kakad Paradice, Miraroad - East, Thane (Mumbai)
-                                                    - 401107
+                                                    12/11, Buddhi Vihar Phase 2, Moradabad, Uttar Pradesh 244001
                                                 </p>
                                                 <p className="text-sm text-gray-600 wrap-break-word">
-                                                   2. A-20 Sunshine Apartment, Ghaziabad, UP - 201013
+                                                    A-20 Sunshine Apartment, Ghaziabad, UP - 201013
                                                 </p>
                                             </div>
                                         </div>

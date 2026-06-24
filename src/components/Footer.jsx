@@ -107,10 +107,9 @@ const Footer = () => {
                     <MapPin className="w-5 h-5 text-blue-600" />
                   </div>
                    <div>
-                                    <p className="text-gray-700">1. D 2102, Kakad Paradice, Miraroad - East, Thane (Mumbai)
-                                        - 401107
+                                    <p className="text-gray-700">12/11, Buddhi Vihar Phase 2, Moradabad, Uttar Pradesh 244001
                                     </p>
-                                    <p className="text-gray-700">2. A-20 Sunshine Apartment, Ghaziabad, UP 
+                                    <p className="text-gray-700">A-20 Sunshine Apartment, Ghaziabad, UP 
                                         - 201013
                                     </p>
                                 </div>
