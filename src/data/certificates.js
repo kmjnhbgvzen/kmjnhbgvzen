@@ -115,5 +115,19 @@ export const certificates = [
   end: "15 June 2026",
   issue: "15 June 2026",
   image: "https://res.cloudinary.com/dxpyhablz/image/upload/v1781526421/arun-kumar-certificate_qtwur9.jpg"
-}
+},
+
+//Priya Yadav Certificates
+  {
+    cin: "ZEN20260602HR33",
+    name: "Priya Yadav",
+    track: "SEO Internship",
+    project: "Internship Certificate",
+    college: "Kothiwal Institute of Technology & Professional Studies",
+  
+    start: "25-11-2025",
+    end: "01-06-2026",
+    issue: "02-06-2026",
+    image: "https://res.cloudinary.com/dxpyhablz/image/upload/v1782288155/Priya_Yadav_Internship_Certificate_rzdmqm.jpg"
+  },
 ];
