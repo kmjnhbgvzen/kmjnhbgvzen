@@ -6,26 +6,50 @@ import LandingServices from "@/components/LandingServices";
 export default function BillingSoftwareForRetail() {
   return (
     <main className="bg-white">
-      
       {/* Hero */}
-      <section className="relative bg-gray-500 text-white py-10 px-6">
-        <div className="max-w-7xl mx-auto text-center">
-          <h1 className="text-3xl md:text-4xl font-serif mb-4 mt-18 md:mt-30">
-            Billing Software for Retail Shops
-          </h1>
-          <p className="text-xl mb-8">
-            A Smart Way to Generate More Leads and Increase Sales
-          </p>
-          <div className="flex gap-4 justify-center">
-            <a href="tel:+917248800839">
-              <button className="bg-blue-500 px-3 py-2 rounded-lg font-semiserif border-2 border-white hover:bg-blue-400">
-                <Phone className="inline mr-2" size={20} />
-                Call Now
-              </button>
-            </a>
-          </div>
-        </div>
-      </section>
+<section
+  className="relative text-white py-20 px-6 bg-cover bg-center"
+  style={{
+    backgroundImage: "url('https://images.unsplash.com/photo-1644088379091-d574269d422f?auto=format&fit=crop&w=1200&q=70')" // 👈 put your image path here
+  }}
+>
+  {/* Overlay (for readability) */}
+  <div className="absolute inset-0 bg-black/60"></div>
+
+  <div className="relative max-w-7xl mx-auto text-center">
+    
+    <h1 className="text-3xl md:text-4xl font-serif mb-4 mt-18 md:mt-30">
+      Billing Software for Retail Shops
+    </h1>
+
+    <p className="text-xl mb-6">
+      A Smart Way to Generate More Leads and Increase Sales
+    </p>
+
+    {/* Buttons */}
+    <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
+      
+      {/* Call Button */}
+      <a href="tel:+917248800839">
+        <button className="bg-gradient-to-r from-[#2eaad4] to-[#2c67f2] px-5 py-3 rounded-xl font-semibold border-2 border-white hover:bg-blue-400 transition flex items-center justify-center gap-2 shadow-lg">
+          <Phone size={18} />
+          <span className="text-base">
+            +91 7248800839
+          </span>
+        </button>
+      </a>
+
+      {/* Email Button */}
+      <a href="mailto:zentrixit@gmail.com">
+        <button className="bg-transparent px-4 py-2 rounded-lg font-semibold border-2 border-white hover:bg-white hover:text-gray-800 transition">
+          Book Appointment
+        </button>
+      </a>
+
+    </div>
+
+  </div>
+</section>
 
       {/* Content with Sidebar */}
       <section className="py-16 px-6">
