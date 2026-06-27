@@ -12,7 +12,7 @@ export const metadata = {
   keywords: "seo company for indian business uae, seo for indian businesses in dubai, indian business seo uae, seo services for indian entrepreneurs uae, digital marketing for indian business dubai, seo company uae indian community, best seo agency for indian business dubai, indian owned business seo dubai, seo uae indian expat business",
   
   alternates: {
-    canonical: "https://www.zentrixinfotech.com/seo-company-for-indian-business-uae",
+    canonical: "https://www.zentrixinfotech.com/dubai/seo-company-for-indian-business-uae",
   },
 
   // ✅ ✅ ✅ OPEN GRAPH (FOR SOCIAL SHARING)
@@ -23,7 +23,7 @@ export const metadata = {
     description:
       "Zentrix Infotech is a trusted Indian SEO agency in UAE delivering data-driven SEO strategies, higher Google rankings, and measurable ROI for businesses across UAE. Get a FREE audit today.",
 
-    url: "https://www.zentrixinfotech.com/seo-company-for-indian-business-uae",
+    url: "https://www.zentrixinfotech.com/dubai/seo-company-for-indian-business-uae",
     siteName: "Zentrix Infotech",
 
     images: [
