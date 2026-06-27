@@ -28,15 +28,12 @@ const Footer = () => {
     { name: "UI/UX Designing", href: "/services/ui-ux-designing", icon: Palette },
     { name: "Mobile App Development", href: "/services/mobile-development", icon: Smartphone },
     { name: "Cloud Solutions", href: "/services/cloud-solutions", icon: Cloud },
-    
   ];
-
 
   const resources = [
     { name: "Blog", href: "/blog" }, 
     { name: "Support", href: "/support" },
   ];
-
 
   const legal = [
     { name: "Privacy Policy", href: "/privacy-policy" },
@@ -45,20 +42,26 @@ const Footer = () => {
     { name: "Licenses", href: "/licenses" },
   ];
 
-
   const company = [
     { name: "Careers", href: "/careers" },
     { name: "About Us", href: "/about-us" },
-    
   ];
 
+  const addresses = [
+    "12/11, Buddhi Vihar Phase 2, Moradabad, Uttar Pradesh 244001",
+    "A-20 Sunshine Apartment, Ghaziabad, UP - 201013",
+  ];
+
+  const phones = [
+    "+917248800839",
+    "+916397036898",
+  ];
 
   const socialLinks = [
     { name: "Facebook", href: "https://www.facebook.com/zentrixinfotech.in/", icon: Facebook },
     { name: "LinkedIn", href: "https://www.linkedin.com/company/zentrix-infotech", icon: Linkedin },
     { name: "Instagram", href: "https://www.instagram.com/zentrixinfotech", icon: Instagram }
   ];
-
 
   return (
     <footer className="relative bg-linear-to-b from-slate-50 to-white border-t border-slate-200/50 overflow-hidden">
@@ -68,12 +71,12 @@ const Footer = () => {
       <div className="absolute bottom-0 right-1/4 w-96 h-96 bg-linear-to-r from-purple-500/10 to-pink-500/10 rounded-full blur-3xl animate-pulse"></div>
       <div className="absolute inset-0 bg-grid-slate-900/[0.02] bg-size-[32px_32px]"></div>
 
-
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Main Footer Content */}
         <div className="py-16">
           <div className="grid grid-cols-1 lg:grid-cols-5 gap-12">
-            {/* Company Branding Section */}
+
+            {/* ✅ Company Branding Section — lg:col-span-2 */}
             <div className="lg:col-span-2">
               {/* Logo */}
               <div className="mb-8">
@@ -88,10 +91,9 @@ const Footer = () => {
                 </Link>
               </div>
 
-
               {/* Company Description */}
               <div className="mb-8">
-                <h3 className="text-2xl font-bold font-serif text-slate-900 mb-4 bg-linear-to-r from-slate-900 to-slate-700 bg-clip-text ">
+                <h3 className="text-2xl font-bold font-serif text-slate-900 mb-4 bg-linear-to-r from-slate-900 to-slate-700 bg-clip-text">
                   Zentrix Infotech
                 </h3>
                 <p className="text-slate-700 text-base leading-relaxed mb-6">
@@ -99,56 +101,56 @@ const Footer = () => {
                 </p>
               </div>
 
-
               {/* Contact Information */}
               <div className="space-y-4">
-                <div className="flex items-center text-slate-700 hover:text-slate-900 transition-colors group">
-                  <div className="w-10 h-10 rounded-lg bg-slate-100 flex items-center justify-center group-hover:bg-blue-100 transition-colors mr-3">
-                    <MapPin className="w-5 h-5 text-blue-600" />
+                {/* Addresses */}
+                {addresses.map((address, index) => (
+                  <div
+                    key={index}
+                    className="flex items-center text-slate-700 hover:text-slate-900 transition-colors group"
+                  >
+                    <div className="w-10 h-10 rounded-lg bg-slate-100 flex items-center justify-center group-hover:bg-blue-100 transition-colors mr-3">
+                      <MapPin className="w-5 h-5 text-blue-600" />
+                    </div>
+                    <p className="text-gray-700">{address}</p>
                   </div>
-                   <div>
-                                    <p className="text-gray-700">12/11, Buddhi Vihar Phase 2, Moradabad, Uttar Pradesh 244001
-                                    </p>
-                                    <p className="text-gray-700">A-20 Sunshine Apartment, Ghaziabad, UP 
-                                        - 201013
-                                    </p>
-                                </div>
-                                        
-                                        
-                </div>
-                <div className="flex items-start text-slate-700 hover:text-slate-900 transition-colors group">
-                  <div className="w-10 h-10 rounded-lg bg-slate-100 flex items-center justify-center group-hover:bg-green-100 transition-colors mr-3 mt-1">
-                    <Phone className="w-5 h-5 text-green-600" />
-                  </div>
-                  <div className="flex flex-col space-y-1">
-                    <Link 
-                      href="tel:+917248800839"
+                ))}
+
+                {/* Phone Numbers */}
+                {phones.map((phone, index) => (
+                  <div
+                    key={index}
+                    className="flex items-start text-slate-700 hover:text-slate-900 transition-colors group"
+                  >
+                    <div className="w-10 h-10 rounded-lg bg-slate-100 flex items-center justify-center group-hover:bg-green-100 transition-colors mr-3 mt-1">
+                      <Phone className="w-5 h-5 text-green-600" />
+                    </div>
+                    <Link
+                      href={`tel:${phone}`}
                       className="hover:text-green-600 cursor-pointer transition-all duration-200"
                     >
-                      +91 724-880-0839
-                    </Link>
-                    <Link 
-                      href="tel:+916397036898" 
-                      className="hover:text-green-600 cursor-pointer transition-all duration-200"
-                    >
-                      +91 639-703-6898
+                      {phone.replace("+91", "+91 ")}
                     </Link>
                   </div>
-                </div>
-                <Link 
+                ))}
+
+                {/* Email */}
+                <Link
                   href="mailto:info@zentrixinfotech.com"
                   className="flex items-center text-slate-700 hover:text-slate-900 transition-colors group cursor-pointer"
                 >
                   <div className="w-10 h-10 rounded-lg bg-slate-100 flex items-center justify-center group-hover:bg-purple-100 transition-colors mr-3">
                     <Mail className="w-5 h-5 text-purple-600" />
                   </div>
-                  <span className="group-hover:text-purple-600">info@zentrixinfotech.com</span>
+                  <span className="group-hover:text-purple-600">
+                    info@zentrixinfotech.com
+                  </span>
                 </Link>
               </div>
             </div>
+            {/* ✅ END lg:col-span-2 */}
 
-
-            {/* Navigation Links */}
+            {/* ✅ Navigation Links — lg:col-span-3 */}
             <div className="lg:col-span-3 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
               {/* Solutions */}
               <div>
@@ -177,8 +179,7 @@ const Footer = () => {
                   })}
                 </ul>
               </div>
-              
-                            
+
               {/* Resources */}
               <div>
                 <h3 className="text-slate-900 font-semibold text-lg mb-6">Resources</h3>
@@ -197,7 +198,6 @@ const Footer = () => {
                 </ul>
               </div>
 
-
               {/* Company */}
               <div>
                 <h3 className="text-slate-900 font-semibold text-lg mb-6">Company</h3>
@@ -214,7 +214,6 @@ const Footer = () => {
                   ))}
                 </ul>
               </div>
-
 
               {/* Legal & Social */}
               <div>
@@ -237,7 +236,6 @@ const Footer = () => {
                   ))}
                 </ul>
 
-
                 {/* Social Links */}
                 <div>
                   <h4 className="text-slate-900 font-medium text-sm mb-4">Follow Us</h4>
@@ -258,11 +256,12 @@ const Footer = () => {
                 </div>
               </div>
             </div>
+            {/* ✅ END lg:col-span-3 */}
+
           </div>
         </div>
 
-
-        {/* Bottom Bar (Updated) */}
+        {/* Bottom Bar */}
         <div className="border-t border-slate-200/50 py-8">
           <div className="flex justify-center items-center text-slate-600 text-sm">
             © 2026 Zentrix Infotech. All rights reserved.
@@ -272,6 +271,5 @@ const Footer = () => {
     </footer>
   );
 };
-
 
 export default Footer;
