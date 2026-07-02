@@ -21,12 +21,12 @@ export default function BillingSoftwareForRetail() {
           
           {/* Heading */}
           <h1 className="text-3xl md:text-4xl font-serif mb-4 mt-18 md:mt-30">
-           Seo Services in Ghaziabad
+Ecommerce Marketing Services in Hapur
           </h1>
 
           {/* Subheading */}
           <p className="text-xl mb-6">
-           Zentrix Infotech empowers businesses in Ghaziabad with innovative digital marketing solutions that enhance online presence, attract the right audience, and deliver measurable business results.
+            Zentrix Infotech delivers result-oriented digital marketing services in Hapur, helping businesses build a powerful online presence, connect with the right audience, and turn digital opportunities into long-term success.
           </p>
 
           {/* CTA Buttons */}

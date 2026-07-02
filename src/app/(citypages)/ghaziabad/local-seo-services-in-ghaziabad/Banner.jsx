@@ -26,7 +26,7 @@ export default function BillingSoftwareForRetail() {
 
           {/* Subheading */}
           <p className="text-xl mb-6">
-            Zentrix Infotech is a trusted Indian SEO agency in Dubai delivering data-driven SEO strategies, higher Google rankings, and measurable ROI for businesses across Dubai. Get a FREE audit today. 
+           Zentrix Infotech empowers businesses in Ghaziabad with innovative digital marketing solutions that enhance online presence, attract the right audience, and deliver measurable business results.
           </p>
 
           {/* CTA Buttons */}

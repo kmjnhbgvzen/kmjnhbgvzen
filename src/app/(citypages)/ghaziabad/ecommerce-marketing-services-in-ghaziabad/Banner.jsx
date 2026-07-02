@@ -21,7 +21,7 @@ export default function BillingSoftwareForRetail() {
           
           {/* Heading */}
           <h1 className="text-3xl md:text-4xl font-serif mb-4 mt-18 md:mt-30">
-           Seo Services in Ghaziabad
+           Ecommerce Marketing Services in Ghaziabad
           </h1>
 
           {/* Subheading */}
