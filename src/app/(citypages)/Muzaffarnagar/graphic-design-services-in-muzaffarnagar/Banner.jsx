@@ -21,7 +21,7 @@ export default function BillingSoftwareForRetail() {
           
           {/* Heading */}
           <h1 className="text-3xl md:text-4xl font-serif mb-4 mt-18 md:mt-30">
-Website Development Company in Muzaffarnagar
+Graphic Design Services in Muzaffarnagar
           </h1>
 
           {/* Subheading */}
