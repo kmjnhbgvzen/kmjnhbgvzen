@@ -32,8 +32,6 @@ const TechServicesForm = () => {
     if (!isClient || scriptLoadedRef.current) return;
 
     const renderRecaptcha = () => {
-      if (renderAttemptedRef.current) return;
-      
       const container = document.getElementById('recaptcha-container');
       if (!container) {
         console.error('Container not found');
@@ -47,8 +45,8 @@ const TechServicesForm = () => {
 
       try {
         console.log('Rendering reCAPTCHA...');
-        renderAttemptedRef.current = true;
-        
+        container.innerHTML = '';
+
         recaptchaRef.current = window.grecaptcha.render('recaptcha-container', {
           sitekey: RECAPTCHA_SITE_KEY,
           theme: 'light',
@@ -59,18 +57,21 @@ const TechServicesForm = () => {
           'error-callback': () => {
             console.error('reCAPTCHA error - check console');
             setError('reCAPTCHA failed. Please check that your domain is authorized in Google reCAPTCHA admin.');
+            renderAttemptedRef.current = false;
           },
           'expired-callback': () => {
             console.log('reCAPTCHA expired');
+            renderAttemptedRef.current = false;
           }
         });
-        
+
         console.log('reCAPTCHA rendered with widget ID:', recaptchaRef.current);
         setRecaptchaLoaded(true);
+        renderAttemptedRef.current = true;
       } catch (error) {
         console.error('reCAPTCHA render error:', error);
         setError('Failed to initialize reCAPTCHA: ' + error.message);
-        renderAttemptedRef.current = false; // Allow retry
+        renderAttemptedRef.current = false;
       }
     };
 
@@ -81,39 +82,36 @@ const TechServicesForm = () => {
       return;
     }
 
-    // Set up global callback
-    window.onRecaptchaLoad = () => {
+    window.recaptchaCallback = () => {
       console.log('reCAPTCHA script loaded via callback');
       setTimeout(renderRecaptcha, 100);
     };
 
-    // Check if script already exists
-    const existingScript = document.querySelector('script[src*="recaptcha"]');
-    
+    const existingScript = document.getElementById('recaptcha-script');
     if (existingScript) {
       console.log('reCAPTCHA script already in DOM');
-      // Wait for it to load
-      const checkInterval = setInterval(() => {
-        if (window.grecaptcha && window.grecaptcha.render) {
-          clearInterval(checkInterval);
-          renderRecaptcha();
-        }
-      }, 100);
-      
-      // Stop checking after 10 seconds
-      setTimeout(() => clearInterval(checkInterval), 10000);
+      if (window.grecaptcha && window.grecaptcha.render) {
+        renderRecaptcha();
+      } else {
+        const checkInterval = setInterval(() => {
+          if (window.grecaptcha && window.grecaptcha.render) {
+            clearInterval(checkInterval);
+            renderRecaptcha();
+          }
+        }, 100);
+        setTimeout(() => clearInterval(checkInterval), 10000);
+      }
     } else {
       console.log('Loading reCAPTCHA script...');
       const script = document.createElement('script');
-      script.src = `https://www.google.com/recaptcha/api.js?onload=onRecaptchaLoad&render=explicit`;
+      script.id = 'recaptcha-script';
+      script.src = `https://www.google.com/recaptcha/api.js?onload=recaptchaCallback&render=explicit`;
       script.async = true;
       script.defer = true;
-      
       script.onerror = () => {
         console.error('Failed to load reCAPTCHA script');
         setError('Failed to load reCAPTCHA. Please check your internet connection.');
       };
-      
       document.head.appendChild(script);
       scriptLoadedRef.current = true;
     }

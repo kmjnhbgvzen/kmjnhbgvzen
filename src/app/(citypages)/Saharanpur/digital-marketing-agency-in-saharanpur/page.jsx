@@ -7,19 +7,19 @@ import Portfolio from "@/components/Portfolio";
 import LandingServices from "@/components/LandingServices";
 
 export const metadata = {
-  title: "Digital Marketing Agency in Saharanpur | Grow Your Business Online",
+  title: "Digital Marketing Agency in Saharanpur | Best SEO, Social Media & Web Experts",
   description:
-    "Find a trusted digital marketing agency in Saharanpur for SEO, PPC, social media, web design, and content that drive real leads and business growth.",
+    "Looking for a trusted digital marketing agency in Saharanpur? Get expert SEO, social media, PPC, web design & branding services that grow local businesses online.",
   keywords:
-    "digital marketing agency in Saharanpur, digital marketing services Saharanpur, SEO company Saharanpur, PPC agency Saharanpur, social media marketing Saharanpur, web design company Saharanpur, online marketing agency Saharanpur",
+    "digital marketing agency in Saharanpur, digital marketing company Saharanpur, SEO services Saharanpur, social media marketing Saharanpur, best digital marketing agency near me, web design company Saharanpur, PPC services Saharanpur, local SEO Saharanpur",
   alternates: {
     canonical:
       "https://www.zentrixinfotech.com/cities/saharanpur/digital-marketing-agency-in-saharanpur",
   },
   openGraph: {
-    title: "Digital Marketing Agency in Saharanpur | Grow Your Business Online",
+    title: "Digital Marketing Agency in Saharanpur | Best SEO, Social Media & Web Experts",
     description:
-      "Find a trusted digital marketing agency in Saharanpur for SEO, PPC, social media, web design, and content that drive real leads and business growth.",
+      "Looking for a trusted digital marketing agency in Saharanpur? Get expert SEO, social media, PPC, web design & branding services that grow local businesses online.",
     url: "https://www.zentrixinfotech.com/cities/saharanpur/digital-marketing-agency-in-saharanpur",
     siteName: "Zentrix Infotech",
     images: [
@@ -35,9 +35,9 @@ export const metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Digital Marketing Agency in Saharanpur | Grow Your Business Online",
+    title: "Digital Marketing Agency in Saharanpur | Best SEO, Social Media & Web Experts",
     description:
-      "Find a trusted digital marketing agency in Saharanpur for SEO, PPC, social media, web design, and content that drive real leads and business growth.",
+      "Looking for a trusted digital marketing agency in Saharanpur? Get expert SEO, social media, PPC, web design & branding services that grow local businesses online.",
     images: ["https://www.zentrixinfotech.com/zentrix_logo.jpg"],
   },
   icons: {
