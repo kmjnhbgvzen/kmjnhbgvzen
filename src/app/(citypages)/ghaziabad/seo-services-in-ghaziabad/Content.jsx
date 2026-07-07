@@ -194,7 +194,7 @@ const Content = () => {
 
             <p>Issues found during the review:</p>
             <ul className="list-disc list-inside space-y-2 ml-4">
-              <li>Location mismatch for this campaign: the business address listed is Ghaziabad alongside a Moradabad office, but the homepage has no Ghaziabad-specific local SEO content, no embedded Google Map, and no NAP-rich local landing page targeting Ghaziabad or nearby NCR localities.</li>
+              <li>Location mismatch for this campaign: the business address listed is Ghaziabad alongside a ghaziabad office, but the homepage has no Ghaziabad-specific local SEO content, no embedded Google Map, and no NAP-rich local landing page targeting Ghaziabad or nearby NCR localities.</li>
               <li>No dedicated SEO service page detected in the visible navigation — SEO appears bundled under &quot;Digital Marketing&quot; rather than having its own page, despite SEO appearing in the meta keywords.</li>
               <li>Geographic confusion in copy: the homepage states the company is in Dubai, which contradicts the Indian business addresses and could confuse both users and search engines about the company&apos;s actual location and service area.</li>
               <li>Thin homepage body copy: outside of the about section and testimonials, there&apos;s limited unique written content on the homepage itself.</li>
@@ -262,7 +262,7 @@ const Content = () => {
             </p>
           </div>
 
-          <CityInternalLinks city="moradabad" currentSlug="/cities/moradabad/website-design-company-in-moradabad" />
+          <CityInternalLinks city="ghaziabad" currentSlug="/ghaziabad/website-design-company-in-ghaziabad" />
         </div>
 
         <div className="w-[400px] lg:w-[500px] p-8 order-2 lg:order-2">

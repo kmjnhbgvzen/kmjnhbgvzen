@@ -13,7 +13,8 @@ export const metadata = {
   keywords:
     "social media marketing agency in Hapur, social media marketing Hapur, Instagram marketing Hapur, Facebook ads Hapur, social media management company Hapur, best social media agency Hapur, social media services Hapur",
   alternates: {
-    canonical: "https://www.zentrixinfotech.com/cities/hapur/social-media-marketing-agency-in-hapur",
+    canonical:
+      "https://www.zentrixinfotech.com/cities/hapur/social-media-marketing-agency-in-hapur",
   },
   openGraph: {
     title: "Social Media Marketing Agency in Hapur | Grow Your Brand Online",

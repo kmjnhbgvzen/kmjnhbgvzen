@@ -235,7 +235,7 @@ const Content = () => {
             </p>
           </div>
 
-          <CityInternalLinks city="hapur" currentSlug="/cities/hapur/local-seo-services-in-hapur" />
+          <CityInternalLinks city="hapur" currentSlug="/hapur/local-seo-services-in-hapur" />
         </div>
 
         <div className="w-[400px] lg:w-[500px] p-8 order-2 lg:order-2">

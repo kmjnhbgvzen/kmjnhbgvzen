@@ -96,7 +96,7 @@ const Content = () => {
             </ul>
 
             <p>
-              This is where a company like Zentrix Infotech fits in for businesses based in Ghaziabad and the surrounding NCR region. Zentrix Infotech is an IT and digital marketing company with a physical presence in Ghaziabad (A-20 Sunshine Apartment) and Moradabad, offering local SEO as part of its broader digital marketing services alongside web development, software development, and social media marketing. Because the team already builds and manages websites for clients across different industries — from healthcare (Jigyasa Hospital) to education (KDEDU) to retail (The Buyzaar Mart) — local SEO work is handled with a practical understanding of how the website, content, and search visibility need to work together, rather than as an isolated, disconnected service.
+              This is where a company like Zentrix Infotech fits in for businesses based in Ghaziabad and the surrounding NCR region. Zentrix Infotech is an IT and digital marketing company with a physical presence in Ghaziabad (A-20 Sunshine Apartment) and ghaziabad, offering local SEO as part of its broader digital marketing services alongside web development, software development, and social media marketing. Because the team already builds and manages websites for clients across different industries — from healthcare (Jigyasa Hospital) to education (KDEDU) to retail (The Buyzaar Mart) — local SEO work is handled with a practical understanding of how the website, content, and search visibility need to work together, rather than as an isolated, disconnected service.
             </p>
 
             <h2 className="text-xl sm:text-2xl font-semibold text-gray-900">
@@ -231,7 +231,7 @@ const Content = () => {
             </p>
           </div>
 
-          <CityInternalLinks city="moradabad" currentSlug="/cities/moradabad/website-design-company-in-moradabad" />
+          <CityInternalLinks city="ghaziabad" currentSlug="/ghaziabad/website-design-company-in-ghaziabad" />
         </div>
 
         <div className="w-[400px] lg:w-[500px] p-8 order-2 lg:order-2">

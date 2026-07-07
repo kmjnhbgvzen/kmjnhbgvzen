@@ -127,7 +127,7 @@ const Content = () => {
             </h2>
 
             <p>
-              One agency operating in the Ghaziabad market worth evaluating is Zentrix Infotech, which maintains an office at A-20 Sunshine Apartment, Ghaziabad, alongside its base in Moradabad. Based on a detailed review of their website, here&apos;s an honest breakdown of what they offer and how they position themselves in the design space.
+              One agency operating in the Ghaziabad market worth evaluating is Zentrix Infotech, Moradawhich maintains an office at A-20 Sunshine Apartment, Ghaziabad, alongside its base in bad. Based on a detailed review of their website, here&apos;s an honest breakdown of what they offer and how they position themselves in the design space.
             </p>
 
             <ul className="list-disc list-inside space-y-2 ml-4">
@@ -142,7 +142,7 @@ const Content = () => {
             </p>
 
             <p>
-              Regional presence. With offices in Ghaziabad and Moradabad, Zentrix appears well-positioned to serve clients across western Uttar Pradesh and the greater NCR region, combining local accessibility with a portfolio that spans clients across India.
+              Regional presence. With offices in Ghaziabad and ghaziabad, Zentrix appears well-positioned to serve clients across western Uttar Pradesh and the greater NCR region, combining local accessibility with a portfolio that spans clients across India.
             </p>
 
             <h2 className="text-xl sm:text-2xl font-semibold text-gray-900">
@@ -249,8 +249,8 @@ const Content = () => {
           </div>
 
           <CityInternalLinks
-            city="moradabad"
-            currentSlug="/cities/moradabad/website-design-company-in-moradabad"
+            city="ghaziabad"
+            currentSlug="/ghaziabad/website-design-company-in-ghaziabad"
           />
         </div>
 

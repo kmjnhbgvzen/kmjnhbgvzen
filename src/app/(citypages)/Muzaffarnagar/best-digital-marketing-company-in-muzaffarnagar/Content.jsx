@@ -575,7 +575,7 @@ const Content = () => {
 
           <CityInternalLinks
             city="muzaffarnagar"
-            currentSlug="/cities/muzaffarnagar/best-digital-marketing-company-in-muzaffarnagar"
+            currentSlug="/muzaffarnagar/best-digital-marketing-company-in-muzaffarnagar"
           />
         </div>
 

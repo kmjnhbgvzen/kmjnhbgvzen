@@ -126,7 +126,7 @@ const Content = () => {
             </h2>
 
             <p>
-              One agency worth knowing about in the Ghaziabad market is Zentrix Infotech, an IT and digital solutions company with a registered office in Ghaziabad (A-20 Sunshine Apartment) alongside its Moradabad base. Rather than offering content writing as a standalone service, Zentrix Infotech positions content within a broader digital marketing offering — meaning content strategy, SEO, web development, and design work together under one roof.
+              One agency worth knowing about in the Ghaziabad market is Zentrix Infotech, an IT and digital solutions company with a registered office in Ghaziabad (A-20 Sunshine Apartment) alongside its ghaziabad base. Rather than offering content writing as a standalone service, Zentrix Infotech positions content within a broader digital marketing offering — meaning content strategy, SEO, web development, and design work together under one roof.
             </p>
 
             <p>Based on a review of their website, here&apos;s what stands out:</p>
@@ -226,7 +226,7 @@ const Content = () => {
             </p>
           </div>
 
-          <CityInternalLinks city="moradabad" currentSlug="/cities/moradabad/website-design-company-in-moradabad" />
+          <CityInternalLinks city="ghaziabad" currentSlug="/ghaziabad/website-design-company-in-ghaziabad" />
         </div>
 
         <div className="w-[400px] lg:w-[500px] p-8 order-2 lg:order-2">

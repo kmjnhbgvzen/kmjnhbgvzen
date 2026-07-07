@@ -287,7 +287,7 @@ const Content = () => {
             </p>
           </div>
 
-          <CityInternalLinks city="muzaffarnagar" currentSlug="/cities/muzaffarnagar/best-digital-marketing-agency-in-muzaffarnagar" />
+          <CityInternalLinks city="muzaffarnagar" currentSlug="/muzaffarnagar/best-digital-marketing-agency-in-muzaffarnagar" />
         </div>
 
         <div className="w-[400px] lg:w-[500px] p-8 order-2 lg:order-2">

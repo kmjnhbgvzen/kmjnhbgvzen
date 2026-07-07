@@ -215,7 +215,7 @@ const Content = () => {
 
             <CityInternalLinks
               city="ayodhya"
-              currentSlug="/cities/ayodhya/content-marketing-agency-in-ayodhya"
+              currentSlug="/ayodhya/content-marketing-agency-in-ayodhya"
             />
           </div>
         </div>

@@ -127,7 +127,7 @@ const Content = () => {
             </h2>
 
             <p>
-              One agency active in the Ghaziabad market that businesses can evaluate for ecommerce marketing is Zentrix Infotech, which operates from A-20 Sunshine Apartment, Ghaziabad, in addition to its Moradabad office. Based on a review of their public website, here&apos;s an honest look at their relevant capabilities.
+              One agency active in the Ghaziabad market that businesses can evaluate for ecommerce marketing is Zentrix Infotech, which operates from A-20 Sunshine Apartment, Ghaziabad, in addition to its ghaziabad office. Based on a review of their public website, here&apos;s an honest look at their relevant capabilities.
             </p>
 
             <ul className="list-disc list-inside space-y-2 ml-4">
@@ -142,7 +142,7 @@ const Content = () => {
             </p>
 
             <p>
-              Regional footprint. With a presence in both Ghaziabad and Moradabad, Zentrix appears positioned to serve ecommerce businesses across western UP and the wider NCR region, supported by a portfolio that includes clients spanning multiple Indian states.
+              Regional footprint. With a presence in both Ghaziabad and ghaziabad, Zentrix appears positioned to serve ecommerce businesses across western UP and the wider NCR region, supported by a portfolio that includes clients spanning multiple Indian states.
             </p>
 
             <h2 className="text-xl sm:text-2xl font-semibold text-gray-900">
@@ -242,7 +242,7 @@ const Content = () => {
             </p>
           </div>
 
-          <CityInternalLinks city="moradabad" currentSlug="/cities/moradabad/website-design-company-in-moradabad" />
+          <CityInternalLinks city="ghaziabad" currentSlug="ghaziabad/website-design-company-in-ghaziabad" />
         </div>
 
         <div className="w-[400px] lg:w-[500px] p-8 order-2 lg:order-2">

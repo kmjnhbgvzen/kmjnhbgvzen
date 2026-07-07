@@ -584,7 +584,7 @@ const Content = () => {
 
           <CityInternalLinks
             city="muzaffarnagar"
-            currentSlug="/cities/muzaffarnagar/ppc-google-ads-agency-in-muzaffarnagar"
+            currentSlug="/muzaffarnagar/ppc-google-ads-agency-in-muzaffarnagar"
           />
         </div>
 
