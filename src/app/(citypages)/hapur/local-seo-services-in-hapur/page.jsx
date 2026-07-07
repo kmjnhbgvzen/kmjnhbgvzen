@@ -19,7 +19,7 @@ export const metadata = {
     title: "Local SEO Services in Hapur | Rank Higher in Local Search Results",
     description:
       "Get expert local SEO services in Hapur to rank higher on Google Maps and local search, attract nearby customers, and grow your business with proven local strategies.",
-    url: "https://www.zentrixinfotech.com/cities/hapur/local-seo-services-in-hapur",
+    url: "https://www.zentrixinfotech.com/hapur/local-seo-services-in-hapur",
     siteName: "Zentrix Infotech",
     images: [
       {

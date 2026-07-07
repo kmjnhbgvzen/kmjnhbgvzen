@@ -14,7 +14,7 @@ export const metadata = {
     "best digital marketing company in Saharanpur, digital marketing agency Saharanpur, top digital marketing company Saharanpur, SEO and social media agency Saharanpur, online marketing company Saharanpur, digital marketing services UP, full service digital agency Saharanpur, internet marketing company Saharanpur, affordable digital marketing Saharanpur, digital marketing experts Saharanpur",
   alternates: {
     canonical:
-      "https://www.zentrixinfotech.com/cities/saharanpur/best-digital-marketing-company-in-saharanpur",
+      "https://www.zentrixinfotech.com/saharanpur/best-digital-marketing-company-in-saharanpur",
   },
   openGraph: {
     title: "Best Digital Marketing Company in Saharanpur | Full-Service Agency",

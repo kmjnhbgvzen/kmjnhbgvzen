@@ -20,7 +20,7 @@ export const metadata = {
     title: "Ecommerce Marketing Services in Saharanpur | Boost Online Sales",
     description:
       "Grow your online store with expert ecommerce marketing services in Saharanpur. SEO, ads, social media & marketplace optimization to drive sales. Free consultation.",
-    url: "https://www.zentrixinfotech.com/cities/saharanpur/ecommerce-marketing-services-in-saharanpur",
+    url: "https://www.zentrixinfotech.com/saharanpur/ecommerce-marketing-services-in-saharanpur",
     siteName: "Zentrix Infotech",
     images: [
       {

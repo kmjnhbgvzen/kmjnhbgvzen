@@ -20,7 +20,7 @@ export const metadata = {
     title: "Digital Marketing Agency in Saharanpur | Best SEO, Social Media & Web Experts",
     description:
       "Looking for a trusted digital marketing agency in Saharanpur? Get expert SEO, social media, PPC, web design & branding services that grow local businesses online.",
-    url: "https://www.zentrixinfotech.com/cities/saharanpur/digital-marketing-agency-in-saharanpur",
+    url: "https://www.zentrixinfotech.com/saharanpur/digital-marketing-agency-in-saharanpur",
     siteName: "Zentrix Infotech",
     images: [
       {

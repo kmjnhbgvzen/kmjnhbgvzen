@@ -14,7 +14,7 @@ export const metadata = {
     "e-commerce marketing services in Bareilly, online store marketing Bareilly, e-commerce SEO Bareilly, Amazon Flipkart marketing Bareilly, online selling services Bareilly, e-commerce ads agency Bareilly, product listing optimization Bareilly, best e-commerce marketing company UP, online store growth Bareilly, affordable e-commerce marketing Bareilly",
   alternates: {
     canonical:
-      "https://www.zentrixinfotech.com/cities/bareilly/e-commerce-marketing-services-in-bareilly",
+      "https://www.zentrixinfotech.com/bareilly/e-commerce-marketing-services-in-bareilly",
   },
   openGraph: {
     title: "E-commerce Marketing Services in Bareilly | Online Store Growth",

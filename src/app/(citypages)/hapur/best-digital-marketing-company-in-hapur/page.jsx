@@ -19,7 +19,7 @@ export const metadata = {
     title: "Best Digital Marketing Company in Hapur | SEO, PPC, Web & Social Media",
     description:
       "Searching for the best digital marketing company in Hapur? Get expert SEO, PPC, social media, and website solutions to grow your business online effectively.",
-    url: "https://www.zentrixinfotech.com/cities/hapur/best-digital-marketing-company-in-hapur",
+    url: "https://www.zentrixinfotech.com/hapur/best-digital-marketing-company-in-hapur",
     siteName: "Zentrix Infotech",
     images: [
       {

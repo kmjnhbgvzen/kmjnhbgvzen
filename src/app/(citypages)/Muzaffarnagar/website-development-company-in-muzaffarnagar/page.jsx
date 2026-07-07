@@ -19,7 +19,7 @@ export const metadata = {
     title: "Website Development Company in Muzaffarnagar | Custom Web Design & Development",
     description:
       "Looking for a website development company in Muzaffarnagar? Get custom, mobile-friendly, SEO-ready websites built to convert visitors into customers.",
-    url: "https://www.zentrixinfotech.com/cities/muzaffarnagar/website-development-company-in-muzaffarnagar",
+    url: "https://www.zentrixinfotech.com/muzaffarnagar/website-development-company-in-muzaffarnagar",
     siteName: "Zentrix Infotech",
     images: [
       {

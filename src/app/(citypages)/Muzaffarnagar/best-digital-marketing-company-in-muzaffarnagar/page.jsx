@@ -20,7 +20,7 @@ export const metadata = {
     title: "Best Digital Marketing Company in Muzaffarnagar | Full-Service Agency",
     description:
       "Find the best digital marketing company in Muzaffarnagar for SEO, PPC, social media, web design & content that drive real leads and sales growth.",
-    url: "https://www.zentrixinfotech.com/cities/muzaffarnagar/best-digital-marketing-company-in-muzaffarnagar",
+    url: "https://www.zentrixinfotech.com/muzaffarnagar/best-digital-marketing-company-in-muzaffarnagar",
     siteName: "Zentrix Infotech",
     images: [
       {

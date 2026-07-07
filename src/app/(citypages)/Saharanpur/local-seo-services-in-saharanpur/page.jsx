@@ -20,7 +20,7 @@ export const metadata = {
     title: "Local SEO Services in Saharanpur | Rank Higher on Google Maps",
     description:
       "Get found by nearby customers with expert local SEO services in Saharanpur. Google Business Profile optimization, local citations & map ranking. Free audit available.",
-    url: "https://www.zentrixinfotech.com/cities/saharanpur/local-seo-services-in-saharanpur",
+    url: "https://www.zentrixinfotech.com/saharanpur/local-seo-services-in-saharanpur",
     siteName: "Zentrix Infotech",
     images: [
       {

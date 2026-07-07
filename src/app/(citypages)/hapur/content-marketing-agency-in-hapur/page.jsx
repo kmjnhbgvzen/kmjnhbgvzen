@@ -19,7 +19,7 @@ export const metadata = {
     title: "Content Marketing Agency in Hapur | Blogs, SEO Content & Brand Storytelling",
     description:
       "Looking for a content marketing agency in Hapur? Get professionally written blogs, website content, and SEO-focused strategies that build authority and drive traffic.",
-    url: "https://www.zentrixinfotech.com/cities/hapur/content-marketing-agency-in-hapur",
+    url: "https://www.zentrixinfotech.com/hapur/content-marketing-agency-in-hapur",
     siteName: "Zentrix Infotech",
     images: [
       {

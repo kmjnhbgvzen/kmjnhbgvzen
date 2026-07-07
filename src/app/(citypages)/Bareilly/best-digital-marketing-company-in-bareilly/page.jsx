@@ -14,7 +14,7 @@ export const metadata = {
     "best digital marketing company in Bareilly, top digital marketing agency Bareilly, best SEO company Bareilly, best social media agency Bareilly, digital marketing experts Bareilly, top marketing agency UP, reliable digital marketing company Bareilly, digital marketing services Bareilly, trusted marketing agency Bareilly, affordable digital marketing company Bareilly",
   alternates: {
     canonical:
-      "https://www.zentrixinfotech.com/cities/bareilly/best-digital-marketing-company-in-bareilly",
+      "https://www.zentrixinfotech.com/bareilly/best-digital-marketing-company-in-bareilly",
   },
   openGraph: {
     title: "Best Digital Marketing Company in Bareilly | Top Agencies 2026",

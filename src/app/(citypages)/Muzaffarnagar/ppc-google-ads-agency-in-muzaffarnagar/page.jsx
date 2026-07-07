@@ -20,7 +20,7 @@ export const metadata = {
     title: "SEO Services in Muzaffarnagar | Affordable & Result-Driven SEO Company",
     description:
       "Looking for SEO services in Muzaffarnagar? Get expert on-page, off-page, local & technical SEO to rank higher on Google, drive traffic & grow leads.",
-    url: "https://www.zentrixinfotech.com/cities/muzaffarnagar/seo-services-in-muzaffarnagar",
+    url: "https://www.zentrixinfotech.com/muzaffarnagar/seo-services-in-muzaffarnagar",
     siteName: "Zentrix Infotech",
     images: [
       {

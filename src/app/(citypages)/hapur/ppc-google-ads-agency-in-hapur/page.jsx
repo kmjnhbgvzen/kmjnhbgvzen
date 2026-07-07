@@ -19,7 +19,7 @@ export const metadata = {
     title: "PPC & Google Ads Agency in Hapur | Result-Driven Ad Campaign Management",
     description:
       "Looking for a PPC and Google Ads agency in Hapur? Get expertly managed ad campaigns that drive qualified leads, maximize ROI, and grow your business fast.",
-    url: "https://www.zentrixinfotech.com/cities/hapur/ppc-google-ads-agency-in-hapur",
+    url: "https://www.zentrixinfotech.com/hapur/ppc-google-ads-agency-in-hapur",
     siteName: "Zentrix Infotech",
     images: [
       {

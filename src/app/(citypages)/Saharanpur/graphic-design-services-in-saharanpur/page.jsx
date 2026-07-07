@@ -20,7 +20,7 @@ export const metadata = {
     title: "Graphic Design Services in Saharanpur | Zentrix Infotech",
     description:
       "Looking for graphic design services in Saharanpur? Get professional logo design, branding, packaging, brochure and social media graphics from expert designers who understand local businesses.",
-    url: "https://www.zentrixinfotech.com/cities/saharanpur/graphic-design-services-in-saharanpur",
+    url: "https://www.zentrixinfotech.com/saharanpur/graphic-design-services-in-saharanpur",
     siteName: "Zentrix Infotech",
     images: [
       {

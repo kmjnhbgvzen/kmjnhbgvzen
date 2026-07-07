@@ -20,7 +20,7 @@ export const metadata = {
     title: "Social Media Marketing Agency in Hapur | Grow Your Brand Online",
     description:
       "Looking for a trusted social media marketing agency in Hapur? Get expert content creation, paid ads, and brand growth strategies to boost engagement and sales.",
-    url: "https://www.zentrixinfotech.com/cities/hapur/social-media-marketing-agency-in-hapur",
+    url: "https://www.zentrixinfotech.com/hapur/social-media-marketing-agency-in-hapur",
     siteName: "Zentrix Infotech",
     images: [
       {

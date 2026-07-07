@@ -20,7 +20,7 @@ export const metadata = {
     title: "Social Media Marketing Agency in Saharanpur | Grow Your Brand Online",
     description:
       "Hire a results-driven social media marketing agency in Saharanpur. Instagram, Facebook & LinkedIn management, ads, content creation & analytics. Get a free audit.",
-    url: "https://www.zentrixinfotech.com/cities/saharanpur/social-media-marketing-agency-in-saharanpur",
+    url: "https://www.zentrixinfotech.com/saharanpur/social-media-marketing-agency-in-saharanpur",
     siteName: "Zentrix Infotech",
     images: [
       {

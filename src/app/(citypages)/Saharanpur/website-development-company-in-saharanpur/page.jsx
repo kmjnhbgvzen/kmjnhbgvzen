@@ -20,7 +20,7 @@ export const metadata = {
     title: "Website Development Company in Saharanpur | Custom Web Design Experts",
     description:
       "Looking for a trusted website development company in Saharanpur? Get custom, mobile-friendly, SEO-ready websites for businesses of all sizes. Free consultation.",
-    url: "https://www.zentrixinfotech.com/cities/saharanpur/website-development-company-in-saharanpur",
+    url: "https://www.zentrixinfotech.com/saharanpur/website-development-company-in-saharanpur",
     siteName: "Zentrix Infotech",
     images: [
       {

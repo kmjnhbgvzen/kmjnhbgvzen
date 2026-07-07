@@ -20,7 +20,7 @@ export const metadata = {
     title: "Graphic Design Services in Muzaffarnagar | Logos, Branding & Print",
     description:
       "Professional graphic design services in Muzaffarnagar — logo design, branding, packaging, social media & print design that make your business stand out.",
-    url: "https://www.zentrixinfotech.com/cities/muzaffarnagar/graphic-design-services-in-muzaffarnagar",
+    url: "https://www.zentrixinfotech.com/muzaffarnagar/graphic-design-services-in-muzaffarnagar",
     siteName: "Zentrix Infotech",
     images: [
       {

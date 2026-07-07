@@ -327,7 +327,7 @@ const Content = () => {
             </p>
 
             <p>
-              For businesses in Saharanpur, the &quot;best&quot; digital marketing
+              For businesses in saharanpur, the &quot;best&quot; digital marketing
               company isn&apos;t the one with the boldest claims — it&apos;s the one
               that can show real, checkable proof of results across the specific
               services your business actually needs, ideally under one

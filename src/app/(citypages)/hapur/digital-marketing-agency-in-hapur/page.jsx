@@ -19,7 +19,7 @@ export const metadata = {
     title: "Digital Marketing Agency in Hapur | Best SEO, PPC & Social Media Experts",
     description:
       "Looking for a trusted digital marketing agency in Hapur? Get result-driven SEO, PPC, social media & website services to grow your local business online.",
-    url: "https://www.zentrixinfotech.com/cities/hapur/digital-marketing-agency-in-hapur",
+    url: "https://www.zentrixinfotech.com/hapur/digital-marketing-agency-in-hapur",
     siteName: "Zentrix Infotech",
     images: [
       {

@@ -13,7 +13,7 @@ export const metadata = {
   keywords:
     "website development company in Hapur, web design company Hapur, website designer Hapur, affordable website development Hapur, ecommerce website development Hapur, custom web development Hapur",
   alternates: {
-    canonical: "https://www.zentrixinfotech.com/cities/hapur/website-development-company-in-hapur",
+    canonical: "https://www.zentrixinfotech.com/hapur/website-development-company-in-hapur",
   },
   openGraph: {
     title: "Website Development Company in Hapur | Affordable & Professional Web Design",

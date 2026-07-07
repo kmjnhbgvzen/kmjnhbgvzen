@@ -19,7 +19,7 @@ export const metadata = {
     title: "E-commerce Marketing Services in Hapur | Boost Online Sales & Traffic",
     description:
       "Looking for e-commerce marketing services in Hapur? Grow your online store with expert SEO, PPC, social media, and conversion optimization strategies.",
-    url: "https://www.zentrixinfotech.com/cities/hapur/e-commerce-marketing-services-in-hapur",
+    url: "https://www.zentrixinfotech.com/hapur/e-commerce-marketing-services-in-hapur",
     siteName: "Zentrix Infotech",
     images: [
       {

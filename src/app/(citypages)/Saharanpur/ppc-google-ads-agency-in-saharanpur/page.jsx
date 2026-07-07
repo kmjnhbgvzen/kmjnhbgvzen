@@ -20,7 +20,7 @@ export const metadata = {
     title: "PPC & Google Ads Agency in Saharanpur | Certified Ad Management",
     description:
       "Get more leads with a results-driven PPC & Google Ads agency in Saharanpur. Search, Shopping, Display & retargeting campaigns managed for maximum ROI. Free audit.",
-    url: "https://www.zentrixinfotech.com/cities/saharanpur/ppc-google-ads-agency-in-saharanpur",
+    url: "https://www.zentrixinfotech.com/saharanpur/ppc-google-ads-agency-in-saharanpur",
     siteName: "Zentrix Infotech",
     images: [
       {

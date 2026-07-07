@@ -20,7 +20,7 @@ export const metadata = {
     title: "Ecommerce Marketing Services in Muzaffarnagar | Grow Online Sales",
     description:
       "Get ecommerce marketing services in Muzaffarnagar — SEO, ads, email & social strategies to drive traffic, conversions & repeat sales for your store.",
-    url: "https://www.zentrixinfotech.com/cities/muzaffarnagar/ecommerce-marketing-services-in-muzaffarnagar",
+    url: "https://www.zentrixinfotech.com/muzaffarnagar/ecommerce-marketing-services-in-muzaffarnagar",
     siteName: "Zentrix Infotech",
     images: [
       {
