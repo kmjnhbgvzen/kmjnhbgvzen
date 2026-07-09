@@ -5,44 +5,41 @@ import WhyChooseUs from "@/components/WhyChooseUs";
 import { mbddata } from "@/data/mbddata";
 
 export const metadata = {
-  title: "Ghaziabad | Online & IT Services for Businesses",
+  title: "Ayodhya | Online & IT Services for Businesses",
   description:
-    "Online and IT services in Ghaziabad for businesses looking to build a strong digital presence and improve efficiency.",
+    "Online and IT services in Ayodhya for businesses looking to build a strong digital presence and improve efficiency.",
   keywords: [
-    "Ghaziabad online services",
-    "IT services Ghaziabad",
-    "business support Ghaziabad",
+    "Ayodhya online services",
+    "IT services Ayodhya",
+    "business support Ayodhya",
   ],
   alternates: {
-    canonical: "https://www.zentrixinfotech.com/ghaziabad",
+    canonical: "https://www.zentrixinfotech.com/ayodhya",
   },
-
   openGraph: {
-    title: "Ghaziabad | Online & IT Services for Businesses",
+    title: "Ayodhya | Online & IT Services for Businesses",
     description:
-      "Online and IT services in Ghaziabad for businesses looking to build a strong digital presence and improve efficiency.",
-    url: "https://www.zentrixinfotech.com/ghaziabad",
+      "Online and IT services in Ayodhya for businesses looking to build a strong digital presence and improve efficiency.",
+    url: "https://www.zentrixinfotech.com/ayodhya",
     siteName: "Zentrix Infotech",
     images: [
       {
         url: "https://www.zentrixinfotech.com/zentrix_logo.jpg",
         width: 1200,
         height: 630,
-        alt: "Ghaziabad | Online & IT Services for Businesses",
+        alt: "Ayodhya | Online & IT Services for Businesses",
       },
     ],
     locale: "en_IN",
     type: "website",
   },
-
   twitter: {
     card: "summary_large_image",
-    title: "Ghaziabad | Online & IT Services for Businesses",
+    title: "Ayodhya | Online & IT Services for Businesses",
     description:
-      "Online and IT services in Ghaziabad for businesses looking to build a strong digital presence and improve efficiency.",
+      "Online and IT services in Ayodhya for businesses looking to build a strong digital presence and improve efficiency.",
     images: ["https://www.zentrixinfotech.com/zentrix_logo.jpg"],
   },
-
   icons: {
     icon: "/favicon-v2.ico",
   },
@@ -73,15 +70,15 @@ export default function Page() {
                 d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"
               />
             </svg>
-            <span className="text-blue-600 font-semibold text-lg">Ghaziabad</span>
+            <span className="text-blue-600 font-semibold text-lg">Ayodhya</span>
           </div>
 
           <h1 className="text-3xl md:text-5xl font-medium font-serif text-center mb-4">
-            Ghaziabad – Digital & IT Solutions for Growing Businesses
+            Ayodhya – Digital & IT Solutions for Growing Businesses
           </h1>
 
           <p className="text-gray-700 text-center text-lg mb-0 max-w-7xl mx-auto leading-relaxed">
-            Ghaziabad is one of Uttar Pradesh's most dynamic business hubs, home to a thriving ecosystem of startups, SMEs, and established enterprises across trading, manufacturing, real estate, healthcare, and technology sectors. With businesses rapidly shifting to digital-first operations, having the right digital and technology support is essential for staying competitive. We work with businesses across Ghaziabad, helping them strengthen their online presence, improve brand visibility, and adopt modern digital solutions that align with today's market needs.
+            Ayodhya is one of Uttar Pradesh's growing business hubs, home to a thriving ecosystem of startups, SMEs, and established enterprises across trading, hospitality, tourism, retail, healthcare, and technology sectors. With businesses rapidly shifting to digital-first operations, having the right digital and technology support is essential for staying competitive. We work with businesses across Ayodhya, helping them strengthen their online presence, improve brand visibility, and adopt modern digital solutions that align with today's market needs.
           </p>
         </div>
       </div>
@@ -89,14 +86,14 @@ export default function Page() {
       <div className="max-w-7xl mx-auto px-8 py-12">
         <div className="prose prose-lg max-w-none">
           <h2 className="text-2xl font-serif font-semibold mb-4">
-            Supporting Businesses Across Ghaziabad
+            Supporting Businesses Across Ayodhya
           </h2>
           <p className="text-gray-700 leading-relaxed mb-6">
-            Ghaziabad's fast-paced and diverse business landscape demands flexible, results-driven solutions. We collaborate with businesses from different sectors — from retail and hospitality to technology and professional services — understanding their unique challenges and offering practical digital support. Our approach is built on strategic planning tailored to local and national business needs, scalable digital and IT solutions, long-term growth and performance improvement, and clear communication with transparent execution.
+            Ayodhya's fast-paced and diverse business landscape demands flexible, results-driven solutions. We collaborate with businesses from different sectors — from retail and hospitality to tourism, technology, and professional services — understanding their unique challenges and offering practical digital support. Our approach is built on strategic planning tailored to local and national business needs, scalable digital and IT solutions, long-term growth and performance improvement, and clear communication with transparent execution.
           </p>
 
           <h3 className="text-xl font-serif font-semibold mb-3">
-            What We Offer in Ghaziabad
+            What We Offer in Ayodhya
           </h3>
           <p className="text-gray-700 leading-relaxed mb-6">
             Our services are designed to support businesses at every stage of growth. We focus on digital growth and online presence, helping businesses establish and expand their digital footprint across relevant online platforms and markets. Our website and technical solutions include developing and maintaining fast, secure, and user-friendly websites that reflect your brand identity and serve your customers around the clock.
@@ -106,21 +103,21 @@ export default function Page() {
             Branding & Creative Support
           </h3>
           <p className="text-gray-700 leading-relaxed mb-6">
-            Creating a consistent and compelling brand identity is crucial in a market as competitive as Ghaziabad. We help businesses develop cohesive branding strategies that resonate with both local and wider audiences. From logo design to complete brand guidelines, we ensure your business stands out and communicates its value effectively in Ghaziabad's diverse marketplace.
+            Creating a consistent and compelling brand identity is crucial in a market as competitive as Ayodhya. We help businesses develop cohesive branding strategies that resonate with both local and wider audiences. From logo design to complete brand guidelines, we ensure your business stands out and communicates its value effectively in Ayodhya's diverse marketplace.
           </p>
 
           <h3 className="text-xl font-serif font-semibold mb-3">
             Performance Tracking & Optimization
           </h3>
           <p className="text-gray-700 leading-relaxed mb-6">
-            Analyzing data and refining strategies to achieve better results over time is critical for sustainable business success in Ghaziabad. We provide comprehensive analytics and performance monitoring to help you understand what's working and where improvements can be made. Our optimization services ensure your digital investments continue to deliver measurable value and a strong return.
+            Analyzing data and refining strategies to achieve better results over time is critical for sustainable business success in Ayodhya. We provide comprehensive analytics and performance monitoring to help you understand what's working and where improvements can be made. Our optimization services ensure your digital investments continue to deliver measurable value and a strong return.
           </p>
 
           <h3 className="text-xl font-serif font-semibold mb-3">
-            Serving All Areas of Ghaziabad
+            Serving All Areas of Ayodhya
           </h3>
           <p className="text-gray-700 leading-relaxed">
-            We support businesses located across Indirapuram, Vaishali, Vasundhara, Raj Nagar, Kaushambi, Sahibabad, Crossings Republik, Kavi Nagar, and other key business districts. No matter where your business is based in Ghaziabad, our team is ready to assist you. We understand the unique characteristics and demands of each area and tailor our approach accordingly.
+            We support businesses located across the main commercial and residential areas of Ayodhya, including the city center, nearby business districts, tourist-facing zones, and emerging local neighborhoods. No matter where your business is based in Ayodhya, our team is ready to assist you. We understand the unique characteristics and demands of each area and tailor our approach accordingly.
           </p>
         </div>
       </div>
@@ -138,7 +135,7 @@ export default function Page() {
       <div className="bg-gray-50 py-12">
         <div className="max-w-7xl mx-auto px-8">
           <h2 className="text-3xl font-serif font-medium text-center mb-6">
-            Why Businesses in Ghaziabad Work With Us
+            Why Businesses in Ayodhya Work With Us
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-8">
             <div className="bg-white p-6 rounded-lg shadow-sm">
@@ -149,7 +146,7 @@ export default function Page() {
                     Experience with multiple industries
                   </h3>
                   <p className="text-gray-600 text-sm">
-                    We've worked across diverse sectors in Ghaziabad
+                    We've worked across diverse sectors in Ayodhya
                   </p>
                 </div>
               </div>
