@@ -18,10 +18,10 @@ export default function BillingSoftwareForRetail() {
         <div className="absolute inset-0 bg-black/60"></div>
 
         <div className="relative max-w-7xl mx-auto text-center">
-          
+
           {/* Heading */}
           <h1 className="text-3xl md:text-4xl font-serif mb-4 mt-18 md:mt-30">
-Best Digital Marketing Company in Hapur
+            Best Digital Marketing Company in Hapur
           </h1>
 
           {/* Subheading */}
@@ -53,7 +53,7 @@ Best Digital Marketing Company in Hapur
         </div>
       </section>
 
-      
+
 
     </main>
   );
