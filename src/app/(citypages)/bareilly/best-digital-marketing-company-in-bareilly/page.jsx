@@ -7,20 +7,19 @@ import Portfolio from "@/components/Portfolio";
 import LandingServices from "@/components/LandingServices";
 
 export const metadata = {
-  title: "Best Digital Marketing Company in Bareilly | Top Agencies 2026",
+  title: "Best Digital Marketing Agency in Bareilly | Grow Online",
   description:
-    "Searching for the best digital marketing company in Bareilly? Learn what separates top agencies, key services to expect, and how to choose the right partner for growth.",
+    "Looking for a trusted digital marketing agency in Bareilly? We offer SEO, PPC, social media & web design services that deliver real, measurable growth.",
   keywords:
-    "best digital marketing company in Bareilly, top digital marketing agency Bareilly, best SEO company Bareilly, best social media agency Bareilly, digital marketing experts Bareilly, top marketing agency UP, reliable digital marketing company Bareilly, digital marketing services Bareilly, trusted marketing agency Bareilly, affordable digital marketing company Bareilly",
+    "digital marketing agency in Bareilly, digital marketing company Bareilly, SEO services in Bareilly, social media marketing agency Bareilly, best digital marketing agency near me, PPC agency Bareilly, website designing company Bareilly, online marketing services Bareilly, local SEO Bareilly, digital marketing consultant Bareilly, affordable digital marketing agency UP, digital marketing agency for small business Bareilly, Google Ads agency Bareilly, content marketing services Bareilly, ecommerce marketing agency Bareilly",
   alternates: {
-    canonical:
-      "https://www.zentrixinfotech.com/bareilly/best-digital-marketing-company-in-bareilly",
+    canonical: "https://www.zentrixinfotech.com/bareilly/digital-marketing-agency-in-bareilly",
   },
   openGraph: {
-    title: "Best Digital Marketing Company in Bareilly | Top Agencies 2026",
+    title: "Best Digital Marketing Agency in Bareilly | Grow Online",
     description:
-      "Searching for the best digital marketing company in Bareilly? Learn what separates top agencies, key services to expect, and how to choose the right partner for growth.",
-    url: "https://www.zentrixinfotech.com/cities/bareilly/best-digital-marketing-company-in-bareilly",
+      "Looking for a trusted digital marketing agency in Bareilly? We offer SEO, PPC, social media & web design services that deliver real, measurable growth.",
+    url: "https://www.zentrixinfotech.com/bareilly/digital-marketing-agency-in-bareilly",
     siteName: "Zentrix Infotech",
     images: [
       {
@@ -35,9 +34,9 @@ export const metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Best Digital Marketing Company in Bareilly | Top Agencies 2026",
+    title: "Best Digital Marketing Agency in Bareilly | Grow Online",
     description:
-      "Searching for the best digital marketing company in Bareilly? Learn what separates top agencies, key services to expect, and how to choose the right partner for growth.",
+      "Looking for a trusted digital marketing agency in Bareilly? We offer SEO, PPC, social media & web design services that deliver real, measurable growth.",
     images: ["https://www.zentrixinfotech.com/zentrix_logo.jpg"],
   },
   icons: {
