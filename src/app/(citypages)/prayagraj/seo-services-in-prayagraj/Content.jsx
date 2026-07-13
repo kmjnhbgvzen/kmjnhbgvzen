@@ -173,7 +173,22 @@ const Content = () => {
                 <p>Along with digital marketing and SEO, Zentrix Infotech&apos;s website lists web development, UI/UX design, mobile app development, software development, and cloud solutions as core services. This means a business can potentially get its website design, technical setup, and SEO handled by the same team, which can help keep strategy consistent.</p>
               </div>
             </div>
-
+ <p>
+              📞 <strong>WhatsApp / Call:</strong>{" "}
+              <a href="tel:+917248800839" className="text-blue-600 hover:underline">
+                +91 72488 00839
+              </a>
+              <br />
+              📧 <strong>Email:</strong>{" "}
+              <a href="mailto:info@zentrixinfotech.com" className="text-blue-600 hover:underline">
+                info@zentrixinfotech.com
+              </a>
+              <br />
+              🌐 <strong>Website:</strong>{" "}
+              <a href="https://www.zentrixinfotech.com" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">
+                www.zentrixinfotech.com
+              </a>
+            </p>
             <CityInternalLinks
               city="prayagraj"
               currentSlug="/prayagraj/seo-services-in-prayagraj"

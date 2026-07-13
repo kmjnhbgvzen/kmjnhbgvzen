@@ -178,6 +178,22 @@ const Content = () => {
                 <p>Digital marketing, which includes SEO, is listed as a distinct service category on their website, separate from web development. This means it isn&apos;t automatically bundled with a website build, but it is available as an additional service from the same company if needed.</p>
               </div>
             </div>
+             <p>
+              📞 <strong>WhatsApp / Call:</strong>{" "}
+              <a href="tel:+917248800839" className="text-blue-600 hover:underline">
+                +91 72488 00839
+              </a>
+              <br />
+              📧 <strong>Email:</strong>{" "}
+              <a href="mailto:info@zentrixinfotech.com" className="text-blue-600 hover:underline">
+                info@zentrixinfotech.com
+              </a>
+              <br />
+              🌐 <strong>Website:</strong>{" "}
+              <a href="https://www.zentrixinfotech.com" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">
+                www.zentrixinfotech.com
+              </a>
+            </p>
 
             <CityInternalLinks
               city="prayagraj"

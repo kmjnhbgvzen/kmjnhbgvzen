@@ -370,16 +370,12 @@
     <loc>https://www.zentrixinfotech.com/industries/real-estate-website-development</loc>
     <priority>0.7</priority>
   </url>
- 
+ <!-- /*dubai*/ -->
   <url>
     <loc>https://www.zentrixinfotech.com/dubai/indian-seo-agency-dubai</loc>
     <priority>0.9</priority>
   </url>
- 
-   <url>
-    <loc>https://www.zentrixinfotech.com/dubai/seo-company-for-indian-business-uae</loc>
-    <priority>0.9</priority>
-  </url>
+  
   <!-- /*ayodhya*/ -->
   <url>
     <loc>https://www.zentrixinfotech.com/ayodhya/best-digital-marketing-company-in-ayodhya</loc>
@@ -460,6 +456,86 @@
   </url>
   <url>
     <loc>https://www.zentrixinfotech.com/bareilly/website-development-company-in-bareilly</loc>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.zentrixinfotech.com/bareilly/youtube-marketing-agency-in-bareilly</loc>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.zentrixinfotech.com/bareilly/whatsapp-marketing-services-in-bareilly</loc>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.zentrixinfotech.com/bareilly/video-marketing-services-in-bareilly</loc>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.zentrixinfotech.com/bareilly/ui-ux-design-services-in-bareilly</loc>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.zentrixinfotech.com/bareilly/online-reputation-management-in-bareilly</loc>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.zentrixinfotech.com/bareilly/mobile-app-development-in-bareilly</loc>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.zentrixinfotech.com/bareilly/lead-generation-services-in-bareilly</loc>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.zentrixinfotech.com/bareilly/instagram-marketing-agency-in-bareilly</loc>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.zentrixinfotech.com/bareilly/influencer-marketing-agency-in-bareilly</loc>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.zentrixinfotech.com/bareilly/facebook-ads-agency-in-bareilly</loc>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.zentrixinfotech.com/bareilly/email-marketing-services-in-bareilly</loc>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.zentrixinfotech.com/bareilly/digital-marketing-for-small-business-in-bareilly</loc>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.zentrixinfotech.com/bareilly/digital-marketing-for-schools-in-bareilly</loc>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.zentrixinfotech.com/bareilly/digital-marketing-for-restaurants-in-bareillyy</loc>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.zentrixinfotech.com/bareilly/digital-marketing-for-real-estate-in-bareilly</loc>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.zentrixinfotech.com/bareilly/digital-marketing-for-manufacturers-in-bareilly</loc>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.zentrixinfotech.com/bareilly/digital-marketing-for-hospitals-in-bareilly</loc>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.zentrixinfotech.com/bareilly/digital-marketing-for-exporters-in-bareilly</loc>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.zentrixinfotech.com/bareilly/branding-agency-in-bareilly</loc>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.zentrixinfotech.com/bareilly/app-store-optimization-in-bareilly</loc>
     <priority>0.9</priority>
   </url>
   <!-- /*ghaziabad*/ -->
@@ -708,45 +784,107 @@
     <loc>https://www.zentrixinfotech.com/saharanpur/website-development-company-in-saharanpur</loc>
     <priority>0.9</priority>
   </url>
+  <url>
+    <loc>https://www.zentrixinfotech.com/saharanpur/youtube-marketing-agency-in-saharanpur</loc>
+    <priority>0.9</priority>
+  </url> <url>
+    <loc>https://www.zentrixinfotech.com/saharanpur/whatsapp-marketing-services-in-saharanpur</loc>
+    <priority>0.9</priority>
+  </url> <url>
+    <loc>https://www.zentrixinfotech.com/saharanpur/video-marketing-services-in-saharanpur</loc>
+    <priority>0.9</priority>
+  </url> <url>
+    <loc>https://www.zentrixinfotech.com/saharanpur/ui-ux-design-services-in-saharanpur</loc>
+    <priority>0.9</priority>
+  </url> <url>
+    <loc>https://www.zentrixinfotech.com/saharanpur/online-reputation-management-in-saharanpur</loc>
+    <priority>0.9</priority>
+  </url> <url>
+    <loc>https://www.zentrixinfotech.com/saharanpur/mobile-app-development-in-saharanpur</loc>
+    <priority>0.9</priority>
+  </url> <url>
+    <loc>https://www.zentrixinfotech.com/saharanpur/lead-generation-services-in-saharanpur</loc>
+    <priority>0.9</priority>
+  </url> <url>
+    <loc>https://www.zentrixinfotech.com/saharanpur/instagram-marketing-agency-in-saharanpur</loc>
+    <priority>0.9</priority>
+  </url> <url>
+    <loc>https://www.zentrixinfotech.com/saharanpur/influencer-marketing-agency-in-saharanpur</loc>
+    <priority>0.9</priority>
+  </url> <url>
+    <loc>https://www.zentrixinfotech.com/saharanpur/facebook-ads-agency-in-saharanpur</loc>
+    <priority>0.9</priority>
+  </url> <url>
+    <loc>https://www.zentrixinfotech.com/saharanpur/email-marketing-services-in-saharanpur</loc>
+    <priority>0.9</priority>
+  </url> <url>
+    <loc>https://www.zentrixinfotech.com/saharanpur/digital-marketing-for-wood-industry-in-saharanpur</loc>
+    <priority>0.9</priority>
+  </url> <url>
+    <loc>https://www.zentrixinfotech.com/saharanpur/digital-marketing-for-schools-in-saharanpur</loc>
+    <priority>0.9</priority>
+  </url> <url>
+    <loc>https://www.zentrixinfotech.com/saharanpur/digital-marketing-for-restaurants-in-saharanpur</loc>
+    <priority>0.9</priority>
+  </url> <url>
+    <loc>https://www.zentrixinfotech.com/saharanpur/digital-marketing-for-real-estate-in-saharanpur</loc>
+    <priority>0.9</priority>
+  </url> <url>
+    <loc>https://www.zentrixinfotech.com/saharanpur/digital-marketing-for-manufacturers-in-saharanpur</loc>
+    <priority>0.9</priority>
+  </url> <url>
+    <loc>https://www.zentrixinfotech.com/saharanpur/digital-marketing-for-hospitals-in-saharanpur</loc>
+    <priority>0.9</priority>
+  </url> <url>
+    <loc>https://www.zentrixinfotech.com/saharanpur/digital-marketing-for-exporters-in-saharanpur</loc>
+    <priority>0.9</priority>
+  </url> <url>
+    <loc>https://www.zentrixinfotech.com/saharanpur/branding-agency-in-saharanpur</loc>
+    <priority>0.9</priority>
+  </url> <url>
+    <loc>https://www.zentrixinfotech.com/saharanpur/app-store-optimization-in-saharanpur</loc>
+    <priority>0.9</priority>
+  </url>
+
   <!-- /* usa */ -->
   <url>
-    <loc>https://www.zentrixinfotech.com/usa/best-digital-marketing-company-in-usa</loc>
+    <loc>https://www.zentrixinfotech.com/usa/best-digital-marketing-company-usa</loc>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://www.zentrixinfotech.com/usa/content-marketing-agency-in-usa</loc>
+    <loc>https://www.zentrixinfotech.com/usa/content-marketing-agency-usa</loc>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://www.zentrixinfotech.com/usa/digital-marketing-agency-in-usa</loc>
+    <loc>https://www.zentrixinfotech.com/usa/digital-marketing-agency-usa</loc>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://www.zentrixinfotech.com/usa/ecommerce-marketing-services-in-usa</loc>
+    <loc>https://www.zentrixinfotech.com/usa/ecommerce-marketing-services-usa</loc>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://www.zentrixinfotech.com/usa/graphic-design-services-in-usa</loc>
+    <loc>https://www.zentrixinfotech.com/usa/graphic-design-services-usa</loc>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://www.zentrixinfotech.com/usa/local-seo-services-in-usa</loc>
+    <loc>https://www.zentrixinfotech.com/usa/local-seo-services-usa</loc>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://www.zentrixinfotech.com/usa/ppc-google-ads-agency-in-usa</loc>
+    <loc>https://www.zentrixinfotech.com/usa/ppc-google-ads-agency-usa</loc>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://www.zentrixinfotech.com/usa/seo-services-in-usa</loc>
+    <loc>https://www.zentrixinfotech.com/usa/seo-services-usa</loc>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://www.zentrixinfotech.com/usa/social-media-marketing-agency-in-usa</loc>
+    <loc>https://www.zentrixinfotech.com/usa/social-media-marketing-agency-usa</loc>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://www.zentrixinfotech.com/usa/website-development-company-in-usa</loc>
+    <loc>https://www.zentrixinfotech.com/usa/website-development-company-usa</loc>
     <priority>0.9</priority>
   </url>
 
