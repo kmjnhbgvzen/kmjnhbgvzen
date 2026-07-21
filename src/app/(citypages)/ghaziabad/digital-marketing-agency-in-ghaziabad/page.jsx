@@ -13,7 +13,8 @@ export const metadata = {
   keywords:
     "digital marketing agency in Ghaziabad, best digital marketing company Ghaziabad, SEO services Ghaziabad, social media marketing agency Ghaziabad, PPC agency Ghaziabad, web development company Ghaziabad, affordable digital marketing services Ghaziabad, digital marketing agency near me, online marketing company Ghaziabad, local SEO Ghaziabad, top digital marketing company UP",
   alternates: {
-    canonical: "https://www.zentrixinfotech.com/ghaziabad/digital-marketing-agency-ghaziabad",
+    canonical:
+      "https://www.zentrixinfotech.com/ghaziabad/digital-marketing-agency-ghaziabad",
   },
   openGraph: {
     title: "Best Digital Marketing Agency in Ghaziabad | Zentrix Infotech",
