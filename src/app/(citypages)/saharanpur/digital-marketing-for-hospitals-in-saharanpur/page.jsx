@@ -7,19 +7,19 @@ import Portfolio from "@/components/Portfolio";
 import LandingServices from "@/components/LandingServices";
 
 export const metadata = {
-  title: "Digital Marketing for Hospitals in Saharanpur | Get Patients",
+  title: "Digital Marketing for Hospitals in Saharanpur | Get Patients Online",
   description:
-    "Grow patient inquiries with expert digital marketing for hospitals in Saharanpur. SEO, Google Ads, reputation management & more. Free consultation today!",
+    "Grow patient inquiries with digital marketing for hospitals in Saharanpur. Local SEO, Google Ads, reputation management, and hospital website marketing.",
   keywords:
-    "digital marketing for hospitals in Saharanpur, digital marketing for clinics Saharanpur, hospital marketing agency Saharanpur, healthcare digital marketing company Saharanpur, medical SEO services Saharanpur, digital marketing for doctors Saharanpur, patient acquisition marketing agency, hospital website design Saharanpur, Google Ads for hospitals Saharanpur, healthcare social media marketing Saharanpur, best digital marketing agency for hospitals UP, online reputation management for hospitals Saharanpur, digital marketing for diagnostic centres Saharanpur, patient lead generation services Saharanpur, medical practice marketing company near me",
+    "digital marketing for hospitals in Saharanpur, digital marketing for clinics Saharanpur, hospital marketing agency Saharanpur, healthcare digital marketing company Saharanpur, medical SEO services Saharanpur, digital marketing for doctors Saharanpur, patient acquisition marketing agency, hospital website design Saharanpur, Google Ads for hospitals Saharanpur, healthcare social media marketing Saharanpur, online reputation management for hospitals Saharanpur, digital marketing for diagnostic centres Saharanpur",
   alternates: {
     canonical:
       "https://www.zentrixinfotech.com/saharanpur/digital-marketing-for-hospitals-saharanpur",
   },
   openGraph: {
-    title: "Digital Marketing for Hospitals in Saharanpur | Get Patients",
+    title: "Digital Marketing for Hospitals in Saharanpur | Get Patients Online",
     description:
-      "Grow patient inquiries with expert digital marketing for hospitals in Saharanpur. SEO, Google Ads, reputation management & more. Free consultation today!",
+      "Grow patient inquiries with digital marketing for hospitals in Saharanpur. Local SEO, Google Ads, reputation management, and hospital website marketing.",
     url: "https://www.zentrixinfotech.com/saharanpur/digital-marketing-for-hospitals-saharanpur",
     siteName: "Zentrix Infotech",
     images: [
@@ -35,9 +35,9 @@ export const metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Digital Marketing for Hospitals in Saharanpur | Get Patients",
+    title: "Digital Marketing for Hospitals in Saharanpur | Get Patients Online",
     description:
-      "Grow patient inquiries with expert digital marketing for hospitals in Saharanpur. SEO, Google Ads, reputation management & more. Free consultation today!",
+      "Grow patient inquiries with digital marketing for hospitals in Saharanpur. Local SEO, Google Ads, reputation management, and hospital website marketing.",
     images: ["https://www.zentrixinfotech.com/zentrix_logo.jpg"],
   },
   icons: {

@@ -7,19 +7,19 @@ import Portfolio from "@/components/Portfolio";
 import LandingServices from "@/components/LandingServices";
 
 export const metadata = {
-  title: "Facebook Ads Agency in Saharanpur | Get Real Leads & ROI",
+  title: "Facebook Ads Agency in Saharanpur | Zentrix Infotech",
   description:
-    "Expert Facebook Ads agency in Saharanpur. Targeted campaigns that bring real leads, sales & footfall. Transparent reporting. Free consultation today!",
+    "Run targeted Facebook Ads in Saharanpur to generate leads, sales, and store visits with transparent reporting and optimized campaigns.",
   keywords:
-    "Facebook Ads agency in Saharanpur, Facebook Ads company in Saharanpur, Facebook marketing agency Saharanpur, Facebook lead generation ads Saharanpur, Meta Ads agency Saharanpur, Facebook Ads for small business Saharanpur, best Facebook Ads agency UP, Facebook Ads for ecommerce Saharanpur, Facebook advertising services Saharanpur, Facebook Ads for real estate Saharanpur, Facebook Ads for local business near me, affordable Facebook Ads management Saharanpur, Facebook Ads for furniture business Saharanpur, Facebook Ads for clinics and hospitals Saharanpur, Facebook Ads campaign management company",
+    "Facebook Ads agency in Saharanpur, Facebook marketing agency Saharanpur, Meta Ads agency Saharanpur, Facebook lead generation ads Saharanpur, Facebook advertising services Saharanpur, Facebook Ads for local business Saharanpur, Facebook Ads for ecommerce Saharanpur, Facebook Ads for real estate Saharanpur",
   alternates: {
     canonical:
       "https://www.zentrixinfotech.com/saharanpur/facebook-ads-agency-saharanpur",
   },
   openGraph: {
-    title: "Facebook Ads Agency in Saharanpur | Get Real Leads & ROI",
+    title: "Facebook Ads Agency in Saharanpur | Zentrix Infotech",
     description:
-      "Expert Facebook Ads agency in Saharanpur. Targeted campaigns that bring real leads, sales & footfall. Transparent reporting. Free consultation today!",
+      "Run targeted Facebook Ads in Saharanpur to generate leads, sales, and store visits with transparent reporting and optimized campaigns.",
     url: "https://www.zentrixinfotech.com/saharanpur/facebook-ads-agency-saharanpur",
     siteName: "Zentrix Infotech",
     images: [
@@ -35,9 +35,9 @@ export const metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Facebook Ads Agency in Saharanpur | Get Real Leads & ROI",
+    title: "Facebook Ads Agency in Saharanpur | Zentrix Infotech",
     description:
-      "Expert Facebook Ads agency in Saharanpur. Targeted campaigns that bring real leads, sales & footfall. Transparent reporting. Free consultation today!",
+      "Run targeted Facebook Ads in Saharanpur to generate leads, sales, and store visits with transparent reporting and optimized campaigns.",
     images: ["https://www.zentrixinfotech.com/zentrix_logo.jpg"],
   },
   icons: {

@@ -9,189 +9,109 @@ const Content = () => {
       <div className="flex flex-col lg:flex-row">
         <div className="flex-1 px-4 sm:px-8 md:px-16 py-0 order-1 lg:order-1">
           <div className="space-y-8 text-gray-700 leading-relaxed max-w-4xl">
-            <h2 className="text-2xl sm:text-3xl font-semibold text-gray-900">
+            <h1 className="text-2xl sm:text-3xl font-semibold text-gray-900">
               Instagram Marketing Agency in Saharanpur
-            </h2>
+            </h1>
 
             <p>
-              Instagram has quietly become one of the most powerful discovery
-              channels for local businesses in Saharanpur — from furniture
-              showrooms and handicraft workshops to restaurants, clinics, and
-              retail stores. People aren't just scrolling for entertainment
-              anymore; they're actively discovering new products, comparing
-              local businesses, and deciding where to shop based on what they
-              see on Instagram. If your business isn't showing up in that
-              scroll with consistent, well-made content, you're invisible to a
-              large and growing share of potential customers.
+              Instagram has become a major discovery channel for local businesses in Saharanpur, especially for brands that rely on visuals, trust, and regular engagement. Customers now check Instagram before visiting restaurants, showrooms, salons, clinics, and retail stores.
             </p>
 
             <p>
-              A dedicated Instagram marketing agency in Saharanpur helps local
-              businesses turn Instagram from a place where they occasionally
-              post into a real, measurable channel for followers, enquiries,
-              and sales. In this guide, we'll cover what proper Instagram
-              marketing actually involves, which businesses in Saharanpur
-              benefit most, our content and campaign process, realistic costs,
-              and answer the most common questions business owners ask before
-              hiring an Instagram marketing partner.
+              Zentrix Infotech offers Instagram marketing services in Saharanpur to help businesses grow followers, improve engagement, generate enquiries, and turn social media attention into real customers. Our focus is on content, ads, and community management that support measurable business growth.
             </p>
 
             <h2 className="text-xl sm:text-2xl font-semibold text-gray-900">
-              Why Instagram Marketing Matters for Saharanpur Businesses
+              Why Instagram Marketing Matters
             </h2>
 
             <ul className="list-disc list-inside space-y-2 ml-4">
-              <li>
-                It's where local discovery happens now. Many customers,
-                especially younger buyers, discover new furniture showrooms,
-                restaurants, boutiques, and services through Instagram before
-                Google.
-              </li>
-              <li>
-                It's built for visual businesses. Saharanpur's wood carving,
-                furniture, handicraft, and food businesses are naturally suited
-                to Instagram's photo and video-first format.
-              </li>
-              <li>
-                Reels reach far beyond your existing followers. Unlike regular
-                posts, Instagram Reels can reach thousands of non-followers
-                organically, making it one of the few genuinely free ways to
-                grow visibility today.
-              </li>
-              <li>
-                It builds trust before the first visit or call. A well-maintained
-                Instagram page with real photos, reviews, and activity signals
-                credibility to a customer who's never heard of your business
-                before.
-              </li>
-              <li>
-                Instagram ads are highly targeted and cost-effective. You can
-                target people specifically in and around Saharanpur based on
-                interests and behaviour, making ad spend far more efficient than
-                untargeted traditional advertising.
-              </li>
+              <li>It supports local discovery and brand visibility.</li>
+              <li>It works well for visual businesses like furniture, food, fashion, and beauty.</li>
+              <li>Reels can reach non-followers and expand your audience quickly.</li>
+              <li>It helps build trust before a customer calls or visits.</li>
+              <li>Paid Instagram ads can target nearby users by interest and location.</li>
             </ul>
 
             <h2 className="text-xl sm:text-2xl font-semibold text-gray-900">
-              Our Instagram Marketing Services in Saharanpur
+              Our Instagram Marketing Services
             </h2>
 
             <h3 className="text-lg font-semibold text-gray-900">
               1. Instagram Page Setup &amp; Optimization
             </h3>
             <p>
-              We set up or optimize your business profile — bio, highlights,
-              contact buttons, and category — so visitors immediately
-              understand what you do and how to reach you.
+              We optimize your bio, highlights, contact details, category, and profile layout so visitors quickly understand your business.
             </p>
 
             <h3 className="text-lg font-semibold text-gray-900">
               2. Content Strategy &amp; Creation
             </h3>
             <p>
-              We plan and create a mix of Reels, carousel posts, and static
-              images tailored to your business — product showcases,
-              behind-the-scenes content, customer testimonials, and offers —
-              built around what actually performs on Instagram today.
+              We plan and create Reels, carousel posts, stories, and static posts based on your business goals and audience.
             </p>
 
             <h3 className="text-lg font-semibold text-gray-900">
               3. Reels Production
             </h3>
             <p>
-              Since Reels currently drive the most organic reach, we focus
-              heavily on short-form video content — product demos, craftsmanship
-              process videos, customer reactions, and trending formats adapted
-              to your brand.
+              We create short-form videos designed for organic reach, product visibility, and stronger engagement.
             </p>
 
             <h3 className="text-lg font-semibold text-gray-900">
               4. Instagram Ads Management
             </h3>
             <p>
-              Targeted ad campaigns to reach potential customers in and around
-              Saharanpur based on interests, demographics, and behaviour —
-              including lead-generation ads that let users enquire directly
-              without leaving the app.
+              We run targeted ad campaigns for awareness, leads, and direct enquiries from people in and around Saharanpur.
             </p>
 
             <h3 className="text-lg font-semibold text-gray-900">
-              5. Influencer &amp; Local Creator Collaborations
+              5. Influencer Collaborations
             </h3>
             <p>
-              Partnering with local micro-influencers and content creators in
-              Saharanpur and nearby cities to expand reach and build trust
-              through authentic, third-party recommendations.
+              We help brands work with local creators and micro-influencers to expand reach and build credibility.
             </p>
 
             <h3 className="text-lg font-semibold text-gray-900">
               6. Community Management &amp; DM Handling
             </h3>
             <p>
-              Responding promptly to comments and direct messages is often where
-              Instagram followers actually convert into customers — we manage
-              this consistently so enquiries don't go unanswered.
+              We monitor comments and direct messages so enquiries are answered quickly and leads are not lost.
             </p>
 
             <h3 className="text-lg font-semibold text-gray-900">
-              7. Performance Tracking &amp; Reporting
+              7. Reporting &amp; Optimization
             </h3>
             <p>
-              We track follower growth, reach, engagement, and — most
-              importantly — the actual enquiries and sales generated from
-              Instagram, not just vanity metrics like likes.
+              We track reach, engagement, follower growth, and enquiries to improve performance over time.
             </p>
 
             <h2 className="text-xl sm:text-2xl font-semibold text-gray-900">
-              Industries in Saharanpur We Run Instagram Marketing For
+              Industries We Work With
             </h2>
 
             <ul className="list-disc list-inside space-y-2 ml-4">
-              <li>Furniture showrooms and wood carving/handicraft businesses.</li>
+              <li>Furniture showrooms and handicraft businesses.</li>
               <li>Restaurants, cafes, and bakeries.</li>
-              <li>Retail boutiques and fashion/apparel stores.</li>
-              <li>Healthcare clinics and wellness centres.</li>
+              <li>Retail boutiques and apparel stores.</li>
+              <li>Clinics, healthcare providers, and wellness centres.</li>
               <li>Educational institutes and coaching centres.</li>
               <li>Real estate developers and property dealers.</li>
               <li>Salons, spas, and beauty businesses.</li>
-              <li>Wedding and event planning services.</li>
+              <li>Wedding and event services.</li>
             </ul>
 
             <h2 className="text-xl sm:text-2xl font-semibold text-gray-900">
-              What Makes Instagram Marketing Actually Work
+              What Makes Instagram Work
             </h2>
 
             <ul className="list-disc list-inside space-y-2 ml-4">
-              <li>
-                Consistency beats perfection. Regular posting (even simple,
-                well-made content) outperforms occasional highly polished posts
-                that stop and start unpredictably.
-              </li>
-              <li>
-                Reels-first content strategy. Prioritizing short-form video
-                significantly increases the chance of reaching new,
-                non-follower audiences.
-              </li>
-              <li>
-                Clear call-to-action on every post. Whether it's "DM to order"
-                or "link in bio," every post should guide viewers toward a next
-                step, not just entertain.
-              </li>
-              <li>
-                Real, authentic content over generic stock visuals. Actual
-                products, real customers, and behind-the-scenes content perform
-                far better than generic stock photography.
-              </li>
-              <li>
-                Fast response to DMs and comments. Many Instagram enquiries are
-                lost simply because nobody replied quickly enough — response
-                speed directly affects conversion.
-              </li>
-              <li>
-                A mix of organic and paid. Organic content builds long-term
-                trust and reach; paid ads accelerate results and target specific
-                customer segments precisely.
-              </li>
+              <li>Consistency matters more than perfection.</li>
+              <li>Reels-first content usually drives better reach.</li>
+              <li>Every post should have a clear call-to-action.</li>
+              <li>Authentic content performs better than stock visuals.</li>
+              <li>Fast replies to DMs and comments improve conversions.</li>
+              <li>Organic content and paid ads work best together.</li>
             </ul>
 
             <h2 className="text-xl sm:text-2xl font-semibold text-gray-900">
@@ -199,120 +119,43 @@ const Content = () => {
             </h2>
 
             <ol className="list-decimal list-inside space-y-2 ml-4">
-              <li>
-                Step 1 — Brand &amp; Audience Research: We study your business,
-                target customer, and competitors' Instagram presence to
-                understand what content and positioning will actually resonate.
-              </li>
-              <li>
-                Step 2 — Content Calendar Planning: We plan a monthly content
-                calendar mixing Reels, carousels, and stories around themes
-                relevant to your business — offers, products, behind-the-scenes,
-                and customer stories.
-              </li>
-              <li>
-                Step 3 — Content Creation &amp; Shooting: Depending on the
-                package, we either shoot content at your business location or
-                work with photos/footage you provide, editing everything into
-                platform-optimized posts and Reels.
-              </li>
-              <li>
-                Step 4 — Posting &amp; Community Management: Content is
-                published on a consistent schedule, with comments and DMs
-                monitored and responded to promptly.
-              </li>
-              <li>
-                Step 5 — Ad Campaign Setup (if included): For businesses
-                running paid promotion, we set up targeted ad campaigns aligned
-                with your goals — awareness, followers, or direct lead
-                generation.
-              </li>
-              <li>
-                Step 6 — Monthly Reporting &amp; Strategy Refinement: We review
-                what content and campaigns performed best each month and adjust
-                the strategy accordingly, doubling down on what's actually
-                working.
-              </li>
+              <li>Brand and audience research.</li>
+              <li>Monthly content calendar planning.</li>
+              <li>Content creation and shooting.</li>
+              <li>Posting and community management.</li>
+              <li>Ad campaign setup if required.</li>
+              <li>Monthly reporting and refinement.</li>
             </ol>
 
             <h2 className="text-xl sm:text-2xl font-semibold text-gray-900">
-              How Much Does Instagram Marketing Cost in Saharanpur?
+              How Much Does Instagram Marketing Cost?
             </h2>
 
-            <p>Pricing typically depends on scope:</p>
-
-            <ul className="list-disc list-inside space-y-2 ml-4">
-              <li>
-                Organic content management only (posting, basic content,
-                community management): Lower monthly budget.
-              </li>
-              <li>
-                Content creation + organic management (including shoots/Reels
-                production): Mid-range monthly budget.
-              </li>
-              <li>
-                Full-service (organic content + paid ads + influencer
-                collaborations): Higher monthly budget, combining consistent
-                organic growth with accelerated paid reach.
-              </li>
-            </ul>
-
             <p>
-              Always ask exactly how many posts/Reels are included per month
-              and whether content creation (shooting/editing) is part of the
-              package, since this varies significantly between agencies.
+              Pricing depends on whether you need only posting and management, content creation with shoots and Reels, or a full-service package with ads and influencer collaboration. You should always confirm the number of posts, Reels, and revision rounds included in the package.
             </p>
 
             <h2 className="text-xl sm:text-2xl font-semibold text-gray-900">
-              Why Choose a Local Instagram Marketing Partner in Saharanpur
+              Why Choose a Local Partner
             </h2>
 
             <ul className="list-disc list-inside space-y-2 ml-4">
-              <li>
-                Understanding of the local audience — what content style,
-                offers, and tone resonate with customers in Saharanpur
-                specifically.
-              </li>
-              <li>
-                Easier on-location content shoots for product photography and
-                Reels at your showroom, workshop, or store.
-              </li>
-              <li>
-                Faster coordination for approvals, offers, and time-sensitive
-                content like festival or event promotions.
-              </li>
-              <li>
-                Local influencer network access for authentic collaborations
-                with creators your actual customers already follow.
-              </li>
+              <li>Better understanding of the local audience.</li>
+              <li>Easier on-location content shoots.</li>
+              <li>Faster coordination for offers and campaigns.</li>
+              <li>Access to local creators and collaborators.</li>
             </ul>
 
             <h2 className="text-xl sm:text-2xl font-semibold text-gray-900">
-              Common Instagram Marketing Mistakes Businesses Make
+              Common Mistakes to Avoid
             </h2>
 
             <ol className="list-decimal list-inside space-y-2 ml-4">
-              <li>
-                Posting inconsistently — sporadic activity performs far worse
-                than a steady, predictable schedule, even with simpler content.
-              </li>
-              <li>
-                Ignoring Reels entirely — missing the format that currently
-                drives the most organic reach on the platform.
-              </li>
-              <li>
-                Not responding to comments and DMs — losing warm leads simply
-                due to slow or missing replies.
-              </li>
-              <li>
-                Using only promotional content — an account that only sells,
-                without genuine, engaging content, sees weaker growth and
-                engagement.
-              </li>
-              <li>
-                No clear call-to-action — leaving viewers unsure how to actually
-                enquire, visit, or buy after seeing a post.
-              </li>
+              <li>Posting inconsistently.</li>
+              <li>Ignoring Reels completely.</li>
+              <li>Not replying to DMs and comments.</li>
+              <li>Using only promotional content.</li>
+              <li>Leaving posts without a call-to-action.</li>
             </ol>
 
             <h2 className="text-xl sm:text-2xl font-semibold text-gray-900">
@@ -320,38 +163,19 @@ const Content = () => {
             </h2>
 
             <p>
-              If you're a Saharanpur business considering Instagram marketing,
-              start by reviewing your current page — how often you post, what
-              content performs best, and how quickly you respond to messages. A
-              good Instagram marketing partner will build a strategy around
-              your specific business and audience, prioritizing Reels and
-              consistent posting from day one, rather than a generic template
-              applied across every client regardless of industry.
+              If you are planning Instagram marketing for your business in Saharanpur, start by reviewing your current profile, posting frequency, and response time. A strong strategy should focus on Reels, consistent posting, and clear business goals like enquiries, footfall, or sales.
             </p>
 
             <h2 className="text-xl sm:text-2xl font-semibold text-gray-900">
-              A Word on Choosing the Right Instagram Marketing Partner
+              A Note on Choosing the Right Agency
             </h2>
 
             <p>
-              Before hiring any Instagram marketing agency in Saharanpur, ask to
-              see actual accounts they currently manage — not just a portfolio
-              of designed mockups. A real, active page with genuine engagement
-              and comments tells you far more about an agency's actual results
-              than curated case study slides. It's also worth asking how many
-              Reels versus static posts are included each month, since Reels
-              typically drive most of the growth but require more production
-              effort. Finally, clarify who owns the Instagram account and its
-              login credentials — you should always retain full admin access, so
-              your page and audience remain fully in your control no matter
-              which agency manages the day-to-day content. Getting these details
-              clear upfront turns Instagram marketing into a genuine, lasting
-              growth channel for your business rather than a short-term content
-              push with no long-term ownership.
+              Before hiring any agency, ask to see live Instagram accounts they manage, how many Reels and posts are included, and who keeps ownership of the account. You should always have full access to your Instagram business profile and credentials.
             </p>
 
             <h2 className="text-xl sm:text-2xl font-semibold text-gray-900">
-              Frequently Asked Questions (FAQ)
+              Frequently Asked Questions
             </h2>
 
             <div className="space-y-6 mt-6">
@@ -360,8 +184,7 @@ const Content = () => {
                   Q1. How much does Instagram marketing cost in Saharanpur?
                 </h3>
                 <p>
-                  Depends on scope — organic-only management costs less than
-                  full-service packages including content shoots and paid ads.
+                  It depends on whether you need organic management, content creation, or full-service ads and influencer support.
                 </p>
               </div>
 
@@ -370,128 +193,93 @@ const Content = () => {
                   Q2. How often should a business post on Instagram?
                 </h3>
                 <p>
-                  Consistency matters more than frequency — most businesses see
-                  good results posting 3–5 times a week, including Reels.
+                  Most businesses do well with a consistent schedule of 3 to 5 posts per week, including Reels.
                 </p>
               </div>
 
               <div>
                 <h3 className="font-semibold text-gray-900 mb-3">
-                  Q3. Are Instagram Reels really more effective than regular
-                  posts?
+                  Q3. Are Instagram Reels more effective than regular posts?
                 </h3>
                 <p>
-                  Yes — Reels currently get significantly more organic reach to
-                  non-followers compared to regular photo posts.
+                  Yes. Reels usually give better reach to non-followers than standard photo posts.
                 </p>
               </div>
 
               <div>
                 <h3 className="font-semibold text-gray-900 mb-3">
-                  Q4. Can Instagram marketing generate real leads, not just
-                  followers?
+                  Q4. Can Instagram marketing generate real leads?
                 </h3>
                 <p>
-                  Yes — through clear calls-to-action, DM/WhatsApp integration,
-                  and lead-generation ads that let users enquire directly.
+                  Yes. With strong calls-to-action, DM handling, and lead ads, Instagram can produce real business enquiries.
                 </p>
               </div>
 
               <div>
                 <h3 className="font-semibold text-gray-900 mb-3">
-                  Q5. How long does it take to see real growth on Instagram?
+                  Q5. How long does it take to see growth?
                 </h3>
                 <p>
-                  Consistent organic growth typically builds over 2–3 months;
-                  paid ads can generate quicker but shorter-term visibility.
+                  Organic growth usually builds over a few months, while paid ads can bring faster visibility.
                 </p>
               </div>
 
               <div>
                 <h3 className="font-semibold text-gray-900 mb-3">
-                  Q6. Do I need to run paid ads, or is organic content enough?
+                  Q6. Do I need paid ads?
                 </h3>
                 <p>
-                  Organic content alone can work well over time, but paid ads
-                  accelerate reach and results, especially for new accounts.
+                  Not always, but ads can accelerate reach and help new accounts grow faster.
                 </p>
               </div>
 
               <div>
                 <h3 className="font-semibold text-gray-900 mb-3">
-                  Q7. Can Instagram marketing work for a furniture or handicraft
-                  business?
+                  Q7. Can Instagram work for furniture or handicraft businesses?
                 </h3>
                 <p>
-                  Yes — highly visual products like furniture and handicrafts
-                  perform especially well on Instagram through photos and
-                  craftsmanship videos.
+                  Yes. These businesses often perform very well because Instagram is a visual platform.
                 </p>
               </div>
 
               <div>
                 <h3 className="font-semibold text-gray-900 mb-3">
-                  Q8. Is Zentrix Infotech a good option for Instagram/social
-                  media marketing in this region?
+                  Q8. Is Zentrix Infotech a good option for Instagram marketing?
                 </h3>
                 <p>
-                  Based on their website, Zentrix Infotech is a Moradabad-based
-                  digital marketing company offering social media marketing as
-                  part of their digital marketing services, alongside web and app
-                  development, with 250+ projects and 270+ clients. Worth
-                  evaluating for the Moradabad–Saharanpur region by asking to see
-                  specific Instagram content and results they've delivered.
+                  Zentrix Infotech positions itself as a digital marketing company offering social media marketing along with web and app development, and it is worth reviewing their live Instagram work before hiring.
                 </p>
               </div>
 
               <div>
                 <h3 className="font-semibold text-gray-900 mb-3">
-                  Q9. What industries has Zentrix Infotech worked with?
+                  Q9. Do I need to provide my own photos and videos?
                 </h3>
                 <p>
-                  Their portfolio and testimonials show clients across
-                  e-commerce/retail, interior design, education, healthcare,
-                  hospitality, and pharmacy sectors.
+                  Not necessarily. Many agencies can create content for you, though your own raw assets can also help.
                 </p>
               </div>
 
               <div>
                 <h3 className="font-semibold text-gray-900 mb-3">
-                  Q10. Do I need to provide my own product photos/videos for
-                  Instagram content?
+                  Q10. Can Instagram marketing help service businesses?
                 </h3>
                 <p>
-                  Not necessarily — many agencies offer content shoots as part of
-                  their package, though providing your own raw footage can also
-                  work well.
+                  Yes. Clinics, salons, and service businesses can use Instagram for trust-building, testimonials, and local ads.
                 </p>
               </div>
 
               <div>
                 <h3 className="font-semibold text-gray-900 mb-3">
-                  Q11. Can Instagram marketing help a local clinic or service
-                  business, not just retail?
+                  Q11. What should I prepare before starting?
                 </h3>
                 <p>
-                  Yes — clinics, salons, and service businesses benefit from
-                  Instagram through trust-building content, testimonials, and
-                  location-based ads.
-                </p>
-              </div>
-
-              <div>
-                <h3 className="font-semibold text-gray-900 mb-3">
-                  Q12. What should I prepare before starting Instagram
-                  marketing?
-                </h3>
-                <p>
-                  Access to your Instagram business account, brand colours/logo,
-                  a few good product or business photos, and clarity on your
-                  main goal (followers, enquiries, or sales).
+                  Prepare account access, brand assets, basic product or service photos, and a clear goal for the campaign.
                 </p>
               </div>
             </div>
-             <p>
+
+            <p>
               📞 <strong>WhatsApp / Call:</strong>{" "}
               <a href="tel:+917248800839" className="text-blue-600 hover:underline">
                 +91 72488 00839
@@ -507,7 +295,6 @@ const Content = () => {
                 www.zentrixinfotech.com
               </a>
             </p>
-
 
             <CityInternalLinks
               city="saharanpur"

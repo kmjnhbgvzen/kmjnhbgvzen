@@ -7,19 +7,19 @@ import Portfolio from "@/components/Portfolio";
 import LandingServices from "@/components/LandingServices";
 
 export const metadata = {
-  title: "Content Marketing Agency in Saharanpur | Blogs, Videos & SEO Content",
+  title: "Content Marketing Agency in Saharanpur | Zentrix Infotech",
   description:
-    "Build authority and organic traffic with a professional content marketing agency in Saharanpur. Blogs, website copy, videos & SEO-driven content. Free consultation.",
+    "Grow traffic, authority, and leads with content marketing services in Saharanpur. Blogs, website copy, SEO content, and brand storytelling.",
   keywords:
-    "content marketing agency in Saharanpur, content marketing services Saharanpur, blog writing services Saharanpur, SEO content writing Saharanpur, content strategy company UP, website copywriting Saharanpur, video content marketing Saharanpur, content creation agency Saharanpur, digital content services Saharanpur, brand storytelling agency Saharanpur",
+    "content marketing agency in Saharanpur, content marketing services Saharanpur, blog writing services Saharanpur, SEO content writing Saharanpur, website copywriting Saharanpur, content strategy Saharanpur, brand storytelling agency Saharanpur",
   alternates: {
     canonical:
       "https://www.zentrixinfotech.com/saharanpur/content-marketing-agency-in-saharanpur",
   },
   openGraph: {
-    title: "Content Marketing Agency in Saharanpur | Blogs, Videos & SEO Content",
+    title: "Content Marketing Agency in Saharanpur | Zentrix Infotech",
     description:
-      "Build authority and organic traffic with a professional content marketing agency in Saharanpur. Blogs, website copy, videos & SEO-driven content. Free consultation.",
+      "Grow traffic, authority, and leads with content marketing services in Saharanpur. Blogs, website copy, SEO content, and brand storytelling.",
     url: "https://www.zentrixinfotech.com/saharanpur/content-marketing-agency-in-saharanpur",
     siteName: "Zentrix Infotech",
     images: [
@@ -35,9 +35,9 @@ export const metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Content Marketing Agency in Saharanpur | Blogs, Videos & SEO Content",
+    title: "Content Marketing Agency in Saharanpur | Zentrix Infotech",
     description:
-      "Build authority and organic traffic with a professional content marketing agency in Saharanpur. Blogs, website copy, videos & SEO-driven content. Free consultation.",
+      "Grow traffic, authority, and leads with content marketing services in Saharanpur. Blogs, website copy, SEO content, and brand storytelling.",
     images: ["https://www.zentrixinfotech.com/zentrix_logo.jpg"],
   },
   icons: {

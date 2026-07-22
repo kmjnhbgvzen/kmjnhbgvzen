@@ -7,19 +7,19 @@ import Portfolio from "@/components/Portfolio";
 import LandingServices from "@/components/LandingServices";
 
 export const metadata = {
-  title: "PPC & Google Ads Agency in Saharanpur | Certified Ad Management",
+  title: "PPC & Google Ads Agency in Saharanpur | Google Ads Management",
   description:
-    "Get more leads with a results-driven PPC & Google Ads agency in Saharanpur. Search, Shopping, Display & retargeting campaigns managed for maximum ROI. Free audit.",
+    "Get PPC and Google Ads management in Saharanpur to generate calls, enquiries, and store visits with search, shopping, display, and retargeting campaigns.",
   keywords:
-    "PPC agency in Saharanpur, Google Ads agency Saharanpur, PPC management Saharanpur, Google Ads management company Saharanpur, pay per click services Saharanpur, search engine marketing Saharanpur, Google Ads expert Saharanpur, PPC company UP, digital marketing agency Saharanpur, lead generation ads Saharanpur",
+    "PPC agency in Saharanpur, Google Ads agency Saharanpur, PPC management Saharanpur, Google Ads management company Saharanpur, pay per click services Saharanpur, search engine marketing Saharanpur, lead generation ads Saharanpur, Google Ads expert Saharanpur",
   alternates: {
     canonical:
-      "https://www.zentrixinfotech.com/cities/saharanpur/ppc-google-ads-agency-in-saharanpur",
+      "https://www.zentrixinfotech.com/saharanpur/ppc-google-ads-agency-in-saharanpur",
   },
   openGraph: {
-    title: "PPC & Google Ads Agency in Saharanpur | Certified Ad Management",
+    title: "PPC & Google Ads Agency in Saharanpur | Google Ads Management",
     description:
-      "Get more leads with a results-driven PPC & Google Ads agency in Saharanpur. Search, Shopping, Display & retargeting campaigns managed for maximum ROI. Free audit.",
+      "Get PPC and Google Ads management in Saharanpur to generate calls, enquiries, and store visits with search, shopping, display, and retargeting campaigns.",
     url: "https://www.zentrixinfotech.com/saharanpur/ppc-google-ads-agency-in-saharanpur",
     siteName: "Zentrix Infotech",
     images: [
@@ -35,9 +35,9 @@ export const metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "PPC & Google Ads Agency in Saharanpur | Certified Ad Management",
+    title: "PPC & Google Ads Agency in Saharanpur | Google Ads Management",
     description:
-      "Get more leads with a results-driven PPC & Google Ads agency in Saharanpur. Search, Shopping, Display & retargeting campaigns managed for maximum ROI. Free audit.",
+      "Get PPC and Google Ads management in Saharanpur to generate calls, enquiries, and store visits with search, shopping, display, and retargeting campaigns.",
     images: ["https://www.zentrixinfotech.com/zentrix_logo.jpg"],
   },
   icons: {

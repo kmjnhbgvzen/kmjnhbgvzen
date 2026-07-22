@@ -9,7 +9,7 @@ import LandingServices from "@/components/LandingServices";
 export const metadata = {
   title: "Best Digital Marketing Company in Saharanpur | Full-Service Agency",
   description:
-    "Searching for the best digital marketing company in Saharanpur? Get SEO, social media, PPC & web development under one roof. Free consultation & audit available.",
+    "Looking for the best digital marketing company in Saharanpur? Zentrix Infotech helps businesses grow with SEO, social media, PPC, and website development.",
   keywords:
     "best digital marketing company in Saharanpur, digital marketing agency Saharanpur, top digital marketing company Saharanpur, SEO and social media agency Saharanpur, online marketing company Saharanpur, digital marketing services UP, full service digital agency Saharanpur, internet marketing company Saharanpur, affordable digital marketing Saharanpur, digital marketing experts Saharanpur",
   alternates: {
@@ -19,8 +19,8 @@ export const metadata = {
   openGraph: {
     title: "Best Digital Marketing Company in Saharanpur | Full-Service Agency",
     description:
-      "Searching for the best digital marketing company in Saharanpur? Get SEO, social media, PPC & web development under one roof. Free consultation & audit available.",
-    url: "https://www.zentrixinfotech.com/cities/saharanpur/best-digital-marketing-company-in-saharanpur",
+      "Looking for the best digital marketing company in Saharanpur? Zentrix Infotech helps businesses grow with SEO, social media, PPC, and website development.",
+    url: "https://www.zentrixinfotech.com/saharanpur/best-digital-marketing-company-in-saharanpur",
     siteName: "Zentrix Infotech",
     images: [
       {
@@ -37,7 +37,7 @@ export const metadata = {
     card: "summary_large_image",
     title: "Best Digital Marketing Company in Saharanpur | Full-Service Agency",
     description:
-      "Searching for the best digital marketing company in Saharanpur? Get SEO, social media, PPC & web development under one roof. Free consultation & audit available.",
+      "Looking for the best digital marketing company in Saharanpur? Zentrix Infotech helps businesses grow with SEO, social media, PPC, and website development.",
     images: ["https://www.zentrixinfotech.com/zentrix_logo.jpg"],
   },
   icons: {

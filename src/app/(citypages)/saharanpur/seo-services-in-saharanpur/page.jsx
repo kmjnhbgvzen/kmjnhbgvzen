@@ -7,19 +7,19 @@ import Portfolio from "@/components/Portfolio";
 import LandingServices from "@/components/LandingServices";
 
 export const metadata = {
-  title: "SEO Services in Saharanpur | Rank Higher on Google with Expert SEO",
+  title: "SEO Services in Saharanpur | Local SEO, Technical SEO & Rankings",
   description:
-    "Get result-driven SEO services in Saharanpur — local SEO, on-page, technical & link building that help your business rank higher and get more customers.",
+    "Get SEO services in Saharanpur for local SEO, technical SEO, content optimization, keyword research, and ranking growth from Zentrix Infotech.",
   keywords:
-    "SEO services in Saharanpur, SEO company Saharanpur, local SEO Saharanpur, SEO expert Saharanpur, best SEO agency near me, website ranking services Saharanpur, on-page SEO Saharanpur, SEO consultant Saharanpur",
+    "SEO services in Saharanpur, SEO company in Saharanpur, local SEO Saharanpur, technical SEO Saharanpur, keyword research Saharanpur, on-page SEO Saharanpur, content SEO Saharanpur, rank tracking SEO",
   alternates: {
     canonical:
-      "https://www.zentrixinfotech.com/cities/saharanpur/seo-services-in-saharanpur",
+      "https://www.zentrixinfotech.com/saharanpur/seo-services-in-saharanpur",
   },
   openGraph: {
-    title: "SEO Services in Saharanpur | Rank Higher on Google with Expert SEO",
+    title: "SEO Services in Saharanpur | Local SEO, Technical SEO & Rankings",
     description:
-      "Get result-driven SEO services in Saharanpur — local SEO, on-page, technical & link building that help your business rank higher and get more customers.",
+      "Get SEO services in Saharanpur for local SEO, technical SEO, content optimization, keyword research, and ranking growth from Zentrix Infotech.",
     url: "https://www.zentrixinfotech.com/saharanpur/seo-services-in-saharanpur",
     siteName: "Zentrix Infotech",
     images: [
@@ -35,9 +35,9 @@ export const metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "SEO Services in Saharanpur | Rank Higher on Google with Expert SEO",
+    title: "SEO Services in Saharanpur | Local SEO, Technical SEO & Rankings",
     description:
-      "Get result-driven SEO services in Saharanpur — local SEO, on-page, technical & link building that help your business rank higher and get more customers.",
+      "Get SEO services in Saharanpur for local SEO, technical SEO, content optimization, keyword research, and ranking growth from Zentrix Infotech.",
     images: ["https://www.zentrixinfotech.com/zentrix_logo.jpg"],
   },
   icons: {

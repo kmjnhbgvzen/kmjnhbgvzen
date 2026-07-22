@@ -9,9 +9,9 @@ import LandingServices from "@/components/LandingServices";
 export const metadata = {
   title: "YouTube Marketing Agency in Saharanpur | Zentrix Infotech",
   description:
-    "Zentrix Infotech is a YouTube marketing agency in Saharanpur helping brands grow channels, run video ads & turn views into real customers. Get started.",
+    "Grow your channel with YouTube marketing in Saharanpur. Video SEO, channel strategy, YouTube ads, and content optimization from Zentrix Infotech.",
   keywords:
-    "youtube marketing agency in Saharanpur, youtube marketing company saharanpur, youtube channel growth services, youtube video seo services india, youtube ads agency saharanpur, youtube promotion services india, youtube marketing packages saharanpur, video marketing agency uttar pradesh, youtube channel management services, youtube advertising cost india, best youtube marketing agency india, youtube seo optimization services, youtube subscriber growth services, digital marketing agency saharanpur, youtube content strategy services, video seo company india",
+    "youtube marketing agency in Saharanpur, youtube marketing services Saharanpur, youtube seo services, youtube ads agency Saharanpur, video marketing agency Uttar Pradesh, youtube channel management, youtube content strategy, youtube video optimization",
   alternates: {
     canonical:
       "https://www.zentrixinfotech.com/saharanpur/youtube-marketing-agency-saharanpur",
@@ -19,7 +19,7 @@ export const metadata = {
   openGraph: {
     title: "YouTube Marketing Agency in Saharanpur | Zentrix Infotech",
     description:
-      "Zentrix Infotech is a YouTube marketing agency in Saharanpur helping brands grow channels, run video ads & turn views into real customers. Get started.",
+      "Grow your channel with YouTube marketing in Saharanpur. Video SEO, channel strategy, YouTube ads, and content optimization from Zentrix Infotech.",
     url: "https://www.zentrixinfotech.com/saharanpur/youtube-marketing-agency-saharanpur",
     siteName: "Zentrix Infotech",
     images: [
@@ -37,7 +37,7 @@ export const metadata = {
     card: "summary_large_image",
     title: "YouTube Marketing Agency in Saharanpur | Zentrix Infotech",
     description:
-      "Zentrix Infotech is a YouTube marketing agency in Saharanpur helping brands grow channels, run video ads & turn views into real customers. Get started.",
+      "Grow your channel with YouTube marketing in Saharanpur. Video SEO, channel strategy, YouTube ads, and content optimization from Zentrix Infotech.",
     images: ["https://www.zentrixinfotech.com/zentrix_logo.jpg"],
   },
   icons: {

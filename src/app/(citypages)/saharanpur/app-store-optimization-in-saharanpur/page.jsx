@@ -7,19 +7,19 @@ import Portfolio from "@/components/Portfolio";
 import LandingServices from "@/components/LandingServices";
 
 export const metadata = {
-  title: "App Store Optimization in Saharanpur | Rank Your App",
+  title: "App Store Optimization in Saharanpur | Zentrix Infotech",
   description:
-    "Expert App Store Optimization (ASO) services in Saharanpur. Rank higher on Play Store & App Store, get more organic downloads. Free consultation today!",
+    "Need app store optimization in Saharanpur? Improve app visibility, keyword rankings, and installs with ASO services designed for growth.",
   keywords:
-    "App Store Optimization in Saharanpur, ASO services in Saharanpur, App Store Optimization company Saharanpur, Play Store optimization services Saharanpur, ASO agency near me, mobile app ranking services Saharanpur, app keyword optimization Saharanpur, increase app downloads Saharanpur, App Store optimization for startups Saharanpur, Google Play optimization company UP, best ASO agency Saharanpur, app store listing optimization services, ASO for ecommerce app Saharanpur, app visibility optimization Saharanpur, organic app download growth services",
+    "app store optimization in Saharanpur, ASO services Saharanpur, app listing optimization, mobile app SEO, Play Store optimization, App Store optimization, app ranking services Saharanpur",
   alternates: {
     canonical:
       "https://www.zentrixinfotech.com/saharanpur/app-store-optimization-saharanpur",
   },
   openGraph: {
-    title: "App Store Optimization in Saharanpur | Rank Your App",
+    title: "App Store Optimization in Saharanpur | Zentrix Infotech",
     description:
-      "Expert App Store Optimization (ASO) services in Saharanpur. Rank higher on Play Store & App Store, get more organic downloads. Free consultation today!",
+      "Need app store optimization in Saharanpur? Improve app visibility, keyword rankings, and installs with ASO services designed for growth.",
     url: "https://www.zentrixinfotech.com/saharanpur/app-store-optimization-saharanpur",
     siteName: "Zentrix Infotech",
     images: [
@@ -35,9 +35,9 @@ export const metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "App Store Optimization in Saharanpur | Rank Your App",
+    title: "App Store Optimization in Saharanpur | Zentrix Infotech",
     description:
-      "Expert App Store Optimization (ASO) services in Saharanpur. Rank higher on Play Store & App Store, get more organic downloads. Free consultation today!",
+      "Need app store optimization in Saharanpur? Improve app visibility, keyword rankings, and installs with ASO services designed for growth.",
     images: ["https://www.zentrixinfotech.com/zentrix_logo.jpg"],
   },
   icons: {

@@ -7,19 +7,19 @@ import Portfolio from "@/components/Portfolio";
 import LandingServices from "@/components/LandingServices";
 
 export const metadata = {
-  title: "Lead Generation Services in Saharanpur | Get Verified Leads",
+  title: "Lead Generation Services in Saharanpur | Zentrix Infotech",
   description:
-    "Get high-quality, verified leads for your business with expert lead generation services in Saharanpur. B2B & B2C leads. Free consultation — call now!",
+    "Generate quality enquiries for your business with lead generation services in Saharanpur. SEO, Google Ads, Meta Ads, WhatsApp marketing, and conversion-focused landing pages.",
   keywords:
-    "lead generation services in Saharanpur, lead generation company in Saharanpur, digital marketing agency in Saharanpur, B2B lead generation Saharanpur, B2C lead generation services Saharanpur, best lead generation agency Saharanpur, UP online lead generation company near me, SEO leads for business Saharanpur, Google Ads lead generation Saharanpur, local business leads Saharanpur, lead generation for manufacturers Saharanpur",
+    "lead generation services in Saharanpur, lead generation company in Saharanpur, B2B lead generation Saharanpur, Google Ads lead generation Saharanpur, local business leads Saharanpur, SEO leads for business Saharanpur, Meta ads lead generation Saharanpur",
   alternates: {
     canonical:
       "https://www.zentrixinfotech.com/saharanpur/lead-generation-services-saharanpur",
   },
   openGraph: {
-    title: "Lead Generation Services in Saharanpur | Get Verified Leads",
+    title: "Lead Generation Services in Saharanpur | Zentrix Infotech",
     description:
-      "Get high-quality, verified leads for your business with expert lead generation services in Saharanpur. B2B & B2C leads. Free consultation — call now!",
+      "Generate quality enquiries for your business with lead generation services in Saharanpur. SEO, Google Ads, Meta Ads, WhatsApp marketing, and conversion-focused landing pages.",
     url: "https://www.zentrixinfotech.com/saharanpur/lead-generation-services-saharanpur",
     siteName: "Zentrix Infotech",
     images: [
@@ -35,9 +35,9 @@ export const metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Lead Generation Services in Saharanpur | Get Verified Leads",
+    title: "Lead Generation Services in Saharanpur | Zentrix Infotech",
     description:
-      "Get high-quality, verified leads for your business with expert lead generation services in Saharanpur. B2B & B2C leads. Free consultation — call now!",
+      "Generate quality enquiries for your business with lead generation services in Saharanpur. SEO, Google Ads, Meta Ads, WhatsApp marketing, and conversion-focused landing pages.",
     images: ["https://www.zentrixinfotech.com/zentrix_logo.jpg"],
   },
   icons: {

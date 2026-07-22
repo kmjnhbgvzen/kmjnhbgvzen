@@ -9,29 +9,29 @@ const Content = () => {
       <div className="flex flex-col lg:flex-row">
         <div className="flex-1 px-4 sm:px-8 md:px-16 py-0 order-1 lg:order-1">
           <div className="space-y-8 text-gray-700 leading-relaxed max-w-4xl">
-            <h2 className="text-2xl sm:text-3xl font-semibold text-gray-900">
+            <h1 className="text-2xl sm:text-3xl font-semibold text-gray-900">
               Mobile App Development in Saharanpur
-            </h2>
+            </h1>
 
             <p>
-              Saharanpur's economy is no longer limited to its famous wood
-              carving workshops, paper mills, and local retail markets — it's
+              Saharanpur&apos;s economy is no longer limited to its famous wood
+              carving workshops, paper mills, and local retail markets — it&apos;s
               steadily moving online. Customers now expect to order, book, or
-              enquire from their phone, whether that's a handicraft buyer
-              browsing a catalog from abroad, a patient booking a doctor's
+              enquire from their phone, whether that&apos;s a handicraft buyer
+              browsing a catalog from abroad, a patient booking a doctor&apos;s
               appointment, or a local shopper ordering furniture for home
-              delivery. If your business doesn't have a mobile app yet, you're
+              delivery. If your business doesn&apos;t have a mobile app yet, you&apos;re
               relying entirely on a website or word-of-mouth to hold onto
               customers who increasingly expect an app-first experience.
             </p>
 
             <p>
-              That's where professional mobile app development in Saharanpur
-              makes a real difference. A well-built app isn't just a digital
-              brochure — it's a direct channel to your customer's home screen,
+              That&apos;s where professional mobile app development in Saharanpur
+              makes a real difference. A well-built app isn&apos;t just a digital
+              brochure — it&apos;s a direct channel to your customer&apos;s home screen,
               built for repeat visits, push notifications, and a smoother buying
               experience than any website can offer on a small screen. In this
-              guide, we'll cover what mobile app development actually involves,
+              guide, we&apos;ll cover what mobile app development actually involves,
               which app types work best for Saharanpur businesses, our
               development process, typical costs, and answer the questions local
               business owners ask most before hiring a developer.
@@ -49,8 +49,8 @@ const Content = () => {
               </li>
               <li>
                 Repeat business through push notifications. Unlike a website
-                visit that's easily forgotten, an installed app sits on the
-                customer's home screen and can be re-engaged with offers, order
+                visit that&apos;s easily forgotten, an installed app sits on the
+                customer&apos;s home screen and can be re-engaged with offers, order
                 updates, and reminders.
               </li>
               <li>
@@ -59,7 +59,7 @@ const Content = () => {
                 parts of UP), and can even function partially offline.
               </li>
               <li>
-                Competitive edge for exporters. Saharanpur's handicraft and
+                Competitive edge for exporters. Saharanpur&apos;s handicraft and
                 wood-carving exporters increasingly need a professional digital
                 catalog or ordering app to compete with exporters in other
                 cities who already have one.
@@ -67,7 +67,7 @@ const Content = () => {
               <li>
                 Better customer data and retention. Apps allow you to track
                 customer behaviour, send targeted offers, and build loyalty
-                programs — something a basic website can't do as effectively.
+                programs — something a basic website can&apos;t do as effectively.
               </li>
             </ul>
 
@@ -112,7 +112,7 @@ const Content = () => {
               For retail showrooms, handicraft exporters, and product-based
               businesses, a catalog or e-commerce app lets customers browse
               products, place orders, and make payments directly from their
-              phone — perfect for Saharanpur's furniture, wood handicraft, and
+              phone — perfect for Saharanpur&apos;s furniture, wood handicraft, and
               retail sectors.
             </p>
 
@@ -219,13 +219,13 @@ const Content = () => {
                 the app needs to solve before writing a single line of code.
               </li>
               <li>
-                Step 2 — Wireframing &amp; UI/UX Design: We design the app's
+                Step 2 — Wireframing &amp; UI/UX Design: We design the app&apos;s
                 screens and user flow first, so you can visualize and approve
                 the experience before development begins.
               </li>
               <li>
                 Step 3 — Development (Frontend + Backend): Our developers build
-                the app's interface, backend logic, database, and API
+                the app&apos;s interface, backend logic, database, and API
                 integrations using the platform (native or cross-platform) best
                 suited to your budget and goals.
               </li>
@@ -242,7 +242,7 @@ const Content = () => {
               </li>
               <li>
                 Step 6 — Post-Launch Support &amp; Maintenance: App development
-                doesn't end at launch. We provide bug fixes, OS-update
+                doesn&apos;t end at launch. We provide bug fixes, OS-update
                 compatibility, feature additions, and performance monitoring
                 after your app goes live.
               </li>
@@ -290,11 +290,11 @@ const Content = () => {
               </li>
               <li>
                 Understanding of the regional market — language preferences,
-                payment habits, and customer expectations specific to UP's
+                payment habits, and customer expectations specific to UP&apos;s
                 Tier-2 cities.
               </li>
               <li>
-                Post-launch support that's easy to reach rather than routing
+                Post-launch support that&apos;s easy to reach rather than routing
                 every issue through a distant support ticket system.
               </li>
               <li>
@@ -319,11 +319,11 @@ const Content = () => {
               </li>
               <li>
                 Ignoring app store optimization (ASO) — a great app that nobody
-                can find in search results won't get downloads.
+                can find in search results won&apos;t get downloads.
               </li>
               <li>
                 No plan for post-launch maintenance — OS updates (Android/iOS)
-                can break apps that aren't maintained.
+                can break apps that aren&apos;t maintained.
               </li>
               <li>
                 Overloading the first version with features — a focused MVP
@@ -337,9 +337,9 @@ const Content = () => {
             </h2>
 
             <p>
-              If you're a Saharanpur business considering a mobile app, start
+              If you&apos;re a Saharanpur business considering a mobile app, start
               with a clear list of the 2–3 core problems you want the app to
-              solve — whether that's taking orders, booking appointments, or
+              solve — whether that&apos;s taking orders, booking appointments, or
               building repeat customer engagement. A good development partner
               will turn that into a scoped proposal with timeline, cost, and
               platform recommendations, rather than pushing you toward the most
@@ -427,7 +427,7 @@ const Content = () => {
                   Q8. Is Zentrix Infotech a good option for app development here?
                 </h3>
                 <p>
-                  They're a Moradabad-based digital/software company offering
+                  They&apos;re a Moradabad-based digital/software company offering
                   mobile app development (native and cross-platform) plus web,
                   UI/UX, and marketing services, with 250+ projects and 270+
                   clients. Worth evaluating alongside other local developers by
@@ -451,7 +451,7 @@ const Content = () => {
                 </h3>
                 <p>
                   Usually yes, since the interface is designed before coding —
-                  confirm it's included in your quote.
+                  confirm it&apos;s included in your quote.
                 </p>
               </div>
 
@@ -475,7 +475,8 @@ const Content = () => {
                 </p>
               </div>
             </div>
-             <p>
+
+            <p>
               📞 <strong>WhatsApp / Call:</strong>{" "}
               <a href="tel:+917248800839" className="text-blue-600 hover:underline">
                 +91 72488 00839
@@ -491,7 +492,6 @@ const Content = () => {
                 www.zentrixinfotech.com
               </a>
             </p>
-
 
             <CityInternalLinks
               city="saharanpur"

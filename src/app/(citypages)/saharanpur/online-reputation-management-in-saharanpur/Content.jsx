@@ -9,9 +9,9 @@ const Content = () => {
       <div className="flex flex-col lg:flex-row">
         <div className="flex-1 px-4 sm:px-8 md:px-16 py-0 order-1 lg:order-1">
           <div className="space-y-8 text-gray-700 leading-relaxed max-w-4xl">
-            <h2 className="text-2xl sm:text-3xl font-semibold text-gray-900">
+            <h1 className="text-2xl sm:text-3xl font-semibold text-gray-900">
               Online Reputation Management in Saharanpur – Zentrix Infotech
-            </h2>
+            </h1>
 
             <p>
               Before a customer in Saharanpur calls your business, books an appointment, or walks into your shop, there's a good chance they've already searched your name on Google. What they find in those first few results — good reviews or bad ones, accurate information or outdated complaints — often decides whether they choose you or move on to a competitor. A single unresolved negative review or defamatory article can quietly cost a business a significant share of its potential customers, no matter how good the product or service actually is.
@@ -249,7 +249,8 @@ const Content = () => {
                 <p>You can reach Zentrix Infotech at +91 7248800839, +91 6397036898, or via email at <a href="mailto:info@zentrixinfotech.com" className="text-blue-600">info@zentrixinfotech.com</a>.</p>
               </div>
             </div>
-             <p>
+
+            <p>
               📞 <strong>WhatsApp / Call:</strong>{" "}
               <a href="tel:+917248800839" className="text-blue-600 hover:underline">
                 +91 72488 00839
@@ -265,7 +266,6 @@ const Content = () => {
                 www.zentrixinfotech.com
               </a>
             </p>
-
 
             <CityInternalLinks
               city="saharanpur"

@@ -14,7 +14,7 @@ export const metadata = {
     "graphic design services in Saharanpur, graphic designer Saharanpur, logo design Saharanpur, branding agency Saharanpur, packaging design Saharanpur, brochure design Saharanpur, best graphic design company Saharanpur, freelance graphic designer Saharanpur, creative design agency UP, affordable graphic design services",
   alternates: {
     canonical:
-      "https://www.zentrixinfotech.com/cities/saharanpur/graphic-design-services-in-saharanpur",
+      "https://www.zentrixinfotech.com/saharanpur/graphic-design-services-in-saharanpur",
   },
   openGraph: {
     title: "Graphic Design Services in Saharanpur | Zentrix Infotech",

@@ -9,33 +9,33 @@ const Content = () => {
       <div className="flex flex-col lg:flex-row">
         <div className="flex-1 px-4 sm:px-8 md:px-16 py-0 order-1 lg:order-1">
           <div className="space-y-8 text-gray-700 leading-relaxed max-w-4xl">
-            <h2 className="text-2xl sm:text-3xl font-semibold text-gray-900">
+            <h1 className="text-2xl sm:text-3xl font-semibold text-gray-900">
               Social Media Marketing Agency in Saharanpur
-            </h2>
+            </h1>
 
             <p>
               Saharanpur is home to thousands of small and mid-sized businesses —
               from wood carving exporters and furniture manufacturers to retail
               showrooms, hospitals, coaching institutes, and restaurants. For
               years, word-of-mouth and local advertising were enough to keep
-              these businesses running. That's no longer the case. Customers in
-              Saharanpur now discover new products, compare local businesses, and
-              make buying decisions based on what they see on Instagram,
+              these businesses running. That&apos;s no longer the case. Customers
+              in Saharanpur now discover new products, compare local businesses,
+              and make buying decisions based on what they see on Instagram,
               Facebook, and increasingly YouTube and LinkedIn. A dedicated social
               media marketing agency in Saharanpur helps local businesses show up
               consistently on these platforms, build an audience, and convert
               followers into paying customers — something most business owners
-              simply don't have the time or specialized skill to do themselves.
+              simply don&apos;t have the time or specialized skill to do themselves.
             </p>
 
             <p>
               This page explains what social media marketing actually involves,
-              why it matters specifically for Saharanpur's business landscape,
+              why it matters specifically for Saharanpur&apos;s business landscape,
               what a capable agency should offer, how the process typically
               works, and what to look for when evaluating a potential partner —
               including a closer look at Zentrix Infotech, a regional digital
               marketing and IT company whose own website offers a useful example
-              of what a credible agency's online presence should look like.
+              of what a credible agency&apos;s online presence should look like.
             </p>
 
             <h2 className="text-xl sm:text-2xl font-semibold text-gray-900">
@@ -43,7 +43,7 @@ const Content = () => {
             </h2>
 
             <p>
-              Saharanpur's economy is diverse, and each type of business has a
+              Saharanpur&apos;s economy is diverse, and each type of business has a
               different reason to be active on social media:
             </p>
 
@@ -56,9 +56,10 @@ const Content = () => {
                 directories alone.
               </li>
               <li>
-                Retail shops and showrooms benefit from local visibility — posting
-                new arrivals, festive offers, and behind-the-scenes content keeps
-                the shop top-of-mind for nearby customers scrolling their feeds.
+                Retail shops and showrooms benefit from local visibility —
+                posting new arrivals, festive offers, and behind-the-scenes
+                content keeps the shop top-of-mind for nearby customers
+                scrolling their feeds.
               </li>
               <li>
                 Restaurants and cafes rely heavily on food photography, reels,
@@ -73,7 +74,7 @@ const Content = () => {
               <li>
                 Coaching centers and schools post results, faculty achievements,
                 and admission updates, since parents increasingly check a
-                school's social presence as part of their research.
+                school&apos;s social presence as part of their research.
               </li>
               <li>
                 Real estate and interior design businesses use before/after
@@ -83,8 +84,8 @@ const Content = () => {
             </ul>
 
             <p>
-              In each case, social media isn't just a branding exercise — it's a
-              direct sales and inquiry channel when managed properly.
+              In each case, social media isn&apos;t just a branding exercise — it&apos;s
+              a direct sales and inquiry channel when managed properly.
             </p>
 
             <h2 className="text-xl sm:text-2xl font-semibold text-gray-900">
@@ -92,7 +93,7 @@ const Content = () => {
             </h2>
 
             <p>
-              A good agency's job goes well beyond simply posting on Instagram
+              A good agency&apos;s job goes well beyond simply posting on Instagram
               once a day. The core deliverables should include:
             </p>
 
@@ -107,9 +108,9 @@ const Content = () => {
                 reels or short videos, captions, and hashtag research.
               </li>
               <li>
-                Content Calendar and Consistent Posting — Agencies typically plan
-                content a month in advance, ensuring a steady mix of promotional,
-                educational, and engagement-driven content.
+                Content Calendar and Consistent Posting — Agencies typically
+                plan content a month in advance, ensuring a steady mix of
+                promotional, educational, and engagement-driven content.
               </li>
               <li>
                 Paid Social Advertising — Facebook and Instagram ads, audience
@@ -122,9 +123,9 @@ const Content = () => {
                 appears.
               </li>
               <li>
-                Analytics and Reporting — A results-focused agency should provide
-                regular reports covering reach, engagement, follower growth, and
-                leads or inquiries generated.
+                Analytics and Reporting — A results-focused agency should
+                provide regular reports covering reach, engagement, follower
+                growth, and leads or inquiries generated.
               </li>
               <li>
                 Influencer and Local Collaborations — For food, fashion, and
@@ -173,13 +174,12 @@ const Content = () => {
             </ul>
 
             <h2 className="text-xl sm:text-2xl font-semibold text-gray-900">
-              A Look at How an Established Digital Marketing Company Presents
-              Itself: Zentrix Infotech
+              A Look at How an Established Digital Marketing Company Presents Itself: Zentrix Infotech
             </h2>
 
             <p>
-              To understand what a trustworthy digital marketing partner's own
-              online presence should look like, it's useful to study an
+              To understand what a trustworthy digital marketing partner&apos;s own
+              online presence should look like, it&apos;s useful to study an
               established regional IT and marketing company. Zentrix Infotech,
               headquartered in Moradabad with an additional office in Ghaziabad,
               is one such company that frequently appears in searches from nearby
@@ -196,7 +196,7 @@ const Content = () => {
             </p>
 
             <p>
-              A few practices stand out when reviewing the company's public
+              A few practices stand out when reviewing the company&apos;s public
               website as a benchmark for what a credible marketing agency should
               demonstrate:
             </p>
@@ -272,13 +272,13 @@ const Content = () => {
                 outreach, and detailed monthly analytics reporting.
               </li>
               <li>
-                Ad spend: kept separate from the agency's management fee.
+                Ad spend: kept separate from the agency&apos;s management fee.
               </li>
             </ul>
 
             <p>
-              Rather than choosing based on the lowest monthly fee, it's worth
-              comparing what's actually included — number of deliverables,
+              Rather than choosing based on the lowest monthly fee, it&apos;s worth
+              comparing what&apos;s actually included — number of deliverables,
               whether content is custom-shot or templated, and whether reporting
               ties back to real business outcomes like inquiries or sales.
             </p>
@@ -288,8 +288,8 @@ const Content = () => {
               shifted from being a nice-to-have to a core part of how customers
               discover, evaluate, and choose where to spend their money.
               Whether the goal is reaching international buyers for handicrafts,
-              filling appointment slots at a clinic, or simply staying visible to
-              nearby customers scrolling their phones, a capable social media
+              filling appointment slots at a clinic, or simply staying visible
+              to nearby customers scrolling their phones, a capable social media
               marketing agency turns that visibility into measurable business
               results. Applying the checklist covered here — real portfolio
               evidence, transparent pricing, quantified results, and full
@@ -312,14 +312,13 @@ const Content = () => {
                   Basic packages cost the least, while full-service packages with
                   paid ads, influencer outreach, and detailed reporting cost
                   more. Always confirm whether ad spend is separate from the
-                  agency's management fee.
+                  agency&apos;s management fee.
                 </p>
               </div>
 
               <div>
                 <h3 className="font-semibold text-gray-900 mb-3">
-                  Q2. How long does it take to see results from social media
-                  marketing?
+                  Q2. How long does it take to see results from social media marketing?
                 </h3>
                 <p>
                   Organic growth typically takes two to three months of
@@ -333,7 +332,7 @@ const Content = () => {
                   Q3. Is Zentrix Infotech based in Saharanpur?
                 </h3>
                 <p>
-                  No. Zentrix Infotech's listed offices are in Moradabad and
+                  No. Zentrix Infotech&apos;s listed offices are in Moradabad and
                   Ghaziabad, Uttar Pradesh. It is regularly referenced by nearby
                   businesses while researching digital marketing companies in the
                   wider western UP region.
@@ -342,11 +341,10 @@ const Content = () => {
 
               <div>
                 <h3 className="font-semibold text-gray-900 mb-3">
-                  Q4. Does Zentrix Infotech offer social media marketing
-                  specifically, or only web development?
+                  Q4. Does Zentrix Infotech offer social media marketing specifically, or only web development?
                 </h3>
                 <p>
-                  Digital marketing is listed as one of the company's core
+                  Digital marketing is listed as one of the company&apos;s core
                   service pillars alongside web development, UI/UX design, mobile
                   app development, software development, and cloud solutions,
                   indicating it operates as a full-service digital agency.
@@ -355,11 +353,10 @@ const Content = () => {
 
               <div>
                 <h3 className="font-semibold text-gray-900 mb-3">
-                  Q5. What kind of results does Zentrix Infotech's client
-                  portfolio show?
+                  Q5. What kind of results does Zentrix Infotech&apos;s client portfolio show?
                 </h3>
                 <p>
-                  The company's site lists 250+ projects completed for 270+
+                  The company&apos;s site lists 250+ projects completed for 270+
                   clients with an overall 4.7/5 rating, and features named
                   testimonials describing specific outcomes.
                 </p>
@@ -379,8 +376,7 @@ const Content = () => {
 
               <div>
                 <h3 className="font-semibold text-gray-900 mb-3">
-                  Q7. Should I combine social media marketing with SEO and a
-                  proper website?
+                  Q7. Should I combine social media marketing with SEO and a proper website?
                 </h3>
                 <p>
                   Yes, ideally. Social media builds awareness and engagement,
@@ -391,8 +387,7 @@ const Content = () => {
 
               <div>
                 <h3 className="font-semibold text-gray-900 mb-3">
-                  Q8. How can I verify an agency's claims before signing a
-                  retainer?
+                  Q8. How can I verify an agency&apos;s claims before signing a retainer?
                 </h3>
                 <p>
                   Look for checkable specifics: named client testimonials with
@@ -403,7 +398,8 @@ const Content = () => {
                 </p>
               </div>
             </div>
-             <p>
+
+            <p>
               📞 <strong>WhatsApp / Call:</strong>{" "}
               <a href="tel:+917248800839" className="text-blue-600 hover:underline">
                 +91 72488 00839
@@ -415,11 +411,15 @@ const Content = () => {
               </a>
               <br />
               🌐 <strong>Website:</strong>{" "}
-              <a href="https://www.zentrixinfotech.com" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">
+              <a
+                href="https://www.zentrixinfotech.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-blue-600 hover:underline"
+              >
                 www.zentrixinfotech.com
               </a>
             </p>
-
 
             <CityInternalLinks
               city="saharanpur"

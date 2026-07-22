@@ -9,9 +9,9 @@ import LandingServices from "@/components/LandingServices";
 export const metadata = {
   title: "Branding Agency in Saharanpur | Zentrix Infotech",
   description:
-    "Looking for a branding agency in Saharanpur? Zentrix Infotech offers logo design, brand identity, and digital branding solutions that grow your business.",
+    "Looking for a branding agency in Saharanpur? Zentrix Infotech offers logo design, brand identity, and digital branding solutions that help your business stand out.",
   keywords:
-    "branding agency in Saharanpur, branding company in Saharanpur, logo design agency Saharanpur, brand identity design Saharanpur, best branding agency Saharanpur, digital branding services Saharanpur, brand strategy company Saharanpur, corporate branding agency Saharanpur, graphic design agency Saharanpur, packaging design Saharanpur, rebranding agency Saharanpur, creative branding solutions Saharanpur, branding and marketing agency Saharanpur, startup branding agency Saharanpur, brand consultancy Saharanpur",
+    "branding agency in Saharanpur, branding company in Saharanpur, logo design agency Saharanpur, brand identity design Saharanpur, digital branding services Saharanpur, brand strategy company Saharanpur, corporate branding agency Saharanpur, packaging design Saharanpur, rebranding agency Saharanpur",
   alternates: {
     canonical:
       "https://www.zentrixinfotech.com/saharanpur/branding-agency-saharanpur",
@@ -19,7 +19,7 @@ export const metadata = {
   openGraph: {
     title: "Branding Agency in Saharanpur | Zentrix Infotech",
     description:
-      "Looking for a branding agency in Saharanpur? Zentrix Infotech offers logo design, brand identity, and digital branding solutions that grow your business.",
+      "Looking for a branding agency in Saharanpur? Zentrix Infotech offers logo design, brand identity, and digital branding solutions that help your business stand out.",
     url: "https://www.zentrixinfotech.com/saharanpur/branding-agency-saharanpur",
     siteName: "Zentrix Infotech",
     images: [
@@ -37,7 +37,7 @@ export const metadata = {
     card: "summary_large_image",
     title: "Branding Agency in Saharanpur | Zentrix Infotech",
     description:
-      "Looking for a branding agency in Saharanpur? Zentrix Infotech offers logo design, brand identity, and digital branding solutions that grow your business.",
+      "Looking for a branding agency in Saharanpur? Zentrix Infotech offers logo design, brand identity, and digital branding solutions that help your business stand out.",
     images: ["https://www.zentrixinfotech.com/zentrix_logo.jpg"],
   },
   icons: {

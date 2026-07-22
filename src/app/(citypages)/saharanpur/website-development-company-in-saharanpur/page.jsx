@@ -7,19 +7,19 @@ import Portfolio from "@/components/Portfolio";
 import LandingServices from "@/components/LandingServices";
 
 export const metadata = {
-  title: "Website Development Company in Saharanpur | Custom Web Design Experts",
+  title: "Website Development Company in Saharanpur | Zentrix Infotech",
   description:
-    "Looking for a trusted website development company in Saharanpur? Get custom, mobile-friendly, SEO-ready websites for businesses of all sizes. Free consultation.",
+    "Looking for a trusted website development company in Saharanpur? Get custom, mobile-friendly, SEO-ready websites for businesses of all sizes.",
   keywords:
-    "website development company in Saharanpur, web design company Saharanpur, website designing services Saharanpur, custom website development Saharanpur, ecommerce website development Saharanpur, affordable web development Saharanpur, best web developers in Saharanpur, business website design UP, responsive website design Saharanpur, local SEO services Saharanpur",
+    "website development company in Saharanpur, web design company Saharanpur, custom website development Saharanpur, ecommerce website development Saharanpur, responsive website design Saharanpur, business website design UP",
   alternates: {
     canonical:
-      "https://www.zentrixinfotech.com/cities/saharanpur/website-development-company-in-saharanpur",
+      "https://www.zentrixinfotech.com/saharanpur/website-development-company-in-saharanpur",
   },
   openGraph: {
-    title: "Website Development Company in Saharanpur | Custom Web Design Experts",
+    title: "Website Development Company in Saharanpur | Zentrix Infotech",
     description:
-      "Looking for a trusted website development company in Saharanpur? Get custom, mobile-friendly, SEO-ready websites for businesses of all sizes. Free consultation.",
+      "Looking for a trusted website development company in Saharanpur? Get custom, mobile-friendly, SEO-ready websites for businesses of all sizes.",
     url: "https://www.zentrixinfotech.com/saharanpur/website-development-company-in-saharanpur",
     siteName: "Zentrix Infotech",
     images: [
@@ -35,9 +35,9 @@ export const metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Website Development Company in Saharanpur | Custom Web Design Experts",
+    title: "Website Development Company in Saharanpur | Zentrix Infotech",
     description:
-      "Looking for a trusted website development company in Saharanpur? Get custom, mobile-friendly, SEO-ready websites for businesses of all sizes. Free consultation.",
+      "Looking for a trusted website development company in Saharanpur? Get custom, mobile-friendly, SEO-ready websites for businesses of all sizes.",
     images: ["https://www.zentrixinfotech.com/zentrix_logo.jpg"],
   },
   icons: {

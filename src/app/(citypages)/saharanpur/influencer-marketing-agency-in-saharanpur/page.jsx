@@ -7,19 +7,19 @@ import Portfolio from "@/components/Portfolio";
 import LandingServices from "@/components/LandingServices";
 
 export const metadata = {
-  title: "Influencer Marketing Agency in Saharanpur | Real Reach",
+  title: "Influencer Marketing Agency in Saharanpur | Zentrix Infotech",
   description:
-    "Top influencer marketing agency in Saharanpur. Local creators, authentic content & real reach for your brand. Free consultation — get in touch today!",
+    "Build local reach with influencer marketing in Saharanpur. Creator collaborations, UGC, campaign strategy, and performance tracking from Zentrix Infotech.",
   keywords:
-    "influencer marketing agency in Saharanpur, influencer marketing company in Saharanpur, local influencer collaboration agency, micro influencer marketing Saharanpur, influencer marketing services UP, Instagram influencer agency Saharanpur, YouTube influencer marketing Saharanpur, influencer marketing for small business Saharanpur, brand collaboration agency Saharanpur, influencer marketing for restaurants Saharanpur, influencer marketing for ecommerce Saharanpur, best influencer marketing agency near me, influencer marketing for furniture brand Saharanpur, affordable influencer marketing services Saharanpur, local creator marketing agency Saharanpur",
+    "influencer marketing agency in Saharanpur, influencer marketing services Saharanpur, micro influencer marketing Saharanpur, creator marketing agency UP, UGC marketing Saharanpur, brand collaboration agency Saharanpur, Instagram influencer marketing Saharanpur",
   alternates: {
     canonical:
       "https://www.zentrixinfotech.com/saharanpur/influencer-marketing-agency-saharanpur",
   },
   openGraph: {
-    title: "Influencer Marketing Agency in Saharanpur | Real Reach",
+    title: "Influencer Marketing Agency in Saharanpur | Zentrix Infotech",
     description:
-      "Top influencer marketing agency in Saharanpur. Local creators, authentic content & real reach for your brand. Free consultation — get in touch today!",
+      "Build local reach with influencer marketing in Saharanpur. Creator collaborations, UGC, campaign strategy, and performance tracking from Zentrix Infotech.",
     url: "https://www.zentrixinfotech.com/saharanpur/influencer-marketing-agency-saharanpur",
     siteName: "Zentrix Infotech",
     images: [
@@ -35,9 +35,9 @@ export const metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Influencer Marketing Agency in Saharanpur | Real Reach",
+    title: "Influencer Marketing Agency in Saharanpur | Zentrix Infotech",
     description:
-      "Top influencer marketing agency in Saharanpur. Local creators, authentic content & real reach for your brand. Free consultation — get in touch today!",
+      "Build local reach with influencer marketing in Saharanpur. Creator collaborations, UGC, campaign strategy, and performance tracking from Zentrix Infotech.",
     images: ["https://www.zentrixinfotech.com/zentrix_logo.jpg"],
   },
   icons: {
