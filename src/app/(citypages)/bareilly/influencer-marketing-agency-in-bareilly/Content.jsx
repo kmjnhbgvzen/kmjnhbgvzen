@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 import LandingEnquiry from "@/components/LandingEnquiry";
 import RecentBlog from "@/components/RecentBlog";
@@ -364,10 +365,27 @@ const Content = () => {
               </a>
             </p>
 
-            <CityInternalLinks
-              city="bareilly"
-              currentSlug="/bareilly/influencer-marketing-agency-bareilly"
-            />
+            <div className="mt-8 p-4 border border-gray-200 rounded-lg bg-gray-50">
+  <h3 className="text-lg sm:text-xl font-semibold text-gray-900 mb-3">
+    Related Services
+  </h3>
+
+  <ul className="list-disc list-inside space-y-2">
+    <li>
+      <Link
+        href="/bareilly/instagram-marketing-agency-in-bareilly"
+        className="text-blue-600 hover:underline"
+      >
+      Instagram Marketing Agency in Bareilly
+      </Link>
+    </li>
+  </ul>
+</div>
+
+<CityInternalLinks
+  city="bareilly"
+  currentSlug="/bareilly/influencer-marketing-agency-in-bareilly"
+/>
           </div>
         </div>
 

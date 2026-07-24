@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 import LandingEnquiry from "@/components/LandingEnquiry";
 import RecentBlog from "@/components/RecentBlog";
@@ -230,10 +231,52 @@ const Content = () => {
               </div>
             </div>
 
-            <CityInternalLinks
-              city="bareilly"
-              currentSlug="/bareilly/digital-marketing-agency-in-bareilly"
-            />
+            <p>
+  📞 <strong>WhatsApp / Call:</strong>{" "}
+  <a href="tel:+917248800839" className="text-blue-600 hover:underline">
+    +91 72488 00839
+  </a>
+  <br />
+  📧 <strong>Email:</strong>{" "}
+  <a
+    href="mailto:info@zentrixinfotech.com"
+    className="text-blue-600 hover:underline"
+  >
+    info@zentrixinfotech.com
+  </a>
+  <br />
+  🌐 <strong>Website:</strong>{" "}
+  <a
+    href="https://www.zentrixinfotech.com"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="text-blue-600 hover:underline"
+  >
+    www.zentrixinfotech.com
+  </a>
+</p>
+
+<div className="mt-8 p-4 border border-gray-200 rounded-lg bg-gray-50">
+  <h3 className="text-lg sm:text-xl font-semibold text-gray-900 mb-3">
+    Related Services
+  </h3>
+
+  <ul className="list-disc list-inside space-y-2">
+    <li>
+      <Link
+        href="/bareilly/digital-marketing-for-exporters-in-bareilly"
+        className="text-blue-600 hover:underline"
+      >
+         Digital Marketing For Exporters in Bareilly
+      </Link>
+    </li>
+  </ul>
+</div>
+
+<CityInternalLinks
+  city="bareilly"
+  currentSlug="/bareilly/digital-marketing-agency-in-bareilly"
+/>
           </div>
         </div>
 
