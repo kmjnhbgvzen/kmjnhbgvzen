@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 import LandingEnquiry from "@/components/LandingEnquiry";
 import RecentBlog from "@/components/RecentBlog";
@@ -313,10 +314,27 @@ const Content = () => {
               </a>
             </p>
 
-            <CityInternalLinks
-              city="ayodhya"
-              currentSlug="/ayodhya/digital-marketing-religious-tourism-ayodhya"
-            />
+            <div className="mt-8 p-4 border border-gray-200 rounded-lg bg-gray-50">
+  <h3 className="text-lg sm:text-xl font-semibold text-gray-900 mb-3">
+    Related Services
+  </h3>
+
+  <ul className="list-disc list-inside space-y-2">
+    <li>
+      <Link
+        href="/ayodhya/digital-marketing-for-restaurants-in-ayodhya"
+        className="text-blue-600 hover:underline"
+      >
+       digital marketing for restaurants in ayodhya
+      </Link>
+    </li>
+  </ul>
+</div>
+
+<CityInternalLinks
+  city="ayodhya"
+  currentSlug="/ayodhya/digital-marketing-for-religious-tourism-in-ayodhya"
+/>
           </div>
         </div>
 
