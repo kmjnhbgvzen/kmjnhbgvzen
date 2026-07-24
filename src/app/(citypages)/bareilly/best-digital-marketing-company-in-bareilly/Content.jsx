@@ -252,27 +252,11 @@ const Content = () => {
                 www.zentrixinfotech.com
               </a>
             </p>
-            <div className="mt-8 p-4 border border-gray-200 rounded-lg bg-gray-50">
-  <h3 className="text-lg sm:text-xl font-semibold text-gray-900 mb-3">
-    Related Services
-  </h3>
 
-  <ul className="list-disc list-inside space-y-2">
-    <li>
-      <Link
-        href="/bareilly/app-store-optimization-in-bareilly"
-        className="text-blue-600 hover:underline"
-      >
-        App Store Optimization in Bareilly
-      </Link>
-    </li>
-  </ul>
-</div>
-
-            <CityInternalLinks
-              city="usa"
-              currentSlug="/usa/best-digital-marketing-company-in-bareilly"
-            />
+           <CityInternalLinks
+  city="bareilly"
+  currentSlug="/bareilly/best-digital-marketing-company-in-bareilly"
+/>
           </div>
         </div>
 
