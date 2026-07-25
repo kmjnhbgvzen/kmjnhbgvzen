@@ -370,26 +370,27 @@ const Content = () => {
             </p>
 
             <div className="mt-8 p-4 border border-gray-200 rounded-lg bg-gray-50">
-  <h3 className="text-lg sm:text-xl font-semibold text-gray-900 mb-3">
-    Related Services
-  </h3>
+              <h3 className="text-lg sm:text-xl font-semibold text-gray-900 mb-3">
+                Related Services
+              </h3>
 
-  <ul className="list-disc list-inside space-y-2">
-    <li>
-      <Link
-        href="/bareilly/best-digital-marketing-company-in-ayodhya"
-        className="text-blue-600 hover:underline"
-      >
-        best digital marketing company in ayodhya
-      </Link>
-    </li>
-  </ul>
-</div>
+              <ul className="list-disc list-inside space-y-2">
+                <li>
+                  <Link
+                    href="/ayodhya/best-digital-marketing-company-in-ayodhya"
+                    className="text-blue-600 hover:underline"
+                  >
+                    Best Digital Marketing Company in Ayodhya
+                  </Link>
+                </li>
+              </ul>
+            </div>
 
-<CityInternalLinks
-  city="ayodhya"
-  currentSlug="/ayodhya/digital-marketing-for-hotels-in-ayodhya"
-/>
+            <CityInternalLinks
+              city="ayodhya"
+              currentSlug="/ayodhya/digital-marketing-for-hotels-in-ayodhya"
+            />
+          </div>
         </div>
 
         <div className="w-[400px] lg:w-[500px] p-8 order-2 lg:order-2">
