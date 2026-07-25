@@ -226,10 +226,10 @@ const Content = () => {
   <ul className="list-disc list-inside space-y-2">
     <li>
       <Link
-        href="/bareilly/seo-services-in-ayodhya"
+        href="/bareilly/ppc-google-ads-agency-in-ayodhya"
         className="text-blue-600 hover:underline"
       >
-        seo-services-in-ayodhya
+        ppc google ads agency in ayodhya
       </Link>
     </li>
   </ul>

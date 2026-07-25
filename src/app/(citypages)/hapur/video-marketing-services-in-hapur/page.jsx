@@ -14,14 +14,14 @@ export const metadata = {
     "video marketing services in Hapur, video marketing company Hapur, video production agency Hapur, reels marketing services, promotional video agency near me, YouTube marketing company Hapur, video ads agency, social media video marketing services, corporate video production company, product video marketing services, video content agency UP, brand video production Hapur, video editing services for business, digital marketing agency Hapur, video advertising agency Delhi NCR",
   alternates: {
     canonical:
-      "https://www.zentrixinfotech.com/hapur/video-marketing-services-hapur",
+      "https://www.zentrixinfotech.com/hapur/video-marketing-services-in-hapur",
   },
   openGraph: {
     title:
       "Video Marketing Services in Hapur | Reels, Ads & Brand Videos",
     description:
       "Looking for video marketing services in Hapur? Zentrix Infotech creates reels, promotional videos & ad campaigns that boost engagement and sales.",
-    url: "https://www.zentrixinfotech.com/hapur/video-marketing-services-hapur",
+    url: "https://www.zentrixinfotech.com/hapur/video-marketing-services-in-hapur",
     siteName: "Zentrix Infotech",
     images: [
       {

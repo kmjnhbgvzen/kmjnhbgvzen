@@ -14,13 +14,13 @@ export const metadata = {
   keywords:
     "UI UX design company in Saharanpur, website design services Saharanpur, app UI design Saharanpur, user experience design agency Saharanpur, best UI UX designer near me, custom website UI design Saharanpur, UI UX design for startups Saharanpur, mobile app UI design company Saharanpur, affordable UI UX design services Saharanpur, ecommerce website design Saharanpur, UI UX design services for small business Saharanpur, best UI UX design company in Saharanpur UP, professional website redesign services Saharanpur, user interface design for wood handicraft business Saharanpur",
   alternates: {
-    canonical: "/saharanpur/ui-ux-design-services-saharanpur",
+    canonical: "https://www.zentrixinfotech.com/saharanpur/ui-ux-design-services-in-saharanpur",
   },
   openGraph: {
     title: "UI/UX Design Services in Saharanpur | Web & App Design",
     description:
       "Professional UI/UX design services in Saharanpur for websites & apps. User-focused, conversion-driven design. Free consultation — get a quote today!",
-    url: "/saharanpur/ui-ux-design-services-saharanpur",
+    url: "https://www.zentrixinfotech.com/saharanpur/ui-ux-design-services-in-saharanpur",
     siteName: "Zentrix Infotech",
     images: [
       {

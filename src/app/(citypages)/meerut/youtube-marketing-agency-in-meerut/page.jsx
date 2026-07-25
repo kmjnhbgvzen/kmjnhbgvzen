@@ -14,13 +14,13 @@ export const metadata = {
     "YouTube marketing agency in Meerut, YouTube SEO services Meerut, video marketing agency UP, YouTube channel growth services, YouTube ads agency Meerut, video production company Meerut, Zentrix Infotech Meerut, YouTube marketing company UP, YouTube optimization services, video content marketing agency, YouTube advertising services Meerut, digital marketing agency Meerut, YouTube growth strategy India, brand video marketing Meerut, YouTube marketing Uttar Pradesh",
   alternates: {
     canonical:
-      "https://www.zentrixinfotech.com/meerut/youtube-marketing-agency-meerut",
+      "https://www.zentrixinfotech.com/meerut/youtube-marketing-agency-in-meerut",
   },
   openGraph: {
     title: "YouTube Marketing Agency in Meerut | Zentrix Infotech",
     description:
       "Grow your brand with a trusted YouTube marketing agency in Meerut. Zentrix Infotech helps you create, optimize, and promote videos that generate real leads.",
-    url: "https://www.zentrixinfotech.com/meerut/youtube-marketing-agency-meerut",
+    url: "https://www.zentrixinfotech.com/meerut/youtube-marketing-agency-in-meerut",
     siteName: "Zentrix Infotech",
     images: [
       {

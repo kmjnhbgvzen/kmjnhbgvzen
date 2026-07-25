@@ -14,13 +14,13 @@ export const metadata = {
     "lead generation services in Saharanpur, lead generation company in Saharanpur, B2B lead generation Saharanpur, Google Ads lead generation Saharanpur, local business leads Saharanpur, SEO leads for business Saharanpur, Meta ads lead generation Saharanpur",
   alternates: {
     canonical:
-      "https://www.zentrixinfotech.com/saharanpur/lead-generation-services-saharanpur",
+      "https://www.zentrixinfotech.com/saharanpur/lead-generation-services-in-saharanpur",
   },
   openGraph: {
     title: "Lead Generation Services in Saharanpur | Zentrix Infotech",
     description:
       "Generate quality enquiries for your business with lead generation services in Saharanpur. SEO, Google Ads, Meta Ads, WhatsApp marketing, and conversion-focused landing pages.",
-    url: "https://www.zentrixinfotech.com/saharanpur/lead-generation-services-saharanpur",
+    url: "https://www.zentrixinfotech.com/saharanpur/lead-generation-services-in-saharanpur",
     siteName: "Zentrix Infotech",
     images: [
       {

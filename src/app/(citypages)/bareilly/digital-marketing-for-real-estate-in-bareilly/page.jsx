@@ -21,7 +21,7 @@ export const metadata = {
     title: "Digital Marketing for Real Estate in Bareilly | Zentrix Infotech",
     description:
       "Generate quality buyer leads with expert digital marketing for real estate in Bareilly by Zentrix Infotech. Websites, SEO & ads that fill your site visits.",
-    url: "https://www.zentrixinfotech.com/bareilly/digital-marketing-for-real-estate-bareilly",
+    url: "https://www.zentrixinfotech.com/bareilly/digital-marketing-for-real-estate-in-bareilly",
     siteName: "Zentrix Infotech",
     images: [
       {

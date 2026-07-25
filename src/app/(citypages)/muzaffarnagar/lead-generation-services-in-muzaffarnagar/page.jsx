@@ -13,13 +13,13 @@ export const metadata = {
   keywords:
     "lead generation services in muzaffarnagar, lead generation agency muzaffarnagar, b2b lead generation muzaffarnagar, digital lead generation company, best lead generation services near me, real estate lead generation muzaffarnagar, google ads lead generation agency, facebook ads lead generation muzaffarnagar, whatsapp lead generation services, digital marketing agency muzaffarnagar, local business lead generation, qualified leads for small business",
   alternates: {
-    canonical: "https://www.zentrixinfotech.com/lead-generation-services-in-muzaffarnagar",
+    canonical: "https://www.zentrixinfotech.com/muzaffarnagar/lead-generation-services-in-muzaffarnagar",
   },
   openGraph: {
     title: "Lead Generation Services in Muzaffarnagar | Get Quality Leads Daily",
     description:
       "Result-oriented Lead Generation Services in Muzaffarnagar using SEO, ads & automation to bring targeted, ready-to-buy leads for your business every day.",
-    url: "https://www.zentrixinfotech.com/lead-generation-services-in-muzaffarnagar",
+    url: "https://www.zentrixinfotech.com/muzaffarnagar/lead-generation-services-in-muzaffarnagar",
     siteName: "Zentrix Infotech",
     images: [
       {

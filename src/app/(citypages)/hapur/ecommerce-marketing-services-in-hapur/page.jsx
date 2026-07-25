@@ -13,13 +13,13 @@ export const metadata = {
   keywords:
     "ecommerce marketing services in Hapur, ecommerce marketing agency Hapur, online store marketing Hapur, ecommerce SEO Hapur, ecommerce PPC Hapur, digital marketing for online stores Hapur",
   alternates: {
-    canonical: "https://www.zentrixinfotech.com/cities/hapur/e-commerce-marketing-services-in-hapur",
+    canonical: "https://www.zentrixinfotech.com/cities/hapur/ecommerce-marketing-services-in-hapur",
   },
   openGraph: {
     title: "E-commerce Marketing Services in Hapur | Boost Online Sales & Traffic",
     description:
       "Looking for e-commerce marketing services in Hapur? Grow your online store with expert SEO, PPC, social media, and conversion optimization strategies.",
-    url: "https://www.zentrixinfotech.com/hapur/e-commerce-marketing-services-in-hapur",
+    url: "https://www.zentrixinfotech.com/hapur/ecommerce-marketing-services-in-hapur",
     siteName: "Zentrix Infotech",
     images: [
       {

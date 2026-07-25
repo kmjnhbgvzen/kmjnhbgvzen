@@ -19,7 +19,7 @@ export const metadata = {
     title: "Branding Agency in Bareilly | Build a Memorable, Trusted Brand",
     description:
       "Build a strong, recognisable brand with a trusted branding agency in Bareilly — logo design, brand strategy, visual identity and positioning that drives real business growth.",
-    url: "https://www.zentrixinfotech.com/bareilly/branding-agency-bareilly",
+    url: "https://www.zentrixinfotech.com/bareilly/branding-agency-in-bareilly",
     siteName: "Zentrix Infotech",
     images: [
       {

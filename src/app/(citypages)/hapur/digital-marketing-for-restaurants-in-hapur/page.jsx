@@ -14,13 +14,13 @@ export const metadata = {
     "digital marketing for restaurants in Hapur, restaurant marketing agency Hapur, restaurant SEO services, food business marketing company, restaurant social media marketing, restaurant Google ads agency, cloud kitchen marketing services, restaurant website development company, restaurant lead generation services, restaurant Instagram marketing agency, best restaurant marketing company, digital marketing agency Delhi NCR, cafe marketing agency Hapur, restaurant online ordering system, food delivery marketing services",
   alternates: {
     canonical:
-      "https://www.zentrixinfotech.com/hapur/digital-marketing-for-restaurants-hapur",
+      "https://www.zentrixinfotech.com/hapur/digital-marketing-for-restaurants-in-hapur",
   },
   openGraph: {
     title: "Digital Marketing for Restaurants in Hapur | More Orders & Footfall",
     description:
       "Looking for digital marketing for restaurants in Hapur? Zentrix Infotech helps restaurants get more orders, bookings & footfall through SEO & ads.",
-    url: "https://www.zentrixinfotech.com/hapur/digital-marketing-for-restaurants-hapur",
+    url: "https://www.zentrixinfotech.com/hapur/digital-marketing-for-restaurants-in-hapur",
     siteName: "Zentrix Infotech",
     images: [
       {

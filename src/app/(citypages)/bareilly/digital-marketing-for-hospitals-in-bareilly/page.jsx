@@ -21,7 +21,7 @@ export const metadata = {
     title: "Digital Marketing for Hospitals in Bareilly | Zentrix Infotech",
     description:
       "Grow patient inquiries with expert digital marketing for hospitals in Bareilly by Zentrix Infotech. SEO, websites & ads that build trust and fill appointments.",
-    url: "https://www.zentrixinfotech.com/bareilly/digital-marketing-for-hospitals-bareilly",
+    url: "https://www.zentrixinfotech.com/bareilly/digital-marketing-for-hospitals-in-bareilly",
     siteName: "Zentrix Infotech",
     images: [
       {

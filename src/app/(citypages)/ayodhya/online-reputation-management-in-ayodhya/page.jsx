@@ -20,7 +20,7 @@ export const metadata = {
     title: "Online Reputation Management in Ayodhya - Zentrix Infotech",
     description:
       "Protect your brand with expert online reputation management in Ayodhya. Zentrix Infotech offers review management, ORM strategy, and brand monitoring. Get a free consultation today.",
-    url: "https://www.zentrixinfotech.com/ayodhya/online-reputation-management-ayodhya",
+    url: "https://www.zentrixinfotech.com/ayodhya/online-reputation-management-in-ayodhya",
     siteName: "Zentrix Infotech",
     images: [
       {

@@ -14,13 +14,13 @@ export const metadata = {
     "branding agency in Ghaziabad, branding company Ghaziabad, brand identity design Ghaziabad, logo design agency Ghaziabad, brand strategy agency Ghaziabad, corporate branding services Ghaziabad, best branding agency Ghaziabad, brand design company near me, creative branding agency Ghaziabad, business branding services Ghaziabad, brand development company Ghaziabad, digital branding agency Ghaziabad",
   alternates: {
     canonical:
-      "https://www.zentrixinfotech.com/ghaziabad/branding-agency-ghaziabad",
+      "https://www.zentrixinfotech.com/ghaziabad/branding-agency-in-ghaziabad",
   },
   openGraph: {
     title: "Branding Agency in Ghaziabad | Brand Identity & Strategy Experts",
     description:
       "Leading Branding Agency in Ghaziabad for logo design, brand identity, and strategy. Build a brand customers trust and remember. Get a free consultation.",
-    url: "https://www.zentrixinfotech.com/ghaziabad/branding-agency-ghaziabad",
+    url: "https://www.zentrixinfotech.com/ghaziabad/branding-agency-in-ghaziabad",
     siteName: "Zentrix Infotech",
     images: [
       {

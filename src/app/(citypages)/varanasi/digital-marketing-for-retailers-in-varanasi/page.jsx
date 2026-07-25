@@ -14,13 +14,13 @@ export const metadata = {
     "digital marketing for retailers in Varanasi, retail marketing agency Varanasi, local shop digital marketing Varanasi, saree store marketing Varanasi, handicraft business marketing Varanasi, e-commerce marketing Varanasi, retail SEO company UP, local business promotion Varanasi, footfall marketing Varanasi",
   alternates: {
     canonical:
-      "https://www.zentrixinfotech.com/varanasi/digital-marketing-for-retailers-varanasi",
+      "https://www.zentrixinfotech.com/varanasi/digital-marketing-for-retailers-in-varanasi",
   },
   openGraph: {
     title: "Digital Marketing for Retailers in Varanasi | Grow Sales",
     description:
       "Digital marketing for retailers in Varanasi — SEO, social media & ads that drive footfall and online sales for local shops. Get a free store audit today.",
-    url: "https://www.zentrixinfotech.com/varanasi/digital-marketing-for-retailers-varanasi",
+    url: "https://www.zentrixinfotech.com/varanasi/digital-marketing-for-retailers-in-varanasi",
     siteName: "Zentrix Infotech",
     images: [
       {

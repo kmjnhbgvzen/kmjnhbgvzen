@@ -14,13 +14,13 @@ export const metadata = {
     "branding agency in Meerut, logo design services Meerut, brand identity agency UP, brand strategy company Meerut, corporate branding services, business branding agency UP, Zentrix Infotech Meerut, brand design company Meerut, visual identity design services, branding and graphic design agency, brand consulting Meerut, digital branding agency UP, packaging design services Meerut, brand guidelines company, branding agency Uttar Pradesh",
   alternates: {
     canonical:
-      "https://www.zentrixinfotech.com/meerut/branding-agency-meerut",
+      "https://www.zentrixinfotech.com/meerut/branding-agency-in-meerut",
   },
   openGraph: {
     title: "Branding Agency in Meerut | Zentrix Infotech",
     description:
       "Build a brand that stands out with a trusted branding agency in Meerut. Zentrix Infotech offers logo design, brand strategy, and complete identity solutions.",
-    url: "https://www.zentrixinfotech.com/meerut/branding-agency-meerut",
+    url: "https://www.zentrixinfotech.com/meerut/branding-agency-in-meerut",
     siteName: "Zentrix Infotech",
     images: [
       {

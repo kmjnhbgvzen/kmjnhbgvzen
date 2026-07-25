@@ -14,13 +14,13 @@ export const metadata = {
     "digital marketing for small business in Hapur, small business marketing agency Hapur, affordable digital marketing services, small business SEO company, small business social media marketing, digital marketing agency near me, small business website development Hapur, local business marketing services, small business Google ads agency, digital marketing company UP, best digital marketing agency Hapur, small business lead generation services, budget digital marketing agency, digital marketing agency Delhi NCR, small shop marketing services",
   alternates: {
     canonical:
-      "https://www.zentrixinfotech.com/hapur/digital-marketing-for-small-business-hapur",
+      "https://www.zentrixinfotech.com/hapur/digital-marketing-for-small-business-in-hapur",
   },
   openGraph: {
     title: "Digital Marketing for Small Business in Hapur | Affordable Growth",
     description:
       "Looking for digital marketing for small business in Hapur? Zentrix Infotech offers affordable SEO, ads & social media services to grow your business.",
-    url: "https://www.zentrixinfotech.com/hapur/digital-marketing-for-small-business-hapur",
+    url: "https://www.zentrixinfotech.com/hapur/digital-marketing-for-small-business-in-hapur",
     siteName: "Zentrix Infotech",
     images: [
       {

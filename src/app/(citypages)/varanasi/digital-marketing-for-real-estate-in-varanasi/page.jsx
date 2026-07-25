@@ -14,13 +14,13 @@ export const metadata = {
     "digital marketing for real estate in varanasi, real estate marketing agency varanasi, property SEO varanasi, real estate digital marketing varanasi, real estate website design varanasi, google my business for real estate, property ads varanasi, increase property leads varanasi, best digital marketing company for real estate, local SEO for real estate, real estate social media marketing, builder marketing varanasi, real estate online reputation management, property buyer lead generation",
   alternates: {
     canonical:
-      "https://www.zentrixinfotech.com/varanasi/digital-marketing-for-real-estate-varanasi",
+      "https://www.zentrixinfotech.com/varanasi/digital-marketing-for-real-estate-in-varanasi",
   },
   openGraph: {
     title: "Digital Marketing for Real Estate in Varanasi | More Property Leads",
     description:
       "Grow your Varanasi real estate business with expert digital marketing — SEO, Google Maps, social media & ads that bring more genuine property buyer leads.",
-    url: "https://www.zentrixinfotech.com/varanasi/digital-marketing-for-real-estate-varanasi",
+    url: "https://www.zentrixinfotech.com/varanasi/digital-marketing-for-real-estate-in-varanasi",
     siteName: "Zentrix Infotech",
     images: [
       {

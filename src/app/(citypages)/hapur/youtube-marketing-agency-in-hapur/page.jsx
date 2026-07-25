@@ -14,13 +14,13 @@ export const metadata = {
     "YouTube Marketing Agency in Hapur, YouTube marketing company Hapur, YouTube channel growth services Hapur, YouTube SEO services Hapur, YouTube ads agency Hapur, video marketing company Hapur, best YouTube marketing company Hapur, YouTube marketing services near me, YouTube video optimization Hapur, brand YouTube channel management Hapur, YouTube subscriber growth Hapur, business YouTube marketing Hapur",
   alternates: {
     canonical:
-      "https://www.zentrixinfotech.com/hapur/youtube-marketing-agency-hapur",
+      "https://www.zentrixinfotech.com/hapur/youtube-marketing-agency-in-hapur",
   },
   openGraph: {
     title: "YouTube Marketing Agency in Hapur | Zentrix Infotech",
     description:
       "Trusted YouTube Marketing Agency in Hapur for channel growth, video SEO, and ad campaigns that boost brand visibility and sales. Get a free consultation.",
-    url: "https://www.zentrixinfotech.com/hapur/youtube-marketing-agency-hapur",
+    url: "https://www.zentrixinfotech.com/hapur/youtube-marketing-agency-in-hapur",
     siteName: "Zentrix Infotech",
     images: [
       {

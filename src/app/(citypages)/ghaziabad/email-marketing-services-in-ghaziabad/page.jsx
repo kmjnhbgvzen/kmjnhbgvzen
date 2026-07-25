@@ -14,13 +14,13 @@ export const metadata = {
     "email marketing services in Ghaziabad, email marketing company Ghaziabad, bulk email marketing Ghaziabad, email campaign management Ghaziabad, email marketing agency Ghaziabad, newsletter marketing services Ghaziabad, automated email marketing Ghaziabad, best email marketing company Ghaziabad, email marketing services near me, lead nurturing email campaigns Ghaziabad, ecommerce email marketing Ghaziabad, B2B email marketing Ghaziabad",
   alternates: {
     canonical:
-      "https://www.zentrixinfotech.com/ghaziabad/email-marketing-services-ghaziabad",
+      "https://www.zentrixinfotech.com/ghaziabad/email-marketing-services-in-ghaziabad",
   },
   openGraph: {
     title: "Email Marketing Services in Ghaziabad | Zentrix Infotech",
     description:
       "Professional email marketing services in Ghaziabad to boost leads, sales, and customer retention. Custom campaigns, automation, and analytics. Get a free quote.",
-    url: "https://www.zentrixinfotech.com/ghaziabad/email-marketing-services-ghaziabad",
+    url: "https://www.zentrixinfotech.com/ghaziabad/email-marketing-services-in-ghaziabad",
     siteName: "Zentrix Infotech",
     images: [
       {

@@ -20,7 +20,7 @@ export const metadata = {
     title: "Google Ads for Hotels in Ayodhya - Zentrix Infotech",
     description:
       "Increase direct bookings with expert Google Ads for hotels in Ayodhya. Zentrix Infotech manages Search, Display, and remarketing campaigns that convert. Get a free consultation today.",
-    url: "https://www.zentrixinfotech.com/ayodhya/google-ads-hotels-ayodhya",
+    url: "https://www.zentrixinfotech.com/ayodhya/google-ads-hotels-in-ayodhya",
     siteName: "Zentrix Infotech",
     images: [
       {

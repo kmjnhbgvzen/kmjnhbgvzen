@@ -14,13 +14,13 @@ export const metadata = {
     "digital marketing for hospitals in Ghaziabad, hospital marketing agency Ghaziabad, healthcare digital marketing Ghaziabad, hospital SEO services Ghaziabad, patient acquisition marketing Ghaziabad, medical practice marketing Ghaziabad, best digital marketing company for hospitals Ghaziabad, hospital website design Ghaziabad, healthcare marketing services near me, clinic digital marketing Ghaziabad, doctor marketing services Ghaziabad, hospital branding agency Ghaziabad",
   alternates: {
     canonical:
-      "https://www.zentrixinfotech.com/ghaziabad/digital-marketing-for-hospitals-ghaziabad",
+      "https://www.zentrixinfotech.com/ghaziabad/digital-marketing-for-hospitals-in-ghaziabad",
   },
   openGraph: {
     title: "Digital Marketing for Hospitals in Ghaziabad | Zentrix Infotech",
     description:
       "Specialized digital marketing for hospitals in Ghaziabad to increase patient inquiries, build trust, and improve online visibility. Get a free consultation.",
-    url: "https://www.zentrixinfotech.com/ghaziabad/digital-marketing-for-hospitals-ghaziabad",
+    url: "https://www.zentrixinfotech.com/ghaziabad/digital-marketing-for-hospitals-in-ghaziabad",
     siteName: "Zentrix Infotech",
     images: [
       {

@@ -14,13 +14,13 @@ export const metadata = {
     "YouTube marketing agency in Varanasi, YouTube marketing services Varanasi, YouTube SEO company Varanasi, video marketing agency Varanasi, YouTube channel growth Varanasi, YouTube ads agency Varanasi, digital marketing agency Varanasi, YouTube video promotion Varanasi, best YouTube marketing company in UP",
   alternates: {
     canonical:
-      "https://www.zentrixinfotech.com/varanasi/youtube-marketing-agency-varanasi",
+      "https://www.zentrixinfotech.com/varanasi/youtube-marketing-agency-in-varanasi",
   },
   openGraph: {
     title: "YouTube Marketing Agency in Varanasi | Grow Your Channel",
     description:
       "Looking for a YouTube marketing agency in Varanasi? Get expert video SEO, channel growth, ad management & content strategy. Free consultation today.",
-    url: "https://www.zentrixinfotech.com/varanasi/youtube-marketing-agency-varanasi",
+    url: "https://www.zentrixinfotech.com/varanasi/youtube-marketing-agency-in-varanasi",
     siteName: "Zentrix Infotech",
     images: [
       {

@@ -20,7 +20,7 @@ export const metadata = {
     title: "Digital Marketing for Religious Tourism in Ayodhya - Zentrix Infotech",
     description:
       "Grow your religious tourism business with expert digital marketing in Ayodhya. Zentrix Infotech offers SEO, PPC, social media, and website services. Get a free consultation today.",
-    url: "https://www.zentrixinfotech.com/ayodhya/digital-marketing-religious-tourism-ayodhya",
+    url: "https://www.zentrixinfotech.com/ayodhya/digital-marketing-for-religious-tourism-in-ayodhya",
     siteName: "Zentrix Infotech",
     images: [
       {

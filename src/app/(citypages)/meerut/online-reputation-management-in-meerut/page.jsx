@@ -14,13 +14,13 @@ export const metadata = {
     "online reputation management in Meerut, ORM services Meerut, Google review management Meerut, brand reputation agency UP, reputation management company Meerut, review generation services, search reputation management India, business reputation agency Meerut, Zentrix Infotech Meerut, online reputation services UP, negative review management, Google Business Profile optimization Meerut, digital reputation agency, crisis management services Meerut, ORM agency Uttar Pradesh",
   alternates: {
     canonical:
-      "https://www.zentrixinfotech.com/meerut/online-reputation-management-meerut",
+      "https://www.zentrixinfotech.com/meerut/online-reputation-management-in-meerut",
   },
   openGraph: {
     title: "Online Reputation Management in Meerut | Zentrix Infotech",
     description:
       "Protect and grow your brand with expert online reputation management in Meerut from Zentrix Infotech. Improve reviews, ratings, and search visibility today.",
-    url: "https://www.zentrixinfotech.com/meerut/online-reputation-management-meerut",
+    url: "https://www.zentrixinfotech.com/meerut/online-reputation-management-in-meerut",
     siteName: "Zentrix Infotech",
     images: [
       {

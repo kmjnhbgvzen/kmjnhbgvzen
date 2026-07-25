@@ -13,13 +13,13 @@ export const metadata = {
   keywords:
     "whatsapp marketing services in muzaffarnagar, whatsapp marketing agency muzaffarnagar, bulk whatsapp marketing muzaffarnagar, whatsapp business api muzaffarnagar, whatsapp marketing company muzaffarnagar, best whatsapp marketing services near me, whatsapp chatbot services muzaffarnagar, digital marketing agency muzaffarnagar, whatsapp broadcast marketing, whatsapp marketing for small business, whatsapp automation services india, whatsapp catalog marketing, whatsapp marketing packages muzaffarnagar",
   alternates: {
-    canonical: "https://www.zentrixinfotech.com/whatsapp-marketing-services-in-muzaffarnagar",
+    canonical: "https://www.zentrixinfotech.com/muzaffarnagar/whatsapp-marketing-services-in-muzaffarnagar",
   },
   openGraph: {
     title: "WhatsApp Marketing Services in Muzaffarnagar | Boost Sales & Leads",
     description:
       "Get result-driven WhatsApp Marketing Services in Muzaffarnagar. Bulk messaging, WhatsApp API, catalog & chatbot automation to grow your local business fast.",
-    url: "https://www.zentrixinfotech.com/whatsapp-marketing-services-in-muzaffarnagar",
+    url: "https://www.zentrixinfotech.com/muzaffarnagar/whatsapp-marketing-services-in-muzaffarnagar",
     siteName: "Zentrix Infotech",
     images: [
       {

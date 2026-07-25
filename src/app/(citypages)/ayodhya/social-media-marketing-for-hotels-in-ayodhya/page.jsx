@@ -20,7 +20,7 @@ export const metadata = {
     title: "Social Media Marketing for Hotels in Ayodhya - Zentrix Infotech",
     description:
       "Grow your hotel bookings with expert social media marketing for hotels in Ayodhya. Zentrix Infotech offers Instagram, Facebook, and YouTube marketing services. Get a free consultation today.",
-    url: "https://www.zentrixinfotech.com/ayodhya/social-media-marketing-hotels-ayodhya",
+    url: "https://www.zentrixinfotech.com/ayodhya/social-media-marketing-for-hotels-in-ayodhya",
     siteName: "Zentrix Infotech",
     images: [
       {

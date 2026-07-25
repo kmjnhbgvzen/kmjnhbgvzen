@@ -14,13 +14,13 @@ export const metadata = {
     "digital marketing for real estate in Hapur, real estate marketing agency Hapur, property marketing company, real estate lead generation Hapur, real estate SEO services, property website development company, real estate Google ads agency, real estate social media marketing, real estate digital marketing agency UP, property lead generation services near me, builder marketing agency Hapur, real estate branding services, best real estate marketing company, digital marketing agency Delhi NCR, property portal marketing services",
   alternates: {
     canonical:
-      "https://www.zentrixinfotech.com/hapur/digital-marketing-for-real-estate-hapur",
+      "https://www.zentrixinfotech.com/hapur/digital-marketing-for-real-estate-in-hapur",
   },
   openGraph: {
     title: "Digital Marketing for Real Estate in Hapur | Property Leads Agency",
     description:
       "Looking for digital marketing for real estate in Hapur? Zentrix Infotech generates quality property leads through SEO, ads & website solutions.",
-    url: "https://www.zentrixinfotech.com/hapur/digital-marketing-for-real-estate-hapur",
+    url: "https://www.zentrixinfotech.com/hapur/digital-marketing-for-real-estate-in-hapur",
     siteName: "Zentrix Infotech",
     images: [
       {

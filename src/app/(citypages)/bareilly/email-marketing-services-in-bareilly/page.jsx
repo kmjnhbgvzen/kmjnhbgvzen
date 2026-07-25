@@ -21,7 +21,7 @@ export const metadata = {
     title: "Email Marketing Services in Bareilly | Zentrix Infotech",
     description:
       "Grow your business with expert email marketing services in Bareilly by Zentrix Infotech. Boost leads, sales & ROI with result-driven, affordable email campaigns.",
-    url: "https://www.zentrixinfotech.com/bareilly/email-marketing-services-bareilly",
+    url: "https://www.zentrixinfotech.com/bareilly/email-marketing-services-in-bareilly",
     siteName: "Zentrix Infotech",
     images: [
       {

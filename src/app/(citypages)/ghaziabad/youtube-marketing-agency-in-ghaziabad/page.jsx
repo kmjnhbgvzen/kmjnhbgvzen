@@ -7,20 +7,20 @@ import Portfolio from "@/components/Portfolio";
 import LandingServices from "@/components/LandingServices";
 
 export const metadata = {
-  title: "YouTube Marketing Agency in Hapur | Zentrix Infotech",
+  title: "YouTube Marketing Agency in Ghaziabad | Zentrix Infotech",
   description:
-    "Trusted YouTube Marketing Agency in Hapur for channel growth, video SEO, and ad campaigns that boost brand visibility and sales. Get a free consultation.",
+    "Looking for a YouTube marketing agency in Ghaziabad? Zentrix Infotech offers video SEO, channel growth & ad campaigns to boost views, subscribers & sales.",
   keywords:
-    "YouTube Marketing Agency in Hapur, YouTube marketing company Hapur, YouTube channel growth services Hapur, YouTube SEO services Hapur, YouTube ads agency Hapur, video marketing company Hapur, best YouTube marketing company Hapur, YouTube marketing services near me, YouTube video optimization Hapur, brand YouTube channel management Hapur, YouTube subscriber growth Hapur, business YouTube marketing Hapur",
+    "youtube marketing agency in ghaziabad, youtube marketing company ghaziabad, youtube seo services ghaziabad, youtube video marketing agency, youtube channel growth agency india, youtube ads agency ghaziabad, best youtube marketing agency near me, video marketing services ghaziabad, youtube promotion agency ghaziabad, digital marketing agency ghaziabad",
   alternates: {
     canonical:
-      "https://www.zentrixinfotech.com/hapur/youtube-marketing-agency-hapur",
+      "https://www.zentrixinfotech.com/ghaziabad/youtube-marketing-agency-in-ghaziabad",
   },
   openGraph: {
-    title: "YouTube Marketing Agency in Hapur | Zentrix Infotech",
+    title: "YouTube Marketing Agency in Ghaziabad | Zentrix Infotech",
     description:
-      "Trusted YouTube Marketing Agency in Hapur for channel growth, video SEO, and ad campaigns that boost brand visibility and sales. Get a free consultation.",
-    url: "https://www.zentrixinfotech.com/hapur/youtube-marketing-agency-hapur",
+      "Looking for a YouTube marketing agency in Ghaziabad? Zentrix Infotech offers video SEO, channel growth & ad campaigns to boost views, subscribers & sales.",
+    url: "https://www.zentrixinfotech.com/ghaziabad/youtube-marketing-agency-in-ghaziabad",
     siteName: "Zentrix Infotech",
     images: [
       {
@@ -35,9 +35,9 @@ export const metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "YouTube Marketing Agency in Hapur | Zentrix Infotech",
+    title: "YouTube Marketing Agency in Ghaziabad | Zentrix Infotech",
     description:
-      "Trusted YouTube Marketing Agency in Hapur for channel growth, video SEO, and ad campaigns that boost brand visibility and sales. Get a free consultation.",
+      "Looking for a YouTube marketing agency in Ghaziabad? Zentrix Infotech offers video SEO, channel growth & ad campaigns to boost views, subscribers & sales.",
     images: ["https://www.zentrixinfotech.com/zentrix_logo.jpg"],
   },
   icons: {

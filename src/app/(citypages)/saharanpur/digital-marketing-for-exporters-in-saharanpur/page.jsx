@@ -14,13 +14,13 @@ export const metadata = {
     "digital marketing for exporters in Saharanpur, export marketing company Saharanpur, B2B digital marketing agency Saharanpur, international buyer lead generation Saharanpur, digital marketing for wood handicraft exporters Saharanpur, export SEO services Saharanpur, LinkedIn marketing for exporters Saharanpur, marketplace optimization Saharanpur",
   alternates: {
     canonical:
-      "https://www.zentrixinfotech.com/saharanpur/digital-marketing-for-exporters-saharanpur",
+      "https://www.zentrixinfotech.com/saharanpur/digital-marketing-for-exporters-in-saharanpur",
   },
   openGraph: {
     title: "Digital Marketing for Exporters in Saharanpur | Get Buyers Online",
     description:
       "Grow your export business with digital marketing for exporters in Saharanpur. Reach international buyers through SEO, LinkedIn, marketplace optimization, and paid campaigns.",
-    url: "https://www.zentrixinfotech.com/saharanpur/digital-marketing-for-exporters-saharanpur",
+    url: "https://www.zentrixinfotech.com/saharanpur/digital-marketing-for-exporters-in-saharanpur",
     siteName: "Zentrix Infotech",
     images: [
       {

@@ -15,14 +15,14 @@ export const metadata = {
 
   alternates: {
     canonical:
-      "https://www.zentrixinfotech.com/bareilly/mobile-app-development-bareilly",
+      "https://www.zentrixinfotech.com/bareilly/mobile-app-development-in-bareilly",
   },
 
   openGraph: {
     title: "Mobile App Development in Bareilly | Android & iOS App Company",
     description:
       "Build a powerful Android or iOS app with a trusted mobile app development company in Bareilly — custom apps, UI/UX design and end-to-end development support.",
-    url: "https://www.zentrixinfotech.com/bareilly/mobile-app-development-bareilly",
+    url: "https://www.zentrixinfotech.com/bareilly/mobile-app-development-in-bareilly",
     siteName: "Zentrix Infotech",
     images: [
       {

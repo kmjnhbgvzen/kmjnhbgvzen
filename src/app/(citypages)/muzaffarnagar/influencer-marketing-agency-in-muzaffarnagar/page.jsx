@@ -13,13 +13,13 @@ export const metadata = {
   keywords:
     "influencer marketing agency in Muzaffarnagar, influencer marketing company Muzaffarnagar, best influencer marketing agency Muzaffarnagar, social media influencer marketing Muzaffarnagar, influencer marketing services Muzaffarnagar, local influencer collaboration Muzaffarnagar, brand promotion agency Muzaffarnagar, Instagram influencer marketing Muzaffarnagar, YouTube influencer marketing Muzaffarnagar, digital marketing agency Muzaffarnagar, affordable influencer marketing Muzaffarnagar",
   alternates: {
-    canonical: "https://www.zentrixinfotech.com/influencer-marketing-agency-in-muzaffarnagar",
+    canonical: "https://www.zentrixinfotech.com/muzaffarnagar/influencer-marketing-agency-in-muzaffarnagar",
   },
   openGraph: {
     title: "Influencer Marketing Agency in Muzaffarnagar | Zentrix Infotech",
     description:
       "Zentrix Infotech is a trusted influencer marketing agency in Muzaffarnagar helping brands grow through creator partnerships, social campaigns & measurable ROI. Get a free quote today.",
-    url: "https://www.zentrixinfotech.com/influencer-marketing-agency-in-muzaffarnagar",
+    url: "https://www.zentrixinfotech.com/muzaffarnagar/influencer-marketing-agency-in-muzaffarnagar",
     siteName: "Zentrix Infotech",
     images: [
       {

@@ -20,7 +20,7 @@ export const metadata = {
     title: "Digital Marketing for Tour Operators in Ayodhya - Zentrix Infotech",
     description:
       "Grow your travel business with expert digital marketing for tour operators in Ayodhya. Zentrix Infotech offers SEO, PPC, social media, and website services. Get a free consultation today.",
-    url: "https://www.zentrixinfotech.com/ayodhya/digital-marketing-tour-operators-ayodhya",
+    url: "https://www.zentrixinfotech.com/ayodhya/digital-marketing-for-tour-operators-in-ayodhya",
     siteName: "Zentrix Infotech",
     images: [
       {

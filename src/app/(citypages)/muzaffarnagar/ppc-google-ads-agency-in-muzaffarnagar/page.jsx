@@ -7,20 +7,20 @@ import Portfolio from "@/components/Portfolio";
 import LandingServices from "@/components/LandingServices";
 
 export const metadata = {
-  title: "SEO Services in Muzaffarnagar | Affordable & Result-Driven SEO Company",
+  title: "PPC Google Ads Agency in Muzaffarnagar | Zentrix Infotech",
   description:
-    "Looking for SEO services in Muzaffarnagar? Get expert on-page, off-page, local & technical SEO to rank higher on Google, drive traffic & grow leads.",
+    "Get instant leads with a trusted PPC Google Ads agency in Muzaffarnagar. Zentrix Infotech runs high-ROI Search, Display & Shopping ad campaigns.",
   keywords:
-    "SEO services in Muzaffarnagar, SEO company in Muzaffarnagar, best SEO agency Muzaffarnagar, local SEO Muzaffarnagar, digital marketing Muzaffarnagar, SEO experts Muzaffarnagar, affordable SEO services Muzaffarnagar",
+    "ppc google ads agency in muzaffarnagar, google ads agency muzaffarnagar, ppc management company muzaffarnagar, google ads expert near me, ppc services muzaffarnagar, google adwords agency up, best ppc agency muzaffarnagar, paid search marketing company, google shopping ads agency, digital marketing agency muzaffarnagar",
   alternates: {
     canonical:
-      "https://www.zentrixinfotech.com/cities/muzaffarnagar/seo-services-in-muzaffarnagar",
+      "https://www.zentrixinfotech.com/muzaffarnagar/ppc-google-ads-agency-in-muzaffarnagar",
   },
   openGraph: {
-    title: "SEO Services in Muzaffarnagar | Affordable & Result-Driven SEO Company",
+    title: "PPC Google Ads Agency in Muzaffarnagar | Zentrix Infotech",
     description:
-      "Looking for SEO services in Muzaffarnagar? Get expert on-page, off-page, local & technical SEO to rank higher on Google, drive traffic & grow leads.",
-    url: "https://www.zentrixinfotech.com/muzaffarnagar/seo-services-in-muzaffarnagar",
+      "Get instant leads with a trusted PPC Google Ads agency in Muzaffarnagar. Zentrix Infotech runs high-ROI Search, Display & Shopping ad campaigns.",
+    url: "https://www.zentrixinfotech.com/muzaffarnagar/ppc-google-ads-agency-in-muzaffarnagar",
     siteName: "Zentrix Infotech",
     images: [
       {
@@ -35,9 +35,9 @@ export const metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "SEO Services in Muzaffarnagar | Affordable & Result-Driven SEO Company",
+    title: "PPC Google Ads Agency in Muzaffarnagar | Zentrix Infotech",
     description:
-      "Looking for SEO services in Muzaffarnagar? Get expert on-page, off-page, local & technical SEO to rank higher on Google, drive traffic & grow leads.",
+      "Get instant leads with a trusted PPC Google Ads agency in Muzaffarnagar. Zentrix Infotech runs high-ROI Search, Display & Shopping ad campaigns.",
     images: ["https://www.zentrixinfotech.com/zentrix_logo.jpg"],
   },
   icons: {

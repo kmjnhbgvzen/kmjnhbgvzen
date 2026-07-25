@@ -15,14 +15,14 @@ export const metadata = {
 
   alternates: {
     canonical:
-      "https://www.zentrixinfotech.com/bareilly/online-reputation-management-bareilly",
+      "https://www.zentrixinfotech.com/bareilly/online-reputation-management-in-bareilly",
   },
 
   openGraph: {
     title: "Online Reputation Management in Bareilly | Build Trust & Rankings",
     description:
       "Protect and grow your brand with expert online reputation management in Bareilly — fix negative reviews, build positive Google ratings and boost customer trust.",
-    url: "https://www.zentrixinfotech.com/bareilly/online-reputation-management-bareilly",
+    url: "https://www.zentrixinfotech.com/bareilly/online-reputation-management-in-bareilly",
     siteName: "Zentrix Infotech",
     images: [
       {

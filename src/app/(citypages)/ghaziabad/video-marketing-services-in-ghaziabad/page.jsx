@@ -14,13 +14,13 @@ export const metadata = {
     "video marketing services in Ghaziabad, video marketing company Ghaziabad, promotional video production Ghaziabad, social media video marketing Ghaziabad, YouTube video marketing Ghaziabad, corporate video services Ghaziabad, best video marketing company Ghaziabad, video ads agency Ghaziabad, video marketing services near me, product video services Ghaziabad, reels and shorts marketing Ghaziabad, brand video production Ghaziabad",
   alternates: {
     canonical:
-      "https://www.zentrixinfotech.com/ghaziabad/video-marketing-services-ghaziabad",
+      "https://www.zentrixinfotech.com/ghaziabad/video-marketing-services-in-ghaziabad",
   },
   openGraph: {
     title: "Video Marketing Services in Ghaziabad | Zentrix Infotech",
     description:
       "Professional video marketing services in Ghaziabad including promotional videos, social media reels, and YouTube campaigns to boost brand visibility. Get a free quote.",
-    url: "https://www.zentrixinfotech.com/ghaziabad/video-marketing-services-ghaziabad",
+    url: "https://www.zentrixinfotech.com/ghaziabad/video-marketing-services-in-ghaziabad",
     siteName: "Zentrix Infotech",
     images: [
       {

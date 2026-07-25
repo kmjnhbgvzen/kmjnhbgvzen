@@ -14,14 +14,14 @@ export const metadata = {
     "online reputation management in Muzaffarnagar, ORM services Muzaffarnagar, reputation management company Muzaffarnagar, brand reputation management Muzaffarnagar, negative review removal Muzaffarnagar, online reputation management agency near me, best ORM company in UP, digital marketing company Muzaffarnagar, google review management Muzaffarnagar, business reputation building services",
   alternates: {
     canonical:
-      "https://www.zentrixinfotech.com/muzaffarnagar/online-reputation-management-muzaffarnagar",
+      "https://www.zentrixinfotech.com/muzaffarnagar/online-reputation-management-in-hapur",
   },
   openGraph: {
     title:
       "Online Reputation Management in Muzaffarnagar | Best ORM Services 2026",
     description:
       "Looking for Online Reputation Management in Muzaffarnagar? Get expert ORM services to remove negative reviews, build brand trust, and rank higher on Google. Free consultation.",
-    url: "https://www.zentrixinfotech.com/muzaffarnagar/online-reputation-management-muzaffarnagar",
+    url: "https://www.zentrixinfotech.com/muzaffarnagar/online-reputation-management-in-hapur",
     siteName: "Zentrix Infotech",
     images: [
       {

@@ -14,13 +14,13 @@ export const metadata = {
     "email marketing services in Hapur, email marketing company Hapur, digital marketing agency Hapur, email campaign management services, bulk email marketing company, email automation services near me, newsletter marketing agency, e-commerce email marketing services, B2B email marketing company, email marketing for small business, best email marketing agency UP, promotional email services Hapur, email marketing strategy company, customer retention email services, email marketing agency Delhi NCR",
   alternates: {
     canonical:
-      "https://www.zentrixinfotech.com/hapur/email-marketing-services-hapur",
+      "https://www.zentrixinfotech.com/hapur/email-marketing-services-in-hapur",
   },
   openGraph: {
     title: "Email Marketing Services in Hapur | Boost Sales & Customer Retention",
     description:
       "Looking for email marketing services in Hapur? Zentrix Infotech creates targeted email campaigns that build customer relationships and drive sales.",
-    url: "https://www.zentrixinfotech.com/hapur/email-marketing-services-hapur",
+    url: "https://www.zentrixinfotech.com/hapur/email-marketing-services-in-hapur",
     siteName: "Zentrix Infotech",
     images: [
       {

@@ -7,20 +7,20 @@ import Portfolio from "@/components/Portfolio";
 import LandingServices from "@/components/LandingServices";
 
 export const metadata = {
-  title: "WhatsApp Marketing Services in Hapur | Zentrix Infotech",
+  title: "WhatsApp Marketing Services in Ghaziabad | Zentrix Infotech",
   description:
-    "Result-driven WhatsApp Marketing Services in Hapur to boost customer engagement, drive sales, and build loyalty. Get a free consultation with Zentrix Infotech.",
+    "Best WhatsApp marketing services in Ghaziabad by Zentrix Infotech. Bulk messaging, chatbots, broadcast campaigns & lead generation to grow your business.",
   keywords:
-    "WhatsApp Marketing Services in Hapur, WhatsApp marketing company Hapur, bulk WhatsApp marketing Hapur, WhatsApp business API services Hapur, WhatsApp campaign management Hapur, best WhatsApp marketing company Hapur, WhatsApp marketing services near me, WhatsApp automation services Hapur, ecommerce WhatsApp marketing Hapur, WhatsApp lead generation Hapur, WhatsApp broadcast services Hapur, customer engagement WhatsApp Hapur",
+    "whatsapp marketing services in ghaziabad, whatsapp marketing agency ghaziabad, whatsapp business api ghaziabad, bulk whatsapp marketing company, whatsapp marketing company near me, whatsapp chatbot services ghaziabad, whatsapp broadcast marketing india, whatsapp marketing for small business, digital marketing agency ghaziabad, whatsapp lead generation services",
   alternates: {
     canonical:
-      "https://www.zentrixinfotech.com/hapur/whatsapp-marketing-services-hapur",
+      "https://www.zentrixinfotech.com/ghaziabad/whatsapp-marketing-services-in-ghaziabad",
   },
   openGraph: {
-    title: "WhatsApp Marketing Services in Hapur | Zentrix Infotech",
+    title: "WhatsApp Marketing Services in Ghaziabad | Zentrix Infotech",
     description:
-      "Result-driven WhatsApp Marketing Services in Hapur to boost customer engagement, drive sales, and build loyalty. Get a free consultation with Zentrix Infotech.",
-    url: "https://www.zentrixinfotech.com/hapur/whatsapp-marketing-services-hapur",
+      "Best WhatsApp marketing services in Ghaziabad by Zentrix Infotech. Bulk messaging, chatbots, broadcast campaigns & lead generation to grow your business.",
+    url: "https://www.zentrixinfotech.com/ghaziabad/whatsapp-marketing-services-in-ghaziabad",
     siteName: "Zentrix Infotech",
     images: [
       {
@@ -35,9 +35,9 @@ export const metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "WhatsApp Marketing Services in Hapur | Zentrix Infotech",
+    title: "WhatsApp Marketing Services in Ghaziabad | Zentrix Infotech",
     description:
-      "Result-driven WhatsApp Marketing Services in Hapur to boost customer engagement, drive sales, and build loyalty. Get a free consultation with Zentrix Infotech.",
+      "Best WhatsApp marketing services in Ghaziabad by Zentrix Infotech. Bulk messaging, chatbots, broadcast campaigns & lead generation to grow your business.",
     images: ["https://www.zentrixinfotech.com/zentrix_logo.jpg"],
   },
   icons: {

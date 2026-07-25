@@ -20,7 +20,7 @@ export const metadata = {
     title: "Digital Marketing for Real Estate in Ayodhya - Zentrix Infotech",
     description:
       "Grow your real estate business with expert digital marketing for real estate in Ayodhya. Zentrix Infotech offers SEO, PPC, social media, and website services. Get a free consultation today.",
-    url: "https://www.zentrixinfotech.com/ayodhya/digital-marketing-real-estate-ayodhya",
+    url: "https://www.zentrixinfotech.com/ayodhya/digital-marketing-for-real-estate-in-ayodhya",
     siteName: "Zentrix Infotech",
     images: [
       {

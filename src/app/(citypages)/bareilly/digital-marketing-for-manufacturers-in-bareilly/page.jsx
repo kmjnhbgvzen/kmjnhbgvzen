@@ -19,7 +19,7 @@ export const metadata = {
     title: "Digital Marketing for Manufacturers in Saharanpur | Zentrix Infotech",
     description:
       "Grow your manufacturing business in Saharanpur with expert digital marketing, SEO, and lead generation strategies from Zentrix Infotech. Get more B2B and export inquiries today.",
-    url: "https://www.zentrixinfotech.com/saharanpur/digital-marketing-for-manufacturers-saharanpur",
+    url: "https://www.zentrixinfotech.com/saharanpur/digital-marketing-for-manufacturers-in-bareilly",
     siteName: "Zentrix Infotech",
     images: [
       {

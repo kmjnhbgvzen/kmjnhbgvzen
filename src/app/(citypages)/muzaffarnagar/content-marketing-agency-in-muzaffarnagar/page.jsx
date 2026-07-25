@@ -14,13 +14,13 @@ export const metadata = {
     "content marketing agency in Muzaffarnagar, content marketing services Muzaffarnagar, blog writing services Muzaffarnagar, content writing company Muzaffarnagar, video content marketing Muzaffarnagar, brand content agency Muzaffarnagar, best content marketing company Muzaffarnagar",
   alternates: {
     canonical:
-      "https://www.zentrixinfotech.com/cities/muzaffarnagar/content-marketing-agency-in-muzaffarnagar",
+      "https://www.zentrixinfotech.com/muzaffarnagar/content-marketing-agency-in-muzaffarnagar",
   },
   openGraph: {
     title: "Content Marketing Agency in Muzaffarnagar | Blogs, SEO & Brand Content",
     description:
       "Hire a content marketing agency in Muzaffarnagar for blogs, website copy, video & social content that builds trust, traffic & long-term leads.",
-    url: "https://www.zentrixinfotech.com/cities/muzaffarnagar/content-marketing-agency-in-muzaffarnagar",
+    url: "https://www.zentrixinfotech.com/muzaffarnagar/content-marketing-agency-in-muzaffarnagar",
     siteName: "Zentrix Infotech",
     images: [
       {

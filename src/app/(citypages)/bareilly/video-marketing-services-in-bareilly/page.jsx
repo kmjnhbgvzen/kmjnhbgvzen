@@ -14,14 +14,14 @@ export const metadata = {
     "video marketing services in Bareilly, video marketing company Bareilly, video production agency Bareilly, promotional video services Bareilly, reels marketing agency Bareilly, corporate video services Bareilly, best video marketing agency near me, video ads agency Bareilly, brand video production Bareilly, affordable video marketing services, social media video services Bareilly, explainer video company Bareilly",
 
   alternates: {
-    canonical: "https://www.zentrixinfotech.com/bareilly/video-marketing-services-bareilly",
+    canonical: "https://www.zentrixinfotech.com/bareilly/video-marketing-services-in-bareilly",
   },
 
   openGraph: {
     title: "Video Marketing Services in Bareilly | Zentrix Infotech",
     description:
       "Grow your brand with professional video marketing services in Bareilly by Zentrix Infotech. Reels, ads & brand videos that boost engagement and sales.",
-    url: "https://www.zentrixinfotech.com/bareilly/video-marketing-services-bareilly",
+    url: "https://www.zentrixinfotech.com/bareilly/video-marketing-services-in-bareilly",
     siteName: "Zentrix Infotech",
     images: [
       {

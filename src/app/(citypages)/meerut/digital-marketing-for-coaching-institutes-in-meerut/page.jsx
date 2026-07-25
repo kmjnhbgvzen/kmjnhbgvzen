@@ -14,13 +14,13 @@ export const metadata = {
     "digital marketing for coaching institutes in Meerut, coaching institute marketing Meerut, SEO for coaching institutes, Google Ads for coaching classes, social media marketing for coaching institutes, coaching institute SEO Meerut, digital marketing agency Meerut, coaching institute lead generation, admission marketing strategy, online marketing for education institutes",
   alternates: {
     canonical:
-      "https://www.zentrixinfotech.com/meerut/content-marketing-agency-in-meerut",
+      "https://www.zentrixinfotech.com/meerut/digital-marketing-for-coaching-institutes-in-meerut",
   },
   openGraph: {
     title: "Digital Marketing for Coaching Institutes in Meerut | Boost Admissions",
     description:
       "Grow your coaching institute in Meerut with proven digital marketing strategies — SEO, Google Ads, social media, and local visibility that drive real admissions.",
-    url: "https://www.zentrixinfotech.com/meerut/content-marketing-agency-in-meerut",
+    url: "https://www.zentrixinfotech.com/meerut/digital-marketing-for-coaching-institutes-in-meerut",
     siteName: "Zentrix Infotech",
     images: [
       {

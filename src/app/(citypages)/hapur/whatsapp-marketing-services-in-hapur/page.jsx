@@ -14,13 +14,13 @@ export const metadata = {
     "WhatsApp Marketing Services in Hapur, WhatsApp marketing company Hapur, bulk WhatsApp marketing Hapur, WhatsApp business API services Hapur, WhatsApp campaign management Hapur, best WhatsApp marketing company Hapur, WhatsApp marketing services near me, WhatsApp automation services Hapur, ecommerce WhatsApp marketing Hapur, WhatsApp lead generation Hapur, WhatsApp broadcast services Hapur, customer engagement WhatsApp Hapur",
   alternates: {
     canonical:
-      "https://www.zentrixinfotech.com/hapur/whatsapp-marketing-services-hapur",
+      "https://www.zentrixinfotech.com/hapur/whatsapp-marketing-services-in-hapur",
   },
   openGraph: {
     title: "WhatsApp Marketing Services in Hapur | Zentrix Infotech",
     description:
       "Result-driven WhatsApp Marketing Services in Hapur to boost customer engagement, drive sales, and build loyalty. Get a free consultation with Zentrix Infotech.",
-    url: "https://www.zentrixinfotech.com/hapur/whatsapp-marketing-services-hapur",
+    url: "https://www.zentrixinfotech.com/hapur/whatsapp-marketing-services-in-hapur",
     siteName: "Zentrix Infotech",
     images: [
       {

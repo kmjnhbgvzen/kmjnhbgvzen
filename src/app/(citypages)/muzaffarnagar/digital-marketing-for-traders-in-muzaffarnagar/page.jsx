@@ -13,13 +13,13 @@ export const metadata = {
   keywords:
     "digital marketing for traders in Muzaffarnagar, trader marketing agency Muzaffarnagar, wholesale business digital marketing Muzaffarnagar, trading company website design Muzaffarnagar, B2B marketing agency Muzaffarnagar, grain traders digital marketing Muzaffarnagar, wholesale lead generation Muzaffarnagar, trader SEO services Muzaffarnagar, digital marketing agency Muzaffarnagar, affordable trading business marketing Muzaffarnagar",
   alternates: {
-    canonical: "https://www.zentrixinfotech.com/digital-marketing-for-traders-in-muzaffarnagar",
+    canonical: "https://www.zentrixinfotech.com/muzaffarnagar/digital-marketing-for-traders-in-muzaffarnagar",
   },
   openGraph: {
     title: "Digital Marketing for Traders in Muzaffarnagar | Zentrix Infotech",
     description:
       "Zentrix Infotech offers specialised digital marketing for traders in Muzaffarnagar including SEO, Google Ads, social media & website design to boost wholesale inquiries. Get a free quote today.",
-    url: "https://www.zentrixinfotech.com/digital-marketing-for-traders-in-muzaffarnagar",
+    url: "https://www.zentrixinfotech.com/muzaffarnagar/digital-marketing-for-traders-in-muzaffarnagar",
     siteName: "Zentrix Infotech",
     images: [
       {

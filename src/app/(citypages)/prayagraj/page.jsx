@@ -14,13 +14,13 @@ export const metadata = {
     "business support Prayagraj",
   ],
   alternates: {
-    canonical: "https://www.zentrixinfotech.com/prayagraj",
+    canonical: "https://www.zentrixinfotech.com/prayagraj/website-development-company-in-prayagraj",
   },
   openGraph: {
     title: "Prayagraj | Online & IT Services for Businesses",
     description:
       "Online and IT services in Prayagraj for businesses looking to build a strong digital presence and improve efficiency.",
-    url: "https://www.zentrixinfotech.com/prayagraj",
+    url: "https://www.zentrixinfotech.com/prayagraj/website-development-company-in-prayagraj",
     siteName: "Zentrix Infotech",
     images: [
       {

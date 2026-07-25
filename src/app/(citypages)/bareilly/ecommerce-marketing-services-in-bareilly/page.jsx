@@ -20,7 +20,7 @@ export const metadata = {
     title: "E-commerce Marketing Services in Bareilly | Online Store Growth",
     description:
       "Looking for e-commerce marketing services in Bareilly? Get expert product listing optimization, paid ads, SEO, and social media strategies to grow your online store sales.",
-    url: "https://www.zentrixinfotech.com/cities/bareilly/e-commerce-marketing-services-in-bareilly",
+    url: "https://www.zentrixinfotech.com/cities/bareilly/ecommerce-marketing-services-in-bareilly",
     siteName: "Zentrix Infotech",
     images: [
       {

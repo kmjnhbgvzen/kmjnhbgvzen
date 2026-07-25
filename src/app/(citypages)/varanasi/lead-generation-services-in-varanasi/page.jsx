@@ -14,13 +14,13 @@ export const metadata = {
     "lead generation services in Varanasi, B2B lead generation Varanasi, lead generation company Varanasi, digital marketing leads Varanasi, local business leads Varanasi, Google Ads lead generation Varanasi, real estate lead generation Varanasi, lead generation agency UP, qualified leads for small business Varanasi",
   alternates: {
     canonical:
-      "https://www.zentrixinfotech.com/varanasi/lead-generation-services-varanasi",
+      "https://www.zentrixinfotech.com/varanasi/lead-generation-services-in-varanasi",
   },
   openGraph: {
     title: "Lead Generation Services in Varanasi | Get Quality Leads",
     description:
       "Expert lead generation services in Varanasi using SEO, ads, and funnels to bring qualified leads. Grow your business with measurable ROI. Enquire now.",
-    url: "https://www.zentrixinfotech.com/varanasi/lead-generation-services-varanasi",
+    url: "https://www.zentrixinfotech.com/varanasi/lead-generation-services-in-varanasi",
     siteName: "Zentrix Infotech",
     images: [
       {

@@ -13,13 +13,13 @@ export const metadata = {
   keywords:
     "content marketing agency in Ghaziabad, content marketing company Ghaziabad, digital marketing agency Ghaziabad, SEO content writing Ghaziabad, content marketing services Ghaziabad, best content marketing agency near me, content strategy company Ghaziabad, blog writing services Ghaziabad",
   alternates: {
-    canonical: "https://www.zentrixinfotech.com/ghaziabad/best-content-marketing-agency-in-ghaziabad",
+    canonical: "https://www.zentrixinfotech.com/ghaziabad/content-marketing-agency-in-ghaziabad",
   },
   openGraph: {
     title: "Best Content Marketing Agency in Ghaziabad | Zentrix Infotech",
     description:
       "Looking for a content marketing agency in Ghaziabad? Zentrix Infotech crafts SEO-driven content strategies that boost traffic, leads & brand authority.",
-    url: "https://www.zentrixinfotech.com/ghaziabad/best-content-marketing-agency-in-ghaziabad",
+    url: "https://www.zentrixinfotech.com/ghaziabad/content-marketing-agency-in-ghaziabad",
     siteName: "Zentrix Infotech",
     images: [
       {

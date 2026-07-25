@@ -14,13 +14,13 @@ export const metadata = {
     "digital marketing for restaurants in varanasi, restaurant marketing agency varanasi, restaurant SEO varanasi, restaurant social media marketing varanasi, restaurant website design varanasi, google my business for restaurants, food ordering app marketing varanasi, restaurant ads varanasi, increase restaurant footfall varanasi, best digital marketing company for restaurants, local SEO for restaurants, restaurant branding varanasi, ghat view restaurant marketing, restaurant online reputation management",
   alternates: {
     canonical:
-      "https://www.zentrixinfotech.com/varanasi/digital-marketing-for-restaurants-varanasi",
+      "https://www.zentrixinfotech.com/varanasi/digital-marketing-for-restaurants-in-varanasi",
   },
   openGraph: {
     title: "Digital Marketing for Restaurants in Varanasi | More Diners & Orders",
     description:
       "Grow your Varanasi restaurant with expert digital marketing — SEO, Google Maps, social media & ads that bring more walk-ins, orders, and reviews.",
-    url: "https://www.zentrixinfotech.com/varanasi/digital-marketing-for-restaurants-varanasi",
+    url: "https://www.zentrixinfotech.com/varanasi/digital-marketing-for-restaurants-in-varanasi",
     siteName: "Zentrix Infotech",
     images: [
       {

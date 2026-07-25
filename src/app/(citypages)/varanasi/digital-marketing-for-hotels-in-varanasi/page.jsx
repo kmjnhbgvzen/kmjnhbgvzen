@@ -14,13 +14,13 @@ export const metadata = {
     "digital marketing for hotels in varanasi, hotel digital marketing agency varanasi, hotel SEO varanasi, hotel social media marketing varanasi, hotel website design varanasi, google my business for hotels, hotel PPC advertising varanasi, OTA management varanasi, increase hotel bookings varanasi, best digital marketing company for hotels, local SEO for hotels, hotel branding varanasi, tourism marketing varanasi, hotel online reputation management",
   alternates: {
     canonical:
-      "https://www.zentrixinfotech.com/varanasi/digital-marketing-for-hotels-varanasi",
+      "https://www.zentrixinfotech.com/varanasi/digital-marketing-for-hotels-in-varanasi",
   },
   openGraph: {
     title: "Digital Marketing for Hotels in Varanasi | Boost Direct Bookings",
     description:
       "Grow your Varanasi hotel with expert digital marketing — SEO, Google My Business, social media & ads that bring more direct bookings and guests.",
-    url: "https://www.zentrixinfotech.com/varanasi/digital-marketing-for-hotels-varanasi",
+    url: "https://www.zentrixinfotech.com/varanasi/digital-marketing-for-hotels-in-varanasi",
     siteName: "Zentrix Infotech",
     images: [
       {

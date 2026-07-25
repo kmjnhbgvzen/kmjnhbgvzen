@@ -13,7 +13,7 @@ export const metadata = {
   keywords:
     "SEO services in Muzaffarnagar, SEO company in Muzaffarnagar, best SEO agency Muzaffarnagar, local SEO Muzaffarnagar, digital marketing Muzaffarnagar, SEO experts Muzaffarnagar, affordable SEO services Muzaffarnagar",
   alternates: {
-    canonical: "https://www.zentrixinfotech.com/cities/muzaffarnagar/seo-services-in-muzaffarnagar",
+    canonical: "https://www.zentrixinfotech.com/muzaffarnagar/seo-services-in-muzaffarnagar",
   },
   openGraph: {
     title: "SEO Services in Muzaffarnagar | Affordable & Result-Driven SEO Company",

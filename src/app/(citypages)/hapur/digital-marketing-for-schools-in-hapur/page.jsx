@@ -14,13 +14,13 @@ export const metadata = {
     "digital marketing for schools in Hapur, school marketing agency Hapur, coaching institute marketing company, school admission marketing services, school website development Hapur, education marketing agency UP, school SEO services near me, coaching center digital marketing, school social media marketing agency, education lead generation services, school Google ads agency, best education marketing company, digital marketing agency Delhi NCR, school branding services Hapur, admission campaign management company",
   alternates: {
     canonical:
-      "https://www.zentrixinfotech.com/hapur/digital-marketing-for-schools-hapur",
+      "https://www.zentrixinfotech.com/hapur/digital-marketing-for-schools-in-hapur",
   },
   openGraph: {
     title: "Digital Marketing for Schools in Hapur | Boost Admissions Online",
     description:
       "Looking for digital marketing for schools in Hapur? Zentrix Infotech helps schools & coaching institutes get more admission enquiries through SEO & ads.",
-    url: "https://www.zentrixinfotech.com/hapur/digital-marketing-for-schools-hapur",
+    url: "https://www.zentrixinfotech.com/hapur/digital-marketing-for-schools-in-hapur",
     siteName: "Zentrix Infotech",
     images: [
       {

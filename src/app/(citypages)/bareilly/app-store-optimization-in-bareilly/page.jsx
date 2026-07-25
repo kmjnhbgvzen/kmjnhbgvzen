@@ -21,7 +21,7 @@ export const metadata = {
     title: "App Store Optimization Services in Bareilly | Zentrix Infotech",
     description:
       "Get more app downloads with expert App Store Optimization services in Bareilly by Zentrix Infotech. Rank higher, boost installs, and grow your app users.",
-    url: "https://www.zentrixinfotech.com/bareilly/app-store-optimization-services-bareilly",
+    url: "https://www.zentrixinfotech.com/bareilly/app-store-optimization-in-bareilly",
     siteName: "Zentrix Infotech",
     images: [
       {

@@ -21,7 +21,7 @@ export const metadata = {
     title: "Digital Marketing for Schools in Bareilly | Zentrix Infotech",
     description:
       "Boost admissions with expert digital marketing for schools in Bareilly by Zentrix Infotech. Websites, SEO & campaigns that build trust with parents.",
-    url: "https://www.zentrixinfotech.com/bareilly/digital-marketing-for-schools-bareilly",
+    url: "https://www.zentrixinfotech.com/bareilly/digital-marketing-for-schools-in-bareilly",
     siteName: "Zentrix Infotech",
     images: [
       {

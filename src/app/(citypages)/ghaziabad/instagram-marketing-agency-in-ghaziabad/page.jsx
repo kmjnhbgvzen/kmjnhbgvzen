@@ -14,13 +14,13 @@ export const metadata = {
     "Instagram marketing agency in Ghaziabad, Instagram marketing company Ghaziabad, Instagram ads agency Ghaziabad, Instagram reels marketing Ghaziabad, social media marketing agency Ghaziabad, Instagram growth services Ghaziabad, best Instagram marketing agency Ghaziabad, Instagram influencer marketing Ghaziabad, Instagram marketing services near me, digital marketing agency Ghaziabad Instagram, Instagram content creation Ghaziabad, Instagram promotion company Ghaziabad",
   alternates: {
     canonical:
-      "https://www.zentrixinfotech.com/ghaziabad/instagram-marketing-agency-ghaziabad",
+      "https://www.zentrixinfotech.com/ghaziabad/instagram-marketing-agency-in-ghaziabad",
   },
   openGraph: {
     title: "Instagram Marketing Agency in Ghaziabad | Grow Followers & Sales",
     description:
       "Top Instagram Marketing Agency in Ghaziabad for reels, ads, and content that build real engagement. Grow followers, leads, and sales. Get a free strategy call.",
-    url: "https://www.zentrixinfotech.com/ghaziabad/instagram-marketing-agency-ghaziabad",
+    url: "https://www.zentrixinfotech.com/ghaziabad/instagram-marketing-agency-in-ghaziabad",
     siteName: "Zentrix Infotech",
     images: [
       {

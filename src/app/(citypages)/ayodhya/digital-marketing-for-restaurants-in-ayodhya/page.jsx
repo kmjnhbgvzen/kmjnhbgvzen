@@ -21,7 +21,7 @@ export const metadata = {
       "Digital Marketing for Restaurants in Ayodhya - Zentrix Infotech",
     description:
       "Grow your restaurant business with expert digital marketing for restaurants in Ayodhya. Zentrix Infotech offers SEO, PPC, social media, and website services. Get a free consultation today.",
-    url: "https://www.zentrixinfotech.com/ayodhya/digital-marketing-restaurants-ayodhya",
+    url: "https://www.zentrixinfotech.com/ayodhya/digital-marketing-for-restaurants-in-ayodhya",
     siteName: "Zentrix Infotech",
     images: [
       {

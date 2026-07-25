@@ -20,7 +20,7 @@ export const metadata = {
     title: "Digital Marketing for Hotels in Ayodhya - Zentrix Infotech",
     description:
       "Grow your hotel bookings with expert digital marketing for hotels in Ayodhya. Zentrix Infotech offers SEO, PPC, social media, and website optimization. Get a free consultation today.",
-    url: "https://www.zentrixinfotech.com/ayodhya/digital-marketing-for-hotels-ayodhya",
+    url: "https://www.zentrixinfotech.com/ayodhya/digital-marketing-for-hotels-in-ayodhya",
     siteName: "Zentrix Infotech",
     images: [
       {

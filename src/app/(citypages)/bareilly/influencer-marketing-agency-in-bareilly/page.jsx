@@ -21,7 +21,7 @@ export const metadata = {
     title: "Influencer Marketing Agency in Bareilly | Zentrix Infotech",
     description:
       "Reach real customers with a trusted influencer marketing agency in Bareilly. Zentrix Infotech connects your brand with the right voices for genuine growth.",
-    url: "https://www.zentrixinfotech.com/bareilly/influencer-marketing-agency-bareilly",
+    url: "https://www.zentrixinfotech.com/bareilly/influencer-marketing-agency-in-bareilly",
     siteName: "Zentrix Infotech",
     images: [
       {

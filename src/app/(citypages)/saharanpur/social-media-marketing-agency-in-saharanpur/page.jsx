@@ -14,13 +14,13 @@ export const metadata = {
   keywords:
     "social media marketing agency in Saharanpur, social media marketing Saharanpur, Instagram marketing agency Saharanpur, Facebook ads agency Saharanpur, digital marketing company Saharanpur, SMM services Saharanpur, social media management Saharanpur, best social media agency UP, local business social media marketing, content marketing agency Saharanpur",
   alternates: {
-    canonical: "/saharanpur/social-media-marketing-agency-in-saharanpur",
+    canonical: "https://www.zentrixinfotech.com/saharanpur/social-media-marketing-agency-in-saharanpur",
   },
   openGraph: {
     title: "Social Media Marketing Agency in Saharanpur | Grow Your Brand Online",
     description:
       "Hire a results-driven social media marketing agency in Saharanpur. Instagram, Facebook & LinkedIn management, ads, content creation & analytics. Get a free audit.",
-    url: "/saharanpur/social-media-marketing-agency-in-saharanpur",
+    url: "https://www.zentrixinfotech.com/saharanpur/social-media-marketing-agency-in-saharanpur",
     siteName: "Zentrix Infotech",
     images: [
       {

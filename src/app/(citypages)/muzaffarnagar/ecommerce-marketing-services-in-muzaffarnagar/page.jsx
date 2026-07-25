@@ -14,7 +14,7 @@ export const metadata = {
     "ecommerce marketing services in Muzaffarnagar, ecommerce marketing agency Muzaffarnagar, online store marketing Muzaffarnagar, ecommerce SEO Muzaffarnagar, ecommerce ads agency Muzaffarnagar, digital marketing for online stores Muzaffarnagar, D2C marketing Muzaffarnagar",
   alternates: {
     canonical:
-      "https://www.zentrixinfotech.com/cities/muzaffarnagar/ecommerce-marketing-services-in-muzaffarnagar",
+      "https://www.zentrixinfotech.com/muzaffarnagar/ecommerce-marketing-services-in-muzaffarnagar",
   },
   openGraph: {
     title: "Ecommerce Marketing Services in Muzaffarnagar | Grow Online Sales",

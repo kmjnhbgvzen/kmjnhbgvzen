@@ -14,13 +14,13 @@ export const metadata = {
     "digital marketing for manufacturers in Saharanpur, manufacturer SEO Saharanpur, B2B marketing Saharanpur, industrial digital marketing agency Saharanpur, Google Ads for manufacturers, manufacturing lead generation, best digital marketing company Saharanpur, manufacturer marketing strategies 2026, Zentrix Infotech digital marketing",
   alternates: {
     canonical:
-      "https://www.zentrixinfotech.com/saharanpur/digital-marketing-for-manufacturers-saharanpur",
+      "https://www.zentrixinfotech.com/saharanpur/digital-marketing-for-manufacturers-in-saharanpur",
   },
   openGraph: {
     title: "Digital Marketing for Manufacturers in Saharanpur | Best Strategies 2026",
     description:
       "Discover proven digital marketing strategies for manufacturers in Saharanpur — B2B SEO, marketplace optimization, LinkedIn marketing, and export-focused tips to grow inquiries in 2026.",
-    url: "https://www.zentrixinfotech.com/saharanpur/digital-marketing-for-manufacturers-saharanpur",
+    url: "https://www.zentrixinfotech.com/saharanpur/digital-marketing-for-manufacturers-in-saharanpur",
     siteName: "Zentrix Infotech",
     images: [
       {

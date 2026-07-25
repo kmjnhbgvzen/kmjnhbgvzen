@@ -14,13 +14,13 @@ export const metadata = {
     "digital marketing for real estate in Saharanpur, real estate digital marketing Saharanpur, SEO for real estate agents, property marketing agency Saharanpur, real estate lead generation, local SEO for builders, digital marketing for property dealers, best digital marketing company Saharanpur, real estate social media marketing, Google Ads for real estate, real estate website development India",
   alternates: {
     canonical:
-      "https://www.zentrixinfotech.com/saharanpur/digital-marketing-for-real-estate-saharanpur",
+      "https://www.zentrixinfotech.com/saharanpur/digital-marketing-for-real-estate-in-saharanpur",
   },
   openGraph: {
     title: "Digital Marketing for Real Estate in Saharanpur | Get More Buyer Leads",
     description:
       "Grow your real estate business in Saharanpur with proven digital marketing — SEO, Google Ads, social media & local listings. Get more property enquiries and site visits online.",
-    url: "https://www.zentrixinfotech.com/saharanpur/digital-marketing-for-real-estate-saharanpur",
+    url: "https://www.zentrixinfotech.com/saharanpur/digital-marketing-for-real-estate-in-saharanpur",
     siteName: "Zentrix Infotech",
     images: [
       {

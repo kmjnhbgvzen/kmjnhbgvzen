@@ -14,13 +14,13 @@ export const metadata = {
     "digital marketing for restaurants in Ghaziabad, restaurant marketing agency Ghaziabad, restaurant SEO services Ghaziabad, food business digital marketing Ghaziabad, restaurant social media marketing Ghaziabad, best digital marketing company for restaurants Ghaziabad, cafe marketing services Ghaziabad, restaurant website design Ghaziabad, restaurant marketing services near me, online ordering marketing Ghaziabad, restaurant branding agency Ghaziabad, local restaurant SEO Ghaziabad",
   alternates: {
     canonical:
-      "https://www.zentrixinfotech.com/ghaziabad/digital-marketing-for-restaurants-ghaziabad",
+      "https://www.zentrixinfotech.com/ghaziabad/digital-marketing-for-restaurants-in-ghaziabad",
   },
   openGraph: {
     title: "Digital Marketing for Restaurants in Ghaziabad | Zentrix Infotech",
     description:
       "Result-driven digital marketing for restaurants in Ghaziabad to boost footfall, online orders, and customer loyalty. Get a free consultation today.",
-    url: "https://www.zentrixinfotech.com/ghaziabad/digital-marketing-for-restaurants-ghaziabad",
+    url: "https://www.zentrixinfotech.com/ghaziabad/digital-marketing-for-restaurants-in-ghaziabad",
     siteName: "Zentrix Infotech",
     images: [
       {

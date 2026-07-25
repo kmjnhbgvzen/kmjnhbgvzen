@@ -15,14 +15,14 @@ export const metadata = {
 
   alternates: {
     canonical:
-      "https://www.zentrixinfotech.com/bareilly/youtube-marketing-agency-bareilly",
+      "https://www.zentrixinfotech.com/bareilly/youtube-marketing-agency-in-bareilly",
   },
 
   openGraph: {
     title: "YouTube Marketing Agency in Bareilly | Grow Views, Leads & Sales",
     description:
       "Grow your brand in Bareilly with expert YouTube marketing — video SEO, channel growth, ads and content strategy that turns viewers into real customers.",
-    url: "https://www.zentrixinfotech.com/bareilly/youtube-marketing-agency-bareilly",
+    url: "https://www.zentrixinfotech.com/bareilly/youtube-marketing-agency-in-bareilly",
     siteName: "Zentrix Infotech",
     images: [
       {

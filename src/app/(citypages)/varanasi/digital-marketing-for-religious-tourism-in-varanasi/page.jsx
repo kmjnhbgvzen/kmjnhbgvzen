@@ -14,13 +14,13 @@ export const metadata = {
     "digital marketing for religious tourism in varanasi, pilgrimage tourism marketing agency varanasi, religious tour SEO varanasi, kashi vishwanath tour marketing, ganga aarti booking marketing, pilgrim tourism digital marketing, ashram marketing varanasi, dharamshala marketing varanasi, best digital marketing company for religious tourism, local SEO for pilgrimage business, religious tourism social media marketing, spiritual tour package marketing varanasi, pilgrim booking lead generation, religious tourism reputation management",
   alternates: {
     canonical:
-      "https://www.zentrixinfotech.com/varanasi/digital-marketing-for-religious-tourism-varanasi",
+      "https://www.zentrixinfotech.com/varanasi/digital-marketing-for-religious-tourism-in-varanasi",
   },
   openGraph: {
     title: "Digital Marketing for Religious Tourism in Varanasi | More Pilgrims",
     description:
       "Grow your Varanasi religious tourism business with expert digital marketing — SEO, Google Maps, social media & ads that bring more pilgrim bookings.",
-    url: "https://www.zentrixinfotech.com/varanasi/digital-marketing-for-religious-tourism-varanasi",
+    url: "https://www.zentrixinfotech.com/varanasi/digital-marketing-for-religious-tourism-in-varanasi",
     siteName: "Zentrix Infotech",
     images: [
       {

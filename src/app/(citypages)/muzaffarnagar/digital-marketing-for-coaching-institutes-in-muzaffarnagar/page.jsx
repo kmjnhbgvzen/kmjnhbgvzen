@@ -14,13 +14,13 @@ export const metadata = {
   keywords:
     "digital marketing for coaching institutes in Muzaffarnagar, coaching institute marketing Muzaffarnagar, SEO for coaching classes, coaching institute website design, Google Ads for coaching institute, social media marketing for coaching center, local SEO Muzaffarnagar, best digital marketing company Muzaffarnagar, education marketing agency UP, coaching center lead generation",
   alternates: {
-    canonical: "https://www.zentrixinfotech.com/digital-marketing-for-coaching-institutes-in-muzaffarnagar",
+    canonical: "https://www.zentrixinfotech.com/muzaffarnagar/digital-marketing-for-coaching-institutes-in-muzaffarnagar",
   },
   openGraph: {
     title: "Digital Marketing for Coaching Institutes in Muzaffarnagar | Best SEO & Ads Guide",
     description:
       "Muzaffarnagar ke coaching institutes ke liye best digital marketing strategy — local SEO, Google Ads, social media aur website se admissions kaise badhayein, jaanein poori guide.",
-    url: "https://www.zentrixinfotech.com/digital-marketing-for-coaching-institutes-in-muzaffarnagar",
+    url: "https://www.zentrixinfotech.com/muzaffarnagar/digital-marketing-for-coaching-institutes-in-muzaffarnagar",
     siteName: "Zentrix Infotech",
     images: [
       {

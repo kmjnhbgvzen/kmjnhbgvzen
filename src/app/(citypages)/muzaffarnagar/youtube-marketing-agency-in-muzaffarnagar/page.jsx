@@ -13,13 +13,13 @@ export const metadata = {
   keywords:
     "youtube marketing agency in muzaffarnagar, youtube marketing services muzaffarnagar, youtube channel growth agency muzaffarnagar, youtube video seo company, youtube ads agency muzaffarnagar, best youtube marketing company near me, youtube marketing for business muzaffarnagar, video marketing agency muzaffarnagar, youtube promotion services india, digital marketing agency muzaffarnagar, youtube content strategy agency, youtube subscribers growth services",
   alternates: {
-    canonical: "https://www.zentrixinfotech.com/youtube-marketing-agency-in-muzaffarnagar",
+    canonical: "https://www.zentrixinfotech.com/muzaffarnagar/youtube-marketing-agency-in-muzaffarnagar",
   },
   openGraph: {
     title: "YouTube Marketing Agency in Muzaffarnagar | Grow Your Channel & Brand",
     description:
       "Leading YouTube Marketing Agency in Muzaffarnagar offering video SEO, channel growth, ads & content strategy to boost views, subscribers, and sales.",
-    url: "https://www.zentrixinfotech.com/youtube-marketing-agency-in-muzaffarnagar",
+    url: "https://www.zentrixinfotech.com/muzaffarnagar/youtube-marketing-agency-in-muzaffarnagar",
     siteName: "Zentrix Infotech",
     images: [
       {

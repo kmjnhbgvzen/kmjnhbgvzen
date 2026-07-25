@@ -14,13 +14,13 @@ export const metadata = {
     "digital marketing for real estate in Ghaziabad, real estate marketing agency Ghaziabad, real estate SEO services Ghaziabad, property marketing company Ghaziabad, real estate lead generation Ghaziabad, real estate social media marketing Ghaziabad, best digital marketing company for real estate Ghaziabad, property website design Ghaziabad, real estate marketing services near me, real estate branding agency Ghaziabad, builder marketing services Ghaziabad, real estate PPC Ghaziabad",
   alternates: {
     canonical:
-      "https://www.zentrixinfotech.com/ghaziabad/digital-marketing-for-real-estate-ghaziabad",
+      "https://www.zentrixinfotech.com/ghaziabad/digital-marketing-for-real-estate-in-ghaziabad",
   },
   openGraph: {
     title: "Digital Marketing for Real Estate in Ghaziabad | Zentrix Infotech",
     description:
       "Result-driven digital marketing for real estate in Ghaziabad to generate quality leads, boost property visibility, and drive site visits. Get a free consultation.",
-    url: "https://www.zentrixinfotech.com/ghaziabad/digital-marketing-for-real-estate-ghaziabad",
+    url: "https://www.zentrixinfotech.com/ghaziabad/digital-marketing-for-real-estate-in-ghaziabad",
     siteName: "Zentrix Infotech",
     images: [
       {

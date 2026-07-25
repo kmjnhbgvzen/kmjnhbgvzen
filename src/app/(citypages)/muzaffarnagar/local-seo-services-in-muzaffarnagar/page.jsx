@@ -7,20 +7,20 @@ import Portfolio from "@/components/Portfolio";
 import LandingServices from "@/components/LandingServices";
 
 export const metadata = {
-  title: "Graphic Design Services in Muzaffarnagar | Logos, Branding & Print",
+  title: "Local SEO Services in Muzaffarnagar | Zentrix Infotech",
   description:
-    "Professional graphic design services in Muzaffarnagar — logo design, branding, packaging, social media & print design that make your business stand out.",
+    "Get found by nearby customers with expert local SEO services in Muzaffarnagar. Zentrix Infotech optimizes Google Business Profile, citations & rankings.",
   keywords:
-    "graphic design services in Muzaffarnagar, graphic designer Muzaffarnagar, logo design company Muzaffarnagar, branding agency Muzaffarnagar, packaging design Muzaffarnagar, social media graphic design Muzaffarnagar, best graphic design company Muzaffarnagar",
+    "local seo services in muzaffarnagar, local seo company muzaffarnagar, google business profile optimization muzaffarnagar, local seo agency near me, seo services muzaffarnagar, google maps ranking services, local search optimization up, small business seo muzaffarnagar, best local seo company, near me seo services",
   alternates: {
     canonical:
-      "https://www.zentrixinfotech.com/cities/muzaffarnagar/graphic-design-services-in-muzaffarnagar",
+      "https://www.zentrixinfotech.com/muzaffarnagar/local-seo-services-in-muzaffarnagar",
   },
   openGraph: {
-    title: "Graphic Design Services in Muzaffarnagar | Logos, Branding & Print",
+    title: "Local SEO Services in Muzaffarnagar | Zentrix Infotech",
     description:
-      "Professional graphic design services in Muzaffarnagar — logo design, branding, packaging, social media & print design that make your business stand out.",
-    url: "https://www.zentrixinfotech.com/muzaffarnagar/graphic-design-services-in-muzaffarnagar",
+      "Get found by nearby customers with expert local SEO services in Muzaffarnagar. Zentrix Infotech optimizes Google Business Profile, citations & rankings.",
+    url: "https://www.zentrixinfotech.com/muzaffarnagar/local-seo-services-in-muzaffarnagar",
     siteName: "Zentrix Infotech",
     images: [
       {
@@ -35,9 +35,9 @@ export const metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Graphic Design Services in Muzaffarnagar | Logos, Branding & Print",
+    title: "Local SEO Services in Muzaffarnagar | Zentrix Infotech",
     description:
-      "Professional graphic design services in Muzaffarnagar — logo design, branding, packaging, social media & print design that make your business stand out.",
+      "Get found by nearby customers with expert local SEO services in Muzaffarnagar. Zentrix Infotech optimizes Google Business Profile, citations & rankings.",
     images: ["https://www.zentrixinfotech.com/zentrix_logo.jpg"],
   },
   icons: {

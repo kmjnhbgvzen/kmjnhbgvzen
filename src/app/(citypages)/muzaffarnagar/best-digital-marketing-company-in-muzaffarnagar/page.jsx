@@ -14,7 +14,7 @@ export const metadata = {
     "best digital marketing company in Muzaffarnagar, digital marketing agency Muzaffarnagar, digital marketing services Muzaffarnagar, top digital marketing company Muzaffarnagar, online marketing agency Muzaffarnagar, digital marketing experts Muzaffarnagar, full service marketing agency Muzaffarnagar",
   alternates: {
     canonical:
-      "https://www.zentrixinfotech.com/cities/muzaffarnagar/best-digital-marketing-company-in-muzaffarnagar",
+      "https://www.zentrixinfotech.com/muzaffarnagar/best-digital-marketing-company-in-muzaffarnagar",
   },
   openGraph: {
     title: "Best Digital Marketing Company in Muzaffarnagar | Full-Service Agency",

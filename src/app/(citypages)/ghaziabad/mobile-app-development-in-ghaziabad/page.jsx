@@ -14,13 +14,13 @@ export const metadata = {
     "mobile app development in Ghaziabad, mobile app development company Ghaziabad, Android app development Ghaziabad, iOS app development Ghaziabad, app development agency Ghaziabad, cross platform app development Ghaziabad, custom mobile app development Ghaziabad, ecommerce app development Ghaziabad, best app development company Ghaziabad, mobile app developers near me, Flutter app development Ghaziabad, app development services Ghaziabad",
   alternates: {
     canonical:
-      "https://www.zentrixinfotech.com/ghaziabad/mobile-app-development-ghaziabad",
+      "https://www.zentrixinfotech.com/ghaziabad/mobile-app-development-in-ghaziabad",
   },
   openGraph: {
     title: "Mobile App Development in Ghaziabad | Android & iOS Experts",
     description:
       "Custom Mobile App Development in Ghaziabad for Android, iOS, and cross-platform apps. Scalable, secure, business-focused solutions. Get a free quote.",
-    url: "https://www.zentrixinfotech.com/ghaziabad/mobile-app-development-ghaziabad",
+    url: "https://www.zentrixinfotech.com/ghaziabad/mobile-app-development-in-ghaziabad",
     siteName: "Zentrix Infotech",
     images: [
       {

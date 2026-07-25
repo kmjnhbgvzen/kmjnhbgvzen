@@ -13,13 +13,13 @@ export const metadata = {
   keywords:
     "video marketing services in Muzaffarnagar, video marketing company Muzaffarnagar, best video marketing agency Muzaffarnagar, video production services Muzaffarnagar, social media video marketing Muzaffarnagar, YouTube marketing services Muzaffarnagar, corporate video services Muzaffarnagar, explainer video company Muzaffarnagar, promotional video services Muzaffarnagar, digital marketing agency Muzaffarnagar, video ads Muzaffarnagar, affordable video marketing Muzaffarnagar",
   alternates: {
-    canonical: "https://www.zentrixinfotech.com/video-marketing-services-in-muzaffarnagar",
+    canonical: "https://www.zentrixinfotech.com/muzaffarnagar/video-marketing-services-in-muzaffarnagar",
   },
   openGraph: {
     title: "Video Marketing Services in Muzaffarnagar | Zentrix Infotech",
     description:
       "Grow your brand with expert video marketing services in Muzaffarnagar by Zentrix Infotech. Explainer videos, ads, social media reels & YouTube marketing that convert. Get a free quote today.",
-    url: "https://www.zentrixinfotech.com/video-marketing-services-in-muzaffarnagar",
+    url: "https://www.zentrixinfotech.com/muzaffarnagar/video-marketing-services-in-muzaffarnagar",
     siteName: "Zentrix Infotech",
     images: [
       {

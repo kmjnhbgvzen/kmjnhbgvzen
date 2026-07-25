@@ -14,13 +14,13 @@ export const metadata = {
     "digital marketing for handicrafts in varanasi, handicraft marketing agency varanasi, handicraft business SEO varanasi, wooden toys marketing varanasi, handicraft ecommerce varanasi, google my business for handicraft shops, handicraft export marketing, increase handicraft sales varanasi, best digital marketing company for handicrafts, local SEO for handicraft business, handicraft social media marketing, artisan brand marketing varanasi, handicraft online store marketing, handicraft business reputation management",
   alternates: {
     canonical:
-      "https://www.zentrixinfotech.com/varanasi/digital-marketing-for-handicrafts-varanasi",
+      "https://www.zentrixinfotech.com/varanasi/digital-marketing-for-handicrafts-in-varanasi",
   },
   openGraph: {
     title: "Digital Marketing for Handicrafts in Varanasi | More Craft Sales",
     description:
       "Grow your Varanasi handicraft business with expert digital marketing — SEO, Google Maps, social media & ads that bring more online and export buyers.",
-    url: "https://www.zentrixinfotech.com/varanasi/digital-marketing-for-handicrafts-varanasi",
+    url: "https://www.zentrixinfotech.com/varanasi/digital-marketing-for-handicrafts-in-varanasi",
     siteName: "Zentrix Infotech",
     images: [
       {

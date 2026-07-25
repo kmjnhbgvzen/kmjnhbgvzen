@@ -14,13 +14,13 @@ export const metadata = {
     "online reputation management in Varanasi, ORM services Varanasi, negative review removal Varanasi, review management company Varanasi, brand reputation agency Varanasi, Google reviews management Varanasi, reputation management for doctors Varanasi, reputation management for businesses UP, crisis management agency Varanasi",
   alternates: {
     canonical:
-      "https://www.zentrixinfotech.com/varanasi/online-reputation-management-varanasi",
+      "https://www.zentrixinfotech.com/varanasi/online-reputation-management-in-varanasi",
   },
   openGraph: {
     title: "Online Reputation Management in Varanasi | ORM Experts",
     description:
       "Trusted online reputation management in Varanasi — fix negative reviews, build 5-star credibility & monitor your brand online. Free reputation audit.",
-    url: "https://www.zentrixinfotech.com/varanasi/online-reputation-management-varanasi",
+    url: "https://www.zentrixinfotech.com/varanasi/online-reputation-management-in-varanasi",
     siteName: "Zentrix Infotech",
     images: [
       {

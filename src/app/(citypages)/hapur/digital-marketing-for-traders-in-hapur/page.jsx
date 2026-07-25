@@ -14,13 +14,13 @@ export const metadata = {
     "digital marketing for traders in Hapur, trader marketing agency Hapur, wholesaler marketing company, trading business digital marketing, B2B marketing agency Hapur, wholesale lead generation services, trader website development company, distributor marketing agency UP, trading company SEO services, wholesale business marketing agency, best B2B marketing company Hapur, digital marketing agency Delhi NCR, trader Google ads agency, grain and commodity trader marketing, hardware trader marketing services",
   alternates: {
     canonical:
-      "https://www.zentrixinfotech.com/hapur/digital-marketing-for-traders-hapur",
+      "https://www.zentrixinfotech.com/hapur/digital-marketing-for-traders-in-hapur",
   },
   openGraph: {
     title: "Digital Marketing for Traders in Hapur | More Enquiries & Sales",
     description:
       "Looking for digital marketing for traders in Hapur? Zentrix Infotech helps wholesalers & traders get more B2B enquiries through SEO, ads & website.",
-    url: "https://www.zentrixinfotech.com/hapur/digital-marketing-for-traders-hapur",
+    url: "https://www.zentrixinfotech.com/hapur/digital-marketing-for-traders-in-hapur",
     siteName: "Zentrix Infotech",
     images: [
       {

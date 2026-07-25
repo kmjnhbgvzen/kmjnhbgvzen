@@ -14,13 +14,13 @@ export const metadata = {
   keywords:
     "mobile app development in Saharanpur, mobile app development company in Saharanpur, android app development Saharanpur, iOS app development Saharanpur, app developers in Saharanpur, best app development company Saharanpur UP, custom mobile app development near me, e-commerce app development Saharanpur, hybrid app development company Saharanpur, app development for small business Saharanpur, affordable app development services Saharanpur, affordable mobile app development company in Saharanpur for startups, best android and iOS app developers near Saharanpur, how much does app development cost in Saharanpur, custom app development company for wood handicraft business Saharanpur",
   alternates: {
-    canonical: "/saharanpur/mobile-app-development-saharanpur",
+    canonical: "https://www.zentrixinfotech.com/saharanpur/mobile-app-development-in-saharanpur",
   },
   openGraph: {
     title: "Mobile App Development in Saharanpur | Android & iOS Apps",
     description:
       "Custom Android, iOS & cross-platform app development in Saharanpur. Affordable pricing, on-time delivery, post-launch support. Get a free quote today!",
-    url: "/saharanpur/mobile-app-development-saharanpur",
+    url: "https://www.zentrixinfotech.com/saharanpur/mobile-app-development-in-saharanpur",
     siteName: "Zentrix Infotech",
     images: [
       {

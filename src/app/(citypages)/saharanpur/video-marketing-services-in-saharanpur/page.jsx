@@ -14,13 +14,13 @@ export const metadata = {
     "video marketing services in Saharanpur, video marketing company in Saharanpur, video production agency Saharanpur, corporate video making Saharanpur, product video shooting Saharanpur, promotional video services Saharanpur, YouTube marketing agency Saharanpur, Reels video production Saharanpur, best video marketing company UP, video ads agency Saharanpur, brand video production Saharanpur, video marketing for furniture business Saharanpur, video marketing for ecommerce Saharanpur, animated explainer video services Saharanpur, corporate video shooting company near me",
   alternates: {
     canonical:
-      "https://www.zentrixinfotech.com/saharanpur/video-marketing-services-saharanpur",
+      "https://www.zentrixinfotech.com/saharanpur/video-marketing-services-in-saharanpur",
   },
   openGraph: {
     title: "Video Marketing Services in Saharanpur | Reels & Ads",
     description:
       "Grow your brand with expert video marketing services in Saharanpur. Reels, ads, product & brand videos that convert. Free consultation — call now!",
-    url: "https://www.zentrixinfotech.com/saharanpur/video-marketing-services-saharanpur",
+    url: "https://www.zentrixinfotech.com/saharanpur/video-marketing-services-in-saharanpur",
     siteName: "Zentrix Infotech",
     images: [
       {

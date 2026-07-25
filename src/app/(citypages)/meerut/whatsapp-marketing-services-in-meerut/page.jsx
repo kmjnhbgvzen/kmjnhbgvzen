@@ -14,13 +14,13 @@ export const metadata = {
     "WhatsApp marketing services in Meerut, WhatsApp Business API Meerut, WhatsApp marketing agency UP, WhatsApp chatbot services Meerut, click to WhatsApp ads India, WhatsApp broadcast marketing, Zentrix Infotech Meerut, WhatsApp lead generation services, WhatsApp marketing company UP, business WhatsApp automation Meerut, WhatsApp catalog marketing, digital marketing agency Meerut, WhatsApp CRM integration services, conversational marketing agency, WhatsApp marketing Uttar Pradesh",
   alternates: {
     canonical:
-      "https://www.zentrixinfotech.com/meerut/whatsapp-marketing-services-meerut",
+      "https://www.zentrixinfotech.com/meerut/whatsapp-marketing-services-in-meerut",
   },
   openGraph: {
     title: "WhatsApp Marketing Services in Meerut | Zentrix Infotech",
     description:
       "Grow your business with expert WhatsApp marketing services in Meerut from Zentrix Infotech. Generate leads, automate responses, and boost customer engagement today.",
-    url: "https://www.zentrixinfotech.com/meerut/whatsapp-marketing-services-meerut",
+    url: "https://www.zentrixinfotech.com/meerut/whatsapp-marketing-services-in-meerut",
     siteName: "Zentrix Infotech",
     images: [
       {

@@ -22,7 +22,7 @@ export const metadata = {
     title: "Digital Marketing for Small Business in Bareilly | Zentrix Infotech",
     description:
       "Grow your small business in Bareilly with affordable digital marketing services by Zentrix Infotech. SEO, social media, ads & websites that bring real leads.",
-    url: "https://www.zentrixinfotech.com/bareilly/digital-marketing-for-small-business-bareilly",
+    url: "https://www.zentrixinfotech.com/bareilly/digital-marketing-for-small-business-in-bareilly",
     siteName: "Zentrix Infotech",
     images: [
       {

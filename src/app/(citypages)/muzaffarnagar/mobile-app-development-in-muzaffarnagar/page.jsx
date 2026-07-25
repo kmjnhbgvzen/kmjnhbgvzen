@@ -13,13 +13,13 @@ export const metadata = {
   keywords:
     "mobile app development in muzaffarnagar, mobile app development company muzaffarnagar, android app development muzaffarnagar, ios app development muzaffarnagar, app development agency near me, custom mobile app development company, cross platform app development muzaffarnagar, ecommerce app development muzaffarnagar, best app developers muzaffarnagar, digital marketing agency muzaffarnagar, business app development services, on demand app development india",
   alternates: {
-    canonical: "https://www.zentrixinfotech.com/mobile-app-development-in-muzaffarnagar",
+    canonical: "https://www.zentrixinfotech.com/muzaffarnagar/mobile-app-development-in-muzaffarnagar",
   },
   openGraph: {
     title: "Mobile App Development in Muzaffarnagar | Android & iOS Apps",
     description:
       "Expert Mobile App Development in Muzaffarnagar for Android, iOS & cross-platform apps. Custom, scalable, and affordable app solutions for every business.",
-    url: "https://www.zentrixinfotech.com/mobile-app-development-in-muzaffarnagar",
+    url: "https://www.zentrixinfotech.com/muzaffarnagar/mobile-app-development-in-muzaffarnagar",
     siteName: "Zentrix Infotech",
     images: [
       {

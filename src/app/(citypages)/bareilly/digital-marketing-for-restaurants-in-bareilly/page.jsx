@@ -19,7 +19,7 @@ export const metadata = {
     title: "Digital Marketing for Restaurants in Bareilly | Zentrix Infotech",
     description:
       "Fill more tables with expert digital marketing for restaurants in Bareilly by Zentrix Infotech. SEO, social media & ads that bring hungry customers to you.",
-    url: "https://www.zentrixinfotech.com/bareilly/digital-marketing-for-restaurants-bareilly",
+    url: "https://www.zentrixinfotech.com/bareilly/digital-marketing-for-restaurants-in-bareilly",
     siteName: "Zentrix Infotech",
     images: [
       {

@@ -14,13 +14,13 @@ export const metadata = {
     "app store optimization in Hapur, ASO services Hapur, app store optimization company, mobile app marketing agency Hapur, Google Play optimization services, App Store optimization services near me, app ranking company UP, app download growth services, ASO agency Delhi NCR, app keyword optimization company, mobile app marketing services, app store listing optimization, best ASO agency, app promotion company Hapur, app visibility services",
   alternates: {
     canonical:
-      "https://www.zentrixinfotech.com/hapur/app-store-optimization-hapur",
+      "https://www.zentrixinfotech.com/hapur/app-store-optimization-in-hapur",
   },
   openGraph: {
     title: "App Store Optimization in Hapur | Get More App Downloads",
     description:
       "Looking for app store optimization in Hapur? Zentrix Infotech helps businesses rank higher on app stores and get more organic app downloads.",
-    url: "https://www.zentrixinfotech.com/hapur/app-store-optimization-hapur",
+    url: "https://www.zentrixinfotech.com/hapur/app-store-optimization-in-hapur",
     siteName: "Zentrix Infotech",
     images: [
       {

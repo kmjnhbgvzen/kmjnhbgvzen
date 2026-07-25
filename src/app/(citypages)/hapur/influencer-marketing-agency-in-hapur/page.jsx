@@ -14,13 +14,13 @@ export const metadata = {
     "influencer marketing agency in Hapur, influencer marketing company Hapur, local influencer marketing services, micro influencer agency near me, Instagram influencer marketing company, influencer marketing for small business, influencer marketing agency UP, brand collaboration agency Hapur, social media influencer agency, influencer campaign management company, digital marketing agency Hapur, influencer marketing for e-commerce, influencer marketing strategy company, best influencer agency Delhi NCR, creator marketing agency",
   alternates: {
     canonical:
-      "https://www.zentrixinfotech.com/hapur/influencer-marketing-agency-hapur",
+      "https://www.zentrixinfotech.com/hapur/influencer-marketing-agency-in-hapur",
   },
   openGraph: {
     title: "Influencer Marketing Agency in Hapur | Local Creator Campaigns",
     description:
       "Looking for an influencer marketing agency in Hapur? Zentrix Infotech connects brands with the right creators to boost trust, reach & sales.",
-    url: "https://www.zentrixinfotech.com/hapur/influencer-marketing-agency-hapur",
+    url: "https://www.zentrixinfotech.com/hapur/influencer-marketing-agency-in-hapur",
     siteName: "Zentrix Infotech",
     images: [
       {

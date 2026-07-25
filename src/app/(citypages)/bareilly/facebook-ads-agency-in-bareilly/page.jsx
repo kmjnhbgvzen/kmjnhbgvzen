@@ -21,7 +21,7 @@ export const metadata = {
     title: "Facebook Ads Agency in Bareilly | Zentrix Infotech",
     description:
       "Get more leads with expert Facebook Ads services in Bareilly by Zentrix Infotech. Targeted campaigns, better ROI & real business growth for local brands.",
-    url: "https://www.zentrixinfotech.com/bareilly/facebook-ads-agency-bareilly",
+    url: "https://www.zentrixinfotech.com/bareilly/facebook-ads-agency-in-bareilly",
     siteName: "Zentrix Infotech",
     images: [
       {

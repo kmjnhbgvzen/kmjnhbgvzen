@@ -13,13 +13,13 @@ export const metadata = {
   keywords:
     "digital marketing for manufacturers in Muzaffarnagar, manufacturing marketing agency Muzaffarnagar, industrial digital marketing Muzaffarnagar, B2B marketing company Muzaffarnagar, manufacturer website design Muzaffarnagar, paper industry marketing Muzaffarnagar, timber industry digital marketing Muzaffarnagar, manufacturer SEO services Muzaffarnagar, industrial lead generation Muzaffarnagar, digital marketing agency Muzaffarnagar, affordable manufacturing marketing Muzaffarnagar",
   alternates: {
-    canonical: "https://www.zentrixinfotech.com/digital-marketing-for-manufacturers-in-muzaffarnagar",
+    canonical: "https://www.zentrixinfotech.com/muzaffarnagar/digital-marketing-for-manufacturers-in-muzaffarnagar",
   },
   openGraph: {
     title: "Digital Marketing for Manufacturers in Muzaffarnagar | Zentrix Infotech",
     description:
       "Zentrix Infotech offers specialised digital marketing for manufacturers in Muzaffarnagar including SEO, B2B branding, Google Ads & website design to boost trade inquiries. Get a free quote today.",
-    url: "https://www.zentrixinfotech.com/digital-marketing-for-manufacturers-in-muzaffarnagar",
+    url: "https://www.zentrixinfotech.com/muzaffarnagar/digital-marketing-for-manufacturers-in-muzaffarnagar",
     siteName: "Zentrix Infotech",
     images: [
       {

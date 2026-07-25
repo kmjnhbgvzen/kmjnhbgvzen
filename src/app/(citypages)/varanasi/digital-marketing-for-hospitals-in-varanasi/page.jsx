@@ -14,13 +14,13 @@ export const metadata = {
     "digital marketing for hospitals in varanasi, hospital marketing agency varanasi, hospital SEO varanasi, healthcare digital marketing varanasi, hospital website design varanasi, google my business for hospitals, hospital ads varanasi, increase patient footfall varanasi, best digital marketing company for hospitals, local SEO for healthcare, hospital social media marketing, clinic marketing varanasi, hospital online reputation management, doctor appointment booking marketing",
   alternates: {
     canonical:
-      "https://www.zentrixinfotech.com/varanasi/digital-marketing-for-hospitals-varanasi",
+      "https://www.zentrixinfotech.com/varanasi/digital-marketing-for-hospitals-in-varanasi",
   },
   openGraph: {
     title: "Digital Marketing for Hospitals in Varanasi | More Patient Enquiries",
     description:
       "Grow your Varanasi hospital with expert digital marketing — SEO, Google Maps, social media & ads that bring more patient enquiries and appointments.",
-    url: "https://www.zentrixinfotech.com/varanasi/digital-marketing-for-hospitals-varanasi",
+    url: "https://www.zentrixinfotech.com/varanasi/digital-marketing-for-hospitals-in-varanasi",
     siteName: "Zentrix Infotech",
     images: [
       {

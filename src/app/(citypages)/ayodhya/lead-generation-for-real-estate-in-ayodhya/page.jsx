@@ -20,7 +20,7 @@ export const metadata = {
     title: "Lead Generation for Real Estate in Ayodhya - Zentrix Infotech",
     description:
       "Get more qualified buyer leads with expert lead generation for real estate in Ayodhya. Zentrix Infotech offers SEO, PPC, and landing page services. Get a free consultation today.",
-    url: "https://www.zentrixinfotech.com/ayodhya/real-estate-lead-generation-ayodhya",
+    url: "https://www.zentrixinfotech.com/ayodhya/lead-generation-for-real-estate-in-ayodhya",
     siteName: "Zentrix Infotech",
     images: [
       {

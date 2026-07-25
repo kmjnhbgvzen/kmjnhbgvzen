@@ -13,13 +13,13 @@ export const metadata = {
   keywords:
     "digital marketing for sugarcane industry in Muzaffarnagar, sugar mill marketing agency Muzaffarnagar, sugarcane business digital marketing Muzaffarnagar, jaggery gur marketing company Muzaffarnagar, sugar mill website design Muzaffarnagar, B2B marketing agency Muzaffarnagar, agro industry digital marketing Muzaffarnagar, sugarcane trade lead generation Muzaffarnagar, digital marketing agency Muzaffarnagar, affordable industrial marketing Muzaffarnagar",
   alternates: {
-    canonical: "https://www.zentrixinfotech.com/digital-marketing-for-sugarcane-industry-in-muzaffarnagar",
+    canonical: "https://www.zentrixinfotech.com/muzaffarnagar/digital-marketing-for-sugarcane-industry-in-muzaffarnagar",
   },
   openGraph: {
     title: "Digital Marketing for Sugarcane Industry in Muzaffarnagar | Zentrix Infotech",
     description:
       "Zentrix Infotech offers specialised digital marketing for the sugarcane industry in Muzaffarnagar including SEO, B2B branding & website design to boost trade inquiries. Get a free quote today.",
-    url: "https://www.zentrixinfotech.com/digital-marketing-for-sugarcane-industry-in-muzaffarnagar",
+    url: "https://www.zentrixinfotech.com/muzaffarnagar/digital-marketing-for-sugarcane-industry-in-muzaffarnagar",
     siteName: "Zentrix Infotech",
     images: [
       {

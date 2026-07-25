@@ -19,7 +19,7 @@ export const metadata = {
     title: "Digital Marketing for Exporters in Bareilly | Zentrix Infotech",
     description:
       "Grow your export business in Bareilly with expert digital marketing, SEO, and international lead generation strategies from Zentrix Infotech. Get more global buyer inquiries today.",
-    url: "https://www.zentrixinfotech.com/bareilly/digital-marketing-for-exporters-bareilly",
+    url: "https://www.zentrixinfotech.com/bareilly/digital-marketing-for-exporters-in-bareilly",
     siteName: "Zentrix Infotech",
     images: [
       {

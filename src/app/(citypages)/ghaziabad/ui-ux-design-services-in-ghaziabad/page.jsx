@@ -14,13 +14,13 @@ export const metadata = {
     "UI/UX design services in Ghaziabad, UI UX design company Ghaziabad, user interface design Ghaziabad, user experience design Ghaziabad, web app UI design Ghaziabad, mobile app UI UX design Ghaziabad, product design agency Ghaziabad, wireframing and prototyping Ghaziabad, best UI UX design company Ghaziabad, UI UX designers near me, website redesign services Ghaziabad, UX research services Ghaziabad",
   alternates: {
     canonical:
-      "https://www.zentrixinfotech.com/ghaziabad/ui-ux-design-services-ghaziabad",
+      "https://www.zentrixinfotech.com/ghaziabad/ui-ux-design-services-in-ghaziabad",
   },
   openGraph: {
     title: "UI/UX Design Services in Ghaziabad | Zentrix Infotech",
     description:
       "Professional UI/UX design services in Ghaziabad for websites, mobile apps, and software products. User-centered design that boosts engagement and conversions. Get a free consultation.",
-    url: "https://www.zentrixinfotech.com/ghaziabad/ui-ux-design-services-ghaziabad",
+    url: "https://www.zentrixinfotech.com/ghaziabad/ui-ux-design-services-in-ghaziabad",
     siteName: "Zentrix Infotech",
     images: [
       {

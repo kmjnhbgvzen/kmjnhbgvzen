@@ -14,13 +14,13 @@ export const metadata = {
     "digital marketing for coaching institutes in varanasi, coaching institute marketing agency varanasi, coaching center SEO varanasi, education marketing varanasi, coaching institute website design, google my business for coaching institutes, coaching institute ads varanasi, increase admissions varanasi, best digital marketing company for coaching institutes, local SEO for education, coaching institute social media marketing, NEET JEE coaching marketing varanasi, coaching institute lead generation, coaching institute online reputation management",
   alternates: {
     canonical:
-      "https://www.zentrixinfotech.com/varanasi/digital-marketing-for-coaching-institutes-varanasi",
+      "https://www.zentrixinfotech.com/varanasi/digital-marketing-for-coaching-institutes-in-varanasi",
   },
   openGraph: {
     title: "Digital Marketing for Coaching Institutes in Varanasi | More Admissions",
     description:
       "Grow your Varanasi coaching institute with expert digital marketing — SEO, Google Maps, social media & ads that bring more student enquiries and admissions.",
-    url: "https://www.zentrixinfotech.com/varanasi/digital-marketing-for-coaching-institutes-varanasi",
+    url: "https://www.zentrixinfotech.com/varanasi/digital-marketing-for-coaching-institutes-in-varanasi",
     siteName: "Zentrix Infotech",
     images: [
       {

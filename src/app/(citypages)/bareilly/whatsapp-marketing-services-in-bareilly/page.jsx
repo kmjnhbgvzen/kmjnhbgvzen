@@ -15,14 +15,14 @@ export const metadata = {
 
   alternates: {
     canonical:
-      "https://www.zentrixinfotech.com/bareilly/whatsapp-marketing-services-bareilly",
+      "https://www.zentrixinfotech.com/bareilly/whatsapp-marketing-services-in-bareilly",
   },
 
   openGraph: {
     title: "WhatsApp Marketing Services in Bareilly | Get More Leads & Sales",
     description:
       "Grow your business in Bareilly with expert WhatsApp marketing — bulk campaigns, automation, catalogue sharing and instant customer engagement that drives real sales.",
-    url: "https://www.zentrixinfotech.com/bareilly/whatsapp-marketing-services-bareilly",
+    url: "https://www.zentrixinfotech.com/bareilly/whatsapp-marketing-services-in-bareilly",
     siteName: "Zentrix Infotech",
     images: [
       {

@@ -13,13 +13,13 @@ export const metadata = {
   keywords:
     "instagram marketing agency in muzaffarnagar, instagram marketing services muzaffarnagar, instagram ads agency muzaffarnagar, instagram growth agency near me, social media marketing company muzaffarnagar, instagram reels marketing services, best instagram marketing company muzaffarnagar, instagram page management services, digital marketing agency muzaffarnagar, instagram marketing for small business, content creation agency muzaffarnagar, social media growth services india",
   alternates: {
-    canonical: "https://www.zentrixinfotech.com/instagram-marketing-agency-in-muzaffarnagar",
+    canonical: "https://www.zentrixinfotech.com/muzaffarnagar/instagram-marketing-agency-in-muzaffarnagar",
   },
   openGraph: {
     title: "Instagram Marketing Agency in Muzaffarnagar | Grow Followers & Sales",
     description:
       "Trusted Instagram Marketing Agency in Muzaffarnagar offering reels, ads, content strategy & growth management to boost engagement, leads, and sales.",
-    url: "https://www.zentrixinfotech.com/instagram-marketing-agency-in-muzaffarnagar",
+    url: "https://www.zentrixinfotech.com/muzaffarnagar/instagram-marketing-agency-in-muzaffarnagar",
     siteName: "Zentrix Infotech",
     images: [
       {

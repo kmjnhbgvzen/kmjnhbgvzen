@@ -13,13 +13,13 @@ export const metadata = {
   keywords:
     "app store optimization in Muzaffarnagar, ASO services Muzaffarnagar, app marketing agency Muzaffarnagar, Google Play optimization Muzaffarnagar, app ranking services Muzaffarnagar, mobile app marketing company Muzaffarnagar, app download growth Muzaffarnagar, App Store SEO Muzaffarnagar, mobile app development company Muzaffarnagar, digital marketing agency Muzaffarnagar, affordable ASO services Muzaffarnagar",
   alternates: {
-    canonical: "https://www.zentrixinfotech.com/app-store-optimization-in-muzaffarnagar",
+    canonical: "https://www.zentrixinfotech.com/muzaffarnagar/app-store-optimization-in-muzaffarnagar",
   },
   openGraph: {
     title: "App Store Optimization Services in Muzaffarnagar | Zentrix Infotech",
     description:
       "Zentrix Infotech offers expert App Store Optimization (ASO) services in Muzaffarnagar to boost app rankings, downloads & visibility on Google Play and App Store. Get a free quote today.",
-    url: "https://www.zentrixinfotech.com/app-store-optimization-in-muzaffarnagar",
+    url: "https://www.zentrixinfotech.com/muzaffarnagar/app-store-optimization-in-muzaffarnagar",
     siteName: "Zentrix Infotech",
     images: [
       {

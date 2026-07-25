@@ -14,13 +14,13 @@ export const metadata = {
     "digital marketing for tour operators in varanasi, tour operator marketing agency varanasi, varanasi tour package SEO, travel agency digital marketing varanasi, boat ride booking marketing varanasi, ganga aarti tour marketing, varanasi sightseeing tour ads, tour operator website design, local SEO for travel agents, increase tour bookings varanasi, best digital marketing company for tour operators, tourism marketing varanasi, travel agency social media marketing, google ads for tour operators",
   alternates: {
     canonical:
-      "https://www.zentrixinfotech.com/varanasi/digital-marketing-for-tour-operators-varanasi",
+      "https://www.zentrixinfotech.com/varanasi/digital-marketing-for-tour-operators-in-varanasi",
   },
   openGraph: {
     title: "Digital Marketing for Tour Operators in Varanasi | More Bookings",
     description:
       "Grow your Varanasi tour business with expert digital marketing — SEO, Google Maps, social media & ads that bring more direct tour and package bookings.",
-    url: "https://www.zentrixinfotech.com/varanasi/digital-marketing-for-tour-operators-varanasi",
+    url: "https://www.zentrixinfotech.com/varanasi/digital-marketing-for-tour-operators-in-varanasi",
     siteName: "Zentrix Infotech",
     images: [
       {

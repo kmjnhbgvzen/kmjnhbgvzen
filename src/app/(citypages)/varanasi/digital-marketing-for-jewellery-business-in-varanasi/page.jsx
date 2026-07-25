@@ -14,13 +14,13 @@ export const metadata = {
     "digital marketing for jewellery business in varanasi, jewellery marketing agency varanasi, jewellery shop SEO varanasi, jewellery ecommerce marketing varanasi, gold jewellery digital marketing, google my business for jewellery shops, jewellery ads varanasi, increase jewellery sales varanasi, best digital marketing company for jewellery, local SEO for jewellery shops, jewellery social media marketing, bridal jewellery marketing varanasi, jewellery brand reputation management, jewellery store lead generation",
   alternates: {
     canonical:
-      "https://www.zentrixinfotech.com/varanasi/digital-marketing-for-jewellery-varanasi",
+      "https://www.zentrixinfotech.com/varanasi/digital-marketing-for-jewellery-business-in-varanasi",
   },
   openGraph: {
     title: "Digital Marketing for Jewellery Business in Varanasi | More Buyers",
     description:
       "Grow your Varanasi jewellery business with expert digital marketing — SEO, Google Maps, social media & ads that bring more genuine online and store buyers.",
-    url: "https://www.zentrixinfotech.com/varanasi/digital-marketing-for-jewellery-varanasi",
+    url: "https://www.zentrixinfotech.com/varanasi/digital-marketing-for-jewellery-business-in-varanasi",
     siteName: "Zentrix Infotech",
     images: [
       {

@@ -14,13 +14,13 @@ export const metadata = {
     "branding agency in Hapur, branding company in Hapur, brand identity design Hapur, logo design agency Hapur, best branding agency near me, digital branding services Hapur, brand strategy company UP, graphic design agency Hapur, packaging design company Hapur, business branding solutions Hapur, top branding agency Uttar Pradesh, corporate branding services Hapur, startup branding agency, social media branding company Hapur, website and branding agency Hapur",
   alternates: {
     canonical:
-      "https://www.zentrixinfotech.com/hapur/branding-agency-hapur",
+      "https://www.zentrixinfotech.com/hapur/branding-agency-in-hapur",
   },
   openGraph: {
     title: "Branding Agency in Hapur | Best Brand Identity & Logo Design Company",
     description:
       "Looking for a trusted branding agency in Hapur? Zentrix Infotech offers logo design, brand identity, packaging & digital branding services to grow your business locally and online.",
-    url: "https://www.zentrixinfotech.com/hapur/branding-agency-hapur",
+    url: "https://www.zentrixinfotech.com/hapur/branding-agency-in-hapur",
     siteName: "Zentrix Infotech",
     images: [
       {

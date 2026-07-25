@@ -14,10 +14,10 @@ export const metadata = {
     "social media marketing agency in Muzaffarnagar, social media marketing company Muzaffarnagar, Instagram marketing Muzaffarnagar, Facebook ads agency Muzaffarnagar, social media management Muzaffarnagar, digital marketing agency Muzaffarnagar, best SMM agency Muzaffarnagar",
   alternates: {
     canonical:
-      "https://www.zentrixinfotech.com/cities/muzaffarnagar/social-media-marketing-agency-in-muzaffarnagar",
+      "https://www.zentrixinfotech.com/muzaffarnagar/social-media-marketing-agency-in-muzaffarnagar",
   },
   openGraph: {
-    title: "Social Media Marketing Agency in Muzaffarnagar | Grow Your Brand Online",
+    title: "Social Media Marketing Agency in Muzaffarnagar",
     description:
       "Hire a social media marketing agency in Muzaffarnagar for strategy, content, ads & management on Instagram, Facebook & more to grow leads and sales.",
     url: "https://www.zentrixinfotech.com/muzaffarnagar/social-media-marketing-agency-in-muzaffarnagar",

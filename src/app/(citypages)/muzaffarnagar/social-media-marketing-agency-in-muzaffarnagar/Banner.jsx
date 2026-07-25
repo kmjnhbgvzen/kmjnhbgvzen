@@ -21,7 +21,7 @@ export default function BillingSoftwareForRetail() {
           
           {/* Heading */}
           <h1 className="text-3xl md:text-4xl font-serif mb-4 mt-18 md:mt-30">
-Social Media Marketing Agency in Saharanpur
+Social Media Marketing Agency in Muzaffarnagar
           </h1>
 
           {/* Subheading */}

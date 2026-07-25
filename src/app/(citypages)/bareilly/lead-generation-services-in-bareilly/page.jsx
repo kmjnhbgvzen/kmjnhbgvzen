@@ -22,7 +22,7 @@ export const metadata = {
     title: "Lead Generation Services in Bareilly | Get Quality Sales Leads",
     description:
       "Grow your business in Bareilly with expert lead generation services — SEO, Google Ads, social media and WhatsApp campaigns that deliver real, sales-ready enquiries.",
-    url: "https://www.zentrixinfotech.com/bareilly/lead-generation-services-bareilly",
+    url: "https://www.zentrixinfotech.com/bareilly/lead-generation-services-in-bareilly",
     siteName: "Zentrix Infotech",
     images: [
       {

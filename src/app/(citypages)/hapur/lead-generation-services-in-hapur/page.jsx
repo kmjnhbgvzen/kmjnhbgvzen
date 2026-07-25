@@ -14,13 +14,13 @@ export const metadata = {
     "lead generation services in Hapur, lead generation company Hapur, digital marketing agency Hapur, local lead generation services, best lead generation company near me, B2B lead generation Hapur, B2C lead generation services, Google ads lead generation Hapur, Facebook ads lead generation, SEO lead generation company, real estate lead generation Hapur, healthcare lead generation services, lead generation for small business, online lead generation agency UP, sales enquiry generation company Hapur",
   alternates: {
     canonical:
-      "https://www.zentrixinfotech.com/hapur/lead-generation-services-hapur",
+      "https://www.zentrixinfotech.com/hapur/lead-generation-services-in-hapur",
   },
   openGraph: {
     title: "Lead Generation Services in Hapur | Get Quality Leads for Your Business",
     description:
       "Looking for lead generation services in Hapur? Zentrix Infotech helps local businesses get more calls, enquiries & sales through SEO, ads & digital marketing.",
-    url: "https://www.zentrixinfotech.com/hapur/lead-generation-services-hapur",
+    url: "https://www.zentrixinfotech.com/hapur/lead-generation-services-in-hapur",
     siteName: "Zentrix Infotech",
     images: [
       {

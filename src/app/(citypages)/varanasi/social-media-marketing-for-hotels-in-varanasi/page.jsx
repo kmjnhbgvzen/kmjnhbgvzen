@@ -14,13 +14,13 @@ export const metadata = {
     "social media marketing for hotels in Varanasi, hotel social media agency Varanasi, Instagram marketing for hotels Varanasi, hotel Reels marketing Varanasi, hospitality social media company UP, hotel Facebook ads Varanasi, hotel branding social media Varanasi, travel content marketing Varanasi, hotel Instagram growth Varanasi",
   alternates: {
     canonical:
-      "https://www.zentrixinfotech.com/varanasi/social-media-marketing-for-hotels-varanasi",
+      "https://www.zentrixinfotech.com/varanasi/social-media-marketing-for-hotels-in-varanasi",
   },
   openGraph: {
     title: "Social Media Marketing for Hotels in Varanasi | Boost Stays",
     description:
       "Social media marketing for hotels in Varanasi — Instagram, Facebook & Reels strategies that build trust and drive direct bookings. Free profile audit.",
-    url: "https://www.zentrixinfotech.com/varanasi/social-media-marketing-for-hotels-varanasi",
+    url: "https://www.zentrixinfotech.com/varanasi/social-media-marketing-for-hotels-in-varanasi",
     siteName: "Zentrix Infotech",
     images: [
       {

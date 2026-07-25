@@ -13,13 +13,13 @@ export const metadata = {
   keywords:
     "email marketing services in muzaffarnagar, email marketing agency muzaffarnagar, bulk email marketing muzaffarnagar, email automation services company, newsletter marketing agency near me, ecommerce email marketing muzaffarnagar, best email marketing company muzaffarnagar, email campaign management services, digital marketing agency muzaffarnagar, b2b email marketing india, drip campaign marketing services, email marketing for small business",
   alternates: {
-    canonical: "https://www.zentrixinfotech.com/email-marketing-services-in-muzaffarnagar",
+    canonical: "https://www.zentrixinfotech.com/muzaffarnagar/email-marketing-services-in-muzaffarnagar",
   },
   openGraph: {
     title: "Email Marketing Services in Muzaffarnagar | Boost Sales & Retention",
     description:
       "Affordable Email Marketing Services in Muzaffarnagar with automation, newsletters & campaigns designed to increase leads, sales, and customer loyalty.",
-    url: "https://www.zentrixinfotech.com/email-marketing-services-in-muzaffarnagar",
+    url: "https://www.zentrixinfotech.com/muzaffarnagar/email-marketing-services-in-muzaffarnagar",
     siteName: "Zentrix Infotech",
     images: [
       {

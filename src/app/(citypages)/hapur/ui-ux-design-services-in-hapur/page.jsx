@@ -14,13 +14,13 @@ export const metadata = {
     "UI UX design services in Hapur, UI UX design company Hapur, website design services Hapur, app design company Hapur, user interface design agency, user experience design company, best UI UX designers near me, mobile app UI design Hapur, website UI design company, product design agency UP, wireframe and prototype design, e-commerce UI design services, custom UI UX design company, UX research agency, UI UX design agency Delhi NCR",
   alternates: {
     canonical:
-      "https://www.zentrixinfotech.com/hapur/ui-ux-design-services-hapur",
+      "https://www.zentrixinfotech.com/hapur/ui-ux-design-services-in-hapur",
   },
   openGraph: {
     title: "UI/UX Design Services in Hapur | Website & App Design Company",
     description:
       "Looking for UI/UX design services in Hapur? Zentrix Infotech creates user-friendly website & app designs that boost engagement and conversions.",
-    url: "https://www.zentrixinfotech.com/hapur/ui-ux-design-services-hapur",
+    url: "https://www.zentrixinfotech.com/hapur/ui-ux-design-services-in-hapur",
     siteName: "Zentrix Infotech",
     images: [
       {

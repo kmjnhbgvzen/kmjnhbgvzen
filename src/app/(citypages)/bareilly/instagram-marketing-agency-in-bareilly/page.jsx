@@ -21,7 +21,7 @@ export const metadata = {
     title: "Instagram Marketing Agency in Bareilly | Zentrix Infotech",
     description:
       "Grow your brand with a trusted Instagram marketing agency in Bareilly. Zentrix Infotech creates content, ads & strategies that turn followers into customers.",
-    url: "https://www.zentrixinfotech.com/bareilly/instagram-marketing-agency-bareilly",
+    url: "https://www.zentrixinfotech.com/bareilly/instagram-marketing-agency-in-bareilly",
     siteName: "Zentrix Infotech",
     images: [
       {

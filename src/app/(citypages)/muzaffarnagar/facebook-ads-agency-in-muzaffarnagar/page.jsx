@@ -13,13 +13,13 @@ export const metadata = {
   keywords:
     "Facebook ads agency in Muzaffarnagar, Facebook advertising services Muzaffarnagar, FB ads company Muzaffarnagar, social media marketing Muzaffarnagar, Facebook marketing agency near me, Facebook ads expert Muzaffarnagar, digital marketing agency Muzaffarnagar, Facebook lead generation Muzaffarnagar, best Facebook ads company UP, local business Facebook ads",
   alternates: {
-    canonical: "https://www.zentrixinfotech.com/facebook-ads-agency-in-muzaffarnagar",
+    canonical: "https://www.zentrixinfotech.com/muzaffarnagar/facebook-ads-agency-in-muzaffarnagar",
   },
   openGraph: {
     title: "Facebook Ads Agency in Muzaffarnagar | Best FB Ads Services",
     description:
       "Looking for a Facebook Ads Agency in Muzaffarnagar? Get expert Facebook advertising, lead generation & ROI-driven campaigns for local businesses. Call now!",
-    url: "https://www.zentrixinfotech.com/facebook-ads-agency-in-muzaffarnagar",
+    url: "https://www.zentrixinfotech.com/muzaffarnagar/facebook-ads-agency-in-muzaffarnagar",
     siteName: "Zentrix Infotech",
     images: [
       {

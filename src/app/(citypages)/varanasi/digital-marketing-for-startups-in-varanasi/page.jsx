@@ -14,13 +14,13 @@ export const metadata = {
     "digital marketing for startups in Varanasi, startup marketing agency Varanasi, digital marketing company Varanasi, SEO for startups Varanasi, social media marketing Varanasi, branding for startups Varanasi, online marketing for new businesses Varanasi, startup growth agency Varanasi, performance marketing Varanasi, digital marketing services for small business Varanasi",
   alternates: {
     canonical:
-      "https://www.zentrixinfotech.com/varanasi/digital-marketing-for-startups-varanasi",
+      "https://www.zentrixinfotech.com/varanasi/digital-marketing-for-startups-in-varanasi",
   },
   openGraph: {
     title: "Digital Marketing for Startups in Varanasi | Zentrix Infotech",
     description:
       "Launch and grow your startup in Varanasi with result-driven digital marketing from Zentrix Infotech. SEO, social media, and paid ads built to generate real customers.",
-    url: "https://www.zentrixinfotech.com/varanasi/digital-marketing-for-startups-varanasi",
+    url: "https://www.zentrixinfotech.com/varanasi/digital-marketing-for-startups-in-varanasi",
     siteName: "Zentrix Infotech",
     images: [
       {

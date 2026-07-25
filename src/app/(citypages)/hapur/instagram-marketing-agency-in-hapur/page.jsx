@@ -14,13 +14,13 @@ export const metadata = {
     "Instagram marketing agency in Hapur, Instagram marketing company Hapur, social media marketing agency Hapur, Instagram ads agency, Instagram growth services near me, Instagram reels marketing company, social media management agency UP, Instagram marketing for small business, e-commerce Instagram marketing services, Instagram page management company, influencer marketing agency Hapur, Instagram content creation agency, best social media agency Delhi NCR, Instagram marketing strategy company, digital marketing agency Hapur",
   alternates: {
     canonical:
-      "https://www.zentrixinfotech.com/hapur/instagram-marketing-agency-hapur",
+      "https://www.zentrixinfotech.com/hapur/instagram-marketing-agency-in-hapur",
   },
   openGraph: {
     title: "Instagram Marketing Agency in Hapur | Grow Followers & Sales",
     description:
       "Looking for an Instagram marketing agency in Hapur? Zentrix Infotech creates content, ads & strategy that grow followers, engagement, and real sales.",
-    url: "https://www.zentrixinfotech.com/hapur/instagram-marketing-agency-hapur",
+    url: "https://www.zentrixinfotech.com/hapur/instagram-marketing-agency-in-hapur",
     siteName: "Zentrix Infotech",
     images: [
       {

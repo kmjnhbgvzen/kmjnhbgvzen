@@ -7,19 +7,20 @@ import Portfolio from "@/components/Portfolio";
 import LandingServices from "@/components/LandingServices";
 
 export const metadata = {
-  title: "E-commerce Marketing Services in Hapur | Boost Online Sales & Traffic",
+  title: "Digital Marketing Agency in Muzaffarnagar | Zentrix Infotech",
   description:
-    "Looking for e-commerce marketing services in Hapur? Grow your online store with expert SEO, PPC, social media, and conversion optimization strategies.",
+    "Looking for a trusted digital marketing agency in Muzaffarnagar? Zentrix Infotech offers SEO, social media, web development & ad campaigns for real growth.",
   keywords:
-    "ecommerce marketing services in Hapur, ecommerce marketing agency Hapur, online store marketing Hapur, ecommerce SEO Hapur, ecommerce PPC Hapur, digital marketing for online stores Hapur",
+    "digital marketing agency in muzaffarnagar, digital marketing company muzaffarnagar, seo services muzaffarnagar, social media marketing agency muzaffarnagar, best digital marketing agency near me, online marketing company muzaffarnagar, web development company muzaffarnagar, affordable digital marketing services up, digital marketing experts muzaffarnagar, ppc and ads agency muzaffarnagar",
   alternates: {
-    canonical: "https://www.zentrixinfotech.com/cities/hapur/e-commerce-marketing-services-in-hapur",
+    canonical:
+      "https://www.zentrixinfotech.com/muzaffarnagar/digital-marketing-agency-in-muzaffarnagar",
   },
   openGraph: {
-    title: "E-commerce Marketing Services in Hapur | Boost Online Sales & Traffic",
+    title: "Digital Marketing Agency in Muzaffarnagar | Zentrix Infotech",
     description:
-      "Looking for e-commerce marketing services in Hapur? Grow your online store with expert SEO, PPC, social media, and conversion optimization strategies.",
-    url: "https://www.zentrixinfotech.com/hapur/e-commerce-marketing-services-in-hapur",
+      "Looking for a trusted digital marketing agency in Muzaffarnagar? Zentrix Infotech offers SEO, social media, web development & ad campaigns for real growth.",
+    url: "https://www.zentrixinfotech.com/muzaffarnagar/digital-marketing-agency-in-muzaffarnagar",
     siteName: "Zentrix Infotech",
     images: [
       {
@@ -34,9 +35,9 @@ export const metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "E-commerce Marketing Services in Hapur | Boost Online Sales & Traffic",
+    title: "Digital Marketing Agency in Muzaffarnagar | Zentrix Infotech",
     description:
-      "Looking for e-commerce marketing services in Hapur? Grow your online store with expert SEO, PPC, social media, and conversion optimization strategies.",
+      "Looking for a trusted digital marketing agency in Muzaffarnagar? Zentrix Infotech offers SEO, social media, web development & ad campaigns for real growth.",
     images: ["https://www.zentrixinfotech.com/zentrix_logo.jpg"],
   },
   icons: {

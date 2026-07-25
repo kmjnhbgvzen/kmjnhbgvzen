@@ -19,7 +19,7 @@ export const metadata = {
     title: "Best Digital Marketing Agency in Bareilly | Grow Online",
     description:
       "Looking for a trusted digital marketing agency in Bareilly? We offer SEO, PPC, social media & web design services that deliver real, measurable growth.",
-    url: "https://www.zentrixinfotech.com/bareilly/digital-marketing-agency-in-bareilly",
+    url: "https://www.zentrixinfotech.com/bareilly/best-digital-marketing-company-in-bareilly",
     siteName: "Zentrix Infotech",
     images: [
       {

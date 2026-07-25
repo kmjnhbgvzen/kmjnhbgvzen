@@ -14,13 +14,13 @@ export const metadata = {
     "digital marketing for coaching institutes in Ghaziabad, coaching institute marketing agency Ghaziabad, coaching centre digital marketing Ghaziabad, coaching institute SEO Ghaziabad, student admission marketing Ghaziabad, best digital marketing company for coaching institutes Ghaziabad, coaching institute website design Ghaziabad, education marketing services near me, coaching centre lead generation Ghaziabad, competitive exam coaching marketing Ghaziabad, coaching institute branding agency Ghaziabad, tuition centre marketing Ghaziabad",
   alternates: {
     canonical:
-      "https://www.zentrixinfotech.com/ghaziabad/digital-marketing-coaching-institutes-ghaziabad",
+      "https://www.zentrixinfotech.com/ghaziabad/digital-marketing-for-coaching-institutes-in-ghaziabad",
   },
   openGraph: {
     title: "Digital Marketing for Coaching Institutes in Ghaziabad | Zentrix Infotech",
     description:
       "Result-driven digital marketing for coaching institutes in Ghaziabad to boost student admissions, batch enrollments, and online visibility. Get a free consultation.",
-    url: "https://www.zentrixinfotech.com/ghaziabad/digital-marketing-coaching-institutes-ghaziabad",
+    url: "https://www.zentrixinfotech.com/ghaziabad/digital-marketing-for-coaching-institutes-in-ghaziabad",
     siteName: "Zentrix Infotech",
     images: [
       {

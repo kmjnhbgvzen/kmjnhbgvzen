@@ -14,13 +14,13 @@ export const metadata = {
     "Facebook Ads agency in Ghaziabad, Facebook advertising company Ghaziabad, Facebook Ads management Ghaziabad, social media advertising agency Ghaziabad, Meta Ads agency Ghaziabad, Facebook marketing services Ghaziabad, best Facebook Ads company Ghaziabad, Instagram Facebook Ads agency Ghaziabad, Facebook Ads agency near me, lead generation Facebook Ads Ghaziabad, ecommerce Facebook Ads Ghaziabad, local business Facebook Ads Ghaziabad",
   alternates: {
     canonical:
-      "https://www.zentrixinfotech.com/ghaziabad/facebook-ads-agency-ghaziabad",
+      "https://www.zentrixinfotech.com/ghaziabad/facebook-ads-agency-in-ghaziabad",
   },
   openGraph: {
     title: "Facebook Ads Agency in Ghaziabad | Zentrix Infotech",
     description:
       "Trusted Facebook Ads agency in Ghaziabad delivering targeted campaigns, lower ad costs, and higher conversions for local businesses. Get a free strategy call.",
-    url: "https://www.zentrixinfotech.com/ghaziabad/facebook-ads-agency-ghaziabad",
+    url: "https://www.zentrixinfotech.com/ghaziabad/facebook-ads-agency-in-ghaziabad",
     siteName: "Zentrix Infotech",
     images: [
       {

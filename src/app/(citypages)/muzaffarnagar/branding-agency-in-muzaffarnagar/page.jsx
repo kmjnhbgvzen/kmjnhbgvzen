@@ -13,13 +13,13 @@ export const metadata = {
   keywords:
     "branding agency in muzaffarnagar, branding company muzaffarnagar, logo design agency muzaffarnagar, brand identity design muzaffarnagar, best branding agency near me, corporate branding services muzaffarnagar, graphic design company muzaffarnagar, brand strategy agency muzaffarnagar, packaging design services muzaffarnagar, digital marketing agency muzaffarnagar, business branding services india, startup branding agency",
   alternates: {
-    canonical: "https://www.zentrixinfotech.com/branding-agency-in-muzaffarnagar",
+    canonical: "https://www.zentrixinfotech.com/muzaffarnagar/branding-agency-in-muzaffarnagar",
   },
   openGraph: {
     title: "Branding Agency in Muzaffarnagar | Logo, Identity & Brand Strategy",
     description:
       "Trusted Branding Agency in Muzaffarnagar offering logo design, brand identity, packaging & strategy to help your business stand out and grow locally.",
-    url: "https://www.zentrixinfotech.com/branding-agency-in-muzaffarnagar",
+    url: "https://www.zentrixinfotech.com/muzaffarnagar/branding-agency-in-muzaffarnagar",
     siteName: "Zentrix Infotech",
     images: [
       {

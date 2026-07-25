@@ -14,13 +14,13 @@ export const metadata = {
     "Instagram marketing agency in Saharanpur, Instagram marketing services Saharanpur, Instagram ads agency Saharanpur, social media marketing company Saharanpur, Instagram Reels marketing agency, Instagram page management Saharanpur, best Instagram marketing agency UP, Instagram marketing for small business Saharanpur, Instagram growth agency near me, Instagram influencer marketing Saharanpur, Instagram marketing for ecommerce Saharanpur, social media marketing for furniture business Saharanpur, Instagram marketing for restaurants Saharanpur, affordable Instagram marketing services Saharanpur, Instagram content creation agency Saharanpur",
   alternates: {
     canonical:
-      "https://www.zentrixinfotech.com/saharanpur/instagram-marketing-agency-saharanpur",
+      "https://www.zentrixinfotech.com/saharanpur/instagram-marketing-agency-in-saharanpur",
   },
   openGraph: {
     title: "Instagram Marketing Agency in Saharanpur | Grow & Convert",
     description:
       "Top Instagram marketing agency in Saharanpur. Reels, ads & influencer campaigns that build followers into real customers. Free consultation today!",
-    url: "https://www.zentrixinfotech.com/saharanpur/instagram-marketing-agency-saharanpur",
+    url: "https://www.zentrixinfotech.com/saharanpur/instagram-marketing-agency-in-saharanpur",
     siteName: "Zentrix Infotech",
     images: [
       {

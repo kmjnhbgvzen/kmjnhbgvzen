@@ -14,7 +14,7 @@ export const metadata = {
     "graphic design services in Muzaffarnagar, graphic designer Muzaffarnagar, logo design company Muzaffarnagar, branding agency Muzaffarnagar, packaging design Muzaffarnagar, social media graphic design Muzaffarnagar, best graphic design company Muzaffarnagar",
   alternates: {
     canonical:
-      "https://www.zentrixinfotech.com/cities/muzaffarnagar/graphic-design-services-in-muzaffarnagar",
+      "https://www.zentrixinfotech.com/muzaffarnagar/graphic-design-services-in-muzaffarnagar",
   },
   openGraph: {
     title: "Graphic Design Services in Muzaffarnagar | Logos, Branding & Print",

@@ -13,13 +13,13 @@ export const metadata = {
   keywords:
     "digital marketing for real estate in Muzaffarnagar, real estate marketing agency Muzaffarnagar, property marketing company Muzaffarnagar, real estate SEO services Muzaffarnagar, real estate website design Muzaffarnagar, builder marketing agency Muzaffarnagar, real estate Google Ads services Muzaffarnagar, property lead generation Muzaffarnagar, real estate social media marketing Muzaffarnagar, digital marketing agency Muzaffarnagar, affordable real estate marketing Muzaffarnagar",
   alternates: {
-    canonical: "https://www.zentrixinfotech.com/digital-marketing-for-real-estate-in-muzaffarnagar",
+    canonical: "https://www.zentrixinfotech.com/muzaffarnagar/digital-marketing-for-real-estate-in-muzaffarnagar",
   },
   openGraph: {
     title: "Digital Marketing for Real Estate in Muzaffarnagar | Zentrix Infotech",
     description:
       "Zentrix Infotech offers specialised digital marketing for real estate in Muzaffarnagar including SEO, Google Ads, social media & website design to boost property inquiries. Get a free quote today.",
-    url: "https://www.zentrixinfotech.com/digital-marketing-for-real-estate-in-muzaffarnagar",
+    url: "https://www.zentrixinfotech.com/muzaffarnagar/digital-marketing-for-real-estate-in-muzaffarnagar",
     siteName: "Zentrix Infotech",
     images: [
       {

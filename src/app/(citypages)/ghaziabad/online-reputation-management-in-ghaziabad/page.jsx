@@ -14,13 +14,13 @@ export const metadata = {
     "online reputation management in Ghaziabad, ORM services Ghaziabad, online reputation management company Ghaziabad, reputation management agency Ghaziabad, negative review removal Ghaziabad, brand reputation management Ghaziabad, ORM company near me, best ORM services in Ghaziabad, online reputation management agency UP, digital reputation management Ghaziabad, review management services Ghaziabad, online brand management Ghaziabad",
   alternates: {
     canonical:
-      "https://www.zentrixinfotech.com/ghaziabad/online-reputation-management-ghaziabad",
+      "https://www.zentrixinfotech.com/ghaziabad/online-reputation-management-in-ghaziabad",
   },
   openGraph: {
     title: "Online Reputation Management in Ghaziabad | ORM Services",
     description:
       "Expert Online Reputation Management in Ghaziabad. Remove negative reviews, build brand trust, and rank higher with proven ORM strategies. Get a free audit today.",
-    url: "https://www.zentrixinfotech.com/ghaziabad/online-reputation-management-ghaziabad",
+    url: "https://www.zentrixinfotech.com/ghaziabad/online-reputation-management-in-ghaziabad",
     siteName: "Zentrix Infotech",
     images: [
       {

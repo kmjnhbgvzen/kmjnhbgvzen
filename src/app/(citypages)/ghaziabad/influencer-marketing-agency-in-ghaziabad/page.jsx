@@ -14,13 +14,13 @@ export const metadata = {
     "influencer marketing agency in Ghaziabad, influencer marketing company Ghaziabad, influencer collaboration services Ghaziabad, social media influencer agency Ghaziabad, brand influencer marketing Ghaziabad, best influencer marketing company Ghaziabad, influencer marketing services near me, micro influencer marketing Ghaziabad, local influencer marketing Ghaziabad, Instagram influencer marketing Ghaziabad, ecommerce influencer marketing Ghaziabad, influencer campaign management Ghaziabad",
   alternates: {
     canonical:
-      "https://www.zentrixinfotech.com/ghaziabad/influencer-marketing-agency-ghaziabad",
+      "https://www.zentrixinfotech.com/ghaziabad/influencer-marketing-agency-in-ghaziabad",
   },
   openGraph: {
     title: "Influencer Marketing Agency in Ghaziabad | Zentrix Infotech",
     description:
       "Leading influencer marketing agency in Ghaziabad connecting brands with local and niche influencers to boost reach, trust, and sales. Get a free consultation.",
-    url: "https://www.zentrixinfotech.com/ghaziabad/influencer-marketing-agency-ghaziabad",
+    url: "https://www.zentrixinfotech.com/ghaziabad/influencer-marketing-agency-in-ghaziabad",
     siteName: "Zentrix Infotech",
     images: [
       {

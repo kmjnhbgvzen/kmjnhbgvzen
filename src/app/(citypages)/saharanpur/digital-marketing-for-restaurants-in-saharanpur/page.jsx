@@ -14,13 +14,13 @@ export const metadata = {
     "digital marketing for restaurants in Saharanpur, restaurant digital marketing Saharanpur, SEO for restaurants, food business marketing agency Saharanpur, restaurant lead generation, local SEO for restaurants, digital marketing for cafes Saharanpur, best digital marketing company Saharanpur, restaurant social media marketing, Google Ads for restaurants, restaurant website development India",
   alternates: {
     canonical:
-      "https://www.zentrixinfotech.com/saharanpur/digital-marketing-for-restaurants-saharanpur",
+      "https://www.zentrixinfotech.com/saharanpur/digital-marketing-for-restaurants-in-saharanpur",
   },
   openGraph: {
     title: "Digital Marketing for Restaurants in Saharanpur | Get More Orders & Footfall",
     description:
       "Grow your restaurant in Saharanpur with proven digital marketing — SEO, Google Maps, social media & food delivery visibility. Get more table bookings, orders and walk-ins online.",
-    url: "https://www.zentrixinfotech.com/saharanpur/digital-marketing-for-restaurants-saharanpur",
+    url: "https://www.zentrixinfotech.com/saharanpur/digital-marketing-for-restaurants-in-saharanpur",
     siteName: "Zentrix Infotech",
     images: [
       {

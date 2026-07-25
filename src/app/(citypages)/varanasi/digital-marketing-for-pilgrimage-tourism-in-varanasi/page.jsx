@@ -14,13 +14,13 @@ export const metadata = {
     "digital marketing for pilgrimage tourism in varanasi, pilgrimage tour operator marketing, kashi vishwanath corridor tour marketing, pilgrimage package SEO varanasi, senior citizen pilgrim tour marketing, group pilgrimage tour ads varanasi, pilgrimage travel agency digital marketing, best digital marketing company for pilgrimage tourism, local SEO for pilgrimage tour operators, pilgrimage tourism social media marketing, multi-day pilgrimage circuit marketing, char dham connecting tour varanasi, pilgrimage tour lead generation, pilgrimage travel reputation management",
   alternates: {
     canonical:
-      "https://www.zentrixinfotech.com/varanasi/digital-marketing-for-pilgrimage-tourism-varanasi",
+      "https://www.zentrixinfotech.com/varanasi/digital-marketing-for-pilgrimage-tourism-in-varanasi",
   },
   openGraph: {
     title: "Digital Marketing for Pilgrimage Tourism in Varanasi | More Bookings",
     description:
       "Grow your Varanasi pilgrimage tour business with expert digital marketing — SEO, Google Maps, social media & ads that bring more group and pilgrim tour bookings.",
-    url: "https://www.zentrixinfotech.com/varanasi/digital-marketing-for-pilgrimage-tourism-varanasi",
+    url: "https://www.zentrixinfotech.com/varanasi/digital-marketing-for-pilgrimage-tourism-in-varanasi",
     siteName: "Zentrix Infotech",
     images: [
       {

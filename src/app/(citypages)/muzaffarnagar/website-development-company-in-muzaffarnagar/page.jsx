@@ -13,7 +13,7 @@ export const metadata = {
   keywords:
     "website development company in Muzaffarnagar, web design company Muzaffarnagar, website designing services Muzaffarnagar, custom website development Muzaffarnagar, ecommerce website development Muzaffarnagar, best web development company Muzaffarnagar, affordable website designers Muzaffarnagar",
   alternates: {
-    canonical: "https://www.zentrixinfotech.com/cities/muzaffarnagar/website-development-company-in-muzaffarnagar",
+    canonical: "https://www.zentrixinfotech.com/muzaffarnagar//website-development-company-in-muzaffarnagar",
   },
   openGraph: {
     title: "Website Development Company in Muzaffarnagar | Custom Web Design & Development",

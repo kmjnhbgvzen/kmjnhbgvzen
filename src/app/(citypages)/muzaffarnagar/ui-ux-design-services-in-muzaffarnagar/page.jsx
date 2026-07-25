@@ -13,13 +13,13 @@ export const metadata = {
   keywords:
     "ui ux design services in muzaffarnagar, ui ux design company muzaffarnagar, website design agency muzaffarnagar, app design services muzaffarnagar, user experience design company near me, product design agency muzaffarnagar, wireframe and prototype design services, best ui ux designers muzaffarnagar, digital marketing agency muzaffarnagar, ecommerce website design muzaffarnagar, interface design services india, startup product design agency",
   alternates: {
-    canonical: "https://www.zentrixinfotech.com/ui-ux-design-services-in-muzaffarnagar",
+    canonical: "https://www.zentrixinfotech.com/muzaffarnagar/ui-ux-design-services-in-muzaffarnagar",
   },
   openGraph: {
     title: "UI/UX Design Services in Muzaffarnagar | Websites & App Design",
     description:
       "Professional UI/UX Design Services in Muzaffarnagar for websites and apps. User-focused, conversion-driven design that improves engagement and sales.",
-    url: "https://www.zentrixinfotech.com/ui-ux-design-services-in-muzaffarnagar",
+    url: "https://www.zentrixinfotech.com/muzaffarnagar/ui-ux-design-services-in-muzaffarnagar",
     siteName: "Zentrix Infotech",
     images: [
       {
