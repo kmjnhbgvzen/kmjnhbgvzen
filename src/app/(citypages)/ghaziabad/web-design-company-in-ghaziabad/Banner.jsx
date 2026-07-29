@@ -21,12 +21,13 @@ export default function BillingSoftwareForRetail() {
           
           {/* Heading */}
           <h1 className="text-3xl md:text-4xl font-serif mb-4 mt-18 md:mt-30">
-          Website Development Company in Ghaziabad
+           Web Design Company in Ghaziabad
+
           </h1>
 
           {/* Subheading */}
           <p className="text-xl mb-6">
-            Zentrix Infotech empowers businesses in Ghaziabad with innovative digital marketing solutions that enhance online presence, attract the right audience, and deliver measurable business results.
+            Zentrix Infotech empowers businesses in Ghaziabad with innovative video marketing solutions that enhance online presence, attract the right audience, and deliver measurable business results.
           </p>
 
           {/* CTA Buttons */}
