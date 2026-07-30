@@ -130,4 +130,17 @@ export const certificates = [
     issue: "02-06-2026",
     image: "https://res.cloudinary.com/dxpyhablz/image/upload/v1782288155/Priya_Yadav_Internship_Certificate_rzdmqm.jpg"
   },
+
+  {
+    cin: "ZEN20260720HR43",
+    name: "Soniya Saini",
+    track: "SEO Internship",
+    project: "Internship Certificate",
+    college: "Kothiwal Institute of Technology & Professional Studies",
+  
+    start: "20-01-2026",
+    end: "20-07-2026",
+    issue: "20-07-2026",
+    image: "https://res.cloudinary.com/dxpyhablz/image/upload/v1785390944/Soniya_Seo_Certificate_fa1f5p.png"
+  },
 ];
