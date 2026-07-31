@@ -1,4 +1,4 @@
-import Content from "./Content";
+ import Content from "./Content";
 import Banner from "./Banner";
 import Client from "@/components/Client";
 import LovedByClients from "@/components/LovedByClients";
