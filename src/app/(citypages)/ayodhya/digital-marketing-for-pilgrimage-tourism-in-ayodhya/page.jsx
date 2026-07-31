@@ -14,7 +14,7 @@ export const metadata = {
     "digital marketing for pilgrimage tourism in Ayodhya, pilgrimage tourism marketing agency Ayodhya, pilgrimage travel SEO Ayodhya, spiritual travel marketing Ayodhya, dharamshala digital marketing Ayodhya, pilgrim services marketing company Ayodhya, Zentrix Infotech Ayodhya, pilgrimage business marketing Uttar Pradesh, temple visit marketing Ayodhya, devotee travel marketing Ayodhya",
   alternates: {
     canonical:
-      "https://www.zentrixinfotech.com/ayodhya/digital-marketing-pilgrimage-tourism-ayodhya",
+      "https://www.zentrixinfotech.com/ayodhya/digital-marketing-for-pilgrimage-tourism-in-ayodhya",
   },
   openGraph: {
     title: "Digital Marketing for Pilgrimage Tourism in Ayodhya - Zentrix Infotech",

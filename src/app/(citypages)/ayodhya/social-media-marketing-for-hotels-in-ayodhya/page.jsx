@@ -14,7 +14,7 @@ export const metadata = {
     "social media marketing for hotels in Ayodhya, hotel social media agency Ayodhya, Instagram marketing for hotels Ayodhya, hotel Facebook marketing Ayodhya, hospitality social media services Ayodhya, hotel branding social media Ayodhya, Zentrix Infotech Ayodhya, hotel marketing company Uttar Pradesh, social media agency for hospitality Ayodhya, hotel content marketing Ayodhya",
   alternates: {
     canonical:
-      "https://www.zentrixinfotech.com/ayodhya/social-media-marketing-hotels-ayodhya",
+      "https://www.zentrixinfotech.com/ayodhya/social-media-marketing-for-hotels-in-ayodhya",
   },
   openGraph: {
     title: "Social Media Marketing for Hotels in Ayodhya - Zentrix Infotech",

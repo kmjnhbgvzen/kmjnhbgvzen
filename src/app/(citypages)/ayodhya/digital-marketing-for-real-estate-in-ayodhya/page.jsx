@@ -14,7 +14,7 @@ export const metadata = {
     "digital marketing for real estate in Ayodhya, real estate marketing agency Ayodhya, real estate SEO services Ayodhya, property marketing company Ayodhya, real estate website development Ayodhya, real estate lead generation Ayodhya, property dealer marketing Ayodhya, Zentrix Infotech Ayodhya, real estate digital marketing Uttar Pradesh, property investment marketing Ayodhya",
   alternates: {
     canonical:
-      "https://www.zentrixinfotech.com/ayodhya/digital-marketing-real-estate-ayodhya",
+      "https://www.zentrixinfotech.com/ayodhya/digital-marketing-for-real-estate-in-ayodhya",
   },
   openGraph: {
     title: "Digital Marketing for Real Estate in Ayodhya - Zentrix Infotech",

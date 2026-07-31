@@ -14,7 +14,7 @@ export const metadata = {
     "digital marketing for hotels in Ayodhya, hotel marketing agency Ayodhya, hotel SEO services Ayodhya, hotel digital marketing company Ayodhya, hotel website development Ayodhya, hotel PPC advertising Ayodhya, hotel social media marketing Ayodhya, Zentrix Infotech Ayodhya, hospitality marketing agency Ayodhya, hotel booking marketing Uttar Pradesh",
   alternates: {
     canonical:
-      "https://www.zentrixinfotech.com/ayodhya/digital-marketing-for-hotels-ayodhya",
+      "https://www.zentrixinfotech.com/ayodhya/digital-marketing-for-hotels-in-ayodhya",
   },
   openGraph: {
     title: "Digital Marketing for Hotels in Ayodhya - Zentrix Infotech",

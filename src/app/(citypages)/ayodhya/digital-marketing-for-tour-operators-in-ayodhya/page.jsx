@@ -14,7 +14,7 @@ export const metadata = {
     "digital marketing for tour operators in Ayodhya, travel agency marketing Ayodhya, tour package SEO Ayodhya, tourism marketing company Ayodhya, travel agency website development Ayodhya, pilgrimage tour marketing Ayodhya, Zentrix Infotech Ayodhya, tour operator digital marketing Uttar Pradesh, travel business marketing agency Ayodhya, sightseeing tour marketing Ayodhya",
   alternates: {
     canonical:
-      "https://www.zentrixinfotech.com/ayodhya/digital-marketing-tour-operators-ayodhya",
+      "https://www.zentrixinfotech.com/ayodhya/digital-marketing-for-tour-operators-in-ayodhya",
   },
   openGraph: {
     title: "Digital Marketing for Tour Operators in Ayodhya - Zentrix Infotech",

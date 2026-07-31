@@ -13,13 +13,13 @@ export const metadata = {
   keywords:
     "best ecommerce marketing strategies in Ayodhya, ecommerce marketing strategy Ayodhya, digital marketing strategies Ayodhya, online business growth Ayodhya, ecommerce SEO strategy Ayodhya, ecommerce promotion Ayodhya, social media marketing Ayodhya, ecommerce advertising Ayodhya, local ecommerce strategy Ayodhya, ecommerce marketing agency Ayodhya, digital marketing company Ayodhya",
   alternates: {
-    canonical: "https://www.zentrixinfotech.com/ayodhya/ecommerce-marketing-strategies-ayodhya",
+    canonical: "https://www.zentrixinfotech.com/ayodhya/what-are-the-best-ecommerce-marketing-strategies-in-ayodhya",
   },
   openGraph: {
     title: "Best Ecommerce Marketing Strategies in Ayodhya (2026 Guide)",
     description:
       "Discover the best ecommerce marketing strategies in Ayodhya to boost sales, rank higher on Google, and reach local buyers and pilgrims effectively.",
-    url: "https://www.zentrixinfotech.com/ayodhya/ecommerce-marketing-strategies-ayodhya",
+    url: "https://www.zentrixinfotech.com/ayodhya/what-are-the-best-ecommerce-marketing-strategies-in-ayodhya",
     siteName: "Zentrix Infotech",
     images: [
       {

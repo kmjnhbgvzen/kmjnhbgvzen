@@ -14,7 +14,7 @@ export const metadata = {
     "lead generation for real estate in Ayodhya, real estate lead generation agency Ayodhya, property lead generation company Ayodhya, real estate leads Ayodhya, real estate PPC leads Ayodhya, property investor leads Ayodhya, Zentrix Infotech Ayodhya, real estate marketing leads Uttar Pradesh, buyer lead generation Ayodhya, real estate inquiry generation Ayodhya",
   alternates: {
     canonical:
-      "https://www.zentrixinfotech.com/ayodhya/real-estate-lead-generation-ayodhya",
+      "https://www.zentrixinfotech.com/ayodhya/lead-generation-for-real-estate-in-ayodhya",
   },
   openGraph: {
     title: "Lead Generation for Real Estate in Ayodhya - Zentrix Infotech",

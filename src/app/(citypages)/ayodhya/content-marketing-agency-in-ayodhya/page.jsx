@@ -13,13 +13,13 @@ export const metadata = {
   keywords:
     "content marketing agency in Ayodhya, content writing services Ayodhya, blog writing company Ayodhya, SEO content writing, video content marketing Ayodhya, travel content Ayodhya, content strategy for hotels, digital content agency near me, website content writing Ayodhya, content marketing company",
   alternates: {
-    canonical: "https://www.zentrixinfotech.com/ayodhya/content-marketing-agency-in-ayodhya",
+    canonical: "https://www.zentrixinfotech.com/ayodhya/digital-marketing-agency-in-ayodhya",
   },
   openGraph: {
     title: "Content Marketing Agency in Ayodhya | Blogs, Videos & SEO Content That Converts",
     description:
       "Partner with a content marketing agency in Ayodhya to create SEO-friendly blogs, videos, and guides that build trust, attract tourists, and drive bookings and sales.",
-    url: "https://www.zentrixinfotech.com/ayodhya/content-marketing-agency-in-ayodhya",
+    url: "https://www.zentrixinfotech.com/ayodhya/digital-marketing-agency-in-ayodhya",
     siteName: "Zentrix Infotech",
     images: [
       {

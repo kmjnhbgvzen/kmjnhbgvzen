@@ -14,13 +14,13 @@ export const metadata = {
     "Google Ads for hotels in Ayodhya, hotel PPC services Ayodhya, hotel Google advertising agency Ayodhya, hotel search ads Ayodhya, hotel remarketing campaigns Ayodhya, hospitality PPC company Ayodhya, Zentrix Infotech Ayodhya, hotel digital advertising Uttar Pradesh, hotel booking ads Ayodhya, PPC agency for hotels Ayodhya",
   alternates: {
     canonical:
-      "https://www.zentrixinfotech.com/ayodhya/google-ads-hotels-ayodhya",
+      "https://www.zentrixinfotech.com/ayodhya/google-ads-for-hotels-in-ayodhya",
   },
   openGraph: {
     title: "Google Ads for Hotels in Ayodhya - Zentrix Infotech",
     description:
       "Increase direct bookings with expert Google Ads for hotels in Ayodhya. Zentrix Infotech manages Search, Display, and remarketing campaigns that convert. Get a free consultation today.",
-    url: "https://www.zentrixinfotech.com/ayodhya/google-ads-hotels-in-ayodhya",
+    url: "https://www.zentrixinfotech.com/ayodhya/google-ads-for-hotels-in-ayodhya",
     siteName: "Zentrix Infotech",
     images: [
       {

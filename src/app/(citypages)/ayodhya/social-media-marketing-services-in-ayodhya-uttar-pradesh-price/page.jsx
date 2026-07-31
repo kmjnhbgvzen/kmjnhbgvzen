@@ -14,13 +14,13 @@ export const metadata = {
     "social media marketing services in ayodhya uttar pradesh price, social media marketing cost ayodhya, instagram marketing price ayodhya, social media package price up, facebook marketing cost ayodhya, social media marketing charges",
   alternates: {
     canonical:
-      "https://www.zentrixinfotech.com/ayodhya/social-media-marketing-services-price-in-ayodhya-up",
+      "https://www.zentrixinfotech.com/ayodhya/social-media-marketing-services-in-ayodhya-uttar-pradesh-price",
   },
   openGraph: {
     title: "Social Media Marketing Services Price in Ayodhya, UP",
     description:
       "Compare social media marketing service prices in Ayodhya, Uttar Pradesh, understand package tiers, what affects cost, and how to get a fair quote.",
-    url: "https://www.zentrixinfotech.com/ayodhya/social-media-marketing-services-price-in-ayodhya-up",
+    url: "https://www.zentrixinfotech.com/ayodhya/social-media-marketing-services-in-ayodhya-uttar-pradesh-price",
     siteName: "Zentrix Infotech",
     images: [
       {

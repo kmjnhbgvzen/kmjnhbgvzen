@@ -14,7 +14,7 @@ export const metadata = {
     "digital marketing for restaurants in Ayodhya, restaurant marketing agency Ayodhya, restaurant SEO services Ayodhya, restaurant digital marketing company Ayodhya, restaurant website development Ayodhya, restaurant social media marketing Ayodhya, food business marketing Ayodhya, Zentrix Infotech Ayodhya, restaurant advertising agency Ayodhya, food and beverage marketing Uttar Pradesh",
   alternates: {
     canonical:
-      "https://www.zentrixinfotech.com/ayodhya/digital-marketing-restaurants-ayodhya",
+      "https://www.zentrixinfotech.com/ayodhya/digital-marketing-for-restaurants-in-ayodhya",
   },
   openGraph: {
     title:
