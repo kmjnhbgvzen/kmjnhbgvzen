@@ -176,11 +176,11 @@ export default function RootLayout({ children }) {
         {/* ✅ EXTRA SAFETY FOR GOOGLE */}
         <link rel="icon" href="/favicon-v2.ico" sizes="48x48" />
 
-        {/* ✅ GOOGLE SITE VERIFICATION */}
+        {/* ✅ GOOGLE SITE VERIFICATION
         <meta
           name="google-site-verification"
           content="NrE50hHl6c-azA8AW6DpgA0bwM54EcK2iL3JOBRgX4Q"
-        />
+        /> */}
 
         {/* ✅ ORGANIZATION SCHEMA */}
         <script
