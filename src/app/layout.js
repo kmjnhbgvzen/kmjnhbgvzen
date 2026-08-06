@@ -176,11 +176,11 @@ export default function RootLayout({ children }) {
         {/* ✅ EXTRA SAFETY FOR GOOGLE */}
         <link rel="icon" href="/favicon-v2.ico" sizes="48x48" />
 
-        {/* ✅ GOOGLE SITE VERIFICATION
+        {/* ✅ GOOGLE SITE VERIFICATION */}
         <meta
           name="google-site-verification"
           content="NrE50hHl6c-azA8AW6DpgA0bwM54EcK2iL3JOBRgX4Q"
-        /> */}
+        />
 
         {/* ✅ ORGANIZATION SCHEMA */}
         <script
@@ -192,7 +192,7 @@ export default function RootLayout({ children }) {
         {/* ✅ END ORGANIZATION SCHEMA */}
 
         
-        {/* <Script
+        <Script
           id="gtm-script"
           strategy="beforeInteractive"
           dangerouslySetInnerHTML={{
@@ -207,20 +207,20 @@ export default function RootLayout({ children }) {
               })(window,document,'script','dataLayer','GTM-W6ZK9ZLC');
             `,
           }}
-        /> */}
+        />
         
       </head>
 
       <body className="bg-[#FFFAFA]">
         {/* ✅ GTM (noscript) */}
-        {/* <noscript>
+        <noscript>
           <iframe
             src="https://www.googletagmanager.com/ns.html?id=GTM-W6ZK9ZLC"
             height="0"
             width="0"
             style={{ display: "none", visibility: "hidden" }}
           />
-        </noscript> */}
+        </noscript>
         {/* ✅ END GTM (noscript) */}
 
         <Topbar />
