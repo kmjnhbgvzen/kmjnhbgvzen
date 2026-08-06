@@ -191,8 +191,8 @@ export default function RootLayout({ children }) {
         />
         {/* ✅ END ORGANIZATION SCHEMA */}
 
-        {/* ✅ GOOGLE TAG MANAGER */}
-        <Script
+        
+        {/* <Script
           id="gtm-script"
           strategy="beforeInteractive"
           dangerouslySetInnerHTML={{
@@ -207,8 +207,8 @@ export default function RootLayout({ children }) {
               })(window,document,'script','dataLayer','GTM-W6ZK9ZLC');
             `,
           }}
-        />
-        {/* ✅ END GTM */}
+        /> */}
+        
       </head>
 
       <body className="bg-[#FFFAFA]">
