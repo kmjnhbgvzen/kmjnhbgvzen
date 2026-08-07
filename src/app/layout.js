@@ -191,7 +191,7 @@ export default function RootLayout({ children }) {
         />
         {/* ✅ END ORGANIZATION SCHEMA */}
 
-        {/* ✅ GOOGLE TAG MANAGER */}
+        
         <Script
           id="gtm-script"
           strategy="beforeInteractive"
@@ -208,7 +208,7 @@ export default function RootLayout({ children }) {
             `,
           }}
         />
-        {/* ✅ END GTM */}
+        
       </head>
 
       <body className="bg-[#FFFAFA]">
