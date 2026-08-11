@@ -6,20 +6,21 @@ import WhyChooseUs from "@/components/WhyChooseUs";
 import Portfolio from "@/components/Portfolio";
 import LandingServices from "@/components/LandingServices";
 
+
 export const metadata = {
-  title: "Facebook Ads Agency in Ghaziabad | Zentrix Infotech",
+  title: "Facebook Ads Agency in Ghaziabad | Meta Ads Management & PPC Experts",
   description:
-    "Trusted Facebook Ads agency in Ghaziabad delivering targeted campaigns, lower ad costs, and higher conversions for local businesses. Get a free strategy call.",
+    "Hire a results-driven Facebook Ads agency in Ghaziabad. Expert Meta Ads campaign management to generate leads, sales & ROI. Free ad account audit available.",
   keywords:
-    "Facebook Ads agency in Ghaziabad, Facebook advertising company Ghaziabad, Facebook Ads management Ghaziabad, social media advertising agency Ghaziabad, Meta Ads agency Ghaziabad, Facebook marketing services Ghaziabad, best Facebook Ads company Ghaziabad, Instagram Facebook Ads agency Ghaziabad, Facebook Ads agency near me, lead generation Facebook Ads Ghaziabad, ecommerce Facebook Ads Ghaziabad, local business Facebook Ads Ghaziabad",
+    "Facebook Ads agency in Ghaziabad, Facebook advertising agency Ghaziabad, Meta Ads agency Ghaziabad, Facebook Ads management company, Instagram Ads agency Ghaziabad, PPC agency Ghaziabad, Facebook lead generation ads, best Facebook Ads company near me, Meta Ads specialist Ghaziabad, Facebook Ads for small business, paid social media advertising agency",
   alternates: {
     canonical:
       "https://www.zentrixinfotech.com/ghaziabad/facebook-ads-agency-in-ghaziabad",
   },
   openGraph: {
-    title: "Facebook Ads Agency in Ghaziabad | Zentrix Infotech",
+    title: "Facebook Ads Agency in Ghaziabad | Meta Ads Management & PPC Experts",
     description:
-      "Trusted Facebook Ads agency in Ghaziabad delivering targeted campaigns, lower ad costs, and higher conversions for local businesses. Get a free strategy call.",
+      "Hire a results-driven Facebook Ads agency in Ghaziabad. Expert Meta Ads campaign management to generate leads, sales & ROI. Free ad account audit available.",
     url: "https://www.zentrixinfotech.com/ghaziabad/facebook-ads-agency-in-ghaziabad",
     siteName: "Zentrix Infotech",
     images: [
@@ -35,15 +36,16 @@ export const metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Facebook Ads Agency in Ghaziabad | Zentrix Infotech",
+    title: "Facebook Ads Agency in Ghaziabad | Meta Ads Management & PPC Experts",
     description:
-      "Trusted Facebook Ads agency in Ghaziabad delivering targeted campaigns, lower ad costs, and higher conversions for local businesses. Get a free strategy call.",
+      "Hire a results-driven Facebook Ads agency in Ghaziabad. Expert Meta Ads campaign management to generate leads, sales & ROI. Free ad account audit available.",
     images: ["https://www.zentrixinfotech.com/zentrix_logo.jpg"],
   },
   icons: {
     icon: "/favicon-v2.ico",
   },
 };
+
 
 export default function Page() {
   return (

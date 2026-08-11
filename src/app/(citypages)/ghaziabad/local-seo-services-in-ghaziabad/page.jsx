@@ -7,19 +7,19 @@ import Portfolio from "@/components/Portfolio";
 import LandingServices from "@/components/LandingServices";
 
 export const metadata = {
-  title: "Local SEO Services in Ghaziabad | Zentrix Infotech",
+  title: "Local SEO Services in Ghaziabad",
   description:
-    "Rank higher on Google Maps & local search with expert local SEO services in Ghaziabad. Zentrix Infotech helps businesses get found by nearby customers.",
+    "Looking for local SEO services in Ghaziabad? Rank higher on Google Maps & local search with GBP optimization, citations & review management.",
   keywords:
-    "local SEO services in Ghaziabad, local SEO company Ghaziabad, Google My Business optimization Ghaziabad, local SEO agency near me, SEO services for small business Ghaziabad, local search optimization Ghaziabad, Google Maps ranking Ghaziabad, best local SEO company UP, Zentrix Infotech SEO services",
+    "local SEO services in Ghaziabad, local SEO company in Ghaziabad, Google Business Profile optimization Ghaziabad, Google Maps ranking services Ghaziabad, local SEO agency near me, local citation building services Ghaziabad, near me SEO services Ghaziabad, local search marketing company Ghaziabad, affordable local SEO services Ghaziabad, Google My Business optimization Ghaziabad, review management services Ghaziabad, local SEO for small business Ghaziabad, multi-location SEO agency Ghaziabad, local pack ranking agency Ghaziabad, hyperlocal marketing services Ghaziabad, local SEO consultant Ghaziabad",
   alternates: {
-    canonical: "https://www.zentrixinfotech.com/ghaziabad/local-seo-services-in-ghaziabad",
+    canonical:
+      "https://www.zentrixinfotech.com/ghaziabad/local-seo-services-in-ghaziabad",
   },
-
   openGraph: {
-    title: "Local SEO Services in Ghaziabad | Zentrix Infotech",
+    title: "Local SEO Services in Ghaziabad",
     description:
-      "Rank higher on Google Maps & local search with expert local SEO services in Ghaziabad. Zentrix Infotech helps businesses get found by nearby customers.",
+      "Looking for local SEO services in Ghaziabad? Rank higher on Google Maps & local search with GBP optimization, citations & review management.",
     url: "https://www.zentrixinfotech.com/ghaziabad/local-seo-services-in-ghaziabad",
     siteName: "Zentrix Infotech",
     images: [
@@ -33,15 +33,13 @@ export const metadata = {
     locale: "en_IN",
     type: "website",
   },
-
   twitter: {
     card: "summary_large_image",
-    title: "Local SEO Services in Ghaziabad | Zentrix Infotech",
+    title: "Local SEO Services in Ghaziabad",
     description:
-      "Rank higher on Google Maps & local search with expert local SEO services in Ghaziabad. Zentrix Infotech helps businesses get found by nearby customers.",
+      "Looking for local SEO services in Ghaziabad? Rank higher on Google Maps & local search with GBP optimization, citations & review management.",
     images: ["https://www.zentrixinfotech.com/zentrix_logo.jpg"],
   },
-
   icons: {
     icon: "/favicon-v2.ico",
   },

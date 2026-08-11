@@ -7,19 +7,19 @@ import Portfolio from "@/components/Portfolio";
 import LandingServices from "@/components/LandingServices";
 
 export const metadata = {
-  title: "App Store Optimization Services in Ghaziabad | Zentrix Infotech",
+  title: "App Store Optimization in Ghaziabad | ASO Services for App Growth",
   description:
-    "Professional App Store Optimization in Ghaziabad to boost app rankings, downloads, and visibility on Google Play and App Store. Get a free consultation.",
+    "Get expert App Store Optimization in Ghaziabad to rank higher on Google Play & Apple App Store. Boost app downloads, visibility & organic installs. Free ASO audit available.",
   keywords:
-    "App Store Optimization in Ghaziabad, ASO services Ghaziabad, app ranking optimization Ghaziabad, mobile app marketing Ghaziabad, Google Play optimization Ghaziabad, App Store SEO Ghaziabad, best ASO company Ghaziabad, app download growth services Ghaziabad, ASO services near me, app store keyword optimization Ghaziabad, app visibility services Ghaziabad, mobile app growth agency Ghaziabad",
+    "App Store Optimization in Ghaziabad, ASO services in Ghaziabad, app store optimization company Ghaziabad, mobile app marketing Ghaziabad, Google Play Store optimization, Apple App Store ranking services, increase app downloads Ghaziabad, app ranking optimization company, ASO agency near me, app visibility optimization services, mobile app growth agency Ghaziabad",
   alternates: {
     canonical:
       "https://www.zentrixinfotech.com/ghaziabad/app-store-optimization-in-ghaziabad",
   },
   openGraph: {
-    title: "App Store Optimization Services in Ghaziabad | Zentrix Infotech",
+    title: "App Store Optimization in Ghaziabad | ASO Services for App Growth",
     description:
-      "Professional App Store Optimization in Ghaziabad to boost app rankings, downloads, and visibility on Google Play and App Store. Get a free consultation.",
+      "Get expert App Store Optimization in Ghaziabad to rank higher on Google Play & Apple App Store. Boost app downloads, visibility & organic installs. Free ASO audit available.",
     url: "https://www.zentrixinfotech.com/ghaziabad/app-store-optimization-in-ghaziabad",
     siteName: "Zentrix Infotech",
     images: [
@@ -35,9 +35,9 @@ export const metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "App Store Optimization Services in Ghaziabad | Zentrix Infotech",
+    title: "App Store Optimization in Ghaziabad | ASO Services for App Growth",
     description:
-      "Professional App Store Optimization in Ghaziabad to boost app rankings, downloads, and visibility on Google Play and App Store. Get a free consultation.",
+      "Get expert App Store Optimization in Ghaziabad to rank higher on Google Play & Apple App Store. Boost app downloads, visibility & organic installs. Free ASO audit available.",
     images: ["https://www.zentrixinfotech.com/zentrix_logo.jpg"],
   },
   icons: {
