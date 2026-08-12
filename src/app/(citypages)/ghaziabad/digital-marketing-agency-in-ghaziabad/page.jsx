@@ -7,19 +7,19 @@ import Portfolio from "@/components/Portfolio";
 import LandingServices from "@/components/LandingServices";
 
 export const metadata = {
-  title: "Best Digital Marketing Agency in Ghaziabad | Zentrix Infotech",
+  title: "Digital Marketing Agency in Ghaziabad | Best DM Company 2026",
   description:
-    "Looking for a trusted digital marketing agency in Ghaziabad? Get SEO, PPC, social media & web solutions that drive real leads. Call Zentrix Infotech today.",
+    "Looking for a trusted digital marketing agency in Ghaziabad? Get result-driven SEO, PPC, social media & web marketing services that boost leads & sales.",
   keywords:
-    "digital marketing agency in Ghaziabad, best digital marketing company Ghaziabad, SEO services Ghaziabad, social media marketing agency Ghaziabad, PPC agency Ghaziabad, web development company Ghaziabad, affordable digital marketing services Ghaziabad, digital marketing agency near me, online marketing company Ghaziabad, local SEO Ghaziabad, top digital marketing company UP",
+    "digital marketing agency in Ghaziabad, best digital marketing company in Ghaziabad, digital marketing services in Ghaziabad, SEO agency in Ghaziabad, PPC company in Ghaziabad, social media marketing agency Ghaziabad, affordable digital marketing agency Ghaziabad, top digital marketing agency near Ghaziabad, website designing and digital marketing company Ghaziabad, local SEO services Ghaziabad, online marketing company in Ghaziabad, branding agency in Ghaziabad, digital marketing consultant in Ghaziabad, lead generation agency Ghaziabad, content marketing services Ghaziabad, ecommerce digital marketing Ghaziabad",
   alternates: {
     canonical:
       "https://www.zentrixinfotech.com/ghaziabad/digital-marketing-agency-in-ghaziabad",
   },
   openGraph: {
-    title: "Best Digital Marketing Agency in Ghaziabad | Zentrix Infotech",
+    title: "Digital Marketing Agency in Ghaziabad | Best DM Company 2026",
     description:
-      "Looking for a trusted digital marketing agency in Ghaziabad? Get SEO, PPC, social media & web solutions that drive real leads. Call Zentrix Infotech today.",
+      "Looking for a trusted digital marketing agency in Ghaziabad? Get result-driven SEO, PPC, social media & web marketing services that boost leads & sales.",
     url: "https://www.zentrixinfotech.com/ghaziabad/digital-marketing-agency-in-ghaziabad",
     siteName: "Zentrix Infotech",
     images: [
@@ -35,9 +35,9 @@ export const metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Best Digital Marketing Agency in Ghaziabad | Zentrix Infotech",
+    title: "Digital Marketing Agency in Ghaziabad | Best DM Company 2026",
     description:
-      "Looking for a trusted digital marketing agency in Ghaziabad? Get SEO, PPC, social media & web solutions that drive real leads. Call Zentrix Infotech today.",
+      "Looking for a trusted digital marketing agency in Ghaziabad? Get result-driven SEO, PPC, social media & web marketing services that boost leads & sales.",
     images: ["https://www.zentrixinfotech.com/zentrix_logo.jpg"],
   },
   icons: {

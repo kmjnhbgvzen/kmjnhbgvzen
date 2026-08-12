@@ -6,20 +6,21 @@ import WhyChooseUs from "@/components/WhyChooseUs";
 import Portfolio from "@/components/Portfolio";
 import LandingServices from "@/components/LandingServices";
 
+
 export const metadata = {
-  title: "YouTube Marketing Agency in Ghaziabad | Zentrix Infotech",
+  title: "YouTube Marketing Agency in Ghaziabad | Video SEO & Channel Growth",
   description:
-    "Looking for a YouTube marketing agency in Ghaziabad? Zentrix Infotech offers video SEO, channel growth & ad campaigns to boost views, subscribers & sales.",
+    "Grow your brand with a specialized YouTube marketing agency in Ghaziabad. Video strategy, SEO, ads & channel management to build authority and drive leads. Free consultation.",
   keywords:
-    "youtube marketing agency in ghaziabad, youtube marketing company ghaziabad, youtube seo services ghaziabad, youtube video marketing agency, youtube channel growth agency india, youtube ads agency ghaziabad, best youtube marketing agency near me, video marketing services ghaziabad, youtube promotion agency ghaziabad, digital marketing agency ghaziabad",
+    "YouTube marketing agency in Ghaziabad, YouTube marketing company Ghaziabad, YouTube channel growth agency, YouTube SEO services Ghaziabad, YouTube Ads management company, video marketing agency Ghaziabad, YouTube content strategy services, best YouTube marketing agency near me, YouTube video production company, YouTube channel management services, YouTube advertising agency",
   alternates: {
     canonical:
       "https://www.zentrixinfotech.com/ghaziabad/youtube-marketing-agency-in-ghaziabad",
   },
   openGraph: {
-    title: "YouTube Marketing Agency in Ghaziabad | Zentrix Infotech",
+    title: "YouTube Marketing Agency in Ghaziabad | Video SEO & Channel Growth",
     description:
-      "Looking for a YouTube marketing agency in Ghaziabad? Zentrix Infotech offers video SEO, channel growth & ad campaigns to boost views, subscribers & sales.",
+      "Grow your brand with a specialized YouTube marketing agency in Ghaziabad. Video strategy, SEO, ads & channel management to build authority and drive leads. Free consultation.",
     url: "https://www.zentrixinfotech.com/ghaziabad/youtube-marketing-agency-in-ghaziabad",
     siteName: "Zentrix Infotech",
     images: [
@@ -35,15 +36,16 @@ export const metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "YouTube Marketing Agency in Ghaziabad | Zentrix Infotech",
+    title: "YouTube Marketing Agency in Ghaziabad | Video SEO & Channel Growth",
     description:
-      "Looking for a YouTube marketing agency in Ghaziabad? Zentrix Infotech offers video SEO, channel growth & ad campaigns to boost views, subscribers & sales.",
+      "Grow your brand with a specialized YouTube marketing agency in Ghaziabad. Video strategy, SEO, ads & channel management to build authority and drive leads. Free consultation.",
     images: ["https://www.zentrixinfotech.com/zentrix_logo.jpg"],
   },
   icons: {
     icon: "/favicon-v2.ico",
   },
 };
+
 
 export default function Page() {
   return (

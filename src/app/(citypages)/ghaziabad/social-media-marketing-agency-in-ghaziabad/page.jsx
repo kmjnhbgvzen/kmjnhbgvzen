@@ -7,19 +7,21 @@ import Portfolio from "@/components/Portfolio";
 import LandingServices from "@/components/LandingServices";
 
 export const metadata = {
-  title: "Social Media Marketing Agency in Ghaziabad | Zentrix Infotech",
+  title:
+    "Social Media Marketing Agency in Ghaziabad | Grow Your Brand Online",
   description:
-    "Looking for a trusted social media marketing agency in Ghaziabad? Zentrix Infotech offers result-driven SMM, content, and ad strategies for local businesses.",
+    "Looking for the best social media marketing agency in Ghaziabad? Get result-driven Facebook, Instagram & LinkedIn marketing, content creation & ad management. Book a free consultation today.",
   keywords:
-    "social media marketing company Ghaziabad, SMM services Ghaziabad, digital marketing agency Ghaziabad, social media marketing for small business Ghaziabad, Instagram marketing agency Ghaziabad, Facebook ads agency Ghaziabad, best social media agency near me, local SEO and social media services Ghaziabad",
+    "social media marketing agency in Ghaziabad, social media marketing company in Ghaziabad, best social media marketing agency Ghaziabad, digital marketing agency in Ghaziabad, social media marketing services Ghaziabad, Instagram marketing agency Ghaziabad, Facebook ads agency Ghaziabad, SMM agency near me, social media management company Ghaziabad, local social media marketing experts, affordable social media marketing Ghaziabad",
   alternates: {
-    canonical: "https://www.zentrixinfotech.com/ghaziabad/social-media-marketing-agency-in-ghaziabad",
+    canonical:
+      "https://www.zentrixinfotech.com/ghaziabad/social-media-marketing-agency-in-ghaziabad",
   },
-
   openGraph: {
-    title: "Social Media Marketing Agency in Ghaziabad | Zentrix Infotech",
+    title:
+      "Social Media Marketing Agency in Ghaziabad | Grow Your Brand Online",
     description:
-      "Looking for a trusted social media marketing agency in Ghaziabad? Zentrix Infotech offers result-driven SMM, content, and ad strategies for local businesses.",
+      "Looking for the best social media marketing agency in Ghaziabad? Get result-driven Facebook, Instagram & LinkedIn marketing, content creation & ad management. Book a free consultation today.",
     url: "https://www.zentrixinfotech.com/ghaziabad/social-media-marketing-agency-in-ghaziabad",
     siteName: "Zentrix Infotech",
     images: [
@@ -33,15 +35,14 @@ export const metadata = {
     locale: "en_IN",
     type: "website",
   },
-
   twitter: {
     card: "summary_large_image",
-    title: "Social Media Marketing Agency in Ghaziabad | Zentrix Infotech",
+    title:
+      "Social Media Marketing Agency in Ghaziabad | Grow Your Brand Online",
     description:
-      "Looking for a trusted social media marketing agency in Ghaziabad? Zentrix Infotech offers result-driven SMM, content, and ad strategies for local businesses.",
+      "Looking for the best social media marketing agency in Ghaziabad? Get result-driven Facebook, Instagram & LinkedIn marketing, content creation & ad management. Book a free consultation today.",
     images: ["https://www.zentrixinfotech.com/zentrix_logo.jpg"],
   },
-
   icons: {
     icon: "/favicon-v2.ico",
   },

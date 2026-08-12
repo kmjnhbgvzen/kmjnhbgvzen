@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 import LandingEnquiry from "@/components/LandingEnquiry";
 import RecentBlog from "@/components/RecentBlog";
@@ -7,331 +8,595 @@ const Content = () => {
   return (
     <div className="min-h-screen bg-white pt-0">
       <div className="flex flex-col lg:flex-row">
-        <div className="flex-1 px-4 sm:px-8 md:px-16 py-0 order-1 lg:order-1">
-          <div className="space-y-8 text-gray-700 leading-relaxed max-w-4xl">
-            <h2 className="text-2xl sm:text-3xl font-semibold text-gray-900">
-              Digital Marketing Agency in Ghaziabad: Complete Guide to Growing Your Business Online
+        <div className="flex-1 px-4 py-0 order-1 sm:px-8 md:px-16 lg:order-1">
+          <div className="max-w-4xl space-y-8 leading-relaxed text-gray-700">
+            <h2 className="text-2xl font-semibold text-gray-900 sm:text-3xl">
+              Digital Marketing Agency in Ghaziabad: Complete Guide to Growing
+              Your Business Online (2026)
             </h2>
 
             <p>
-              Ghaziabad has quietly become one of the busiest business hubs in the National Capital Region. From manufacturing units in Sahibabad and Loni to retail brands in Raj Nagar Extension and Vaishali, and from healthcare providers to real estate developers, every kind of business in this city is competing for the same thing: visibility on Google and social media. If your customers can&apos;t find you online, they will find your competitor instead.
+              Ghaziabad has grown into one of the busiest business hubs of the
+              National Capital Region. From manufacturing units in Sahibabad
+              and Loni to retail brands in Raj Nagar Extension, Indirapuram,
+              Vaishali, and Kaushambi, thousands of businesses are competing
+              for the same customers. In a market this crowded, the difference
+              between a business that grows and one that stays stuck often
+              comes down to one thing — a strong digital marketing agency in
+              Ghaziabad that understands both the local market and modern
+              online strategy.
             </p>
 
             <p>
-              That is exactly why the demand for a reliable digital marketing agency in Ghaziabad has grown so quickly over the last few years. A good agency does not just &ldquo;post on social media&rdquo; — it builds a complete online growth system covering search engine optimisation (SEO), paid advertising, content, social media, and website performance, all working together to bring in real customers, not just clicks.
+              This guide covers everything you need to know before hiring a
+              digital marketing company in Ghaziabad — the services that
+              matter, how to evaluate an agency, the benefits of going local,
+              and a detailed look at Zentrix Infotech, one of the digital
+              marketing agencies in Ghaziabad.
             </p>
 
-            <p>
-              In this guide, we will walk through what digital marketing actually involves, why local businesses in Ghaziabad need it, how to choose the right agency, what it should cost, and we&apos;ll take a closer look at Zentrix Infotech, an IT and digital marketing company that operates out of Ghaziabad and Moradabad, as a practical example of what a full-service local agency looks like.
-            </p>
-
-            <h2 className="text-xl sm:text-2xl font-semibold text-gray-900">
+            <h2 className="text-xl font-semibold text-gray-900 sm:text-2xl">
               Why Ghaziabad Businesses Need Digital Marketing in 2026
             </h2>
 
             <p>
-              Ghaziabad sits right next to Delhi and is part of the larger NCR economic belt, which means local businesses aren&apos;t just competing with the shop next door — they&apos;re competing with hundreds of businesses across Indirapuram, Vaishali, Kaushambi, Raj Nagar, Sahibabad, and even Delhi and Noida. A few realities make digital marketing essential rather than optional:
+              Ghaziabad&apos;s business landscape has shifted rapidly over the
+              last few years:
             </p>
+
+            <ul className="ml-4 list-disc list-inside space-y-2">
+              <li>
+                Customers now search for local shops, clinics, showrooms, and
+                services on Google before ever walking in.
+              </li>
+              <li>
+                Real estate, healthcare, education, retail, and manufacturing
+                brands in Ghaziabad are competing directly with Delhi and
+                Noida-based businesses for the same online audience.
+              </li>
+              <li>
+                Voice search and AI-powered search tools, including Google AI
+                Overviews, ChatGPT, and Gemini, are changing how people
+                discover local businesses.
+              </li>
+              <li>
+                Instagram and WhatsApp have become primary sales channels for
+                small and mid-sized Ghaziabad businesses.
+              </li>
+              <li>
+                Without a proper digital presence, even established offline
+                businesses are losing market share to newer, digitally active
+                competitors.
+              </li>
+            </ul>
 
             <p>
-              Search-first buying behaviour. Most customers now search &ldquo;near me&rdquo; or a specific service name on Google before they call or visit a shop, clinic, or office.
+              A digital marketing agency in Ghaziabad helps bridge this gap by
+              building visibility on Google, social media, and emerging AI
+              search platforms — turning online attention into real footfall,
+              calls, and sales.
             </p>
 
-            <p>
-              Mobile-first audience. A large share of local searches in UP and NCR happen on mobile phones, often through voice search, which changes how content needs to be written and structured.
-            </p>
-
-            <p>
-              Rising local competition. As more businesses in Ghaziabad go digital, ranking on the first page of Google is getting harder without a structured SEO and content strategy.
-            </p>
-
-            <p>
-              Better ROI than traditional advertising. Digital campaigns can be tracked to the rupee — you know exactly how many leads, calls, or form submissions came from a specific campaign, unlike a newspaper ad or hoarding.
-            </p>
-
-            <p>
-              Local intent is powerful. A well-optimised Google Business Profile and local SEO strategy can put a small Ghaziabad business ahead of much bigger national brands for local searches.
-            </p>
-
-            <h2 className="text-xl sm:text-2xl font-semibold text-gray-900">
-              What Services Does a Digital Marketing Agency in Ghaziabad Typically Offer?
+            <h2 className="text-xl font-semibold text-gray-900 sm:text-2xl">
+              What Does a Digital Marketing Agency in Ghaziabad Actually Do?
             </h2>
 
             <p>
-              A full-service agency should be able to support your business across the entire digital funnel — from getting discovered to converting a visitor into a paying customer.
+              A full-service digital marketing company in Ghaziabad typically
+              works across the following pillars, offering digital marketing
+              services in Ghaziabad under one roof:
             </p>
+
+            <h3 className="text-lg font-semibold text-gray-900 sm:text-xl">
+              1. Search Engine Optimization (SEO)
+            </h3>
 
             <p>
-              1. Search Engine Optimisation (SEO). SEO is the process of improving your website so it ranks higher on Google for the keywords your customers are actually searching. This includes on-page SEO (titles, meta descriptions, headings, keyword placement), technical SEO (site speed, mobile-friendliness, indexing), content SEO (blogs, service pages), and off-page SEO (backlinks, citations, brand mentions).
+              A trusted SEO agency in Ghaziabad typically covers:
             </p>
+
+            <ul className="ml-4 list-disc list-inside space-y-2">
+              <li>
+                On-page SEO: title tags, meta descriptions, headings, internal
+                linking.
+              </li>
+              <li>
+                Technical SEO: site speed, mobile-friendliness, crawlability,
+                and schema markup.
+              </li>
+              <li>
+                Local SEO services in Ghaziabad: Google Business Profile
+                optimization, local citations, and location pages.
+              </li>
+              <li>
+                Off-page SEO: backlink building, guest posting, and digital
+                PR.
+              </li>
+              <li>
+                Content SEO: blog writing and keyword-optimized service pages.
+              </li>
+            </ul>
+
+            <h3 className="text-lg font-semibold text-gray-900 sm:text-xl">
+              2. Pay-Per-Click (PPC) Advertising
+            </h3>
 
             <p>
-              2. Local SEO & Google Business Profile Optimisation. For businesses that depend on local footfall — clinics, restaurants, real estate agents, showrooms — local SEO is often more important than national SEO. This includes optimising your Google Business Profile, managing reviews, building local citations, and targeting area-specific keywords like &ldquo;digital marketing agency in Ghaziabad&rdquo; or &ldquo;dentist in Raj Nagar Extension.&rdquo;
+              As a PPC company in Ghaziabad, an agency should manage:
             </p>
+
+            <ul className="ml-4 list-disc list-inside space-y-2">
+              <li>Google Search and Display Ads.</li>
+              <li>YouTube Ads.</li>
+              <li>Retargeting and remarketing campaigns.</li>
+              <li>Conversion tracking and ROI reporting.</li>
+            </ul>
+
+            <h3 className="text-lg font-semibold text-gray-900 sm:text-xl">
+              3. Social Media Marketing (SMM)
+            </h3>
 
             <p>
-              3. Pay-Per-Click (PPC) & Google Ads. PPC campaigns put your business at the very top of Google search results instantly, while SEO builds up over months. A skilled agency structures campaigns around high-intent keywords, negative keywords, and conversion tracking so your ad spend isn&apos;t wasted on irrelevant clicks.
+              A good social media marketing agency in Ghaziabad offers:
             </p>
+
+            <ul className="ml-4 list-disc list-inside space-y-2">
+              <li>Instagram, Facebook, and LinkedIn page management.</li>
+              <li>Reels and short-video content strategy.</li>
+              <li>Paid social media advertising.</li>
+              <li>Community management and engagement.</li>
+            </ul>
+
+            <h3 className="text-lg font-semibold text-gray-900 sm:text-xl">
+              4. Website Design and Development
+            </h3>
 
             <p>
-              4. Social Media Marketing. This covers content planning, creative design, and paid promotion across Instagram, Facebook, LinkedIn, and increasingly YouTube Shorts. For B2C brands in categories like fashion, food, real estate, and wellness, social media is often the fastest way to build brand recall in a local market like Ghaziabad.
+              Many clients look for a website designing and digital marketing
+              company in Ghaziabad that handles both services under one
+              contract:
             </p>
+
+            <ul className="ml-4 list-disc list-inside space-y-2">
+              <li>Business, e-commerce, and portfolio websites.</li>
+              <li>Landing pages built for lead generation.</li>
+              <li>Mobile-first and fast-loading designs.</li>
+              <li>CMS-based websites for easy content updates.</li>
+            </ul>
+
+            <h3 className="text-lg font-semibold text-gray-900 sm:text-xl">
+              5. Content Marketing
+            </h3>
 
             <p>
-              5. Website Design & Development. Marketing traffic is wasted if it lands on a slow, outdated, or non-mobile-friendly website. Many digital marketing agencies, including full IT companies, also build and redesign websites, landing pages, and e-commerce stores so the site itself supports conversions.
+              Content marketing services in Ghaziabad commonly include:
             </p>
+
+            <ul className="ml-4 list-disc list-inside space-y-2">
+              <li>Blog writing for organic traffic.</li>
+              <li>Video scripts and product descriptions.</li>
+              <li>Email marketing and newsletters.</li>
+              <li>Case studies and brand storytelling.</li>
+            </ul>
+
+            <h3 className="text-lg font-semibold text-gray-900 sm:text-xl">
+              6. Branding and Creative Design
+            </h3>
 
             <p>
-              6. Content Marketing. Blogs, case studies, videos, and downloadable guides help establish expertise and give search engines more reasons to rank your site. Good content also feeds AI-powered search tools like Google AI Overviews, which increasingly summarise answers directly in search results.
+              A branding agency in Ghaziabad typically supports:
             </p>
+
+            <ul className="ml-4 list-disc list-inside space-y-2">
+              <li>Logo design and brand identity.</li>
+              <li>Graphic design for social media and print.</li>
+              <li>Brand guidelines and positioning.</li>
+            </ul>
+
+            <h3 className="text-lg font-semibold text-gray-900 sm:text-xl">
+              7. Online Reputation Management (ORM)
+            </h3>
+
+            <ul className="ml-4 list-disc list-inside space-y-2">
+              <li>Review generation and monitoring.</li>
+              <li>Responding to customer feedback.</li>
+              <li>Managing brand mentions across platforms.</li>
+            </ul>
+
+            <h2 className="text-xl font-semibold text-gray-900 sm:text-2xl">
+              Benefits of Hiring a Local Digital Marketing Agency in Ghaziabad
+            </h2>
 
             <p>
-              7. Email & WhatsApp Marketing. Retaining existing customers is cheaper than acquiring new ones. Automated email sequences and WhatsApp broadcast campaigns help agencies keep your existing leads engaged through offers, reminders, and updates.
+              Choosing an affordable digital marketing agency in Ghaziabad
+              rather than a distant national vendor comes with practical
+              advantages:
             </p>
 
-            <p>
-              8. Online Reputation Management. Managing reviews on Google, Justdial, and social platforms, and responding professionally to both positive and negative feedback, directly affects whether a new customer trusts your business enough to make the first call.
-            </p>
+            <ol className="ml-4 list-decimal list-inside space-y-2">
+              <li>
+                <strong>Local market understanding:</strong> A Ghaziabad-based
+                agency understands local competitors, local search behavior,
+                and area-specific customer intent. Vaishali, Indirapuram, and
+                Sahibabad audiences may have different requirements.
+              </li>
+              <li>
+                <strong>Face-to-face meetings:</strong> In-person strategy
+                discussions, shoots, and reviews are easier to schedule.
+              </li>
+              <li>
+                <strong>Faster response times:</strong> The same time zone and
+                working hours can support quicker turnaround on urgent
+                requests.
+              </li>
+              <li>
+                <strong>Better local SEO results:</strong> Local agencies can
+                provide practical support for Google Business Profiles, local
+                citations, and NCR searches such as &quot;near me.&quot;
+              </li>
+              <li>
+                <strong>Cost efficiency:</strong> Ghaziabad-based agencies
+                often provide competitive pricing compared with Delhi or
+                Gurgaon-based firms with higher overheads.
+              </li>
+              <li>
+                <strong>Industry-specific experience:</strong> Many Ghaziabad
+                agencies have experience with local sectors such as real
+                estate, healthcare, education, manufacturing, and retail.
+              </li>
+            </ol>
 
-            <h2 className="text-xl sm:text-2xl font-semibold text-gray-900">
+            <h2 className="text-xl font-semibold text-gray-900 sm:text-2xl">
               How to Choose the Best Digital Marketing Agency in Ghaziabad
             </h2>
 
             <p>
-              With dozens of agencies and freelancers offering &ldquo;digital marketing&rdquo; in and around Ghaziabad, here&apos;s a practical checklist to separate serious agencies from the rest:
+              With multiple agencies offering similar services, and several
+              claiming to be the top digital marketing agency near Ghaziabad,
+              use this checklist before signing a contract:
             </p>
 
-            <p>
-              Ask for real client results, not just a client logo list. A trustworthy agency should be able to show actual traffic growth, lead numbers, or ranking improvements from past projects.
-            </p>
+            <ul className="ml-4 list-disc list-inside space-y-2">
+              <li>
+                <strong>Portfolio and case studies:</strong> Ask for real
+                client work and measurable results, such as traffic growth,
+                lead numbers, and ranking improvements.
+              </li>
+              <li>
+                <strong>Transparent reporting:</strong> A good agency shares
+                monthly performance reports with clear metrics rather than
+                vague summaries.
+              </li>
+              <li>
+                <strong>Service depth:</strong> Prefer an agency that can
+                handle SEO, advertising, social media, and web development
+                together so your strategy remains consistent across channels.
+              </li>
+              <li>
+                <strong>Client reviews and ratings:</strong> Check Google
+                reviews, testimonials, and third-party review platforms.
+              </li>
+              <li>
+                <strong>Communication process:</strong> Confirm how often you
+                will receive updates, such as weekly calls, dashboards, or
+                WhatsApp updates.
+              </li>
+              <li>
+                <strong>Pricing clarity:</strong> Avoid agencies that are
+                vague about deliverables and costs. Ask for a detailed
+                scope-of-work document.
+              </li>
+              <li>
+                <strong>Industry experience:</strong> An agency that has
+                already worked in your sector can understand your business
+                faster.
+              </li>
+              <li>
+                <strong>Team size and expertise:</strong> A dedicated team of
+                SEO specialists, ad managers, designers, and content writers
+                can be more effective than a single freelancer managing
+                everything.
+              </li>
+            </ul>
 
-            <p>
-              Check if they understand your local market. An agency based in or familiar with Ghaziabad and the wider NCR will understand local search behaviour, competitor landscape, and pricing sensitivity better than a distant, generic vendor.
-            </p>
+            <h2 className="text-xl font-semibold text-gray-900 sm:text-2xl">
+              Industries a Ghaziabad Digital Marketing Agency Typically Serves
+            </h2>
 
-            <p>
-              Look for transparent reporting. You should get regular reports showing rankings, traffic, ad spend, and leads — not vague monthly updates.
-            </p>
+            <ul className="ml-4 list-disc list-inside space-y-2">
+              <li>Real estate developers and property dealers.</li>
+              <li>Hospitals, clinics, and healthcare providers.</li>
+              <li>Educational institutions and coaching centers.</li>
+              <li>
+                E-commerce digital marketing in Ghaziabad for D2C retail
+                brands.
+              </li>
+              <li>Manufacturing and B2B suppliers.</li>
+              <li>Interior design and home decor businesses.</li>
+              <li>Restaurants, cafes, and hospitality brands.</li>
+              <li>Pharmacies and wellness businesses.</li>
+              <li>Wedding and event management companies.</li>
+            </ul>
 
-            <p>
-              Avoid agencies that guarantee &ldquo;#1 ranking overnight.&rdquo; No ethical agency can guarantee a specific Google ranking position or a timeline, because Google&apos;s algorithm depends on hundreds of factors, many outside anyone&apos;s direct control. What a good agency can promise is a structured, best-practice strategy and honest reporting on progress.
-            </p>
-
-            <p>
-              Check their own website and reviews. An agency that can&apos;t rank or maintain its own website is unlikely to do a great job on yours. Check their Google rating, client testimonials, and portfolio.
-            </p>
-
-            <p>
-              Confirm the scope in writing. SEO, PPC, social media, and web development are different skill sets. Make sure the contract clearly states what is included — number of blogs, ad budget management, design revisions, and reporting frequency.
-            </p>
-
-            <p>
-              Ask about the team behind the account. Some agencies outsource execution to freelancers with no oversight. Ask who will actually manage your account and how experienced they are.
-            </p>
-
-            <h2 className="text-xl sm:text-2xl font-semibold text-gray-900">
-              Digital Marketing Cost in Ghaziabad: What to Expect
+            <h2 className="text-xl font-semibold text-gray-900 sm:text-2xl">
+              Zentrix Infotech: A Digital Marketing Agency Operating in
+              Ghaziabad
             </h2>
 
             <p>
-              Pricing varies widely depending on scope, but as a general guide for the Ghaziabad/NCR market:
+              One of the digital marketing and IT companies with an
+              operational presence in Ghaziabad is Zentrix Infotech, which
+              lists an office address at A-20 Sunshine Apartment, Ghaziabad,
+              UP – 201013, alongside its main office in Moradabad. The agency
+              positions itself as a full-service technology and marketing
+              partner, offering digital marketing, web development, mobile app
+              development, UI/UX design, software development, and cloud
+              solutions under one roof.
             </p>
 
             <p>
-              Local SEO (small business): ₹8,000 – ₹20,000<br />
-              Full SEO (competitive niche): ₹20,000 – ₹60,000+<br />
-              Social Media Management: ₹10,000 – ₹35,000<br />
-              Google Ads / PPC (management fee, excl. ad spend): ₹8,000 – ₹25,000<br />
-              Website Design (one-time): ₹15,000 – ₹1,50,000+<br />
-              Combined Growth Package: ₹25,000 – ₹80,000+
+              Based on its public website, here&apos;s what stands out about
+              Zentrix Infotech:
             </p>
+
+            <ul className="ml-4 list-disc list-inside space-y-2">
+              <li>
+                <strong>Combined service model:</strong> Instead of only
+                running ad campaigns, Zentrix Infotech pairs digital marketing
+                with website and app development. This can help businesses
+                launch and promote their digital presence through a single
+                vendor.
+              </li>
+              <li>
+                <strong>Client base:</strong> The website showcases work
+                across sectors relevant to Ghaziabad and Moradabad businesses,
+                including healthcare, real estate, interiors, education,
+                retail, franchise brands, and hospitality.
+              </li>
+              <li>
+                <strong>Reported track record:</strong> The homepage cites a
+                4.7/5 client rating, along with 250+ completed projects and
+                270+ clients served.
+              </li>
+              <li>
+                <strong>Client feedback themes:</strong> Testimonials on the
+                site frequently mention improved local visibility, higher
+                inquiry volume through Google and social media, and stronger
+                results associated with local SEO and paid social campaigns.
+              </li>
+              <li>
+                <strong>Digital footprint:</strong> The company maintains an
+                active blog covering current digital marketing and technology
+                topics, along with active social profiles on Facebook,
+                Instagram, and LinkedIn.
+              </li>
+            </ul>
 
             <p>
-              These are indicative ranges; actual pricing depends on industry competitiveness, ad budget, and the scale of work involved. Always ask for a customised proposal based on your specific goals rather than comparing agencies on price alone.
+              If you are evaluating Zentrix Infotech or any similar agency, it
+              is worth directly asking for campaign-level data, including
+              traffic reports, ranking screenshots, and ad account access,
+              rather than relying on testimonials alone. This is good practice
+              with any digital marketing vendor.
             </p>
 
-            <h2 className="text-xl sm:text-2xl font-semibold text-gray-900">
-              Industries That Benefit Most From Digital Marketing in Ghaziabad
+            <h2 className="text-xl font-semibold text-gray-900 sm:text-2xl">
+              Pricing: What Does Digital Marketing Cost in Ghaziabad?
             </h2>
 
             <p>
-              Healthcare & Hospitals — appointment bookings driven through local SEO and Google Ads<br />
-              Real Estate — lead generation through Meta Ads, Google Ads, and landing pages<br />
-              Education Institutes — admission enquiries through SEO, content, and social campaigns<br />
-              E-commerce & Retail — full-funnel marketing from awareness to online sales<br />
-              Manufacturing & B2B — LinkedIn marketing, SEO, and inbound lead generation<br />
-              Hospitality & Events — Instagram-led brand building and Google Business Profile optimisation<br />
-              Clinics, Pharmacies & Wellness Brands — reputation management and local visibility
+              While exact pricing varies by online marketing company in
+              Ghaziabad and scope, typical pricing structures include:
             </p>
 
-            <h2 className="text-xl sm:text-2xl font-semibold text-gray-900">
-              A Closer Look: Zentrix Infotech — A Ghaziabad & Moradabad-Based Digital Marketing and IT Company
+            <ul className="ml-4 list-disc list-inside space-y-2">
+              <li>
+                <strong>Local SEO packages:</strong> Often offered on a
+                monthly retainer basis for small businesses targeting local
+                search visibility.
+              </li>
+              <li>
+                <strong>PPC management:</strong> Usually charged as a
+                management fee on top of the advertising budget set by the
+                client.
+              </li>
+              <li>
+                <strong>Social media management:</strong> Priced per platform
+                and per month, depending on posting frequency and advertising
+                spend.
+              </li>
+              <li>
+                <strong>Website development:</strong> Usually priced as a
+                one-time project, depending on complexity, such as a basic
+                business website or an e-commerce platform.
+              </li>
+            </ul>
+
+            <p>
+              Always request a written quotation with a clear breakdown of
+              deliverables before committing.
+            </p>
+
+            <h2 className="text-xl font-semibold text-gray-900 sm:text-2xl">
+              Common Mistakes Businesses Make While Hiring a Digital Marketing
+              Agency
             </h2>
 
-            <p>
-              While researching agencies that actually operate in this region, Zentrix Infotech stands out as a practical example. It is an IT solutions company with a registered office in Ghaziabad (A-20, Sunshine Apartment) alongside a Moradabad office, positioning it as a genuinely local NCR-based agency rather than a distant outsourced vendor.
-            </p>
+            <ul className="ml-4 list-disc list-inside space-y-2">
+              <li>
+                Choosing the cheapest option without checking past results.
+              </li>
+              <li>
+                Expecting overnight SEO rankings when organic SEO typically
+                takes 3–6 months to show strong results.
+              </li>
+              <li>
+                Not defining clear KPIs, such as leads, calls, or sales,
+                before the campaign starts.
+              </li>
+              <li>
+                Ignoring website quality while focusing only on advertising.
+              </li>
+              <li>
+                Ending campaigns too early before enough data is available to
+                identify a real trend.
+              </li>
+            </ul>
 
             <p>
-              What they offer: Zentrix Infotech runs as a full-stack digital and IT partner rather than a single-service vendor. Their service lineup spans website development, custom software development, mobile app development (Android and iOS), UI/UX design, cloud solutions, and digital marketing — meaning a business can get its website built and its marketing managed by the same team, which keeps strategy, design, and execution consistent.
+              A capable digital marketing agency in Ghaziabad can genuinely
+              change the trajectory of a local business, but the agency has to
+              match your industry, budget, and growth goals. Use the checklist
+              above, verify real results, and always start with a clearly
+              defined scope of work before signing any contract.
             </p>
 
-            <p>
-              Track record and positioning: The company lists over 250 completed projects and 270+ clients, with a 4.7-out-of-5 client rating displayed on their website. Their portfolio spans multiple sectors relevant to the Ghaziabad market — including e-commerce and retail (The Buyzaar Mart), hospitality and events (PS Decor, Kairvi Fort Resort), interior design studios (Vasterior, Alluring Glimpses), education (Kamla Devi Group of Institutions), and wellness/e-commerce brands (HerbsFox).
-            </p>
-
-            <p>
-              Client feedback themes: Testimonials on their site repeatedly mention two outcomes that matter most to local businesses — a professional, easy-to-navigate website, and a measurable increase in inquiries or bookings after digital marketing campaigns went live. Clients from healthcare (Jigyasa Hospital), real estate (Park Square), pharmacy (Ahlawat Pharmacy), and building materials (Balaji Bath & Tiles) specifically credit improved local visibility and lead flow to their campaigns.
-            </p>
-
-            <p>
-              Why this matters for the &ldquo;digital marketing agency in Ghaziabad&rdquo; search: Zentrix Infotech&apos;s combination of a local Ghaziabad address, multi-industry portfolio, and integrated web-plus-marketing model is a good reference point for what to look for in a full-service local agency — a team that can build the website, optimise it for search, and run the ongoing marketing campaigns, all under one roof.
-            </p>
-
-            <p>
-              This assessment is based on information publicly available on zentrixinfotech.com at the time of writing. Businesses should independently verify current pricing, availability, and specific service details directly with the company before signing any contract.
-            </p>
-
-            <h2 className="text-xl sm:text-2xl font-semibold text-gray-900">
-              Digital Marketing Trends Shaping Ghaziabad Businesses in 2026
-            </h2>
-
-            <p>
-              AI-powered search visibility. With Google AI Overviews and AI Mode now answering many queries directly, businesses need content that is clear, well-structured, and citation-ready, not just keyword-stuffed.
-            </p>
-
-            <p>
-              Voice search optimisation. As more users search by speaking rather than typing, content written in a natural, conversational tone performs better.
-            </p>
-
-            <p>
-              Short-form video. Reels and YouTube Shorts continue to drive faster brand recall than static posts, especially for local, service-based businesses.
-            </p>
-
-            <p>
-              Hyperlocal targeting. Ads and content targeted at specific Ghaziabad neighbourhoods (Indirapuram, Vaishali, Raj Nagar Extension, Sahibabad) consistently outperform city-wide generic targeting.
-            </p>
-
-            <p>
-              First-party data and WhatsApp marketing. With rising privacy restrictions on ad platforms, owning your customer data through email and WhatsApp lists is becoming a bigger priority.
-            </p>
-
-            <h2 className="text-xl sm:text-2xl font-semibold text-gray-900">
-              Final Thoughts
-            </h2>
-
-            <p>
-              Choosing a digital marketing agency in Ghaziabad is not just about picking the cheapest quote or the flashiest pitch deck — it&apos;s about finding a team that understands the local market, offers transparent reporting, and can genuinely connect your website, SEO, ads, and social media into one strategy that brings in real business. Whether you decide to work with a specialised local agency, a full-service IT and marketing company like Zentrix Infotech, or build an in-house team, the fundamentals stay the same: clear goals, consistent execution, and honest measurement of results.
-            </p>
-
-            <h2 className="text-xl sm:text-2xl font-semibold text-gray-900">
+            <h2 className="text-xl font-semibold text-gray-900 sm:text-2xl">
               Frequently Asked Questions (FAQs)
             </h2>
 
-            <div className="space-y-6 mt-6">
+            <div className="mt-6 space-y-6">
               <div>
-                <h3 className="font-semibold text-gray-900 mb-3">
-                  Q1. What does a digital marketing agency in Ghaziabad actually do?
+                <h3 className="mb-3 font-semibold text-gray-900">
+                  Q1. What does a digital marketing agency in Ghaziabad
+                  typically offer?
                 </h3>
                 <p>
-                  It manages a business&apos;s online presence — SEO, Google Ads, social media, website performance, and content — to generate more visibility, traffic, and leads.
+                  Most agencies in Ghaziabad offer SEO, Google and social media
+                  advertising, website design, content marketing, branding,
+                  and online reputation management, either individually or as
+                  bundled packages.
                 </p>
               </div>
 
               <div>
-                <h3 className="font-semibold text-gray-900 mb-3">
+                <h3 className="mb-3 font-semibold text-gray-900">
                   Q2. How much does digital marketing cost in Ghaziabad?
                 </h3>
                 <p>
-                  Costs typically range from ₹8,000 to ₹80,000+ per month depending on the services, industry, and competition level.
+                  Costs vary widely based on scope. Local SEO retainers, PPC
+                  management fees, and social media packages are usually priced
+                  monthly, while website development is typically a one-time
+                  project cost. Always ask for a written quote.
                 </p>
               </div>
 
               <div>
-                <h3 className="font-semibold text-gray-900 mb-3">
-                  Q3. How long does SEO take to show results in Ghaziabad?
+                <h3 className="mb-3 font-semibold text-gray-900">
+                  Q3. How long does SEO take to show results in Ghaziabad&apos;s
+                  competitive market?
                 </h3>
                 <p>
-                  Most SEO campaigns show noticeable movement in 3–6 months, with stronger results usually visible after 6–12 months of consistent work.
+                  Organic SEO generally takes 3 to 6 months to show meaningful
+                  ranking and traffic improvements, depending on competition
+                  level and the website&apos;s starting condition.
                 </p>
               </div>
 
               <div>
-                <h3 className="font-semibold text-gray-900 mb-3">
-                  Q4. Is Google Ads better than SEO for a Ghaziabad business?
+                <h3 className="mb-3 font-semibold text-gray-900">
+                  Q4. Is Zentrix Infotech a digital marketing agency based in
+                  Ghaziabad?
                 </h3>
                 <p>
-                  Google Ads brings faster, paid visibility; SEO builds slower but more sustainable, unpaid traffic. Most businesses benefit from using both together.
+                  Zentrix Infotech&apos;s website lists an office address in
+                  Ghaziabad at A-20 Sunshine Apartment, Ghaziabad, UP –
+                  201013, alongside a Moradabad office. The company offers
+                  digital marketing as one of its core services, along with
+                  web development, app development, UI/UX design, and cloud
+                  solutions.
                 </p>
               </div>
 
               <div>
-                <h3 className="font-semibold text-gray-900 mb-3">
-                  Q5. Can a digital marketing agency guarantee the #1 spot on Google?
+                <h3 className="mb-3 font-semibold text-gray-900">
+                  Q5. What services does Zentrix Infotech offer besides
+                  digital marketing?
                 </h3>
                 <p>
-                  No ethical agency can guarantee an exact ranking position, since Google&apos;s algorithm weighs many factors beyond any single agency&apos;s control.
+                  According to its website, Zentrix Infotech also provides web
+                  development, mobile app development, UI/UX design, custom
+                  software development, and cloud solutions, positioning itself
+                  as a full-service IT and marketing company.
                 </p>
               </div>
 
               <div>
-                <h3 className="font-semibold text-gray-900 mb-3">
-                  Q6. Does Zentrix Infotech offer both website development and digital marketing?
+                <h3 className="mb-3 font-semibold text-gray-900">
+                  Q6. What industries has Zentrix Infotech worked with?
                 </h3>
                 <p>
-                  Yes, based on their website, Zentrix Infotech offers web development, digital marketing, mobile apps, software development, UI/UX design, and cloud solutions.
+                  The client showcase on its website includes healthcare,
+                  real estate, interior design, education, e-commerce, retail
+                  franchises, wedding and event businesses, and hospitality
+                  brands.
                 </p>
               </div>
 
               <div>
-                <h3 className="font-semibold text-gray-900 mb-3">
-                  Q7. Where is Zentrix Infotech located?
+                <h3 className="mb-3 font-semibold text-gray-900">
+                  Q7. Does Zentrix Infotech have verified client reviews?
                 </h3>
                 <p>
-                  Their listed offices are in Ghaziabad (A-20, Sunshine Apartment) and Moradabad, Uttar Pradesh.
+                  The website displays a 4.7/5 rating along with client
+                  testimonials describing improved local visibility, higher
+                  inquiry volume, and lead generation results. As with any
+                  agency, it is worth requesting campaign-level data directly
+                  before making a hiring decision.
                 </p>
               </div>
 
               <div>
-                <h3 className="font-semibold text-gray-900 mb-3">
-                  Q8. What industries does Zentrix Infotech work with?
+                <h3 className="mb-3 font-semibold text-gray-900">
+                  Q8. How do I choose between multiple digital marketing
+                  agencies in Ghaziabad?
                 </h3>
                 <p>
-                  Their portfolio includes e-commerce, healthcare, real estate, education, hospitality, interior design, and wellness brands, among others.
+                  Compare portfolios, ask for measurable case studies, check
+                  review authenticity, confirm reporting frequency, and get a
+                  clear scope-of-work document before signing with any agency,
+                  including Zentrix Infotech or its competitors.
                 </p>
               </div>
 
               <div>
-                <h3 className="font-semibold text-gray-900 mb-3">
-                  Q9. Is local SEO important for small businesses in Ghaziabad?
+                <h3 className="mb-3 font-semibold text-gray-900">
+                  Q9. Should I hire a local Ghaziabad agency or a national
+                  digital marketing company?
                 </h3>
                 <p>
-                  Yes, local SEO helps nearby customers find a business through Google Maps and &ldquo;near me&rdquo; searches, which is often the fastest way to generate local leads.
+                  A local agency typically offers better understanding of
+                  NCR-specific search behavior, faster communication, and more
+                  competitive pricing. National agencies may offer larger
+                  teams and broader industry experience. The right choice
+                  depends on your budget and how hands-on you want the
+                  relationship to be.
                 </p>
               </div>
 
               <div>
-                <h3 className="font-semibold text-gray-900 mb-3">
-                  Q10. How do I choose the right digital marketing agency in Ghaziabad?
+                <h3 className="mb-3 font-semibold text-gray-900">
+                  Q10. What is the first step to start digital marketing for
+                  my Ghaziabad business?
                 </h3>
                 <p>
-                  Check their portfolio, client reviews, reporting transparency, and whether they understand the local Ghaziabad/NCR market before signing up.
+                  Start by optimizing your Google Business Profile for local
+                  search, auditing your website for basic SEO issues, and
+                  defining clear monthly goals, such as leads, calls, or sales,
+                  before choosing an agency or channel to invest in.
                 </p>
               </div>
             </div>
 
-            <p>
+             <p>
               📞 <strong>WhatsApp / Call:</strong>{" "}
               <a href="tel:+917248800839" className="text-blue-600 hover:underline">
                 +91 72488 00839
               </a>
               <br />
               📧 <strong>Email:</strong>{" "}
-              <a
-                href="mailto:info@zentrixinfotech.com"
-                className="text-blue-600 hover:underline"
-              >
-                [info@zentrixinfotech.com](mailto:info@zentrixinfotech.com)
+              <a href="mailto:info@zentrixinfotech.com" className="text-blue-600 hover:underline">
+                info@zentrixinfotech.com
               </a>
               <br />
               🌐 <strong>Website:</strong>{" "}
@@ -341,14 +606,32 @@ const Content = () => {
                 rel="noopener noreferrer"
                 className="text-blue-600 hover:underline"
               >
-                [www.zentrixinfotech.com](https://www.zentrixinfotech.com)
+                www.zentrixinfotech.com
               </a>
             </p>
 
-            <CityInternalLinks
-              city="ghaziabad"
-              currentSlug="/ghaziabad/digital-marketing-agency-ghaziabad"
-            />
+           <div className="mt-8 p-4 border border-gray-200 rounded-lg bg-gray-50">
+  <h3 className="text-lg sm:text-xl font-semibold text-gray-900 mb-3">
+    Related Services
+  </h3>
+
+  <ul className="list-disc list-inside space-y-2">
+    <li>
+      <Link
+        href="/ghaziabad/content-marketing-agency-in-ghaziabad
+"
+        className="text-blue-600 hover:underline"
+      >
+        Content Marketing Agency in Ghaziabad
+      </Link>
+    </li>
+  </ul>
+</div>
+
+<CityInternalLinks
+  city="ghaziabad"
+  currentSlug="/ghaziabad/digital-marketing-agency-in-ghaziabad"
+/>
           </div>
         </div>
 

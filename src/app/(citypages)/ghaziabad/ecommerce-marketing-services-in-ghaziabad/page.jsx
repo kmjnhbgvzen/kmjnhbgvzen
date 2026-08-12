@@ -7,18 +7,19 @@ import Portfolio from "@/components/Portfolio";
 import LandingServices from "@/components/LandingServices";
 
 export const metadata = {
-  title: "Best Ecommerce Marketing Services in Ghaziabad | Zentrix Infotech",
+  title: "Ecommerce Marketing Services in Ghaziabad | Grow Online Sales 2026",
   description:
-    "Looking for ecommerce marketing services in Ghaziabad? Get SEO, paid ads, content & conversion strategies that grow your online store's sales and visibility.",
+    "Looking for ecommerce marketing services in Ghaziabad? Get SEO, PPC, social ads & conversion-focused strategies that boost online store sales & ROI.",
   keywords:
-    "ecommerce marketing services in Ghaziabad, ecommerce marketing agency Ghaziabad, ecommerce SEO Ghaziabad, online store marketing Ghaziabad, digital marketing for ecommerce Ghaziabad, ecommerce website development Ghaziabad, ecommerce ads agency near me, online business growth Ghaziabad",
+    "ecommerce marketing services in Ghaziabad, ecommerce marketing agency Ghaziabad, ecommerce SEO services Ghaziabad, online store marketing company Ghaziabad, ecommerce PPC agency Ghaziabad, ecommerce social media marketing Ghaziabad, affordable ecommerce marketing agency Ghaziabad, ecommerce website marketing Ghaziabad, Amazon and Flipkart marketing agency Ghaziabad, D2C marketing agency Ghaziabad, ecommerce digital marketing company near me, online marketplace marketing services Ghaziabad, ecommerce conversion rate optimization Ghaziabad, ecommerce branding agency Ghaziabad, Shopify marketing agency Ghaziabad, ecommerce content marketing Ghaziabad",
   alternates: {
-    canonical: "https://www.zentrixinfotech.com/ghaziabad/ecommerce-marketing-services-in-ghaziabad",
+    canonical:
+      "https://www.zentrixinfotech.com/ghaziabad/ecommerce-marketing-services-in-ghaziabad",
   },
   openGraph: {
-    title: "Best Ecommerce Marketing Services in Ghaziabad | Zentrix Infotech",
+    title: "Ecommerce Marketing Services in Ghaziabad | Grow Online Sales 2026",
     description:
-      "Looking for ecommerce marketing services in Ghaziabad? Get SEO, paid ads, content & conversion strategies that grow your online store's sales and visibility.",
+      "Looking for ecommerce marketing services in Ghaziabad? Get SEO, PPC, social ads & conversion-focused strategies that boost online store sales & ROI.",
     url: "https://www.zentrixinfotech.com/ghaziabad/ecommerce-marketing-services-in-ghaziabad",
     siteName: "Zentrix Infotech",
     images: [
@@ -34,9 +35,9 @@ export const metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Best Ecommerce Marketing Services in Ghaziabad | Zentrix Infotech",
+    title: "Ecommerce Marketing Services in Ghaziabad | Grow Online Sales 2026",
     description:
-      "Looking for ecommerce marketing services in Ghaziabad? Get SEO, paid ads, content & conversion strategies that grow your online store's sales and visibility.",
+      "Looking for ecommerce marketing services in Ghaziabad? Get SEO, PPC, social ads & conversion-focused strategies that boost online store sales & ROI.",
     images: ["https://www.zentrixinfotech.com/zentrix_logo.jpg"],
   },
   icons: {
