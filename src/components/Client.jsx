@@ -4,8 +4,9 @@ import React from 'react';
 
 const companies = [
 
-  { id: 1, name: "Vasterior Pvt. Ltd.", logo: "https://www.vasterior.com/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fda12wzxoq%2Fimage%2Fupload%2Fv1764841085%2Fvasteriorlogo_bmzk0r.png&w=384&q=75" },
+  { id: 1, name: "Vasterior Pvt. Ltd.", logo: "https://res.cloudinary.com/dxpyhablz/image/upload/v1786516874/vasteriorlogo_hkclps.webp" },
   { id: 2, name: "The Buyzaar Mart", logo: "https://www.thebuyzaarmart.com/images/buyzaar-logo.png" },
+  
   { id: 3, name: "Kdedu", logo: "/kdedu-logo.png" },
   { id: 4, name: "Herbsfox", logo: "https://herbsfox.com/wp-content/uploads/2024/01/logo1.png" },
   { id: 5, name: "IMA", logo: "https://www.imamoradabad.com/IMA_LOGO.png" },
@@ -13,10 +14,8 @@ const companies = [
   { id: 7, name: "CUET Mock", logo: "https://cuetmock.com/img/logo_main_light.png" },
   { id: 8, name: "Kairvi Fort Resort", logo: "https://kairvifortresort.com/wp-content/uploads/2025/05/cropped-Kailash_Fort_Resort_Logo-removebg-preview-300x154.png" },
   { id: 9, name: "Jigyasa Hospital", logo: "https://www.jigyasahospital.com/logo.png" },
-  { id: 10, name: "Interio World", logo: "https://www.intirioworld.in/images/logo.jpg" },
   { id: 11, name: "Southern Palate", logo: "/southern-palate.png" },
   { id: 12, name: "Alluring Glimpses", logo: "https://res.cloudinary.com/dxpyhablz/image/upload/v1765010070/alluring_logo_vcsuge.png" },
-  { id: 13, name: "Deal 360", logo: "https://deal360.in/wp-content/uploads/2024/06/cropped-cropped-Navy_Blue_Minimalist_Text_Logo_20240501_223022_0000-removebg-preview-300x300.png" },
   { id: 14, name: "A Square Marketing", logo: "https://res.cloudinary.com/dxpyhablz/image/upload/v1765011236/a-sqaure_fk7u5x.png" },
   { id: 15, name: "Oracle Eye Hospital", logo: "https://www.oracleeyehospital.com/assets/oracle-eye-hospital-logo-6bz8k2xK.png" },
   { id: 16, name: "Balaji Bath & Tiles", logo: "https://res.cloudinary.com/dewxpvl5s/image/upload/v1764845324/WhatsApp_Image_2025-12-04_at_16.12.21_4bafaf4e_tdfwqu.jpg" },
@@ -24,6 +23,13 @@ const companies = [
   { id: 18, name: "Ahlawat Pharmacy", logo: "https://res.cloudinary.com/dewxpvl5s/image/upload/v1764845199/WhatsApp_Image_2025-12-04_at_16.09.23_39fba8bc_fqvizm.jpg" },
   { id: 19, name: "Nai Ummed Foundation", logo: "https://res.cloudinary.com/dewxpvl5s/image/upload/v1764845207/WhatsApp_Image_2025-12-04_at_16.10.33_599a3261_wk7gvu.jpg" },
   { id: 20, name: "Select HandiCraft", logo: "https://selecthandicrafts.org/select_logo.png" },
+  { id: 21, name: "The Buyzaar Sync", logo: "https://res.cloudinary.com/dxpyhablz/image/upload/v1786514364/buyzaar-sync-logo_2_cb7mx6.png" },
+  { id: 22, name: "Krishna Suzuki", logo: "https://res.cloudinary.com/dxpyhablz/image/upload/v1786516227/Suzuki_logo_qcqd4w.png" },
+
+  { id: 23, name: "Manik Suzuki", logo: "https://res.cloudinary.com/dxpyhablz/image/upload/v1786516227/Suzuki_logo_qcqd4w.png" },
+  { id: 25, name: "Balprada", logo: "https://res.cloudinary.com/dxpyhablz/image/upload/v1786517145/balprada_logo_qeeg9m.png" },
+  { id: 26, name: "MT Boss", logo: "https://res.cloudinary.com/dxpyhablz/image/upload/v1786517511/mtboss_nag8lp.png" },
+  { id: 27, name: "Space Build", logo: "https://res.cloudinary.com/dxpyhablz/image/upload/v1786527113/IMG_20260707_115312_vae81v_bngpxo.webp" },
   
 
 

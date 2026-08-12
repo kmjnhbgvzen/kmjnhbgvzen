@@ -11,10 +11,8 @@ export default function VideoBanner() {
       </h2>
 
       {/* ✅ Subheading */}
-      <p className="text-center text-gray-600 text-lg mt-6 max-w-5xl mx-auto">
-        We are an ROI driven boutique performance marketing agency in Dubai
-        working with brands and organisations to help grow revenue through
-        cutting edge technology and marketing.
+      <p className="text-center text-gray-600 text-2xl mt-6 max-w-5xl mx-auto">
+        We combine strategy, creativity, technology, and data to help ambitious brands stand out, connect with their audiences, and drive sustainable growth.
       </p>
 
       {/* ✅ GIF Section */}

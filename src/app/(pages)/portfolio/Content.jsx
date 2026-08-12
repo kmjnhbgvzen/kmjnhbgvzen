@@ -9,15 +9,27 @@ import React, { useState, useEffect, useRef } from 'react';
 const portfolio = () => {
     const router = useRouter();
 
-    const handleNavigate = () => {
-        router.push("/portfolio") ;
-    }
+    const handleNavigate = (link) => {
+    window.open(link, "_blank", "noopener,noreferrer");
+};
 
     const [visibleItems, setVisibleItems] = useState(new Set());
     const [isClient, setIsClient] = useState(false);
     const observerRef = useRef(null);
 
     const projects = [
+
+        {
+            id: 17,
+            image: 'https://res.cloudinary.com/dxpyhablz/image/upload/v1786521683/www.mtboss.in__Nest_Hub_1_s0qfjy.png',
+            title: 'MTBOSS',
+            category: 'Construction & Property Platform',
+            description: 'A comprehensive construction and property platform offering residential, commercial, and industrial construction solutions alongside property services, construction materials, and project management support. Designed to bring planning, building, sourcing, and property solutions together under one trusted ecosystem.',
+            link: 'https://www.mtboss.in/',
+            color: '#1F4D3A' // deep green to reflect construction, growth, trust, and stability
+        },
+
+        
         {
             id: 1,
             image: 'https://res.cloudinary.com/dewxpvl5s/image/upload/v1764833084/www.thebuyzaarmart.com__Nest_Hub_Max_2_-min_paneko.png',
@@ -83,7 +95,7 @@ const portfolio = () => {
             link: 'https://kdedu.org/',
             color: '#1e5aa8' // (professional blue to reflect trust, education, stability)
         },
-{
+        {
             id: 8,
             image: 'https://res.cloudinary.com/dewxpvl5s/image/upload/v1764836429/www.imamoradabad.com__Nest_Hub_Max_-min_lszssv.png',
             title: 'IMA Moradabad - Indian Medical Association',
@@ -94,12 +106,22 @@ const portfolio = () => {
         },
 
         {
+            id: 18,
+            image: 'https://res.cloudinary.com/dxpyhablz/image/upload/v1786522536/www.spacebuild.co.in_NestHu_1_c5kq5q.jpg',
+            title: 'Space Build',
+            category: 'Architecture & Interior Design',
+            description: 'A modern architecture and interior design brand focused on creating refined, functional, and thoughtfully designed spaces. From contemporary interiors to complete spatial solutions, Space Build blends aesthetics, functionality, and craftsmanship to transform everyday environments.',
+            link: 'https://www.spacebuild.co.in/',
+            color: '#8B7355' // warm taupe to reflect architecture, sophistication, craftsmanship, and premium spaces
+        },
+
+        {
             id: 9,
             image: 'https://res.cloudinary.com/dewxpvl5s/image/upload/v1764659999/www.intirioworld.in__k95xrg.png',
             title: 'Intirio World – Premium Home Décor Solutions',
             category: 'Interior Design & Home Improvement Platform',
             description: 'A comprehensive online platform offering high-quality decorative home improvement products including custom wallpapers, PVC panels, aluminum windows, vinyl flooring, artificial grass, LED mirrors, and vertical gardens for modern living spaces.',
-            link: 'https://www.intirioworld.in/',
+            link: '#',
             color: '#6b4423' // (warm brown to reflect interior design, wood, sophistication)
         },
         
@@ -160,7 +182,7 @@ const portfolio = () => {
             title: 'Deal360 - Smart Electronics & Appliances Hub',
             category: 'E-Commerce & Electronics Platform',
             description: 'A dynamic online marketplace offering curated deals on electronics, home appliances, and smart gadgets with real-time pricing, flash sales, and instant comparison tools for tech-savvy shoppers across India.',
-            link: 'https://deal360.in/',
+            link: '#',
             color: '#ff6b35' // (vibrant orange to reflect deals, energy, shopping excitement)
         },
 
@@ -170,9 +192,12 @@ const portfolio = () => {
             title: 'PSSIC',
             category: 'Education & Institutional Website',
             description: 'A prestigious inter college in Dhampur committed to quality education and holistic student development. Named in honor of freedom fighter Prem Singh, fostering academic excellence, values-based learning, and leadership skills since its establishment.',
-            link: 'https://prem-singh-swatantrta-senani-inter-college.vercel.app/',
+            link: '#',
             color: '#1a5490' // (royal blue to reflect education, patriotism, trust, stability)
         },
+
+
+        
 
     ];
 
@@ -307,14 +332,24 @@ const portfolio = () => {
                     <div className={`absolute top-2 sm:top-3 md:top-4 right-2 sm:right-3 md:right-4 transition-all duration-300 ${isHovered ? 'opacity-100 translate-y-0' : 'opacity-0 -translate-y-2'
                         }`}>
                         <button
-                            className="w-7 h-7 sm:w-8 sm:h-8 backdrop-blur-sm rounded-full flex items-center justify-center text-white hover:scale-110 transition-all duration-200"
-                            onClick={handleNavigate}
-                            style={{ backgroundColor: `${project.color}90` }}
-                        >
-                            <svg className="w-3 h-3 sm:w-4 sm:h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
-                            </svg>
-                        </button>
+    className="w-7 h-7 sm:w-8 sm:h-8 backdrop-blur-sm rounded-full flex items-center justify-center text-white hover:scale-110 transition-all duration-200"
+    onClick={() => handleNavigate(project.link)}
+    style={{ backgroundColor: `${project.color}90` }}
+>
+    <svg
+        className="w-3 h-3 sm:w-4 sm:h-4"
+        fill="none"
+        stroke="currentColor"
+        viewBox="0 0 24 24"
+    >
+        <path
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth={2}
+            d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10v-4M14 4h6m0 0v6m0-6L10 14"
+        />
+    </svg>
+</button>
                     </div>
                 </div>
 
