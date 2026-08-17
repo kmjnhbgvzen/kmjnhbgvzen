@@ -8,7 +8,7 @@ const companies = [
   { id: 2, name: "The Buyzaar Mart", logo: "https://www.thebuyzaarmart.com/images/buyzaar-logo.png" },
   
   { id: 3, name: "Kdedu", logo: "/kdedu-logo.png" },
-  { id: 4, name: "Herbsfox", logo: "https://herbsfox.com/wp-content/uploads/2024/01/logo1.png" },
+  { id: 4, name: "Herbsfox", logo: "https://res.cloudinary.com/dxpyhablz/image/upload/v1786985285/herbsfox_kq67qo.png" },
   { id: 5, name: "IMA", logo: "https://www.imamoradabad.com/IMA_LOGO.png" },
   { id: 6, name: "Pradeep Shukla Decor", logo: "https://www.psdecor.in/_next/image?url=%2Fassets%2Fpslogo.PNG&w=256&q=75" },
   { id: 7, name: "CUET Mock", logo: "https://cuetmock.com/img/logo_main_light.png" },
@@ -23,7 +23,7 @@ const companies = [
   { id: 18, name: "Ahlawat Pharmacy", logo: "https://res.cloudinary.com/dewxpvl5s/image/upload/v1764845199/WhatsApp_Image_2025-12-04_at_16.09.23_39fba8bc_fqvizm.jpg" },
   { id: 19, name: "Nai Ummed Foundation", logo: "https://res.cloudinary.com/dewxpvl5s/image/upload/v1764845207/WhatsApp_Image_2025-12-04_at_16.10.33_599a3261_wk7gvu.jpg" },
   { id: 20, name: "Select HandiCraft", logo: "https://selecthandicrafts.org/select_logo.png" },
-  { id: 21, name: "The Buyzaar Sync", logo: "https://res.cloudinary.com/dxpyhablz/image/upload/v1786514364/buyzaar-sync-logo_2_cb7mx6.png" },
+  
   { id: 22, name: "Krishna Suzuki", logo: "https://res.cloudinary.com/dxpyhablz/image/upload/v1786516227/Suzuki_logo_qcqd4w.png" },
 
   { id: 23, name: "Manik Suzuki", logo: "https://res.cloudinary.com/dxpyhablz/image/upload/v1786516227/Suzuki_logo_qcqd4w.png" },
