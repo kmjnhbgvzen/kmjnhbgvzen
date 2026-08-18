@@ -7,21 +7,49 @@ import Portfolio from "@/components/Portfolio";
 import LandingServices from "@/components/LandingServices";
 
 export const metadata = {
-  title: "Instagram Marketing Agency in Ghaziabad | Grow Followers & Sales",
+  title: "Instagram Marketing Agency in Ghaziabad | Zentrix Infotech",
+
   description:
-    "Top Instagram Marketing Agency in Ghaziabad for reels, ads, and content that build real engagement. Grow followers, leads, and sales. Get a free strategy call.",
-  keywords:
-    "Instagram marketing agency in Ghaziabad, Instagram marketing company Ghaziabad, Instagram ads agency Ghaziabad, Instagram reels marketing Ghaziabad, social media marketing agency Ghaziabad, Instagram growth services Ghaziabad, best Instagram marketing agency Ghaziabad, Instagram influencer marketing Ghaziabad, Instagram marketing services near me, digital marketing agency Ghaziabad Instagram, Instagram content creation Ghaziabad, Instagram promotion company Ghaziabad",
+    "Looking for the best Instagram marketing agency in Ghaziabad? Zentrix Infotech delivers ROI-driven Instagram growth, Reels marketing, influencer campaigns, and paid ads to scale your brand across Delhi NCR.",
+
+  keywords: [
+    "Instagram marketing agency in Ghaziabad",
+    "Instagram marketing Ghaziabad",
+    "Instagram ads agency Ghaziabad",
+    "Instagram Reels marketing Ghaziabad",
+    "Instagram growth agency Ghaziabad",
+    "Instagram management agency Ghaziabad",
+    "best Instagram marketing agency Ghaziabad",
+    "Instagram marketing services Ghaziabad",
+    "Instagram marketing company Ghaziabad",
+    "Instagram advertising agency Ghaziabad",
+    "Instagram content creation Ghaziabad",
+    "Instagram strategy Ghaziabad",
+    "Instagram influencer marketing Ghaziabad",
+    "Instagram for business Ghaziabad",
+    "Instagram SEO Ghaziabad",
+    "Instagram analytics Ghaziabad",
+    "Delhi NCR Instagram marketing",
+    "Ghaziabad social media agency",
+    "Instagram marketing for e-commerce Ghaziabad",
+    "Instagram marketing for real estate Ghaziabad",
+  ],
+
   alternates: {
     canonical:
       "https://www.zentrixinfotech.com/ghaziabad/instagram-marketing-agency-in-ghaziabad",
   },
+
   openGraph: {
-    title: "Instagram Marketing Agency in Ghaziabad | Grow Followers & Sales",
+    title: "Instagram Marketing Agency in Ghaziabad | Zentrix Infotech",
+
     description:
-      "Top Instagram Marketing Agency in Ghaziabad for reels, ads, and content that build real engagement. Grow followers, leads, and sales. Get a free strategy call.",
+      "Looking for the best Instagram marketing agency in Ghaziabad? Zentrix Infotech delivers ROI-driven Instagram growth, Reels marketing, influencer campaigns, and paid ads to scale your brand across Delhi NCR.",
+
     url: "https://www.zentrixinfotech.com/ghaziabad/instagram-marketing-agency-in-ghaziabad",
+
     siteName: "Zentrix Infotech",
+
     images: [
       {
         url: "https://www.zentrixinfotech.com/zentrix_logo.jpg",
@@ -30,16 +58,22 @@ export const metadata = {
         alt: "Zentrix Infotech Logo",
       },
     ],
+
     locale: "en_IN",
     type: "website",
   },
+
   twitter: {
     card: "summary_large_image",
-    title: "Instagram Marketing Agency in Ghaziabad | Grow Followers & Sales",
+
+    title: "Instagram Marketing Agency in Ghaziabad | Zentrix Infotech",
+
     description:
-      "Top Instagram Marketing Agency in Ghaziabad for reels, ads, and content that build real engagement. Grow followers, leads, and sales. Get a free strategy call.",
+      "Looking for the best Instagram marketing agency in Ghaziabad? Zentrix Infotech delivers ROI-driven Instagram growth, Reels marketing, influencer campaigns, and paid ads to scale your brand across Delhi NCR.",
+
     images: ["https://www.zentrixinfotech.com/zentrix_logo.jpg"],
   },
+
   icons: {
     icon: "/favicon-v2.ico",
   },
