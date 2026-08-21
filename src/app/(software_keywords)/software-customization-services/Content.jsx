@@ -302,30 +302,6 @@ const Content = () => {
               If your current software feels like it&apos;s holding your business back instead of supporting it, replacing it entirely isn&apos;t always the answer — and it isn&apos;t always necessary. In many cases, the right modifications can make your existing software work exactly the way your business needs it to. Zentrix Infotech is ready to review your software, understand your requirements, and show you what&apos;s possible — and right now, this customization service is available free of cost. Reach out to Zentrix Infotech today to share your software requirements and start the conversation.
             </p>
 
-            <p>
-              📞 <strong>WhatsApp / Call:</strong>{" "}
-              <a href="tel:+917248800839" className="text-blue-600 hover:underline">
-                +91 72488 00839
-              </a>
-              <br />
-              📧 <strong>Email:</strong>{" "}
-              <a
-                href="mailto:info@zentrixinfotech.com"
-                className="text-blue-600 hover:underline"
-              >
-                info@zentrixinfotech.com
-              </a>
-              <br />
-              🌐 <strong>Website:</strong>{" "}
-              <a
-                href="https://www.zentrixinfotech.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-blue-600 hover:underline"
-              >
-                www.zentrixinfotech.com
-              </a>
-            </p>
 
             <div className="mt-8 p-4 border border-gray-200 rounded-lg bg-gray-50">
               <h3 className="text-lg sm:text-xl font-semibold text-gray-900 mb-3">
