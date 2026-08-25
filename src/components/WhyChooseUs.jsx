@@ -31,7 +31,7 @@ const points = [
 
 const WhyChooseUs = () => {
   return (
-    <section className="py-16 bg-white">
+    <section className="py-8 bg-white">
       {/* Heading */}
       <div className="max-w-6xl mx-auto text-center px-4">
         <h2 className="text-3xl md:text-4xl lg:text-5xl font-serif font-medium mb-4">

@@ -220,13 +220,13 @@ export default function Page() {
         </div>
       </div>
 
-      <div className="bg-white py-12">
+      <div className="bg-white pt-0 pb-12">
         <div className="max-w-7xl mx-auto px-8">
           <h2 className="text-4xl font-serif font-medium text-center mb-3">
             Explore Other Cities
           </h2>
           <p className="text-gray-600 text-center mb-8 max-w-3xl mx-auto">
-            Discover detailed information about each service we offer in Other cities
+            Discover detailed information about the services we offer in other cities.
           </p>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">

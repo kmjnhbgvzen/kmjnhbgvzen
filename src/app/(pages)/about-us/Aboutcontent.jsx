@@ -148,9 +148,9 @@ const AboutUsSection = () => {
           }}
         />
 
-        <div className="max-w-7xl lg:pt-32 py-14 mx-auto relative z-10">
+        <div className="max-w-7xl lg:pt-8 pt-4 pb-14 mx-auto relative z-10">
           {/* Header Section */}
-          <div className="text-center mb-10 mt-10">
+          <div className="text-center mb-10 mt-0">
             <div className="inline-flex items-center px-6 py-3 rounded-full font-medium font-serif bg-linear-to-r from-emerald-500/10 to-blue-500/10 border border-emerald-500/30 text-teal-400 mb-8 backdrop-blur-sm hover:scale-105 transition-transform duration-300 relative overflow-hidden">
               <svg
                 className="w-4 h-4 mr-2 animate-pulse"
@@ -166,7 +166,7 @@ const AboutUsSection = () => {
               <div className="absolute inset-0 bg-linear-to-r from-transparent via-white/30 to-transparent translate-x-[-100%] animate-shimmer" />
             </div>
 
-            <h2 className="text-3xl md:text-6xl lg:text-5xl font-medium font-serif mb-8 leading-tight">
+            <h2 className="text-3xl md:text-6xl lg:text-5xl font-medium font-serif mt-4 mb-8 leading-tight">
               <span className="text-slate-900 block">
                 Crafting the future of
               </span>

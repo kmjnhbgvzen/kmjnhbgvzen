@@ -226,7 +226,7 @@ export default function Page() {
             Explore Other Cities
           </h2>
           <p className="text-gray-600 text-center mb-8 max-w-3xl mx-auto">
-            Discover detailed information about each service we offer in Other cities
+            Discover detailed information about the services we offer in other cities.
           </p>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">

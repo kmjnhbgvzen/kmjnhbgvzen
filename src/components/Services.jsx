@@ -51,11 +51,11 @@ const Services = () => {
   ];
 
   return (
-    <div className="bg-white p-8 pb-20">
+    <div className="bg-white -mt-4 sm:-mt-8 pt-4 sm:pt-10 px-4 sm:px-8 pb-12 sm:pb-20">
       <div className="max-w-7xl mx-auto">
-        <div className="text-center mb-12">
-          <h2 className="text-4xl md:text-6xl font-medium font-serif text-gray-900 mb-4 ">Services We Offer</h2>
-          <p className="text-gray-600 text-lg">Comprehensive solutions tailored to your needs</p>
+        <div className="text-center mb-8 sm:mb-12">
+          <h2 className="text-4xl md:text-6xl font-normal font-serif text-gray-900 mb-2 sm:mb-4 leading-tight">Services We Offer</h2>
+          <p className="text-gray-600 text-base sm:text-lg leading-relaxed">Comprehensive solutions tailored to your needs</p>
         </div>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -78,7 +78,7 @@ const Services = () => {
                   }}
                   onMouseLeave={(e) => {
                     e.currentTarget.style.borderColor = 'rgb(229 231 235)';
-                    e.currentTarget.style.boxShadow = '0 1px 3px 0 rgb(0 0 0 / 0.1)';
+                    e.currentTarget.cdstyle.boxShadow = '0 1px 3px 0 rgb(0 0 0 / 0.1)';
                   }}
                 >
                   {/* Animated background linear on hover */}
@@ -107,12 +107,12 @@ const Services = () => {
                     </div>
 
                     {/* Title */}
-                    <h3 className="text-xl font-semibold text-gray-900 mb-3 group-hover:text-gray-800 transition-colors">
+                    <h3 className="text-xl font-semibold text-gray-900 mb-2.5 sm:mb-3 leading-tight group-hover:text-gray-800 transition-colors">
                       {service.title}
                     </h3>
 
                     {/* Description */}
-                    <p className="text-gray-600 leading-relaxed text-sm mb-6">
+                    <p className="text-gray-600 text-sm leading-relaxed mb-5 sm:mb-6">
                       {service.description}
                     </p>
 
