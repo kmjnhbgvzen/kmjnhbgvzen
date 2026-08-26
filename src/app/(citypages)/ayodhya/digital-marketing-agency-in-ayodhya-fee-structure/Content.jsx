@@ -140,7 +140,7 @@ const Content = () => {
               <li>Scale indicates established pricing processes — with 250-plus completed projects and 270-plus clients claimed on its homepage, the company likely has a structured quoting process rather than ad-hoc pricing.</li>
               <li>Industry range suggests flexible packages — its portfolio spans small business clients (like local pharmacies and retail shops) up to larger clients (hospitals, educational institutions, and hospitality brands), suggesting fee structures that can scale from smaller monthly retainers to larger combined packages.</li>
               <li>What to confirm directly — since no fee structure is published publicly, request an itemised quote broken down by service, ask whether ad spend is billed separately, and confirm the minimum contract duration before committing.</li>
-              <li>Contact for a quote: +91 7248800839 or +91 6397036898, email <a href="mailto:info@zentrixinfotech.com" className="text-blue-600 hover:underline">info@zentrixinfotech.com</a>.</li>
+              <li>Contact for a quote: +91 72488 00839 or +91 63970 36898, email <a href="mailto:info@zentrixinfotech.com" className="text-blue-600 hover:underline">info@zentrixinfotech.com</a>.</li>
             </ul>
 
             <h2 className="text-xl sm:text-2xl font-semibold text-gray-900">

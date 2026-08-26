@@ -150,7 +150,7 @@ const Content = () => {
               <li>Outcome-specific testimonials — published client feedback mentions concrete results relevant to social media efforts, including increased patient enquiries through social media for a healthcare client and improved dealer and franchise visibility through targeted campaigns for a building materials client.</li>
               <li>Scale indicators — the company displays a 4.7-out-of-5 rating along with 250-plus completed projects and 270-plus clients on its homepage.</li>
               <li>What to confirm directly — ask specifically about their experience managing social media for hospitality or tourism-driven businesses, request a sample of an actual managed Instagram or Facebook account, and clarify whether ad spend is included in their digital marketing packages or billed separately.</li>
-              <li>Contact for a quote: +91 7248800839 or +91 6397036898, email <a href="mailto:info@zentrixinfotech.com" className="text-blue-600 hover:underline">info@zentrixinfotech.com</a>.</li>
+              <li>Contact for a quote: +91 72488 00839 or +91 63970 36898, email <a href="mailto:info@zentrixinfotech.com" className="text-blue-600 hover:underline">info@zentrixinfotech.com</a>.</li>
             </ul>
 
             <h2 className="text-xl sm:text-2xl font-semibold text-gray-900">

@@ -207,7 +207,7 @@ const Content = () => {
                   6. How can a business in Varanasi contact Zentrix Infotech to discuss SEO services?
                 </h3>
                 <p>
-                  As listed on their official website, Zentrix Infotech can be reached by phone at +91 7248800839 or +91 6397036898, by email at [info@zentrixinfotech.com](mailto:info@zentrixinfotech.com), or through the contact form on [www.zentrixinfotech.com](https://www.zentrixinfotech.com).
+                  As listed on their official website, Zentrix Infotech can be reached by phone at +91 72488 00839 or +91 63970 36898, by email at [info@zentrixinfotech.com](mailto:info@zentrixinfotech.com), or through the contact form on [www.zentrixinfotech.com](https://www.zentrixinfotech.com).
                 </p>
               </div>
             </div>

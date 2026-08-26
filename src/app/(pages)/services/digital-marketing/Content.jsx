@@ -254,12 +254,14 @@ const DigitalMarketingSaaS = () => {
 
     return (
         <div className="min-h-screen bg-linear-to-br from-slate-50 via-white to-blue-50 text-slate-900">
-            <div className="container mx-auto px-4 sm:px-6 md:py-34 lg:py-40 py-24">
+            <div className="container mx-auto px-4 sm:px-6 pt-20 sm:pt-24 md:pt-28 lg:pt-32 pb-24">
                 <div className="mb-6 sm:mb-8 text-center">
-                    <h1 className="text-4xl md:text-5xl lg:text-7xl font-medium font-serif bg-linear-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent mb-2 mt-10 sm:mt-14">
+                    <h1 className="text-4xl md:text-5xl lg:text-7xl font-medium font-serif bg-linear-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent mb-3 sm:mb-4 leading-tight drop-shadow-sm">
                         Digital Marketing
                     </h1>
-                    <p className="text-slate-600 text-md md:text-xl">Unified analytics dashboard for all your marketing campaigns</p>
+                    <p className="max-w-3xl mx-auto text-slate-600 text-base md:text-xl leading-relaxed">
+                        Unified analytics dashboard for all your marketing campaigns
+                    </p>
                 </div>
 
                 {/* Interactive Marketing Dashboard Preview */}
@@ -267,7 +269,7 @@ const DigitalMarketingSaaS = () => {
                     initial={{ opacity: 0, scale: 0.8, y: 100 }}
                     animate={{ opacity: 1, scale: 1, y: 0 }}
                     transition={{ delay: 1.2, duration: 1, ease: "backOut" }}
-                    className="relative mt-4 sm:mt-8 md:mt-20 mb-8 sm:mb-12"
+                    className="relative mt-6 sm:mt-10 md:mt-12 mb-8 sm:mb-12"
                 >
                     <div className="relative mx-auto max-w-6xl">
                         <motion.div

@@ -264,7 +264,7 @@ const Content = () => {
                   Q10. How can I contact Zentrix Infotech?
                 </h3>
                 <p>
-                  You can reach Zentrix Infotech at +91 7248800839, +91 6397036898, or email info@zentrixinfotech.com.
+                  You can reach Zentrix Infotech at +91 72488 00839, +91 63970 36898, or email info@zentrixinfotech.com.
                 </p>
               </div>
             </div>

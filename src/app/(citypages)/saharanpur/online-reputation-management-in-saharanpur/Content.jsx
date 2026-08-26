@@ -246,7 +246,7 @@ const Content = () => {
 
               <div>
                 <h3 className="font-semibold text-gray-900 mb-3">10. How can I contact Zentrix Infotech for reputation management services?</h3>
-                <p>You can reach Zentrix Infotech at +91 7248800839, +91 6397036898, or via email at <a href="mailto:info@zentrixinfotech.com" className="text-blue-600">info@zentrixinfotech.com</a>.</p>
+                <p>You can reach Zentrix Infotech at +91 72488 00839, +91 63970 36898, or via email at <a href="mailto:info@zentrixinfotech.com" className="text-blue-600">info@zentrixinfotech.com</a>.</p>
               </div>
             </div>
 

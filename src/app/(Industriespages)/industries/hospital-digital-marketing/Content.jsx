@@ -201,7 +201,7 @@ export default function HospitalDigitalMarketing() {
                 Don&apos;t let competitors steal your patients. Book a free digital marketing audit and strategy session with Zentrix Infotech today. See how hospital digital marketing can transform your practice.
               </p>
               <p className="text-gray-700 mb-4">
-                Call: <a href="tel:+917248800839" className="text-blue-600 hover:underline">+91-7248800839</a> &nbsp;|&nbsp; Email: <a href="mailto:info@zentrixinfotech.com" className="text-blue-600 hover:underline">info@zentrixinfotech.com</a>
+                Call: <a href="tel:+917248800839" className="text-blue-600 hover:underline">+91 72488 00839</a> &nbsp;|&nbsp; Email: <a href="mailto:info@zentrixinfotech.com" className="text-blue-600 hover:underline">info@zentrixinfotech.com</a>
               </p>
               <a href="tel:+917248800839">
                 <button className="bg-blue-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-blue-500">

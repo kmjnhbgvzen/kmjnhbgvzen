@@ -677,7 +677,7 @@ export default function ContactUs() {
                                             </h3>
 
                                             <p className="text-sm text-gray-600 font-medium">
-                                                +91 72488 00839, +91 6397036898
+                                                +91 72488 00839, +91 63970 36898
                                             </p>
 
                                         </div>

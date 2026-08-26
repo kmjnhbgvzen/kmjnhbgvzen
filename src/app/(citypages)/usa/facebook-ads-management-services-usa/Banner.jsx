@@ -37,7 +37,7 @@ Facebook Ads Management Services USA
               <button className="bg-gradient-to-r from-[#2eaad4] to-[#2c67f2] px-5 py-3 rounded-xl font-semibold border-2 border-white hover:opacity-90 transition flex items-center justify-center gap-2 shadow-lg">
                 <Phone size={18} />
                 <span className="text-base">
-                  +91 7248800839
+                  +91 72488 00839
                 </span>
               </button>
             </a>

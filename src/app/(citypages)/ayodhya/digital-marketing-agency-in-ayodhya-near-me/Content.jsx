@@ -126,7 +126,7 @@ const Content = () => {
               <li><strong>Industry experience:</strong> Portfolio includes hospitality, healthcare, education, retail, and real estate clients — categories that overlap closely with Ayodhya&apos;s business mix.</li>
               <li><strong>Reporting and outcomes:</strong> Published testimonials mention specific results — increased patient enquiries for a healthcare client, higher property footfall for a real estate client, and a noticeable booking boost during peak season for a resort client — rather than only generic praise.</li>
               <li><strong>What to confirm directly:</strong> Since the company isn&apos;t headquartered inside Ayodhya itself, ask specifically about their experience with pilgrimage-driven, tourism-heavy business categories, and get their exact monthly reporting process in writing before signing.</li>
-              <li><strong>Contact details:</strong> Phone +91 7248800839 or +91 6397036898, email <a href="mailto:info@zentrixinfotech.com" className="text-blue-600 hover:underline">info@zentrixinfotech.com</a>.</li>
+              <li><strong>Contact details:</strong> Phone +91 72488 00839 or +91 63970 36898, email <a href="mailto:info@zentrixinfotech.com" className="text-blue-600 hover:underline">info@zentrixinfotech.com</a>.</li>
             </ul>
 
             <h2 className="text-xl sm:text-2xl font-semibold text-gray-900">

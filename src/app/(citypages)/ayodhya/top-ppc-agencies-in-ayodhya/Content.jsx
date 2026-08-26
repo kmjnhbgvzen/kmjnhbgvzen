@@ -131,7 +131,7 @@ const Content = () => {
               <li>Outcome-specific testimonials — published client feedback mentions a real estate client describing increased quality leads and higher footfall from targeted campaigns, and a resort client crediting digital campaigns with a noticeable booking boost during peak seasons, both relevant indicators for PPC-style performance work.</li>
               <li>Scale indicators — the company displays a 4.7-out-of-5 rating along with 250-plus completed projects and 270-plus clients on its homepage.</li>
               <li>What to confirm directly — ask specifically whether their team holds active Google Ads or Meta Business Partner certification, request a sample PPC campaign report, and confirm that ad account ownership stays with your business.</li>
-              <li>Contact for a quote: +91 7248800839 or +91 6397036898, email <a href="mailto:info@zentrixinfotech.com" className="text-blue-600 hover:underline">info@zentrixinfotech.com</a>.</li>
+              <li>Contact for a quote: +91 72488 00839 or +91 63970 36898, email <a href="mailto:info@zentrixinfotech.com" className="text-blue-600 hover:underline">info@zentrixinfotech.com</a>.</li>
             </ul>
 
             <p>
@@ -190,7 +190,7 @@ const Content = () => {
 
               <div>
                 <h3 className="font-semibold text-gray-900 mb-3">Q10. How can I get a PPC quote from Zentrix Infotech?</h3>
-                <p>Contact them directly via phone (+91 7248800839 / +91 6397036898) or email (<a href="mailto:info@zentrixinfotech.com" className="text-blue-600 hover:underline">info@zentrixinfotech.com</a>) for a discovery call.</p>
+                <p>Contact them directly via phone (+91 72488 00839 / +91 63970 36898) or email (<a href="mailto:info@zentrixinfotech.com" className="text-blue-600 hover:underline">info@zentrixinfotech.com</a>) for a discovery call.</p>
               </div>
             </div>
 

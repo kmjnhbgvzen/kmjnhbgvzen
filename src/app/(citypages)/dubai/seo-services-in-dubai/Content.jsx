@@ -242,7 +242,7 @@ const Content = () => {
             <p>
               Contact us today for an SEO consultation:
               <br />
-              📞 +91 7248800839 | +91 6397036898
+              📞 +91 72488 00839 | +91 63970 36898
               <br />
               📧{" "}
               <a href="mailto:info@zentrixinfotech.com" className="text-blue-600">
@@ -330,7 +330,7 @@ const Content = () => {
               <div>
                 <h4 className="font-semibold text-gray-900">9. How can I contact Zentrix Infotech for SEO services?</h4>
                 <p>
-                  You can reach Zentrix Infotech at +91 7248800839, +91 6397036898, or via email{" "}
+                  You can reach Zentrix Infotech at +91 72488 00839, +91 63970 36898, or via email{" "}
                   <a href="mailto:info@zentrixinfotech.com" className="text-blue-600">
                     info@zentrixinfotech.com
                   </a>

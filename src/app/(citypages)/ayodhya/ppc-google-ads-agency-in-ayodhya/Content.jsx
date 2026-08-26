@@ -192,7 +192,7 @@ const Content = () => {
 
               <div>
                 <h3 className="font-semibold text-gray-900 mb-3">Q9. How can I contact Zentrix Infotech for PPC or Google Ads management?</h3>
-                <p>Zentrix Infotech can be reached at +91 7248800839 or +91 6397036898, or via email at info@zentrixinfotech.com.</p>
+                <p>Zentrix Infotech can be reached at +91 72488 00839 or +91 63970 36898, or via email at info@zentrixinfotech.com.</p>
               </div>
 
               <div>

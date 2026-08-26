@@ -263,7 +263,7 @@ const Content = () => {
               <br />
               📞 <strong>Alternate Call:</strong>{" "}
               <a href="tel:+916397036898" className="text-blue-600 hover:underline">
-                +91 6397036898
+                +91 63970 36898
               </a>
               <br />
               📧 <strong>Email:</strong>{" "}

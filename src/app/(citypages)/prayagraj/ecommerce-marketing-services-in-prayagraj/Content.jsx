@@ -201,7 +201,7 @@ const Content = () => {
                   6. How can an e-commerce business in Prayagraj get in touch with Zentrix Infotech?
                 </h3>
                 <p>
-                  As listed on their official website, Zentrix Infotech can be contacted by phone at +91 7248800839 or +91 6397036898, by email at [info@zentrixinfotech.com](mailto:info@zentrixinfotech.com), or through the contact form on [www.zentrixinfotech.com](https://www.zentrixinfotech.com).
+                  As listed on their official website, Zentrix Infotech can be contacted by phone at +91 72488 00839 or +91 63970 36898, by email at [info@zentrixinfotech.com](mailto:info@zentrixinfotech.com), or through the contact form on [www.zentrixinfotech.com](https://www.zentrixinfotech.com).
                 </p>
               </div>
             </div>

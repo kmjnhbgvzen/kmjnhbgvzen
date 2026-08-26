@@ -57,6 +57,11 @@ const Footer = () => {
     "+916397036898",
   ];
 
+  const formatPhone = (phone) => {
+    const digits = phone.replace(/\D/g, '').slice(-10);
+    return `+91 ${digits.slice(0, 5)} ${digits.slice(5)}`;
+  };
+
   const socialLinks = [
     { name: "Facebook", href: "https://www.facebook.com/zentrixinfotech.in/", icon: Facebook },
     { name: "LinkedIn", href: "https://www.linkedin.com/company/zentrix-infotech", icon: Linkedin },
@@ -129,7 +134,7 @@ const Footer = () => {
                       href={`tel:${phone}`}
                       className="hover:text-green-600 cursor-pointer transition-all duration-200"
                     >
-                      {phone.replace("+91", "+91 ")}
+                      {formatPhone(phone)}
                     </Link>
                   </div>
                 ))}

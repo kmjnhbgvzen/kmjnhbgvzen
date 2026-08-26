@@ -613,7 +613,8 @@ const Hero = () => {
         from-[#f56a6a]/5
         via-white
         to-[#f04393]/5
-        pt-16
+        pt-8
+        sm:pt-10
         lg:pt-[100px]
         min-h-[calc(100vh-80px)]
       "
@@ -708,9 +709,11 @@ const Hero = () => {
             lg:grid-cols-2
             gap-12
             lg:gap-16
-            items-center
+            items-start
+            lg:items-center
             min-h-[calc(100vh-180px)]
-            pt-8
+            pt-6
+            sm:pt-8
             pb-24
           "
         >

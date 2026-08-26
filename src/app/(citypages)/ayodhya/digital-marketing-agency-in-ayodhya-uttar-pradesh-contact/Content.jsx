@@ -77,14 +77,14 @@ const Content = () => {
                 href="tel:+917248800839"
                 className="text-blue-600 hover:underline"
               >
-                +91 7248800839
+                +91 72488 00839
               </a>{" "}
               or{" "}
               <a
                 href="tel:+916397036898"
                 className="text-blue-600 hover:underline"
               >
-                +91 6397036898
+                +91 63970 36898
               </a>
               . These numbers are available for general inquiries, service
               questions, and scheduling a consultation with the team.
@@ -103,7 +103,7 @@ const Content = () => {
                 rel="noopener noreferrer"
                 className="text-blue-600 hover:underline"
               >
-                +91 6397036898
+                +91 63970 36898
               </a>
               , allowing you to send a message directly and receive a response
               without needing to make a phone call.
@@ -343,14 +343,14 @@ const Content = () => {
                     href="tel:+917248800839"
                     className="text-blue-600 hover:underline"
                   >
-                    +91 7248800839
+                    +91 72488 00839
                   </a>{" "}
                   or{" "}
                   <a
                     href="tel:+916397036898"
                     className="text-blue-600 hover:underline"
                   >
-                    +91 6397036898
+                    +91 63970 36898
                   </a>
                   .
                 </p>
@@ -368,7 +368,7 @@ const Content = () => {
                     rel="noopener noreferrer"
                     className="text-blue-600 hover:underline"
                   >
-                    +91 6397036898
+                    +91 63970 36898
                   </a>
                   .
                 </p>
