@@ -51,7 +51,7 @@ const organizationSchema = {
   description:
     "Zentrix Infotech is a Website Development, Custom Software, and Digital Marketing company transforming ideas into powerful digital solutions for businesses worldwide.",
   email: "info@zentrixinfotech.com",
-  telephone: ["+91-72488-00839", "+91-63970-36898"],
+  telephone: ["+91 72488 00839", "+91 63970 36898"],
   address: [
     {
   "@type": "PostalAddress",
@@ -73,13 +73,13 @@ const organizationSchema = {
   contactPoint: [
     {
       "@type": "ContactPoint",
-      telephone: "+91-72488-00839",
+      telephone: "+91 72488 00839",
       contactType: "Sales",
       availableLanguage: ["English", "Hindi"],
     },
     {
       "@type": "ContactPoint",
-      telephone: "+91-63970-36898",
+      telephone: "+91 63970 36898",
       contactType: "Support",
       availableLanguage: ["English", "Hindi"],
     },

@@ -55,10 +55,10 @@ const ServicesSection = () => {
   ];
 
   return (
-    <section className="bg-white text-black py-20 px-4">
+    <section className="bg-white text-black pt-10  pb-20 px-4">
       <div className="max-w-7xl mx-auto">
         {/* Header */}
-        <h2 className="text-3xl md:text-4xl font-medium font-serif text-center mb-16 tracking-wide">
+        <h2 className="text-3xl md:text-4xl font-serif text-center mb-10 tracking-wide">
           OUR SERVICES
         </h2>
 

@@ -26,7 +26,7 @@ const ContactWidget = () => {
             </p>
 
             <p className="text-sm font-bold text-black">
-              (+91 7248800839, +91 6397036898){' '}
+              (+91 72488 00839, +91 63970 36898){' '}
               <a 
                 href="mailto:zentrixit@gmail.com" 
                 className="text-blue-600 hover:underline"

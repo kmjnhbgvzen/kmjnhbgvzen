@@ -157,7 +157,7 @@ const Content = () => {
             </h2>
 
             <ul className="list-disc list-inside space-y-2 ml-4">
-              <li>Phone: +91 7248800839 / +91 6397036898</li>
+              <li>Phone: +91 72488 00839 / +91 63970 36898</li>
               <li>Email: <a href="mailto:info@zentrixinfotech.com" className="text-blue-600 hover:underline">info@zentrixinfotech.com</a></li>
               <li>Registered office location: Civil Lines, Moradabad, Uttar Pradesh</li>
             </ul>
@@ -221,7 +221,7 @@ const Content = () => {
 
               <div>
                 <h3 className="font-semibold text-gray-900 mb-3">Q3. How can I contact Zentrix Infotech?</h3>
-                <p>You can reach them by phone at +91 7248800839 or +91 6397036898, or by email at <a href="mailto:info@zentrixinfotech.com" className="text-blue-600 hover:underline">info@zentrixinfotech.com</a>.</p>
+                <p>You can reach them by phone at +91 72488 00839 or +91 63970 36898, or by email at <a href="mailto:info@zentrixinfotech.com" className="text-blue-600 hover:underline">info@zentrixinfotech.com</a>.</p>
               </div>
 
               <div>

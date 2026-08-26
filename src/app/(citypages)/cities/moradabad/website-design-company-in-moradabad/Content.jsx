@@ -188,8 +188,8 @@ const Content = () => {
               Partner with Zentrix Infotech—Moradabad&apos;s premier website design company.
             </p>
             <p>
-              📞 +91-7248800839<br />
-              📞 +91-6397036898<br />
+              📞 +91 72488 00839<br />
+              📞 +91 63970 36898<br />
               📧 info@zentrixinfotech.com<br />
             </p>
             

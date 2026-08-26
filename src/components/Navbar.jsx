@@ -34,6 +34,12 @@ export default function Navbar() {
         setActiveNestedDropdown(null);
     };
 
+    const openContactPopup = (event) => {
+        event.preventDefault();
+        closeMobileMenu();
+        window.dispatchEvent(new Event('open-contact-popup'));
+    };
+
     // Reusable styles
     const hoverStyles = {
         onMouseEnter: (e) => { e.currentTarget.style.color = '#0ea5e9'; },
@@ -98,7 +104,7 @@ export default function Navbar() {
         { href: "/services/web-development/laravel", label: "LARAVEL" },
         { href: "/services/web-development/magneto", label: "MAGNETO" },
         { href: "/services/web-development/react-js", label: "REACT JS" },
-        { href: "/shopify", label: "SHOPIFY" }
+        { href: "/services/web-development/shopify", label: "SHOPIFY" }
     ];
 
     const NavLink = ({ href, children, className = "" }) => (
@@ -208,6 +214,7 @@ export default function Navbar() {
                             {/* CTA Button */}
 <Link
     href="/contact-us"
+    onClick={openContactPopup}
     className="flex items-center gap-2 w-full sm:w-auto px-6 py-3 text-base sm:text-sm font-medium font-serif text-white rounded-full bg-gradient-to-r from-[#2eaad4] to-[#2c67f2] active:scale-95 transition-all duration-300"
 >
     <Phone className="h-4 w-4 animate-ring" />
@@ -402,7 +409,7 @@ export default function Navbar() {
 
                             <Link
     href="/contact-us"
-    onClick={closeMobileMenu}
+    onClick={openContactPopup}
     className="flex items-center justify-center gap-2 w-full sm:w-auto px-6 py-3 text-base sm:text-sm font-medium font-serif text-white rounded-full bg-gradient-to-r from-[#2eaad4] to-[#2c67f2] active:scale-95 transition-all duration-300 mt-2"
 >
     <Phone className="h-4 w-4" />

@@ -226,26 +226,28 @@ const portfolio = () => {
     };
 
     return (
-        <section className="bg-white py-16 px-6 relative overflow-hidden">
+        <section className="bg-white pt-0 pb-20 px-10 relative overflow-hidden">
             {/* Background decorative elements */}
             <div className="absolute top-0 right-0 w-96 h-96 bg-linear-to-br from-[#f0ca4d]/10 to-[#f56a6a]/10 rounded-full blur-3xl opacity-60"></div>
             <div className="absolute bottom-0 left-0 w-96 h-96 bg-linear-to-br from-[#3c4cad]/10 to-[#f04393]/10 rounded-full blur-3xl opacity-60"></div>
 
-            <div className="max-w-7xl mx-auto relative z-10">
-                {/* Header Section */}
-                <div className="text-center mb-16">
+            <div className="max-w-7xl mx-auto relative z-20">
+              {/* Header Section */}
+             <div className="text-center mb-12 pt-2">
 
-                    <h2 className="text-4xl  md:text-5xl lg:text-6xl font-medium font-serif text-slate-900 mb-4 lg:mb-6 tracking-tight px-4">
-                        Our{' '}
-                        <span className="text-4xl md:text-5xl lg:text-6xl font-medium font-serif mb-4 lg:mb-6 tracking-tight">
-                            portfolio
-                        </span>
-                    </h2>
-                    <p className="text-lg text-gray-600 max-w-2xl mx-auto leading-relaxed">
-                        Explore our latest projects showcasing cutting-edge solutions across various industries
-                    </p>
-                    <div className="mt-8 w-24 h-1 bg-linear-to-r from-[#f56a6a] via-[#f04393] to-[#3d1b88] mx-auto rounded-full"></div>
-                </div>
+        <h2 className="text-4xl md:text-5xl lg:text-6xl font-medium font-serif text-slate-900 mb-4 lg:mb-6 tracking-tight px-4">
+            Our{' '}
+             <span className="text-4xl md:text-5xl lg:text-6xl font-medium font-serif mb-4 lg:mb-6 tracking-tight">
+            portfolio
+             </span>
+          </h2>
+
+    <p className="text-lg text-gray-600 max-w-2xl mx-auto leading-relaxed">
+        Showcasing our best creative work
+    </p>
+
+    <div className="mt-8 w-24 h-1 bg-linear-to-r from-[#f56a6a] via-[#f04393] to-[#3d1b88] mx-auto rounded-full"></div>
+</div>
 
                 {/* Projects Grid */}
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">

@@ -365,7 +365,7 @@ const PrivacyPolicy = () => {
                   <div className="w-10 sm:w-12 h-10 sm:h-12 bg-linear-to-br from-green-500 to-emerald-600 rounded-xl flex items-center justify-center mx-auto mb-3 sm:mb-4">
                     <Shield className="w-5 sm:w-6 h-5 sm:h-6 text-white" />
                   </div>
-                  <h4 className="font-semibold text-slate-900 mb-2 text-sm sm:text-base">Data Protectionr</h4>
+                  <h4 className="font-semibold text-slate-900 mb-2 text-sm sm:text-base">Data Protection</h4>
                   <p className="text-xs sm:text-sm text-green-700">info@zentrixinfotech.com</p>
                 </div>
               </div>

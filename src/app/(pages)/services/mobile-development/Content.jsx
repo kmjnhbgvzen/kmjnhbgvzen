@@ -128,14 +128,14 @@ class MyApp extends StatelessWidget {
       {/* Hero Section - Responsive */}
       <section className=" sm:pt-20  px-4  sm:px-6 lg:px-8 relative overflow-hidden">
         <div className="absolute inset-0 bg-linear-to-r from-blue-100/40 to-purple-100/40 blur-3xl"></div>
-        <div className="max-w-7xl mx-auto relative z-10 pt-30">
+        <div className="max-w-7xl mx-auto relative z-10 pt-8 sm:pt-12 lg:pt-16">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 sm:gap-12 items-center">
             {/* Left Content */}
             <div>
-              <h1 className="text-4xl md:text-5xl lg:text-6xl font-medium font-serif mb-4 sm:mb-6 bg-linear-to-r from-slate-900 via-blue-900 to-purple-900 bg-clip-text text-transparent">
+              <h1 className="whitespace-nowrap text-3xl sm:text-4xl md:text-5xl lg:text-4xl xl:text-5xl font-medium font-serif mb-4 sm:mb-6 leading-tight bg-linear-to-r from-slate-900 via-blue-900 to-purple-900 bg-clip-text text-transparent">
                 Mobile App Development
               </h1>
-              <p className="text-base sm:text-lg md:text-xl text-slate-700 mb-6 sm:mb-8 leading-relaxed">
+              <p className="max-w-2xl text-base sm:text-lg md:text-xl text-slate-700 mb-6 sm:mb-8 leading-relaxed">
                 Transform your ideas into powerful mobile experiences with native performance and stunning design.
               </p>
               <div className="flex flex-wrap gap-3 sm:gap-4 mb-6 sm:mb-8">

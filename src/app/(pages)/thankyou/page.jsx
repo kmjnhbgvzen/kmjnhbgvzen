@@ -1,4 +1,6 @@
-import React from 'react';
+"use client";
+
+import React, { useEffect } from 'react';
 import { CheckCircle, Mail, Phone, MapPin, Home } from 'lucide-react';
 
 
@@ -8,6 +10,14 @@ import { CheckCircle, Mail, Phone, MapPin, Home } from 'lucide-react';
 
 
 export default function ThankYouPage() {
+    useEffect(() => {
+        const redirectTimer = setTimeout(() => {
+            window.location.replace('https://www.zentrixinfotech.com/');
+        }, 2000);
+
+        return () => clearTimeout(redirectTimer);
+    }, []);
+
     return (
         <div className="min-h-screen bg-gray-50 py-12 px-4 sm:px-6 lg:px-8 mt-25">
             <div className="max-w-6xl mx-auto">
@@ -72,7 +82,7 @@ export default function ThankYouPage() {
                                     <div>
                                         <p className="text-sm text-gray-600">Call Us</p>
                                         <a  className="text-gray-900 font-medium hover:text-blue-600">
-                                            +91 72488 00839, +91 6397036898
+                                            +91 72488 00839, +91 63970 36898
                                         </a>
                                         <p className="text-xs text-gray-500">Mon-Sat, 10AM-6PM AWST</p>
                                     </div>
@@ -84,10 +94,11 @@ export default function ThankYouPage() {
 
                 {/* Back to Home Button */}
                 <div className="text-center">
-                    <button className="inline-flex items-center px-8 py-3 bg-blue-600 text-white font-semibold rounded-lg hover:bg-blue-700 transition-colors shadow-lg">
+                    <a href="/" className="inline-flex items-center px-8 py-3 bg-blue-600 text-white font-semibold rounded-lg hover:bg-blue-700 transition-colors shadow-lg">
                         <Home className="w-5 h-5 mr-2" />
                         Back to Home
-                    </button>
+                    </a>
+                  
                 </div>
             </div>
         </div>

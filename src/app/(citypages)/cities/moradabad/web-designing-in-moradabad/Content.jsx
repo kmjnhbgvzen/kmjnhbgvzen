@@ -151,7 +151,7 @@ const Content = () => {
               Take your business online with confidence and style.
             </p>
             <p className="mt-4">
-              <strong>📞 Call:</strong> +91-7248800839<br />
+              <strong>📞 Call:</strong> +91 72488 00839<br />
               <strong>📧 Email:</strong> info@zentrixinfotech.com
             </p>
             <p className="mt-4">
