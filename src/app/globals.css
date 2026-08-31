@@ -5,6 +5,26 @@
 
 @import "tailwindcss";
 
+@import "tailwindcss";
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+@media (max-width: 1023px) {
+  html {
+    scroll-padding-top: 5.5rem;
+  }
+
+  body {
+    padding-top: 4.75rem;
+  }
+}
+
 @keyframes ring {
   0%        { transform: rotate(0deg) scale(1); }
   10%, 30%  { transform: rotate(15deg) scale(1.1); }

@@ -4,7 +4,7 @@ import { useState } from 'react';
 import { X, Phone, Mail } from 'lucide-react';
 
 const ContactWidget = () => {
-  const [showPopup, setShowPopup] = useState(true);
+  const [showPopup, setShowPopup] = useState(false);
 
   return (
     <>
