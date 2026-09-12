@@ -5,6 +5,7 @@ import { X, Sparkles, ChevronDown } from "lucide-react";
 
 const PopupQueryForm = () => {
   const SUBMISSION_STORAGE_KEY = "zentrix-contact-form-submitted-at";
+  const DISMISSED_STORAGE_KEY = "zentrix-popup-dismissed-at";
   const reopenTimerRef = useRef(null);
   const [isOpen, setIsOpen] = useState(false);
   const [isClient, setIsClient] = useState(false);
@@ -76,12 +77,28 @@ const PopupQueryForm = () => {
     };
     window.addEventListener("open-contact-popup", handleOpenPopup);
 
-    const hasRecentSubmission = () => {
-      const submittedAt = Number(localStorage.getItem(SUBMISSION_STORAGE_KEY));
-      return submittedAt && Date.now() - submittedAt < 24 * 60 * 60 * 1000;
+    const shouldSuppressPopup = () => {
+      try {
+        const submittedAt = Number(localStorage.getItem(SUBMISSION_STORAGE_KEY));
+        if (submittedAt && Date.now() - submittedAt < 24 * 60 * 60 * 1000) {
+          return true;
+        }
+
+        if (sessionStorage.getItem("zentrix-popup-dismissed") === "true") {
+          return true;
+        }
+
+        const dismissedAt = Number(localStorage.getItem(DISMISSED_STORAGE_KEY));
+        if (dismissedAt && Date.now() - dismissedAt < 24 * 60 * 60 * 1000) {
+          return true;
+        }
+      } catch (e) {
+        console.error("Storage check error:", e);
+      }
+      return false;
     };
 
-    const timer = hasRecentSubmission()
+    const timer = shouldSuppressPopup()
       ? null
       : setTimeout(() => setIsOpen(true), 6000);
 
@@ -281,16 +298,17 @@ const PopupQueryForm = () => {
   };
 
   const handleClose = () => {
+    if (reopenTimerRef.current) {
+      clearTimeout(reopenTimerRef.current);
+      reopenTimerRef.current = null;
+    }
     setIsOpen(false);
 
-    const submittedAt = Number(localStorage.getItem(SUBMISSION_STORAGE_KEY));
-    const hasRecentSubmission =
-      submittedAt && Date.now() - submittedAt < 24 * 60 * 60 * 1000;
-
-    if (!hasRecentSubmission) {
-      reopenTimerRef.current = setTimeout(() => {
-        setIsOpen(true);
-      }, 7000);
+    try {
+      sessionStorage.setItem("zentrix-popup-dismissed", "true");
+      localStorage.setItem(DISMISSED_STORAGE_KEY, String(Date.now()));
+    } catch (e) {
+      console.error("Storage write error:", e);
     }
   };
 
