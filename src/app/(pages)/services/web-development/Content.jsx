@@ -163,13 +163,13 @@ const WebDevelopment = () => {
     );
 
     return (
-        <div className="min-h-screen bg-linear-to-br from-slate-50 via-gray-50 to-white py-24">
+        <div className="min-h-fit lg:min-h-screen bg-linear-to-br from-slate-50 via-gray-50 to-white">
 
-            <section className="pt-12 sm:pt-16 pb-12 sm:pb-20 px-4 sm:px-6 lg:px-8">
+            <section className="pt-8 sm:pt-12 lg:pt-36 pb-12 sm:pb-20 px-4 sm:px-6 lg:px-8">
                 <div className="max-w-7xl mx-auto">
                     {/* Header - Responsive */}
-                    <div className="text-center mb-10 sm:mb-12 md:mb-16">
-                        <h1 className="text-5xl md:text-6xl font-medium font-serif mb-4 sm:mb-6 bg-linear-to-r from-slate-900 to-slate-700 bg-clip-text text-transparent mt-6 sm:mt-10">
+                    <div className="text-center mb-6 sm:mb-12 md:mb-16">
+                        <h1 className="text-4xl sm:text-5xl md:text-6xl font-medium font-serif mb-3 sm:mb-6 bg-linear-to-r from-slate-900 to-slate-700 bg-clip-text text-transparent mt-0">
                             Web <span>Development</span>
                         </h1>
                         <p className="text-base sm:text-lg md:text-xl text-slate-700 max-w-3xl mx-auto leading-relaxed px-4">

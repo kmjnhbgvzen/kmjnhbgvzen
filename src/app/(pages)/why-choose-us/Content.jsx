@@ -63,7 +63,7 @@ export default function TimelineServices() {
     }, []);
 
     return (
-        <div className='bg-linear-to-br from-slate-50 via-gray-50 to-white pt-14 md:pt-32'>
+        <div className='bg-linear-to-br from-slate-50 via-gray-50 to-white pt-0 md:pt-32'>
             {/* Hero Section - Responsive */}
             
              <WhyChooseUs />   

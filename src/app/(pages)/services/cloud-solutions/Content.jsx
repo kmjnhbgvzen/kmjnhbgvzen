@@ -74,7 +74,7 @@ const CloudServicesPage = () => {
   ];
 
   return (
-    <div className="min-h-screen bg-white text-slate-900 overflow-hidden">
+    <div className="min-h-fit lg:min-h-screen bg-white text-slate-900 overflow-hidden">
       
       {/* Animated Grid Background */}
       <div className="fixed inset-0 opacity-5">
@@ -94,9 +94,9 @@ const CloudServicesPage = () => {
       `}</style>
 
       {/* Hero with Live Dashboard */}
-      <section className="relative z-10 px-4 sm:px-6 pb-16 pt-30 md:pt-32 lg:pt-40 ">
+      <section className="relative z-10 px-4 sm:px-6 pb-12 sm:pb-16 pt-8 sm:pt-10 md:pt-12 lg:pt-44">
         <div className="max-w-7xl mx-auto">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-start">
             
             {/* Content */}
             <div className="space-y-6 sm:space-y-8">

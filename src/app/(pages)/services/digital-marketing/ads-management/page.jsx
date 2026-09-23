@@ -4,10 +4,10 @@ import React from "react";
 
 const AdsManagement = ({ handleButtonClick }) => {
     return (
-        <div className="font-sans text-gray-800 leading-relaxed mt-0">
+        <div className="font-sans text-gray-800 leading-relaxed pt-8 sm:pt-12 lg:pt-32">
 
             {/* HERO SECTION */}
-            <section className="relative px-4 sm:px-6 lg:px-8 pt-0 pb-8 sm:pb-10 bg-gray-50 overflow-hidden">
+            <section className="relative px-4 sm:px-6 lg:px-8 pt-0 sm:pt-6 pb-8 sm:pb-10 bg-gray-50 overflow-hidden">
 
                 {/* Decorative Circle - Top Left */}
                 <div className="absolute top-0 left-0 w-48 h-48 sm:w-64 sm:h-64 bg-gradient-to-br from-[#1E3A8A] to-[#1E293B] rounded-full opacity-30 -translate-x-24 sm:-translate-x-32 -translate-y-24 sm:-translate-y-32 pointer-events-none"></div>

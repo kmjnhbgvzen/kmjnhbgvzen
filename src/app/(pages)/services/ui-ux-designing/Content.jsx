@@ -55,9 +55,9 @@ const UIDesigner = () => {
     }, [isAnimating]);
 
     return (
-        <div className="min-h-screen bg-linear-to-br from-slate-50 via-gray-50 to-white pt-32 pb-20 lg:pt-32 lg:pb-20">
+        <div className="min-h-fit lg:min-h-screen bg-linear-to-br from-slate-50 via-gray-50 to-white pb-16 lg:pb-20">
             {/* Hero Section */}
-            <section className="pt-0 pb-0 px-4 sm:px-6 lg:px-8">
+            <section className="pt-8 sm:pt-10 md:pt-12 lg:pt-44 pb-0 px-4 sm:px-6 lg:px-8">
                 <div className="max-w-7xl mx-auto text-center">
                     <div className="mb-8">
                         <h2 className="text-5xl md:text-6xl font-medium font-serif text-slate-900 mb-4 mt-0">UI/UX</h2>

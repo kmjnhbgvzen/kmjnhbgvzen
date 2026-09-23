@@ -121,11 +121,11 @@ class UserViewModel : ViewModel() {
   ];
 
   return (
-    <div className="min-h-screen bg-white md:py-24 py-18">
+    <div className="min-h-fit lg:min-h-screen bg-white pt-0 md:py-24 pb-12">
 
 
       {/* Hero Section */}
-      <section className="pt-16 sm:pt-20 pb-16 sm:pb-20 md:pb-32 px-4 sm:px-6 lg:px-8 relative overflow-hidden">
+      <section className="pt-8 sm:pt-20 pb-12 sm:pb-20 md:pb-32 px-4 sm:px-6 lg:px-8 relative overflow-hidden">
         <div className="absolute inset-0 bg-linear-to-r from-green-100/40 to-blue-100/40 blur-3xl"></div>
         <div className="max-w-7xl mx-auto relative z-10">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 sm:gap-12 items-center">

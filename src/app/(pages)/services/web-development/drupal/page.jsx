@@ -10,13 +10,13 @@ import Banner from '@/components/Banner';
 const Hero = () => {
     return (
         <>
-            <div className="bg-white relative overflow-hidden lg:mt-32 mt-21">
+            <div className="bg-white relative overflow-hidden mt-0 lg:mt-32">
                 {/* Decorative circles - Updated with new palette */}
                 <div className="absolute w-48 h-48 rounded-full -top-12 -left-24 animate-pulse" style={{ backgroundColor: '#1AA687', opacity: 0.1 }}></div>
                 <div className="absolute w-32 h-32 rounded-full top-1/2 -left-16" style={{ backgroundColor: '#FF414D', opacity: 0.1 }}></div>
                 <div className="absolute w-40 h-40 rounded-full -bottom-20 -right-20 animate-pulse" style={{ backgroundColor: '#002D40', opacity: 0.1 }}></div>
 
-                <div className="max-w-7xl mx-auto px-8 pt-16 flex items-center">
+                <div className="max-w-7xl mx-auto px-4 sm:px-8 pt-8 sm:pt-10 lg:pt-16 flex items-center">
                     <div className="grid lg:grid-cols-2 gap-16 items-center w-full">
 
                         {/* Left Content */}

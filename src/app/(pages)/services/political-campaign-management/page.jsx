@@ -183,13 +183,13 @@ export default function PoliticalCampaignPage() {
     <div className="bg-[#FFFDF8] font-sans text-gray-900 overflow-x-hidden">
 
       {/* ── HERO ── */}
-      <section className="relative min-h-screen flex items-center">
+      <section className="relative min-h-fit lg:min-h-screen flex items-start lg:items-center">
         <div className="absolute inset-0 bg-gradient-to-r from-[#FF6B00] to-[#FF9933] opacity-5 pointer-events-none" />
         <div className="absolute top-0 right-0 w-[600px] h-[600px] rounded-full bg-gradient-to-r from-[#FF6B00] to-[#FF9933] opacity-10 translate-x-1/3 -translate-y-1/4 blur-3xl pointer-events-none" />
         <div className="absolute bottom-0 left-0 w-[400px] h-[400px] rounded-full bg-[#138808] opacity-[0.06] -translate-x-1/4 translate-y-1/4 blur-3xl pointer-events-none" />
         <AshokaWatermark />
 
-        <div className="relative max-w-7xl mx-auto px-6 lg:px-12 py-32 mt-10 grid lg:grid-cols-2 gap-16 items-center w-full">
+        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-12 pt-8 sm:pt-12 pb-12 lg:py-32 mt-0 lg:mt-10 grid lg:grid-cols-2 gap-8 lg:gap-16 items-center w-full">
           <div>
             <div className="w-16 mb-6"><TricolourBar /></div>
             <span className="inline-flex items-center gap-2 text-xs font-semibold tracking-widest uppercase text-[#FF6B00] mb-6">

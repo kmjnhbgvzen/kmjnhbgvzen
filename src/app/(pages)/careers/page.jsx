@@ -69,7 +69,7 @@ const CareersPage = () => {
   };
 
   return (
-    <div className="min-h-screen bg-linear-to-br from-slate-50 via-white to-blue-50 lg:py-24 md:py-4">
+    <div className="min-h-fit lg:min-h-screen bg-linear-to-br from-slate-50 via-white to-blue-50 lg:py-24 md:py-4">
 
       
       {/* Floating orbs for visual appeal */}
@@ -80,13 +80,13 @@ const CareersPage = () => {
       </div>
 
       {/* Hero Section */}
-      <section className="relative pt-32 pb-20 px-4 sm:px-6 lg:px-8 overflow-hidden">
+      <section className="relative pt-8 sm:pt-12 lg:pt-32 pb-12 sm:pb-20 px-4 sm:px-6 lg:px-8 overflow-hidden">
         <div className={`max-w-5xl mx-auto text-center relative z-10 transform transition-all duration-1000 ${
           isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'
         }`}>
 
           
-          <h1 className="text-4xl md:text-5xl lg:text-6xl font-medium font-serif text-slate-900 mb-8 leading-tight tracking-tight">
+          <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-medium font-serif text-slate-900 mb-4 sm:mb-8 leading-tight tracking-tight">
             Shape the
             <span className="relative">
               <span className="bg-linear-to-r from-blue-600 via-purple-600 to-cyan-600 bg-clip-text text-transparent"> Future</span>

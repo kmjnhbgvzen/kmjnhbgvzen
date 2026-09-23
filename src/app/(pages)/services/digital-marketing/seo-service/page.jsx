@@ -99,9 +99,9 @@ const SEOServicePage = () => {
   };
 
   return (
-    <div className="min-h-screen lg:mt-32 mt-21">
+    <div className="min-h-fit lg:min-h-screen mt-0 lg:mt-32">
       {/* SEO Service Hero Section */}
-      <section className="px-4 sm:px-6 lg:px-8 py-8 sm:py-12 lg:py-16 bg-gray-50 relative overflow-hidden">
+      <section className="px-4 sm:px-6 lg:px-8 pt-8 sm:pt-8 lg:py-16 pb-8 sm:pb-12 bg-gray-50 relative overflow-hidden">
         {/* Decorative circles */}
         <div className="absolute top-0 left-0 w-32 sm:w-48 lg:w-64 h-32 sm:h-48 lg:h-64 bg-linear-to-br from-[#1E3A8A] to-[#1E293B] rounded-full opacity-30 -translate-x-16 sm:-translate-x-24 lg:-translate-x-32 -translate-y-16 sm:-translate-y-24 lg:-translate-y-32"></div>
         <div className="absolute bottom-0 right-0 w-48 sm:w-72 lg:w-96 h-48 sm:h-72 lg:h-96 bg-linear-to-tl from-[#F8BBD9] to-[#E91E63] rounded-full opacity-15 translate-x-24 sm:translate-x-36 lg:translate-x-48 translate-y-24 sm:translate-y-36 lg:translate-y-48"></div>

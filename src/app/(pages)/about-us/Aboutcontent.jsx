@@ -115,7 +115,7 @@ const AboutUsSection = () => {
   );
 
   return (
-    <section className="relative px-4 py-4 sm:px-6 lg:px-8 bg-gradient-to-br from-slate-50 via-gray-50 to-white overflow-hidden">
+    <section className="relative px-4 pt-8 sm:pt-24 lg:pt-16 pb-8 sm:px-6 lg:px-8 bg-gradient-to-br from-slate-50 via-gray-50 to-white overflow-hidden">
 
       {/* ================= BACKGROUND EFFECTS ================= */}
 
@@ -144,7 +144,7 @@ const AboutUsSection = () => {
 
       {/* ================= MAIN CONTAINER ================= */}
 
-      <div className="max-w-7xl lg:pt-8 pt-4 pb-14 mx-auto relative z-10">
+      <div className="max-w-7xl pt-0 lg:pt-8 pb-14 mx-auto relative z-10">
 
         {/* ================= HEADER ================= */}
 

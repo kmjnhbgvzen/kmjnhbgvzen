@@ -142,8 +142,8 @@ export default function Industries() {
     <main className="bg-white font-serif">
       
       {/* HERO */}
-      <section className="py-16 px-6 md:px-12 text-center bg-gradient-to-b from-gray-50 to-white">
-        <h1 className="text-3xl md:text-5xl font-medium text-gray-900 leading-tight mt-14 sm:mt-20 md:mt-28">
+      <section className="pt-8 pb-12 sm:py-16 px-6 md:px-12 text-center bg-gradient-to-b from-gray-50 to-white">
+        <h1 className="text-3xl md:text-5xl font-medium text-gray-900 leading-tight mt-0 sm:mt-6 md:mt-10">
           Industries We Help <span className="text-black">Scale</span>
         </h1>
 

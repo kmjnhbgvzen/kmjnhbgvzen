@@ -51,11 +51,11 @@ const Services = () => {
   ];
 
   return (
-    <div className="bg-white px-8 pt-36 pb-20">
+    <div className="bg-white px-4 sm:px-8 pt-8 sm:pt-12 lg:pt-36 pb-16 sm:pb-20">
       <div className="max-w-7xl mx-auto">
-        <div className="text-center mb-12 ">
-          <h2 className="text-4xl md:text-6xl font-medium font-serif text-gray-900 mb-4">Services We Offer</h2>
-          <p className="text-gray-600 text-lg">Comprehensive solutions tailored to your needs</p>
+        <div className="text-center mb-8 sm:mb-12">
+          <h2 className="text-3xl sm:text-4xl md:text-6xl font-medium font-serif text-gray-900 mb-3 sm:mb-4">Services We Offer</h2>
+          <p className="text-gray-600 text-base sm:text-lg">Comprehensive solutions tailored to your needs</p>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">

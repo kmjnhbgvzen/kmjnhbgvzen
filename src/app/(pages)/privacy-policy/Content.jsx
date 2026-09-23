@@ -54,7 +54,7 @@ const PrivacyPolicy = () => {
   ];
 
   return (
-    <div className="min-h-screen bg-linear-to-br from-slate-50 via-white to-blue-50 text-slate-900 lg:py-22 py-10 ">
+    <div className="min-h-fit lg:min-h-screen bg-linear-to-br from-slate-50 via-white to-blue-50 text-slate-900 pt-8 pb-10 lg:py-22">
       {/* Header - Simple navbar placeholder */}
 
 
@@ -70,7 +70,7 @@ const PrivacyPolicy = () => {
         </button>
       </div>
 
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 py-6 sm:py-12 flex gap-6 lg:gap-12 mt-16 lg:mt-10">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 pt-0 pb-6 sm:py-12 flex gap-6 lg:gap-12 mt-0 lg:mt-10">
         {/* Sidebar Navigation */}
         <aside className={`w-80 shrink-0 lg:block ${sidebarOpen ? 'block' : 'hidden'} fixed lg:relative top-0 left-0 h-full lg:h-auto z-30 lg:z-auto bg-white lg:bg-transparent`}>
           <div className={`${sidebarOpen ? 'pt-32 px-4' : ''} lg:pt-0 lg:px-0`}>

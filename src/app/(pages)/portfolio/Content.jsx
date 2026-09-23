@@ -378,8 +378,8 @@ const portfolio = () => {
     return (
         <>
             {/* Hero Section - Responsive */}
-            <div className="text-center sm:py-10 md:py-16 px-4 sm:px-6 mt-32 ">
-                <div className="inline-flex items-center px-4 sm:px-6 py-2 sm:py-3 rounded-full text-sm sm:text-base md:text-lg font-medium bg-linear-to-r from-emerald-50 to-blue-50 border border-emerald-200 text-teal-400 mb-4 sm:mb-6 md:mb-8 backdrop-blur-sm hover:scale-105 transition-transform duration-300 relative overflow-hidden">
+            <div className="text-center pt-8 sm:pt-12 lg:pt-36 pb-6 sm:pb-10 md:pb-16 px-4 sm:px-6">
+                <div className="inline-flex items-center px-4 sm:px-6 py-2 sm:py-3 rounded-full text-sm sm:text-base md:text-lg font-medium bg-linear-to-r from-emerald-50 to-blue-50 border border-emerald-200 text-teal-400 mb-3 sm:mb-6 md:mb-8 backdrop-blur-sm hover:scale-105 transition-transform duration-300 relative overflow-hidden">
                     <svg className="w-3 h-3 sm:w-4 sm:h-4 mr-2 animate-pulse" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth="2">
                         <rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
                         <circle cx="8.5" cy="8.5" r="1.5"></circle>
@@ -389,7 +389,7 @@ const portfolio = () => {
                     <div className="ml-2 w-2 h-2 bg-emerald-500 rounded-full animate-ping" />
                 </div>
 
-                <h2 className="text-5xl md:text-6xl lg:text-7xl font-medium font-serif mb-4 sm:mb-6 md:mb-8 leading-tight px-4">
+                <h2 className="text-3xl sm:text-5xl md:text-6xl lg:text-7xl font-medium font-serif mb-3 sm:mb-6 md:mb-8 leading-tight px-4">
                     <span className="text-slate-900 block">Showcasing our best</span>
                     <span className="block bg-linear-to-r from-emerald-600 via-blue-600 to-purple-600 bg-clip-text text-transparent mt-2 relative">
                         creative work

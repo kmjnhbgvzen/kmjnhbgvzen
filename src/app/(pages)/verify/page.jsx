@@ -136,7 +136,7 @@ function VerifyContent() {
   ].filter(field => field.value && field.value.toString().trim() !== "") : [];
 
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gray-50 px-3 sm:px-6 py-15 relative overflow-hidden mt-10">
+    <div className="min-h-fit lg:min-h-screen flex items-start lg:items-center justify-center bg-gray-50 px-3 sm:px-6 pt-8 pb-12 lg:py-15 relative overflow-hidden mt-0 lg:mt-10">
 
       {/* Page Watermark */}
       <div className="absolute inset-0 flex items-center justify-center pointer-events-none select-none">

@@ -253,10 +253,10 @@ const DigitalMarketingSaaS = () => {
     };
 
     return (
-        <div className="min-h-screen bg-linear-to-br from-slate-50 via-white to-blue-50 text-slate-900">
-            <div className="container mx-auto px-4 sm:px-6 pt-20 sm:pt-24 md:pt-28 lg:pt-32 pb-24">
-                <div className="mb-6 sm:mb-8 text-center">
-                    <h1 className="text-4xl md:text-5xl lg:text-7xl font-medium font-serif bg-linear-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent mb-3 sm:mb-4 leading-tight drop-shadow-sm">
+        <div className="min-h-fit lg:min-h-screen bg-linear-to-br from-slate-50 via-white to-blue-50 text-slate-900">
+            <div className="container mx-auto px-4 sm:px-6 pt-8 sm:pt-12 lg:pt-36 pb-16 lg:pb-24">
+                <div className="mb-4 sm:mb-8 text-center">
+                    <h1 className="text-3xl sm:text-5xl lg:text-7xl font-medium font-serif bg-linear-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent mb-2 sm:mb-4 leading-tight drop-shadow-sm">
                         Digital Marketing
                     </h1>
                     <p className="max-w-3xl mx-auto text-slate-600 text-base md:text-xl leading-relaxed">

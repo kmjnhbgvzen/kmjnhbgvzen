@@ -18,7 +18,7 @@ export default function BillingSoftwareForRetail() {
 
   <div className="relative max-w-7xl mx-auto text-center">
     
-    <h1 className="text-3xl md:text-4xl font-serif mb-4 mt-18 md:mt-30">
+    <h1 className="text-3xl md:text-4xl font-serif mb-4 mt-4 md:mt-30">
       Billing Software for Retail Shops
     </h1>
 

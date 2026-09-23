@@ -146,10 +146,10 @@ const SoftwareDevelopmentPage = () => {
   ];
 
   return (
-    <div className="min-h-screen bg-white text-slate-900 py-16">
+    <div className="bg-white text-slate-900">
       {/* Hero Section - Responsive */}
 
-      <section className="relative pt-16 lg:pt-26 sm:pt-20 pb-12 sm:pb-16 overflow-hidden ">
+      <section className="relative pt-8 sm:pt-12 lg:pt-44 pb-12 sm:pb-16 overflow-hidden">
         <div className="absolute inset-0 bg-linear-to-r from-blue-100/40 to-purple-100/40"></div>
         <div className="absolute inset-0">
           <div className="absolute top-10 sm:top-20 left-5 sm:left-10 w-48 h-48 sm:w-72 sm:h-72 bg-blue-200/30 rounded-full blur-3xl"></div>
@@ -157,7 +157,7 @@ const SoftwareDevelopmentPage = () => {
         </div>
         
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid lg:grid-cols-2 gap-8 sm:gap-12 items-center">
+          <div className="grid lg:grid-cols-2 gap-8 sm:gap-12 items-start">
             <div className="space-y-6 sm:space-y-8">
               <div className="inline-flex items-center px-3 sm:px-4 py-1.5 sm:py-2 bg-blue-100 border border-blue-300 rounded-full">
                 <Code className="w-3 h-3 sm:w-4 sm:h-4 mr-2 text-blue-600" />

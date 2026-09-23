@@ -69,14 +69,13 @@ const CookiesPolicy = () => {
     ];
 
     return (
-        <div className="min-h-screen bg-linear-to-br from-slate-50 via-white to-blue-50">
-            <Navbar />
+        <div className="min-h-fit lg:min-h-screen bg-linear-to-br from-slate-50 via-white to-blue-50">
 
             {/* Hero Section */}
-            <div className="relative pt-20 pb-16">
+            <div className="relative pt-8 sm:pt-24 pb-8 sm:pb-16">
                 <div className="absolute inset-0 bg-linear-to-r from-blue-100/50 to-purple-100/50"></div>
                 <div className="relative max-w-7xl mx-auto px-6 lg:px-8">
-                    <div className="text-center max-w-4xl mx-auto py-12 sm:py-16 lg:py-20">
+                    <div className="text-center max-w-4xl mx-auto pt-0 sm:pt-10 pb-8 sm:pb-16">
                         <div className="inline-flex items-center justify-center w-16 h-16 bg-linear-to-r from-blue-500 to-purple-600 rounded-2xl mb-6">
                             <Cookie className="w-8 h-8 text-white" />
                         </div>

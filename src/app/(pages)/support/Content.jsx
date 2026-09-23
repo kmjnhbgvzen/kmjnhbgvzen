@@ -78,9 +78,9 @@ const SupportPage = () => {
   };
 
   return (
-    <div className="flex flex-col bg-linear-to-br from-slate-50 to-blue-50 text-slate-900 py-20">
+    <div className="flex flex-col min-h-fit lg:min-h-screen bg-linear-to-br from-slate-50 to-blue-50 text-slate-900 pt-8 sm:pt-12 lg:pt-24 pb-12 sm:pb-20">
 
-      <main className="grow px-6 py-16">
+      <main className="grow px-4 sm:px-6 pt-0 pb-8 sm:py-16">
         <div className="max-w-4xl mx-auto bg-white backdrop-blur border border-slate-200 rounded-2xl shadow-xl p-10">
           <div className="text-center mb-10">
             <HelpCircle size={48} className="mx-auto text-blue-600 mb-2" />

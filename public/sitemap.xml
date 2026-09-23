@@ -2347,4 +2347,18 @@
   <changefreq>weekly</changefreq>
   <priority>0.9</priority>
 </url>
+
+<url>
+  <loc>https://www.zentrixinfotech.com/software-development-services-for-businesses</loc>
+  <lastmod>2026-09-19</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.9</priority>
+</url>
+
+<url>
+  <loc>https://www.zentrixinfotech.com/business-software-development-services</loc>
+  <lastmod>2026-09-19</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.9</priority>
+</url>
  </urlset>

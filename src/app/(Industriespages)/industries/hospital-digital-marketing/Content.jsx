@@ -10,7 +10,7 @@ export default function HospitalDigitalMarketing() {
       {/* Hero */}
       <section className="relative bg-gray-500 text-white py-10 px-6">
         <div className="max-w-7xl mx-auto text-center">
-          <h1 className="text-3xl md:text-4xl font-serif mb-4 mt-18 md:mt-30">
+          <h1 className="text-3xl md:text-4xl font-serif mb-4 mt-4 md:mt-30">
             Hospital Digital Marketing Services by Zentrix Infotech
           </h1>
           <p className="text-xl mb-8">

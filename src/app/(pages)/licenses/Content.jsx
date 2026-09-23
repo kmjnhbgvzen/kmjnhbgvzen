@@ -55,13 +55,13 @@ const LicensesPage = () => {
     );
 
     return (
-        <div className="min-h-screen bg-linear-to-br from-slate-50 via-white to-blue-50 text-slate-900 lg:py-24 py-10">
+        <div className="min-h-fit lg:min-h-screen bg-linear-to-br from-slate-50 via-white to-blue-50 text-slate-900 pt-8 sm:pt-12 lg:pt-24 pb-12 sm:pb-24">
 
             {/* Header */}
             <div className="relative overflow-hidden">
                 <div className="absolute inset-0 bg-linear-to-r from-blue-100/50 to-purple-100/50" />
-                <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
-                    <div className="text-center mt-4">
+                <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-0 pb-12 sm:py-16">
+                    <div className="text-center mt-0 sm:mt-4">
                         <div className="inline-flex items-center justify-center w-16 h-16 bg-linear-to-r from-blue-500 to-purple-600 rounded-2xl mb-6">
                             <Shield className="w-8 h-8 text-white" />
                         </div>

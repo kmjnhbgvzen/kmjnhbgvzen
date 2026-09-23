@@ -9,14 +9,14 @@ import { Shield, AlertTriangle, Users, Lock, FileText, CheckCircle, Code, Smartp
 
 const TermsOfService = () => {
   return (
-    <div className="min-h-screen bg-white py-20">
+    <div className="min-h-fit lg:min-h-screen bg-white lg:py-20">
       {/* Simple Navbar */}
 
 
       {/* Hero Section */}
       <div className="relative overflow-hidden">
         <div className="absolute inset-0 bg-white"></div>
-        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-32 pb-16">
+        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-8 sm:pt-12 lg:pt-32 pb-12 sm:pb-16">
           <div className="text-center">
             <div className="flex justify-center mb-6">
               <div className="p-3 bg-blue-100 rounded-full border border-blue-200">

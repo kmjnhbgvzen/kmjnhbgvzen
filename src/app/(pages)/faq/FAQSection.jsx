@@ -6,9 +6,9 @@ export default function FAQSection({ faqs }) {
   const [open, setOpen] = useState(null);
 
   return (
-    <section className="bg-slate-50 py-16 px-4">
+    <section className="bg-slate-50 pt-8 pb-12 sm:py-16 px-4">
       <div className="max-w-5xl mx-auto">
-        <h1 className="text-4xl md:text-5xl font-serif text-center mb-6 mt-14 md:mt-24">
+        <h1 className="text-3xl sm:text-4xl md:text-5xl font-serif text-center mb-4 sm:mb-6 mt-0 sm:mt-8 md:mt-12">
           Frequently Asked Questions
         </h1>
 

@@ -7,7 +7,7 @@ export default function QueryForm() {
   const [loading, setLoading] = useState(false);
 
   return (
-    <section className="w-full bg-gray-50 py-16">
+    <section className="w-full bg-gray-50 pt-8 pb-16 md:py-16">
       <div className="mx-auto max-w-3xl px-4">
         <div className="rounded-2xl bg-white p-8 shadow-lg md:p-12">
           <div className="mb-8 text-center">

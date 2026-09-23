@@ -192,12 +192,12 @@ export default function ContactUs() {
     };
 
     return (
-        <div className="bg-gradient-to-br from-gray-50 to-gray-100 mt-10 py-20 overflow-x-hidden">
+        <div className="bg-gradient-to-br from-gray-50 to-gray-100 pt-8 sm:pt-12 lg:pt-36 pb-12 sm:pb-20 overflow-x-hidden">
 
             {/* ================= HERO SECTION ================= */}
 
-            <div className="text-center mb-2 mt-0">
-                <h1 className="text-4xl md:text-5xl font-serif text-center mb-4 md:mt-10">
+            <div className="text-center mb-3 sm:mb-4 mt-0">
+                <h1 className="text-3xl sm:text-4xl md:text-5xl font-serif text-center mb-2 sm:mb-4 mt-0">
                     Contact Us
                 </h1>
 

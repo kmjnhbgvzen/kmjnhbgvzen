@@ -58,14 +58,14 @@ const OurBlogPage = () => {
   };
 
   return (
-    <section className="bg-gradient-to-b from-gray-50 to-white py-8 md:py-12">
+    <section className="bg-gradient-to-b from-gray-50 to-white pt-8 pb-8 md:py-12">
       <div className="container mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         
         {/* HEADER */}
         <div className="text-center mb-6 md:mb-8">
   <h1 className="text-3xl sm:text-3xl md:text-4xl lg:text-5xl font-serif font-medium 
                  mb-2 md:mb-3 text-gray-900 
-                 mt-14 sm:mt-20 md:mt-28">
+                 mt-0 sm:mt-4 md:mt-28">
     Our Blogs
   </h1>
   <p className="text-sm md:text-base text-gray-600 max-w-2xl mx-auto px-4">
