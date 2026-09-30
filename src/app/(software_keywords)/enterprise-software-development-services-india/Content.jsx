@@ -562,6 +562,7 @@ function TableRow({ factor, customization, newSoftware }) {
   );
 }
 
+
 function FaqItem({ question, answer }) {
   return (
     <div>

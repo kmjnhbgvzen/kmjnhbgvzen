@@ -1,9 +1,11 @@
 import Link from "next/link";
-import { Phone } from "lucide-react";
+import { Users, TrendingUp, Star, Phone, CheckCircle2 } from "lucide-react";
 
-export default function Banner() {
+
+export default function BillingSoftwareForRetail() {
   return (
     <main className="bg-white">
+
       {/* Hero Section */}
       <section
         className="relative text-white py-20 px-6 bg-cover bg-center"
@@ -16,35 +18,43 @@ export default function Banner() {
         <div className="absolute inset-0 bg-black/60"></div>
 
         <div className="relative max-w-7xl mx-auto text-center">
+
           {/* Heading */}
           <h1 className="text-3xl md:text-4xl font-serif mb-4 mt-4 md:mt-30">
-            Business Application Development Services | Zentrix Infotech
+            Best Enterprise Software Development Company  In India
           </h1>
 
           {/* Subheading */}
-          <p className="text-xl mb-6 max-w-3xl mx-auto">
-            Transform your operations with Zentrix Infotech’s custom business application development services. We design scalable, secure, and tailor-made software to streamline workflows, boost productivity, and accelerate growth for startups and enterprises.
+          <p className="text-xl mb-6">
+            Zentrix Infotech empowers businesses in Ayodhya with innovative digital marketing solutions that enhance online presence, attract the right audience, and deliver measurable business results.
           </p>
 
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
+
             {/* Call Button */}
             <a href="tel:+917248800839">
               <button className="bg-gradient-to-r from-[#2eaad4] to-[#2c67f2] px-5 py-3 rounded-xl font-semibold border-2 border-white hover:opacity-90 transition flex items-center justify-center gap-2 shadow-lg">
                 <Phone size={18} />
-                <span className="text-base">+91 7248800839</span>
+                <span className="text-base">
+                  +91 7248800839
+                </span>
               </button>
             </a>
 
             {/* Email Button */}
             <a href="mailto:zentrixit@gmail.com">
               <button className="bg-transparent px-5 py-3 rounded-xl font-semibold border-2 border-white hover:bg-white hover:text-gray-800 transition">
-                Book Consultation
+                Book Appointment
               </button>
             </a>
+
           </div>
         </div>
       </section>
+
+
+
     </main>
   );
 }

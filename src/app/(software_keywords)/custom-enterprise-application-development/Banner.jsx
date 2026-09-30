@@ -18,12 +18,12 @@ export default function Banner() {
         <div className="relative max-w-7xl mx-auto text-center">
           {/* Heading */}
           <h1 className="text-3xl md:text-4xl font-serif mb-4 mt-4 md:mt-30">
-            Business Application Development Services | Zentrix Infotech
+            Custom Enterprise Application Development
           </h1>
 
           {/* Subheading */}
           <p className="text-xl mb-6 max-w-3xl mx-auto">
-            Transform your operations with Zentrix Infotech’s custom business application development services. We design scalable, secure, and tailor-made software to streamline workflows, boost productivity, and accelerate growth for startups and enterprises.
+            Zentrix Infotech engineers bespoke, highly scalable, and secure custom enterprise applications that modernize your operations and accelerate enterprise growth.
           </p>
 
           {/* CTA Buttons */}
