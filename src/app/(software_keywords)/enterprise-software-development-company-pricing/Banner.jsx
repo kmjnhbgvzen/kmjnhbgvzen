@@ -18,12 +18,12 @@ export default function Banner() {
                 <div className="relative max-w-7xl mx-auto text-center">
                     {/* Heading */}
                     <h1 className="text-3xl md:text-4xl font-serif mb-4 mt-4 md:mt-30">
-                        Affordable Business Software Development
+                        Enterprise Software Development Company Pricing Guide
                     </h1>
 
                     {/* Subheading */}
                     <p className="text-xl mb-6 max-w-3xl mx-auto">
-                        Zentrix Infotech provides affordable business software development services in India, helping SMEs and startups optimize costs and maximize value.
+                        Learn how enterprise software development costs are calculated, what drives the price, typical ranges, and how to plan your budget realistically. Full guide by Zentrix Infotech.
                     </p>
 
                     {/* CTA Buttons */}
@@ -32,7 +32,9 @@ export default function Banner() {
                         <a href="tel:+917248800839">
                             <button className="bg-gradient-to-r from-[#2eaad4] to-[#2c67f2] px-5 py-3 rounded-xl font-semibold border-2 border-white hover:opacity-90 transition flex items-center justify-center gap-2 shadow-lg">
                                 <Phone size={18} />
-                                <span className="text-base">+91 7248800839</span>
+                                <span className="text-base">
+                                    +91 7248800839
+                                </span>
                             </button>
                         </a>
 
