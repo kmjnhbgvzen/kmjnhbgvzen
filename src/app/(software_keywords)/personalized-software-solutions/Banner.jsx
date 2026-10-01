@@ -1,0 +1,41 @@
+import Link from "next/link";
+import { Phone } from "lucide-react";
+
+export default function Banner() {
+  return (
+    <main className="bg-white">
+      <section
+        className="relative text-white py-20 px-6 bg-cover bg-center"
+        style={{
+          backgroundImage:
+            "url('https://images.unsplash.com/photo-1644088379091-d574269d422f?auto=format&fit=crop&w=1200&q=70')",
+        }}
+      >
+        <div className="absolute inset-0 bg-black/60"></div>
+        <div className="relative max-w-7xl mx-auto text-center">
+          <h1 className="text-3xl md:text-4xl font-serif mb-4 mt-4 md:mt-30">
+            Personalized Software Solutions
+          </h1>
+          <p className="text-xl mb-6 max-w-3xl mx-auto">
+            A complete guide to choosing and developing personalized software
+            solutions for your business. Learn what to look for, what
+            to avoid, and how Zentrix Infotech delivers results.
+          </p>
+          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
+            <a href="tel:+917248800839">
+              <button className="bg-gradient-to-r from-[#2eaad4] to-[#2c67f2] px-5 py-3 rounded-xl font-semibold border-2 border-white hover:opacity-90 transition flex items-center justify-center gap-2 shadow-lg">
+                <Phone size={18} />
+                <span className="text-base">+91 7248800839</span>
+              </button>
+            </a>
+            <a href="mailto:zentrixit@gmail.com">
+              <button className="bg-transparent px-5 py-3 rounded-xl font-semibold border-2 border-white hover:bg-white hover:text-gray-800 transition">
+                Book Consultation
+              </button>
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+  );
+}

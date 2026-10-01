@@ -9,6 +9,9 @@ import PopupForm from "@/components/PopupForm";
 
 // ✅ GLOBAL SEO (MERGES with page-level metadata)
 export const metadata = {
+  verification: {
+    google: "NrE50hHl6c-azA8AW6DpgA0bwM54EcK2iL3JOBRgX4Q",
+  },
   robots: {
     index: true,
     follow: true,
@@ -175,13 +178,9 @@ export default function RootLayout({ children }) {
       <head>
         {/* ✅ EXTRA SAFETY FOR GOOGLE */}
         <link rel="icon" href="/favicon-v2.ico" sizes="48x48" />
+      </head>
 
-        {/* ✅ GOOGLE SITE VERIFICATION */}
-        <meta
-          name="google-site-verification"
-          content="NrE50hHl6c-azA8AW6DpgA0bwM54EcK2iL3JOBRgX4Q"
-        />
-
+      <body className="bg-[#FFFAFA]">
         {/* ✅ ORGANIZATION SCHEMA */}
         <script
           type="application/ld+json"
@@ -191,10 +190,10 @@ export default function RootLayout({ children }) {
         />
         {/* ✅ END ORGANIZATION SCHEMA */}
 
-        
+        {/* ✅ GTM Script */}
         <Script
           id="gtm-script"
-          strategy="beforeInteractive"
+          strategy="afterInteractive"
           dangerouslySetInnerHTML={{
             __html: `
               (function(w,d,s,l,i){w[l]=w[l]||[];
@@ -208,10 +207,7 @@ export default function RootLayout({ children }) {
             `,
           }}
         />
-        
-      </head>
 
-      <body className="bg-[#FFFAFA]">
         {/* ✅ GTM (noscript) */}
         <noscript>
           <iframe
