@@ -29,7 +29,7 @@ const companies = [
   { id: 23, name: "Manik Suzuki", logo: "https://res.cloudinary.com/dxpyhablz/image/upload/v1786516227/Suzuki_logo_qcqd4w.png" },
   { id: 25, name: "Balprada", logo: "https://res.cloudinary.com/dxpyhablz/image/upload/v1786517145/balprada_logo_qeeg9m.png" },
   { id: 26, name: "MT Boss", logo: "https://res.cloudinary.com/dxpyhablz/image/upload/v1786517511/mtboss_nag8lp.png" },
-  { id: 27, name: "Space Build", logo: "https://res.cloudinary.com/dxpyhablz/image/upload/v1786527113/IMG_20260707_115312_vae81v_bngpxo.webp" },
+  // { id: 27, name: "Space Build", logo: "https://res.cloudinary.com/dxpyhablz/image/upload/v1786527113/IMG_20260707_115312_vae81v_bngpxo.webp" },
   
 
 

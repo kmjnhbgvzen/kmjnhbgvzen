@@ -12,7 +12,7 @@ export const metadata = {
   description:
     "Existing software missing a key module? Zentrix Infotech offers FREE assistance to integrate new modules into your existing software. Discuss it today.",
   keywords:
-    "integrate new module in existing software, integrate a new module into existing software, add module to existing software, add new module to software, software module integration, existing software module integration, integrate new functionality into existing software, add functionality to existing software, software integration services, software customization services, software modification services, existing software customization, module integration services",
+    "integrateA new module in existing software, integrate a new module into existing software, add module to existing software, add new module to software, software module integration, existing software module integration, integrate new functionality into existing software, add functionality to existing software, software integration services, software customization services, software modification services, existing software customization, module integration services",
   alternates: {
     canonical:
       "https://www.zentrixinfotech.com/integrate-new-module-in-existing-software",

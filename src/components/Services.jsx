@@ -78,7 +78,7 @@ const Services = () => {
                   }}
                   onMouseLeave={(e) => {
                     e.currentTarget.style.borderColor = 'rgb(229 231 235)';
-                    e.currentTarget.cdstyle.boxShadow = '0 1px 3px 0 rgb(0 0 0 / 0.1)';
+                    e.currentTarget.style.boxShadow = '0 1px 3px 0 rgb(0 0 0 / 0.1)';
                   }}
                 >
                   {/* Animated background linear on hover */}

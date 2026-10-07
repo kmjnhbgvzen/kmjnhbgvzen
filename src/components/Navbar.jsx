@@ -161,7 +161,7 @@ export default function Navbar() {
 
                     {/* Desktop Navigation */}
                     <div className="hidden lg:block">
-                        <div className="ml-10 flex items-baseline space-x-6">
+                        <div className="ml-6 xl:ml-10 flex items-baseline space-x-4 xl:space-x-6">
                             {/* About Zentrix Dropdown */}
                             <div className="relative" onMouseEnter={() => handleDropdownEnter('about')} onMouseLeave={handleDropdownLeave}>
                                 <button className="flex items-center px-3 py-2 text-base font-semibold transition-colors duration-200"
@@ -208,6 +208,7 @@ export default function Navbar() {
                             </div>
                            
                             <NavLink href="/portfolio">Portfolio</NavLink>
+                            <NavLink href="/projects">Projects</NavLink>
                             <NavLink href="/contact-us">Contact Us</NavLink>
                             <NavLink href="/blog">Blogs</NavLink>
 
@@ -396,6 +397,10 @@ export default function Navbar() {
                             <Link href="/portfolio" onClick={closeMobileMenu} className="block px-3 py-4 text-base font-semibold rounded-md transition-colors duration-200"
                                 style={{ color: '#475569' }} {...mobileHoverStyles}>
                                 Portfolio
+                            </Link>
+                            <Link href="/projects" onClick={closeMobileMenu} className="block px-3 py-4 text-base font-semibold rounded-md transition-colors duration-200"
+                                style={{ color: '#475569' }} {...mobileHoverStyles}>
+                                Projects
                             </Link>
                             <Link href="/contact-us" onClick={closeMobileMenu} className="block px-3 py-4 text-base font-semibold rounded-md transition-colors duration-200"
                                 style={{ color: '#475569' }} {...mobileHoverStyles}>
