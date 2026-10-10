@@ -47,7 +47,7 @@ export default async function ProjectCaseStudyPage({ params }) {
           className="inline-flex items-center gap-2 text-sm font-medium text-slate-600 hover:text-sky-600 transition-colors mb-6"
         >
           <ArrowLeft className="w-4 h-4" />
-          Back to Projects
+          Back to All
         </Link>
       </div>
 

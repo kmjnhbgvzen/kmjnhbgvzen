@@ -322,7 +322,7 @@ export default function MTBossClient() {
               className="inline-flex items-center gap-2 text-xs sm:text-sm font-semibold text-slate-500 hover:text-sky-600 transition-colors mb-6 group px-4 py-1.5 rounded-full bg-white/90 border border-slate-200/80 shadow-xs hover:border-sky-300 backdrop-blur-md"
             >
               <ArrowLeft className="w-3.5 h-3.5 transform group-hover:-translate-x-1 transition-transform" />
-              Back to All Projects
+              Back to All
             </Link>
           </motion.div>
 
@@ -369,14 +369,6 @@ export default function MTBossClient() {
                   <Globe className="w-4 h-4" />
                   Visit Website
                   <ArrowRight className="w-4 h-4 transform group-hover:translate-x-1 transition-transform" />
-                </a>
-
-                <a
-                  href="#overview"
-                  className="inline-flex items-center gap-2 px-6 py-3.5 rounded-full text-sm font-semibold text-slate-700 bg-white border border-slate-200 hover:bg-slate-50 hover:border-slate-300 active:scale-95 transition-all shadow-xs"
-                >
-                  Explore Case Study
-                  <ArrowDown className="w-4 h-4 text-slate-400" />
                 </a>
               </div>
             </motion.div>

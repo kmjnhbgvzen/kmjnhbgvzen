@@ -115,6 +115,16 @@ const nextConfig = {
         destination: "/cookies-policy",
         permanent: true,
       },
+      {
+        source: "/case-study",
+        destination: "/projects",
+        permanent: true,
+      },
+      {
+        source: "/case-studies",
+        destination: "/projects",
+        permanent: true,
+      },
     ];
   },
 };

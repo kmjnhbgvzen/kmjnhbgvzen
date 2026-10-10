@@ -129,7 +129,7 @@ const portfolio = () => {
         {
             id: 10,
             image: 'https://res.cloudinary.com/dewxpvl5s/image/upload/v1764836261/www.selecthospitalmbd.com__Nest_Hub_Max_2_-min_xnmgmj.png',
-            title: 'Select Hospital - Advanced Healthcare Solutions',
+            title: 'Oracle Eye Hospital',
             category: 'Healthcare & Medical Services Platform',
             description: 'A leading multi-specialty hospital in Moradabad delivering comprehensive medical care with modern infrastructure, experienced doctors, advanced diagnostic facilities, and patient-centered treatment across multiple specialties with 24/7 emergency services.',
             link: 'https://www.selecthospitalmbd.com/',

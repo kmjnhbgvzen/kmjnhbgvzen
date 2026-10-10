@@ -2,7 +2,7 @@
 
 import React, { useState } from "react";
 import Link from "next/link";
-import { ArrowUpRight, ExternalLink, Globe } from "lucide-react";
+import { Globe } from "lucide-react";
 
 export default function ProjectCard({ project }) {
   const [imageError, setImageError] = useState(false);
@@ -10,7 +10,10 @@ export default function ProjectCard({ project }) {
   return (
     <div className="group relative flex flex-col bg-white rounded-2xl border border-slate-200/80 hover:border-sky-300 shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 overflow-hidden h-full">
       {/* 1. Project Image Container (Compact responsive height, rounded-xl) */}
-      <div className="relative h-[190px] sm:h-[210px] lg:h-[240px] w-full overflow-hidden bg-slate-100">
+      <Link
+        href={project.caseStudy || `/projects/${project.slug}`}
+        className="relative h-[190px] sm:h-[210px] lg:h-[240px] w-full overflow-hidden bg-slate-100 block"
+      >
         {project.image && !imageError ? (
           <img
             src={project.image}
@@ -46,15 +49,17 @@ export default function ProjectCard({ project }) {
             {project.category}
           </span>
         </div>
-      </div>
+      </Link>
 
       {/* 3. Content Area (Compact padding p-4 sm:p-5) */}
       <div className="p-4 sm:p-5 flex flex-col justify-between flex-grow">
         <div>
           {/* Project Title (text-xl font-semibold) */}
-          <h3 className="text-xl font-semibold font-serif text-slate-900 tracking-tight group-hover:text-sky-600 transition-colors duration-300">
-            {project.name}
-          </h3>
+          <Link href={project.caseStudy || `/projects/${project.slug}`}>
+            <h3 className="text-xl font-semibold font-serif text-slate-900 tracking-tight group-hover:text-sky-600 transition-colors duration-300">
+              {project.name}
+            </h3>
+          </Link>
 
           {/* Project Description (text-sm, line-clamp-2) */}
           <p className="text-sm text-slate-600 leading-relaxed mt-1.5 line-clamp-2">
@@ -62,40 +67,14 @@ export default function ProjectCard({ project }) {
           </p>
         </div>
 
-        {/* 4. Compact Card Action Area */}
-        <div className="pt-3.5 mt-4 border-t border-slate-100 flex items-center justify-between gap-3">
-          {/* Left Side: View Case Study */}
+        {/* 4. Card Action Area */}
+        <div className="pt-3.5 mt-4 border-t border-slate-100 flex items-center justify-between">
           <Link
             href={project.caseStudy || `/projects/${project.slug}`}
             className="inline-flex items-center text-sm font-semibold text-slate-800 hover:text-sky-600 transition-colors duration-200"
           >
             View Case Study
           </Link>
-
-          {/* Right Side: Arrow Icon & External Link Icon (w-10 h-10) */}
-          <div className="flex items-center gap-1.5">
-            {/* Case Study Arrow Button */}
-            <Link
-              href={project.caseStudy || `/projects/${project.slug}`}
-              aria-label={`View ${project.name} case study`}
-              className="w-10 h-10 rounded-full bg-slate-50 hover:bg-sky-50 border border-slate-200/80 hover:border-sky-300 flex items-center justify-center text-slate-700 hover:text-sky-600 transition-all duration-200 shadow-xs"
-            >
-              <ArrowUpRight className="w-4 h-4 transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform duration-200" />
-            </Link>
-
-            {/* External Website Link Button (Active only if URL exists) */}
-            {project.website && project.website.trim() !== "" ? (
-              <a
-                href={project.website}
-                target="_blank"
-                rel="noopener noreferrer"
-                aria-label={`Visit ${project.name} website`}
-                className="w-10 h-10 rounded-full bg-slate-50 hover:bg-sky-50 border border-slate-200/80 hover:border-sky-300 flex items-center justify-center text-slate-700 hover:text-sky-600 transition-all duration-200 shadow-xs"
-              >
-                <ExternalLink className="w-4 h-4" />
-              </a>
-            ) : null}
-          </div>
         </div>
       </div>
     </div>

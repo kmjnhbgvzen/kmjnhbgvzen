@@ -295,7 +295,7 @@ export default function BuyzaarClient() {
           className="inline-flex items-center gap-2 text-sm font-semibold text-slate-600 hover:text-emerald-600 transition-colors bg-white/80 backdrop-blur-md px-4 py-2 rounded-full border border-slate-200/80 shadow-xs hover:shadow-md"
         >
           <ArrowLeft className="w-4 h-4 text-emerald-600" />
-          <span>Back to All Projects</span>
+          <span>Back to All</span>
         </Link>
       </div>
 
@@ -334,14 +334,6 @@ export default function BuyzaarClient() {
               >
                 <span>Visit Live Website</span>
                 <ExternalLink className="w-4 h-4" />
-              </a>
-
-              <a
-                href="#project-overview"
-                className="inline-flex items-center gap-2 px-6 py-3.5 rounded-full bg-white hover:bg-slate-50 text-slate-700 font-semibold border border-slate-200/90 shadow-xs hover:shadow-md hover:-translate-y-0.5 transition-all duration-300"
-              >
-                <span>Explore Case Study</span>
-                <ArrowDown className="w-4 h-4 text-emerald-600" />
               </a>
             </div>
 

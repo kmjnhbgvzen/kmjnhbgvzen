@@ -36,3 +36,44 @@ body {
   animation: ring 2s ease-in-out infinite;
   transform-origin: top top;
 }
+
+/* =====================================================================
+   PS DECOR PAGE — Scoped Typography Normalization
+   All section headings → Playfair Display (serif), unified sizes
+   All body paragraphs  → Public Sans (sans-serif), unified sizes
+   ===================================================================== */
+.ps-decor-page h1 {
+  font-family: 'Playfair Display', Georgia, serif;
+  font-size: clamp(2.2rem, 5vw, 3.75rem);
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+}
+
+/* Section-level headings (h2) */
+.ps-decor-page h2 {
+  font-family: 'Playfair Display', Georgia, serif;
+  font-size: clamp(1.65rem, 3.5vw, 2.5rem);
+  font-weight: 700;
+  line-height: 1.25;
+  letter-spacing: -0.015em;
+}
+
+/* Card / sub-section headings (h3, h4, h5) */
+.ps-decor-page h3,
+.ps-decor-page h4,
+.ps-decor-page h5 {
+  font-family: 'Playfair Display', Georgia, serif;
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.4;
+}
+
+/* Section-level paragraphs */
+.ps-decor-page p {
+  font-family: 'Public Sans', 'Work Sans', sans-serif;
+  font-size: 0.875rem;
+  line-height: 1.7;
+  font-weight: 300;
+}
+
