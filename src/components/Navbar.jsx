@@ -146,17 +146,14 @@ export default function Navbar() {
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="flex items-center justify-between h-20">
                     {/* Logo */}
-                    <Link href="/">
-                        <div className="shrink-0">
-                            <div className="text-2xl font-bold" style={{ color: '#0ea5e9' }}>
-                                <img
-                                    src='https://res.cloudinary.com/dewxpvl5s/image/upload/v1761370086/bg_remove_logo_zentrix_gn8ybw.png'
-                                    alt="Logo"
-                                    className="h-full w-50 object-contain"
-                                />
-                            </div>
+                    <Link href="/" className="flex items-center">
+                        <div className="shrink-0 flex items-center">
+                            <img
+                                src='https://res.cloudinary.com/dewxpvl5s/image/upload/e_trim/v1761370086/bg_remove_logo_zentrix_gn8ybw.png'
+                                alt="Logo"
+                                className="h-10 sm:h-11 md:h-12 w-auto object-contain"
+                            />
                         </div>
-
                     </Link>
 
                     {/* Desktop Navigation */}

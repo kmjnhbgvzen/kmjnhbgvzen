@@ -11,18 +11,18 @@ export const metadata = {
     "Luxury Wedding Website Development",
     "Wedding Planning Digital Experience",
     "Event Management Website Design",
-    "Zentrix Infotech Projects",
+    "Zentrix Infotech Case Study",
     "Destination Wedding Portal",
     "Luxury Event Décor Portfolio",
   ],
   alternates: {
-    canonical: "https://www.zentrixinfotech.com/projects/ps-decor",
+    canonical: "https://www.zentrixinfotech.com/case-study/ps-decor",
   },
   openGraph: {
     title: "PS Decor Case Study | Crafting a Luxury Digital Experience for Weddings & Celebrations",
     description:
       "A complete case study on how Zentrix Infotech designed and developed the bespoke digital platform for PS Decor, combining visual elegance with structured wedding service discovery.",
-    url: "https://www.zentrixinfotech.com/projects/ps-decor",
+    url: "https://www.zentrixinfotech.com/case-study/ps-decor",
     siteName: "Zentrix Infotech",
     locale: "en_IN",
     type: "article",

@@ -11,7 +11,7 @@ export const metadata = {
     "Medical Association Website Design",
     "CME Medical Education Platform",
     "Healthcare Association UX",
-    "Zentrix Infotech Projects",
+    "Zentrix Infotech Case Studies",
     "Doctor Network Website India",
     "Community Health Camp Platform",
   ],

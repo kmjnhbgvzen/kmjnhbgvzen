@@ -551,7 +551,7 @@ export default function OracleHospitalClient() {
             className="inline-flex items-center gap-2 text-sm font-medium text-slate-500 hover:text-blue-700 transition-colors group"
           >
             <ArrowLeft className="w-4 h-4 transition-transform group-hover:-translate-x-1" />
-            <span>Back to All</span>
+            <span>Back to Case Studies</span>
           </Link>
 
           <div

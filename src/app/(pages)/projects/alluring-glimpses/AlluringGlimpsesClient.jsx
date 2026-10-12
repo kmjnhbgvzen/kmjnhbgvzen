@@ -386,7 +386,7 @@ export default function AlluringGlimpsesClient() {
   ];
 
   return (
-    <div className="min-h-screen bg-[#F5F9FF] text-[#425466] font-sans antialiased selection:bg-blue-100 selection:text-blue-900">
+    <div className="min-h-screen bg-[#F5F9FF] text-[#425466] font-sans antialiased selection:bg-blue-100 selection:text-blue-900 pt-24 lg:pt-36">
       {/* ── Top Navigation Bar ──────────────────────────────────────── */}
       <nav className="sticky top-0 z-50 bg-white/90 backdrop-blur-md border-b border-blue-100/80 shadow-sm">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
@@ -395,7 +395,7 @@ export default function AlluringGlimpsesClient() {
             className="inline-flex items-center gap-2 text-sm font-medium text-slate-600 hover:text-[#1769AA] transition-colors"
           >
             <ArrowLeft className="w-4 h-4" />
-            <span>Back to All</span>
+            <span>Back to Case Studies</span>
           </Link>
 
           <div className="flex items-center gap-3">

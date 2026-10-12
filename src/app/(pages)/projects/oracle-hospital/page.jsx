@@ -11,18 +11,18 @@ export const metadata = {
     "Ophthalmology Website Design",
     "Healthcare Website Development",
     "Patient Experience Website",
-    "Zentrix Infotech Projects",
+    "Zentrix Infotech Case Study",
     "Hospital Website Design India",
     "Eye Care Digital Experience",
   ],
   alternates: {
-    canonical: "https://www.zentrixinfotech.com/projects/oracle-hospital",
+    canonical: "https://www.zentrixinfotech.com/case-study/oracle-hospital",
   },
   openGraph: {
     title: "Oracle Eye Hospital Case Study | Building a Digital Experience for Advanced Eye Care & Patient Trust",
     description:
       "A complete case study on how Zentrix Infotech designed and developed the professional digital platform for Oracle Eye Hospital — helping patients discover eye care services, specialist doctors, and appointment pathways with confidence.",
-    url: "https://www.zentrixinfotech.com/projects/oracle-hospital",
+    url: "https://www.zentrixinfotech.com/case-study/oracle-hospital",
     siteName: "Zentrix Infotech",
     locale: "en_IN",
     type: "article",

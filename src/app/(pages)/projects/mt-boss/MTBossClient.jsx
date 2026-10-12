@@ -292,7 +292,7 @@ export default function MTBossClient() {
       {/* ─────────────────────────────────────────────────────────────
           1. HERO SECTION (Floating Circular Background & Overlapping Mockup)
           ───────────────────────────────────────────────────────────── */}
-      <section className="relative pt-24 sm:pt-28 lg:pt-32 pb-16 sm:pb-24 px-4 sm:px-6 lg:px-8 overflow-hidden bg-gradient-to-b from-slate-50 via-white to-sky-50/20 border-b border-slate-200/60">
+      <section className="relative pt-32 sm:pt-36 lg:pt-40 pb-16 sm:pb-24 px-4 sm:px-6 lg:px-8 overflow-hidden bg-gradient-to-b from-slate-50 via-white to-sky-50/20 border-b border-slate-200/60">
         {/* Abstract Circular Background Atmospheric Effects */}
         <div className="absolute top-10 left-1/2 -translate-x-1/2 w-[700px] h-[700px] bg-gradient-to-br from-sky-200/40 via-blue-100/30 to-teal-50/20 rounded-full blur-3xl pointer-events-none -z-0 animate-pulse duration-[8000ms]" />
         <div className="absolute top-20 right-10 w-96 h-96 bg-gradient-to-tr from-sky-400/15 to-indigo-400/10 rounded-full blur-2xl pointer-events-none -z-0" />
@@ -322,7 +322,7 @@ export default function MTBossClient() {
               className="inline-flex items-center gap-2 text-xs sm:text-sm font-semibold text-slate-500 hover:text-sky-600 transition-colors mb-6 group px-4 py-1.5 rounded-full bg-white/90 border border-slate-200/80 shadow-xs hover:border-sky-300 backdrop-blur-md"
             >
               <ArrowLeft className="w-3.5 h-3.5 transform group-hover:-translate-x-1 transition-transform" />
-              Back to All
+              Back to Case Studies
             </Link>
           </motion.div>
 

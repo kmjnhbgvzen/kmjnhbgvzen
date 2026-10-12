@@ -11,7 +11,7 @@ export const metadata = {
     "Architecture & Spatial Design UX",
     "Bespoke Furniture Website",
     "Nazaakat Artisanal Decor",
-    "Zentrix Infotech Projects",
+    "Zentrix Infotech Case Study",
     "Interior Studio Bijnor Ghaziabad",
     "Luxury Home Decor Digital Experience",
   ],

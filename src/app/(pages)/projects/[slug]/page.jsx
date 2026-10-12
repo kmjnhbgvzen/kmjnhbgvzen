@@ -41,13 +41,13 @@ export default async function ProjectCaseStudyPage({ params }) {
   return (
     <main className="min-h-screen bg-[#FFFAFA] text-slate-800 pb-24">
       {/* Top Breadcrumb / Back Link */}
-      <div className="pt-24 sm:pt-32 lg:pt-36 px-4 sm:px-6 lg:px-8 max-w-5xl mx-auto">
+      <div className="pt-32 sm:pt-36 lg:pt-40 px-4 sm:px-6 lg:px-8 max-w-5xl mx-auto">
         <Link
           href="/projects"
           className="inline-flex items-center gap-2 text-sm font-medium text-slate-600 hover:text-sky-600 transition-colors mb-6"
         >
           <ArrowLeft className="w-4 h-4" />
-          Back to All
+          Back to Case Studies
         </Link>
       </div>
 

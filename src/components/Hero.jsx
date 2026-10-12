@@ -613,9 +613,9 @@ const Hero = () => {
         from-[#f56a6a]/5
         via-white
         to-[#f04393]/5
-        pt-8
-        sm:pt-10
-        lg:pt-[100px]
+        pt-28
+        sm:pt-32
+        lg:pt-36
         min-h-[calc(100vh-80px)]
       "
     >
@@ -748,9 +748,9 @@ const Hero = () => {
                     w-full
                     max-w-full
                     text-[38px]
-                    leading-[1.08]
+                    leading-[1.2]
                     sm:text-5xl
-                    sm:leading-[1.08]
+                    sm:leading-[1.2]
                     md:text-6xl
                     lg:text-6xl
                     font-black
@@ -786,6 +786,7 @@ const Hero = () => {
                       font-medium
                       font-serif
                       whitespace-nowrap
+                      pb-1
                     "
                   >
                     {currentService.prefix}
@@ -793,7 +794,7 @@ const Hero = () => {
 
                   <span
                     className={`
-                      block
+                      inline-block
                       bg-gradient-to-r
                       ${currentService.color}
                       bg-clip-text
@@ -805,6 +806,9 @@ const Hero = () => {
                       font-medium
                       font-serif
                       whitespace-nowrap
+                      pb-2
+                      sm:pb-3
+                      pr-2
                     `}
                   >
                     {currentService.title}
@@ -946,7 +950,7 @@ const Hero = () => {
 
           {/* ================= RIGHT MOCKUP ================= */}
 
-          <div className="relative w-full">
+          <div className="relative w-full mt-6 lg:mt-6">
             <AnimatePresence mode="wait">
               <motion.div
                 key={currentServiceIndex}

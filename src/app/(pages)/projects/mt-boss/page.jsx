@@ -7,20 +7,20 @@ export const metadata = {
     "Explore how Zentrix Infotech built a scalable digital platform for MTBoss Construction, seamlessly integrating building materials and home services.",
   keywords: [
     "MTBoss Construction Case Study",
-    "Zentrix Infotech Projects",
+    "Zentrix Infotech Case Study",
     "Construction Website Development",
     "Building Materials Web Platform",
     "Home Services Platform Development",
     "Next.js Construction Portal",
   ],
   alternates: {
-    canonical: "https://www.zentrixinfotech.com/projects/mt-boss",
+    canonical: "https://www.zentrixinfotech.com/case-study/mt-boss",
   },
   openGraph: {
     title: "MTBoss Construction Case Study | Zentrix Infotech",
     description:
       "A complete case study on how Zentrix Infotech designed and developed the MTBoss Construction building materials & services platform.",
-    url: "https://www.zentrixinfotech.com/projects/mt-boss",
+    url: "https://www.zentrixinfotech.com/case-study/mt-boss",
     siteName: "Zentrix Infotech",
     locale: "en_IN",
     type: "article",

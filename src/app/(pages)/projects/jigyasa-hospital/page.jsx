@@ -11,7 +11,7 @@ export const metadata = {
     "Healthcare Website Development Moradabad",
     "Hospital Doctor Directory UX",
     "Patient Experience Digital Platform",
-    "Zentrix Infotech Projects",
+    "Zentrix Infotech Case Study",
     "Jigyasa Hospital Moradabad",
     "Medical Specialties Website",
   ],

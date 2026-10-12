@@ -496,7 +496,7 @@ export default function VasteriorClient() {
             onMouseLeave={(e) => (e.currentTarget.style.color = "")}
           >
             <ArrowLeft className="w-4 h-4 transition-transform group-hover:-translate-x-1" />
-            <span>Back to All</span>
+            <span>Back to Case Studies</span>
           </Link>
 
           <div

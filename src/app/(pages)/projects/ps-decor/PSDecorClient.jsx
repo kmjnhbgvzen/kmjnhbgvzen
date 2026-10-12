@@ -502,7 +502,7 @@ export default function PSDecorClient() {
             className="inline-flex items-center gap-2 text-sm font-medium text-slate-500 hover:text-[#1769AA] transition-colors group"
           >
             <ArrowLeft className="w-4 h-4 transition-transform group-hover:-translate-x-1" />
-            <span>Back to All</span>
+            <span>Back to Case Studies</span>
           </Link>
 
           <div className="flex items-center gap-2 text-xs font-semibold uppercase tracking-wider text-[#102A43] bg-[#EAF4FF] border border-[#3B82C4]/30 px-3.5 py-1.5 rounded-full shadow-xs">

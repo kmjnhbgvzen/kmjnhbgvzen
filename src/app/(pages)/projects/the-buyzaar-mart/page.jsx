@@ -6,13 +6,13 @@ export const metadata = {
   description:
     "Explore how Zentrix Infotech engineered a scalable retail and franchise-focused digital platform for The Buyzaar Mart.",
   alternates: {
-    canonical: "https://www.zentrixinfotech.com/projects/the-buyzaar-mart",
+    canonical: "https://www.zentrixinfotech.com/case-study/the-buyzaar-mart",
   },
   openGraph: {
     title: "The Buyzaar Mart Case Study | Zentrix Infotech",
     description:
       "A deep dive into how Zentrix Infotech designed and developed the unified retail, store network, and franchise platform for The Buyzaar Mart.",
-    url: "https://www.zentrixinfotech.com/projects/the-buyzaar-mart",
+    url: "https://www.zentrixinfotech.com/case-study/the-buyzaar-mart",
     siteName: "Zentrix Infotech",
     images: [
       {

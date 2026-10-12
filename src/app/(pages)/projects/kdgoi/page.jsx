@@ -11,7 +11,7 @@ export const metadata = {
     "Educational Website Development",
     "College Campus Digital UX",
     "Admissions & Course Portal",
-    "Zentrix Infotech Projects",
+    "Zentrix Infotech Case Study",
     "KDEDU Website Design",
     "Higher Education Website India",
   ],
