@@ -41,7 +41,7 @@ export default async function ProjectCaseStudyPage({ params }) {
   return (
     <main className="min-h-screen bg-[#FFFAFA] text-slate-800 pb-24">
       {/* Top Breadcrumb / Back Link */}
-      <div className="pt-32 sm:pt-36 lg:pt-40 px-4 sm:px-6 lg:px-8 max-w-5xl mx-auto">
+      <div className="pt-4 sm:pt-8 lg:pt-40 px-4 sm:px-6 lg:px-8 max-w-5xl mx-auto">
         <Link
           href="/projects"
           className="inline-flex items-center gap-2 text-sm font-semibold text-slate-600 hover:text-sky-600 transition-all bg-white/80 backdrop-blur-md px-4 py-2 rounded-full border border-slate-200/80 shadow-xs hover:shadow-md mb-6 group"

@@ -196,12 +196,12 @@ export default function ContactUs() {
 
             {/* ================= HERO SECTION ================= */}
 
-            <div className="text-center mb-3 sm:mb-4 mt-0">
-                <h1 className="text-3xl sm:text-5xl md:text-6xl font-medium font-serif text-slate-900 mb-4 sm:mb-6 leading-tight tracking-tight text-center mt-0">
+            <div className="text-left md:text-center mb-3 sm:mb-4 mt-0 px-4">
+                <h1 className="text-3xl sm:text-5xl md:text-6xl font-medium font-serif text-slate-900 mb-4 sm:mb-6 leading-tight tracking-tight text-left md:text-center mt-0">
                     Contact Us
                 </h1>
 
-                <p className="text-base sm:text-lg md:text-xl text-slate-600 max-w-3xl mx-auto leading-relaxed text-center px-4">
+                <p className="text-base sm:text-lg md:text-xl text-slate-600 max-w-3xl mx-auto leading-relaxed text-left md:text-center px-0 md:px-4">
                     We're here to help bring your ideas to life. Reach out to us
                     and let's discuss how we can transform your vision into a
                     powerful digital solution.

@@ -495,7 +495,7 @@ export default function PSDecorClient() {
       {/* ========================================================================= */}
       {/* 1. TOP BREADCRUMB & BACK NAVIGATION */}
       {/* ========================================================================= */}
-      <div className="pt-32 sm:pt-36 lg:pt-40 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
+      <div className="pt-4 sm:pt-8 lg:pt-40 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
         <div className="flex flex-wrap items-center justify-between gap-4 mb-6">
           <Link
             href="/projects"

@@ -121,11 +121,11 @@ function App() {
             <div className="absolute bottom-0 right-0 w-96 h-96 bg-gradient-to-br from-[#f48fb1]/5 to-[#e91e63]/5 rounded-full blur-3xl"></div>
 
             {/* Section Header */}
-            <div className="text-center mb-16">
+            <div className="text-left md:text-center mb-16">
                 {/* Vibrant Badge */}
                 <div className="inline-block">
-                    <div className="flex justify-center">
-                        <div className="bg-gradient-to-r from-indigo-600 via-purple-600 to-pink-600 bg-clip-text text-transparent text-center font-medium text-xl uppercase tracking-wider mb-2 px-6 py-2 rounded-full inline-block border border-indigo-500/20">
+                    <div className="flex justify-start md:justify-center">
+                        <div className="bg-gradient-to-r from-indigo-600 via-purple-600 to-pink-600 bg-clip-text text-transparent text-left md:text-center font-medium text-xl uppercase tracking-wider mb-2 px-6 py-2 rounded-full inline-block border border-indigo-500/20">
                             BUSINESS BENEFITS
                         </div>
                     </div>
@@ -141,7 +141,7 @@ function App() {
                 </h2>
 
                 {/* Stylized Description */}
-                <p className="text-base sm:text-lg md:text-xl text-slate-600 max-w-3xl mx-auto leading-relaxed">
+                <p className="text-base sm:text-lg md:text-xl text-slate-600 max-w-3xl mx-auto leading-relaxed text-left sm:text-center">
                     Streamline operations and boost revenue across all business sectors.
                 </p>
             </div>

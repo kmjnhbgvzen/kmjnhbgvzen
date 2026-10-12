@@ -2,7 +2,6 @@
 
 import React, { useState, useEffect } from 'react';
 import { Globe, Smartphone, Palette, Code, Database, Tablet, Headphones, Layers, Zap, ShoppingCart, CreditCard } from 'lucide-react';
-import Banner from '@/components/Banner';
 
 // export const metadata = {title: "Shopify Development Company – Zentrix Infotech",description: "Professional Shopify store development services to build high-converting ecommerce websites."};
 
@@ -518,7 +517,6 @@ const Shopify_Page = () => {
             <Hero />
             <Services />
             <ShopifyServicesGrid />
-            <Banner />
             {/* <HiringModel /> */}
         </>
     );

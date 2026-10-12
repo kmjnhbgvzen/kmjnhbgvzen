@@ -145,10 +145,6 @@ const UIDesigner = () => {
                                     <button className="bg-linear-to-r from-purple-600 to-pink-600 text-white px-8 py-3 rounded-full hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-purple-500/25">
                                         Start Your Project
                                     </button>
-                                    <button className="border border-gray-400 text-slate-700 px-8 py-3 rounded-full hover:border-slate-900 hover:text-slate-900 transition-all duration-300 flex items-center justify-center">
-                                        <Play className="w-4 h-4 mr-2" />
-                                        Watch Demo
-                                    </button>
                                 </div>
                             </div>
 

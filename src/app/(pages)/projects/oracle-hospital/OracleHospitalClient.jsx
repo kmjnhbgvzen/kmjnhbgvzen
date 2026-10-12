@@ -544,7 +544,7 @@ export default function OracleHospitalClient() {
       {/* ======================================================== */}
       {/* 1. BREADCRUMB & BACK NAVIGATION                           */}
       {/* ======================================================== */}
-      <div className="pt-32 sm:pt-36 lg:pt-40 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
+      <div className="pt-4 sm:pt-8 lg:pt-40 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
         <div className="flex flex-wrap items-center justify-between gap-4 mb-6">
           <Link
             href="/projects"
@@ -1623,14 +1623,6 @@ export default function OracleHospitalClient() {
               >
                 <Phone className="h-4 w-4" style={{ color: BLUE_PRIMARY }} />
                 <span>Let's Connect</span>
-              </Link>
-
-              <Link
-                href="/projects"
-                className="inline-flex items-center gap-2 px-8 py-3.5 text-sm font-medium font-serif text-white rounded-full border border-white/20 bg-white/10 hover:bg-white/20 active:scale-95 transition-all duration-300"
-              >
-                <Sparkles className="h-4 w-4 text-blue-300" />
-                Explore Our Projects
               </Link>
             </div>
 

@@ -1,7 +1,7 @@
 'use client';
 
 import React, { useState, useEffect } from 'react';
-import { Smartphone, Code, Palette, Shield, Zap, Globe, Users, BarChart3, Play, Star, TrendingUp, Search, Menu, Heart, ShoppingCart, Camera, MapPin, Calendar, Bell, Settings, Download, Package, Cpu, Layers } from 'lucide-react';
+import { Smartphone, Code, Palette, Shield, Zap, Globe, Users, BarChart3, Play, Star, TrendingUp, Search, Menu, Heart, ShoppingCart, Camera, MapPin, Calendar, Bell, Settings, Download, Package, Cpu, Layers, ShieldCheck, CheckCircle } from 'lucide-react';
 import { motion } from "framer-motion";
 
 // export const metadata = {title: "Android App Development – Zentrix Infotech",description: "Expert Android app development services for startups and enterprises. Build powerful, scalable and user-friendly Android apps."};
@@ -108,9 +108,9 @@ class UserViewModel : ViewModel() {
 
   const androidFeatures = [
     { icon: Zap, title: "High Performance", desc: "Optimized for speed" },
-    { icon: Shield, title: "Secure", desc: "Enterprise-grade security" },
-    { icon: Users, title: "Scalable", desc: "Millions of users" },
-    { icon: Package, title: "Play Store Ready", desc: "Optimized for deployment" }
+    { icon: ShieldCheck, title: "Secure", desc: "Enterprise-grade security" },
+    { icon: TrendingUp, title: "Scalable", desc: "Millions of users" },
+    { icon: CheckCircle, title: "Play Store Ready", desc: "Optimized for deployment" }
   ];
 
   const dashboardStats = [
@@ -143,13 +143,23 @@ class UserViewModel : ViewModel() {
                 Build powerful, scalable Android applications with modern Kotlin, Jetpack Compose, and cutting-edge Android technologies that reach billions of users worldwide.
               </p>
 
-              <div className="flex flex-wrap gap-3 sm:gap-4 mb-6 sm:mb-8">
-                {androidFeatures.map((feature, index) => (
-                  <div key={index} className="flex items-center space-x-2 bg-white px-3 sm:px-4 py-2 rounded-full border border-gray-300 shadow-sm hover:shadow-md transition-shadow">
-                    <feature.icon className="w-3 h-3 sm:w-4 sm:h-4 text-green-600" />
-                    <span className="text-xs sm:text-sm text-slate-700">{feature.title}</span>
-                  </div>
-                ))}
+              <div className="grid grid-cols-2 sm:flex sm:flex-wrap items-center gap-2.5 sm:gap-3 mb-6 sm:mb-8">
+                {androidFeatures.map((feature, index) => {
+                  const IconComponent = feature.icon;
+                  return (
+                    <div
+                      key={index}
+                      className="group flex items-center gap-2 sm:gap-2.5 bg-white hover:bg-blue-50/40 px-3 sm:px-3.5 py-2 sm:py-2.5 rounded-xl sm:rounded-2xl border border-blue-200/80 hover:border-blue-400 shadow-[0_2px_10px_-3px_rgba(23,92,211,0.07)] hover:shadow-[0_6px_18px_-4px_rgba(23,92,211,0.14)] hover:-translate-y-0.5 transition-all duration-300 ease-out cursor-default"
+                    >
+                      <div className="w-7 h-7 sm:w-8 sm:h-8 rounded-lg bg-blue-50 text-blue-600 border border-blue-100 flex items-center justify-center shrink-0 group-hover:bg-blue-600 group-hover:text-white group-hover:border-blue-600 transition-all duration-300 shadow-xs">
+                        <IconComponent className="w-3.5 h-3.5 sm:w-4 sm:h-4 transition-transform duration-300 group-hover:scale-110" />
+                      </div>
+                      <span className="text-xs sm:text-sm font-semibold text-slate-800 tracking-tight whitespace-nowrap">
+                        {feature.title}
+                      </span>
+                    </div>
+                  );
+                })}
               </div>
 
               <div className="flex flex-col sm:flex-row gap-4">

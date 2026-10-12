@@ -289,7 +289,7 @@ export default function BuyzaarClient() {
       <div className="absolute inset-0 bg-[radial-gradient(#10b981_0.75px,transparent_0.75px)] [background-size:24px_24px] opacity-15 pointer-events-none" />
 
       {/* Breadcrumb Navigation */}
-      <div className="pt-32 sm:pt-36 lg:pt-40 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto relative z-20">
+      <div className="pt-4 sm:pt-8 lg:pt-40 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto relative z-20">
         <Link
           href="/projects"
           className="inline-flex items-center gap-2 text-sm font-semibold text-slate-600 hover:text-emerald-600 transition-colors bg-white/80 backdrop-blur-md px-4 py-2 rounded-full border border-slate-200/80 shadow-xs hover:shadow-md"
@@ -1748,13 +1748,6 @@ export default function BuyzaarClient() {
             >
               <span>Start Your Project</span>
               <ArrowRight className="w-5 h-5" />
-            </Link>
-
-            <Link
-              href="/projects"
-              className="inline-flex items-center gap-2 px-8 py-4 rounded-full bg-slate-900/90 hover:bg-slate-800 text-slate-200 font-bold text-base border border-slate-700 shadow-md hover:-translate-y-0.5 transition-all duration-300"
-            >
-              <span>Explore More Projects</span>
             </Link>
           </div>
 

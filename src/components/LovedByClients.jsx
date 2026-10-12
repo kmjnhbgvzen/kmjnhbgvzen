@@ -183,12 +183,12 @@ const MovingTestimonials = () => {
       <div className="bg-white relative overflow-hidden py-12 lg:py-0">
 
 
-        <div className="relative z-10 text-center py-8 lg:py-16 px-4 lg:px-6">
+        <div className="relative z-10 text-left md:text-center py-8 lg:py-16 px-4 lg:px-6">
 
-          <h2 className="text-3xl sm:text-5xl md:text-6xl font-medium font-serif text-slate-900 mb-4 sm:mb-6 leading-tight tracking-tight px-4">
+          <h2 className="text-3xl sm:text-5xl md:text-6xl font-medium font-serif text-slate-900 mb-4 sm:mb-6 leading-tight tracking-tight px-0 md:px-4">
             Loved by Clients
           </h2>
-          <p className="text-base sm:text-lg md:text-xl text-slate-600 max-w-3xl mx-auto leading-relaxed mb-0 px-4">
+          <p className="text-base sm:text-lg md:text-xl text-slate-600 max-w-3xl mx-auto leading-relaxed mb-0 px-0 md:px-4 text-left sm:text-center">
             See what industry leaders are saying about our AI-powered development tools
           </p>
         </div>

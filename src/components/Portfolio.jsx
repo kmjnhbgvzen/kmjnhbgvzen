@@ -233,17 +233,17 @@ const portfolio = () => {
 
             <div className="max-w-7xl mx-auto relative z-20">
               {/* Header Section */}
-             <div className="text-center mb-12 pt-2">
+             <div className="text-left md:text-center mb-12 pt-2">
 
         <h2 className="text-3xl sm:text-5xl md:text-6xl font-medium font-serif text-slate-900 mb-4 sm:mb-6 leading-tight tracking-tight px-4">
             Our portfolio
         </h2>
 
-    <p className="text-base sm:text-lg md:text-xl text-slate-600 max-w-3xl mx-auto leading-relaxed">
+    <p className="text-base sm:text-lg md:text-xl text-slate-600 max-w-3xl mx-auto leading-relaxed text-left sm:text-center">
         Showcasing our best creative work
     </p>
 
-    <div className="mt-8 w-24 h-1 bg-linear-to-r from-[#f56a6a] via-[#f04393] to-[#3d1b88] mx-auto rounded-full"></div>
+    <div className="mt-8 w-24 h-1 bg-linear-to-r from-[#f56a6a] via-[#f04393] to-[#3d1b88] mx-0 md:mx-auto rounded-full"></div>
 </div>
 
                 {/* Projects Grid */}

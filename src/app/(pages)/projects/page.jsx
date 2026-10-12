@@ -53,11 +53,11 @@ export default function ProjectsPage() {
   return (
     <main className="min-h-screen bg-[#FFFAFA] text-slate-800 pb-20">
       {/* 1. HERO SECTION */}
-      <section className="relative pt-24 sm:pt-32 lg:pt-36 pb-8 sm:pb-12 px-4 sm:px-6 lg:px-8 overflow-hidden">
+      <section className="relative pt-4 sm:pt-8 lg:pt-36 pb-8 sm:pb-12 px-4 sm:px-6 lg:px-8 overflow-hidden">
         {/* Decorative Background Orbs */}
         <div className="absolute top-12 left-1/2 -translate-x-1/2 w-96 h-96 bg-gradient-to-r from-sky-400/10 via-blue-500/10 to-teal-400/10 rounded-full blur-3xl pointer-events-none" />
 
-        <div className="max-w-4xl mx-auto text-center relative z-10">
+        <div className="max-w-4xl mx-auto text-left md:text-center relative z-10">
           {/* Badge: CASE STUDIES */}
           <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full text-xs sm:text-sm font-semibold tracking-wider bg-gradient-to-r from-sky-50 to-blue-50 border border-sky-200 text-sky-600 mb-4 sm:mb-6 shadow-xs">
             <Sparkles className="w-3.5 h-3.5 text-sky-500" />
@@ -73,7 +73,7 @@ export default function ProjectsPage() {
           </h1>
 
           {/* Description */}
-          <p className="text-base sm:text-lg md:text-xl text-slate-600 max-w-3xl mx-auto leading-relaxed">
+          <p className="text-base sm:text-lg md:text-xl text-slate-600 max-w-3xl mx-auto leading-relaxed text-left sm:text-center">
             Explore in-depth case studies of the websites, digital platforms, and solutions developed by Zentrix Infotech for businesses across different industries.
           </p>
         </div>

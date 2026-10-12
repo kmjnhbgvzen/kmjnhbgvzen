@@ -613,10 +613,11 @@ const Hero = () => {
         from-[#f56a6a]/5
         via-white
         to-[#f04393]/5
-        pt-28
-        sm:pt-32
+        pt-4
+        sm:pt-8
         lg:pt-36
-        min-h-[calc(100vh-80px)]
+        min-h-0
+        lg:min-h-[calc(100vh-80px)]
       "
     >
       {/* ================= BACKGROUND ================= */}
@@ -711,19 +712,22 @@ const Hero = () => {
             lg:gap-16
             items-start
             lg:items-center
-            min-h-[calc(100vh-180px)]
-            pt-6
+            min-h-0
+            lg:min-h-[calc(100vh-180px)]
+            pt-1
             sm:pt-8
-            pb-24
+            pb-16
+            sm:pb-24
           "
         >
           {/* ================= LEFT CONTENT ================= */}
 
           <motion.div
             className="
-              text-center
+              text-left
               lg:text-left
-              space-y-8
+              space-y-6
+              sm:space-y-8
               pt-0
             "
             initial={{
@@ -801,7 +805,7 @@ const Hero = () => {
                 </motion.h1>
               </AnimatePresence>
 
-              <p className="text-base sm:text-lg md:text-xl text-slate-600 max-w-3xl leading-relaxed">
+              <p className="text-base sm:text-lg md:text-xl text-slate-600 max-w-3xl leading-relaxed text-left sm:text-center lg:text-left">
                 Enterprise-grade solutions powered by
                 cutting-edge technology
               </p>
@@ -846,42 +850,6 @@ const Hero = () => {
                 <span>Get Started</span>
 
                 <ChevronRight className="w-5 h-5" />
-              </motion.button>
-
-              <motion.button
-                className="
-                  px-8
-                  py-4
-                  bg-white
-                  border-2
-                  border-gray-300
-                  text-gray-700
-                  font-bold
-                  text-lg
-                  rounded-xl
-                  hover:bg-gray-50
-                  transition-all
-                  w-full
-                  sm:w-auto
-                  flex
-                  items-center
-                  justify-center
-                  gap-2
-                  cursor-pointer
-                "
-                whileHover={{
-                  scale: 1.05,
-                }}
-                whileTap={{
-                  scale: 0.95,
-                }}
-                onClick={() => {
-                  window.location.href = "/portfolio";
-                }}
-              >
-                <Play className="w-5 h-5" />
-
-                <span>View Work</span>
               </motion.button>
             </div>
 

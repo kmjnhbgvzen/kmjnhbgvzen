@@ -400,7 +400,7 @@ export default function BlogClient({ blog }) {
           </div>
 
           {/* Hero Content */}
-          <div className="relative h-full max-w-5xl mx-auto px-4 md:px-6 lg:px-8 flex flex-col justify-center items-center text-center z-10 mb-10 mt-6">
+          <div className="relative h-full max-w-5xl mx-auto px-4 md:px-6 lg:px-8 flex flex-col justify-center items-start md:items-center text-left md:text-center z-10 mb-10 mt-6">
             {/* Category Badge */}
             <span className="inline-flex items-center gap-1.5 md:gap-2 px-3 md:px-4 py-1.5 md:py-2 bg-white/10 backdrop-blur-sm border border-white/20 rounded-full text-white mb-3 md:mb-4 lg:mb-6 text-xs md:text-sm mt-10">
               <Tag className="w-3 h-3 md:w-4 md:h-4" /> {blog.category}

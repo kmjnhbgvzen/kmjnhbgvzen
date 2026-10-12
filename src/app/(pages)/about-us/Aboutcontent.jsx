@@ -6,7 +6,6 @@ import {
   Globe,
   Lightbulb,
   Target,
-  Building,
   Heart,
   Shield,
   Rocket,
@@ -115,7 +114,7 @@ const AboutUsSection = () => {
   );
 
   return (
-    <section className="relative px-4 pt-36 sm:pt-40 lg:pt-44 pb-8 sm:px-6 lg:px-8 bg-gradient-to-br from-slate-50 via-gray-50 to-white overflow-hidden">
+    <section className="relative px-4 pt-4 sm:pt-10 lg:pt-44 pb-8 sm:px-6 lg:px-8 bg-gradient-to-br from-slate-50 via-gray-50 to-white overflow-hidden">
 
       {/* ================= BACKGROUND EFFECTS ================= */}
 
@@ -144,25 +143,12 @@ const AboutUsSection = () => {
 
       {/* ================= MAIN CONTAINER ================= */}
 
-      <div className="max-w-7xl pt-4 sm:pt-6 lg:pt-8 pb-14 mx-auto relative z-10">
+      <div className="max-w-7xl pt-1 sm:pt-6 lg:pt-8 pb-14 mx-auto relative z-10">
 
         {/* ================= HEADER ================= */}
 
-        <div className="text-center mb-16 mt-0">
+        <div className="text-left md:text-center mb-8 sm:mb-16 mt-0">
 
-          {/* Badge */}
-
-          <div className="inline-flex items-center px-6 py-3 rounded-full font-medium font-serif bg-gradient-to-r from-emerald-500/10 to-blue-500/10 border border-emerald-500/30 text-teal-600 mb-8 backdrop-blur-sm hover:scale-105 transition-transform duration-300 relative overflow-hidden">
-
-            <Building className="w-4 h-4 mr-2 animate-pulse" />
-
-            ABOUT US
-
-            <div className="ml-2 w-2 h-2 bg-emerald-600 rounded-full animate-ping" />
-
-            <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/30 to-transparent translate-x-[-100%] animate-shimmer" />
-
-          </div>
 
           {/* Heading */}
 
@@ -181,7 +167,7 @@ const AboutUsSection = () => {
             </span>
           </h2>
 
-          <p className="text-base sm:text-lg md:text-xl text-slate-600 max-w-3xl mx-auto leading-relaxed">
+          <p className="text-base sm:text-lg md:text-xl text-slate-600 max-w-3xl mx-auto leading-relaxed text-left sm:text-center">
             We are a passionate team of innovators, creators, and
             problem-solvers dedicated to transforming ideas into powerful
             digital experiences that make a meaningful impact.
@@ -201,7 +187,7 @@ const AboutUsSection = () => {
 
             <div className="absolute -left-10 top-10 w-20 h-20 bg-emerald-400/20 rounded-full blur-2xl" />
 
-            <h3 className="text-3xl sm:text-5xl md:text-6xl font-medium font-serif text-slate-900 mb-4 sm:mb-6 leading-tight tracking-tight">
+            <h3 className="text-3xl sm:text-4xl md:text-5xl font-medium font-serif text-slate-900 mb-4 sm:mb-6 leading-tight tracking-tight">
 
               Our{" "}
 
@@ -509,7 +495,7 @@ const AboutUsSection = () => {
         {/* ================= TEAM HIGHLIGHTS ======================= */}
         {/* ========================================================= */}
 
-        <div className="text-center mb-12">
+        <div className="text-left md:text-center mb-12">
 
           <div className="inline-flex items-center gap-2 px-5 py-2 rounded-full bg-emerald-50 border border-emerald-100 text-emerald-700 mb-5">
 
@@ -531,7 +517,7 @@ const AboutUsSection = () => {
 
           </h3>
 
-          <p className="text-base sm:text-lg md:text-xl text-slate-600 max-w-3xl mx-auto leading-relaxed mt-5">
+          <p className="text-base sm:text-lg md:text-xl text-slate-600 max-w-3xl mx-auto leading-relaxed mt-5 text-left sm:text-center">
             Our people are at the heart of everything we build. We bring
             different skills, experiences, ideas, and perspectives together to
             create meaningful digital solutions.

@@ -57,6 +57,19 @@ body {
   }
 }
 
+/* =====================================================================
+   GLOBAL MOBILE-ONLY ALIGNMENT
+   Ensure all headings and paragraphs across the entire website
+   are left-aligned on mobile & responsive screen sizes (< 768px),
+   while preserving desktop and laptop layouts (md: / lg:) exactly.
+   ===================================================================== */
+@media (max-width: 767px) {
+  h1, h2, h3, h4, h5, h6,
+  p {
+    text-align: left !important;
+  }
+}
+
 /* Base typography defaults without aggressive !important overrides */
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--font-heading);

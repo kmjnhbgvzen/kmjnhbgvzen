@@ -2,7 +2,6 @@
 
 import React, { useState, useEffect } from 'react';
 import WhyChoose from '@/components/WhyChoose';
-import Banner from '@/components/Banner';
 import {
     Youtube,
     Target,
@@ -255,11 +254,6 @@ const SocialMediaLanding = () => {
                 <div className="absolute top-2/3 right-16 w-3 h-3 bg-linear-to-br from-[#E8A4BC] to-[#F04393] rounded-full opacity-20 animate-bounce" style={{ animationDelay: '1s' }}></div>
             </section>
 
-            {/* Banner Component */}
-
-            <Banner />
-
-            {/* Hiring Models Section */}
         </div>
     );
 };

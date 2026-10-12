@@ -1,7 +1,6 @@
 "use client";
 import React, { useState, useEffect } from 'react';
 import { Globe, Smartphone, Palette, Code, Database, Tablet, Headphones, Component, Layers, Zap } from 'lucide-react';
-import Banner from '@/components/Banner';
 
 // export const metadata = {title: "AngularJS Development Company – Zentrix Infotech",description: "Enterprise-grade AngularJS development services for secure and scalable web applications."};
 
@@ -529,7 +528,6 @@ const Angular_Js = () => {
       <Hero />
       <Services />
       <AngularServicesGrid />
-      <Banner />
     </>
   );
 }

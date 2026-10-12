@@ -47,7 +47,7 @@ export default function WhyChoose() {
 
             <div className="max-w-7xl mx-auto relative z-10">
                 {/* Header Section */}
-                <div className="text-center mb-16">
+                <div className="text-left md:text-center mb-16">
                     <div className="mb-6">
                         <span className="bg-gradient-to-r from-[#3c4cad]/10 to-[#3d1b88]/10 text-[#3c4cad] px-6 py-3 rounded-full text-lg font-medium uppercase tracking-wider border border-[#3c4cad]/20">
                             OUR SUCCESS STORY
@@ -56,7 +56,7 @@ export default function WhyChoose() {
                     <h2 className="text-3xl sm:text-5xl md:text-6xl font-medium font-serif text-slate-900 mb-4 sm:mb-6 leading-tight tracking-tight">
                         <span className="bg-gradient-to-r from-[#33018B] via-[#3E3CAD] to-[#F04393] bg-clip-text text-transparent">Why Choose Us</span>
                     </h2>
-                    <p className="text-base sm:text-lg md:text-xl text-slate-600 max-w-3xl mx-auto leading-relaxed">
+                    <p className="text-base sm:text-lg md:text-xl text-slate-600 max-w-3xl mx-auto leading-relaxed text-left sm:text-center">
                         We deliver exceptional results through expertise, dedication, and cutting-edge solutions that drive your business forward.
                     </p>
                 </div>

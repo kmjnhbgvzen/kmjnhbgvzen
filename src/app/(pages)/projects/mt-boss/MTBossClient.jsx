@@ -292,7 +292,7 @@ export default function MTBossClient() {
       {/* ─────────────────────────────────────────────────────────────
           1. HERO SECTION (Floating Circular Background & Overlapping Mockup)
           ───────────────────────────────────────────────────────────── */}
-      <section className="relative pt-32 sm:pt-36 lg:pt-40 pb-16 sm:pb-24 px-4 sm:px-6 lg:px-8 overflow-hidden bg-gradient-to-b from-slate-50 via-white to-sky-50/20 border-b border-slate-200/60">
+      <section className="relative pt-4 sm:pt-8 lg:pt-40 pb-16 sm:pb-24 px-4 sm:px-6 lg:px-8 overflow-hidden bg-gradient-to-b from-slate-50 via-white to-sky-50/20 border-b border-slate-200/60">
         {/* Abstract Circular Background Atmospheric Effects */}
         <div className="absolute top-10 left-1/2 -translate-x-1/2 w-[700px] h-[700px] bg-gradient-to-br from-sky-200/40 via-blue-100/30 to-teal-50/20 rounded-full blur-3xl pointer-events-none -z-0 animate-pulse duration-[8000ms]" />
         <div className="absolute top-20 right-10 w-96 h-96 bg-gradient-to-tr from-sky-400/15 to-indigo-400/10 rounded-full blur-2xl pointer-events-none -z-0" />
@@ -1436,13 +1436,6 @@ export default function MTBossClient() {
                 <Phone className="h-4 w-4 animate-ring" />
                 Start Your Project
                 <ArrowRight className="w-4 h-4 transform group-hover:translate-x-1 transition-transform" />
-              </Link>
-
-              <Link
-                href="/projects"
-                className="inline-flex items-center gap-2 px-8 py-4 text-sm font-semibold text-slate-200 bg-white/10 hover:bg-white/15 border border-white/20 rounded-full active:scale-95 transition-all backdrop-blur-xs"
-              >
-                View More Projects
               </Link>
             </div>
           </div>

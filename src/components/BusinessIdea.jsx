@@ -133,7 +133,7 @@ const Features = () => {
 
       <div className="max-w-7xl mx-auto relative z-10">
         {/* Header Section */}
-        <div className="text-center mb-24">
+        <div className="text-left md:text-center mb-24">
           <div className="inline-flex items-center px-6 py-3 rounded-full text-sm font-bold bg-gradient-to-r from-cyan-500/20 to-purple-500/20 border border-cyan-500/30 text-cyan-300 mb-8 backdrop-blur-sm hover:scale-105 transition-transform duration-300 relative overflow-hidden">
             <Sparkles className="w-4 h-4 mr-2 animate-pulse" />
             WHY CHOOSE US
@@ -148,7 +148,7 @@ const Features = () => {
               <div className="absolute -top-6 -right-6 w-12 h-12 bg-gradient-to-r from-yellow-400 to-orange-500 rounded-full animate-bounce opacity-60 blur-sm" />
             </span>
           </h2>
-          <p className="text-base sm:text-lg md:text-xl text-slate-300 max-w-3xl mx-auto leading-relaxed mb-12">
+          <p className="text-base sm:text-lg md:text-xl text-slate-300 max-w-3xl mx-auto leading-relaxed mb-12 text-left sm:text-center">
             From concept to launch, we provide comprehensive digital solutions that drive exponential growth and deliver world-class user experiences.
           </p>
 
