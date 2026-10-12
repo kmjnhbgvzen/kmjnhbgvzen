@@ -54,8 +54,8 @@ const Services = () => {
     <div className="bg-white px-4 sm:px-8 pt-8 sm:pt-12 lg:pt-36 pb-16 sm:pb-20">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-8 sm:mb-12">
-          <h2 className="text-3xl sm:text-4xl md:text-6xl font-medium font-serif text-gray-900 mb-3 sm:mb-4">Services We Offer</h2>
-          <p className="text-gray-600 text-base sm:text-lg">Comprehensive solutions tailored to your needs</p>
+          <h2 className="text-3xl sm:text-5xl md:text-6xl font-medium font-serif text-slate-900 mb-4 sm:mb-6 leading-tight tracking-tight">Services We Offer</h2>
+          <p className="text-base sm:text-lg md:text-xl text-slate-600 max-w-3xl mx-auto leading-relaxed">Comprehensive solutions tailored to your needs</p>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -112,7 +112,7 @@ const Services = () => {
                     </h3>
 
                     {/* Description */}
-                    <p className="text-gray-600 leading-relaxed text-sm mb-6">
+                    <p className="text-slate-600 text-sm sm:text-base leading-relaxed mb-6 font-light">
                       {service.description}
                     </p>
 

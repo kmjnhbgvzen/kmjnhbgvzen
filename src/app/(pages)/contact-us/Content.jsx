@@ -197,11 +197,11 @@ export default function ContactUs() {
             {/* ================= HERO SECTION ================= */}
 
             <div className="text-center mb-3 sm:mb-4 mt-0">
-                <h1 className="text-3xl sm:text-4xl md:text-5xl font-serif text-center mb-2 sm:mb-4 mt-0">
+                <h1 className="text-3xl sm:text-5xl md:text-6xl font-medium font-serif text-slate-900 mb-4 sm:mb-6 leading-tight tracking-tight text-center mt-0">
                     Contact Us
                 </h1>
 
-                <p className="text-1xl text-slate-600 max-w-8xl mx-auto px-4">
+                <p className="text-base sm:text-lg md:text-xl text-slate-600 max-w-3xl mx-auto leading-relaxed text-center px-4">
                     We're here to help bring your ideas to life. Reach out to us
                     and let's discuss how we can transform your vision into a
                     powerful digital solution.
@@ -529,11 +529,11 @@ export default function ContactUs() {
 
                             <div className="bg-white rounded-2xl sm:rounded-3xl p-6 sm:p-8 shadow-xl border border-gray-100">
 
-                                <h2 className="text-3xl sm:text-3xl font-Serif font-medium bg-gradient-to-r from-[#1E293B] to-[#3B82F6] bg-clip-text text-transparent mb-3 sm:mb-4">
+                                <h2 className="text-2xl sm:text-3xl font-serif font-medium bg-gradient-to-r from-[#1E293B] to-[#3B82F6] bg-clip-text text-transparent mb-3 sm:mb-4">
                                     LET'S CONNECT
                                 </h2>
 
-                                <p className="text-gray-600 text-sm sm:text-base">
+                                <p className="text-slate-600 text-sm sm:text-base leading-relaxed mb-6 font-light">
                                     We endeavor to answer all inquiries within
                                     24 hours on business days. Choose your
                                     preferred way to reach us.

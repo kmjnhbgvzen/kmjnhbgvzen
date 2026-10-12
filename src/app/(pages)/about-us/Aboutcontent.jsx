@@ -86,10 +86,10 @@ const AboutUsSection = () => {
           key={i}
           className="absolute w-1 h-1 bg-gradient-to-r from-cyan-400 to-purple-400 rounded-full opacity-20"
           style={{
-            left: `${Math.random() * 100}%`,
-            top: `${Math.random() * 100}%`,
-            animation: `float ${3 + Math.random() * 4}s infinite ease-in-out`,
-            animationDelay: `${Math.random() * 2}s`,
+            left: `${((i * 37) % 95) + 2}%`,
+            top: `${((i * 43) % 95) + 2}%`,
+            animation: `float ${3 + ((i * 1.5) % 4)}s infinite ease-in-out`,
+            animationDelay: `${(i * 0.4) % 2}s`,
           }}
         />
       ))}
@@ -105,8 +105,8 @@ const AboutUsSection = () => {
             key={i}
             className="border border-emerald-500/20 rounded-sm"
             style={{
-              animation: `pulse ${2 + Math.random() * 3}s infinite`,
-              animationDelay: `${Math.random() * 2}s`,
+              animation: `pulse ${2 + ((i * 0.7) % 3)}s infinite`,
+              animationDelay: `${(i * 0.3) % 2}s`,
             }}
           />
         ))}
@@ -115,7 +115,7 @@ const AboutUsSection = () => {
   );
 
   return (
-    <section className="relative px-4 pt-8 sm:pt-24 lg:pt-16 pb-8 sm:px-6 lg:px-8 bg-gradient-to-br from-slate-50 via-gray-50 to-white overflow-hidden">
+    <section className="relative px-4 pt-36 sm:pt-40 lg:pt-44 pb-8 sm:px-6 lg:px-8 bg-gradient-to-br from-slate-50 via-gray-50 to-white overflow-hidden">
 
       {/* ================= BACKGROUND EFFECTS ================= */}
 
@@ -144,7 +144,7 @@ const AboutUsSection = () => {
 
       {/* ================= MAIN CONTAINER ================= */}
 
-      <div className="max-w-7xl pt-0 lg:pt-8 pb-14 mx-auto relative z-10">
+      <div className="max-w-7xl pt-4 sm:pt-6 lg:pt-8 pb-14 mx-auto relative z-10">
 
         {/* ================= HEADER ================= */}
 
@@ -166,7 +166,7 @@ const AboutUsSection = () => {
 
           {/* Heading */}
 
-          <h2 className="text-3xl md:text-6xl lg:text-5xl font-medium font-serif mt-4 mb-8 leading-tight">
+          <h2 className="text-3xl sm:text-5xl md:text-6xl font-medium font-serif text-slate-900 mb-4 sm:mb-6 leading-tight tracking-tight">
 
             <span className="text-slate-900 block">
               Crafting the future of
@@ -181,7 +181,7 @@ const AboutUsSection = () => {
             </span>
           </h2>
 
-          <p className="md:text-xl text-lg text-slate-600 max-w-5xl mx-auto md:px-5 leading-relaxed">
+          <p className="text-base sm:text-lg md:text-xl text-slate-600 max-w-3xl mx-auto leading-relaxed">
             We are a passionate team of innovators, creators, and
             problem-solvers dedicated to transforming ideas into powerful
             digital experiences that make a meaningful impact.
@@ -201,7 +201,7 @@ const AboutUsSection = () => {
 
             <div className="absolute -left-10 top-10 w-20 h-20 bg-emerald-400/20 rounded-full blur-2xl" />
 
-            <h3 className="text-4xl md:text-5xl font-medium font-serif mb-8 text-slate-900 leading-tight">
+            <h3 className="text-3xl sm:text-5xl md:text-6xl font-medium font-serif text-slate-900 mb-4 sm:mb-6 leading-tight tracking-tight">
 
               Our{" "}
 
@@ -213,14 +213,14 @@ const AboutUsSection = () => {
 
             <div className="space-y-6 text-slate-700 leading-relaxed">
 
-              <p className="text-lg">
+              <p className="text-base sm:text-lg md:text-xl text-slate-600 leading-relaxed">
                 Born from a vision to bridge the gap between innovative
                 technology and real-world business challenges, we started as a
                 small team of passionate technologists who believed that great
                 software could change everything.
               </p>
 
-              <p className="text-lg">
+              <p className="text-base sm:text-lg md:text-xl text-slate-600 leading-relaxed">
                 What began as a shared dream has evolved into a thriving
                 company that helps businesses of all sizes harness the power of
                 digital transformation. We've learned that success isn't just
@@ -228,7 +228,7 @@ const AboutUsSection = () => {
                 problems, and creating experiences that truly matter.
               </p>
 
-              <p className="text-lg">
+              <p className="text-base sm:text-lg md:text-xl text-slate-600 leading-relaxed">
                 Today, we continue to push boundaries, embrace new challenges,
                 and maintain the same entrepreneurial spirit that started it
                 all. Every project we take on is an opportunity to make a
@@ -252,7 +252,7 @@ const AboutUsSection = () => {
 
               </div>
 
-              <p className="text-slate-700 leading-relaxed">
+              <p className="text-slate-600 text-sm sm:text-base leading-relaxed mb-6 font-light">
                 To empower businesses with innovative digital solutions that
                 drive growth, enhance user experiences, and create lasting
                 value in an ever-evolving technological landscape.
@@ -286,7 +286,7 @@ const AboutUsSection = () => {
                   Turning Ideas Into Impact
                 </h4>
 
-                <p className="text-slate-600 text-lg leading-relaxed mb-8">
+                <p className="text-slate-600 text-sm sm:text-base leading-relaxed mb-6 font-light">
                   We believe every great digital product starts with a great
                   idea. Our role is to transform that idea into a meaningful,
                   scalable and high-performing digital experience.
@@ -402,7 +402,7 @@ const AboutUsSection = () => {
 
                   </div>
 
-                  <p className="text-slate-700 leading-relaxed">
+                  <p className="text-slate-600 text-sm sm:text-base leading-relaxed mb-6 font-light">
                     {companyValues[activeValue].description}
                   </p>
 
@@ -450,7 +450,7 @@ const AboutUsSection = () => {
 
           <div className="relative order-1 lg:order-2">
 
-            <h3 className="text-4xl md:text-5xl font-medium font-serif mb-8 text-slate-900 leading-tight">
+            <h3 className="text-3xl sm:text-5xl md:text-6xl font-medium font-serif text-slate-900 mb-4 sm:mb-6 leading-tight tracking-tight">
 
               What{" "}
 
@@ -462,18 +462,18 @@ const AboutUsSection = () => {
 
             <div className="space-y-6 text-slate-700">
 
-              <p className="text-lg leading-relaxed">
+              <p className="text-base sm:text-lg md:text-xl text-slate-600 leading-relaxed">
                 Our values define who we are, how we work, and the kind of
                 relationships we build with our clients and partners.
               </p>
 
-              <p className="text-lg leading-relaxed">
+              <p className="text-base sm:text-lg md:text-xl text-slate-600 leading-relaxed">
                 We combine creativity, technology, and strategic thinking to
                 build solutions that are not only visually impressive but also
                 practical, scalable, and impactful.
               </p>
 
-              <p className="text-lg leading-relaxed">
+              <p className="text-base sm:text-lg md:text-xl text-slate-600 leading-relaxed">
                 From the first conversation to the final delivery, we focus on
                 transparency, collaboration, quality, and continuous
                 improvement.
@@ -521,7 +521,7 @@ const AboutUsSection = () => {
 
           </div>
 
-          <h3 className="text-4xl md:text-5xl font-medium font-serif text-slate-900">
+          <h3 className="text-3xl sm:text-5xl md:text-6xl font-medium font-serif text-slate-900 mb-4 sm:mb-6 leading-tight tracking-tight">
 
             People Behind{" "}
 
@@ -531,7 +531,7 @@ const AboutUsSection = () => {
 
           </h3>
 
-          <p className="text-lg text-slate-600 max-w-3xl mx-auto mt-5">
+          <p className="text-base sm:text-lg md:text-xl text-slate-600 max-w-3xl mx-auto leading-relaxed mt-5">
             Our people are at the heart of everything we build. We bring
             different skills, experiences, ideas, and perspectives together to
             create meaningful digital solutions.
@@ -566,7 +566,7 @@ const AboutUsSection = () => {
 
               </h4>
 
-              <p className="text-slate-600 leading-relaxed">
+              <p className="text-slate-600 text-sm sm:text-base leading-relaxed mb-6 font-light">
 
                 {highlight.description}
 

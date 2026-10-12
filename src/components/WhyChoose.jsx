@@ -53,10 +53,10 @@ export default function WhyChoose() {
                             OUR SUCCESS STORY
                         </span>
                     </div>
-                    <h2 className="text-4xl md:text-5xl font-semibold bg-gradient-to-r from-[#33018B] via-[#3E3CAD] to-[#F04393] bg-clip-text text-transparent mb-6 leading-tight">
-                        Why Choose Us
+                    <h2 className="text-3xl sm:text-5xl md:text-6xl font-medium font-serif text-slate-900 mb-4 sm:mb-6 leading-tight tracking-tight">
+                        <span className="bg-gradient-to-r from-[#33018B] via-[#3E3CAD] to-[#F04393] bg-clip-text text-transparent">Why Choose Us</span>
                     </h2>
-                    <p className="text-gray-600 text-md lg:text-xl max-w-2xl mx-auto">
+                    <p className="text-base sm:text-lg md:text-xl text-slate-600 max-w-3xl mx-auto leading-relaxed">
                         We deliver exceptional results through expertise, dedication, and cutting-edge solutions that drive your business forward.
                     </p>
                 </div>
@@ -89,7 +89,7 @@ export default function WhyChoose() {
                                 <h4 className="text-xl font-semibold text-gray-800 mb-2 group-hover:text-gray-900 transition-colors duration-300">
                                     {stat.label}
                                 </h4>
-                                <p className="text-sm text-gray-500 group-hover:text-gray-600 transition-colors duration-300">
+                                <p className="text-slate-600 text-sm sm:text-base leading-relaxed mb-6 font-light">
                                     {stat.description}
                                 </p>
                             </div>

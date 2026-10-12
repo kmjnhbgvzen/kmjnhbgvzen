@@ -3,6 +3,7 @@ import Script from "next/script";
 
 import Navbar from "@/components/Navbar";
 import Topbar from "@/components/Topbar";
+import CallToAction from "@/components/CallToAction";
 import Footer from "@/components/Footer";
 import ContactsButton from "@/components/ContactsButton";
 import PopupForm from "@/components/PopupForm";
@@ -222,6 +223,7 @@ export default function RootLayout({ children }) {
         <Topbar />
         <Navbar />
         {children}
+        <CallToAction />
         <Footer />
         <ContactsButton />
         <PopupForm />

@@ -29,7 +29,7 @@ const AdsManagement = ({ handleButtonClick }) => {
                         {/* LEFT CONTENT */}
                         <div>
 
-                            <h1 className="whitespace-nowrap text-4xl sm:text-5xl lg:text-6xl font-semibold bg-gradient-to-r from-[#1E293B] to-[#3B82F6] bg-clip-text text-transparent mb-5 sm:mb-6 leading-tight">
+                            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-semibold bg-gradient-to-r from-[#1E293B] to-[#3B82F6] bg-clip-text text-transparent mb-5 sm:mb-6 leading-tight">
                                 ADS MANAGEMENT
                             </h1>
 

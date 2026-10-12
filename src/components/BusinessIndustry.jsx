@@ -32,7 +32,7 @@ const ServiceCard = ({ icon, title, description, iconColor, borderColor }) => {
                 >
                     {title}
                 </h3>
-                <p className="text-gray-700 text-base leading-relaxed">
+                <p className="text-slate-600 text-sm sm:text-base leading-relaxed mb-6 font-light">
                     {description}
                 </p>
 
@@ -133,19 +133,16 @@ function App() {
 
 
                 {/* Colorful Main Heading */}
-                <h1 className="text-4xl md:text-5xl font-normal uppercase leading-tight mb-6">
-                    <span className="text-gray-900"> Business </span>
+                <h2 className="text-3xl sm:text-5xl md:text-6xl font-medium font-serif text-slate-900 mb-4 sm:mb-6 leading-tight tracking-tight uppercase">
+                    <span className="text-slate-900"> Business </span>
                     <span className="text-transparent bg-gradient-to-r from-pink-500 via-purple-500 to-blue-600 bg-clip-text">
                         industries
                     </span>
-                </h1>
+                </h2>
 
                 {/* Stylized Description */}
-                <p className="text-lg text-gray-600 max-w-4xl mx-auto leading-relaxed">
-                    Streamline operations and
-                    boost revenue
-                    across all business sectors.
-
+                <p className="text-base sm:text-lg md:text-xl text-slate-600 max-w-3xl mx-auto leading-relaxed">
+                    Streamline operations and boost revenue across all business sectors.
                 </p>
             </div>
 

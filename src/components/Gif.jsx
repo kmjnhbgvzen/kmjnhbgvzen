@@ -5,13 +5,13 @@ export default function VideoBanner() {
     <section className="relative w-full  text-black py-11 px-4 overflow-hidden">
 
       {/* ✅ Heading */}
-      <h2 className="text-center font-serif text-3xl md:text-6xl font-medium tracking-wide">
+      <h2 className="text-3xl sm:text-5xl md:text-6xl font-medium font-serif text-slate-900 mb-4 sm:mb-6 leading-tight tracking-tight text-center">
         ON YOUR MARKS. GET SET GO.{" "}
         <span className="text-emerald-400">GROW.</span>
       </h2>
 
       {/* ✅ Subheading */}
-      <p className="text-center text-gray-600 text-2xl mt-6 max-w-5xl mx-auto">
+      <p className="text-base sm:text-lg md:text-xl text-slate-600 max-w-3xl mx-auto leading-relaxed text-center">
         We combine strategy, creativity, technology, and data to help ambitious brands stand out, connect with their audiences, and drive sustainable growth.
       </p>
 

@@ -127,13 +127,16 @@ class MyApp extends StatelessWidget {
 
       {/* Hero Section - Responsive */}
       <section className="pt-8 sm:pt-12 lg:pt-36 pb-12 lg:pb-20 px-4 sm:px-6 lg:px-8 relative overflow-hidden">
-        <div className="absolute inset-0 bg-linear-to-r from-blue-100/40 to-purple-100/40 blur-3xl"></div>
+        <div className="absolute inset-0 bg-linear-to-r from-blue-100/40 via-sky-50/30 to-blue-50/20 blur-3xl"></div>
         <div className="max-w-7xl mx-auto relative z-10 pt-0">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 sm:gap-12 items-center">
+          <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-10 items-center">
             {/* Left Content */}
-            <div>
-              <h1 className="whitespace-normal sm:whitespace-nowrap text-3xl sm:text-4xl md:text-5xl lg:text-4xl xl:text-5xl font-medium font-serif mb-3 sm:mb-6 leading-tight bg-linear-to-r from-slate-900 via-blue-900 to-purple-900 bg-clip-text text-transparent">
-                Mobile App Development
+            <div className="lg:col-span-7 xl:col-span-8">
+              <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-[2.65rem] xl:text-[3.25rem] 2xl:text-6xl font-bold font-serif text-slate-900 mb-4 sm:mb-6 leading-tight tracking-tight whitespace-normal sm:whitespace-nowrap">
+                Mobile App{" "}
+                <span className="bg-gradient-to-r from-[#2eaad4] to-[#2c67f2] bg-clip-text text-transparent">
+                  Development
+                </span>
               </h1>
               <p className="max-w-2xl text-base sm:text-lg md:text-xl text-slate-700 mb-6 sm:mb-8 leading-relaxed">
                 Transform your ideas into powerful mobile experiences with native performance and stunning design.
@@ -149,7 +152,7 @@ class MyApp extends StatelessWidget {
             </div>
 
             {/* Right Code Editor - Responsive */}
-            <div className="bg-gradient-to-br from-slate-900 via-indigo-950 to-purple-950 backdrop-blur-sm rounded-xl border border-cyan-500/30 overflow-hidden shadow-2xl shadow-cyan-500/20 relative">
+            <div className="lg:col-span-5 xl:col-span-4 bg-gradient-to-br from-slate-900 via-indigo-950 to-purple-950 backdrop-blur-sm rounded-xl border border-cyan-500/30 overflow-hidden shadow-2xl shadow-cyan-500/20 relative">
               {/* Jellyfish glow effect */}
               <div className="absolute inset-0 bg-gradient-to-br from-cyan-500/10 via-purple-500/10 to-pink-500/10 animate-pulse"></div>
 

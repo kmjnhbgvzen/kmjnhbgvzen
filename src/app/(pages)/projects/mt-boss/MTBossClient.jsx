@@ -319,10 +319,10 @@ export default function MTBossClient() {
           >
             <Link
               href="/projects"
-              className="inline-flex items-center gap-2 text-xs sm:text-sm font-semibold text-slate-500 hover:text-sky-600 transition-colors mb-6 group px-4 py-1.5 rounded-full bg-white/90 border border-slate-200/80 shadow-xs hover:border-sky-300 backdrop-blur-md"
+              className="inline-flex items-center gap-2 text-sm font-semibold text-slate-600 hover:text-sky-600 transition-all bg-white/80 backdrop-blur-md px-4 py-2 rounded-full border border-slate-200/80 shadow-xs hover:shadow-md mb-6 group"
             >
-              <ArrowLeft className="w-3.5 h-3.5 transform group-hover:-translate-x-1 transition-transform" />
-              Back to Case Studies
+              <ArrowLeft className="w-4 h-4 text-sky-600 transition-transform group-hover:-translate-x-1" />
+              <span>Back to Case Studies</span>
             </Link>
           </motion.div>
 
@@ -341,7 +341,7 @@ export default function MTBossClient() {
               </div>
 
               {/* Main Heading */}
-              <h1 className="text-3xl sm:text-5xl lg:text-6xl font-bold font-serif text-slate-900 tracking-tight leading-[1.12]">
+              <h1 className="text-3xl sm:text-5xl md:text-6xl font-medium font-serif text-slate-900 mb-4 sm:mb-6 leading-tight tracking-tight">
                 MTBoss{" "}
                 <span className="bg-gradient-to-r from-[#2eaad4] via-[#2c67f2] to-[#2563eb] bg-clip-text text-transparent">
                   Construction
@@ -354,7 +354,7 @@ export default function MTBossClient() {
               </p>
 
               {/* Short description */}
-              <p className="text-base sm:text-lg text-slate-600 leading-relaxed max-w-2xl">
+              <p className="text-base sm:text-lg md:text-xl text-slate-600 max-w-3xl leading-relaxed">
                 A scalable digital experience designed and developed by Zentrix Infotech to simplify the discovery of construction materials and professional home services under a unified, high-performance interface.
               </p>
 

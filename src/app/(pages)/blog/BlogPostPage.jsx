@@ -63,12 +63,10 @@ const OurBlogPage = () => {
         
         {/* HEADER */}
         <div className="text-center mb-6 md:mb-8">
-  <h1 className="text-3xl sm:text-3xl md:text-4xl lg:text-5xl font-serif font-medium 
-                 mb-2 md:mb-3 text-gray-900 
-                 mt-0 sm:mt-4 md:mt-28">
+  <h1 className="text-3xl sm:text-5xl md:text-6xl font-medium font-serif text-slate-900 mb-4 sm:mb-6 leading-tight tracking-tight mt-0 sm:mt-4 md:mt-28">
     Our Blogs
   </h1>
-  <p className="text-sm md:text-base text-gray-600 max-w-2xl mx-auto px-4">
+  <p className="text-base sm:text-lg md:text-xl text-slate-600 max-w-3xl mx-auto leading-relaxed px-4">
     Insights, guides, and strategies from Zentrix Infotech to help
     businesses grow digitally.
   </p>
@@ -140,7 +138,7 @@ const OurBlogPage = () => {
                   </h3>
 
                   {/* Excerpt */}
-                  <p className="text-xs md:text-sm text-gray-600 line-clamp-2 mb-3">
+                  <p className="text-slate-600 text-sm sm:text-base leading-relaxed mb-6 font-light line-clamp-2">
                     {post.content}
                   </p>
 

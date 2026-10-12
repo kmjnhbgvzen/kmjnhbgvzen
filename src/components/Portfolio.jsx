@@ -209,7 +209,7 @@ const portfolio = () => {
                         <h3 className="text-lg font-bold text-gray-900 mb-2 transition-colors duration-300 line-clamp-1 group-hover:text-gray-800">
                             {project.title}
                         </h3>
-                        <p className="text-sm text-gray-600 line-clamp-3 leading-relaxed">
+                        <p className="text-slate-600 text-sm sm:text-base leading-relaxed mb-6 font-light line-clamp-3">
                             {project.description}
                         </p>
                     </div>
@@ -235,14 +235,11 @@ const portfolio = () => {
               {/* Header Section */}
              <div className="text-center mb-12 pt-2">
 
-        <h2 className="text-4xl md:text-5xl lg:text-6xl font-medium font-serif text-slate-900 mb-4 lg:mb-6 tracking-tight px-4">
-            Our{' '}
-             <span className="text-4xl md:text-5xl lg:text-6xl font-medium font-serif mb-4 lg:mb-6 tracking-tight">
-            portfolio
-             </span>
-          </h2>
+        <h2 className="text-3xl sm:text-5xl md:text-6xl font-medium font-serif text-slate-900 mb-4 sm:mb-6 leading-tight tracking-tight px-4">
+            Our portfolio
+        </h2>
 
-    <p className="text-lg text-gray-600 max-w-2xl mx-auto leading-relaxed">
+    <p className="text-base sm:text-lg md:text-xl text-slate-600 max-w-3xl mx-auto leading-relaxed">
         Showcasing our best creative work
     </p>
 

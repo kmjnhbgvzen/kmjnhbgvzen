@@ -8,11 +8,11 @@ export default function FAQSection({ faqs }) {
   return (
     <section className="bg-slate-50 pt-8 pb-12 sm:py-16 px-4">
       <div className="max-w-5xl mx-auto">
-        <h1 className="text-3xl sm:text-4xl md:text-5xl font-serif text-center mb-4 sm:mb-6 mt-0 sm:mt-8 md:mt-12">
+        <h1 className="text-3xl sm:text-5xl md:text-6xl font-medium font-serif text-slate-900 mb-4 sm:mb-6 leading-tight tracking-tight text-center mt-0 sm:mt-8 md:mt-12">
           Frequently Asked Questions
         </h1>
 
-        <p className="text-center text-slate-600 max-w-3xl mx-auto mb-12">
+        <p className="text-base sm:text-lg md:text-xl text-slate-600 max-w-3xl mx-auto leading-relaxed text-center mb-12">
           Clear answers to help you understand our services, process, and expertise.
         </p>
 
@@ -32,7 +32,7 @@ export default function FAQSection({ faqs }) {
               </button>
 
               {open === index && (
-                <div className="px-5 pb-4 text-slate-600 text-sm leading-relaxed">
+                <div className="px-5 pb-4 text-slate-600 text-sm sm:text-base leading-relaxed mb-6 font-light">
                   {item.a}
                 </div>
               )}

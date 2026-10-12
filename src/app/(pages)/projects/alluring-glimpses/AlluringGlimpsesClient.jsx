@@ -392,9 +392,9 @@ export default function AlluringGlimpsesClient() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
           <Link
             href="/projects"
-            className="inline-flex items-center gap-2 text-sm font-medium text-slate-600 hover:text-[#1769AA] transition-colors"
+            className="inline-flex items-center gap-2 text-sm font-semibold text-slate-600 hover:text-sky-600 transition-all bg-white/80 backdrop-blur-md px-4 py-2 rounded-full border border-slate-200/80 shadow-xs hover:shadow-md group"
           >
-            <ArrowLeft className="w-4 h-4" />
+            <ArrowLeft className="w-4 h-4 text-sky-600 transition-transform group-hover:-translate-x-1" />
             <span>Back to Case Studies</span>
           </Link>
 
@@ -438,13 +438,13 @@ export default function AlluringGlimpsesClient() {
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-12 items-center">
             {/* Hero Left Content */}
             <div className="lg:col-span-7">
-              <h1 className="text-3xl sm:text-4xl md:text-5xl font-extrabold text-[#102A43] tracking-tight leading-tight mb-4">
+              <h1 className="text-3xl sm:text-5xl md:text-6xl font-medium font-serif text-slate-900 mb-4 sm:mb-6 leading-tight tracking-tight">
                 Alluring Glimpses
               </h1>
               <p className="text-lg sm:text-xl font-medium text-[#1769AA] mb-6 leading-relaxed">
                 Transforming Spaces Through Thoughtful Design & Digital Storytelling
               </p>
-              <p className="text-base text-[#425466] leading-relaxed mb-8 max-w-2xl">
+              <p className="text-base sm:text-lg md:text-xl text-slate-600 max-w-3xl leading-relaxed mb-8">
                 Alluring Glimpses is an interior design studio and lifestyle brand bringing together spatial architecture, custom furniture (Alluring Glimpses Homes), and artisanal handmade candles (Nazaakat). Zentrix Infotech engineered a cohesive digital platform that balances technical design precision with warm visual storytelling.
               </p>
 

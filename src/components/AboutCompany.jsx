@@ -26,7 +26,7 @@ const AboutCompany = () => {
                             </div>
 
                             {/* Heading */}
-                            <h2 className="text-3xl sm:text-4xl lg:text-5xl uppercase font-medium font-serif text-gray-900 leading-[1.1]">
+                            <h2 className="text-3xl sm:text-5xl md:text-6xl font-medium font-serif text-slate-900 mb-4 sm:mb-6 leading-tight tracking-tight uppercase">
                                 Crafting the future
                                 <br />
                                 <span className="block bg-linear-to-r from-emerald-400 via-blue-400 to-purple-400 bg-clip-text text-transparent mt-1 sm:mt-2">
@@ -35,8 +35,8 @@ const AboutCompany = () => {
                             </h2>
 
                             {/* Description */}
-                            <div className="space-y-2 sm:space-y-3 lg:space-y-4 text-gray-600 text-base sm:text-lg leading-[1.5]">
-                                <p className="relative">
+                            <div className="space-y-2 sm:space-y-3 lg:space-y-4">
+                                <p className="text-base sm:text-lg md:text-xl text-slate-600 max-w-3xl leading-relaxed relative">
                                     Founded with a vision to bridge the gap between technology and real-world business challenges,
                                     Zentrix Infotech is a team of passionate technologists driving meaningful digital transformation.
                                     We craft smart, user-focused solutions that solve real problems, elevate user experiences,

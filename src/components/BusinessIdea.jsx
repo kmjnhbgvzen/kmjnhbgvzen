@@ -141,14 +141,14 @@ const Features = () => {
             <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/10 to-transparent translate-x-[-100%] animate-shimmer" />
           </div>
           
-          <h2 className="text-5xl md:text-7xl font-black mb-8 leading-tight">
+          <h2 className="text-3xl sm:text-5xl md:text-6xl font-medium font-serif text-white mb-4 sm:mb-6 leading-tight tracking-tight">
             <span className="text-white block">Everything you need to</span>
             <span className="block bg-gradient-to-r from-cyan-400 via-blue-400 to-purple-400 bg-clip-text text-transparent mt-2 relative">
               succeed digitally
               <div className="absolute -top-6 -right-6 w-12 h-12 bg-gradient-to-r from-yellow-400 to-orange-500 rounded-full animate-bounce opacity-60 blur-sm" />
             </span>
           </h2>
-          <p className="text-xl text-slate-400 max-w-4xl mx-auto leading-relaxed mb-12">
+          <p className="text-base sm:text-lg md:text-xl text-slate-300 max-w-3xl mx-auto leading-relaxed mb-12">
             From concept to launch, we provide comprehensive digital solutions that drive exponential growth and deliver world-class user experiences.
           </p>
 
@@ -220,7 +220,7 @@ const Features = () => {
                   <h3 className="text-2xl font-bold mb-4 text-white group-hover:text-transparent group-hover:bg-gradient-to-r group-hover:from-white group-hover:to-slate-300 group-hover:bg-clip-text transition-all duration-300">
                     {feature.title}
                   </h3>
-                  <p className="text-slate-400 leading-relaxed mb-6 group-hover:text-slate-300 transition-colors">
+                  <p className="text-slate-300 text-sm sm:text-base leading-relaxed mb-6 font-light">
                     {feature.description}
                   </p>
 

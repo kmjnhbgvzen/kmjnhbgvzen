@@ -82,8 +82,7 @@ export default function Navbar() {
     // Menu data structure
     const aboutLinks = [
         { href: "/about-us", label: "ABOUT US" },
-        { href: "/why-choose-us", label: "WHY CHOOSE US" },
-        { href: "/faq", label: "FAQS" }
+        { href: "/why-choose-us", label: "WHY CHOOSE US" }
     ];
 
     const digitalMarketingLinks = [

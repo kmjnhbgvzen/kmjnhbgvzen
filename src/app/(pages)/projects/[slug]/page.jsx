@@ -44,10 +44,10 @@ export default async function ProjectCaseStudyPage({ params }) {
       <div className="pt-32 sm:pt-36 lg:pt-40 px-4 sm:px-6 lg:px-8 max-w-5xl mx-auto">
         <Link
           href="/projects"
-          className="inline-flex items-center gap-2 text-sm font-medium text-slate-600 hover:text-sky-600 transition-colors mb-6"
+          className="inline-flex items-center gap-2 text-sm font-semibold text-slate-600 hover:text-sky-600 transition-all bg-white/80 backdrop-blur-md px-4 py-2 rounded-full border border-slate-200/80 shadow-xs hover:shadow-md mb-6 group"
         >
-          <ArrowLeft className="w-4 h-4" />
-          Back to Case Studies
+          <ArrowLeft className="w-4 h-4 text-sky-600 transition-transform group-hover:-translate-x-1" />
+          <span>Back to Case Studies</span>
         </Link>
       </div>
 
@@ -60,11 +60,11 @@ export default async function ProjectCaseStudyPage({ params }) {
           <span className="text-xs text-slate-500 font-medium">Case Study</span>
         </div>
 
-        <h1 className="text-3xl sm:text-5xl md:text-6xl font-medium font-serif text-slate-900 mb-6 leading-tight">
+        <h1 className="text-3xl sm:text-5xl md:text-6xl font-medium font-serif text-slate-900 mb-4 sm:mb-6 leading-tight tracking-tight">
           {project.name}
         </h1>
 
-        <p className="text-lg sm:text-xl text-slate-600 leading-relaxed max-w-3xl mb-8">
+        <p className="text-base sm:text-lg md:text-xl text-slate-600 max-w-3xl leading-relaxed mb-8">
           {project.description}
         </p>
 
@@ -125,7 +125,7 @@ export default async function ProjectCaseStudyPage({ params }) {
       <section className="px-4 sm:px-6 lg:px-8 max-w-5xl mx-auto mb-20 space-y-8">
         <div className="p-8 sm:p-10 bg-white rounded-3xl border border-slate-200/80 shadow-sm">
           <h2 className="text-2xl font-serif font-bold text-slate-900 mb-4">Project Highlights & Key Deliverables</h2>
-          <p className="text-slate-600 leading-relaxed mb-6">
+          <p className="text-slate-600 text-sm sm:text-base leading-relaxed mb-6 font-light">
             Zentrix Infotech delivered an end-to-end digital solution for {project.name}, emphasizing ultra-fast performance, intuitive responsive UI/UX, enterprise security, and seamless user conversion paths.
           </p>
 

@@ -38,10 +38,10 @@ const Blog = () => {
       <div className="container mx-auto px-4 max-w-7xl relative">
         {/* Header */}
         <div className="text-center mb-10 md:mb-12">
-          <h1 className="text-3xl md:text-4xl lg:text-5xl font-serif font-medium mb-3">
+          <h2 className="text-3xl sm:text-5xl md:text-6xl font-medium font-serif text-slate-900 mb-4 sm:mb-6 leading-tight tracking-tight">
             Blogs
-          </h1>
-          <p className="text-base md:text-lg text-gray-600 max-w-2xl mx-auto">
+          </h2>
+          <p className="text-base sm:text-lg md:text-xl text-slate-600 max-w-3xl mx-auto leading-relaxed">
             Stay ahead with insights, best practices, and trends from Zentrix Infotech
           </p>
         </div>
@@ -93,7 +93,7 @@ const Blog = () => {
                 </h3>
 
                 {/* Excerpt */}
-                <p className="text-sm md:text-base text-slate-600 mb-3 line-clamp-2">
+                <p className="text-slate-600 text-sm sm:text-base leading-relaxed mb-6 font-light line-clamp-2">
                   {post.content}
                 </p>
 

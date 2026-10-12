@@ -152,7 +152,7 @@ const TestimonialCard = ({ testimonial }) => (
         <p className="text-slate-600 text-xs lg:text-sm truncate">{testimonial.company}</p>
       </div>
     </div>
-    <p className="text-slate-700 text-sm lg:text-base leading-relaxed flex-1">{testimonial.content}</p>
+    <p className="text-slate-600 text-sm sm:text-base leading-relaxed mb-6 font-light flex-1">{testimonial.content}</p>
   </div>
 );
 
@@ -185,10 +185,10 @@ const MovingTestimonials = () => {
 
         <div className="relative z-10 text-center py-8 lg:py-16 px-4 lg:px-6">
 
-          <h1 className="text-4xl md:text-5xl lg:text-6xl font-medium font-serif text-slate-900 mb-4 lg:mb-6 tracking-tight px-4">
-            Loved by <span className="text-4xl md:text-5xl lg:text-6xl font-medium font-serif text-slate-900 mb-4 lg:mb-6 tracking-tight ">Clients</span>
-          </h1>
-          <p className="text-slate-600 text-base lg:text-lg max-w-2xl mx-auto mb-0 px-4">
+          <h2 className="text-3xl sm:text-5xl md:text-6xl font-medium font-serif text-slate-900 mb-4 sm:mb-6 leading-tight tracking-tight px-4">
+            Loved by Clients
+          </h2>
+          <p className="text-base sm:text-lg md:text-xl text-slate-600 max-w-3xl mx-auto leading-relaxed mb-0 px-4">
             See what industry leaders are saying about our AI-powered development tools
           </p>
         </div>

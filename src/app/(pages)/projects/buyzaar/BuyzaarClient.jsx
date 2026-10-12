@@ -313,7 +313,7 @@ export default function BuyzaarClient() {
             </div>
 
             <div className="space-y-3">
-              <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight text-slate-900 leading-[1.1]">
+              <h1 className="text-3xl sm:text-5xl md:text-6xl font-medium font-serif text-slate-900 mb-4 sm:mb-6 leading-tight tracking-tight">
                 The Buyzaar Mart
               </h1>
               <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-slate-700 leading-snug">
@@ -321,7 +321,7 @@ export default function BuyzaarClient() {
               </h2>
             </div>
 
-            <p className="text-base sm:text-lg text-slate-600 leading-relaxed max-w-xl">
+            <p className="text-base sm:text-lg md:text-xl text-slate-600 max-w-3xl leading-relaxed">
               A scalable retail and franchise-focused digital platform designed to connect customers, entrepreneurs, and growing Buyzaar Mart locations through one unified, high-performance experience.
             </p>
 

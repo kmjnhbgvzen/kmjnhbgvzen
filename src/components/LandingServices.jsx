@@ -58,7 +58,7 @@ const ServicesSection = () => {
     <section className="bg-white text-black pt-10  pb-20 px-4">
       <div className="max-w-7xl mx-auto">
         {/* Header */}
-        <h2 className="text-3xl md:text-4xl font-serif text-center mb-10 tracking-wide">
+        <h2 className="text-3xl sm:text-5xl md:text-6xl font-medium font-serif text-slate-900 mb-4 sm:mb-6 leading-tight tracking-tight text-center">
           OUR SERVICES
         </h2>
 
@@ -81,7 +81,7 @@ const ServicesSection = () => {
               </h3>
 
               {/* Description - Hidden on mobile */}
-              <p className="hidden md:block text-gray-600 text-sm md:text-base leading-relaxed max-w-xs">
+              <p className="hidden md:block text-slate-600 text-sm sm:text-base leading-relaxed mb-6 font-light max-w-xs">
                 {service.description}
               </p>
             </Link>

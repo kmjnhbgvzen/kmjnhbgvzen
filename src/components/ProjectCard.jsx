@@ -62,7 +62,7 @@ export default function ProjectCard({ project }) {
           </Link>
 
           {/* Project Description (text-sm, line-clamp-2) */}
-          <p className="text-sm text-slate-600 leading-relaxed mt-1.5 line-clamp-2">
+          <p className="text-slate-600 text-sm sm:text-base leading-relaxed mb-6 font-light mt-1.5 line-clamp-2">
             {project.description}
           </p>
         </div>

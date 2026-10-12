@@ -1,11 +1,37 @@
 @import url('https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&family=Roboto+Slab:wght@100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
-
-
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
 
 @import "tailwindcss";
 
-@import "tailwindcss";
+/* =====================================================================
+   ZENTRIX INFOTECH — GLOBAL STANDARDIZED TYPOGRAPHY SYSTEM
+   ===================================================================== */
+
+@theme {
+  --font-serif: 'Playfair Display', Georgia, serif;
+  --font-sans: 'Public Sans', 'Work Sans', system-ui, -apple-system, sans-serif;
+  --font-heading: 'Playfair Display', Georgia, serif;
+  --font-body: 'Public Sans', 'Work Sans', system-ui, -apple-system, sans-serif;
+}
+
+:root {
+  --font-heading: 'Playfair Display', Georgia, serif;
+  --font-body: 'Public Sans', 'Work Sans', system-ui, -apple-system, sans-serif;
+
+  /* Standardized Fluid Heading Hierarchy */
+  --text-h1: clamp(2.25rem, 4.5vw, 3.5rem);        /* Main page headings (H1) */
+  --text-h2: clamp(1.75rem, 3.2vw, 2.5rem);        /* Major section headings (H2) */
+  --text-h3: clamp(1.25rem, 2vw, 1.5rem);          /* Subsections & Card titles (H3) */
+  --text-h4: clamp(1.1rem, 1.5vw, 1.25rem);        /* Group headings (H4) */
+  --text-h5: 1rem;                                 /* Micro headings (H5) */
+  --text-h6: 0.875rem;                             /* Category / eyebrow labels (H6) */
+
+  /* Standardized Paragraph & Descriptive Text */
+  --text-paragraph: clamp(1rem, 1.3vw, 1.125rem);   /* Standard descriptive paragraphs */
+  --text-body-regular: 1rem;                       /* Standard body */
+  --text-small: 0.875rem;                          /* Card metadata, details, table text */
+  --text-caption: 0.75rem;                         /* Badges, tags, micro-text */
+}
 
 html {
   scroll-behavior: smooth;
@@ -13,6 +39,12 @@ html {
 
 body {
   overflow-x: hidden;
+  font-family: var(--font-body);
+  font-size: var(--text-paragraph);
+  line-height: 1.7;
+  color: #334155;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 @media (max-width: 1023px) {
@@ -25,6 +57,33 @@ body {
   }
 }
 
+/* Base typography defaults without aggressive !important overrides */
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading);
+}
+
+p {
+  font-family: var(--font-body);
+}
+
+/* Monospace preservation for code mockups & terminal */
+pre, code, kbd, samp, .font-mono, [class*="font-mono"] {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+
+/* Global utility classes */
+.font-heading {
+  font-family: var(--font-heading);
+}
+
+.font-body {
+  font-family: var(--font-body);
+}
+
+/* =====================================================================
+   ANIMATIONS & KEYFRAMES
+   ===================================================================== */
+
 @keyframes ring {
   0%        { transform: rotate(0deg) scale(1); }
   10%, 30%  { transform: rotate(15deg) scale(1.1); }
@@ -36,44 +95,3 @@ body {
   animation: ring 2s ease-in-out infinite;
   transform-origin: top top;
 }
-
-/* =====================================================================
-   PS DECOR PAGE — Scoped Typography Normalization
-   All section headings → Playfair Display (serif), unified sizes
-   All body paragraphs  → Public Sans (sans-serif), unified sizes
-   ===================================================================== */
-.ps-decor-page h1 {
-  font-family: 'Playfair Display', Georgia, serif;
-  font-size: clamp(2.2rem, 5vw, 3.75rem);
-  font-weight: 700;
-  line-height: 1.2;
-  letter-spacing: -0.02em;
-}
-
-/* Section-level headings (h2) */
-.ps-decor-page h2 {
-  font-family: 'Playfair Display', Georgia, serif;
-  font-size: clamp(1.65rem, 3.5vw, 2.5rem);
-  font-weight: 700;
-  line-height: 1.25;
-  letter-spacing: -0.015em;
-}
-
-/* Card / sub-section headings (h3, h4, h5) */
-.ps-decor-page h3,
-.ps-decor-page h4,
-.ps-decor-page h5 {
-  font-family: 'Playfair Display', Georgia, serif;
-  font-size: 1rem;
-  font-weight: 700;
-  line-height: 1.4;
-}
-
-/* Section-level paragraphs */
-.ps-decor-page p {
-  font-family: 'Public Sans', 'Work Sans', sans-serif;
-  font-size: 0.875rem;
-  line-height: 1.7;
-  font-weight: 300;
-}
-

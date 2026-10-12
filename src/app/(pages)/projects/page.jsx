@@ -80,38 +80,11 @@ export default function ProjectsPage() {
       </section>
 
       {/* 2. COMPACT PROJECTS GRID (3 per row on desktop: grid-cols-1 sm:grid-cols-2 lg:grid-cols-3) */}
-      <section className="px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
+      <section className="px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto pb-10">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
           {projects.map((project) => (
             <ProjectCard key={project.id || project.slug} project={project} />
           ))}
-        </div>
-      </section>
-
-      {/* 3. BOTTOM CTA SECTION */}
-      <section className="px-4 sm:px-6 lg:px-8 max-w-5xl mx-auto mt-16 sm:mt-24">
-        <div className="relative rounded-3xl p-8 sm:p-12 md:p-14 text-center bg-gradient-to-br from-white via-sky-50/40 to-blue-50/30 border border-slate-200/80 shadow-lg overflow-hidden">
-          {/* Subtle Background Glow */}
-          <div className="absolute top-0 right-0 w-64 h-64 bg-sky-400/10 rounded-full blur-3xl pointer-events-none" />
-          <div className="absolute bottom-0 left-0 w-64 h-64 bg-blue-500/10 rounded-full blur-3xl pointer-events-none" />
-
-          <div className="relative z-10 max-w-2xl mx-auto">
-            <h2 className="text-2xl sm:text-4xl md:text-5xl font-medium font-serif text-slate-900 mb-4 tracking-tight">
-              Have a Project in Mind?
-            </h2>
-            <p className="text-base sm:text-lg text-slate-600 mb-8 leading-relaxed">
-              Let’s turn your idea into a powerful digital experience.
-            </p>
-            <div className="flex justify-center">
-              <Link
-                href="/contact-us"
-                className="inline-flex items-center gap-2 px-8 py-3.5 text-base sm:text-sm font-medium font-serif text-white rounded-full bg-gradient-to-r from-[#2eaad4] to-[#2c67f2] hover:opacity-95 active:scale-95 transition-all duration-300 shadow-md hover:shadow-lg"
-              >
-                <Phone className="h-4 w-4 animate-ring" />
-                Let’s Connect
-              </Link>
-            </div>
-          </div>
         </div>
       </section>
     </main>

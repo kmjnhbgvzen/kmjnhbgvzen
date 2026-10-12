@@ -86,7 +86,7 @@ const CareersPage = () => {
         }`}>
 
           
-          <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-medium font-serif text-slate-900 mb-4 sm:mb-8 leading-tight tracking-tight">
+          <h1 className="text-3xl sm:text-5xl md:text-6xl font-medium font-serif text-slate-900 mb-4 sm:mb-6 leading-tight tracking-tight">
             Shape the
             <span className="relative">
               <span className="bg-linear-to-r from-blue-600 via-purple-600 to-cyan-600 bg-clip-text text-transparent"> Future</span>
@@ -95,7 +95,7 @@ const CareersPage = () => {
             <br />of Technology
           </h1>
           
-          <p className="text-xl md:text-2xl text-slate-600 mb-12 max-w-3xl mx-auto leading-relaxed">
+          <p className="text-base sm:text-lg md:text-xl text-slate-600 max-w-3xl mx-auto leading-relaxed mb-12">
             Join a team of exceptional engineers, designers, and visionaries building 
             the next generation of AI-powered productivity tools
           </p>
@@ -116,10 +116,10 @@ const CareersPage = () => {
       <section id="open-positions" className=" px-4 sm:px-6 lg:px-8 relative">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
-            <h2 className="text-4xl md:text-5xl lg:text-6xl font-medium font-serif text-slate-900 mb-8 tracking-tight">
+            <h2 className="text-3xl sm:text-5xl md:text-6xl font-medium font-serif text-slate-900 mb-4 sm:mb-6 leading-tight tracking-tight">
               Open Positions
             </h2>
-            <p className="text-xl text-slate-600 max-w-2xl mx-auto">
+            <p className="text-base sm:text-lg md:text-xl text-slate-600 max-w-3xl mx-auto leading-relaxed mb-8">
               Join our mission to democratize AI and build the future of work
             </p>
           </div>
@@ -145,7 +145,7 @@ const CareersPage = () => {
                     <div className="flex-1">
                       <div className="flex items-center gap-4 mb-4 flex-wrap">
                         <div className="flex items-center gap-4">
-                          <h3 className="text-4xl md:text-5xl lg:text-6xl font-medium font-serif text-slate-900 group-hover:text-blue-600 transition-colors">
+                          <h3 className="text-xl sm:text-2xl font-bold font-serif text-slate-900 group-hover:text-blue-600 transition-colors">
                             {job.title}
                           </h3>
                           {job.featured && (
@@ -171,7 +171,7 @@ const CareersPage = () => {
                         </div>
                       </div>
                       
-                      <p className="text-slate-700 mb-6 max-w-3xl text-lg leading-relaxed">
+                      <p className="text-slate-600 text-sm sm:text-base leading-relaxed mb-6 font-light max-w-3xl">
                         {job.description}
                       </p>
                       

@@ -744,20 +744,7 @@ const Hero = () => {
               <AnimatePresence mode="wait">
                 <motion.h1
                   key={currentServiceIndex}
-                  className="
-                    w-full
-                    max-w-full
-                    text-[38px]
-                    leading-[1.2]
-                    sm:text-5xl
-                    sm:leading-[1.2]
-                    md:text-6xl
-                    lg:text-6xl
-                    font-black
-                    tracking-tight
-                    mt-0
-                    mb-8
-                  "
+                  className="w-full max-w-full text-3xl sm:text-5xl md:text-6xl font-medium font-serif text-slate-900 mb-4 sm:mb-6 leading-tight tracking-tight mt-0"
                   initial={{
                     opacity: 0,
                     y: 30,
@@ -777,12 +764,11 @@ const Hero = () => {
                   <span
                     className="
                       block
-                      text-gray-900
+                      text-slate-900
                       mb-1
                       text-3xl
                       sm:text-5xl
                       md:text-6xl
-                      lg:text-6xl
                       font-medium
                       font-serif
                       whitespace-nowrap
@@ -802,7 +788,6 @@ const Hero = () => {
                       text-3xl
                       sm:text-5xl
                       md:text-6xl
-                      lg:text-6xl
                       font-medium
                       font-serif
                       whitespace-nowrap
@@ -816,7 +801,7 @@ const Hero = () => {
                 </motion.h1>
               </AnimatePresence>
 
-              <p className="text-lg sm:text-xl text-gray-600 mt-4 leading-relaxed max-w-xl">
+              <p className="text-base sm:text-lg md:text-xl text-slate-600 max-w-3xl leading-relaxed">
                 Enterprise-grade solutions powered by
                 cutting-edge technology
               </p>

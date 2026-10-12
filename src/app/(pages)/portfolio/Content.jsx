@@ -359,7 +359,7 @@ const portfolio = () => {
                         <h3 className="text-base sm:text-lg font-bold text-gray-900 mb-1.5 sm:mb-2 transition-colors duration-300 line-clamp-1 group-hover:text-gray-800">
                             {project.title}
                         </h3>
-                        <p className="text-xs sm:text-sm text-gray-600 line-clamp-2 sm:line-clamp-3 leading-relaxed">
+                        <p className="text-slate-600 text-sm sm:text-base leading-relaxed mb-6 font-light line-clamp-2 sm:line-clamp-3">
                             {project.description}
                         </p>
                     </div>
@@ -389,14 +389,14 @@ const portfolio = () => {
                     <div className="ml-2 w-2 h-2 bg-emerald-500 rounded-full animate-ping" />
                 </div>
 
-                <h2 className="text-3xl sm:text-5xl md:text-6xl lg:text-7xl font-medium font-serif mb-3 sm:mb-6 md:mb-8 leading-tight px-4">
+                <h1 className="text-3xl sm:text-5xl md:text-6xl font-medium font-serif text-slate-900 mb-4 sm:mb-6 leading-tight tracking-tight px-4">
                     <span className="text-slate-900 block">Showcasing our best</span>
                     <span className="block bg-linear-to-r from-emerald-600 via-blue-600 to-purple-600 bg-clip-text text-transparent mt-2 relative">
                         creative work
                         <div className="hidden sm:block absolute -top-4 sm:-top-6 -right-4 sm:-right-6 w-8 h-8 sm:w-12 sm:h-12 bg-linear-to-r from-emerald-400 to-blue-500 rounded-full animate-bounce opacity-40 blur-sm" />
                     </span>
-                </h2>
-                <p className="text-lg md:text-xl md:px-20 text-slate-600 max-w-4xl mx-auto leading-relaxed px-4">
+                </h1>
+                <p className="text-base sm:text-lg md:text-xl text-slate-600 max-w-3xl mx-auto leading-relaxed px-4">
                     Explore our collection of successful projects and digital solutions. Each portfolio piece represents our commitment to excellence, innovation, and delivering results that exceed expectations.
                 </p>
             </div>

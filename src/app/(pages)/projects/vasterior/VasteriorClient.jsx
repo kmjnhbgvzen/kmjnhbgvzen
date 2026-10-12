@@ -490,12 +490,9 @@ export default function VasteriorClient() {
         <div className="flex flex-wrap items-center justify-between gap-4 mb-6">
           <Link
             href="/projects"
-            className="inline-flex items-center gap-2 text-sm font-medium text-slate-500 transition-colors group"
-            style={{ "--hover-color": BLUE_PRIMARY }}
-            onMouseEnter={(e) => (e.currentTarget.style.color = BLUE_PRIMARY)}
-            onMouseLeave={(e) => (e.currentTarget.style.color = "")}
+            className="inline-flex items-center gap-2 text-sm font-semibold text-slate-600 hover:text-sky-600 transition-all bg-white/80 backdrop-blur-md px-4 py-2 rounded-full border border-slate-200/80 shadow-xs hover:shadow-md group"
           >
-            <ArrowLeft className="w-4 h-4 transition-transform group-hover:-translate-x-1" />
+            <ArrowLeft className="w-4 h-4 text-sky-600 transition-transform group-hover:-translate-x-1" />
             <span>Back to Case Studies</span>
           </Link>
 
@@ -542,7 +539,7 @@ export default function VasteriorClient() {
           </div>
 
           {/* Main headline */}
-          <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-serif font-medium text-slate-900 mb-6 leading-snug sm:leading-tight tracking-tight">
+          <h1 className="text-3xl sm:text-5xl md:text-6xl font-medium font-serif text-slate-900 mb-4 sm:mb-6 leading-tight tracking-tight">
             Designing a Digital Space for{" "}
             <span
               className="inline-block font-semibold"
@@ -558,7 +555,7 @@ export default function VasteriorClient() {
           </h1>
 
           {/* Subtitle */}
-          <p className="text-base sm:text-lg md:text-xl leading-relaxed max-w-3xl mx-auto mb-8 font-light" style={{ color: BODY_TEXT }}>
+          <p className="text-base sm:text-lg md:text-xl text-slate-600 max-w-3xl mx-auto leading-relaxed mb-8">
             How Zentrix Infotech translated Vasterior's philosophy of aesthetics, functionality, and spatial harmony into a considered, balanced, and refined digital experience.
           </p>
 

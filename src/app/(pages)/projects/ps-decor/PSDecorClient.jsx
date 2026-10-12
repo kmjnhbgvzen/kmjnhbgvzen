@@ -499,9 +499,9 @@ export default function PSDecorClient() {
         <div className="flex flex-wrap items-center justify-between gap-4 mb-6">
           <Link
             href="/projects"
-            className="inline-flex items-center gap-2 text-sm font-medium text-slate-500 hover:text-[#1769AA] transition-colors group"
+            className="inline-flex items-center gap-2 text-sm font-semibold text-slate-600 hover:text-sky-600 transition-all bg-white/80 backdrop-blur-md px-4 py-2 rounded-full border border-slate-200/80 shadow-xs hover:shadow-md group"
           >
-            <ArrowLeft className="w-4 h-4 transition-transform group-hover:-translate-x-1" />
+            <ArrowLeft className="w-4 h-4 text-sky-600 transition-transform group-hover:-translate-x-1" />
             <span>Back to Case Studies</span>
           </Link>
 
@@ -528,7 +528,7 @@ export default function PSDecorClient() {
           </div>
 
           {/* Main Headline */}
-          <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-serif font-medium text-[#102A43] mb-6 leading-snug sm:leading-tight md:leading-[1.3] tracking-tight">
+          <h1 className="text-3xl sm:text-5xl md:text-6xl font-medium font-serif text-slate-900 mb-4 sm:mb-6 leading-tight tracking-tight">
             Crafting a{" "}
             <span className="inline-block font-semibold text-[#1769AA] px-1 py-0.5">
               Luxury Digital Experience
@@ -538,7 +538,7 @@ export default function PSDecorClient() {
           </h1>
 
           {/* Subtitle */}
-          <p className="text-base sm:text-lg md:text-xl text-[#425466] leading-relaxed max-w-3xl mx-auto mb-8 font-light">
+          <p className="text-base sm:text-lg md:text-xl text-slate-600 max-w-3xl mx-auto leading-relaxed mb-8">
             How Zentrix Infotech translated the visual grandeur of bespoke luxury wedding planning, royal mandaps, and curated celebrations into an elegant, high-conversion online platform.
           </p>
 

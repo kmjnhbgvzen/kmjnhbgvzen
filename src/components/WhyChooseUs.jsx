@@ -34,10 +34,10 @@ const WhyChooseUs = () => {
     <section className="py-8 bg-white">
       {/* Heading */}
       <div className="max-w-6xl mx-auto text-center px-4">
-        <h2 className="text-3xl md:text-4xl lg:text-5xl font-serif font-medium mb-4">
+        <h2 className="text-3xl sm:text-5xl md:text-6xl font-medium font-serif text-slate-900 mb-4 sm:mb-6 leading-tight tracking-tight">
           Why Choose Zentrix Infotech?
         </h2>
-        <p className="text-gray-600 max-w-3xl mx-auto mb-12">
+        <p className="text-base sm:text-lg md:text-xl text-slate-600 max-w-3xl mx-auto leading-relaxed mb-12">
           We combine expertise, trust, and performance to deliver digital and IT
           solutions that truly support your business growth.
         </p>
@@ -59,7 +59,7 @@ const WhyChooseUs = () => {
                 <h3 className="text-lg font-semibold text-gray-900 mb-1">
                   {item.title}
                 </h3>
-                <p className="text-gray-600 text-sm leading-relaxed">
+                <p className="text-slate-600 text-sm sm:text-base leading-relaxed mb-6 font-light">
                   {item.desc}
                 </p>
               </div>
