@@ -71,9 +71,6 @@ export default function WhyChoose() {
                                 animationDelay: `${stat.delay}ms`
                             }}
                         >
-                            {/* Card background gradient on hover */}
-                            <div className={`absolute inset-0 bg-gradient-to-br ${stat.gradient} rounded-3xl opacity-0 group-hover:opacity-5 transition-opacity duration-500`}></div>
-
                             {/* Icon container */}
                             <div className={`w-20 h-20 bg-gradient-to-br ${stat.gradient} rounded-2xl flex items-center justify-center mb-6 mx-auto group-hover:scale-110 group-hover:rotate-6 transition-all duration-500`}>
                                 <div className="text-white">
@@ -93,11 +90,6 @@ export default function WhyChoose() {
                                     {stat.description}
                                 </p>
                             </div>
-
-                            {/* Floating particles effect */}
-                            <div className="absolute top-4 right-4 w-2 h-2 bg-gradient-to-br from-[#FFC440] to-[#F04393] rounded-full opacity-0 group-hover:opacity-100 group-hover:animate-bounce transition-all duration-500" style={{ animationDelay: '0.5s' }}></div>
-                            <div className="absolute bottom-6 left-4 w-1.5 h-1.5 bg-gradient-to-br from-[#3E3CAD] to-[#33018B] rounded-full opacity-0 group-hover:opacity-100 group-hover:animate-bounce transition-all duration-500" style={{ animationDelay: '0.8s' }}></div>
-                            <div className="absolute top-1/2 left-2 w-1 h-1 bg-gradient-to-br from-[#E8A4BC] to-[#F04393] rounded-full opacity-0 group-hover:opacity-100 group-hover:animate-pulse transition-all duration-500"></div>
                         </div>
                     ))}
                 </div>

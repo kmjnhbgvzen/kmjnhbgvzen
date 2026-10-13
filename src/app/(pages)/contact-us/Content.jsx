@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import { User, Mail, Phone, Briefcase, MessageSquare, Send } from "lucide-react";
 
 export default function ContactUs() {
     const [formData, setFormData] = useState({
@@ -218,308 +219,346 @@ export default function ContactUs() {
                         {/* ================= RIGHT: CONTACT FORM ================= */}
 
                         <div className="lg:sticky lg:top-8">
-                            <div className="bg-white rounded-2xl sm:rounded-3xl p-6 sm:p-8 shadow-xl border border-gray-100">
+                            <div className="bg-white rounded-2xl sm:rounded-3xl border border-blue-100 shadow-[0_20px_50px_-12px_rgba(37,99,235,0.14),0_0_0_1px_rgba(219,234,254,0.7)] overflow-hidden">
 
-                                <div className="mb-6">
-                                    <h3 className="text-2xl sm:text-3xl font-serif bg-gradient-to-r from-[#1E293B] to-[#3B82F6] bg-clip-text text-transparent mb-2 sm:mb-3">
-                                        Send us a Message
-                                    </h3>
+                                {/* Top Blue Accent Bar */}
+                                <div className="h-1.5 w-full bg-gradient-to-r from-[#2563EB] via-blue-500 to-[#1D4ED8]" />
 
-                                    <p className="text-sm sm:text-base text-gray-600">
-                                        Fill out the form below and we'll get back
-                                        to you as soon as possible.
-                                    </p>
-                                </div>
+                                <div className="p-6 sm:p-8 lg:p-9">
 
-                                <form
-                                    action="https://formsubmit.co/zentrixit@gmail.com"
-                                    method="POST"
-                                    onSubmit={handleSubmit}
-                                    className="space-y-4"
-                                >
+                                    <div className="mb-6 sm:mb-7">
+                                        <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full text-xs font-semibold bg-[#EFF6FF] text-[#2563EB] border border-[#DBEAFE] mb-3">
+                                            <span className="w-1.5 h-1.5 rounded-full bg-[#2563EB]" />
+                                            <span>GET IN TOUCH</span>
+                                        </div>
 
-                                    {/* FormSubmit Configuration */}
+                                        <h3 className="text-2xl sm:text-3xl font-bold text-[#0F172A] tracking-tight mb-2">
+                                            Send us a Message
+                                        </h3>
 
-                                    <input
-                                        type="hidden"
-                                        name="_next"
-                                        value="https://zentrixinfotech.com/thankyou"
-                                    />
+                                        <p className="text-sm sm:text-base text-[#475569] leading-relaxed">
+                                            Fill out the form below and we'll get back
+                                            to you as soon as possible.
+                                        </p>
+                                    </div>
 
-                                    <input
-                                        type="hidden"
-                                        name="_subject"
-                                        value="New Contact Form Submission"
-                                    />
+                                    <form
+                                        action="https://formsubmit.co/zentrixit@gmail.com"
+                                        method="POST"
+                                        onSubmit={handleSubmit}
+                                        className="space-y-4 sm:space-y-5"
+                                    >
 
-                                    <input
-                                        type="hidden"
-                                        name="_captcha"
-                                        value="false"
-                                    />
-
-                                    <input
-                                        type="hidden"
-                                        name="_template"
-                                        value="table"
-                                    />
-
-                                    {/* ================= NAME ================= */}
-
-                                    <div className="relative">
+                                        {/* FormSubmit Configuration */}
 
                                         <input
-                                            className={`w-full px-4 py-3 rounded-xl border-2 ${
-                                                errors.name
-                                                    ? "border-red-500 bg-red-50"
-                                                    : "border-gray-200 bg-gray-50/50"
-                                            } text-gray-900 text-sm outline-none transition-all duration-300 focus:border-[#3B82F6] focus:bg-white focus:shadow-md placeholder-transparent peer`}
-                                            id="name"
-                                            name="name"
-                                            type="text"
-                                            placeholder="Your Name"
-                                            value={formData.name}
-                                            onChange={(e) =>
-                                                handleFieldChange(
-                                                    "name",
-                                                    e.target.value
-                                                )
-                                            }
-                                            autoComplete="name"
-                                            required
+                                            type="hidden"
+                                            name="_next"
+                                            value="https://zentrixinfotech.com/thankyou"
                                         />
 
-                                        <label
-                                            className="absolute left-3 -top-2.5 px-2 bg-white text-[#3B82F6] text-xs font-medium pointer-events-none transition-all duration-200 peer-placeholder-shown:text-sm peer-placeholder-shown:text-gray-500 peer-placeholder-shown:top-3 peer-focus:-top-2.5 peer-focus:text-xs peer-focus:text-[#3B82F6]"
-                                            htmlFor="name"
-                                        >
-                                            Your Name *
-                                        </label>
+                                        <input
+                                            type="hidden"
+                                            name="_subject"
+                                            value="New Contact Form Submission"
+                                        />
 
-                                        {errors.name && (
-                                            <p className="text-red-500 text-xs mt-1 ml-1">
-                                                {errors.name}
-                                            </p>
-                                        )}
-                                    </div>
+                                        <input
+                                            type="hidden"
+                                            name="_captcha"
+                                            value="false"
+                                        />
 
-                                    {/* ================= EMAIL + MOBILE ================= */}
+                                        <input
+                                            type="hidden"
+                                            name="_template"
+                                            value="table"
+                                        />
 
-                                    <div className="grid grid-cols-2 sm:grid-cols-2 gap-4 sm:gap-5">
+                                        {/* ================= NAME ================= */}
 
-                                        {/* EMAIL */}
-
-                                        <div className="relative">
-
-                                            <input
-                                                className={`w-full px-4 py-3 rounded-xl border-2 ${
-                                                    errors.email
-                                                        ? "border-red-500 bg-red-50"
-                                                        : "border-gray-200 bg-gray-50/50"
-                                                } text-gray-900 text-sm outline-none transition-all duration-300 focus:border-[#3B82F6] focus:bg-white focus:shadow-md placeholder-transparent peer`}
-                                                id="email"
-                                                name="email"
-                                                type="email"
-                                                placeholder="Your Email"
-                                                value={formData.email}
-                                                onChange={(e) =>
-                                                    handleFieldChange(
-                                                        "email",
-                                                        e.target.value
-                                                    )
-                                                }
-                                                autoComplete="email"
-                                                required
-                                            />
-
+                                        <div>
                                             <label
-                                                className="absolute left-3 -top-2.5 px-2 bg-white text-[#3B82F6] text-xs font-medium pointer-events-none transition-all duration-200 peer-placeholder-shown:text-sm peer-placeholder-shown:text-gray-500 peer-placeholder-shown:top-3 peer-focus:-top-2.5 peer-focus:text-xs peer-focus:text-[#3B82F6]"
-                                                htmlFor="email"
+                                                className="block text-xs sm:text-sm font-semibold text-[#0F172A] mb-1.5"
+                                                htmlFor="name"
                                             >
-                                                Your Email *
+                                                Your Name *
                                             </label>
 
-                                            {errors.email && (
-                                                <p className="text-red-500 text-xs mt-1 ml-1">
-                                                    {errors.email}
+                                            <div className="relative group">
+                                                <div className="absolute inset-y-0 left-0 pl-3.5 flex items-center pointer-events-none text-[#2563EB]">
+                                                    <User className="w-4 h-4" />
+                                                </div>
+
+                                                <input
+                                                    className={`w-full pl-10 pr-4 py-3 sm:py-3.5 rounded-xl border ${
+                                                        errors.name
+                                                            ? "border-red-400 bg-red-50/30 text-[#0F172A] focus:border-red-500 focus:ring-4 focus:ring-red-100"
+                                                            : "border-[#DBEAFE] bg-[#F8FAFC] hover:bg-white focus:bg-white text-[#0F172A] hover:border-blue-300 focus:border-[#2563EB] focus:ring-4 focus:ring-[#EFF6FF]"
+                                                    } text-sm placeholder:text-slate-400 outline-none transition-all duration-200`}
+                                                    id="name"
+                                                    name="name"
+                                                    type="text"
+                                                    placeholder="Your Name"
+                                                    value={formData.name}
+                                                    onChange={(e) =>
+                                                        handleFieldChange(
+                                                            "name",
+                                                            e.target.value
+                                                        )
+                                                    }
+                                                    autoComplete="name"
+                                                    required
+                                                />
+                                            </div>
+
+                                            {errors.name && (
+                                                <p className="text-red-500 text-xs mt-1.5 font-medium">
+                                                    {errors.name}
+                                                </p>
+                                            )}
+                                        </div>
+
+                                        {/* ================= EMAIL + MOBILE ================= */}
+
+                                        <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-5">
+
+                                            {/* EMAIL */}
+
+                                            <div>
+                                                <label
+                                                    className="block text-xs sm:text-sm font-semibold text-[#0F172A] mb-1.5"
+                                                    htmlFor="email"
+                                                >
+                                                    Your Email *
+                                                </label>
+
+                                                <div className="relative group">
+                                                    <div className="absolute inset-y-0 left-0 pl-3.5 flex items-center pointer-events-none text-[#2563EB]">
+                                                        <Mail className="w-4 h-4" />
+                                                    </div>
+
+                                                    <input
+                                                        className={`w-full pl-10 pr-4 py-3 sm:py-3.5 rounded-xl border ${
+                                                            errors.email
+                                                                ? "border-red-400 bg-red-50/30 text-[#0F172A] focus:border-red-500 focus:ring-4 focus:ring-red-100"
+                                                                : "border-[#DBEAFE] bg-[#F8FAFC] hover:bg-white focus:bg-white text-[#0F172A] hover:border-blue-300 focus:border-[#2563EB] focus:ring-4 focus:ring-[#EFF6FF]"
+                                                        } text-sm placeholder:text-slate-400 outline-none transition-all duration-200`}
+                                                        id="email"
+                                                        name="email"
+                                                        type="email"
+                                                        placeholder="Your Email"
+                                                        value={formData.email}
+                                                        onChange={(e) =>
+                                                            handleFieldChange(
+                                                                "email",
+                                                                e.target.value
+                                                            )
+                                                        }
+                                                        autoComplete="email"
+                                                        required
+                                                    />
+                                                </div>
+
+                                                {errors.email && (
+                                                    <p className="text-red-500 text-xs mt-1.5 font-medium">
+                                                        {errors.email}
+                                                    </p>
+                                                )}
+
+                                            </div>
+
+                                            {/* MOBILE */}
+
+                                            <div>
+                                                <label
+                                                    className="block text-xs sm:text-sm font-semibold text-[#0F172A] mb-1.5"
+                                                    htmlFor="mobile"
+                                                >
+                                                    Mobile Number *
+                                                </label>
+
+                                                <div className="relative group">
+                                                    <div className="absolute inset-y-0 left-0 pl-3.5 flex items-center pointer-events-none text-[#2563EB]">
+                                                        <Phone className="w-4 h-4" />
+                                                    </div>
+
+                                                    <input
+                                                        className={`w-full pl-10 pr-4 py-3 sm:py-3.5 rounded-xl border ${
+                                                            errors.mobile
+                                                                ? "border-red-400 bg-red-50/30 text-[#0F172A] focus:border-red-500 focus:ring-4 focus:ring-red-100"
+                                                                : "border-[#DBEAFE] bg-[#F8FAFC] hover:bg-white focus:bg-white text-[#0F172A] hover:border-blue-300 focus:border-[#2563EB] focus:ring-4 focus:ring-[#EFF6FF]"
+                                                        } text-sm placeholder:text-slate-400 outline-none transition-all duration-200`}
+                                                        id="mobile"
+                                                        name="mobile"
+                                                        type="tel"
+                                                        placeholder="Mobile Number"
+                                                        value={formData.mobile}
+                                                        onChange={(e) =>
+                                                            handleFieldChange(
+                                                                "mobile",
+                                                                e.target.value
+                                                            )
+                                                        }
+                                                        inputMode="numeric"
+                                                        maxLength={10}
+                                                        required
+                                                    />
+                                                </div>
+
+                                                {errors.mobile && (
+                                                    <p className="text-red-500 text-xs mt-1.5 font-medium">
+                                                        {errors.mobile}
+                                                    </p>
+                                                )}
+
+                                            </div>
+
+                                        </div>
+
+                                        {/* ================= SERVICE ================= */}
+
+                                        <div>
+                                            <label
+                                                className="block text-xs sm:text-sm font-semibold text-[#0F172A] mb-1.5"
+                                                htmlFor="service"
+                                            >
+                                                Service Interest *
+                                            </label>
+
+                                            <div className="relative group">
+                                                <div className="absolute inset-y-0 left-0 pl-3.5 flex items-center pointer-events-none text-[#2563EB]">
+                                                    <Briefcase className="w-4 h-4" />
+                                                </div>
+
+                                                <select
+                                                    className={`w-full pl-10 pr-10 py-3 sm:py-3.5 rounded-xl border ${
+                                                        errors.service
+                                                            ? "border-red-400 bg-red-50/30 text-[#0F172A] focus:border-red-500 focus:ring-4 focus:ring-red-100"
+                                                            : "border-[#DBEAFE] bg-[#F8FAFC] hover:bg-white focus:bg-white text-[#0F172A] hover:border-blue-300 focus:border-[#2563EB] focus:ring-4 focus:ring-[#EFF6FF]"
+                                                    } text-sm outline-none transition-all duration-200 appearance-none cursor-pointer`}
+                                                    id="service"
+                                                    name="service"
+                                                    value={formData.service}
+                                                    onChange={(e) =>
+                                                        handleFieldChange(
+                                                            "service",
+                                                            e.target.value
+                                                        )
+                                                    }
+                                                    style={{
+                                                        backgroundImage: `url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 20 20'%3e%3cpath stroke='%232563EB' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.75' d='m6 8 4 4 4-4'/%3e%3c/svg%3e")`,
+                                                        backgroundPosition:
+                                                            "right 14px center",
+                                                        backgroundRepeat: "no-repeat",
+                                                        backgroundSize: "16px",
+                                                    }}
+                                                    required
+                                                >
+
+                                                    <option value="" className="text-slate-400">
+                                                        Select a Service
+                                                    </option>
+
+                                                    <option value="Digital Marketing">
+                                                        Digital Marketing
+                                                    </option>
+
+                                                    <option value="Mobile Development">
+                                                        Mobile Development
+                                                    </option>
+
+                                                    <option value="Web Development">
+                                                        Web Development
+                                                    </option>
+
+                                                    <option value="Software Development">
+                                                        Software Development
+                                                    </option>
+
+                                                    <option value="UI & UX Designing">
+                                                        UI & UX Designing
+                                                    </option>
+
+                                                    <option value="Cloud Solutions">
+                                                        Cloud Solutions
+                                                    </option>
+
+                                                </select>
+                                            </div>
+
+                                            {errors.service && (
+                                                <p className="text-red-500 text-xs mt-1.5 font-medium">
+                                                    {errors.service}
                                                 </p>
                                             )}
 
                                         </div>
 
-                                        {/* MOBILE */}
+                                        {/* ================= MESSAGE ================= */}
 
-                                        <div className="relative">
-
-                                            <input
-                                                className={`w-full px-4 py-3 rounded-xl border-2 ${
-                                                    errors.mobile
-                                                        ? "border-red-500 bg-red-50"
-                                                        : "border-gray-200 bg-gray-50/50"
-                                                } text-gray-900 text-sm outline-none transition-all duration-300 focus:border-[#3B82F6] focus:bg-white focus:shadow-md placeholder-transparent peer`}
-                                                id="mobile"
-                                                name="mobile"
-                                                type="tel"
-                                                placeholder="Mobile Number"
-                                                value={formData.mobile}
-                                                onChange={(e) =>
-                                                    handleFieldChange(
-                                                        "mobile",
-                                                        e.target.value
-                                                    )
-                                                }
-                                                inputMode="numeric"
-                                                maxLength={10}
-                                                required
-                                            />
-
+                                        <div>
                                             <label
-                                                className="absolute left-3 -top-2.5 px-2 bg-white text-[#3B82F6] text-xs font-medium pointer-events-none transition-all duration-200 peer-placeholder-shown:text-sm peer-placeholder-shown:text-gray-500 peer-placeholder-shown:top-3 peer-focus:-top-2.5 peer-focus:text-xs peer-focus:text-[#3B82F6]"
-                                                htmlFor="mobile"
+                                                className="block text-xs sm:text-sm font-semibold text-[#0F172A] mb-1.5"
+                                                htmlFor="message"
                                             >
-                                                Mobile Number *
+                                                Your Message *
                                             </label>
 
-                                            {errors.mobile && (
-                                                <p className="text-red-500 text-xs mt-1 ml-1">
-                                                    {errors.mobile}
+                                            <div className="relative group">
+                                                <div className="absolute top-3.5 left-0 pl-3.5 pointer-events-none text-[#2563EB]">
+                                                    <MessageSquare className="w-4 h-4" />
+                                                </div>
+
+                                                <textarea
+                                                    className={`w-full pl-10 pr-4 py-3 sm:py-3.5 rounded-xl border ${
+                                                        errors.message
+                                                            ? "border-red-400 bg-red-50/30 text-[#0F172A] focus:border-red-500 focus:ring-4 focus:ring-red-100"
+                                                            : "border-[#DBEAFE] bg-[#F8FAFC] hover:bg-white focus:bg-white text-[#0F172A] hover:border-blue-300 focus:border-[#2563EB] focus:ring-4 focus:ring-[#EFF6FF]"
+                                                    } text-sm placeholder:text-slate-400 outline-none transition-all duration-200 min-h-[120px] sm:min-h-[130px] resize-y leading-relaxed`}
+                                                    id="message"
+                                                    name="message"
+                                                    placeholder="Your Message"
+                                                    value={formData.message}
+                                                    onChange={(e) =>
+                                                        handleFieldChange(
+                                                            "message",
+                                                            e.target.value
+                                                        )
+                                                    }
+                                                    required
+                                                />
+                                            </div>
+
+                                            {errors.message && (
+                                                <p className="text-red-500 text-xs mt-1.5 font-medium">
+                                                    {errors.message}
                                                 </p>
                                             )}
 
                                         </div>
 
-                                    </div>
+                                        {/* ================= SUBMIT ================= */}
 
-                                    {/* ================= SERVICE ================= */}
+                                        <div className="pt-2">
 
-                                    <div className="relative">
+                                            <button
+                                                type="submit"
+                                                className="w-full py-3.5 px-6 bg-[#2563EB] hover:bg-[#1D4ED8] text-white text-sm sm:text-base font-semibold rounded-xl shadow-md shadow-blue-500/20 hover:shadow-lg hover:shadow-blue-600/30 transition-all duration-200 focus:outline-none focus:ring-4 focus:ring-[#EFF6FF] active:scale-[0.99] cursor-pointer flex items-center justify-center gap-2 group"
+                                            >
+                                                <span>Send Message</span>
+                                                <Send className="w-4 h-4 transition-transform group-hover:translate-x-1" />
+                                            </button>
 
-                                        <select
-                                            className={`w-full px-4 py-3 rounded-xl border-2 ${
-                                                errors.service
-                                                    ? "border-red-500 bg-red-50"
-                                                    : "border-gray-200 bg-gray-50/50"
-                                            } text-gray-900 text-sm outline-none transition-all duration-300 focus:border-[#3B82F6] focus:bg-white focus:shadow-md appearance-none cursor-pointer`}
-                                            id="service"
-                                            name="service"
-                                            value={formData.service}
-                                            onChange={(e) =>
-                                                handleFieldChange(
-                                                    "service",
-                                                    e.target.value
-                                                )
-                                            }
-                                            style={{
-                                                backgroundImage: `url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 20 20'%3e%3cpath stroke='%236b7280' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.5' d='m6 8 4 4 4-4'/%3e%3c/svg%3e")`,
-                                                backgroundPosition:
-                                                    "right 12px center",
-                                                backgroundRepeat: "no-repeat",
-                                                backgroundSize: "18px",
-                                            }}
-                                            required
-                                        >
+                                            <div className="flex items-center justify-center gap-2 pt-3 text-xs text-[#475569]">
+                                                <span className="w-1.5 h-1.5 rounded-full bg-[#2563EB]" />
+                                                <span>We respond promptly within 24 hours</span>
+                                            </div>
 
-                                            <option value="">
-                                                Select a Service
-                                            </option>
+                                        </div>
 
-                                            <option value="Digital Marketing">
-                                                Digital Marketing
-                                            </option>
-
-                                            <option value="Mobile Development">
-                                                Mobile Development
-                                            </option>
-
-                                            <option value="Web Development">
-                                                Web Development
-                                            </option>
-
-                                            <option value="Software Development">
-                                                Software Development
-                                            </option>
-
-                                            <option value="UI & UX Designing">
-                                                UI & UX Designing
-                                            </option>
-
-                                            <option value="Cloud Solutions">
-                                                Cloud Solutions
-                                            </option>
-
-                                        </select>
-
-                                        <label
-                                            className={`absolute left-3 -top-2.5 px-2 bg-white text-xs font-medium pointer-events-none transition-all duration-200 ${
-                                                filledFields.service
-                                                    ? "text-[#3B82F6]"
-                                                    : "text-gray-500"
-                                            }`}
-                                            htmlFor="service"
-                                        >
-                                            Service Interest *
-                                        </label>
-
-                                        {errors.service && (
-                                            <p className="text-red-500 text-xs mt-1 ml-1">
-                                                {errors.service}
-                                            </p>
-                                        )}
-
-                                    </div>
-
-                                    {/* ================= MESSAGE ================= */}
-
-                                    <div className="relative">
-
-                                        <textarea
-                                            className={`w-full px-4 py-3 rounded-xl border-2 ${
-                                                errors.message
-                                                    ? "border-red-500 bg-red-50"
-                                                    : "border-gray-200 bg-gray-50/50"
-                                            } text-gray-900 text-sm outline-none transition-all duration-300 focus:border-[#3B82F6] focus:bg-white focus:shadow-md min-h-28 resize-y placeholder-transparent peer`}
-                                            id="message"
-                                            name="message"
-                                            placeholder="Your Message"
-                                            value={formData.message}
-                                            onChange={(e) =>
-                                                handleFieldChange(
-                                                    "message",
-                                                    e.target.value
-                                                )
-                                            }
-                                            required
-                                        />
-
-                                        <label
-                                            className="absolute left-3 -top-2.5 px-2 bg-white text-[#3B82F6] text-xs font-medium pointer-events-none transition-all duration-200 peer-placeholder-shown:text-sm peer-placeholder-shown:text-gray-500 peer-placeholder-shown:top-3 peer-focus:-top-2.5 peer-focus:text-xs peer-focus:text-[#3B82F6]"
-                                            htmlFor="message"
-                                        >
-                                            Your Message *
-                                        </label>
-
-                                        {errors.message && (
-                                            <p className="text-red-500 text-xs mt-1 ml-1">
-                                                {errors.message}
-                                            </p>
-                                        )}
-
-                                    </div>
-
-                                    {/* ================= SUBMIT ================= */}
-
-                                    <div className="pt-5">
-
-                                        <button
-                                            type="submit"
-                                            className="w-full px-6 py-3 bg-gradient-to-r from-[#3B82F6] to-[#2563EB] text-white text-sm font-semibold rounded-xl shadow-lg hover:shadow-xl hover:from-[#2563EB] hover:to-[#1D4ED8] transform hover:scale-[1.02] transition-all duration-300 focus:outline-none focus:ring-4 focus:ring-blue-300"
-                                        >
-                                            Send Message
-                                        </button>
-
-                                    </div>
-
-                                </form>
+                                    </form>
+                                </div>
                             </div>
                         </div>
 

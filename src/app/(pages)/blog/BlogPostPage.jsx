@@ -113,7 +113,6 @@ const OurBlogPage = () => {
                     fill
                     className="object-cover group-hover:scale-110 transition-transform duration-500"
                   />
-                  <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                   <span className="absolute top-2 left-2 bg-white/95 backdrop-blur-sm px-2 py-1 rounded-full text-xs font-semibold flex items-center gap-1 shadow-md">
                     <Tag size={10} className="text-blue-600" /> 
                     <span className="text-gray-800">{post.category}</span>

@@ -42,12 +42,6 @@ const ServiceCard = ({ icon, title, description, iconColor, borderColor }) => {
                     style={{ backgroundColor: iconColor }}
                 ></div>
             </div>
-
-            {/* Subtle hover overlay */}
-            <div
-                className="absolute inset-0 rounded-xl opacity-0 group-hover:opacity-5 transition-opacity duration-300"
-                style={{ backgroundColor: iconColor }}
-            ></div>
         </div>
     );
 };

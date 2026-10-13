@@ -61,19 +61,13 @@ const Services = () => {
                 href={service.link}
                 className="block group h-full"
               >
-                <div className="relative h-full flex flex-col justify-between bg-white rounded-2xl sm:rounded-3xl p-6 sm:p-8 border border-slate-200/80 hover:border-blue-400/90 shadow-[0_4px_20px_-4px_rgba(23,92,211,0.06)] hover:shadow-[0_20px_35px_-8px_rgba(23,92,211,0.16)] transition-all duration-300 ease-out hover:-translate-y-2 overflow-hidden">
-                  {/* Subtle ambient gradient overlay on hover */}
-                  <div className="absolute inset-0 bg-gradient-to-br from-blue-50/60 via-transparent to-sky-50/40 opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none rounded-2xl sm:rounded-3xl" />
-
-                  {/* Top subtle blue accent indicator */}
-                  <div className="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-blue-600 via-sky-500 to-blue-600 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
-
+                <div className="relative h-full flex flex-col justify-between bg-white rounded-2xl sm:rounded-3xl p-6 sm:p-8 border border-slate-200 hover:border-slate-300 shadow-sm hover:shadow-md transition-all duration-300 ease-out hover:-translate-y-1">
                   {/* Content wrapper */}
                   <div className="relative z-10 flex flex-col flex-grow">
                     {/* Icon Container */}
                     <div className="mb-5 sm:mb-6">
-                      <div className="w-13 h-13 sm:w-14 sm:h-14 rounded-2xl bg-gradient-to-br from-blue-50 via-sky-50 to-blue-100/70 border border-blue-200/60 flex items-center justify-center text-blue-600 shadow-xs group-hover:bg-gradient-to-br group-hover:from-blue-600 group-hover:to-sky-600 group-hover:text-white group-hover:border-transparent group-hover:scale-105 group-hover:shadow-md group-hover:shadow-blue-500/25 transition-all duration-300">
-                        <IconComponent className="w-6 h-6 sm:w-7 sm:h-7 transition-colors duration-300" />
+                      <div className="w-13 h-13 sm:w-14 sm:h-14 rounded-2xl bg-blue-50 border border-blue-100 flex items-center justify-center text-blue-600 transition-colors duration-300">
+                        <IconComponent className="w-6 h-6 sm:w-7 sm:h-7" />
                       </div>
                     </div>
 

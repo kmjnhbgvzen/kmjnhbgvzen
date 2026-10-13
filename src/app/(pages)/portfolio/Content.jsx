@@ -310,15 +310,6 @@ const portfolio = () => {
                         </div>
                     )}
 
-                    {/* Hover Overlay */}
-                    <div
-                        className={`absolute inset-0 transition-opacity duration-300 ${isHovered ? 'opacity-100' : 'opacity-0'
-                            }`}
-                        style={{
-                            background: `linear-linear(to top, ${project.color}70, transparent, transparent)`
-                        }}
-                    />
-
                     {/* Category Badge */}
                     <div
                         className={`absolute top-2 sm:top-3 md:top-4 left-2 sm:left-3 md:left-4 backdrop-blur-sm px-2 sm:px-3 py-1 rounded-full text-xs font-semibold text-white transition-all duration-300 ${isHovered ? 'opacity-100 translate-y-0' : 'opacity-0 -translate-y-2'

@@ -40,9 +40,6 @@ export default function ProjectCard({ project }) {
           </div>
         )}
 
-        {/* Subtle hover gradient overlay */}
-        <div className="absolute inset-0 bg-gradient-to-t from-slate-900/15 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none" />
-
         {/* 2. Category Badge (Top-Right, compact) */}
         <div className="absolute top-2.5 right-2.5 sm:top-3 sm:right-3 z-10">
           <span className="inline-flex items-center px-3 py-1.5 rounded-full text-xs font-semibold tracking-wide bg-white/95 backdrop-blur-md text-sky-700 border border-sky-200/80 shadow-xs group-hover:bg-white group-hover:border-sky-400 group-hover:shadow-sm transition-all duration-300">

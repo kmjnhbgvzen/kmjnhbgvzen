@@ -650,8 +650,6 @@ export default function OracleHospitalClient() {
               className={`group relative p-8 rounded-[2.5rem] backdrop-blur-md border-2 border-slate-200/80 ${item.borderHover} shadow-[0_8px_30px_rgb(0,0,0,0.04)] hover:shadow-[0_16px_40px_rgba(23,105,170,0.14)] hover:-translate-y-2 transition-all duration-500 flex flex-col items-center text-center justify-between overflow-hidden cursor-default`}
               style={{ background: "linear-gradient(180deg,#ffffff 0%,#F5F9FF 60%,#ffffff 100%)" }}
             >
-              <div className={`absolute inset-0 bg-gradient-to-b ${item.glowBg} opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none rounded-[2.5rem]`} />
-
               {/* Icon orb */}
               <div className="relative mb-5 z-10">
                 <div
@@ -889,8 +887,6 @@ export default function OracleHospitalClient() {
                   onMouseEnter={(e) => (e.currentTarget.style.borderColor = card.accentColor)}
                   onMouseLeave={(e) => (e.currentTarget.style.borderColor = "")}
                 >
-                  <div className="absolute top-0 right-0 w-24 h-24 rounded-full blur-xl pointer-events-none opacity-0 group-hover:opacity-100 transition-opacity duration-500" style={{ backgroundColor: `${card.accentColor}15` }} />
-
                   <div className="relative mb-4 z-10">
                     <div
                       className="w-14 h-14 rounded-full border-2 border-dashed p-1 transition-all duration-500 flex items-center justify-center group-hover:scale-105 group-hover:rotate-45"
@@ -959,8 +955,6 @@ export default function OracleHospitalClient() {
               onMouseEnter={(e) => (e.currentTarget.style.borderColor = BLUE_ACCENT)}
               onMouseLeave={(e) => (e.currentTarget.style.borderColor = "")}
             >
-              <div className="absolute top-0 right-0 w-28 h-28 rounded-full blur-xl pointer-events-none opacity-0 group-hover:opacity-100 transition-opacity duration-500" style={{ backgroundColor: BLUE_LIGHT }} />
-
               <div className="flex items-center gap-3 mb-4">
                 <div
                   className="w-11 h-11 rounded-2xl flex items-center justify-center flex-shrink-0 border"
@@ -1304,11 +1298,6 @@ export default function OracleHospitalClient() {
               onMouseEnter={(e) => (e.currentTarget.style.borderColor = BLUE_ACCENT)}
               onMouseLeave={(e) => (e.currentTarget.style.borderColor = "")}
             >
-              <div
-                className="absolute top-0 left-0 right-0 h-0.5 opacity-0 group-hover:opacity-100 transition-opacity duration-400"
-                style={{ background: `linear-gradient(90deg, ${BLUE_DEEP}, ${BLUE_PRIMARY}, ${BLUE_ACCENT})` }}
-              />
-
               <div className="flex items-center gap-3 mb-4">
                 <div
                   className="w-11 h-11 rounded-2xl flex items-center justify-center flex-shrink-0 border"
@@ -1486,8 +1475,6 @@ export default function OracleHospitalClient() {
               onMouseEnter={(e) => (e.currentTarget.style.borderColor = BLUE_ACCENT)}
               onMouseLeave={(e) => (e.currentTarget.style.borderColor = "")}
             >
-              <div className="absolute top-0 right-0 w-32 h-32 rounded-full blur-2xl pointer-events-none opacity-0 group-hover:opacity-100 transition-opacity" style={{ backgroundColor: BLUE_LIGHT }} />
-
               <div className="flex items-center gap-3 mb-4">
                 <div
                   className="w-11 h-11 rounded-2xl flex items-center justify-center flex-shrink-0 border"

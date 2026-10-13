@@ -354,8 +354,6 @@ const AboutUsSection = () => {
 
             <div className="bg-gradient-to-br from-white/90 to-slate-50/90 rounded-3xl border border-slate-200/50 backdrop-blur-xl p-8 relative overflow-hidden shadow-xl">
 
-              <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-transparent via-emerald-400 to-transparent animate-scan" />
-
               <div className="relative z-10">
 
                 <div className="flex items-center mb-8">
@@ -557,8 +555,6 @@ const AboutUsSection = () => {
                 {highlight.description}
 
               </p>
-
-              <div className="absolute inset-0 bg-gradient-to-r from-emerald-500/5 to-blue-500/5 rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none" />
 
             </div>
 

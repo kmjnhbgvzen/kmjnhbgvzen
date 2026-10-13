@@ -123,7 +123,6 @@ const LicensesPage = () => {
                
                                 </div>
 
-                                <div className="absolute inset-0 rounded-2xl bg-linear-to-r from-blue-500/10 to-purple-500/10 opacity-0 group-hover:opacity-100 transition-opacity duration-300 -z-10" />
                             </div>
                         );
                     })}

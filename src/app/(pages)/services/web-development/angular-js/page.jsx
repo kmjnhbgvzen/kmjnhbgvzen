@@ -1,93 +1,94 @@
 "use client";
+
 import React, { useState, useEffect } from 'react';
-import { Globe, Smartphone, Palette, Code, Database, Tablet, Headphones, Component, Layers, Zap } from 'lucide-react';
-
-// export const metadata = {title: "AngularJS Development Company – Zentrix Infotech",description: "Enterprise-grade AngularJS development services for secure and scalable web applications."};
-
-
+import { Globe, Smartphone, Palette, Code, Database, Tablet, Headphones, Component, Layers, Zap, Users, User, Award, Shield, CheckCircle } from 'lucide-react';
 
 const Hero = () => {
+  const companyPartners = [
+    "Google",
+    "Microsoft",
+    "Adobe",
+    "IBM",
+    "Samsung",
+    "PayPal",
+    "Deutsche Bank",
+    "Forbes",
+    "Upwork"
+  ];
+
   return (
-    <>
-      <div className="bg-white  relative overflow-hidden mt-0 lg:mt-32">
-        {/* Decorative circles - Updated with new palette */}
-        <div className="absolute w-48 h-48 rounded-full -top-12 -left-24 animate-pulse" style={{ backgroundColor: '#D9FCF2', opacity: 0.6 }}></div>
-        <div className="absolute w-32 h-32 rounded-full top-1/2 -left-16" style={{ backgroundColor: '#FF6A79', opacity: 0.3 }}></div>
-        <div className="absolute w-40 h-40 rounded-full -bottom-20 -right-20 animate-pulse" style={{ backgroundColor: '#1AA687', opacity: 0.4 }}></div>
+    <div className="bg-white relative overflow-hidden mt-0 lg:mt-32">
+      {/* Decorative subtle blue ambient elements */}
+      <div className="absolute w-72 h-72 rounded-full -top-20 -left-20 bg-blue-100/40 blur-3xl pointer-events-none" />
+      <div className="absolute w-80 h-80 rounded-full top-1/2 -right-20 bg-sky-100/30 blur-3xl pointer-events-none" />
 
-        <div className="max-w-7xl mx-auto px-4 sm:px-8 pt-8 sm:pt-10 lg:pt-16 flex items-center">
-          <div className="grid lg:grid-cols-2 gap-16 items-center w-full">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-8 sm:pt-10 lg:pt-16 pb-12 sm:pb-16">
+        <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
 
-            {/* Left Content */}
-            <div className="space-y-8">
-              <div className="inline-block">
-                <span className="px-4 py-3 rounded-full text-md font-medium text-white" style={{ backgroundColor: '#1AA687' }}>
-                  Framework Excellence
-                </span>
-              </div>
-
-              <h1 className="text-4xl md:text-5xl lg:text-6xl font-medium font-serif leading-tight uppercase" style={{ color: '#002D40' }}>
-                Build Amazing<br />
-                <span style={{ color: '#FF414D' }}>TypeScript Powered</span><br />
-                Angular Apps!
-              </h1>
-
-              <p className="text-lg leading-relaxed max-w-lg" style={{ color: '#002D40', opacity: 0.8 }}>
-                Create dynamic, scalable web applications with Angular's powerful framework.
-                Leverage TypeScript, component-based architecture, and two-way data binding to build modern,
-                enterprise-grade applications with exceptional performance.
-              </p>
+          {/* Left Content */}
+          <div className="space-y-6 sm:space-y-8">
+            <div className="inline-block">
+              <span className="inline-flex items-center gap-1.5 px-3.5 py-1.5 rounded-full text-xs sm:text-sm font-semibold uppercase tracking-wider bg-blue-50 text-blue-700 border border-blue-200/80 shadow-2xs">
+                Framework Excellence
+              </span>
             </div>
 
-            {/* Right Content - Company Grid */}
-            <div className="flex justify-center lg:justify-end">
-              <div className="grid grid-cols-3 gap-4 max-w-md">
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-medium font-serif leading-tight uppercase text-slate-900">
+              Build Amazing<br />
+              <span className="text-[#2563EB]">TypeScript Powered</span><br />
+              Angular Apps!
+            </h1>
 
-                <div className="rounded-xl p-6 flex items-center justify-center shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-2 min-h-[100px]" style={{ backgroundColor: 'rgba(0, 45, 64, 0.05)', borderColor: '#002D40', border: '1px solid' }}>
-                  <span className="font-bold text-lg" style={{ color: '#002D40' }}>Google</span>
-                </div>
+            <p className="text-base sm:text-lg leading-relaxed max-w-lg text-slate-600">
+              Create dynamic, scalable web applications with Angular&apos;s powerful framework.
+              Leverage TypeScript, component-based architecture, and two-way data binding to build modern,
+              enterprise-grade applications with exceptional performance.
+            </p>
 
-                <div className="rounded-xl p-6 flex items-center justify-center shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-2 min-h-[100px]" style={{ backgroundColor: 'rgba(255, 65, 77, 0.05)', borderColor: '#FF414D', border: '1px solid' }}>
-                  <span className="font-bold text-lg" style={{ color: '#FF414D' }}>Microsoft</span>
-                </div>
-
-                <div className="rounded-xl p-6 flex items-center justify-center shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-2 min-h-[100px]" style={{ backgroundColor: 'rgba(26, 166, 135, 0.05)', borderColor: '#1AA687', border: '1px solid' }}>
-                  <span className="font-bold text-lg" style={{ color: '#1AA687' }}>Adobe</span>
-                </div>
-
-                <div className="rounded-xl p-6 flex items-center justify-center shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-2 min-h-[100px]" style={{ backgroundColor: 'rgba(217, 252, 242, 0.5)', borderColor: '#D9FCF2', border: '1px solid' }}>
-                  <span className="font-bold text-lg" style={{ color: '#1AA687' }}>IBM</span>
-                </div>
-
-                <div className="rounded-xl p-6 flex items-center justify-center shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-2 min-h-[100px]" style={{ backgroundColor: 'rgba(255, 106, 121, 0.05)', borderColor: '#FF6A79', border: '1px solid' }}>
-                  <span className="font-bold text-lg" style={{ color: '#FF6A79' }}>Samsung</span>
-                </div>
-
-                <div className="rounded-xl p-6 flex items-center justify-center shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-2 min-h-[100px]" style={{ backgroundColor: 'rgba(0, 45, 64, 0.05)', borderColor: '#002D40', border: '1px solid' }}>
-                  <span className="font-bold text-lg" style={{ color: '#002D40' }}>PayPal</span>
-                </div>
-
-                <div className="rounded-xl p-6 flex items-center justify-center shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-2 min-h-[100px]" style={{ backgroundColor: 'rgba(255, 65, 77, 0.05)', borderColor: '#FF414D', border: '1px solid' }}>
-                  <span className="font-bold text-lg" style={{ color: '#FF414D' }}>Deutsche Bank</span>
-                </div>
-
-                <div className="rounded-xl p-6 flex items-center justify-center shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-2 min-h-[100px]" style={{ backgroundColor: 'rgba(217, 252, 242, 0.5)', borderColor: '#D9FCF2', border: '1px solid' }}>
-                  <span className="font-bold text-lg" style={{ color: '#1AA687' }}>Forbes</span>
-                </div>
-
-                <div className="rounded-xl p-6 flex items-center justify-center shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-2 min-h-[100px]" style={{ backgroundColor: 'rgba(255, 106, 121, 0.05)', borderColor: '#FF6A79', border: '1px solid' }}>
-                  <span className="font-bold text-lg" style={{ color: '#FF6A79' }}>Upwork</span>
-                </div>
-
-              </div>
+            <div className="pt-2 flex flex-wrap gap-4">
+              <button
+                onClick={() => window.dispatchEvent(new Event('open-contact-popup'))}
+                className="px-6 sm:px-8 py-3.5 rounded-xl font-semibold transition-all duration-200 text-white bg-[#2563EB] hover:bg-[#1D4ED8] shadow-sm hover:shadow-md text-sm sm:text-base cursor-pointer"
+              >
+                Get Started
+              </button>
+              <button
+                onClick={() => {
+                  const el = document.getElementById('angular-services');
+                  if (el) el.scrollIntoView({ behavior: 'smooth' });
+                }}
+                className="px-6 sm:px-8 py-3.5 rounded-xl font-semibold transition-all duration-200 text-slate-700 hover:text-blue-600 bg-white hover:bg-slate-50 border border-slate-200 text-sm sm:text-base cursor-pointer"
+              >
+                Explore Services
+              </button>
             </div>
-
           </div>
+
+          {/* Right Content - Company Grid */}
+          <div className="flex justify-center lg:justify-end">
+            <div className="relative p-3.5 sm:p-5 rounded-3xl bg-gradient-to-br from-blue-50/50 via-slate-50/40 to-blue-50/30 border border-blue-100/80 shadow-xs max-w-md w-full">
+              <div className="grid grid-cols-3 gap-3 sm:gap-3.5">
+                {companyPartners.map((company, index) => (
+                  <div
+                    key={index}
+                    className="group relative rounded-2xl p-3 sm:p-4 flex items-center justify-center bg-white border border-slate-200/90 hover:border-blue-400 shadow-[0_2px_8px_-2px_rgba(37,99,235,0.06)] hover:shadow-[0_8px_20px_-4px_rgba(37,99,235,0.14)] transition-all duration-300 hover:-translate-y-1 min-h-[85px] sm:min-h-[95px] text-center overflow-hidden cursor-default"
+                  >
+                    <span className="absolute top-2.5 right-2.5 w-1.5 h-1.5 rounded-full bg-slate-300 group-hover:bg-blue-600 transition-colors duration-300" />
+                    <span className="font-semibold text-xs sm:text-sm text-slate-800 group-hover:text-blue-600 transition-colors duration-200 leading-snug">
+                      {company}
+                    </span>
+                    <div className="absolute bottom-0 left-0 right-0 h-0.5 bg-blue-600 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+                  </div>
+                ))}
+              </div>
+            </div>
+          </div>
+
         </div>
       </div>
-    </>
-  )
-}
+    </div>
+  );
+};
 
 const Services = () => {
   const [activeService, setActiveService] = useState(1);
@@ -96,164 +97,135 @@ const Services = () => {
   const services = [
     {
       id: 0,
-      icon: <Code className="w-8 h-8" />,
+      icon: <Code className="w-7 h-7" />,
       title: "TypeScript Integration",
       description: "Leverage TypeScript for stronger typing, better IDE support, and fewer runtime errors, ensuring cleaner, more maintainable code."
     },
     {
       id: 1,
-      icon: <Component className="w-8 h-8" />,
+      icon: <Component className="w-7 h-7" />,
       title: "Component Architecture",
       description: "Build scalable, modular apps with Angular’s component-based architecture for efficient, reusable, and maintainable code.",
       isActive: true
     },
     {
       id: 2,
-      icon: <Layers className="w-8 h-8" />,
+      icon: <Layers className="w-7 h-7" />,
       title: "Dependency Injection",
       description: "Implement robust dependency injection patterns for better testing, modularity, and maintainability in enterprise applications."
     },
     {
       id: 3,
-      icon: <Zap className="w-8 h-8" />,
+      icon: <Zap className="w-7 h-7" />,
       title: "Performance Optimization",
       description: "Utilize Angular's Ivy renderer, lazy loading, and change detection strategies for optimal application performance and user experience."
     }
   ];
 
-  // Staggered animation effect
   useEffect(() => {
     services.forEach((service, index) => {
       const timer = setTimeout(() => {
         setAnimatedCards(prev => new Set([...prev, service.id]));
-      }, index * 300);
+      }, index * 200);
 
       return () => clearTimeout(timer);
     });
   }, []);
 
   return (
-    <>
-      <div className="bg-white min-h-screen relative overflow-hidden">
-        {/* Decorative circles */}
-        <div className="absolute w-32 h-32 md:w-64 md:h-64 rounded-full -top-16 -left-16 md:-top-32 md:-left-32 opacity-40" style={{ backgroundColor: '#D9FCF2' }}></div>
-        <div className="absolute w-16 h-16 md:w-32 md:h-32 rounded-full top-10 right-10 md:top-20 md:right-20 opacity-60" style={{ backgroundColor: '#1AA687' }}></div>
+    <div className="bg-slate-50/50 py-16 sm:py-20 relative overflow-hidden border-t border-b border-slate-100">
+      {/* Decorative ambient background */}
+      <div className="absolute w-80 h-80 rounded-full -top-24 -left-24 bg-blue-100/30 blur-3xl pointer-events-none" />
+      <div className="absolute w-80 h-80 rounded-full -bottom-24 -right-24 bg-sky-100/30 blur-3xl pointer-events-none" />
 
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 md:px-8 py-8 sm:py-12 md:py-16">
-          <div className="grid lg:grid-cols-2 gap-8 md:gap-12 lg:gap-16 items-center">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+        <div className="grid lg:grid-cols-2 gap-10 lg:gap-16 items-center">
 
-            {/* Left Content */}
-            <div className="space-y-6 md:space-y-8 order-2 lg:order-1">
-              <div className="space-y-4 md:space-y-6">
-                <span className="font-semibold text-base md:text-lg" style={{ color: '#1AA687' }}>
-                  Framework Features
-                </span>
+          {/* Left Content */}
+          <div className="space-y-6 sm:space-y-8 order-2 lg:order-1">
+            <div className="space-y-3 sm:space-y-4">
+              <span className="inline-flex items-center gap-1.5 px-3.5 py-1.5 rounded-full text-xs sm:text-sm font-semibold uppercase tracking-wider bg-blue-50 text-blue-700 border border-blue-200/80">
+                Framework Features
+              </span>
 
-                <h2 className="text-4xl md:text-5xl lg:text-6xl font-medium font-serif leading-tight uppercase" style={{ color: '#002D40' }}>
-                  Angular<br />
-                  <span className='text-[#FF414D]'>Development</span>
-                </h2>
+              <h2 className="text-3xl sm:text-4xl md:text-5xl font-medium font-serif leading-tight uppercase text-slate-900">
+                Angular<br />
+                <span className="text-[#2563EB]">Development</span>
+              </h2>
 
-                <p className="text-base md:text-lg leading-relaxed max-w-md" style={{ color: '#002D40', opacity: 0.8 }}>
-                  Build powerful, scalable web applications with Angular's comprehensive framework.
-                  Leverage TypeScript, CLI tools, and enterprise-grade features for exceptional development experience.
-                </p>
-              </div>
-
-              {/* Navigation dots */}
-              <div className="flex space-x-3">
-                {services.map((service, index) => (
-                  <button
-                    key={service.id}
-                    onClick={() => setActiveService(index)}
-                    className={`w-3 h-3 rounded-full transition-all duration-300`}
-                    style={{
-                      backgroundColor: activeService === index ? '#1AA687' : '#E5E7EB'
-                    }}
-                  />
-                ))}
-              </div>
-
-              <button
-                className="px-6 py-2.5 md:px-8 md:py-3 rounded-full font-semibold transition-all duration-300 text-white hover:opacity-90 text-sm md:text-base"
-                style={{ backgroundColor: '#1AA687' }}
-              >
-                Angular
-              </button>
+              <p className="text-base sm:text-lg leading-relaxed max-w-md text-slate-600">
+                Build powerful, scalable web applications with Angular&apos;s comprehensive framework.
+                Leverage TypeScript, CLI tools, and enterprise-grade features for exceptional development experience.
+              </p>
             </div>
 
-            {/* Right Content - Service Cards */}
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 md:gap-6 order-1 lg:order-2">
+            {/* Navigation dots */}
+            <div className="flex space-x-3 items-center">
               {services.map((service, index) => (
-                <div
+                <button
                   key={service.id}
-                  className={`rounded-2xl min-h-80 sm:min-h-88 md:min-h-96 p-6 md:p-8 transition-all duration-500 cursor-pointer transform ${animatedCards.has(service.id)
-                    ? 'scale-100 opacity-100'
-                    : 'scale-75 opacity-0'
-                    } ${activeService === index
-                      ? 'bg-white shadow-2xl scale-105'
-                      : 'bg-gray-50 shadow-md hover:shadow-lg'
-                    }`}
                   onClick={() => setActiveService(index)}
-                  style={{
-                    animationDelay: `${index * 0.3}s`,
-                    animationFillMode: 'forwards',
-                    borderColor: activeService === index ? '#FF6A79' : '#E5E7EB',
-                    borderWidth: '1px',
-                    borderStyle: 'solid'
-                  }}
-                >
-                  <div
-                    className="inline-flex p-3 md:p-4 rounded-2xl mb-4 md:mb-6"
-                    style={{
-                      backgroundColor: activeService === index ? '#FF6A79' : 'rgba(26, 166, 135, 0.1)'
-                    }}
-                  >
-                    <div style={{ color: activeService === index ? '#FFFFFF' : '#1AA687' }}>
-                      {service.icon}
-                    </div>
-                  </div>
-
-                  <h3 className="text-lg md:text-xl font-bold mb-3 md:mb-4" style={{ color: '#002D40' }}>
-                    {service.title}
-                  </h3>
-
-                  <p className={`leading-relaxed text-sm ${activeService === index ? 'line-clamp-none' : 'line-clamp-3'}`} style={{ color: '#002D40', opacity: 0.8 }}>
-                    {service.description}
-                  </p>
-
-                  {activeService === index && (
-                    <div className="mt-4 md:mt-6">
-                      <div className="w-4 h-4 rounded-full" style={{ backgroundColor: '#FF414D' }}></div>
-                    </div>
-                  )}
-                </div>
+                  aria-label={`Select service ${index + 1}`}
+                  className={`h-2.5 rounded-full transition-all duration-300 cursor-pointer ${
+                    activeService === index ? 'w-8 bg-[#2563EB]' : 'w-2.5 bg-slate-300 hover:bg-slate-400'
+                  }`}
+                />
               ))}
             </div>
 
+            <button
+              onClick={() => window.dispatchEvent(new Event('open-contact-popup'))}
+              className="px-7 py-3 rounded-xl font-semibold transition-all duration-200 text-white bg-[#2563EB] hover:bg-[#1D4ED8] shadow-sm hover:shadow-md text-sm sm:text-base cursor-pointer"
+            >
+              Hire Angular Experts
+            </button>
           </div>
+
+          {/* Right Content - Service Cards */}
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-6 order-1 lg:order-2">
+            {services.map((service, index) => (
+              <div
+                key={service.id}
+                className={`rounded-2xl p-6 sm:p-7 transition-all duration-300 cursor-pointer ${
+                  animatedCards.has(service.id) ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4'
+                } ${
+                  activeService === index
+                    ? 'bg-white border-2 border-[#2563EB] shadow-md -translate-y-1'
+                    : 'bg-white border border-slate-200 hover:border-slate-300 shadow-xs hover:shadow-sm'
+                }`}
+                onClick={() => setActiveService(index)}
+              >
+                <div
+                  className={`inline-flex p-3 rounded-xl mb-4 transition-colors ${
+                    activeService === index
+                      ? 'bg-blue-600 text-white'
+                      : 'bg-blue-50 text-blue-600 border border-blue-100'
+                  }`}
+                >
+                  {service.icon}
+                </div>
+
+                <h3 className="text-lg sm:text-xl font-bold mb-2.5 text-slate-900">
+                  {service.title}
+                </h3>
+
+                <p className="leading-relaxed text-sm text-slate-600">
+                  {service.description}
+                </p>
+
+                {activeService === index && (
+                  <div className="mt-4 flex items-center gap-1.5 text-xs font-semibold text-blue-600">
+                    <span className="w-2 h-2 rounded-full bg-blue-600" />
+                    <span>Selected Feature</span>
+                  </div>
+                )}
+              </div>
+            ))}
+          </div>
+
         </div>
       </div>
-
-
-      {/* CSS Animation Keyframes */}
-      <style jsx>{`
-                @keyframes cardScale {
-                    0% {
-                        transform: scale(0.75);
-                        opacity: 0;
-                    }
-                    100% {
-                        transform: scale(1);
-                        opacity: 1;
-                    }
-                }
-                
-                .animate-card-scale {
-                    animation: cardScale 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards;
-                }
-            `}</style>
-    </>
+    </div>
   );
 };
 
@@ -263,65 +235,53 @@ const ServiceCard = ({ image, icon: Icon, title, description, index }) => {
   useEffect(() => {
     const timer = setTimeout(() => {
       setIsVisible(true);
-    }, index * 150);
+    }, index * 100);
 
     return () => clearTimeout(timer);
   }, [index]);
 
   return (
     <div
-      className={`group relative bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-500 overflow-hidden transform ${isVisible
-        ? 'scale-100 opacity-100 translate-y-0'
-        : 'scale-90 opacity-0 translate-y-4'
-        } hover:-translate-y-2`}
-      style={{
-        transitionDelay: `${index * 0.15}s`
-      }}
+      className={`group relative bg-white rounded-2xl border border-slate-200 hover:border-blue-400 shadow-sm hover:shadow-md transition-all duration-300 overflow-hidden ${
+        isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4'
+      } hover:-translate-y-1 flex flex-col justify-between`}
     >
-      {/* Image Section */}
-      <div className="relative h-48 overflow-hidden">
-        <div className="absolute inset-0" style={{ background: `linear-gradient(45deg, #FF414D, #1AA687)` }}>
+      <div>
+        {/* Image Section */}
+        <div className="relative h-44 overflow-hidden bg-slate-100">
           <img
             src={image}
             alt={title}
-            className="w-full h-full object-cover opacity-90 group-hover:scale-110 transition-transform duration-500"
+            className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
           />
-          <div className="absolute inset-0 "></div>
+          <div className="absolute inset-0 bg-gradient-to-t from-slate-900/60 via-slate-900/20 to-transparent" />
+
+          {/* Logo Badge */}
+          <div className="absolute bottom-3 left-3 rounded-xl p-2.5 bg-white text-blue-600 border border-blue-100 shadow-md">
+            <Icon className="w-5 h-5" />
+          </div>
         </div>
 
-        {/* Logo Badge */}
-        <div className="absolute bottom-4 left-4 rounded-lg p-3 shadow-lg transform group-hover:scale-110 transition-transform duration-300" style={{ backgroundColor: '#002D40' }}>
-          <Icon className="w-6 h-6 text-white" />
-        </div>
-      </div>
-
-      {/* Content Section */}
-      <div className="p-6 space-y-4">
-        <div>
-          <h3 className="text-xl font-bold mb-2 transition-colors" style={{ color: '#002D40' }}>
+        {/* Content Section */}
+        <div className="p-5 sm:p-6 space-y-2.5">
+          <h3 className="text-lg sm:text-xl font-bold text-slate-900 group-hover:text-blue-600 transition-colors">
             {title}
           </h3>
-          <p className="text-sm leading-relaxed" style={{ color: '#002D40', opacity: 0.8 }}>
+          <p className="text-xs sm:text-sm leading-relaxed text-slate-600">
             {description}
           </p>
         </div>
-
-        {/* Read More Link */}
       </div>
 
-      {/* CSS Animation Styles */}
-      <style jsx>{`
-                @keyframes slideInScale {
-                    0% {
-                        transform: scale(0.9) translateY(20px);
-                        opacity: 0;
-                    }
-                    100% {
-                        transform: scale(1) translateY(0);
-                        opacity: 1;
-                    }
-                }
-            `}</style>
+      <div className="px-5 sm:px-6 pb-5 pt-0">
+        <button
+          onClick={() => window.dispatchEvent(new Event('open-contact-popup'))}
+          className="text-xs sm:text-sm font-semibold text-blue-600 group-hover:text-blue-700 inline-flex items-center gap-1 cursor-pointer"
+        >
+          <span>Learn More</span>
+          <span className="transition-transform group-hover:translate-x-1">&rarr;</span>
+        </button>
+      </div>
     </div>
   );
 };
@@ -379,18 +339,26 @@ const AngularServicesGrid = () => {
   ];
 
   return (
-    <div className="min-h-screen bg-white py-16 px-4">
+    <div id="angular-services" className="bg-white py-16 sm:py-20 px-4 sm:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto">
         {/* Header */}
-        <div className="text-center mb-16">
-          <h1 className="text-4xl md:text-5xl lg:text-6xl font-medium font-serif mb-6 uppercase" style={{ color: '#002D40' }}>
-            Angular<span className='text-[#FF414D]'> Development</span> Services
-          </h1>
-          <div className="w-24 h-1 mx-auto" style={{ backgroundColor: '#1AA687' }}></div>
+        <div className="text-center mb-12 sm:mb-16">
+          <div className="mb-3.5 sm:mb-4">
+            <span className="inline-flex items-center gap-1.5 bg-blue-50 text-blue-700 px-4 py-1.5 rounded-full text-xs sm:text-sm font-semibold uppercase tracking-wider border border-blue-200/70 shadow-2xs">
+              Full-Suite Services
+            </span>
+          </div>
+          <h2 className="text-3xl sm:text-5xl md:text-6xl font-medium font-serif mb-4 leading-tight tracking-tight uppercase text-slate-900">
+            Angular<span className="text-[#2563EB]"> Development</span> Services
+          </h2>
+          <div className="w-20 h-1 mx-auto bg-[#2563EB] rounded-full mb-4"></div>
+          <p className="text-slate-600 text-sm sm:text-base md:text-lg max-w-2xl mx-auto leading-relaxed">
+            From single page applications to complex enterprise portals, our seasoned Angular developers deliver unmatched digital experiences.
+          </p>
         </div>
 
         {/* Services Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8 ">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 sm:gap-7">
           {services.map((service, index) => (
             <ServiceCard
               key={index}
@@ -405,112 +373,106 @@ const AngularServicesGrid = () => {
       </div>
     </div>
   );
-}
+};
 
 const HiringModel = () => {
-  const colors = {
-    lightMint: '#D9FCF2',
-    coral: '#FF6A79',
-    brightRed: '#FF414D',
-    teal: '#1AA687',
-    darkNavy: '#002D40'
-  };
-
-  const [hoveredCard, setHoveredCard] = useState(null);
-
   const hiringModels = [
     {
-      icon: "👤",
+      icon: <User className="w-8 h-8" />,
       title: "Hourly Model",
+      badge: "Flexible Scope",
       features: [
         "Flexible Angular development",
         "Pay per hour basis",
         "TypeScript expertise",
         "24/7 technical support"
       ],
-      buttonText: "HIRE ANGULAR DEVELOPER",
-      gradientFrom: colors.darkNavy,
-      gradientTo: colors.teal
+      buttonText: "Hire Angular Developer"
     },
     {
-      icon: "👥",
+      icon: <Users className="w-8 h-8" />,
       title: "Enterprise Model",
+      badge: "Dedicated Team",
+      isPopular: true,
       features: [
         "Dedicated Angular team",
         "Full-stack capabilities",
         "60% cost reduction",
         "Enterprise-grade solutions"
       ],
-      buttonText: "HIRE ANGULAR TEAM",
-      gradientFrom: colors.brightRed,
-      gradientTo: colors.coral
+      buttonText: "Hire Angular Team"
     },
     {
-      icon: "⭐",
-      title: "Staff Augmentation Model",
+      icon: <Award className="w-8 h-8" />,
+      title: "Staff Augmentation",
+      badge: "Team Extension",
       features: [
         "Angular specialists",
         "Flexible engagement",
         "Long-term partnerships",
         "48-hour trial period"
       ],
-      buttonText: "AUGMENT TEAM",
-      gradientFrom: colors.teal,
-      gradientTo: colors.darkNavy
+      buttonText: "Augment Your Team"
     }
   ];
 
   return (
-    <section className="py-20 bg-white">
-      <div className="container mx-auto max-w-6xl px-5">
-        <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold mb-8" style={{ color: colors.teal }}>
-            Select from Zentrix's Angular Hiring Models
+    <section className="py-16 sm:py-20 bg-slate-50/50 border-t border-slate-100">
+      <div className="container mx-auto max-w-6xl px-4 sm:px-6">
+        <div className="text-center mb-12 sm:mb-16">
+          <div className="mb-3.5 sm:mb-4">
+            <span className="inline-flex items-center gap-1.5 bg-blue-50 text-blue-700 px-4 py-1.5 rounded-full text-xs sm:text-sm font-semibold uppercase tracking-wider border border-blue-200/70 shadow-2xs">
+              Flexible Engagement
+            </span>
+          </div>
+          <h2 className="text-3xl sm:text-4xl md:text-5xl font-medium font-serif mb-4 leading-tight tracking-tight uppercase text-slate-900">
+            Angular <span className="text-[#2563EB]">Hiring Models</span>
           </h2>
-          <p
-            className="text-lg leading-relaxed mx-auto max-w-4xl px-8"
-            style={{ color: colors.darkNavy }}
-          >
-            Scale your Angular development with our flexible engagement models designed for enterprise-grade application development.
+          <p className="text-slate-600 text-sm sm:text-base md:text-lg max-w-3xl mx-auto leading-relaxed">
+            Scale your development capacity with flexible engagement models designed for enterprise-grade application delivery.
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 sm:gap-8">
           {hiringModels.map((model, index) => (
             <div
               key={index}
-              className="bg-white border-2 border-gray-200 rounded-2xl p-10 text-center hover:-translate-y-2 hover:shadow-xl transition-all duration-300 group"
-              style={{
-                borderColor: hoveredCard === `hiring-${index}` ? model.gradientFrom : '#e5e7eb'
-              }}
-              onMouseEnter={() => setHoveredCard(`hiring-${index}`)}
-              onMouseLeave={() => setHoveredCard(null)}
+              className={`bg-white rounded-2xl p-7 sm:p-8 text-center transition-all duration-300 flex flex-col justify-between ${
+                model.isPopular
+                  ? 'border-2 border-blue-500 shadow-md sm:-translate-y-1'
+                  : 'border border-slate-200 hover:border-blue-300 shadow-sm hover:shadow-md hover:-translate-y-1'
+              }`}
             >
-              <div
-                className="text-6xl mb-6 group-hover:scale-110 transition-transform duration-300"
-                style={{ color: model.gradientFrom }}
-              >
-                {model.icon}
-              </div>
-              <h3 className="text-2xl font-bold mb-6" style={{ color: colors.darkNavy }}>
-                {model.title}
-              </h3>
+              <div>
+                {model.isPopular && (
+                  <span className="inline-block px-3 py-1 rounded-full text-xs font-semibold uppercase tracking-wide bg-blue-600 text-white mb-4">
+                    Most Popular
+                  </span>
+                )}
+                <div className="w-14 h-14 rounded-2xl bg-blue-50 border border-blue-100 text-blue-600 flex items-center justify-center mx-auto mb-5 transition-colors">
+                  {model.icon}
+                </div>
+                <h3 className="text-xl sm:text-2xl font-bold mb-4 text-slate-900">
+                  {model.title}
+                </h3>
 
-              <ul className="space-y-3 mb-8 text-left">
-                {model.features.map((feature, featureIndex) => (
-                  <li key={featureIndex} className="flex items-center" style={{ color: colors.darkNavy }}>
-                    <span className="font-bold mr-3" style={{ color: colors.teal }}>✓</span>
-                    {feature}
-                  </li>
-                ))}
-              </ul>
+                <ul className="space-y-3 mb-8 text-left">
+                  {model.features.map((feature, featureIndex) => (
+                    <li key={featureIndex} className="flex items-center text-sm text-slate-700">
+                      <CheckCircle className="w-4 h-4 text-blue-600 mr-2.5 shrink-0" />
+                      <span>{feature}</span>
+                    </li>
+                  ))}
+                </ul>
+              </div>
 
               <button
-                className="text-white px-8 py-3 rounded-full font-semibold hover:-translate-y-1 transition-all duration-300"
-                style={{
-                  background: `linear-gradient(45deg, ${model.gradientFrom}, ${model.gradientTo})`,
-                  boxShadow: `0 4px 15px ${model.gradientFrom}30`
-                }}
+                onClick={() => window.dispatchEvent(new Event('open-contact-popup'))}
+                className={`w-full py-3 px-6 rounded-xl font-semibold transition-all duration-200 text-sm sm:text-base cursor-pointer ${
+                  model.isPopular
+                    ? 'bg-[#2563EB] hover:bg-[#1D4ED8] text-white shadow-sm hover:shadow-md'
+                    : 'bg-white hover:bg-blue-50 text-blue-700 border border-blue-200 hover:border-blue-300'
+                }`}
               >
                 {model.buttonText}
               </button>
@@ -520,7 +482,7 @@ const HiringModel = () => {
       </div>
     </section>
   );
-}
+};
 
 const Angular_Js = () => {
   return (
@@ -528,8 +490,9 @@ const Angular_Js = () => {
       <Hero />
       <Services />
       <AngularServicesGrid />
+      <HiringModel />
     </>
   );
-}
+};
 
 export default Angular_Js;

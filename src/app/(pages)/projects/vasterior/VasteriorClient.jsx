@@ -602,10 +602,7 @@ export default function VasteriorClient() {
                 background: "linear-gradient(180deg, #ffffff 0%, #F4F9FF 60%, #ffffff 100%)",
               }}
             >
-              {/* Ambient glow */}
-              <div
-                className={`absolute inset-0 bg-gradient-to-b ${item.glowBg} opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none rounded-[2.5rem]`}
-              />
+
 
               {/* Rotating icon orb */}
               <div className="relative mb-5 z-10">
@@ -799,7 +796,7 @@ export default function VasteriorClient() {
                   onMouseEnter={(e) => (e.currentTarget.style.borderColor = card.accentColor)}
                   onMouseLeave={(e) => (e.currentTarget.style.borderColor = "")}
                 >
-                  <div className="absolute top-0 right-0 w-28 h-28 rounded-full blur-xl pointer-events-none group-hover:scale-150 transition-transform duration-500" style={{ backgroundColor: `${card.accentColor}15` }} />
+
 
                   <div className="relative mb-4 z-10">
                     <div
@@ -886,10 +883,7 @@ export default function VasteriorClient() {
               onMouseEnter={(e) => (e.currentTarget.style.borderColor = BLUE_ACCENT)}
               onMouseLeave={(e) => (e.currentTarget.style.borderColor = "")}
             >
-              <div
-                className="absolute top-0 right-0 w-32 h-32 rounded-full blur-xl pointer-events-none opacity-0 group-hover:opacity-100 transition-opacity duration-500"
-                style={{ backgroundColor: `${BLUE_LIGHT}` }}
-              />
+
 
               {/* Number & icon row */}
               <div className="flex items-center gap-3 mb-5">
@@ -1256,10 +1250,7 @@ export default function VasteriorClient() {
               onMouseEnter={(e) => (e.currentTarget.style.borderColor = BLUE_ACCENT)}
               onMouseLeave={(e) => (e.currentTarget.style.borderColor = "")}
             >
-              <div
-                className="absolute top-0 left-0 right-0 h-0.5 opacity-0 group-hover:opacity-100 transition-opacity duration-400"
-                style={{ background: `linear-gradient(90deg, ${BLUE_DEEP}, ${BLUE_PRIMARY}, ${BLUE_ACCENT})` }}
-              />
+
 
               <div className="flex items-center gap-3 mb-4">
                 <div
@@ -1482,10 +1473,7 @@ export default function VasteriorClient() {
               onMouseEnter={(e) => (e.currentTarget.style.borderColor = BLUE_ACCENT)}
               onMouseLeave={(e) => (e.currentTarget.style.borderColor = "")}
             >
-              <div
-                className="absolute top-0 right-0 w-32 h-32 rounded-full blur-2xl pointer-events-none opacity-0 group-hover:opacity-100 transition-opacity"
-                style={{ backgroundColor: BLUE_LIGHT }}
-              />
+
 
               <div className="flex items-center gap-3 mb-4">
                 <div

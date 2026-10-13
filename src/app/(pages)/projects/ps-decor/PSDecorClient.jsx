@@ -576,11 +576,6 @@ export default function PSDecorClient() {
               key={idx}
               className={`group relative p-8 rounded-[2.5rem] bg-gradient-to-b from-white via-blue-50/20 to-white/95 backdrop-blur-md border-2 border-slate-200/80 ${item.borderColor} shadow-sm hover:shadow-md hover:-translate-y-2 transition-all duration-500 flex flex-col items-center text-center justify-between overflow-hidden cursor-default`}
             >
-              {/* Background ambient radial glow */}
-              <div
-                className={`absolute inset-0 bg-gradient-to-b ${item.glowBg} opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none rounded-[2.5rem]`}
-              />
-
               {/* Top Concentric Circular Ring with Floating Icon */}
               <div className="relative mb-5 z-10">
                 {/* Outer animated dashed circle */}
@@ -854,9 +849,6 @@ export default function PSDecorClient() {
               key={idx}
               className="group relative p-5 sm:p-6 bg-white border-2 border-slate-200/90 hover:border-[#3B82C4] shadow-xs hover:shadow-md hover:-translate-y-1.5 transition-all duration-500 flex flex-col justify-between overflow-hidden cursor-default rounded-[2rem]"
             >
-              {/* Top Accent Line on Hover */}
-              <div className="absolute top-0 left-0 right-0 h-1 opacity-0 group-hover:opacity-100 transition-opacity duration-500 bg-gradient-to-r from-[#1769AA] to-[#3B82C4]" />
-
               <div className="relative z-10">
                 {/* Top Header Row with Circular Icon Ring */}
                 <div className="flex items-center justify-between mb-4">
@@ -1043,9 +1035,6 @@ export default function PSDecorClient() {
                 key={idx}
                 className="w-[260px] sm:w-[290px] shrink-0 p-4 sm:p-5 bg-white border-2 border-slate-200/90 hover:border-[#3B82C4] shadow-xs hover:shadow-md hover:-translate-y-1.5 transition-all duration-500 flex flex-col justify-between overflow-hidden cursor-pointer rounded-2xl relative group"
               >
-                {/* Top Accent Line */}
-                <div className="absolute top-0 left-0 right-0 h-1 opacity-0 group-hover:opacity-100 transition-opacity duration-500 bg-gradient-to-r from-[#1769AA] to-[#3B82C4]" />
-
                 <div className="relative z-10">
                   {/* Top Row: Rotating Icon + Badges */}
                   <div className="flex items-center justify-between mb-3">
@@ -1173,9 +1162,6 @@ export default function PSDecorClient() {
               key={service.id}
               className="group relative p-4 sm:p-5 bg-white border-2 border-slate-200 hover:border-[#3B82C4] shadow-xs hover:shadow-md hover:-translate-y-1.5 transition-all duration-500 flex flex-col justify-between overflow-hidden cursor-default rounded-2xl"
             >
-              {/* Top Accent Line */}
-              <div className="absolute top-0 left-0 right-0 h-1 opacity-0 group-hover:opacity-100 transition-opacity duration-500 bg-gradient-to-r from-[#1769AA] to-[#3B82C4]" />
-
               <div className="relative z-10">
                 {/* Rotating Concentric Icon & Number Badge */}
                 <div className="flex items-center justify-between mb-3">
@@ -1320,9 +1306,6 @@ export default function PSDecorClient() {
               key={idx}
               className="group relative p-5 sm:p-6 bg-white border-2 border-slate-200 hover:border-[#3B82C4] shadow-xs hover:shadow-md hover:-translate-y-1.5 transition-all duration-500 flex flex-col justify-between overflow-hidden cursor-default rounded-[2rem]"
             >
-              {/* Top Accent Line */}
-              <div className="absolute top-0 left-0 right-0 h-1 opacity-0 group-hover:opacity-100 transition-opacity duration-500 bg-gradient-to-r from-[#1769AA] to-[#3B82C4]" />
-
               <div className="relative z-10">
                 <div className="flex items-center justify-between mb-3">
                   <span className="text-xl font-serif font-bold text-[#1769AA]">
@@ -1583,12 +1566,6 @@ export default function PSDecorClient() {
                     e.currentTarget.style.transform = "translateY(0)";
                   }}
                 >
-                  {/* Card top shimmer on hover */}
-                  <div
-                    className="absolute top-0 left-0 right-0 h-0.5 opacity-0 group-hover:opacity-100 transition-opacity duration-400"
-                    style={{ background: "linear-gradient(90deg, #1769AA, #3B82C4, #1769AA)" }}
-                  />
-
                   {/* Icon pod */}
                   <div className="flex items-center gap-3 mb-4">
                     <div

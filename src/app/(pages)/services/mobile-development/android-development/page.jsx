@@ -149,7 +149,7 @@ class UserViewModel : ViewModel() {
                   return (
                     <div
                       key={index}
-                      className="group flex items-center gap-2 sm:gap-2.5 bg-white hover:bg-blue-50/40 px-3 sm:px-3.5 py-2 sm:py-2.5 rounded-xl sm:rounded-2xl border border-blue-200/80 hover:border-blue-400 shadow-[0_2px_10px_-3px_rgba(23,92,211,0.07)] hover:shadow-[0_6px_18px_-4px_rgba(23,92,211,0.14)] hover:-translate-y-0.5 transition-all duration-300 ease-out cursor-default"
+                      className="group flex items-center gap-2 sm:gap-2.5 bg-white hover:bg-slate-50 px-3 sm:px-3.5 py-2 sm:py-2.5 rounded-xl sm:rounded-2xl border border-slate-200 hover:border-slate-300 shadow-xs hover:shadow-sm hover:-translate-y-0.5 transition-all duration-300 ease-out cursor-default"
                     >
                       <div className="w-7 h-7 sm:w-8 sm:h-8 rounded-lg bg-blue-50 text-blue-600 border border-blue-100 flex items-center justify-center shrink-0 group-hover:bg-blue-600 group-hover:text-white group-hover:border-blue-600 transition-all duration-300 shadow-xs">
                         <IconComponent className="w-3.5 h-3.5 sm:w-4 sm:h-4 transition-transform duration-300 group-hover:scale-110" />

@@ -131,11 +131,6 @@ const CareersPage = () => {
                 key={job.id}
                 className="group relative"
               >
-                <div className={`absolute -inset-1 rounded-3xl blur transition duration-500 ${
-                  job.featured 
-                    ? 'bg-linear-to-r from-blue-500/20 via-purple-500/20 to-cyan-500/20 opacity-75 group-hover:opacity-100' 
-                    : 'bg-slate-200/20 opacity-0 group-hover:opacity-50'
-                }`}></div>
                 <div className={`relative rounded-3xl p-8 transition-all duration-300 ${
                   job.featured
                     ? 'bg-white backdrop-blur-sm border-2 border-slate-200 group-hover:shadow-xl'

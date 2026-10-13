@@ -138,7 +138,6 @@ const Features = () => {
             <Sparkles className="w-4 h-4 mr-2 animate-pulse" />
             WHY CHOOSE US
             <div className="ml-2 w-2 h-2 bg-cyan-400 rounded-full animate-ping" />
-            <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/10 to-transparent translate-x-[-100%] animate-shimmer" />
           </div>
           
           <h2 className="text-3xl sm:text-5xl md:text-6xl font-medium font-serif text-white mb-4 sm:mb-6 leading-tight tracking-tight">
@@ -163,14 +162,12 @@ const Features = () => {
                 <div className="flex items-center space-x-3 bg-slate-800/60 px-6 py-4 rounded-2xl border border-slate-700/50 backdrop-blur-md hover:border-cyan-500/50 transition-all duration-300 hover:bg-slate-800/80">
                   <div className="relative">
                     <stat.icon className="w-5 h-5 text-cyan-400 group-hover:text-cyan-300 transition-colors" />
-                    <div className="absolute inset-0 bg-cyan-400/20 rounded-full blur-md opacity-0 group-hover:opacity-100 transition-opacity" />
                   </div>
                   <div className="text-left">
                     <div className="text-2xl font-bold text-white group-hover:text-cyan-300 transition-colors">{stat.number}</div>
                     <div className="text-xs text-slate-400 uppercase tracking-wide">{stat.label}</div>
                   </div>
                 </div>
-                <div className="absolute inset-0 bg-gradient-to-r from-cyan-500/10 to-purple-500/10 rounded-2xl blur-xl opacity-0 group-hover:opacity-100 transition-opacity -z-10" />
               </div>
             ))}
           </div>
@@ -188,15 +185,6 @@ const Features = () => {
               {/* Card Container */}
               <div className={`relative bg-slate-900/80 backdrop-blur-xl border border-slate-700/50 rounded-3xl overflow-hidden transition-all duration-700 transform group-hover:scale-105 group-hover:-rotate-1 ${activeFeature === index ? 'shadow-2xl shadow-' + feature.glowColor + '-500/20' : ''} h-full`}>
                 
-                {/* Animated Border */}
-                <div 
-                  className="absolute inset-0 rounded-3xl opacity-0 group-hover:opacity-20 transition-opacity duration-500"
-                  style={{
-                    background: `conic-gradient(from 0deg at 50% 50%, transparent 0deg, rgba(${feature.glowColor === 'cyan' ? '6,182,212' : feature.glowColor === 'purple' ? '168,85,247' : feature.glowColor === 'yellow' ? '234,179,8' : feature.glowColor === 'green' ? '34,197,94' : feature.glowColor === 'blue' ? '59,130,246' : '99,102,241'}, 0.3) 90deg, transparent 180deg)`,
-                    animation: 'spin 3s linear infinite'
-                  }}
-                />
-
                 <div className="relative p-8 z-10">
                   {/* Header */}
                   <div className="flex items-center justify-between mb-6">
@@ -231,9 +219,6 @@ const Features = () => {
                 <div className="absolute top-4 right-4 w-32 h-32 bg-gradient-to-br from-white/5 to-transparent rounded-full blur-2xl animate-pulse" />
                 <div className="absolute bottom-4 left-4 w-24 h-24 bg-gradient-to-tl from-white/5 to-transparent rounded-full blur-2xl animate-pulse delay-1000" />
               </div>
-
-              {/* External Glow */}
-              <div className={`absolute inset-0 bg-gradient-to-r ${feature.gradient} rounded-3xl blur-2xl opacity-0 group-hover:opacity-10 transition-opacity duration-500 -z-10 scale-110`} />
             </div>
           ))}
         </div>

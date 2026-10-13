@@ -44,10 +44,10 @@ const DigitalMarketingSaaS = () => {
     ];
 
     const StatCard = ({ icon: Icon, title, value, change }) => (
-        <div className="group bg-white border border-slate-200/90 hover:border-blue-400 rounded-2xl p-4 sm:p-6 shadow-[0_4px_20px_-4px_rgba(23,92,211,0.06)] hover:shadow-[0_16px_30px_-6px_rgba(23,92,211,0.14)] hover:-translate-y-1 transition-all duration-300">
+        <div className="group bg-white border border-slate-200 hover:border-slate-300 rounded-2xl p-4 sm:p-6 shadow-sm hover:shadow-md hover:-translate-y-1 transition-all duration-300">
             <div className="flex items-center justify-between mb-4">
-                <div className="w-11 h-11 sm:w-12 sm:h-12 rounded-xl bg-linear-to-br from-blue-50 via-sky-50 to-blue-100/70 border border-blue-200/60 flex items-center justify-center text-blue-600 group-hover:bg-blue-600 group-hover:text-white transition-all duration-300 shadow-xs">
-                    <Icon className="w-5 h-5 sm:w-6 sm:h-6 transition-transform group-hover:scale-105" />
+                <div className="w-11 h-11 sm:w-12 sm:h-12 rounded-xl bg-blue-50 border border-blue-100 flex items-center justify-center text-blue-600 group-hover:bg-blue-600 group-hover:text-white transition-all duration-300">
+                    <Icon className="w-5 h-5 sm:w-6 sm:h-6" />
                 </div>
                 <span className="text-xs sm:text-sm font-semibold px-2.5 py-1 rounded-full bg-blue-50 border border-blue-200/60 text-blue-700">
                     +{change}%
@@ -410,13 +410,6 @@ const DigitalMarketingSaaS = () => {
                                         ))}
                                     </div>
                                 </div>
-
-                                {/* Scanning Effect */}
-                                <motion.div
-                                    className="absolute inset-0 bg-linear-to-r from-transparent via-blue-100/60 to-transparent"
-                                    animate={{ x: [-100, 800] }}
-                                    transition={{ duration: 4, repeat: Infinity, ease: "linear", delay: 2 }}
-                                />
                             </div>
                         </motion.div>
 
@@ -482,18 +475,12 @@ const DigitalMarketingSaaS = () => {
                         ].map((service, index) => (
                             <div
                                 key={index}
-                                className="group relative bg-white border border-slate-200/90 hover:border-blue-400 rounded-2xl p-6 sm:p-7 shadow-[0_4px_20px_-4px_rgba(23,92,211,0.06)] hover:shadow-[0_20px_35px_-8px_rgba(23,92,211,0.16)] hover:-translate-y-2 transition-all duration-300 ease-out flex flex-col justify-between overflow-hidden"
+                                className="group relative bg-white border border-slate-200 hover:border-slate-300 rounded-2xl p-6 sm:p-7 shadow-sm hover:shadow-md hover:-translate-y-1 transition-all duration-300 ease-out flex flex-col justify-between"
                             >
-                                {/* Top Accent Line */}
-                                <div className="absolute top-0 left-0 right-0 h-1 bg-linear-to-r from-blue-600 via-sky-500 to-blue-400 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
-                                
-                                {/* Ambient Light Blue Highlight Glow */}
-                                <div className="absolute -top-12 -right-12 w-28 h-28 bg-blue-50/70 rounded-full blur-2xl group-hover:bg-blue-100/80 transition-all duration-300 pointer-events-none" />
-
                                 <div>
                                     {/* Icon Container */}
-                                    <div className="w-12 h-12 sm:w-14 sm:h-14 rounded-xl bg-linear-to-br from-blue-50 via-sky-50 to-blue-100/80 border border-blue-200/70 flex items-center justify-center text-blue-600 shadow-xs group-hover:from-blue-600 group-hover:to-sky-600 group-hover:text-white group-hover:border-blue-600 group-hover:shadow-md group-hover:shadow-blue-500/25 transition-all duration-300 shrink-0">
-                                        <service.icon className="w-6 h-6 sm:w-7 sm:h-7 transition-transform duration-300 group-hover:scale-110" />
+                                    <div className="w-12 h-12 sm:w-14 sm:h-14 rounded-xl bg-blue-50 border border-blue-100 flex items-center justify-center text-blue-600 transition-colors duration-300 shrink-0">
+                                        <service.icon className="w-6 h-6 sm:w-7 sm:h-7" />
                                     </div>
 
                                     {/* Service Title */}
@@ -541,10 +528,10 @@ const DigitalMarketingSaaS = () => {
                             ].map((benefit, index) => (
                                 <div
                                     key={index}
-                                    className="group bg-white rounded-xl p-5 sm:p-6 border border-slate-200/80 hover:border-blue-400 shadow-sm hover:shadow-[0_12px_24px_-6px_rgba(23,92,211,0.12)] hover:-translate-y-1.5 transition-all duration-300 text-center flex flex-col items-center"
+                                    className="group bg-white rounded-xl p-5 sm:p-6 border border-slate-200 hover:border-slate-300 shadow-sm hover:shadow-md hover:-translate-y-1 transition-all duration-300 text-center flex flex-col items-center"
                                 >
-                                    <div className="w-12 h-12 rounded-xl bg-blue-50 border border-blue-100 flex items-center justify-center text-blue-600 mb-3.5 group-hover:bg-blue-600 group-hover:text-white transition-all duration-300 shadow-xs">
-                                        <benefit.icon className="w-6 h-6 transition-transform duration-300 group-hover:scale-110" />
+                                    <div className="w-12 h-12 rounded-xl bg-blue-50 border border-blue-100 flex items-center justify-center text-blue-600 mb-3.5 group-hover:bg-blue-600 group-hover:text-white transition-all duration-300">
+                                        <benefit.icon className="w-6 h-6" />
                                     </div>
                                     <h4 className="text-slate-900 font-semibold mb-2 text-sm sm:text-base group-hover:text-blue-600 transition-colors">
                                         {benefit.title}

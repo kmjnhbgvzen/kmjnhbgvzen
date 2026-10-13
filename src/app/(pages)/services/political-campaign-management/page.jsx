@@ -149,17 +149,17 @@ const faqs = [
 
 const TricolourBar = () => (
   <div className="flex w-full h-1.5 rounded-full overflow-hidden">
-    <div className="flex-1 bg-[#FF9933]" />
-    <div className="flex-1 bg-gray-200" />
-    <div className="flex-1 bg-[#138808]" />
+    <div className="flex-1 bg-[#1D4ED8]" />
+    <div className="flex-1 bg-[#2563EB]" />
+    <div className="flex-1 bg-[#93C5FD]" />
   </div>
 );
 
 const AshokaWatermark = () => (
-  <div className="absolute right-10 top-1/2 -translate-y-1/2 w-80 h-80 opacity-[0.04] pointer-events-none select-none">
+  <div className="absolute right-10 top-1/2 -translate-y-1/2 w-80 h-80 opacity-[0.03] pointer-events-none select-none">
     <svg viewBox="0 0 200 200" className="w-full h-full" fill="none">
-      <circle cx="100" cy="100" r="90" stroke="#000080" strokeWidth="6" />
-      <circle cx="100" cy="100" r="10" fill="#000080" />
+      <circle cx="100" cy="100" r="90" stroke="#2563EB" strokeWidth="6" />
+      <circle cx="100" cy="100" r="10" fill="#2563EB" />
       {Array.from({ length: 24 }).map((_, i) => {
         const angle = (i * 360) / 24;
         const rad = (angle * Math.PI) / 180;
@@ -168,7 +168,7 @@ const AshokaWatermark = () => (
             key={i}
             x1={100 + 12 * Math.cos(rad)} y1={100 + 12 * Math.sin(rad)}
             x2={100 + 86 * Math.cos(rad)} y2={100 + 86 * Math.sin(rad)}
-            stroke="#000080" strokeWidth="2.5"
+            stroke="#2563EB" strokeWidth="2.5"
           />
         );
       })}
@@ -180,36 +180,36 @@ export default function PoliticalCampaignPage() {
   const [openFaq, setOpenFaq] = useState(null);
 
   return (
-    <div className="bg-[#FFFDF8] font-sans text-gray-900 overflow-x-hidden">
+    <div className="bg-white font-sans text-slate-900 overflow-x-hidden">
 
       {/* ── HERO ── */}
       <section className="relative min-h-fit lg:min-h-screen flex items-start lg:items-center">
-        <div className="absolute inset-0 bg-gradient-to-r from-[#FF6B00] to-[#FF9933] opacity-5 pointer-events-none" />
-        <div className="absolute top-0 right-0 w-[600px] h-[600px] rounded-full bg-gradient-to-r from-[#FF6B00] to-[#FF9933] opacity-10 translate-x-1/3 -translate-y-1/4 blur-3xl pointer-events-none" />
-        <div className="absolute bottom-0 left-0 w-[400px] h-[400px] rounded-full bg-[#138808] opacity-[0.06] -translate-x-1/4 translate-y-1/4 blur-3xl pointer-events-none" />
+        <div className="absolute inset-0 bg-gradient-to-r from-[#2563EB] to-[#1D4ED8] opacity-5 pointer-events-none" />
+        <div className="absolute top-0 right-0 w-[600px] h-[600px] rounded-full bg-gradient-to-r from-[#2563EB] to-[#60A5FA] opacity-10 translate-x-1/3 -translate-y-1/4 blur-3xl pointer-events-none" />
+        <div className="absolute bottom-0 left-0 w-[400px] h-[400px] rounded-full bg-[#1D4ED8] opacity-[0.06] -translate-x-1/4 translate-y-1/4 blur-3xl pointer-events-none" />
         <AshokaWatermark />
 
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-12 pt-8 sm:pt-12 pb-12 lg:py-32 mt-0 lg:mt-10 grid lg:grid-cols-2 gap-8 lg:gap-16 items-center w-full">
           <div>
             <div className="w-16 mb-6"><TricolourBar /></div>
-            <span className="inline-flex items-center gap-2 text-xs font-semibold tracking-widest uppercase text-[#FF6B00] mb-6">
-              <span className="w-6 h-px bg-[#FF6B00] inline-block" />
+            <span className="inline-flex items-center gap-2 text-xs font-semibold tracking-widest uppercase text-[#2563EB] mb-6">
+              <span className="w-6 h-px bg-[#2563EB] inline-block" />
               Political Campaign Services
             </span>
-            <h1 className="font-serif text-5xl lg:text-6xl font-medium leading-tight text-gray-900 mb-6">
+            <h1 className="font-serif text-5xl lg:text-6xl font-medium leading-tight text-slate-900 mb-6">
               Amplify Your{' '}
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#FF6B00] to-[#FF9933]">
+              <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#2563EB] to-[#1D4ED8]">
                 Political Voice
               </span>{' '}
               with Digital Strategy
             </h1>
-            <p className="text-lg text-gray-500 leading-relaxed mb-10 max-w-lg">
+            <p className="text-lg text-slate-600 leading-relaxed mb-10 max-w-lg">
               We help political leaders and parties build a trusted, high-impact digital presence — through websites, social media, branding, and transparent campaign reporting.
             </p>
             <div className="flex flex-wrap gap-4">
               <a
                 href="#contact"
-                className="inline-flex items-center gap-2 px-8 py-4 rounded-full text-white font-semibold bg-gradient-to-r from-[#FF6B00] to-[#FF9933] hover:opacity-90 transition-opacity shadow-lg shadow-orange-200"
+                className="inline-flex items-center gap-2 px-8 py-4 rounded-full text-white font-semibold bg-gradient-to-r from-[#2563EB] to-[#1D4ED8] hover:opacity-90 transition-opacity shadow-lg shadow-blue-200"
               >
                 Start Your Campaign
                 <ArrowRight size={16} />
@@ -220,10 +220,10 @@ export default function PoliticalCampaignPage() {
           {/* right — decorative card */}
           <div className="hidden lg:block">
             <div className="relative">
-              <div className="absolute inset-0 bg-gradient-to-r from-[#FF6B00] to-[#FF9933] rounded-3xl translate-x-3 translate-y-3 opacity-20" />
-              <div className="relative bg-white border border-orange-100 rounded-3xl p-8 shadow-xl">
+              <div className="absolute inset-0 bg-gradient-to-r from-[#2563EB] to-[#1D4ED8] rounded-3xl translate-x-3 translate-y-3 opacity-20" />
+              <div className="relative bg-white border border-blue-100 rounded-3xl p-8 shadow-xl">
                 <TricolourBar />
-                <p className="text-xs font-semibold uppercase tracking-widest text-gray-400 mt-5 mb-5">Campaign Performance</p>
+                <p className="text-xs font-semibold uppercase tracking-widest text-slate-400 mt-5 mb-5">Campaign Performance</p>
                 <div className="space-y-4">
                   {[
                     { label: 'Social Media Reach',      val: '92%', pct: 92 },
@@ -233,12 +233,12 @@ export default function PoliticalCampaignPage() {
                   ].map((item) => (
                     <div key={item.label}>
                       <div className="flex justify-between text-sm mb-1">
-                        <span className="text-gray-600">{item.label}</span>
-                        <span className="font-semibold text-[#FF6B00]">{item.val}</span>
+                        <span className="text-slate-600">{item.label}</span>
+                        <span className="font-semibold text-[#2563EB]">{item.val}</span>
                       </div>
-                      <div className="h-2 bg-gray-100 rounded-full overflow-hidden">
+                      <div className="h-2 bg-slate-100 rounded-full overflow-hidden">
                         <div
-                          className="h-full bg-gradient-to-r from-[#FF6B00] to-[#FF9933] rounded-full"
+                          className="h-full bg-gradient-to-r from-[#2563EB] to-[#1D4ED8] rounded-full"
                           style={{ width: `${item.pct}%` }}
                         />
                       </div>
@@ -252,9 +252,9 @@ export default function PoliticalCampaignPage() {
                     { v: '85K',  l: 'Followers grown' },
                     { v: '60',   l: 'Days avg campaign' },
                   ].map((s) => (
-                    <div key={s.l} className="bg-orange-50 rounded-2xl p-4 text-center">
-                      <p className="text-xl font-medium text-[#FF6B00]">{s.v}</p>
-                      <p className="text-xs text-gray-400 mt-1">{s.l}</p>
+                    <div key={s.l} className="bg-blue-50/70 rounded-2xl p-4 text-center">
+                      <p className="text-xl font-medium text-[#2563EB]">{s.v}</p>
+                      <p className="text-xs text-slate-500 mt-1">{s.l}</p>
                     </div>
                   ))}
                 </div>
@@ -264,15 +264,15 @@ export default function PoliticalCampaignPage() {
         </div>
       </section>
 
-      {/* ── TRICOLOUR DIVIDER ── */}
+      {/* ── BLUE DIVIDER ── */}
       <div className="flex w-full h-2">
-        <div className="flex-1 bg-[#FF9933]" />
-        <div className="flex-1 bg-white border-y border-gray-200" />
-        <div className="flex-1 bg-[#138808]" />
+        <div className="flex-1 bg-[#1D4ED8]" />
+        <div className="flex-1 bg-[#2563EB]" />
+        <div className="flex-1 bg-[#60A5FA]" />
       </div>
 
       {/* ── STATS BAR ── */}
-      <section className="bg-gradient-to-r from-[#FF6B00] to-[#FF9933] py-14">
+      <section className="bg-gradient-to-r from-[#1D4ED8] to-[#2563EB] py-14">
         <div className="max-w-7xl mx-auto px-6 lg:px-12">
           <div className="grid grid-cols-2 lg:grid-cols-4 gap-8">
             {stats.map(({ value, label, Icon }) => (
@@ -291,9 +291,9 @@ export default function PoliticalCampaignPage() {
       {/* ── SERVICES ── */}
       <section className="py-24 px-6 lg:px-12 max-w-7xl mx-auto">
         <div className="text-center mb-16">
-          <span className="text-xs font-semibold uppercase tracking-widest text-[#FF6B00]">What We Offer</span>
-          <h2 className="font-serif text-4xl lg:text-5xl font-medium text-gray-900 mt-3 mb-5">Services We Provide</h2>
-          <p className="text-gray-500 max-w-xl mx-auto text-lg">
+          <span className="text-xs font-semibold uppercase tracking-widest text-[#2563EB]">What We Offer</span>
+          <h2 className="font-serif text-4xl lg:text-5xl font-medium text-slate-900 mt-3 mb-5">Services We Provide</h2>
+          <p className="text-slate-600 max-w-xl mx-auto text-lg">
             Everything your digital campaign needs — from first impression to final report.
           </p>
         </div>
@@ -301,28 +301,28 @@ export default function PoliticalCampaignPage() {
           {services.map(({ Icon, title, desc }) => (
             <div
               key={title}
-              className="group border border-orange-100 rounded-2xl p-7 hover:border-transparent hover:shadow-xl hover:shadow-orange-100 transition-all duration-300 bg-white"
+              className="group border border-blue-100 rounded-2xl p-7 hover:border-transparent hover:shadow-xl hover:shadow-blue-100 transition-all duration-300 bg-white"
             >
-              <div className="w-12 h-12 rounded-xl bg-gradient-to-r from-[#FF6B00] to-[#FF9933] flex items-center justify-center mb-5 group-hover:scale-110 transition-transform">
+              <div className="w-12 h-12 rounded-xl bg-gradient-to-r from-[#2563EB] to-[#1D4ED8] flex items-center justify-center mb-5 group-hover:scale-110 transition-transform">
                 <Icon size={22} className="text-white" />
               </div>
-              <h3 className="font-serif text-xl font-medium text-gray-900 mb-3">{title}</h3>
-              <p className="text-gray-500 leading-relaxed text-sm">{desc}</p>
+              <h3 className="font-serif text-xl font-medium text-slate-900 mb-3">{title}</h3>
+              <p className="text-slate-600 leading-relaxed text-sm">{desc}</p>
             </div>
           ))}
         </div>
       </section>
 
       {/* ── ANALYTICS DASHBOARD PREVIEW ── */}
-      <section className="py-24 bg-orange-50/40">
+      <section className="py-24 bg-[#EFF6FF]/60">
         <div className="max-w-7xl mx-auto px-6 lg:px-12">
           <div className="grid lg:grid-cols-2 gap-16 items-center">
             <div>
-              <span className="text-xs font-semibold uppercase tracking-widest text-[#FF6B00]">Analytics</span>
-              <h2 className="font-serif text-4xl lg:text-5xl font-medium text-gray-900 mt-3 mb-6">
+              <span className="text-xs font-semibold uppercase tracking-widest text-[#2563EB]">Analytics</span>
+              <h2 className="font-serif text-4xl lg:text-5xl font-medium text-slate-900 mt-3 mb-6">
                 Campaign Digital<br />Performance Dashboard
               </h2>
-              <p className="text-gray-500 leading-relaxed mb-8 text-lg">
+              <p className="text-slate-600 leading-relaxed mb-8 text-lg">
                 Every campaign we manage comes with a real-time digital analytics dashboard — tracking social media growth, ad impressions, website sessions, video views, and engagement. Clear, honest data. Always.
               </p>
               <ul className="space-y-3">
@@ -333,8 +333,8 @@ export default function PoliticalCampaignPage() {
                   'Video views and engagement breakdown',
                   'Weekly automated performance summaries',
                 ].map((item) => (
-                  <li key={item} className="flex items-center gap-3 text-gray-600 text-sm">
-                    <CheckCircle2 size={18} className="text-[#138808] flex-shrink-0" />
+                  <li key={item} className="flex items-center gap-3 text-slate-600 text-sm">
+                    <CheckCircle2 size={18} className="text-[#2563EB] flex-shrink-0" />
                     {item}
                   </li>
                 ))}
@@ -342,14 +342,14 @@ export default function PoliticalCampaignPage() {
             </div>
 
             {/* mock dashboard */}
-            <div className="bg-white rounded-3xl border border-orange-100 shadow-xl p-6">
+            <div className="bg-white rounded-3xl border border-blue-100 shadow-xl p-6">
               <TricolourBar />
               <div className="flex items-center justify-between mt-5 mb-6">
                 <div>
-                  <p className="font-semibold text-gray-800 text-sm">Campaign Overview</p>
-                  <p className="text-xs text-gray-400">Last 30 days</p>
+                  <p className="font-semibold text-slate-800 text-sm">Campaign Overview</p>
+                  <p className="text-xs text-slate-400">Last 30 days</p>
                 </div>
-                <span className="inline-flex items-center gap-1.5 text-xs bg-green-50 text-[#138808] font-semibold px-3 py-1 rounded-full border border-green-200">
+                <span className="inline-flex items-center gap-1.5 text-xs bg-blue-50 text-[#2563EB] font-semibold px-3 py-1 rounded-full border border-blue-200">
                   <CircleDot size={10} /> Live
                 </span>
               </div>
@@ -357,22 +357,22 @@ export default function PoliticalCampaignPage() {
                 {[40, 65, 50, 80, 60, 90, 75, 95, 70, 85, 92, 88].map((h, i) => (
                   <div
                     key={i}
-                    className="flex-1 rounded-t-md bg-gradient-to-t from-[#FF6B00] to-[#FF9933] opacity-80"
+                    className="flex-1 rounded-t-md bg-gradient-to-t from-[#1D4ED8] to-[#60A5FA] opacity-80"
                     style={{ height: `${h}%` }}
                   />
                 ))}
               </div>
-              <p className="text-xs text-gray-400 text-center mb-6">Daily social media reach (thousands)</p>
+              <p className="text-xs text-slate-400 text-center mb-6">Daily social media reach (thousands)</p>
               <div className="grid grid-cols-3 gap-3">
                 {[
                   { label: 'Impressions', val: '4.8M', change: '+23%' },
                   { label: 'Engagement',  val: '6.2%', change: '+8%'  },
                   { label: 'Link Clicks', val: '92K',  change: '+41%' },
                 ].map((m) => (
-                  <div key={m.label} className="bg-orange-50 rounded-xl p-3 text-center">
-                    <p className="font-medium text-[#FF6B00] text-lg">{m.val}</p>
-                    <p className="text-xs text-gray-400">{m.label}</p>
-                    <p className="text-xs text-[#138808] font-semibold mt-1">{m.change}</p>
+                  <div key={m.label} className="bg-blue-50/70 rounded-xl p-3 text-center">
+                    <p className="font-medium text-[#2563EB] text-lg">{m.val}</p>
+                    <p className="text-xs text-slate-500">{m.label}</p>
+                    <p className="text-xs text-[#2563EB] font-semibold mt-1">{m.change}</p>
                   </div>
                 ))}
               </div>
@@ -384,40 +384,40 @@ export default function PoliticalCampaignPage() {
       {/* ── HOW WE WORK ── */}
       <section className="py-24 px-6 lg:px-12 max-w-7xl mx-auto">
         <div className="text-center mb-16">
-          <span className="text-xs font-semibold uppercase tracking-widest text-[#FF6B00]">Our Process</span>
-          <h2 className="font-serif text-4xl lg:text-5xl font-medium text-gray-900 mt-3 mb-5">How We Work</h2>
-          <p className="text-gray-500 max-w-xl mx-auto text-lg">A clear, structured process that keeps your campaign on track from day one.</p>
+          <span className="text-xs font-semibold uppercase tracking-widest text-[#2563EB]">Our Process</span>
+          <h2 className="font-serif text-4xl lg:text-5xl font-medium text-slate-900 mt-3 mb-5">How We Work</h2>
+          <p className="text-slate-600 max-w-xl mx-auto text-lg">A clear, structured process that keeps your campaign on track from day one.</p>
         </div>
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 relative">
-          <div className="hidden lg:block absolute top-10 left-[12.5%] right-[12.5%] h-px bg-gradient-to-r from-[#FF6B00] to-[#FF9933] opacity-30" />
+          <div className="hidden lg:block absolute top-10 left-[12.5%] right-[12.5%] h-px bg-gradient-to-r from-[#2563EB] to-[#60A5FA] opacity-30" />
           {steps.map((step) => (
             <div key={step.number} className="relative text-center">
-              <div className="w-20 h-20 rounded-full bg-gradient-to-r from-[#FF6B00] to-[#FF9933] flex items-center justify-center mx-auto mb-6 shadow-lg shadow-orange-200">
+              <div className="w-20 h-20 rounded-full bg-gradient-to-r from-[#2563EB] to-[#1D4ED8] flex items-center justify-center mx-auto mb-6 shadow-lg shadow-blue-200">
                 <span className="font-serif text-2xl font-medium text-white">{step.number}</span>
               </div>
-              <h3 className="font-serif text-xl font-medium text-gray-900 mb-3">{step.title}</h3>
-              <p className="text-gray-500 text-sm leading-relaxed">{step.desc}</p>
+              <h3 className="font-serif text-xl font-medium text-slate-900 mb-3">{step.title}</h3>
+              <p className="text-slate-600 text-sm leading-relaxed">{step.desc}</p>
             </div>
           ))}
         </div>
       </section>
 
       {/* ── WHO WE WORK WITH ── */}
-      <section className="py-24 bg-orange-50/40">
+      <section className="py-24 bg-[#EFF6FF]/60">
         <div className="max-w-7xl mx-auto px-6 lg:px-12">
           <div className="text-center mb-16">
-            <span className="text-xs font-semibold uppercase tracking-widest text-[#FF6B00]">Our Clients</span>
-            <h2 className="font-serif text-4xl lg:text-5xl font-medium text-gray-900 mt-3 mb-5">Who We Work With</h2>
-            <p className="text-gray-500 max-w-xl mx-auto text-lg">We are completely non-partisan — our digital services are open to all.</p>
+            <span className="text-xs font-semibold uppercase tracking-widest text-[#2563EB]">Our Clients</span>
+            <h2 className="font-serif text-4xl lg:text-5xl font-medium text-slate-900 mt-3 mb-5">Who We Work With</h2>
+            <p className="text-slate-600 max-w-xl mx-auto text-lg">We are completely non-partisan — our digital services are open to all.</p>
           </div>
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
             {clients.map(({ Icon, title, desc }) => (
-              <div key={title} className="bg-white border border-orange-100 rounded-2xl p-7 text-center hover:shadow-lg hover:shadow-orange-100 transition-all duration-300">
-                <div className="w-14 h-14 rounded-full bg-gradient-to-r from-[#FF6B00] to-[#FF9933] flex items-center justify-center mx-auto mb-4">
+              <div key={title} className="bg-white border border-blue-100 rounded-2xl p-7 text-center hover:shadow-lg hover:shadow-blue-100 transition-all duration-300">
+                <div className="w-14 h-14 rounded-full bg-gradient-to-r from-[#2563EB] to-[#1D4ED8] flex items-center justify-center mx-auto mb-4">
                   <Icon size={26} className="text-white" />
                 </div>
-                <h3 className="font-serif text-lg font-medium text-gray-900 mb-3">{title}</h3>
-                <p className="text-gray-500 text-sm leading-relaxed">{desc}</p>
+                <h3 className="font-serif text-lg font-medium text-slate-900 mb-3">{title}</h3>
+                <p className="text-slate-600 text-sm leading-relaxed">{desc}</p>
               </div>
             ))}
           </div>
@@ -427,34 +427,34 @@ export default function PoliticalCampaignPage() {
       {/* ── CASE STUDIES ── */}
       <section id="casestudies" className="py-24 px-6 lg:px-12 max-w-7xl mx-auto">
         <div className="text-center mb-16">
-          <span className="text-xs font-semibold uppercase tracking-widest text-[#FF6B00]">Results</span>
-          <h2 className="font-serif text-4xl lg:text-5xl font-medium text-gray-900 mt-3 mb-5">Campaign Success Stories</h2>
-          <p className="text-gray-500 max-w-xl mx-auto text-lg">Real digital performance results from campaigns we have managed.</p>
+          <span className="text-xs font-semibold uppercase tracking-widest text-[#2563EB]">Results</span>
+          <h2 className="font-serif text-4xl lg:text-5xl font-medium text-slate-900 mt-3 mb-5">Campaign Success Stories</h2>
+          <p className="text-slate-600 max-w-xl mx-auto text-lg">Real digital performance results from campaigns we have managed.</p>
         </div>
         <div className="grid md:grid-cols-3 gap-6">
           {caseStudies.map(({ metric, label, detail, tag, Icon }) => (
-            <div key={label} className="relative overflow-hidden border border-orange-100 rounded-2xl p-8 bg-white hover:shadow-xl hover:shadow-orange-100 transition-all duration-300">
-              <div className="absolute top-0 right-0 w-32 h-32 bg-gradient-to-r from-[#FF6B00] to-[#FF9933] opacity-5 rounded-full translate-x-8 -translate-y-8" />
+            <div key={label} className="relative overflow-hidden border border-blue-100 rounded-2xl p-8 bg-white hover:shadow-xl hover:shadow-blue-100 transition-all duration-300">
+              <div className="absolute top-0 right-0 w-32 h-32 bg-gradient-to-r from-[#2563EB] to-[#60A5FA] opacity-5 rounded-full translate-x-8 -translate-y-8" />
               <div className="absolute top-0 left-0 right-0 h-1 flex">
-                <div className="flex-1 bg-[#FF9933]" />
-                <div className="flex-1 bg-gray-100" />
-                <div className="flex-1 bg-[#138808]" />
+                <div className="flex-1 bg-[#1D4ED8]" />
+                <div className="flex-1 bg-[#2563EB]" />
+                <div className="flex-1 bg-[#60A5FA]" />
               </div>
               <div className="mt-3 mb-6">
-                <span className="inline-flex items-center gap-1.5 text-xs font-semibold bg-gradient-to-r from-[#FF6B00] to-[#FF9933] text-white px-3 py-1 rounded-full">
+                <span className="inline-flex items-center gap-1.5 text-xs font-semibold bg-gradient-to-r from-[#2563EB] to-[#1D4ED8] text-white px-3 py-1 rounded-full">
                   <Icon size={12} /> {tag}
                 </span>
               </div>
-              <p className="font-serif text-5xl font-medium text-[#FF6B00] mb-1">{metric}</p>
-              <p className="text-gray-400 text-sm font-medium mb-4">{label}</p>
-              <p className="text-gray-600 text-sm leading-relaxed">{detail}</p>
+              <p className="font-serif text-5xl font-medium text-[#2563EB] mb-1">{metric}</p>
+              <p className="text-slate-400 text-sm font-medium mb-4">{label}</p>
+              <p className="text-slate-600 text-sm leading-relaxed">{detail}</p>
             </div>
           ))}
         </div>
       </section>
 
       {/* ── COMPLIANCE BLOCK ── */}
-      <section className="py-20 bg-gradient-to-r from-[#FF6B00] to-[#FF9933]">
+      <section className="py-20 bg-gradient-to-r from-[#1D4ED8] to-[#2563EB]">
         <div className="max-w-5xl mx-auto px-6 lg:px-12 text-center">
           <div className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-white/20 mb-6">
             <ShieldCheck size={34} className="text-white" />
@@ -473,38 +473,38 @@ export default function PoliticalCampaignPage() {
         </div>
       </section>
 
-      {/* ── TRICOLOUR DIVIDER ── */}
+      {/* ── BLUE DIVIDER ── */}
       <div className="flex w-full h-2">
-        <div className="flex-1 bg-[#FF9933]" />
-        <div className="flex-1 bg-white border-y border-gray-200" />
-        <div className="flex-1 bg-[#138808]" />
+        <div className="flex-1 bg-[#1D4ED8]" />
+        <div className="flex-1 bg-[#2563EB]" />
+        <div className="flex-1 bg-[#60A5FA]" />
       </div>
 
       {/* ── FAQ ── */}
       <section className="py-24 px-6 lg:px-12 max-w-4xl mx-auto">
         <div className="text-center mb-16">
-          <span className="text-1xl font-semibold uppercase tracking-widest text-[#FF6B00]">FAQ</span>
-          <h2 className="font-serif text-4xl lg:text-5xl font-medium text-gray-900 mt-3 mb-5">Common Questions</h2>
+          <span className="text-1xl font-semibold uppercase tracking-widest text-[#2563EB]">FAQ</span>
+          <h2 className="font-serif text-4xl lg:text-5xl font-medium text-slate-900 mt-3 mb-5">Common Questions</h2>
         </div>
         <div className="space-y-4">
           {faqs.map((faq, i) => (
             <div
               key={i}
-              className={`border rounded-2xl overflow-hidden transition-all duration-300 ${openFaq === i ? 'border-[#FF6B00]/30 shadow-md shadow-orange-100' : 'border-orange-100'}`}
+              className={`border rounded-2xl overflow-hidden transition-all duration-300 ${openFaq === i ? 'border-[#2563EB]/40 shadow-md shadow-blue-100' : 'border-blue-100'}`}
             >
               <button
                 onClick={() => setOpenFaq(openFaq === i ? null : i)}
-                className="w-full flex items-center justify-between p-6 text-left bg-white hover:bg-orange-50/40 transition-colors"
+                className="w-full flex items-center justify-between p-6 text-left bg-white hover:bg-blue-50/40 transition-colors"
               >
-                <span className="font-serif text-gray-900 font-semibold text-lg pr-4">{faq.q}</span>
-                <span className={`flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center bg-gradient-to-r from-[#FF6B00] to-[#FF9933] transition-transform duration-300 ${openFaq === i ? 'rotate-180' : ''}`}>
+                <span className="font-serif text-slate-900 font-semibold text-lg pr-4">{faq.q}</span>
+                <span className={`flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center bg-gradient-to-r from-[#2563EB] to-[#1D4ED8] transition-transform duration-300 ${openFaq === i ? 'rotate-180' : ''}`}>
                   <ChevronDown size={16} className="text-white" />
                 </span>
               </button>
               {openFaq === i && (
                 <div className="px-6 pb-6 bg-white">
-                  <div className="border-l-4 border-[#138808] pl-4">
-                    <p className="text-gray-500 leading-relaxed">{faq.a}</p>
+                  <div className="border-l-4 border-[#2563EB] pl-4">
+                    <p className="text-slate-600 leading-relaxed">{faq.a}</p>
                   </div>
                 </div>
               )}
