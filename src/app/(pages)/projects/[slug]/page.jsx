@@ -60,7 +60,7 @@ export default async function ProjectCaseStudyPage({ params }) {
           <span className="text-xs text-slate-500 font-medium">Case Study</span>
         </div>
 
-        <h1 className="text-3xl sm:text-5xl md:text-6xl font-medium font-serif text-slate-900 mb-4 sm:mb-6 leading-tight tracking-tight">
+        <h1 className="text-3xl sm:text-5xl md:text-6xl font-medium font-serif bg-linear-to-r from-slate-900 via-blue-900 to-purple-900 bg-clip-text text-transparent mb-4 sm:mb-6 leading-tight tracking-tight">
           {project.name}
         </h1>
 

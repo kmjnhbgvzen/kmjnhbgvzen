@@ -1,7 +1,7 @@
 'use client';
 
 import React, { useState, useEffect } from 'react';
-import { ArrowLeft, Globe, Smartphone, Zap, Shield, Monitor, Tablet, Play, Pause } from 'lucide-react';
+import { ArrowLeft, Globe, Smartphone, Zap, Shield, Monitor, Tablet, Play, Pause, Code2, CheckCircle2, Sparkles, Clock, TrendingUp } from 'lucide-react';
 import { motion } from "framer-motion";
 
 import {
@@ -165,23 +165,128 @@ const WebDevelopment = () => {
     return (
         <div className="min-h-fit lg:min-h-screen bg-linear-to-br from-slate-50 via-gray-50 to-white">
 
-            <section className="pt-8 sm:pt-12 lg:pt-36 pb-12 sm:pb-20 px-4 sm:px-6 lg:px-8">
+            <section className="pt-10 sm:pt-16 lg:pt-36 pb-12 sm:pb-16 px-4 sm:px-6 lg:px-8">
                 <div className="max-w-7xl mx-auto">
-                    {/* Header - Responsive */}
-                    <div className="text-center mb-6 sm:mb-12 md:mb-16">
-                        <h1 className="text-4xl sm:text-5xl md:text-6xl font-medium font-serif mb-3 sm:mb-6 bg-linear-to-r from-slate-900 to-slate-700 bg-clip-text text-transparent mt-0">
-                            Web <span>Development</span>
-                        </h1>
-                        <p className="text-base sm:text-lg md:text-xl text-slate-700 max-w-3xl mx-auto leading-relaxed px-4">
-                            Create stunning, high-performance websites that captivate your audience and drive conversions.
-                            See how your website will look across all devices.
-                        </p>
+                    {/* Hero 2-Column: Left Heading/Paragraph & Right Feature Cards */}
+                    <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-10 items-start mb-12 sm:mb-16 md:mb-20">
+                        {/* Left Side: Heading & Paragraph (Aligned to Top) */}
+                        <div className="lg:col-span-5 text-left pt-0 lg:pt-1">
+                            <div className="inline-flex items-center px-3 py-1.5 bg-blue-50 border border-blue-200 rounded-full mb-3 sm:mb-4">
+                                <Globe className="w-4 h-4 mr-2 text-blue-700" />
+                                <span className="text-xs sm:text-sm font-semibold text-blue-900">Web Development</span>
+                            </div>
+
+                            <h1 className="text-4xl sm:text-5xl md:text-6xl font-medium font-serif bg-linear-to-r from-slate-900 via-blue-900 to-purple-900 bg-clip-text text-transparent leading-tight mb-3 sm:mb-4 mt-0">
+                                Web Development
+                            </h1>
+                            <p className="text-sm sm:text-base md:text-lg text-slate-700 leading-relaxed mb-5 sm:mb-6">
+                                Create stunning, high-performance websites that captivate your audience and drive conversions.
+                                See how your website will look across all devices.
+                            </p>
+                            <div className="flex flex-col sm:flex-row gap-4 mb-5 sm:mb-6">
+                                <a href="/contact-us">
+                                    <button className="w-full sm:w-auto px-6 py-3 bg-linear-to-r from-blue-700 via-blue-800 to-slate-900 hover:from-blue-800 hover:to-slate-950 text-white rounded-xl font-semibold transition-all duration-300 hover:scale-105 shadow-md hover:shadow-lg cursor-pointer text-sm sm:text-base">
+                                        Start Your Web Project
+                                    </button>
+                                </a>
+                            </div>
+
+                            {/* Mini Web Development Capability Cards */}
+                            <div className="grid grid-cols-2 gap-3 pt-1 mb-4">
+                                <div className="p-3 bg-white border border-gray-200/90 rounded-xl shadow-xs hover:border-blue-200 transition-colors">
+                                    <div className="flex items-center space-x-2 mb-1 text-blue-700">
+                                        <Code2 className="w-4 h-4 shrink-0" />
+                                        <span className="text-xs font-bold text-slate-900">Custom Tech Stack</span>
+                                    </div>
+                                    <p className="text-[11px] text-slate-600 leading-tight">Tailored Next.js & React architecture built to scale.</p>
+                                </div>
+                                <div className="p-3 bg-white border border-gray-200/90 rounded-xl shadow-xs hover:border-purple-200 transition-colors">
+                                    <div className="flex items-center space-x-2 mb-1 text-purple-700">
+                                        <TrendingUp className="w-4 h-4 shrink-0" />
+                                        <span className="text-xs font-bold text-slate-900">High Conversion</span>
+                                    </div>
+                                    <p className="text-[11px] text-slate-600 leading-tight">Fast-loading, SEO-ready pages that turn clicks to customers.</p>
+                                </div>
+                            </div>
+
+                            {/* Trust Highlights Checklist */}
+                            <div className="flex flex-wrap items-center gap-x-4 gap-y-1.5 text-xs text-slate-600">
+                                <div className="flex items-center space-x-1.5">
+                                    <CheckCircle2 className="w-3.5 h-3.5 text-emerald-600 shrink-0" />
+                                    <span className="text-[11px] font-medium text-slate-700">100% Responsive UI</span>
+                                </div>
+                                <div className="flex items-center space-x-1.5">
+                                    <Sparkles className="w-3.5 h-3.5 text-blue-600 shrink-0" />
+                                    <span className="text-[11px] font-medium text-slate-700">Clean Scalable Code</span>
+                                </div>
+                                <div className="flex items-center space-x-1.5">
+                                    <Clock className="w-3.5 h-3.5 text-indigo-600 shrink-0" />
+                                    <span className="text-[11px] font-medium text-slate-700">Rapid Delivery</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        {/* Right Side: 4 Compact Feature Cards */}
+                        <div className="lg:col-span-7">
+                            <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 sm:gap-3.5">
+                                {features.map((feature, index) => (
+                                    <div
+                                        key={index}
+                                        className="group bg-white border border-gray-200 rounded-xl p-3.5 sm:p-4 shadow-xs transition-all duration-300 hover:shadow-md hover:-translate-y-0.5"
+                                    >
+                                        <div className="flex items-center justify-center w-8 h-8 sm:w-9 sm:h-9 rounded-lg bg-blue-50 text-blue-600 mb-2 sm:mb-2.5 transition-transform group-hover:scale-105">
+                                            <feature.icon className="w-4 h-4 sm:w-4.5 sm:h-4.5" />
+                                        </div>
+                                        <h3 className="text-sm sm:text-base font-semibold text-slate-900 mb-1">
+                                            {feature.title}
+                                        </h3>
+                                        <p className="text-xs text-slate-600 leading-relaxed mb-2.5 line-clamp-2">
+                                            {feature.description}
+                                        </p>
+
+                                        {/* Compact Simulated UI Block */}
+                                        <div className="bg-gray-50/80 border border-gray-200 rounded-md p-2 text-[11px] text-slate-700">
+                                            <p className="mb-1 font-semibold text-slate-800 text-[10px] uppercase tracking-wider">Example:</p>
+                                            {feature.title === "Modern Web Apps" && (
+                                                <div>
+                                                    <p className="mb-1 text-slate-600 truncate">📊 Dashboard: User Analytics</p>
+                                                    <div className="h-1 rounded-full bg-blue-600 w-3/4 mb-1"></div>
+                                                    <p className="text-[10px] text-slate-500">Active Users: 1.2k</p>
+                                                </div>
+                                            )}
+                                            {feature.title === "Responsive Design" && (
+                                                <div>
+                                                    <p className="mb-1 text-slate-600">📱 Devices:</p>
+                                                    <div className="flex flex-wrap gap-1 text-[10px] text-slate-500">
+                                                        <span>✔️ Mobile</span>
+                                                        <span>✔️ Tablet</span>
+                                                        <span>✔️ Desktop</span>
+                                                    </div>
+                                                </div>
+                                            )}
+                                            {feature.title === "Lightning Fast" && (
+                                                <div>
+                                                    <p className="text-slate-600">⚡ Load Time: <span className="text-green-600 font-semibold">0.8s</span></p>
+                                                    <p className="text-[10px] text-slate-500">GTMetrix Grade: A</p>
+                                                </div>
+                                            )}
+                                            {feature.title === "SEO Optimized" && (
+                                                <div>
+                                                    <p className="text-slate-600 truncate">🔍 Meta Tags & Alt Text</p>
+                                                    <p className="text-[10px] text-slate-500">Lighthouse Score: 97</p>
+                                                </div>
+                                            )}
+                                        </div>
+                                    </div>
+                                ))}
+                            </div>
+                        </div>
                     </div>
 
                     {/* Responsive Demo Section - Fully Responsive */}
                     <div className="mb-12 sm:mb-16 md:mb-20">
                         <div className="text-center mb-6 sm:mb-8">
-                            <h2 className="text-2xl sm:text-3xl font-medium font-serif text-slate-900 mb-3 sm:mb-4">Perfect Responsiveness in Action</h2>
+                            <h2 className="text-3xl sm:text-4xl md:text-5xl font-medium font-serif bg-linear-to-r from-slate-900 via-blue-900 to-purple-900 bg-clip-text text-transparent leading-tight mb-2 sm:mb-3">Perfect Responsiveness in Action</h2>
                             <p className="text-slate-700 mb-4 sm:mb-6 px-4 text-sm sm:text-base">See how your website transforms seamlessly from desktop to mobile</p>
                         </div>
 
@@ -365,63 +470,10 @@ const WebDevelopment = () => {
 
                     {/* Tech Stack - Responsive */}
                     <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                        {/* Features Grid - Responsive */}
-                        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6 mb-12 sm:mb-16 md:mb-20">
-                            {features.map((feature, index) => (
-                                <div
-                                    key={index}
-                                    className="group bg-white border border-gray-300 rounded-xl sm:rounded-2xl p-4 sm:p-6 shadow-sm transition-all duration-300 hover:shadow-lg hover:-translate-y-1"
-                                >
-                                    <div className="flex items-center justify-center w-12 h-12 sm:w-14 sm:h-14 rounded-xl bg-gray-100 text-blue-600 mb-4 sm:mb-6 transition-transform group-hover:scale-110">
-                                        <feature.icon className="w-5 h-5 sm:w-6 sm:h-6" />
-                                    </div>
-                                    <h3 className="text-lg sm:text-xl font-semibold text-slate-900 mb-2">
-                                        {feature.title}
-                                    </h3>
-                                    <p className="text-xs sm:text-sm text-slate-700 leading-relaxed mb-3 sm:mb-4">
-                                        {feature.description}
-                                    </p>
-
-                                    {/* Simulated UI Block - Responsive */}
-                                    <div className="bg-gray-50 border border-gray-200 rounded-lg sm:rounded-xl p-3 sm:p-4 text-xs sm:text-sm text-slate-700">
-                                        <p className="mb-2 font-medium">Example:</p>
-                                        {feature.title === "Modern Web Apps" && (
-                                            <div>
-                                                <p className="mb-1">📊 Dashboard: User Analytics</p>
-                                                <div className="h-2 rounded-full bg-blue-600 w-3/4 mb-1"></div>
-                                                <p className="text-xs text-slate-600">Active Users: 1.2k</p>
-                                            </div>
-                                        )}
-                                        {feature.title === "Responsive Design" && (
-                                            <div>
-                                                <p className="mb-1">📱 Devices:</p>
-                                                <div className="flex flex-wrap gap-1 sm:gap-2 text-xs text-slate-600">
-                                                    <span>✔️ Mobile</span>
-                                                    <span>✔️ Tablet</span>
-                                                    <span>✔️ Desktop</span>
-                                                </div>
-                                            </div>
-                                        )}
-                                        {feature.title === "Lightning Fast" && (
-                                            <div>
-                                                <p>⚡ Load Time: <span className="text-green-600">0.8s</span></p>
-                                                <p className="text-xs text-slate-600">GTMetrix Grade: A</p>
-                                            </div>
-                                        )}
-                                        {feature.title === "SEO Optimized" && (
-                                            <div>
-                                                <p>🔍 Meta Tags & Alt Text</p>
-                                                <p className="text-xs text-slate-600">Lighthouse Score: 97</p>
-                                            </div>
-                                        )}
-                                    </div>
-                                </div>
-                            ))}
-                        </div>
 
                         {/* Tech Toolbox - Responsive */}
                         <div className="text-center mb-10 sm:mb-12 md:mb-16">
-                            <h2 className="text-5xl md:text-6xl font-medium font-serif text-slate-900 mb-2">Tech Toolbox</h2>
+                            <h2 className="text-5xl md:text-6xl font-medium font-serif bg-linear-to-r from-slate-900 via-blue-900 to-purple-900 bg-clip-text text-transparent leading-tight mb-2">Tech Toolbox</h2>
                             <p className="text-slate-700 text-base sm:text-lg">The technologies powering our code.</p>
                         </div>
 

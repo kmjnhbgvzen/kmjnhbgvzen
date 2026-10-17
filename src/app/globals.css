@@ -35,10 +35,13 @@
 
 html {
   scroll-behavior: smooth;
+  overflow-x: hidden;
+  max-width: 100%;
 }
 
 body {
   overflow-x: hidden;
+  max-width: 100%;
   font-family: var(--font-body);
   font-size: var(--text-paragraph);
   line-height: 1.7;
@@ -91,6 +94,21 @@ pre, code, kbd, samp, .font-mono, [class*="font-mono"] {
 
 .font-body {
   font-family: var(--font-body);
+}
+
+/* =====================================================================
+   STANDARDIZED MAIN HEADING SYSTEM
+   Reference: "Build Powerful Software Solutions" (/services/software-development)
+   ===================================================================== */
+.main-heading {
+  font-family: var(--font-serif);
+  font-weight: 500;
+  line-height: 1.25;
+  background-image: linear-gradient(to right, #0f172a, #1e3a8a, #581c87);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
 }
 
 /* =====================================================================

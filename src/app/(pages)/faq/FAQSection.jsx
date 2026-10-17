@@ -8,7 +8,7 @@ export default function FAQSection({ faqs }) {
   return (
     <section className="bg-slate-50 pt-8 pb-12 sm:py-16 px-4">
       <div className="max-w-5xl mx-auto">
-        <h1 className="text-3xl sm:text-5xl md:text-6xl font-medium font-serif text-slate-900 mb-4 sm:mb-6 leading-tight tracking-tight text-center mt-0 sm:mt-8 md:mt-12">
+        <h1 className="text-3xl sm:text-5xl md:text-6xl font-medium font-serif bg-linear-to-r from-slate-900 via-blue-900 to-purple-900 bg-clip-text text-transparent mb-4 sm:mb-6 leading-tight tracking-tight text-center mt-0 sm:mt-8 md:mt-12">
           Frequently Asked Questions
         </h1>
 

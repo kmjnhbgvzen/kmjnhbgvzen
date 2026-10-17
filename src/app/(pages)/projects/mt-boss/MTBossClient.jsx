@@ -341,11 +341,8 @@ export default function MTBossClient() {
               </div>
 
               {/* Main Heading */}
-              <h1 className="text-3xl sm:text-5xl md:text-6xl font-medium font-serif text-slate-900 mb-4 sm:mb-6 leading-tight tracking-tight">
-                MTBoss{" "}
-                <span className="bg-gradient-to-r from-[#2eaad4] via-[#2c67f2] to-[#2563eb] bg-clip-text text-transparent">
-                  Construction
-                </span>
+              <h1 className="text-3xl sm:text-5xl md:text-6xl font-medium font-serif bg-linear-to-r from-slate-900 via-blue-900 to-purple-900 bg-clip-text text-transparent mb-4 sm:mb-6 leading-tight tracking-tight">
+                MTBoss Construction
               </h1>
 
               {/* Highlighted Subtitle */}

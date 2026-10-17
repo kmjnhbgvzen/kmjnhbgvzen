@@ -86,12 +86,8 @@ const CareersPage = () => {
         }`}>
 
           
-          <h1 className="text-3xl sm:text-5xl md:text-6xl font-medium font-serif text-slate-900 mb-4 sm:mb-6 leading-tight tracking-tight">
-            Shape the
-            <span className="relative">
-              <span className="bg-linear-to-r from-blue-600 via-purple-600 to-cyan-600 bg-clip-text text-transparent"> Future</span>
-              <div className="absolute -bottom-2 left-0 w-full h-1 bg-linear-to-r from-blue-600 via-purple-600 to-cyan-600 opacity-60"></div>
-            </span>
+          <h1 className="text-3xl sm:text-5xl md:text-6xl font-medium font-serif bg-linear-to-r from-slate-900 via-blue-900 to-purple-900 bg-clip-text text-transparent mb-4 sm:mb-6 leading-tight tracking-tight">
+            Shape the Future
             <br />of Technology
           </h1>
           
@@ -116,7 +112,7 @@ const CareersPage = () => {
       <section id="open-positions" className=" px-4 sm:px-6 lg:px-8 relative">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
-            <h2 className="text-3xl sm:text-5xl md:text-6xl font-medium font-serif text-slate-900 mb-4 sm:mb-6 leading-tight tracking-tight">
+            <h2 className="text-3xl sm:text-5xl md:text-6xl font-medium font-serif bg-linear-to-r from-slate-900 via-blue-900 to-purple-900 bg-clip-text text-transparent mb-4 sm:mb-6 leading-tight tracking-tight">
               Open Positions
             </h2>
             <p className="text-base sm:text-lg md:text-xl text-slate-600 max-w-3xl mx-auto leading-relaxed mb-8">

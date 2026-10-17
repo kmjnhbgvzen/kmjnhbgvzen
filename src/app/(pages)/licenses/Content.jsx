@@ -65,7 +65,7 @@ const LicensesPage = () => {
                         <div className="inline-flex items-center justify-center w-16 h-16 bg-linear-to-r from-blue-500 to-purple-600 rounded-2xl mb-6">
                             <Shield className="w-8 h-8 text-white" />
                         </div>
-                        <h1 className="text-4xl md:text-5xl lg:text-6xl font-medium font-serif bg-linear-to-r from-slate-900 to-slate-700 bg-clip-text text-transparent mb-4">
+                        <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-medium font-serif bg-linear-to-r from-slate-900 via-blue-900 to-purple-900 bg-clip-text text-transparent leading-tight mb-4">
                             Licenses & Certifications
                         </h1>
                         <p className="text-xl text-slate-600 max-w-3xl mx-auto leading-relaxed">

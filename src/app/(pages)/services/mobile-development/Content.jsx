@@ -122,26 +122,23 @@ class MyApp extends StatelessWidget {
   ];
 
   return (
-    <div className="min-h-fit lg:min-h-screen bg-linear-to-br from-slate-50 via-gray-50 to-white">
+    <div className="min-h-fit lg:min-h-screen bg-linear-to-br from-slate-50 via-gray-50 to-white w-full max-w-full overflow-x-hidden">
 
 
       {/* Hero Section - Responsive */}
-      <section className="pt-8 sm:pt-12 lg:pt-36 pb-12 lg:pb-20 px-4 sm:px-6 lg:px-8 relative overflow-hidden">
+      <section className="pt-20 sm:pt-24 lg:pt-36 pb-6 sm:pb-8 lg:pb-10 px-4 sm:px-6 lg:px-8 relative overflow-hidden w-full">
         <div className="absolute inset-0 bg-linear-to-r from-blue-100/40 via-sky-50/30 to-blue-50/20 blur-3xl"></div>
-        <div className="max-w-7xl mx-auto relative z-10 pt-0">
-          <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-10 items-center">
+        <div className="max-w-7xl mx-auto relative z-10 pt-0 w-full min-w-0">
+          <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-10 items-start w-full min-w-0">
             {/* Left Content */}
-            <div className="lg:col-span-7 xl:col-span-8">
-              <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-[2.65rem] xl:text-[3.25rem] 2xl:text-6xl font-bold font-serif text-slate-900 mb-4 sm:mb-6 leading-tight tracking-tight whitespace-normal sm:whitespace-nowrap">
-                Mobile App{" "}
-                <span className="bg-gradient-to-r from-[#2eaad4] to-[#2c67f2] bg-clip-text text-transparent">
-                  Development
-                </span>
+            <div className="lg:col-span-7 xl:col-span-8 min-w-0 w-full">
+              <h1 className="text-5xl md:text-6xl font-medium font-serif bg-linear-to-r from-slate-900 via-blue-900 to-purple-900 bg-clip-text text-transparent leading-tight mb-4 sm:mb-6">
+                Mobile App Development
               </h1>
               <p className="max-w-2xl text-base sm:text-lg md:text-xl text-slate-700 mb-6 sm:mb-8 leading-relaxed">
                 Transform your ideas into powerful mobile experiences with native performance and stunning design.
               </p>
-              <div className="flex flex-wrap gap-3 sm:gap-4 mb-6 sm:mb-8">
+              <div className="flex flex-wrap gap-2 sm:gap-4 mb-6 sm:mb-8">
                 {features.map((feature, index) => (
                   <div key={index} className="flex items-center space-x-2 bg-white px-3 sm:px-4 py-2 rounded-full border border-gray-300 shadow-sm">
                     <feature.icon className="w-3 h-3 sm:w-4 sm:h-4 text-blue-600" />
@@ -152,7 +149,7 @@ class MyApp extends StatelessWidget {
             </div>
 
             {/* Right Code Editor - Responsive */}
-            <div className="lg:col-span-5 xl:col-span-4 bg-gradient-to-br from-slate-900 via-indigo-950 to-purple-950 backdrop-blur-sm rounded-xl border border-cyan-500/30 overflow-hidden shadow-2xl shadow-cyan-500/20 relative">
+            <div className="lg:col-span-5 xl:col-span-4 min-w-0 w-full max-w-full bg-gradient-to-br from-slate-900 via-indigo-950 to-purple-950 backdrop-blur-sm rounded-xl border border-cyan-500/30 overflow-hidden shadow-2xl shadow-cyan-500/20 relative">
               {/* Jellyfish glow effect */}
               <div className="absolute inset-0 bg-gradient-to-br from-cyan-500/10 via-purple-500/10 to-pink-500/10 animate-pulse"></div>
 
@@ -168,13 +165,13 @@ class MyApp extends StatelessWidget {
                 <Code className="w-3 h-3 sm:w-4 sm:h-4 text-cyan-400" />
               </div>
 
-              <div className="relative p-3 sm:p-4 font-mono text-xs sm:text-sm overflow-x-auto bg-gradient-to-br from-slate-900/90 to-indigo-950/90">
+              <div className="relative p-3 sm:p-4 font-mono text-xs sm:text-sm overflow-x-auto max-w-full bg-gradient-to-br from-slate-900/90 to-indigo-950/90">
                 {/* Floating particles effect (jellyfish tentacles) */}
                 <div className="absolute top-0 left-1/4 w-1 h-full bg-gradient-to-b from-cyan-500/20 via-purple-500/20 to-transparent blur-sm animate-pulse"></div>
                 <div className="absolute top-0 left-2/4 w-1 h-full bg-gradient-to-b from-purple-500/20 via-pink-500/20 to-transparent blur-sm animate-pulse" style={{ animationDelay: '1s' }}></div>
                 <div className="absolute top-0 left-3/4 w-1 h-full bg-gradient-to-b from-pink-500/20 via-cyan-500/20 to-transparent blur-sm animate-pulse" style={{ animationDelay: '2s' }}></div>
 
-                <pre className="text-cyan-200 leading-relaxed relative z-10">
+                <pre className="text-cyan-200 leading-relaxed relative z-10 max-w-full overflow-x-auto">
                   <code className="drop-shadow-[0_0_8px_rgba(34,211,238,0.3)]">{codeSnippets[codeIndex]}</code>
                 </pre>
               </div>
@@ -188,20 +185,20 @@ class MyApp extends StatelessWidget {
       </section>
 
       {/* Dashboard Section - Responsive */}
-      <section className="py-12 sm:py-16 md:py-20 px-4 sm:px-6 lg:px-8">
-        <div className="max-w-7xl mx-auto">
-          <div className="mb-10 sm:mb-12 md:mb-16 text-center">
-            <h2 className="text-4xl md:text-5xl lg:text-6xl font-medium font-serif text-slate-900 mb-3 sm:mb-4">Development Dashboard</h2>
+      <section className="pt-6 sm:pt-8 lg:pt-10 pb-12 sm:pb-16 px-4 sm:px-6 lg:px-8 overflow-hidden w-full">
+        <div className="max-w-7xl mx-auto w-full min-w-0">
+          <div className="mb-6 sm:mb-8 lg:mb-10 text-center">
+            <h2 className="text-5xl md:text-6xl font-medium font-serif bg-linear-to-r from-slate-900 via-blue-900 to-purple-900 bg-clip-text text-transparent leading-tight mb-3 sm:mb-4">Development Dashboard</h2>
             <p className="text-slate-700 max-w-2xl mx-auto text-sm sm:text-base">Real-time insights into our mobile app development process</p>
           </div>
 
           {/* Stats Grid - Responsive */}
-          <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6 mb-8 sm:mb-12">
+          <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6 mb-8 sm:mb-12 w-full min-w-0">
             {dashboardStats.map((stat, index) => (
-              <div key={index} className="bg-white backdrop-blur-sm rounded-xl p-4 sm:p-6 border border-gray-300 shadow-sm">
+              <div key={index} className="bg-white backdrop-blur-sm rounded-xl p-4 sm:p-6 border border-gray-300 shadow-sm min-w-0">
                 <div className="flex items-center justify-between mb-2">
-                  <span className="text-slate-700 text-xs sm:text-sm">{stat.label}</span>
-                  <TrendingUp className="w-3 h-3 sm:w-4 sm:h-4 text-green-600" />
+                  <span className="text-slate-700 text-xs sm:text-sm truncate">{stat.label}</span>
+                  <TrendingUp className="w-3 h-3 sm:w-4 sm:h-4 text-green-600 shrink-0" />
                 </div>
                 <div className="flex items-end space-x-2">
                   <span className="text-2xl sm:text-3xl font-bold text-slate-900">{stat.value}</span>
@@ -212,11 +209,11 @@ class MyApp extends StatelessWidget {
           </div>
 
           {/* Phone Mockups - Responsive */}
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 sm:gap-12 items-center">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 sm:gap-12 items-center w-full min-w-0 overflow-hidden">
             {/* iPhone Mockup - Responsive */}
-            <div className="flex justify-center">
-              <div className="relative">
-                <div className="w-64 h-[520px] sm:w-72 sm:h-[600px] bg-black rounded-[2.5rem] sm:rounded-[3rem] p-2 shadow-2xl">
+            <div className="flex justify-center w-full min-w-0 overflow-hidden">
+              <div className="relative max-w-full">
+                <div className="w-64 max-w-[85vw] h-[520px] sm:w-72 sm:h-[600px] bg-black rounded-[2.5rem] sm:rounded-[3rem] p-2 shadow-2xl">
                   <div className="w-full h-full bg-white rounded-4xl sm:rounded-[2.5rem] overflow-hidden relative">
                     {/* Notch */}
                     <div className="absolute top-0 left-1/2 transform -translate-x-1/2 w-28 h-5 sm:w-32 sm:h-6 bg-black rounded-b-2xl z-10"></div>
@@ -295,9 +292,9 @@ class MyApp extends StatelessWidget {
             </div>
 
             {/* Android Mockup - Responsive */}
-            <div className="flex justify-center">
-              <div className="relative">
-                <div className="w-64 h-[520px] sm:w-72 sm:h-[600px] bg-gray-800 rounded-3xl sm:rounded-4xl p-2.5 sm:p-3 shadow-2xl">
+            <div className="flex justify-center w-full min-w-0 overflow-hidden">
+              <div className="relative max-w-full">
+                <div className="w-64 max-w-[85vw] h-[520px] sm:w-72 sm:h-[600px] bg-gray-800 rounded-3xl sm:rounded-4xl p-2.5 sm:p-3 shadow-2xl">
                   <div className="w-full h-full bg-white rounded-[1.2rem] sm:rounded-3xl overflow-hidden relative">
                     {/* Screen Content */}
                     <div className="h-full bg-linear-to-br from-green-50 to-blue-50 relative">
@@ -412,28 +409,28 @@ class MyApp extends StatelessWidget {
       </section>
 
       {/* Services Section - Responsive */}
-      <section className="py-12 sm:py-16 md:py-20 px-4 sm:px-6 lg:px-8 bg-gray-50">
-        <div className="max-w-7xl mx-auto">
+      <section className="py-12 sm:py-16 md:py-20 px-4 sm:px-6 lg:px-8 bg-gray-50 overflow-hidden w-full">
+        <div className="max-w-7xl mx-auto w-full min-w-0">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6 }}
             className="text-center mb-10 sm:mb-12 md:mb-16"
           >
-            <h2 className="text-4xl lg:text-6xl md:text-5xl font-medium font-serif text-slate-900 mb-3 sm:mb-4">Our Development Services</h2>
+            <h2 className="text-5xl md:text-6xl font-medium font-serif bg-linear-to-r from-slate-900 via-blue-900 to-purple-900 bg-clip-text text-transparent leading-tight mb-3 sm:mb-4">Our Development Services</h2>
             <p className="text-slate-700 max-w-2xl mx-auto text-sm sm:text-base">
               Comprehensive mobile app development and branding solutions tailored to your business needs
             </p>
           </motion.div>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8 w-full min-w-0">
             {developmentServices.map((service, index) => (
               <motion.div
                 key={index}
                 initial={{ opacity: 0, y: 30 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.6, delay: index * 0.1 }}
-                className="bg-white backdrop-blur-sm rounded-xl p-6 sm:p-8 border border-gray-300 hover:border-gray-400 transition-all duration-300 group shadow-sm hover:shadow-lg"
+                className="bg-white backdrop-blur-sm rounded-xl p-5 sm:p-8 border border-gray-300 hover:border-gray-400 transition-all duration-300 group shadow-sm hover:shadow-lg w-full min-w-0 overflow-hidden"
               >
                 <div className={`w-14 h-14 sm:w-16 sm:h-16 bg-linear-to-r ${service.color} rounded-xl flex items-center justify-center mb-4 sm:mb-6 group-hover:scale-110 transition-transform duration-300`}>
                   <service.icon className="w-7 h-7 sm:w-8 sm:h-8 text-white" />
@@ -442,7 +439,7 @@ class MyApp extends StatelessWidget {
                 <p className="text-slate-700 mb-4 sm:mb-6 leading-relaxed text-sm sm:text-base">{service.description}</p>
                 <div className="space-y-2">
                   <div className="text-sm font-medium text-slate-900">Technologies:</div>
-                  <div className="flex flex-wrap gap-2">
+                  <div className="flex flex-wrap gap-1.5 sm:gap-2">
                     {service.technologies.map((tech, techIndex) => (
                       <span
                         key={techIndex}
@@ -460,21 +457,21 @@ class MyApp extends StatelessWidget {
       </section>
 
       {/* Process Section - Responsive */}
-      <section className="py-10 px-4 sm:px-6 lg:px-8">
-        <div className="max-w-7xl mx-auto">
+      <section className="py-10 px-4 sm:px-6 lg:px-8 overflow-hidden w-full">
+        <div className="max-w-7xl mx-auto w-full min-w-0">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6 }}
             className="text-center mb-10 sm:mb-12 md:mb-16"
           >
-            <h2 className="text-4xl lg:text-6xl md:text-5xl font-medium font-serif text-slate-900 mb-3 sm:mb-4">Development Process</h2>
+            <h2 className="text-5xl md:text-6xl font-medium font-serif bg-linear-to-r from-slate-900 via-blue-900 to-purple-900 bg-clip-text text-transparent leading-tight mb-3 sm:mb-4">Development Process</h2>
             <p className="text-slate-700 max-w-2xl mx-auto text-sm sm:text-base">
               Our proven methodology ensures successful app delivery from concept to store launch
             </p>
           </motion.div>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 sm:gap-8">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6 lg:gap-8 w-full min-w-0">
             {[
               { step: "01", title: "Discovery & Planning", desc: "Requirements analysis, market research, and technical planning" },
               { step: "02", title: "Design & Prototyping", desc: "UI/UX design, branding, and interactive prototypes" },
@@ -486,13 +483,15 @@ class MyApp extends StatelessWidget {
                 initial={{ opacity: 0, y: 30 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.6, delay: index * 0.2 }}
-                className="text-center"
+                className="flex flex-row sm:flex-col items-start sm:items-center text-left sm:text-center gap-4 sm:gap-0 p-4 sm:p-0 bg-white sm:bg-transparent rounded-2xl sm:rounded-none border border-slate-200/90 sm:border-0 shadow-xs sm:shadow-none"
               >
-                <div className="w-14 h-14 sm:w-16 sm:h-16 bg-linear-to-r from-blue-500 to-purple-600 rounded-full flex items-center justify-center mx-auto mb-4 sm:mb-6 text-white font-bold text-base sm:text-lg">
+                <div className="w-12 h-12 sm:w-16 sm:h-16 shrink-0 bg-linear-to-r from-blue-600 to-indigo-600 rounded-xl sm:rounded-full flex items-center justify-center sm:mx-auto sm:mb-6 text-white font-bold text-sm sm:text-lg shadow-sm">
                   {phase.step}
                 </div>
-                <h3 className="text-lg sm:text-xl font-semibold text-slate-900 mb-3 sm:mb-4">{phase.title}</h3>
-                <p className="text-slate-700 leading-relaxed text-sm sm:text-base">{phase.desc}</p>
+                <div className="flex-1 min-w-0">
+                  <h3 className="text-base sm:text-xl font-semibold text-slate-900 mb-1 sm:mb-4">{phase.title}</h3>
+                  <p className="text-slate-600 leading-relaxed text-xs sm:text-base font-normal">{phase.desc}</p>
+                </div>
               </motion.div>
             ))}
           </div>

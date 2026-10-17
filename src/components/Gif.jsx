@@ -4,10 +4,8 @@ export default function VideoBanner() {
   return (
     <section className="relative w-full  text-black py-11 px-4 overflow-hidden">
 
-      {/* ✅ Heading */}
-      <h2 className="text-3xl sm:text-5xl md:text-6xl font-medium font-serif text-slate-900 mb-4 sm:mb-6 leading-tight tracking-tight text-left md:text-center">
-        ON YOUR MARKS. GET SET GO.{" "}
-        <span className="text-emerald-400">GROW.</span>
+      <h2 className="text-3xl sm:text-5xl md:text-6xl font-medium font-serif bg-linear-to-r from-slate-900 via-blue-900 to-purple-900 bg-clip-text text-transparent mb-4 sm:mb-6 leading-tight tracking-tight text-left md:text-center">
+        ON YOUR MARKS. GET SET GO. GROW.
       </h2>
 
       {/* ✅ Subheading */}

@@ -369,22 +369,21 @@ const portfolio = () => {
     return (
         <>
             {/* Hero Section - Responsive */}
-            <div className="text-center pt-8 sm:pt-12 lg:pt-36 pb-6 sm:pb-10 md:pb-16 px-4 sm:px-6">
-                <div className="inline-flex items-center px-4 sm:px-6 py-2 sm:py-3 rounded-full text-sm sm:text-base md:text-lg font-medium bg-linear-to-r from-emerald-50 to-blue-50 border border-emerald-200 text-teal-400 mb-3 sm:mb-6 md:mb-8 backdrop-blur-sm hover:scale-105 transition-transform duration-300 relative overflow-hidden">
-                    <svg className="w-3 h-3 sm:w-4 sm:h-4 mr-2 animate-pulse" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth="2">
+            <div className="text-center pt-16 sm:pt-20 lg:pt-[170px] pb-6 sm:pb-10 md:pb-16 px-4 sm:px-6">
+                <div className="inline-flex items-center gap-2 px-4 sm:px-6 py-2 sm:py-2.5 rounded-full text-xs sm:text-sm md:text-base font-semibold uppercase tracking-wider bg-blue-50 text-blue-900 border border-blue-200/90 shadow-2xs mb-4 sm:mb-6 md:mb-8 backdrop-blur-sm hover:scale-105 transition-transform duration-300 relative overflow-hidden">
+                    <svg className="w-3.5 h-3.5 sm:w-4 sm:h-4 mr-1 text-blue-800 animate-pulse" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth="2">
                         <rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
                         <circle cx="8.5" cy="8.5" r="1.5"></circle>
                         <polyline points="21 15 16 10 5 21"></polyline>
                     </svg>
                     OUR PORTFOLIO
-                    <div className="ml-2 w-2 h-2 bg-emerald-500 rounded-full animate-ping" />
+                    <div className="ml-1 w-2 h-2 bg-blue-700 rounded-full animate-ping" />
                 </div>
 
-                <h1 className="text-3xl sm:text-5xl md:text-6xl font-medium font-serif text-slate-900 mb-4 sm:mb-6 leading-tight tracking-tight px-4">
-                    <span className="text-slate-900 block">Showcasing our best</span>
-                    <span className="block bg-linear-to-r from-emerald-600 via-blue-600 to-purple-600 bg-clip-text text-transparent mt-2 relative">
+                <h1 className="text-5xl md:text-6xl font-medium font-serif bg-linear-to-r from-slate-900 via-blue-900 to-purple-900 bg-clip-text text-transparent leading-tight mb-4 sm:mb-6 px-4">
+                    <span className="block">Showcasing our best</span>
+                    <span className="block mt-1 sm:mt-2">
                         creative work
-                        <div className="hidden sm:block absolute -top-4 sm:-top-6 -right-4 sm:-right-6 w-8 h-8 sm:w-12 sm:h-12 bg-linear-to-r from-emerald-400 to-blue-500 rounded-full animate-bounce opacity-40 blur-sm" />
                     </span>
                 </h1>
                 <p className="text-base sm:text-lg md:text-xl text-slate-600 max-w-3xl mx-auto leading-relaxed px-4">

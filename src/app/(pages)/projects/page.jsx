@@ -65,11 +65,8 @@ export default function ProjectsPage() {
           </div>
 
           {/* Main Heading: Explore Our Case Studies */}
-          <h1 className="text-3xl sm:text-5xl md:text-6xl font-medium font-serif text-slate-900 mb-4 sm:mb-6 leading-tight tracking-tight">
-            Explore Our{" "}
-            <span className="bg-gradient-to-r from-[#2eaad4] to-[#2c67f2] bg-clip-text text-transparent">
-              Case Studies
-            </span>
+          <h1 className="text-3xl sm:text-5xl md:text-6xl font-medium font-serif bg-linear-to-r from-slate-900 via-blue-900 to-purple-900 bg-clip-text text-transparent mb-4 sm:mb-6 leading-tight tracking-tight">
+            Explore Our Case Studies
           </h1>
 
           {/* Description */}

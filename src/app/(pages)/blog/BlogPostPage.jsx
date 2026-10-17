@@ -63,7 +63,7 @@ const OurBlogPage = () => {
         
         {/* HEADER */}
         <div className="text-center mb-6 md:mb-8">
-  <h1 className="text-3xl sm:text-5xl md:text-6xl font-medium font-serif text-slate-900 mb-4 sm:mb-6 leading-tight tracking-tight mt-0 sm:mt-4 md:mt-28">
+  <h1 className="text-3xl sm:text-5xl md:text-6xl font-medium font-serif bg-linear-to-r from-slate-900 via-blue-900 to-purple-900 bg-clip-text text-transparent mb-4 sm:mb-6 leading-tight tracking-tight mt-0 sm:mt-4 md:mt-28">
     Our Blogs
   </h1>
   <p className="text-base sm:text-lg md:text-xl text-slate-600 max-w-3xl mx-auto leading-relaxed px-4">

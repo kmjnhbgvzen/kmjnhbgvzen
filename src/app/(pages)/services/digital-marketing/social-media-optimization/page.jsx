@@ -73,9 +73,9 @@ const SocialMediaLanding = () => {
     ];
 
     return (
-        <div className="min-h-fit lg:min-h-screen bg-white mt-0 lg:mt-32">
+        <div className="min-h-fit lg:min-h-screen bg-white pt-4 sm:pt-6 lg:pt-36">
             {/* Hero Section */}
-            <section className="px-4 sm:px-6 lg:px-8 pt-8 sm:pt-10 lg:py-16 pb-12 sm:pb-16 bg-white relative overflow-hidden">
+            <section className="px-4 sm:px-6 lg:px-8 pt-2 sm:pt-4 lg:pt-2 pb-6 sm:pb-8 lg:pb-10 bg-white relative overflow-hidden">
                 {/* Decorative subtle blue ambient elements */}
                 <div className="absolute w-72 h-72 rounded-full -top-20 -left-20 bg-blue-100/40 blur-3xl pointer-events-none" />
                 <div className="absolute w-80 h-80 rounded-full top-1/2 -right-20 bg-sky-100/30 blur-3xl pointer-events-none" />
@@ -89,9 +89,9 @@ const SocialMediaLanding = () => {
                                 </span>
                             </div>
 
-                            <h1 className="text-4xl md:text-5xl lg:text-6xl font-medium font-serif leading-tight uppercase text-slate-900 mb-5">
+                            <h1 className="text-5xl md:text-6xl font-medium font-serif bg-linear-to-r from-slate-900 via-blue-900 to-purple-900 bg-clip-text text-transparent leading-tight mb-4 sm:mb-5">
                                 Social Media <br />
-                                <span className="text-[#2563EB]">Optimization</span>
+                                Optimization
                             </h1>
 
                             <p className="text-slate-600 mb-8 text-base sm:text-lg leading-relaxed max-w-lg">
@@ -141,21 +141,21 @@ const SocialMediaLanding = () => {
             </section>
 
             {/* Services Section */}
-            <section id="smo-services" className="relative py-16 sm:py-20 bg-slate-50/50 border-t border-slate-100 overflow-hidden">
+            <section id="smo-services" className="relative pt-6 sm:pt-8 lg:pt-10 pb-12 sm:pb-16 bg-slate-50/50 border-t border-slate-100 overflow-hidden">
                 {/* Background decorative subtle glows */}
                 <div className="absolute w-80 h-80 rounded-full -top-24 -left-24 bg-blue-100/30 blur-3xl pointer-events-none" />
                 <div className="absolute w-80 h-80 rounded-full -bottom-24 -right-24 bg-sky-100/30 blur-3xl pointer-events-none" />
 
                 <div className="container mx-auto max-w-6xl px-4 sm:px-6 relative z-10">
                     {/* Header */}
-                    <div className="text-center mb-12 sm:mb-16">
+                    <div className="text-center mb-8 sm:mb-10 lg:mb-12">
                         <div className="mb-3.5 sm:mb-4">
                             <span className="inline-flex items-center gap-1.5 bg-blue-50 text-blue-700 px-4 py-1.5 rounded-full text-xs sm:text-sm font-semibold uppercase tracking-wider border border-blue-200/70 shadow-2xs">
                                 Social Media Solutions
                             </span>
                         </div>
-                        <h2 className="text-3xl sm:text-4xl md:text-5xl font-medium font-serif uppercase text-slate-900 mb-4 leading-tight">
-                            Unleash Your Unique Brand Story <br /> Across <span className="text-[#2563EB]">Digital Platforms</span>
+                        <h2 className="text-5xl md:text-6xl font-medium font-serif bg-linear-to-r from-slate-900 via-blue-900 to-purple-900 bg-clip-text text-transparent leading-tight mb-4">
+                            Unleash Your Unique Brand Story <br /> Across Digital Platforms
                         </h2>
                         <p className="text-slate-600 text-sm sm:text-base md:text-lg max-w-2xl mx-auto leading-relaxed">
                             Comprehensive, results-driven social media management and optimization campaigns built to scale your business.

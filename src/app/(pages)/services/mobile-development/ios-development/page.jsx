@@ -140,29 +140,29 @@ class UserViewModel: ObservableObject {
   ];
 
   return (
-    <div className="min-h-fit lg:min-h-screen bg-white pt-0 md:py-24 pb-12">
+    <div className="min-h-fit lg:min-h-screen bg-white pt-12 sm:pt-20 lg:pt-32 pb-12 w-full max-w-full overflow-x-hidden">
 
 
       {/* Hero Section */}
-      <section className="pt-8 sm:pt-20 pb-12 sm:pb-20 md:pb-32 px-4 sm:px-6 lg:px-8 relative overflow-hidden">
+      <section className="pt-2 sm:pt-3 lg:pt-4 pb-10 sm:pb-16 px-4 sm:px-6 lg:px-8 relative overflow-hidden w-full">
         <div className="absolute inset-0 bg-linear-to-r from-blue-100/40 to-purple-100/40 blur-3xl"></div>
-        <div className="max-w-7xl mx-auto relative z-10">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 sm:gap-12 items-center">
+        <div className="max-w-7xl mx-auto relative z-10 w-full min-w-0">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 sm:gap-12 items-center w-full min-w-0">
             {/* Left Content */}
-            <div>
-              <div className="inline-flex items-center px-3 sm:px-4 py-2 bg-blue-100 border border-blue-300 rounded-full mb-6">
+            <div className="min-w-0">
+              <div className="inline-flex items-center px-3 sm:px-4 py-1.5 sm:py-2 bg-blue-100 border border-blue-300 rounded-full mb-3 sm:mb-5">
                 <Apple className="w-4 h-4 mr-2 text-blue-700" />
-                <span className="text-sm font-medium text-blue-700">iOS Development</span>
+                <span className="text-xs sm:text-sm font-medium text-blue-700">iOS Development</span>
               </div>
 
-              <h1 className="text-5xl md:text-6xl font-medium font-serif mb-4 sm:mb-6 bg-linear-to-r from-blue-700 via-purple-600 to-pink-600 bg-clip-text text-transparent">
+              <h1 className="text-3xl sm:text-5xl md:text-6xl font-medium font-serif mb-3 sm:mb-5 bg-linear-to-r from-slate-900 via-blue-900 to-purple-900 bg-clip-text text-transparent leading-tight">
                 Professional iOS App Development
               </h1>
-              <p className="text-base sm:text-lg md:text-xl text-slate-700 mb-6 sm:mb-8 leading-relaxed">
+              <p className="text-base sm:text-lg md:text-xl text-slate-700 mb-4 sm:mb-7 leading-relaxed">
                 Create stunning, high-performance iOS applications with Swift, SwiftUI, and cutting-edge Apple technologies that deliver exceptional user experiences.
               </p>
 
-              <div className="flex flex-wrap gap-3 sm:gap-4 mb-6 sm:mb-8">
+              <div className="flex flex-wrap gap-2.5 sm:gap-4 mb-5 sm:mb-8">
                 {iosFeatures.map((feature, index) => (
                   <div key={index} className="flex items-center space-x-2 bg-white px-3 sm:px-4 py-2 rounded-full border border-gray-300 shadow-sm hover:shadow-md transition-shadow">
                     <feature.icon className="w-3 h-3 sm:w-4 sm:h-4 text-blue-600" />
@@ -209,14 +209,14 @@ class UserViewModel: ObservableObject {
       </section>
 
       {/* Stats Section */}
-      <section className="py-12 px-4 sm:px-6 lg:px-8 bg-white">
+      <section className="pt-6 pb-4 sm:py-10 lg:py-12 px-4 sm:px-6 lg:px-8 bg-white">
         <div className="max-w-7xl mx-auto">
-          <div className="mb-10 sm:mb-12 md:mb-16 text-center">
-            <h2 className="text-5xl md:text-6xl font-medium font-serif text-slate-900 mb-3 sm:mb-4">Our iOS Expertise</h2>
+          <div className="mb-6 sm:mb-10 md:mb-16 text-center">
+            <h2 className="text-3xl sm:text-5xl md:text-6xl font-medium font-serif bg-linear-to-r from-slate-900 via-blue-900 to-purple-900 bg-clip-text text-transparent leading-tight mb-3 sm:mb-4">Our iOS Expertise</h2>
             <p className="text-slate-700 max-w-2xl mx-auto text-sm sm:text-base">Real-time metrics showcasing our iOS development excellence</p>
           </div>
 
-          <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6 mb-12">
+          <div className="grid grid-cols-2 lg:grid-cols-4 gap-3 sm:gap-6 mb-2 sm:mb-8">
             {dashboardStats.map((stat, index) => (
               <div key={index} className="bg-white backdrop-blur-sm rounded-xl p-4 sm:p-6 border border-gray-300 shadow-sm hover:shadow-md transition-shadow">
                 <div className="flex items-center justify-between mb-2">
@@ -234,7 +234,7 @@ class UserViewModel: ObservableObject {
       </section>
 
       {/* iPhone Mockup Section */}
-      <section className="py-12 sm:py-16 md:py-20 px-4 sm:px-6 lg:px-8 bg-white">
+      <section className="pt-4 sm:pt-8 lg:pt-10 pb-4 sm:pb-6 lg:pb-8 px-4 sm:px-6 lg:px-8 bg-white">
         <div className="max-w-7xl mx-auto">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 sm:gap-12 items-center">
             {/* Left - iPhone Mockup 1: Finance App */}
@@ -472,15 +472,15 @@ class UserViewModel: ObservableObject {
       </section>
 
       {/* Services Section */}
-      <section className="py-12 sm:py-16 md:py-20 px-4 sm:px-6 lg:px-8 bg-white">
+      <section className="pt-2 sm:pt-4 lg:pt-6 pb-4 sm:pb-6 lg:pb-8 px-4 sm:px-6 lg:px-8 bg-white">
         <div className="max-w-7xl mx-auto">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6 }}
-            className="text-center mb-10 sm:mb-12 md:mb-16"
+            className="text-center mb-6 sm:mb-8 md:mb-10"
           >
-            <h2 className="text-5xl md:text-6xl font-medium font-serif text-slate-900 mb-3 sm:mb-4">iOS Development Services</h2>
+            <h2 className="text-3xl sm:text-5xl md:text-6xl font-medium font-serif bg-linear-to-r from-slate-900 via-blue-900 to-purple-900 bg-clip-text text-transparent leading-tight mb-3 sm:mb-4">iOS Development Services</h2>
             <p className="text-slate-700 max-w-2xl mx-auto text-sm sm:text-base">
               Comprehensive iOS solutions using latest Apple technologies and best practices
             </p>
@@ -520,15 +520,15 @@ class UserViewModel: ObservableObject {
       </section>
 
       {/* Development Process */}
-      <section className="py-12 sm:py-16 md:py-20 px-4 sm:px-6 lg:px-8">
+      <section className="pt-4 sm:pt-6 lg:pt-8 pb-3 sm:pb-4 lg:pb-6 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6 }}
-            className="text-center mb-10 sm:mb-12 md:mb-16"
+            className="text-center mb-6 sm:mb-8 md:mb-10"
           >
-            <h2 className="text-5xl md:text-6xl font-medium font-serif text-slate-900 mb-3 sm:mb-4">iOS Development Process</h2>
+            <h2 className="text-3xl sm:text-5xl md:text-6xl font-medium font-serif bg-linear-to-r from-slate-900 via-blue-900 to-purple-900 bg-clip-text text-transparent leading-tight mb-3 sm:mb-4">iOS Development Process</h2>
             <p className="text-slate-700 max-w-2xl mx-auto text-sm sm:text-base">
               Apple-approved methodology with TestFlight and App Store optimization
             </p>
@@ -548,7 +548,7 @@ class UserViewModel: ObservableObject {
                 transition={{ duration: 0.6, delay: index * 0.2 }}
                 className="text-center"
               >
-                <div className="w-14 h-14 sm:w-16 sm:h-16 bg-linear-to-r from-blue-500 to-purple-600 rounded-full flex items-center justify-center mx-auto mb-4 sm:mb-6 text-white font-bold text-base sm:text-lg shadow-lg">
+                <div className="w-14 h-14 sm:w-16 sm:h-16 bg-linear-to-r from-blue-600 to-purple-600 rounded-full flex items-center justify-center mx-auto mb-3 sm:mb-4 text-white font-bold text-base sm:text-lg shadow-md">
                   {phase.step}
                 </div>
                 <h3 className="text-lg sm:text-xl font-semibold text-slate-900 mb-3 sm:mb-4">{phase.title}</h3>
@@ -560,11 +560,13 @@ class UserViewModel: ObservableObject {
       </section>
 
       {/* CTA Section */}
-      <section className="py-12 sm:py-16 md:py-20 px-4 sm:px-6 lg:px-8 bg-white">
-        <div className="max-w-4xl mx-auto text-center">
-          <div className="mb-6 sm:mb-8">
-            <Apple className="w-12 h-12 sm:w-16 sm:h-16 text-blue-600 mx-auto mb-3 sm:mb-4" />
-            <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-3 sm:mb-4 text-slate-900">Ready to Build Your iOS App?</h2>
+      <section className="pt-2 sm:pt-4 lg:pt-4 pb-8 sm:pb-12 lg:pb-16 px-4 sm:px-6 lg:px-8 bg-white">
+        <div className="max-w-6xl mx-auto text-center">
+          <div className="mb-4 sm:mb-5">
+            <Apple className="w-8 h-8 sm:w-10 sm:h-10 text-blue-600 mx-auto mb-2 sm:mb-2.5" />
+            <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-medium font-serif bg-linear-to-r from-slate-900 via-blue-900 to-purple-900 bg-clip-text text-transparent leading-tight mb-2.5 sm:mb-3 whitespace-normal sm:whitespace-nowrap">
+              Ready to Build Your iOS App?
+            </h2>
             <p className="text-base sm:text-lg md:text-xl text-slate-700">
               Let's create a stunning iOS application that shines on the App Store
             </p>

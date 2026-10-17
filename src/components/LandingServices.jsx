@@ -58,7 +58,7 @@ const ServicesSection = () => {
     <section className="bg-white text-black pt-10  pb-20 px-4">
       <div className="max-w-7xl mx-auto">
         {/* Header */}
-        <h2 className="text-3xl sm:text-5xl md:text-6xl font-medium font-serif text-slate-900 mb-4 sm:mb-6 leading-tight tracking-tight text-left md:text-center">
+        <h2 className="text-3xl sm:text-5xl md:text-6xl font-medium font-serif bg-linear-to-r from-slate-900 via-blue-900 to-purple-900 bg-clip-text text-transparent mb-4 sm:mb-6 leading-tight tracking-tight text-left md:text-center">
           OUR SERVICES
         </h2>
 

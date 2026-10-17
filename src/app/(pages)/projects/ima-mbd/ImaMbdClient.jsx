@@ -420,7 +420,7 @@ export default function ImaMbdClient() {
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-12 items-center">
             {/* Hero Left Content */}
             <div className="lg:col-span-7">
-              <h1 className="text-3xl sm:text-5xl md:text-6xl font-medium font-serif text-slate-900 mb-4 sm:mb-6 leading-tight tracking-tight">
+              <h1 className="text-3xl sm:text-5xl md:text-6xl font-medium font-serif bg-linear-to-r from-slate-900 via-blue-900 to-purple-900 bg-clip-text text-transparent mb-4 sm:mb-6 leading-tight tracking-tight">
                 Connecting Medical Professionals. Supporting Community Healthcare.
               </h1>
               <p className="text-lg sm:text-xl font-medium text-[#1769AA] mb-6 leading-relaxed">

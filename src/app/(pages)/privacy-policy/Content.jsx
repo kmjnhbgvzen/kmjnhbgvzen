@@ -115,7 +115,7 @@ const PrivacyPolicy = () => {
               <Shield className="w-4 h-4 text-blue-600" />
               <span className="text-xs sm:text-sm font-medium text-blue-700">Privacy First</span>
             </div>
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-medium font-serif mb-4 sm:mb-6 bg-linear-to-r from-slate-900 via-slate-800 to-slate-700 bg-clip-text text-transparent px-4">
+            <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-medium font-serif bg-linear-to-r from-slate-900 via-blue-900 to-purple-900 bg-clip-text text-transparent leading-tight mb-4 sm:mb-6 px-4">
               Privacy Policy
             </h1>
             <p className="text-base sm:text-xl text-slate-600 max-w-3xl mx-auto leading-relaxed px-4">

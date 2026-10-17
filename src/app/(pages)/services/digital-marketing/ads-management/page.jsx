@@ -1,26 +1,49 @@
 "use client";
 
 import React from "react";
+import { Target, BarChart3, TrendingUp, Rocket, Sparkles } from "lucide-react";
 
 const AdsManagement = ({ handleButtonClick }) => {
+    const serviceCards = [
+        {
+            icon: Target,
+            title: "Campaign Strategy",
+            description: "Data-driven strategies designed to reach your ideal customers."
+        },
+        {
+            icon: BarChart3,
+            title: "Performance Tracking",
+            description: "Monitor campaign performance and optimize results continuously."
+        },
+        {
+            icon: TrendingUp,
+            title: "Budget Optimization",
+            description: "Get maximum returns while keeping your advertising budget under control."
+        },
+        {
+            icon: Rocket,
+            title: "Conversion Growth",
+            description: "Turn qualified traffic into valuable leads and customers."
+        }
+    ];
+
     return (
-        <div className="font-sans text-gray-800 leading-relaxed pt-8 sm:pt-12 lg:pt-32">
+        <div className="font-sans text-slate-800 leading-relaxed pt-4 sm:pt-6 lg:pt-36">
 
             {/* HERO SECTION */}
-            <section className="relative px-4 sm:px-6 lg:px-8 pt-0 sm:pt-6 pb-8 sm:pb-10 bg-gray-50 overflow-hidden">
+            <section className="relative px-4 sm:px-6 lg:px-8 pt-2 sm:pt-4 lg:pt-2 pb-12 sm:pb-16 bg-gradient-to-b from-slate-50/70 via-white to-blue-50/20 overflow-hidden">
 
-                {/* Decorative Circle - Top Left */}
-                <div className="absolute top-0 left-0 w-48 h-48 sm:w-64 sm:h-64 bg-gradient-to-br from-[#1E3A8A] to-[#1E293B] rounded-full opacity-30 -translate-x-24 sm:-translate-x-32 -translate-y-24 sm:-translate-y-32 pointer-events-none"></div>
-
-                {/* Decorative Circle - Bottom Right */}
-                <div className="absolute bottom-0 right-0 w-72 h-72 sm:w-96 sm:h-96 bg-gradient-to-tl from-[#F8BBD9] to-[#E91E63] rounded-full opacity-15 translate-x-36 sm:translate-x-48 translate-y-36 sm:translate-y-48 pointer-events-none"></div>
+                {/* Subtle blue ambient glows - Zentrix Theme */}
+                <div className="absolute top-0 left-0 w-72 sm:w-80 h-72 sm:h-80 bg-blue-100/40 rounded-full blur-3xl -translate-x-20 -translate-y-20 pointer-events-none" />
+                <div className="absolute bottom-0 right-0 w-80 sm:w-96 h-80 sm:h-96 bg-sky-100/40 rounded-full blur-3xl translate-x-20 translate-y-20 pointer-events-none" />
 
                 <div className="max-w-6xl mx-auto relative z-10">
 
-                    {/* DIGITAL MARKETING */}
-                    <div className="pt-0 mt-0 mb-6 sm:mb-8">
-                        <span className="text-[#1E3A8A] font-semibold text-lg sm:text-xl">
-                            DIGITAL MARKETING
+                    {/* DIGITAL MARKETING PILL BADGE */}
+                    <div className="mb-4 sm:mb-5">
+                        <span className="inline-flex items-center gap-1.5 px-3.5 py-1.5 rounded-full text-xs sm:text-sm font-semibold uppercase tracking-wider bg-blue-50 text-blue-700 border border-blue-200/80 shadow-2xs">
+                            <Sparkles className="w-3.5 h-3.5 text-blue-600" />
+                            Digital Marketing
                         </span>
                     </div>
 
@@ -29,11 +52,11 @@ const AdsManagement = ({ handleButtonClick }) => {
                         {/* LEFT CONTENT */}
                         <div>
 
-                            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-semibold bg-gradient-to-r from-[#1E293B] to-[#3B82F6] bg-clip-text text-transparent mb-5 sm:mb-6 leading-tight">
+                            <h1 className="text-5xl md:text-6xl font-medium font-serif bg-linear-to-r from-slate-900 via-blue-900 to-purple-900 bg-clip-text text-transparent leading-tight mb-5 sm:mb-6">
                                 ADS MANAGEMENT
                             </h1>
 
-                            <p className="text-gray-600 mb-6 sm:mb-8 text-base sm:text-lg leading-relaxed">
+                            <p className="text-slate-600 mb-6 sm:mb-8 text-base sm:text-lg leading-relaxed">
                                 Maximize your ROI with expertly managed Google Ads
                                 campaigns. From strategic keyword bidding to
                                 conversion optimization, we drive qualified traffic
@@ -41,83 +64,42 @@ const AdsManagement = ({ handleButtonClick }) => {
                             </p>
 
                             <button
-                                onClick={() =>
-                                    handleButtonClick?.("Launch Ad Campaign")
-                                }
-                                className="px-7 sm:px-8 py-3 bg-gradient-to-r from-[#1E3A8A] via-[#3B82F6] to-[#E91E63] text-white rounded-full font-semibold hover:shadow-lg transition-all duration-300 hover:scale-105"
+                                onClick={() => {
+                                    handleButtonClick?.("Launch Ad Campaign");
+                                    window.dispatchEvent(new Event('open-contact-popup'));
+                                }}
+                                className="px-7 sm:px-8 py-3.5 bg-gradient-to-r from-blue-600 to-sky-600 hover:from-blue-700 hover:to-sky-700 text-white rounded-full font-semibold shadow-md shadow-blue-500/20 hover:shadow-lg hover:shadow-blue-500/30 transition-all duration-300 hover:scale-[1.02] cursor-pointer text-sm sm:text-base"
                             >
                                 Launch Ad Campaign
                             </button>
 
                         </div>
 
-                        {/* SERVICE CARDS */}
-                        <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 sm:gap-4">
+                        {/* SERVICE CARDS - Blue & White Zentrix Style */}
+                        <div className="grid grid-cols-1 sm:grid-cols-2 gap-3.5 sm:gap-4.5">
+                            {serviceCards.map((card, index) => {
+                                const IconComponent = card.icon;
+                                return (
+                                    <div
+                                        key={index}
+                                        className="group bg-white rounded-2xl p-5 border border-slate-200 hover:border-blue-400 shadow-xs hover:shadow-md transition-all duration-300 hover:-translate-y-1 flex flex-col justify-between"
+                                    >
+                                        <div>
+                                            <div className="w-12 h-12 rounded-xl bg-blue-50 border border-blue-100 flex items-center justify-center text-blue-600 mb-4 group-hover:bg-blue-600 group-hover:text-white transition-all duration-300 shadow-2xs">
+                                                <IconComponent className="w-6 h-6" />
+                                            </div>
 
-                            {/* Card 1 */}
-                            <div className="bg-white rounded-2xl p-5 shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
-                                <div className="w-12 h-12 rounded-xl bg-blue-100 flex items-center justify-center mb-4">
-                                    <span className="text-2xl">🎯</span>
-                                </div>
+                                            <h3 className="text-base sm:text-lg font-bold text-slate-900 group-hover:text-blue-600 transition-colors mb-1.5 leading-snug">
+                                                {card.title}
+                                            </h3>
 
-                                <h3 className="text-lg font-semibold text-gray-800 mb-2">
-                                    Campaign Strategy
-                                </h3>
-
-                                <p className="text-sm text-gray-500 leading-relaxed">
-                                    Data-driven strategies designed to reach your
-                                    ideal customers.
-                                </p>
-                            </div>
-
-                            {/* Card 2 */}
-                            <div className="bg-white rounded-2xl p-5 shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
-                                <div className="w-12 h-12 rounded-xl bg-pink-100 flex items-center justify-center mb-4">
-                                    <span className="text-2xl">📊</span>
-                                </div>
-
-                                <h3 className="text-lg font-semibold text-gray-800 mb-2">
-                                    Performance Tracking
-                                </h3>
-
-                                <p className="text-sm text-gray-500 leading-relaxed">
-                                    Monitor campaign performance and optimize
-                                    results continuously.
-                                </p>
-                            </div>
-
-                            {/* Card 3 */}
-                            <div className="bg-white rounded-2xl p-5 shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
-                                <div className="w-12 h-12 rounded-xl bg-indigo-100 flex items-center justify-center mb-4">
-                                    <span className="text-2xl">💰</span>
-                                </div>
-
-                                <h3 className="text-lg font-semibold text-gray-800 mb-2">
-                                    Budget Optimization
-                                </h3>
-
-                                <p className="text-sm text-gray-500 leading-relaxed">
-                                    Get maximum returns while keeping your
-                                    advertising budget under control.
-                                </p>
-                            </div>
-
-                            {/* Card 4 */}
-                            <div className="bg-white rounded-2xl p-5 shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
-                                <div className="w-12 h-12 rounded-xl bg-purple-100 flex items-center justify-center mb-4">
-                                    <span className="text-2xl">🚀</span>
-                                </div>
-
-                                <h3 className="text-lg font-semibold text-gray-800 mb-2">
-                                    Conversion Growth
-                                </h3>
-
-                                <p className="text-sm text-gray-500 leading-relaxed">
-                                    Turn qualified traffic into valuable leads
-                                    and customers.
-                                </p>
-                            </div>
-
+                                            <p className="text-xs sm:text-sm text-slate-600 leading-relaxed font-normal">
+                                                {card.description}
+                                            </p>
+                                        </div>
+                                    </div>
+                                );
+                            })}
                         </div>
 
                     </div>

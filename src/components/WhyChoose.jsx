@@ -53,8 +53,8 @@ export default function WhyChoose() {
                             OUR SUCCESS STORY
                         </span>
                     </div>
-                    <h2 className="text-3xl sm:text-5xl md:text-6xl font-medium font-serif text-slate-900 mb-4 sm:mb-6 leading-tight tracking-tight">
-                        <span className="bg-gradient-to-r from-[#33018B] via-[#3E3CAD] to-[#F04393] bg-clip-text text-transparent">Why Choose Us</span>
+                    <h2 className="text-3xl sm:text-5xl md:text-6xl font-medium font-serif bg-linear-to-r from-slate-900 via-blue-900 to-purple-900 bg-clip-text text-transparent mb-4 sm:mb-6 leading-tight tracking-tight">
+                        Why Choose Us
                     </h2>
                     <p className="text-base sm:text-lg md:text-xl text-slate-600 max-w-3xl mx-auto leading-relaxed text-left sm:text-center">
                         We deliver exceptional results through expertise, dedication, and cutting-edge solutions that drive your business forward.

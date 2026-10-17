@@ -226,7 +226,7 @@ const portfolio = () => {
               {/* Header Section */}
              <div className="text-left md:text-center mb-12 pt-2">
 
-        <h2 className="text-3xl sm:text-5xl md:text-6xl font-medium font-serif text-slate-900 mb-4 sm:mb-6 leading-tight tracking-tight px-4">
+        <h2 className="text-3xl sm:text-5xl md:text-6xl font-medium font-serif bg-linear-to-r from-slate-900 via-blue-900 to-purple-900 bg-clip-text text-transparent mb-4 sm:mb-6 leading-tight tracking-tight px-4">
             Our portfolio
         </h2>
 

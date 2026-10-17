@@ -748,7 +748,7 @@ const Hero = () => {
               <AnimatePresence mode="wait">
                 <motion.h1
                   key={currentServiceIndex}
-                  className="w-full max-w-full text-3xl sm:text-5xl md:text-6xl font-medium font-serif text-slate-900 mb-4 sm:mb-6 leading-tight tracking-tight mt-0"
+                  className="w-full max-w-full text-3xl sm:text-5xl md:text-6xl font-medium font-serif bg-linear-to-r from-slate-900 via-blue-900 to-purple-900 bg-clip-text text-transparent mb-4 sm:mb-6 leading-tight tracking-tight mt-0"
                   initial={{
                     opacity: 0,
                     y: 30,
@@ -768,7 +768,6 @@ const Hero = () => {
                   <span
                     className="
                       block
-                      text-slate-900
                       mb-1
                       text-3xl
                       sm:text-5xl
@@ -777,16 +776,16 @@ const Hero = () => {
                       font-serif
                       whitespace-nowrap
                       pb-1
+                      bg-linear-to-r from-slate-900 via-blue-900 to-purple-900 bg-clip-text text-transparent
                     "
                   >
                     {currentService.prefix}
                   </span>
 
                   <span
-                    className={`
+                    className="
                       inline-block
-                      bg-gradient-to-r
-                      ${currentService.color}
+                      bg-linear-to-r from-slate-900 via-blue-900 to-purple-900
                       bg-clip-text
                       text-transparent
                       text-3xl
@@ -798,7 +797,7 @@ const Hero = () => {
                       pb-2
                       sm:pb-3
                       pr-2
-                    `}
+                    "
                   >
                     {currentService.title}
                   </span>

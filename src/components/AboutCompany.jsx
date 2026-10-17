@@ -26,10 +26,10 @@ const AboutCompany = () => {
                             </div>
 
                             {/* Heading */}
-                            <h2 className="text-3xl sm:text-5xl md:text-6xl font-medium font-serif text-slate-900 mb-4 sm:mb-6 leading-tight tracking-tight uppercase">
+                            <h2 className="text-3xl sm:text-5xl md:text-6xl font-medium font-serif bg-linear-to-r from-slate-900 via-blue-900 to-purple-900 bg-clip-text text-transparent mb-4 sm:mb-6 leading-tight tracking-tight">
                                 Crafting the future
                                 <br />
-                                <span className="block bg-linear-to-r from-emerald-400 via-blue-400 to-purple-400 bg-clip-text text-transparent mt-1 sm:mt-2">
+                                <span className="block mt-1 sm:mt-2">
                                     of digital innovation
                                 </span>
                             </h2>

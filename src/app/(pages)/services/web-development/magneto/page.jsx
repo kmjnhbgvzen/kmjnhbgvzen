@@ -21,25 +21,25 @@ import {
 
 const Hero = () => {
   const companyPartners = [
-    "Nike",
-    "Ford",
-    "Coca-Cola",
-    "Samsung",
-    "Liverpool FC",
-    "Helly Hansen",
-    "Olympus",
-    "Venia",
-    "Bulk Reef"
+    { name: "Nike", tag: "Sportswear", bg: "bg-slate-100 text-slate-900 border-slate-300" },
+    { name: "Ford", tag: "Automotive", bg: "bg-blue-50 text-blue-800 border-blue-200" },
+    { name: "Coca-Cola", tag: "Beverages", bg: "bg-red-50 text-red-700 border-red-200" },
+    { name: "Samsung", tag: "Electronics", bg: "bg-indigo-50 text-indigo-700 border-indigo-200" },
+    { name: "Liverpool FC", tag: "Sports Club", bg: "bg-rose-50 text-rose-700 border-rose-200" },
+    { name: "Helly Hansen", tag: "Outdoor Gear", bg: "bg-cyan-50 text-cyan-700 border-cyan-200" },
+    { name: "Olympus", tag: "Optics & Tech", bg: "bg-blue-50 text-blue-700 border-blue-200" },
+    { name: "Venia", tag: "E-Commerce", bg: "bg-purple-50 text-purple-700 border-purple-200" },
+    { name: "Bulk Reef", tag: "Aquatics", bg: "bg-emerald-50 text-emerald-700 border-emerald-200" }
   ];
 
   return (
-    <div className="bg-white relative overflow-hidden mt-0 lg:mt-32">
+    <div className="bg-white relative overflow-hidden pt-16 sm:pt-20 lg:pt-[170px] pb-8 sm:pb-12">
       {/* Decorative subtle blue ambient elements */}
       <div className="absolute w-72 h-72 rounded-full -top-20 -left-20 bg-blue-100/40 blur-3xl pointer-events-none" />
       <div className="absolute w-80 h-80 rounded-full top-1/2 -right-20 bg-sky-100/30 blur-3xl pointer-events-none" />
 
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-8 sm:pt-10 lg:pt-16 pb-12 sm:pb-16">
-        <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="grid lg:grid-cols-2 gap-10 lg:gap-16 items-center">
 
           {/* Left Content */}
           <div className="space-y-6 sm:space-y-8">
@@ -49,9 +49,9 @@ const Hero = () => {
               </span>
             </div>
 
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-medium font-serif uppercase leading-tight text-slate-900">
+            <h1 className="text-5xl md:text-6xl font-medium font-serif bg-linear-to-r from-slate-900 via-blue-900 to-purple-900 bg-clip-text text-transparent leading-tight">
               Build Enterprise<br />
-              <span className="text-[#2563EB]">Open-Source</span><br />
+              Open-Source<br />
               Magento Stores!
             </h1>
 
@@ -64,7 +64,7 @@ const Hero = () => {
             <div className="pt-2 flex flex-wrap gap-4">
               <button
                 onClick={() => window.dispatchEvent(new Event('open-contact-popup'))}
-                className="px-6 sm:px-8 py-3.5 rounded-xl font-semibold transition-all duration-200 text-white bg-[#2563EB] hover:bg-[#1D4ED8] shadow-sm hover:shadow-md text-sm sm:text-base cursor-pointer"
+                className="px-6 sm:px-8 py-3.5 bg-linear-to-r from-blue-700 via-blue-800 to-slate-900 hover:from-blue-800 hover:to-slate-950 text-white rounded-xl font-semibold transition-all duration-300 hover:scale-105 shadow-md hover:shadow-lg text-sm sm:text-base cursor-pointer"
               >
                 Get Started
               </button>
@@ -73,27 +73,43 @@ const Hero = () => {
                   const el = document.getElementById('magneto-services');
                   if (el) el.scrollIntoView({ behavior: 'smooth' });
                 }}
-                className="px-6 sm:px-8 py-3.5 rounded-xl font-semibold transition-all duration-200 text-slate-700 hover:text-blue-600 bg-white hover:bg-slate-50 border border-slate-200 text-sm sm:text-base cursor-pointer"
+                className="px-6 sm:px-8 py-3.5 rounded-xl font-semibold transition-all duration-200 text-slate-700 hover:text-blue-600 bg-white hover:bg-slate-50 border border-slate-300 text-sm sm:text-base cursor-pointer shadow-xs"
               >
                 Explore Services
               </button>
             </div>
           </div>
 
-          {/* Right Content - Company Grid */}
+          {/* Right Content - Company Grid with High Visibility */}
           <div className="flex justify-center lg:justify-end">
-            <div className="relative p-3.5 sm:p-5 rounded-3xl bg-gradient-to-br from-blue-50/50 via-slate-50/40 to-blue-50/30 border border-blue-100/80 shadow-xs max-w-md w-full">
-              <div className="grid grid-cols-3 gap-3 sm:gap-3.5">
+            <div className="relative p-4 sm:p-5 rounded-3xl bg-linear-to-br from-slate-100 via-blue-50/70 to-indigo-50/80 border-2 border-blue-200/90 shadow-xl max-w-md w-full">
+              {/* Header inside container */}
+              <div className="flex items-center justify-between mb-3.5 px-1">
+                <div className="flex items-center space-x-2">
+                  <div className="w-2.5 h-2.5 rounded-full bg-blue-600 animate-pulse"></div>
+                  <span className="text-xs font-bold uppercase tracking-wider text-slate-800">Magento Ecosystem</span>
+                </div>
+                <span className="text-[11px] font-semibold text-blue-700 bg-white border border-blue-200 px-2.5 py-0.5 rounded-full shadow-2xs">Top Brands</span>
+              </div>
+
+              <div className="grid grid-cols-3 gap-2.5 sm:gap-3">
                 {companyPartners.map((company, index) => (
                   <div
                     key={index}
-                    className="group relative rounded-2xl p-3 sm:p-4 flex items-center justify-center bg-white border border-slate-200/90 hover:border-blue-400 shadow-[0_2px_8px_-2px_rgba(37,99,235,0.06)] hover:shadow-[0_8px_20px_-4px_rgba(37,99,235,0.14)] transition-all duration-300 hover:-translate-y-1 min-h-[85px] sm:min-h-[95px] text-center overflow-hidden cursor-default"
+                    className="group relative rounded-2xl p-3 sm:p-3.5 flex flex-col items-center justify-center bg-white border-2 border-slate-200 hover:border-blue-600 shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1 min-h-[92px] sm:min-h-[98px] text-center overflow-hidden cursor-default"
                   >
-                    <span className="absolute top-2.5 right-2.5 w-1.5 h-1.5 rounded-full bg-slate-300 group-hover:bg-blue-600 transition-colors duration-300" />
-                    <span className="font-semibold text-xs sm:text-sm text-slate-800 group-hover:text-blue-600 transition-colors duration-200 leading-snug">
-                      {company}
+                    <div className={`w-8 h-8 rounded-xl border flex items-center justify-center mb-1.5 transition-transform duration-300 group-hover:scale-110 shadow-2xs ${company.bg}`}>
+                      <span className="text-xs font-black tracking-tight">
+                        {company.name.slice(0, 2).toUpperCase()}
+                      </span>
+                    </div>
+                    <span className="font-bold text-xs sm:text-sm text-slate-900 group-hover:text-blue-700 transition-colors duration-200 leading-snug">
+                      {company.name}
                     </span>
-                    <div className="absolute bottom-0 left-0 right-0 h-0.5 bg-blue-600 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+                    <span className="text-[10px] text-slate-500 font-medium group-hover:text-blue-600 mt-0.5 line-clamp-1">
+                      {company.tag}
+                    </span>
+                    <div className="absolute bottom-0 left-0 right-0 h-1 bg-linear-to-r from-blue-600 to-indigo-600 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
                   </div>
                 ))}
               </div>
@@ -149,13 +165,13 @@ const Services = () => {
   }, []);
 
   return (
-    <div className="bg-slate-50/50 py-16 sm:py-20 relative overflow-hidden border-t border-b border-slate-100">
+    <div className="bg-slate-50/50 py-8 sm:py-12 relative overflow-hidden border-t border-b border-slate-100">
       {/* Decorative ambient background */}
       <div className="absolute w-80 h-80 rounded-full -top-24 -left-24 bg-blue-100/30 blur-3xl pointer-events-none" />
       <div className="absolute w-80 h-80 rounded-full -bottom-24 -right-24 bg-sky-100/30 blur-3xl pointer-events-none" />
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-        <div className="grid lg:grid-cols-2 gap-10 lg:gap-16 items-center">
+        <div className="grid lg:grid-cols-2 gap-10 lg:gap-16 items-start">
 
           {/* Left Content */}
           <div className="space-y-6 sm:space-y-8 order-2 lg:order-1">
@@ -164,9 +180,9 @@ const Services = () => {
                 Platform Capabilities
               </span>
 
-              <h2 className="text-3xl sm:text-4xl md:text-5xl font-medium font-serif uppercase leading-tight text-slate-900">
+              <h2 className="text-5xl md:text-6xl font-medium font-serif bg-linear-to-r from-slate-900 via-blue-900 to-purple-900 bg-clip-text text-transparent leading-tight">
                 Magento<br />
-                <span className="text-[#2563EB]">Development</span>
+                Development
               </h2>
 
               <p className="text-base sm:text-lg leading-relaxed max-w-md text-slate-600">
@@ -191,7 +207,7 @@ const Services = () => {
 
             <button
               onClick={() => window.dispatchEvent(new Event('open-contact-popup'))}
-              className="px-7 py-3 rounded-xl font-semibold transition-all duration-200 text-white bg-[#2563EB] hover:bg-[#1D4ED8] shadow-sm hover:shadow-md text-sm sm:text-base cursor-pointer"
+              className="px-6 sm:px-8 py-3.5 bg-linear-to-r from-blue-700 via-blue-800 to-slate-900 hover:from-blue-800 hover:to-slate-950 text-white rounded-xl font-semibold transition-all duration-300 hover:scale-105 shadow-md hover:shadow-lg text-sm sm:text-base cursor-pointer"
             >
               Hire Magento Experts
             </button>
@@ -355,19 +371,19 @@ const MagentoServicesGrid = () => {
   ];
 
   return (
-    <div id="magneto-services" className="bg-white py-16 sm:py-20 px-4 sm:px-6 lg:px-8">
+    <div id="magneto-services" className="bg-white py-8 sm:py-12 px-4 sm:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto">
         {/* Header */}
-        <div className="text-center mb-12 sm:mb-16">
+        <div className="text-left sm:text-center mb-8 sm:mb-10">
           <div className="mb-3.5 sm:mb-4">
             <span className="inline-flex items-center gap-1.5 bg-blue-50 text-blue-700 px-4 py-1.5 rounded-full text-xs sm:text-sm font-semibold uppercase tracking-wider border border-blue-200/70 shadow-2xs">
               Enterprise Commerce
             </span>
           </div>
-          <h2 className="text-3xl sm:text-4xl md:text-5xl font-medium font-serif uppercase mb-4 leading-tight tracking-tight text-slate-900">
-            Magento <span className="text-[#2563EB]">Development</span> Services
+          <h2 className="text-5xl md:text-6xl font-medium font-serif bg-linear-to-r from-slate-900 via-blue-900 to-purple-900 bg-clip-text text-transparent leading-tight mb-4">
+            Magento Development Services
           </h2>
-          <p className="text-slate-600 text-sm sm:text-base md:text-lg max-w-3xl mx-auto leading-relaxed">
+          <p className="text-slate-600 text-sm sm:text-base md:text-lg max-w-3xl sm:mx-auto leading-relaxed">
             Enterprise e-commerce engineering designed for global reach, complex catalogs, and high-volume transactions.
           </p>
         </div>
@@ -432,18 +448,18 @@ const HiringModel = () => {
   ];
 
   return (
-    <section className="py-16 sm:py-20 bg-slate-50/50 border-t border-slate-100">
+    <section className="py-8 sm:py-12 bg-slate-50/50 border-t border-slate-100">
       <div className="container mx-auto max-w-6xl px-4 sm:px-6">
-        <div className="text-center mb-12 sm:mb-16">
+        <div className="text-left sm:text-center mb-8 sm:mb-10">
           <div className="mb-3.5 sm:mb-4">
             <span className="inline-flex items-center gap-1.5 bg-blue-50 text-blue-700 px-4 py-1.5 rounded-full text-xs sm:text-sm font-semibold uppercase tracking-wider border border-blue-200/70 shadow-2xs">
               Flexible Engagement
             </span>
           </div>
-          <h2 className="text-3xl sm:text-4xl md:text-5xl font-medium font-serif mb-4 leading-tight tracking-tight uppercase text-slate-900">
-            Magento <span className="text-[#2563EB]">Hiring Models</span>
+          <h2 className="text-5xl md:text-6xl font-medium font-serif bg-linear-to-r from-slate-900 via-blue-900 to-purple-900 bg-clip-text text-transparent leading-tight mb-4">
+            Magento Hiring Models
           </h2>
-          <p className="text-slate-600 text-sm sm:text-base md:text-lg max-w-3xl mx-auto leading-relaxed">
+          <p className="text-slate-600 text-sm sm:text-base md:text-lg max-w-3xl sm:mx-auto leading-relaxed">
             Scale your Magento development with our flexible engagement models designed for enterprise e-commerce solutions and complex business requirements.
           </p>
         </div>

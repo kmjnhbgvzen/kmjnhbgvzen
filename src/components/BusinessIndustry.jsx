@@ -126,12 +126,9 @@ function App() {
                 </div>
 
 
-                {/* Colorful Main Heading */}
-                <h2 className="text-3xl sm:text-5xl md:text-6xl font-medium font-serif text-slate-900 mb-4 sm:mb-6 leading-tight tracking-tight uppercase">
-                    <span className="text-slate-900"> Business </span>
-                    <span className="text-transparent bg-gradient-to-r from-pink-500 via-purple-500 to-blue-600 bg-clip-text">
-                        industries
-                    </span>
+                {/* Main Heading */}
+                <h2 className="text-3xl sm:text-5xl md:text-6xl font-medium font-serif bg-linear-to-r from-slate-900 via-blue-900 to-purple-900 bg-clip-text text-transparent mb-4 sm:mb-6 leading-tight tracking-tight uppercase">
+                    Business industries
                 </h2>
 
                 {/* Stylized Description */}

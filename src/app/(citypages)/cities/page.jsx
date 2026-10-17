@@ -70,7 +70,7 @@ const cities = [
 export default function Page() {
   return (
     <div className="p-8">
-      <h1 className="text-5xl font-medium text-center mb-4 mt-30 font-serif">Cities We Serve</h1>
+      <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-medium font-serif bg-linear-to-r from-slate-900 via-blue-900 to-purple-900 bg-clip-text text-transparent leading-tight text-center mb-4 mt-30">Cities We Serve</h1>
       <p className="text-gray-700 text-center mb-6">
         Zentrix Infotech provides digital marketing, web development, software solutions,
         mobile app development, UI/UX design, and cloud services across multiple cities.

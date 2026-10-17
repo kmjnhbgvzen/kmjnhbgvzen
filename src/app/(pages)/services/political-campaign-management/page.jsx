@@ -192,16 +192,13 @@ export default function PoliticalCampaignPage() {
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-12 pt-8 sm:pt-12 pb-12 lg:py-32 mt-0 lg:mt-10 grid lg:grid-cols-2 gap-8 lg:gap-16 items-center w-full">
           <div>
             <div className="w-16 mb-6"><TricolourBar /></div>
-            <span className="inline-flex items-center gap-2 text-xs font-semibold tracking-widest uppercase text-[#2563EB] mb-6">
-              <span className="w-6 h-px bg-[#2563EB] inline-block" />
+            <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full text-xs sm:text-sm font-semibold tracking-wider uppercase bg-linear-to-r from-blue-50 to-indigo-50 border border-blue-200 text-[#2563EB] mb-6 backdrop-blur-sm hover:scale-105 transition-transform duration-300 shadow-xs">
+              <Vote className="w-4 h-4 text-[#2563EB]" />
               Political Campaign Services
-            </span>
-            <h1 className="font-serif text-5xl lg:text-6xl font-medium leading-tight text-slate-900 mb-6">
-              Amplify Your{' '}
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#2563EB] to-[#1D4ED8]">
-                Political Voice
-              </span>{' '}
-              with Digital Strategy
+              <span className="w-2.5 h-2.5 rounded-full bg-[#2563EB]/70 ml-1" />
+            </div>
+            <h1 className="text-5xl md:text-6xl font-medium font-serif bg-linear-to-r from-slate-900 via-blue-900 to-purple-900 bg-clip-text text-transparent leading-tight mb-6">
+              Amplify Your Political Voice with Digital Strategy
             </h1>
             <p className="text-lg text-slate-600 leading-relaxed mb-10 max-w-lg">
               We help political leaders and parties build a trusted, high-impact digital presence — through websites, social media, branding, and transparent campaign reporting.
@@ -289,10 +286,14 @@ export default function PoliticalCampaignPage() {
       </section>
 
       {/* ── SERVICES ── */}
-      <section className="py-24 px-6 lg:px-12 max-w-7xl mx-auto">
+      <section className="pt-10 pb-8 sm:pt-14 sm:pb-10 lg:py-16 px-6 lg:px-12 max-w-7xl mx-auto">
         <div className="text-center mb-16">
-          <span className="text-xs font-semibold uppercase tracking-widest text-[#2563EB]">What We Offer</span>
-          <h2 className="font-serif text-4xl lg:text-5xl font-medium text-slate-900 mt-3 mb-5">Services We Provide</h2>
+          <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full text-xs sm:text-sm font-semibold tracking-wider uppercase bg-linear-to-r from-blue-50 to-indigo-50 border border-blue-200 text-[#2563EB] mb-4 backdrop-blur-sm hover:scale-105 transition-transform duration-300 shadow-xs">
+            <Target className="w-4 h-4 text-[#2563EB]" />
+            What We Offer
+            <span className="w-2.5 h-2.5 rounded-full bg-[#2563EB]/70 ml-1" />
+          </div>
+          <h2 className="text-5xl md:text-6xl font-medium font-serif bg-linear-to-r from-slate-900 via-blue-900 to-purple-900 bg-clip-text text-transparent leading-tight mt-3 mb-5">Services We Provide</h2>
           <p className="text-slate-600 max-w-xl mx-auto text-lg">
             Everything your digital campaign needs — from first impression to final report.
           </p>
@@ -314,12 +315,16 @@ export default function PoliticalCampaignPage() {
       </section>
 
       {/* ── ANALYTICS DASHBOARD PREVIEW ── */}
-      <section className="py-24 bg-[#EFF6FF]/60">
+      <section className="pt-8 pb-8 sm:pt-10 sm:pb-12 lg:py-16 bg-[#EFF6FF]/60">
         <div className="max-w-7xl mx-auto px-6 lg:px-12">
           <div className="grid lg:grid-cols-2 gap-16 items-center">
             <div>
-              <span className="text-xs font-semibold uppercase tracking-widest text-[#2563EB]">Analytics</span>
-              <h2 className="font-serif text-4xl lg:text-5xl font-medium text-slate-900 mt-3 mb-6">
+              <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full text-xs sm:text-sm font-semibold tracking-wider uppercase bg-linear-to-r from-blue-50 to-indigo-50 border border-blue-200 text-[#2563EB] mb-4 backdrop-blur-sm hover:scale-105 transition-transform duration-300 shadow-xs">
+                <BarChart2 className="w-4 h-4 text-[#2563EB]" />
+                Analytics
+                <span className="w-2.5 h-2.5 rounded-full bg-[#2563EB]/70 ml-1" />
+              </div>
+              <h2 className="text-5xl md:text-6xl font-medium font-serif bg-linear-to-r from-slate-900 via-blue-900 to-purple-900 bg-clip-text text-transparent leading-tight mt-3 mb-6">
                 Campaign Digital<br />Performance Dashboard
               </h2>
               <p className="text-slate-600 leading-relaxed mb-8 text-lg">
@@ -382,10 +387,14 @@ export default function PoliticalCampaignPage() {
       </section>
 
       {/* ── HOW WE WORK ── */}
-      <section className="py-24 px-6 lg:px-12 max-w-7xl mx-auto">
-        <div className="text-center mb-16">
-          <span className="text-xs font-semibold uppercase tracking-widest text-[#2563EB]">Our Process</span>
-          <h2 className="font-serif text-4xl lg:text-5xl font-medium text-slate-900 mt-3 mb-5">How We Work</h2>
+      <section className="py-10 sm:py-14 lg:py-20 px-6 lg:px-12 max-w-7xl mx-auto">
+        <div className="text-center mb-8 sm:mb-12 lg:mb-16">
+          <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full text-xs sm:text-sm font-semibold tracking-wider uppercase bg-linear-to-r from-blue-50 to-indigo-50 border border-blue-200 text-[#2563EB] mb-4 backdrop-blur-sm hover:scale-105 transition-transform duration-300 shadow-xs">
+            <Zap className="w-4 h-4 text-[#2563EB]" />
+            Our Process
+            <span className="w-2.5 h-2.5 rounded-full bg-[#2563EB]/70 ml-1" />
+          </div>
+          <h2 className="text-5xl md:text-6xl font-medium font-serif bg-linear-to-r from-slate-900 via-blue-900 to-purple-900 bg-clip-text text-transparent leading-tight mt-3 mb-5">How We Work</h2>
           <p className="text-slate-600 max-w-xl mx-auto text-lg">A clear, structured process that keeps your campaign on track from day one.</p>
         </div>
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 relative">
@@ -403,11 +412,15 @@ export default function PoliticalCampaignPage() {
       </section>
 
       {/* ── WHO WE WORK WITH ── */}
-      <section className="py-24 bg-[#EFF6FF]/60">
+      <section className="py-10 sm:py-14 lg:py-20 bg-[#EFF6FF]/60">
         <div className="max-w-7xl mx-auto px-6 lg:px-12">
-          <div className="text-center mb-16">
-            <span className="text-xs font-semibold uppercase tracking-widest text-[#2563EB]">Our Clients</span>
-            <h2 className="font-serif text-4xl lg:text-5xl font-medium text-slate-900 mt-3 mb-5">Who We Work With</h2>
+          <div className="text-center mb-8 sm:mb-12 lg:mb-16">
+            <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full text-xs sm:text-sm font-semibold tracking-wider uppercase bg-linear-to-r from-blue-50 to-indigo-50 border border-blue-200 text-[#2563EB] mb-4 backdrop-blur-sm hover:scale-105 transition-transform duration-300 shadow-xs">
+              <Users className="w-4 h-4 text-[#2563EB]" />
+              Our Clients
+              <span className="w-2.5 h-2.5 rounded-full bg-[#2563EB]/70 ml-1" />
+            </div>
+            <h2 className="text-5xl md:text-6xl font-medium font-serif bg-linear-to-r from-slate-900 via-blue-900 to-purple-900 bg-clip-text text-transparent leading-tight mt-3 mb-5">Who We Work With</h2>
             <p className="text-slate-600 max-w-xl mx-auto text-lg">We are completely non-partisan — our digital services are open to all.</p>
           </div>
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
@@ -425,10 +438,14 @@ export default function PoliticalCampaignPage() {
       </section>
 
       {/* ── CASE STUDIES ── */}
-      <section id="casestudies" className="py-24 px-6 lg:px-12 max-w-7xl mx-auto">
-        <div className="text-center mb-16">
-          <span className="text-xs font-semibold uppercase tracking-widest text-[#2563EB]">Results</span>
-          <h2 className="font-serif text-4xl lg:text-5xl font-medium text-slate-900 mt-3 mb-5">Campaign Success Stories</h2>
+      <section id="casestudies" className="py-10 sm:py-14 lg:py-20 px-6 lg:px-12 max-w-7xl mx-auto">
+        <div className="text-center mb-8 sm:mb-12 lg:mb-16">
+          <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full text-xs sm:text-sm font-semibold tracking-wider uppercase bg-linear-to-r from-blue-50 to-indigo-50 border border-blue-200 text-[#2563EB] mb-4 backdrop-blur-sm hover:scale-105 transition-transform duration-300 shadow-xs">
+            <Award className="w-4 h-4 text-[#2563EB]" />
+            Results
+            <span className="w-2.5 h-2.5 rounded-full bg-[#2563EB]/70 ml-1" />
+          </div>
+          <h2 className="text-5xl md:text-6xl font-medium font-serif bg-linear-to-r from-slate-900 via-blue-900 to-purple-900 bg-clip-text text-transparent leading-tight mt-3 mb-5">Campaign Success Stories</h2>
           <p className="text-slate-600 max-w-xl mx-auto text-lg">Real digital performance results from campaigns we have managed.</p>
         </div>
         <div className="grid md:grid-cols-3 gap-6">
@@ -481,10 +498,14 @@ export default function PoliticalCampaignPage() {
       </div>
 
       {/* ── FAQ ── */}
-      <section className="py-24 px-6 lg:px-12 max-w-4xl mx-auto">
-        <div className="text-center mb-16">
-          <span className="text-1xl font-semibold uppercase tracking-widest text-[#2563EB]">FAQ</span>
-          <h2 className="font-serif text-4xl lg:text-5xl font-medium text-slate-900 mt-3 mb-5">Common Questions</h2>
+      <section className="py-10 sm:py-14 lg:py-20 px-6 lg:px-12 max-w-4xl mx-auto">
+        <div className="text-center mb-8 sm:mb-12 lg:mb-16">
+          <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full text-xs sm:text-sm font-semibold tracking-wider uppercase bg-linear-to-r from-blue-50 to-indigo-50 border border-blue-200 text-[#2563EB] mb-4 backdrop-blur-sm hover:scale-105 transition-transform duration-300 shadow-xs">
+            <CheckCircle2 className="w-4 h-4 text-[#2563EB]" />
+            FAQ
+            <span className="w-2.5 h-2.5 rounded-full bg-[#2563EB]/70 ml-1" />
+          </div>
+          <h2 className="text-5xl md:text-6xl font-medium font-serif bg-linear-to-r from-slate-900 via-blue-900 to-purple-900 bg-clip-text text-transparent leading-tight mt-3 mb-5">Common Questions</h2>
         </div>
         <div className="space-y-4">
           {faqs.map((faq, i) => (

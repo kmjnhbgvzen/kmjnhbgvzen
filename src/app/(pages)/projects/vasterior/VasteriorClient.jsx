@@ -539,19 +539,8 @@ export default function VasteriorClient() {
           </div>
 
           {/* Main headline */}
-          <h1 className="text-3xl sm:text-5xl md:text-6xl font-medium font-serif text-slate-900 mb-4 sm:mb-6 leading-tight tracking-tight">
-            Designing a Digital Space for{" "}
-            <span
-              className="inline-block font-semibold"
-              style={{
-                backgroundImage: `linear-gradient(135deg, ${BLUE_DEEP} 0%, ${BLUE_PRIMARY} 40%, ${BLUE_ACCENT} 70%, ${BLUE_DEEP} 100%)`,
-                WebkitBackgroundClip: "text",
-                WebkitTextFillColor: "transparent",
-              }}
-            >
-              Thoughtful Interiors
-            </span>{" "}
-            <br className="hidden md:inline" />& Vastu-Aligned Living
+          <h1 className="text-3xl sm:text-5xl md:text-6xl font-medium font-serif bg-linear-to-r from-slate-900 via-blue-900 to-purple-900 bg-clip-text text-transparent mb-4 sm:mb-6 leading-tight tracking-tight">
+            Designing a Digital Space for Thoughtful Interiors <br className="hidden md:inline" />& Vastu-Aligned Living
           </h1>
 
           {/* Subtitle */}

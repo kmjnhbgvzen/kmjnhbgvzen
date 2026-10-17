@@ -73,7 +73,7 @@ export default function Page() {
             <span className="text-blue-600 font-semibold text-lg">Varanasi</span>
           </div>
 
-          <h1 className="text-3xl md:text-5xl font-medium font-serif text-center mb-4">
+          <h1 className="text-3xl md:text-5xl font-medium font-serif bg-linear-to-r from-slate-900 via-blue-900 to-purple-900 bg-clip-text text-transparent leading-tight text-center mb-4">
             Varanasi – Digital & IT Solutions for Growing Businesses
           </h1>
 

@@ -143,8 +143,8 @@ export default function Industries() {
       
       {/* HERO */}
       <section className="pt-8 pb-12 sm:py-16 px-6 md:px-12 text-center bg-gradient-to-b from-gray-50 to-white">
-        <h1 className="text-3xl md:text-5xl font-medium text-gray-900 leading-tight mt-0 sm:mt-6 md:mt-10">
-          Industries We Help <span className="text-black">Scale</span>
+        <h1 className="text-3xl sm:text-5xl md:text-6xl font-medium font-serif bg-linear-to-r from-slate-900 via-blue-900 to-purple-900 bg-clip-text text-transparent leading-tight mt-0 sm:mt-6 md:mt-10">
+          Industries We Help Scale
         </h1>
 
         <p className="mt-4 text-base text-gray-600 max-w-2xl mx-auto">

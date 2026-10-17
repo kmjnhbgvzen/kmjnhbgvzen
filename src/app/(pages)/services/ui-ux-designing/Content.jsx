@@ -56,21 +56,17 @@ const UIDesigner = () => {
 
     return (
         <div className="min-h-fit lg:min-h-screen bg-linear-to-br from-slate-50 via-gray-50 to-white pb-16 lg:pb-20">
-            {/* Hero Section */}
-            <section className="pt-8 sm:pt-10 md:pt-12 lg:pt-44 pb-0 px-4 sm:px-6 lg:px-8">
-                <div className="max-w-7xl mx-auto text-center">
-                    <div className="mb-8">
-                        <h2 className="text-5xl md:text-6xl font-medium font-serif text-slate-900 mb-4 mt-0">UI/UX</h2>
-                    </div>
-                </div>
-            </section>
-
-            {/* Creative UI/UX Mockup Section */}
-            <section className="px-4 sm:px-6 lg:px-8 pb-20">
+            {/* Hero & Creative UI/UX Mockup Section */}
+            <section className="pt-16 sm:pt-20 lg:pt-[160px] px-4 sm:px-6 lg:px-8 pb-10 sm:pb-16">
                 <div className="max-w-7xl mx-auto">
-                    <div className="text-center mb-12">
-                        <h2 className="text-5xl md:text-5xl font-medium font-serif text-slate-900 mb-4">Interactive Design Showcase</h2>
-                        <p className="text-xl text-slate-700 max-w-3xl mx-auto">
+                    <div className="text-center mb-10 sm:mb-12">
+                        <h2 className="text-5xl md:text-6xl font-medium font-serif bg-linear-to-r from-slate-900 via-blue-900 to-purple-900 bg-clip-text text-transparent leading-tight mb-2 sm:mb-3">
+                            UI/UX
+                        </h2>
+                        <h2 className="text-5xl md:text-6xl font-medium font-serif bg-linear-to-r from-slate-900 via-blue-900 to-purple-900 bg-clip-text text-transparent leading-tight mb-4">
+                            Interactive Design Showcase
+                        </h2>
+                        <p className="text-base sm:text-lg md:text-xl text-slate-700 max-w-3xl mx-auto leading-relaxed">
                             Experience modern UI/UX principles through interactive elements and micro-animations
                         </p>
                     </div>
@@ -115,9 +111,8 @@ const UIDesigner = () => {
                                         <Palette className="w-4 h-4 mr-2" />
                                         Creative Design
                                     </div>
-                                    <h1 className="text-4xl lg:text-5xl font-medium font-serif text-slate-900 leading-tight">
-                                        Crafting Digital
-                                        <span className="bg-linear-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent"> Experiences</span>
+                                    <h1 className="text-4xl lg:text-5xl font-medium font-serif bg-linear-to-r from-slate-900 via-blue-900 to-purple-900 bg-clip-text text-transparent leading-tight">
+                                        Crafting Digital Experiences
                                     </h1>
                                     <p className="text-xl text-slate-700 leading-relaxed">
                                         We transform ideas into beautiful, functional digital products that users love and businesses need.
@@ -258,11 +253,11 @@ const UIDesigner = () => {
             </section>
 
             {/* UI Components Section */}
-            <section className="px-4 sm:px-6 lg:px-8 pb-20 pt-6">
-                <div className="max-w-7xl mx-auto space-y-12">
+            <section className="px-4 sm:px-6 lg:px-8 py-8 sm:py-12 md:py-16">
+                <div className="max-w-7xl mx-auto space-y-6 sm:space-y-8 md:space-y-12">
                     <div className="text-center">
-                        <h2 className="text-4xl md:text-6xl font-medium font-serif text-slate-900 mb-4">UI Design Components</h2>
-                        <p className="text-xl text-slate-700 max-w-3xl mx-auto">
+                        <h2 className="text-5xl md:text-6xl font-medium font-serif bg-linear-to-r from-slate-900 via-blue-900 to-purple-900 bg-clip-text text-transparent leading-tight mb-3 sm:mb-4">UI Design Components</h2>
+                        <p className="text-base sm:text-lg md:text-xl text-slate-700 max-w-3xl mx-auto">
                             The building blocks that make up beautiful and functional user interfaces
                         </p>
                     </div>
@@ -283,11 +278,11 @@ const UIDesigner = () => {
             </section>
 
             {/* UX Principles Section */}
-            <section className="px-4 sm:px-6 lg:px-8 pb-20 pt-6">
-                <div className="max-w-7xl mx-auto space-y-12">
+            <section className="px-4 sm:px-6 lg:px-8 py-8 sm:py-12 md:py-16">
+                <div className="max-w-7xl mx-auto space-y-6 sm:space-y-8 md:space-y-12">
                     <div className="text-center">
-                        <h2 className="text-4xl md:text-6xl font-medium font-serif text-slate-900 mb-4">UX Design Principles</h2>
-                        <p className="text-xl text-slate-700 max-w-3xl mx-auto">
+                        <h2 className="text-5xl md:text-6xl font-medium font-serif bg-linear-to-r from-slate-900 via-blue-900 to-purple-900 bg-clip-text text-transparent leading-tight mb-3 sm:mb-4">UX Design Principles</h2>
+                        <p className="text-base sm:text-lg md:text-xl text-slate-700 max-w-3xl mx-auto">
                             Core methodologies that drive user-centered design decisions
                         </p>
                     </div>
@@ -313,11 +308,11 @@ const UIDesigner = () => {
             </section>
 
             {/* Design Process Section */}
-            <section className="px-4 sm:px-6 lg:px-8 pb-20">
-                <div className="max-w-7xl mx-auto space-y-12">
+            <section className="px-4 sm:px-6 lg:px-8 py-8 sm:py-12 md:py-16">
+                <div className="max-w-7xl mx-auto space-y-6 sm:space-y-8 md:space-y-12">
                     <div className="text-center">
-                        <h2 className="text-4xl md:text-6xl font-medium font-serif text-slate-900 mb-4">Design Process</h2>
-                        <p className="text-xl text-slate-700 max-w-3xl mx-auto mb-8">
+                        <h2 className="text-5xl md:text-6xl font-medium font-serif bg-linear-to-r from-slate-900 via-blue-900 to-purple-900 bg-clip-text text-transparent leading-tight mb-3 sm:mb-4">Design Process</h2>
+                        <p className="text-base sm:text-lg md:text-xl text-slate-700 max-w-3xl mx-auto mb-6 sm:mb-8">
                             Our systematic approach to creating user-centered designs
                         </p>
                     </div>
@@ -346,11 +341,11 @@ const UIDesigner = () => {
             </section>
 
             {/* Technology Stack Section */}
-            <section className="px-4 sm:px-6 lg:px-8 pb-20">
-                <div className="max-w-7xl mx-auto space-y-12">
+            <section className="px-4 sm:px-6 lg:px-8 py-8 sm:py-12 md:py-16">
+                <div className="max-w-7xl mx-auto space-y-6 sm:space-y-8 md:space-y-12">
                     <div className="text-center">
-                        <h2 className="text-4xl md:text-6xl font-medium font-serif text-slate-900 mb-4">Technology Stack</h2>
-                        <p className="text-xl text-slate-700 max-w-3xl mx-auto">
+                        <h2 className="text-5xl md:text-6xl font-medium font-serif bg-linear-to-r from-slate-900 via-blue-900 to-purple-900 bg-clip-text text-transparent leading-tight mb-3 sm:mb-4">Technology Stack</h2>
+                        <p className="text-base sm:text-lg md:text-xl text-slate-700 max-w-3xl mx-auto">
                             Modern tools and technologies we use to create exceptional digital experiences
                         </p>
                     </div>

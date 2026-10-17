@@ -28,7 +28,7 @@ export default function ThankYouPage() {
                             <CheckCircle className="w-16 h-16 text-white" />
                         </div>
                     </div>
-                    <h1 className="text-4xl font-bold text-gray-900 mb-4">Thank You!</h1>
+                    <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-medium font-serif bg-linear-to-r from-slate-900 via-blue-900 to-purple-900 bg-clip-text text-transparent leading-tight mb-4">Thank You!</h1>
                     <p className="text-xl text-gray-600 max-w-2xl mx-auto">
                         Your message has been received successfully. We'll get back to you within 24 hours on business days.
                     </p>

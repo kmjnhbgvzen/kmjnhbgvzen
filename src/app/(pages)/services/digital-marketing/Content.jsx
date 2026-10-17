@@ -259,7 +259,7 @@ const DigitalMarketingSaaS = () => {
         <div className="min-h-fit lg:min-h-screen bg-linear-to-br from-slate-50 via-white to-blue-50 text-slate-900">
             <div className="container mx-auto px-4 sm:px-6 pt-8 sm:pt-12 lg:pt-36 pb-16 lg:pb-24">
                 <div className="mb-4 sm:mb-8 text-left md:text-center">
-                    <h1 className="text-3xl sm:text-5xl lg:text-7xl font-medium font-serif bg-linear-to-r from-blue-700 via-blue-600 to-sky-600 bg-clip-text text-transparent mb-2 sm:mb-4 leading-tight drop-shadow-xs">
+                    <h1 className="text-5xl md:text-6xl font-medium font-serif bg-linear-to-r from-slate-900 via-blue-900 to-purple-900 bg-clip-text text-transparent leading-tight mb-2 sm:mb-4">
                         Digital Marketing
                     </h1>
                     <p className="max-w-3xl mx-auto text-slate-700 text-base md:text-xl leading-relaxed text-left sm:text-center">
@@ -428,7 +428,7 @@ const DigitalMarketingSaaS = () => {
                         <span className="inline-block px-3.5 py-1 bg-blue-50 border border-blue-200/70 text-blue-700 rounded-full text-xs font-semibold tracking-wide uppercase mb-3">
                             Our Core Offerings
                         </span>
-                        <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-medium font-serif text-slate-900 mb-3 sm:mb-4">What We Provide</h2>
+                        <h2 className="text-5xl md:text-6xl font-medium font-serif bg-linear-to-r from-slate-900 via-blue-900 to-purple-900 bg-clip-text text-transparent leading-tight mb-3 sm:mb-4">What We Provide</h2>
                         <p className="text-slate-700 max-w-2xl mx-auto text-sm sm:text-base px-4">
                             Comprehensive digital marketing solutions to grow your business across all channels
                         </p>
@@ -511,11 +511,11 @@ const DigitalMarketingSaaS = () => {
 
                     {/* Key Benefits */}
                     <div className="bg-linear-to-b from-blue-50/70 via-white to-sky-50/50 border border-blue-200/80 rounded-2xl p-6 sm:p-10 shadow-sm">
-                        <div className="text-center max-w-2xl mx-auto mb-6 sm:mb-8">
+                        <div className="text-center max-w-4xl mx-auto mb-6 sm:mb-8">
                             <span className="inline-block px-3.5 py-1 bg-blue-100/70 border border-blue-200 text-blue-700 rounded-full text-xs font-semibold tracking-wide uppercase mb-2">
                                 Why Zentrix
                             </span>
-                            <h3 className="text-2xl sm:text-3xl md:text-4xl font-semibold text-slate-900">
+                            <h3 className="text-5xl md:text-6xl font-medium font-serif bg-linear-to-r from-slate-900 via-blue-900 to-purple-900 bg-clip-text text-transparent leading-tight">
                                 Why Choose Our Digital Marketing Services?
                             </h3>
                         </div>

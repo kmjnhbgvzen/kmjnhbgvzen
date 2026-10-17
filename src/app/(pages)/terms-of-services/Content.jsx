@@ -23,8 +23,8 @@ const TermsOfService = () => {
                 <FileText className="w-8 h-8 text-blue-600" />
               </div>
             </div>
-            <h1 className="text-4xl md:text-6xl font-bold text-slate-900 mb-6">
-              Terms of <span className="text-transparent bg-clip-text bg-linear-to-r from-blue-600 to-purple-600">Service</span>
+            <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-medium font-serif bg-linear-to-r from-slate-900 via-blue-900 to-purple-900 bg-clip-text text-transparent leading-tight mb-6">
+              Terms of Service
             </h1>
             <p className="text-xl text-slate-600 max-w-3xl mx-auto mb-8">
               Terms governing our comprehensive digital services including software development, web development, 

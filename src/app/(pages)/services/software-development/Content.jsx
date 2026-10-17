@@ -234,7 +234,7 @@ const SoftwareDevelopmentPage = () => {
       <section className="py-12 sm:py-16 md:py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-10 sm:mb-12 md:mb-16">
-            <h2 className="text-5xl md:text-6xl font-medium font-serif  mb-3 sm:mb-4 text-slate-900">Our Development Services</h2>
+            <h2 className="text-5xl md:text-6xl font-medium font-serif bg-linear-to-r from-slate-900 via-blue-900 to-purple-900 bg-clip-text text-transparent leading-tight mb-3 sm:mb-4">Our Development Services</h2>
             <p className="text-base sm:text-lg md:text-xl text-slate-700 max-w-3xl mx-auto">
               Comprehensive software development solutions tailored to your business needs
             </p>
@@ -268,7 +268,7 @@ const SoftwareDevelopmentPage = () => {
       <section className="py-12 sm:py-16 md:py-20 lg:py-24 bg-linear-to-r from-gray-50 to-gray-100">
         <div className="max-w-6xl mx-auto px-4 sm:px-6">
           <div className="text-center mb-10 sm:mb-12 md:mb-16">
-            <h2 className="text-5xl md:text-6xl font-medium font-serif text-slate-900 mb-2">Tech Toolbox</h2>
+            <h2 className="text-5xl md:text-6xl font-medium font-serif bg-linear-to-r from-slate-900 via-blue-900 to-purple-900 bg-clip-text text-transparent leading-tight mb-2 sm:mb-3">Tech Toolbox</h2>
             <p className="text-slate-700 text-base sm:text-lg">The technologies powering our code.</p>
           </div>
 
@@ -295,7 +295,7 @@ const SoftwareDevelopmentPage = () => {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="mb-6 sm:mb-8">
             <Award className="w-12 h-12 sm:w-16 sm:h-16 text-blue-600 mx-auto mb-3 sm:mb-4" />
-            <h2 className="text-2xl sm:text-3xl md:text-4xl font-medium font-serif mb-3 sm:mb-4 text-slate-900">Ready to Build Something Amazing?</h2>
+            <h2 className="text-5xl md:text-6xl font-medium font-serif bg-linear-to-r from-slate-900 via-blue-900 to-purple-900 bg-clip-text text-transparent leading-tight mb-3 sm:mb-4">Ready to Build Something Amazing?</h2>
             <p className="text-base sm:text-lg md:text-xl text-slate-700">
               Let's discuss your software development needs and create a solution that exceeds your expectations.
             </p>

@@ -114,7 +114,7 @@ const AboutUsSection = () => {
   );
 
   return (
-    <section className="relative px-4 pt-4 sm:pt-10 lg:pt-44 pb-8 sm:px-6 lg:px-8 bg-gradient-to-br from-slate-50 via-gray-50 to-white overflow-hidden">
+    <section className="relative px-4 pt-3 sm:pt-6 lg:pt-36 pb-8 sm:px-6 lg:px-8 bg-gradient-to-br from-slate-50 via-gray-50 to-white overflow-hidden">
 
       {/* ================= BACKGROUND EFFECTS ================= */}
 
@@ -143,7 +143,7 @@ const AboutUsSection = () => {
 
       {/* ================= MAIN CONTAINER ================= */}
 
-      <div className="max-w-7xl pt-1 sm:pt-6 lg:pt-8 pb-14 mx-auto relative z-10">
+      <div className="max-w-7xl pt-0 pb-14 mx-auto relative z-10">
 
         {/* ================= HEADER ================= */}
 
@@ -152,20 +152,14 @@ const AboutUsSection = () => {
 
           {/* Heading */}
 
-          <h2 className="text-3xl sm:text-5xl md:text-6xl font-medium font-serif text-slate-900 mb-4 sm:mb-6 leading-tight tracking-tight">
-
-            <span className="text-slate-900 block">
+          <h1 className="text-4xl sm:text-5xl md:text-6xl font-medium font-serif bg-linear-to-r from-slate-900 via-blue-900 to-purple-900 bg-clip-text text-transparent mb-4 sm:mb-6 leading-tight tracking-tight">
+            <span className="block">
               Crafting the future of
             </span>
-
-            <span className="block bg-gradient-to-r from-emerald-600 via-blue-600 to-purple-600 bg-clip-text text-transparent mt-2 relative">
-
+            <span className="block mt-1 sm:mt-2">
               digital innovation
-
-              <div className="absolute -top-6 -right-6 w-12 h-12 bg-gradient-to-r from-emerald-400 to-blue-500 rounded-full animate-bounce opacity-40 blur-sm" />
-
             </span>
-          </h2>
+          </h1>
 
           <p className="text-base sm:text-lg md:text-xl text-slate-600 max-w-3xl mx-auto leading-relaxed text-left sm:text-center">
             We are a passionate team of innovators, creators, and
@@ -179,7 +173,7 @@ const AboutUsSection = () => {
         {/* ===================== OUR STORY ========================= */}
         {/* ========================================================= */}
 
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center mb-24">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 sm:gap-12 lg:gap-16 items-center mb-8 sm:mb-16 lg:mb-24">
 
           {/* LEFT - STORY */}
 
@@ -187,15 +181,9 @@ const AboutUsSection = () => {
 
             <div className="absolute -left-10 top-10 w-20 h-20 bg-emerald-400/20 rounded-full blur-2xl" />
 
-            <h3 className="text-3xl sm:text-4xl md:text-5xl font-medium font-serif text-slate-900 mb-4 sm:mb-6 leading-tight tracking-tight">
-
-              Our{" "}
-
-              <span className="bg-gradient-to-r from-emerald-600 to-blue-600 bg-clip-text text-transparent">
-                Story
-              </span>
-
-            </h3>
+            <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-medium font-serif bg-linear-to-r from-slate-900 via-blue-900 to-purple-900 bg-clip-text text-transparent mb-4 sm:mb-6 leading-tight tracking-tight">
+              Our Story
+            </h2>
 
             <div className="space-y-6 text-slate-700 leading-relaxed">
 
@@ -238,7 +226,7 @@ const AboutUsSection = () => {
 
               </div>
 
-              <p className="text-slate-600 text-sm sm:text-base leading-relaxed mb-6 font-light">
+              <p className="text-blue-900 text-sm sm:text-base leading-relaxed mb-6 font-normal">
                 To empower businesses with innovative digital solutions that
                 drive growth, enhance user experiences, and create lasting
                 value in an ever-evolving technological landscape.
@@ -346,7 +334,7 @@ const AboutUsSection = () => {
         {/* ===================== OUR VALUES ======================== */}
         {/* ========================================================= */}
 
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center mb-24">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 sm:gap-12 lg:gap-16 items-center mb-8 sm:mb-16 lg:mb-24">
 
           {/* LEFT - VALUES */}
 
@@ -434,15 +422,9 @@ const AboutUsSection = () => {
 
           <div className="relative order-1 lg:order-2">
 
-            <h3 className="text-3xl sm:text-5xl md:text-6xl font-medium font-serif text-slate-900 mb-4 sm:mb-6 leading-tight tracking-tight">
-
-              What{" "}
-
-              <span className="bg-gradient-to-r from-emerald-600 to-blue-600 bg-clip-text text-transparent">
-                Drives Us
-              </span>
-
-            </h3>
+            <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-medium font-serif bg-linear-to-r from-slate-900 via-blue-900 to-purple-900 bg-clip-text text-transparent mb-4 sm:mb-6 leading-tight tracking-tight">
+              What Drives Us
+            </h2>
 
             <div className="space-y-6 text-slate-700">
 
@@ -505,15 +487,9 @@ const AboutUsSection = () => {
 
           </div>
 
-          <h3 className="text-3xl sm:text-5xl md:text-6xl font-medium font-serif text-slate-900 mb-4 sm:mb-6 leading-tight tracking-tight">
-
-            People Behind{" "}
-
-            <span className="bg-gradient-to-r from-emerald-600 to-blue-600 bg-clip-text text-transparent">
-              The Innovation
-            </span>
-
-          </h3>
+          <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-medium font-serif bg-linear-to-r from-slate-900 via-blue-900 to-purple-900 bg-clip-text text-transparent mb-4 sm:mb-6 leading-tight tracking-tight">
+            People Behind The Innovation
+          </h2>
 
           <p className="text-base sm:text-lg md:text-xl text-slate-600 max-w-3xl mx-auto leading-relaxed mt-5 text-left sm:text-center">
             Our people are at the heart of everything we build. We bring

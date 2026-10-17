@@ -528,12 +528,8 @@ export default function PSDecorClient() {
           </div>
 
           {/* Main Headline */}
-          <h1 className="text-3xl sm:text-5xl md:text-6xl font-medium font-serif text-slate-900 mb-4 sm:mb-6 leading-tight tracking-tight">
-            Crafting a{" "}
-            <span className="inline-block font-semibold text-[#1769AA] px-1 py-0.5">
-              Luxury Digital Experience
-            </span>{" "}
-            <br className="hidden md:inline" />
+          <h1 className="text-3xl sm:text-5xl md:text-6xl font-medium font-serif bg-linear-to-r from-slate-900 via-blue-900 to-purple-900 bg-clip-text text-transparent mb-4 sm:mb-6 leading-tight tracking-tight">
+            Crafting a Luxury Digital Experience <br className="hidden md:inline" />
             for Weddings & Celebrations
           </h1>
 

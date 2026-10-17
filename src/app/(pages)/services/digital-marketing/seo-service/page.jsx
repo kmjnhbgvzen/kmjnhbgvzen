@@ -101,24 +101,23 @@ const SEOServicePage = () => {
   };
 
   return (
-    <div className="w-full pt-20 lg:pt-28">
+    <div className="w-full pt-4 sm:pt-6 lg:pt-28">
       {/* SEO Service Hero Section */}
-      <section className="px-4 sm:px-6 lg:px-8 pt-4 sm:pt-6 lg:pt-8 pb-10 sm:pb-14 bg-gradient-to-b from-slate-50/70 via-white to-blue-50/20 relative overflow-hidden">
+      <section className="px-4 sm:px-6 lg:px-8 pt-4 sm:pt-6 lg:pt-8 pb-6 sm:pb-8 lg:pb-10 bg-gradient-to-b from-slate-50/70 via-white to-blue-50/20 relative overflow-hidden">
         {/* Decorative subtle blue ambient elements */}
         <div className="absolute top-0 left-0 w-48 sm:w-64 h-48 sm:h-64 bg-gradient-to-br from-blue-200/30 to-sky-100/20 rounded-full blur-3xl -translate-x-20 -translate-y-20 pointer-events-none" />
         <div className="absolute bottom-0 right-0 w-64 sm:w-80 h-64 sm:h-80 bg-gradient-to-tl from-blue-100/30 to-sky-200/20 rounded-full blur-3xl translate-x-20 translate-y-20 pointer-events-none" />
 
         <div className="max-w-6xl mx-auto relative z-10">
-          <div className="mb-3 sm:mb-4">
-            <span className="inline-flex items-center gap-1.5 px-3.5 py-1 rounded-full bg-blue-50 border border-blue-200/80 text-blue-700 text-xs sm:text-sm font-semibold tracking-wide uppercase shadow-2xs">
-              <Sparkles className="w-3.5 h-3.5 text-blue-600" />
-              Organic Growth
-            </span>
-          </div>
-
           <div className="grid lg:grid-cols-2 gap-8 lg:gap-12 items-center">
             <div>
-              <h1 className="text-3xl sm:text-5xl lg:text-5xl xl:text-6xl font-semibold capitalize text-slate-900 mb-3 sm:mb-5 leading-[1.15] tracking-tight">
+              <div className="mb-3 sm:mb-4">
+                <span className="inline-flex items-center gap-1.5 px-3.5 py-1 rounded-full bg-blue-50 border border-blue-200/80 text-blue-700 text-xs sm:text-sm font-semibold tracking-wide uppercase shadow-2xs">
+                  <Sparkles className="w-3.5 h-3.5 text-blue-600" />
+                  Organic Growth
+                </span>
+              </div>
+              <h1 className="text-5xl md:text-6xl font-medium font-serif bg-linear-to-r from-slate-900 via-blue-900 to-purple-900 bg-clip-text text-transparent leading-tight mb-3 sm:mb-5">
                 SEO Services &amp;
                 <br />
                 Optimization
@@ -197,20 +196,20 @@ const SEOServicePage = () => {
 
 
       {/* Our Excellence Section - Modern Square Blue & White Layout */}
-      <section className="relative pt-16 sm:pt-20 pb-12 sm:pb-16 bg-gradient-to-b from-slate-50/60 via-white to-blue-50/30 overflow-hidden">
+      <section className="relative pt-6 sm:pt-8 lg:pt-12 pb-12 sm:pb-16 bg-gradient-to-b from-slate-50/60 via-white to-blue-50/30 overflow-hidden">
         {/* Subtle decorative background glows */}
         <div className="absolute top-0 left-0 w-80 h-80 bg-blue-100/30 rounded-full blur-3xl -translate-x-40 -translate-y-40 pointer-events-none" />
         <div className="absolute bottom-0 right-0 w-96 h-96 bg-sky-100/30 rounded-full blur-3xl translate-x-40 translate-y-40 pointer-events-none" />
 
         <div className="container mx-auto px-4 sm:px-6 relative z-10">
           {/* Header */}
-          <div className="text-center mb-12 sm:mb-16">
+          <div className="text-center mb-8 sm:mb-10 lg:mb-12">
             <div className="mb-3.5 sm:mb-4">
               <span className="inline-flex items-center gap-1.5 bg-blue-50 text-blue-700 px-4 py-1.5 rounded-full text-xs sm:text-sm font-semibold uppercase tracking-wider border border-blue-200/70 shadow-2xs">
                 WHAT SETS US APART
               </span>
             </div>
-            <h2 className="text-3xl sm:text-4xl md:text-5xl font-semibold text-slate-900 mb-3 sm:mb-4 leading-tight tracking-tight">
+            <h2 className="text-5xl md:text-6xl font-medium font-serif bg-linear-to-r from-slate-900 via-blue-900 to-purple-900 bg-clip-text text-transparent leading-tight mb-3 sm:mb-4">
               Our Excellence
             </h2>
             <p className="text-slate-600 text-sm sm:text-base md:text-lg max-w-2xl mx-auto leading-relaxed">

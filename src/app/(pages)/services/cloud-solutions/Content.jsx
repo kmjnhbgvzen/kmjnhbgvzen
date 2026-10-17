@@ -105,11 +105,9 @@ const CloudServicesPage = () => {
                 <span className="text-xs sm:text-sm text-blue-700 font-medium">Live Production Environment</span>
               </div>
               
-              <h1 className="text-4xl md:text-5xl lg:text-6xl font-medium font-serif leading-tight">
-                <span className="bg-linear-to-r from-blue-600 via-purple-600 to-cyan-600 bg-clip-text text-transparent">
-                  Enterprise Cloud
-                </span><br />
-                <span className="text-slate-900">That Just Works</span>
+              <h1 className="text-5xl md:text-6xl font-medium font-serif bg-linear-to-r from-slate-900 via-blue-900 to-purple-900 bg-clip-text text-transparent leading-tight">
+                Enterprise Cloud<br />
+                That Just Works
               </h1>
               
               <p className="text-base sm:text-lg md:text-xl text-slate-600 leading-relaxed">
@@ -180,14 +178,14 @@ const CloudServicesPage = () => {
       </section>
 
       {/* Features & Tools */}
-      <section className="relative z-10 px-4 sm:px-6 py-12 sm:py-16 md:py-20 bg-white">
+      <section className="relative z-10 px-4 sm:px-6 py-8 sm:py-12 md:py-16 bg-white">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-8 sm:mb-12">
-            <h2 className="text-4xl md:text-5xl lg:text-6xl font-medium font-serif mb-3 sm:mb-4 text-slate-900">Powerful Cloud Solutions</h2>
+            <h2 className="text-5xl md:text-6xl font-medium font-serif bg-linear-to-r from-slate-900 via-blue-900 to-purple-900 bg-clip-text text-transparent leading-tight mb-3 sm:mb-4">Powerful Cloud Solutions</h2>
             <p className="text-slate-600 text-sm sm:text-base md:text-lg">Enterprise-ready tools for modern applications</p>
           </div>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 mb-12 sm:mb-16">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 mb-6 sm:mb-10">
             {features.map((feature, i) => (
               <div key={i} className="group bg-white rounded-xl p-5 sm:p-6 border border-slate-200 hover:border-blue-300 hover:shadow-xl transition-all hover:transform hover:scale-105 cursor-pointer">
                 <feature.icon className={`w-7 h-7 sm:w-8 sm:h-8 text-${feature.color}-600 group-hover:scale-110 transition-transform mb-3 sm:mb-4`} />
@@ -201,8 +199,8 @@ const CloudServicesPage = () => {
           </div>
 
           {/* Cloud Tools Section */}
-          <div className="text-center mb-8 sm:mb-12 pt-12">
-            <h2 className="text-4xl md:text-5xl lg:text-6xl font-medium font-serif text-slate-900 mb-2">Tech Toolbox</h2>
+          <div className="text-center mb-6 sm:mb-8 pt-2 sm:pt-4">
+            <h2 className="text-5xl md:text-6xl font-medium font-serif bg-linear-to-r from-slate-900 via-blue-900 to-purple-900 bg-clip-text text-transparent leading-tight mb-3 sm:mb-4">Tech Toolbox</h2>
             <p className="text-slate-600 text-sm sm:text-base md:text-lg">The technologies powering our cloud solutions</p>
           </div>
 

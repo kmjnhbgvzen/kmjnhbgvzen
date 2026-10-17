@@ -198,7 +198,7 @@ export default function ContactUs() {
             {/* ================= HERO SECTION ================= */}
 
             <div className="text-left md:text-center mb-3 sm:mb-4 mt-0 px-4">
-                <h1 className="text-3xl sm:text-5xl md:text-6xl font-medium font-serif text-slate-900 mb-4 sm:mb-6 leading-tight tracking-tight text-left md:text-center mt-0">
+                <h1 className="text-3xl sm:text-5xl md:text-6xl font-medium font-serif bg-linear-to-r from-slate-900 via-blue-900 to-purple-900 bg-clip-text text-transparent mb-4 sm:mb-6 leading-tight tracking-tight text-left md:text-center mt-0">
                     Contact Us
                 </h1>
 

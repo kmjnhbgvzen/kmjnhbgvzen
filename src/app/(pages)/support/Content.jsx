@@ -84,7 +84,7 @@ const SupportPage = () => {
         <div className="max-w-4xl mx-auto bg-white backdrop-blur border border-slate-200 rounded-2xl shadow-xl p-10">
           <div className="text-center mb-10">
             <HelpCircle size={48} className="mx-auto text-blue-600 mb-2" />
-            <h1 className="text-3xl font-medium font-serif text-slate-900">Support Center</h1>
+            <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-medium font-serif bg-linear-to-r from-slate-900 via-blue-900 to-purple-900 bg-clip-text text-transparent leading-tight">Support Center</h1>
             <p className="text-slate-600 mt-2">
               Reach out to us and we'll get back as soon as possible.
             </p>

@@ -593,19 +593,8 @@ export default function OracleHospitalClient() {
           </div>
 
           {/* Main headline */}
-          <h1 className="text-3xl sm:text-5xl md:text-6xl font-medium font-serif text-slate-900 mb-4 sm:mb-6 leading-tight tracking-tight">
-            Building a Digital Experience for{" "}
-            <span
-              className="inline-block font-semibold"
-              style={{
-                backgroundImage: `linear-gradient(135deg, ${BLUE_DEEP} 0%, ${BLUE_PRIMARY} 40%, ${BLUE_ACCENT} 70%, ${BLUE_DEEP} 100%)`,
-                WebkitBackgroundClip: "text",
-                WebkitTextFillColor: "transparent",
-              }}
-            >
-              Advanced Eye Care
-            </span>{" "}
-            <br className="hidden md:inline" />& Patient Trust
+          <h1 className="text-3xl sm:text-5xl md:text-6xl font-medium font-serif bg-linear-to-r from-slate-900 via-blue-900 to-purple-900 bg-clip-text text-transparent mb-4 sm:mb-6 leading-tight tracking-tight">
+            Building a Digital Experience for Advanced Eye Care <br className="hidden md:inline" />& Patient Trust
           </h1>
 
           {/* Subtitle */}
