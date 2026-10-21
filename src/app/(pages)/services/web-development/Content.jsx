@@ -477,19 +477,19 @@ const WebDevelopment = () => {
                             <p className="text-slate-700 text-base sm:text-lg">The technologies powering our code.</p>
                         </div>
 
-                        <div className="flex flex-wrap justify-center gap-4 sm:gap-6 md:gap-8">
+                        <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-5 lg:grid-cols-6 gap-3 sm:gap-6 md:gap-8">
                             {techStack.map((tech, i) => (
                                 <motion.div
                                     key={i}
                                     initial={{ opacity: 0, scale: 0.7 }}
                                     animate={{ opacity: 1, scale: 1 }}
                                     transition={{ delay: i * 0.1 }}
-                                    className="flex flex-col items-center gap-2 p-3 sm:p-4 bg-white rounded-xl w-24 sm:w-28 md:w-32 shadow-sm border border-gray-200 hover:shadow-md transition-shadow cursor-default select-none"
+                                    className="flex flex-col items-center gap-1.5 sm:gap-2 p-2.5 sm:p-4 bg-white rounded-xl shadow-sm border border-gray-200 hover:shadow-md transition-shadow cursor-default select-none"
                                 >
-                                    <div className={`text-3xl sm:text-4xl md:text-5xl ${tech.color}`}>
+                                    <div className={`text-2xl sm:text-4xl md:text-5xl ${tech.color}`}>
                                         {tech.icon}
                                     </div>
-                                    <span className="text-slate-900 font-semibold text-sm sm:text-base md:text-lg text-center">{tech.name}</span>
+                                    <span className="text-slate-900 font-semibold text-[11px] sm:text-base md:text-lg text-center leading-tight">{tech.name}</span>
                                 </motion.div>
                             ))}
                         </div>

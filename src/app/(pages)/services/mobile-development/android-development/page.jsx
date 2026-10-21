@@ -576,7 +576,7 @@ class UserViewModel : ViewModel() {
             </p>
           </motion.div>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 sm:gap-8">
+          <div className="grid grid-cols-2 lg:grid-cols-4 gap-3 sm:gap-8">
             {[
               { step: "01", title: "Planning & Analysis", desc: "Requirements gathering, feasibility study, and technical architecture design" },
               { step: "02", title: "UI/UX Design", desc: "Material Design implementation, prototyping, and user experience optimization" },
@@ -588,13 +588,13 @@ class UserViewModel : ViewModel() {
                 initial={{ opacity: 0, y: 30 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.6, delay: index * 0.2 }}
-                className="text-center"
+                className="text-center bg-blue-50/60 border border-blue-200/70 rounded-2xl p-4 sm:p-6 hover:border-blue-300 hover:shadow-md transition-all duration-300"
               >
-                <div className="w-14 h-14 sm:w-16 sm:h-16 bg-linear-to-r from-blue-700 to-indigo-800 rounded-full flex items-center justify-center mx-auto mb-3 sm:mb-4 text-white font-bold text-base sm:text-lg shadow-md">
+                <div className="w-12 h-12 sm:w-16 sm:h-16 bg-linear-to-r from-blue-700 to-indigo-800 rounded-full flex items-center justify-center mx-auto mb-3 sm:mb-4 text-white font-bold text-sm sm:text-lg shadow-md">
                   {phase.step}
                 </div>
-                <h3 className="text-lg sm:text-xl font-semibold text-slate-900 mb-3 sm:mb-4">{phase.title}</h3>
-                <p className="text-slate-700 leading-relaxed text-sm sm:text-base">{phase.desc}</p>
+                <h3 className="text-sm sm:text-xl font-semibold text-slate-900 mb-1.5 sm:mb-4">{phase.title}</h3>
+                <p className="text-slate-600 leading-relaxed text-xs sm:text-base">{phase.desc}</p>
               </motion.div>
             ))}
           </div>

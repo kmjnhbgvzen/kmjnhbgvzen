@@ -44,7 +44,7 @@ const DigitalMarketingSaaS = () => {
     ];
 
     const StatCard = ({ icon: Icon, title, value, change }) => (
-        <div className="group bg-white border border-slate-200 hover:border-slate-300 rounded-2xl p-4 sm:p-6 shadow-sm hover:shadow-md hover:-translate-y-1 transition-all duration-300">
+        <div className="group bg-white border border-slate-200 hover:border-slate-300 rounded-2xl p-3 sm:p-6 shadow-sm hover:shadow-md hover:-translate-y-1 transition-all duration-300">
             <div className="flex items-center justify-between mb-4">
                 <div className="w-11 h-11 sm:w-12 sm:h-12 rounded-xl bg-blue-50 border border-blue-100 flex items-center justify-center text-blue-600 group-hover:bg-blue-600 group-hover:text-white transition-all duration-300">
                     <Icon className="w-5 h-5 sm:w-6 sm:h-6" />
@@ -60,7 +60,7 @@ const DigitalMarketingSaaS = () => {
 
     const renderOverview = () => (
         <div className="space-y-6 sm:space-y-8 lg:px-20">
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6">
+            <div className="grid grid-cols-2 lg:grid-cols-4 gap-3 sm:gap-6">
                 <StatCard icon={Eye} title="Total Impressions" value="261K" change="12" />
                 <StatCard icon={MousePointer} title="Total Clicks" value="13.4K" change="18" />
                 <StatCard icon={Users} title="Conversions" value="1,315" change="24" />
@@ -300,8 +300,8 @@ const DigitalMarketingSaaS = () => {
                             </div>
 
                             {/* Marketing Dashboard Content */}
-                            <div className="bg-linear-to-br from-white to-slate-50 relative overflow-hidden min-h-[400px] md:aspect-video">
-                                <div className="absolute inset-0 p-4 md:p-8">
+                            <div className="bg-linear-to-br from-white to-slate-50 relative overflow-hidden md:aspect-video">
+                                <div className="p-4 md:p-8 md:absolute md:inset-0">
                                     {/* Marketing Stats Cards */}
                                     <div className="grid grid-cols-2 md:grid-cols-4 gap-3 md:gap-6 mb-6 md:mb-0 md:h-full">
                                         {[
@@ -340,19 +340,19 @@ const DigitalMarketingSaaS = () => {
                                     </div>
 
                                     {/* Marketing Campaign Performance Chart */}
-                                    <div className="md:absolute md:bottom-8 md:left-8 md:right-8 md:h-32 bg-linear-to-r from-blue-50/80 to-sky-50/70 rounded-xl border border-blue-200/70 p-3 md:p-4 h-24 mb-4 md:mb-0">
-                                        <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center mb-3 md:mb-4 gap-2">
-                                            <h3 className="text-slate-800 font-bold text-sm">Campaign Performance</h3>
-                                            <div className="flex gap-2 md:gap-4 text-xs flex-wrap">
-                                                <div className="flex items-center gap-1 md:gap-2">
+                                    <div className="md:absolute md:bottom-8 md:left-8 md:right-8 md:h-32 bg-linear-to-r from-blue-50/80 to-sky-50/70 rounded-xl border border-blue-200/70 p-3.5 md:p-4 mb-4 md:mb-0">
+                                        <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center mb-2.5 md:mb-3 gap-1.5 sm:gap-2">
+                                            <h3 className="text-slate-800 font-bold text-xs sm:text-sm">Campaign Performance</h3>
+                                            <div className="flex gap-2.5 md:gap-4 text-[10px] sm:text-xs flex-wrap">
+                                                <div className="flex items-center gap-1 md:gap-1.5">
                                                     <div className="w-1.5 h-1.5 md:w-2 md:h-2 bg-blue-600 rounded-full"></div>
                                                     <span className="text-slate-700 font-semibold">Google Ads</span>
                                                 </div>
-                                                <div className="flex items-center gap-1 md:gap-2">
+                                                <div className="flex items-center gap-1 md:gap-1.5">
                                                     <div className="w-1.5 h-1.5 md:w-2 md:h-2 bg-sky-500 rounded-full"></div>
                                                     <span className="text-slate-700 font-semibold">Facebook Ads</span>
                                                 </div>
-                                                <div className="flex items-center gap-1 md:gap-2">
+                                                <div className="flex items-center gap-1 md:gap-1.5">
                                                     <div className="w-1.5 h-1.5 md:w-2 md:h-2 bg-indigo-500 rounded-full"></div>
                                                     <span className="text-slate-700 font-semibold">LinkedIn Ads</span>
                                                 </div>
@@ -360,25 +360,25 @@ const DigitalMarketingSaaS = () => {
                                         </div>
 
                                         {/* Animated Chart Bars */}
-                                        <div className="flex items-end justify-center gap-0.5 md:gap-1 h-12 md:h-16">
+                                        <div className="flex items-end justify-center gap-0.5 md:gap-1 h-12 md:h-14">
                                             {Array.from({ length: 24 }).map((_, i) => (
-                                                <div key={i} className="flex flex-col gap-0.5 md:gap-1 flex-1">
+                                                <div key={i} className="flex flex-col gap-0.5 flex-1">
                                                     <motion.div
                                                         className="bg-linear-to-t from-blue-600 to-blue-400 rounded-xs"
                                                         initial={{ height: 0 }}
-                                                        animate={{ height: `${Math.random() * 30 + 10}px` }}
+                                                        animate={{ height: `${Math.random() * 12 + 6}px` }}
                                                         transition={{ delay: 2.5 + i * 0.05, duration: 0.5, repeat: Infinity, repeatDelay: 8, ease: "easeOut" }}
                                                     />
                                                     <motion.div
                                                         className="bg-linear-to-t from-sky-500 to-sky-400 rounded-xs"
                                                         initial={{ height: 0 }}
-                                                        animate={{ height: `${Math.random() * 25 + 15}px` }}
+                                                        animate={{ height: `${Math.random() * 10 + 6}px` }}
                                                         transition={{ delay: 2.7 + i * 0.05, duration: 0.5, repeat: Infinity, repeatDelay: 8, ease: "easeOut" }}
                                                     />
                                                     <motion.div
                                                         className="bg-linear-to-t from-indigo-500 to-blue-500 rounded-xs"
                                                         initial={{ height: 0 }}
-                                                        animate={{ height: `${Math.random() * 20 + 8}px` }}
+                                                        animate={{ height: `${Math.random() * 8 + 4}px` }}
                                                         transition={{ delay: 2.9 + i * 0.05, duration: 0.5, repeat: Infinity, repeatDelay: 8, ease: "easeOut" }}
                                                     />
                                                 </div>
@@ -424,12 +424,12 @@ const DigitalMarketingSaaS = () => {
 
                 {/* What We Provide Section */}
                 <div className="mb-8 sm:mb-12 pt-10 lg:px-20">
-                    <div className="text-center mb-8 sm:mb-10">
+                    <div className="text-left sm:text-center mb-8 sm:mb-10">
                         <span className="inline-block px-3.5 py-1 bg-blue-50 border border-blue-200/70 text-blue-700 rounded-full text-xs font-semibold tracking-wide uppercase mb-3">
                             Our Core Offerings
                         </span>
-                        <h2 className="text-5xl md:text-6xl font-medium font-serif bg-linear-to-r from-slate-900 via-blue-900 to-purple-900 bg-clip-text text-transparent leading-tight mb-3 sm:mb-4">What We Provide</h2>
-                        <p className="text-slate-700 max-w-2xl mx-auto text-sm sm:text-base px-4">
+                        <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-medium font-serif bg-linear-to-r from-slate-900 via-blue-900 to-purple-900 bg-clip-text text-transparent leading-tight mb-3 sm:mb-4 whitespace-nowrap sm:whitespace-normal">What We Provide</h2>
+                        <p className="text-slate-700 max-w-2xl sm:mx-auto text-sm sm:text-base">
                             Comprehensive digital marketing solutions to grow your business across all channels
                         </p>
                     </div>
@@ -511,11 +511,11 @@ const DigitalMarketingSaaS = () => {
 
                     {/* Key Benefits */}
                     <div className="bg-linear-to-b from-blue-50/70 via-white to-sky-50/50 border border-blue-200/80 rounded-2xl p-6 sm:p-10 shadow-sm">
-                        <div className="text-center max-w-4xl mx-auto mb-6 sm:mb-8">
+                        <div className="text-left sm:text-center max-w-4xl sm:mx-auto mb-6 sm:mb-8">
                             <span className="inline-block px-3.5 py-1 bg-blue-100/70 border border-blue-200 text-blue-700 rounded-full text-xs font-semibold tracking-wide uppercase mb-2">
                                 Why Zentrix
                             </span>
-                            <h3 className="text-5xl md:text-6xl font-medium font-serif bg-linear-to-r from-slate-900 via-blue-900 to-purple-900 bg-clip-text text-transparent leading-tight">
+                            <h3 className="text-2xl sm:text-3xl md:text-5xl lg:text-6xl font-medium font-serif bg-linear-to-r from-slate-900 via-blue-900 to-purple-900 bg-clip-text text-transparent leading-tight">
                                 Why Choose Our Digital Marketing Services?
                             </h3>
                         </div>

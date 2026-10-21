@@ -457,7 +457,7 @@ class MyApp extends StatelessWidget {
       </section>
 
       {/* Process Section - Responsive */}
-      <section className="py-10 px-4 sm:px-6 lg:px-8 overflow-hidden w-full">
+      <section className="pt-4 pb-10 sm:py-10 px-4 sm:px-6 lg:px-8 overflow-hidden w-full">
         <div className="max-w-7xl mx-auto w-full min-w-0">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -471,7 +471,7 @@ class MyApp extends StatelessWidget {
             </p>
           </motion.div>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6 lg:gap-8 w-full min-w-0">
+          <div className="grid grid-cols-2 lg:grid-cols-4 gap-3 sm:gap-6 lg:gap-8 w-full min-w-0">
             {[
               { step: "01", title: "Discovery & Planning", desc: "Requirements analysis, market research, and technical planning" },
               { step: "02", title: "Design & Prototyping", desc: "UI/UX design, branding, and interactive prototypes" },
@@ -483,7 +483,7 @@ class MyApp extends StatelessWidget {
                 initial={{ opacity: 0, y: 30 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.6, delay: index * 0.2 }}
-                className="flex flex-row sm:flex-col items-start sm:items-center text-left sm:text-center gap-4 sm:gap-0 p-4 sm:p-0 bg-white sm:bg-transparent rounded-2xl sm:rounded-none border border-slate-200/90 sm:border-0 shadow-xs sm:shadow-none"
+                className="flex flex-col items-start sm:items-center text-left sm:text-center gap-2 sm:gap-0 p-3 sm:p-0 bg-white sm:bg-transparent rounded-2xl sm:rounded-none border border-slate-200/90 sm:border-0 shadow-xs sm:shadow-none"
               >
                 <div className="w-12 h-12 sm:w-16 sm:h-16 shrink-0 bg-linear-to-r from-blue-600 to-indigo-600 rounded-xl sm:rounded-full flex items-center justify-center sm:mx-auto sm:mb-6 text-white font-bold text-sm sm:text-lg shadow-sm">
                   {phase.step}

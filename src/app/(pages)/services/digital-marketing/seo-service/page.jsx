@@ -117,7 +117,7 @@ const SEOServicePage = () => {
                   Organic Growth
                 </span>
               </div>
-              <h1 className="text-5xl md:text-6xl font-medium font-serif bg-linear-to-r from-slate-900 via-blue-900 to-purple-900 bg-clip-text text-transparent leading-tight mb-3 sm:mb-5">
+              <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-medium font-serif bg-linear-to-r from-slate-900 via-blue-900 to-purple-900 bg-clip-text text-transparent leading-tight mb-3 sm:mb-5">
                 SEO Services &amp;
                 <br />
                 Optimization
@@ -203,26 +203,26 @@ const SEOServicePage = () => {
 
         <div className="container mx-auto px-4 sm:px-6 relative z-10">
           {/* Header */}
-          <div className="text-center mb-8 sm:mb-10 lg:mb-12">
+          <div className="text-left sm:text-center mb-8 sm:mb-10 lg:mb-12">
             <div className="mb-3.5 sm:mb-4">
               <span className="inline-flex items-center gap-1.5 bg-blue-50 text-blue-700 px-4 py-1.5 rounded-full text-xs sm:text-sm font-semibold uppercase tracking-wider border border-blue-200/70 shadow-2xs">
                 WHAT SETS US APART
               </span>
             </div>
-            <h2 className="text-5xl md:text-6xl font-medium font-serif bg-linear-to-r from-slate-900 via-blue-900 to-purple-900 bg-clip-text text-transparent leading-tight mb-3 sm:mb-4">
+            <h2 className="text-2xl sm:text-3xl md:text-5xl lg:text-6xl font-medium font-serif bg-linear-to-r from-slate-900 via-blue-900 to-purple-900 bg-clip-text text-transparent leading-tight mb-3 sm:mb-4">
               Our Excellence
             </h2>
-            <p className="text-slate-600 text-sm sm:text-base md:text-lg max-w-2xl mx-auto leading-relaxed">
+            <p className="text-slate-600 text-sm sm:text-base md:text-lg max-w-2xl sm:mx-auto leading-relaxed">
               Discover the unique advantages that make us the preferred choice for innovative digital solutions and exceptional results.
             </p>
           </div>
 
           {/* Square Cards Grid */}
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8 max-w-6xl mx-auto">
+          <div className="grid grid-cols-2 lg:grid-cols-3 gap-3 sm:gap-6 md:gap-8 max-w-6xl mx-auto">
             {excellenceCards.map((card, index) => (
               <div
                 key={index}
-                className={`animate-card group relative bg-white rounded-2xl p-6 sm:p-8 flex flex-col items-center text-center border border-slate-200 hover:border-blue-400 shadow-sm hover:shadow-md hover:-translate-y-1 transition-all duration-300 ease-out cursor-pointer ${
+                className={`animate-card group relative bg-white rounded-2xl p-4 sm:p-6 md:p-8 flex flex-col items-start sm:items-center text-left sm:text-center border border-slate-200 hover:border-blue-400 shadow-sm hover:shadow-md hover:-translate-y-1 transition-all duration-300 ease-out cursor-pointer ${
                   visibleCards.has(`card-${index}`) ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'
                 }`}
                 style={{

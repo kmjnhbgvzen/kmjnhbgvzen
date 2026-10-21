@@ -52,7 +52,7 @@ const AdsManagement = ({ handleButtonClick }) => {
                         {/* LEFT CONTENT */}
                         <div>
 
-                            <h1 className="text-5xl md:text-6xl font-medium font-serif bg-linear-to-r from-slate-900 via-blue-900 to-purple-900 bg-clip-text text-transparent leading-tight mb-5 sm:mb-6">
+                            <h1 className="text-2xl min-[390px]:text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-medium font-serif bg-linear-to-r from-slate-900 via-blue-900 to-purple-900 bg-clip-text text-transparent leading-tight mb-5 sm:mb-6 whitespace-nowrap md:whitespace-normal">
                                 ADS MANAGEMENT
                             </h1>
 

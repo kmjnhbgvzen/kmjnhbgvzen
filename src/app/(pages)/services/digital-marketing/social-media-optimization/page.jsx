@@ -148,16 +148,16 @@ const SocialMediaLanding = () => {
 
                 <div className="container mx-auto max-w-6xl px-4 sm:px-6 relative z-10">
                     {/* Header */}
-                    <div className="text-center mb-8 sm:mb-10 lg:mb-12">
+                    <div className="text-left sm:text-center mb-8 sm:mb-10 lg:mb-12">
                         <div className="mb-3.5 sm:mb-4">
                             <span className="inline-flex items-center gap-1.5 bg-blue-50 text-blue-700 px-4 py-1.5 rounded-full text-xs sm:text-sm font-semibold uppercase tracking-wider border border-blue-200/70 shadow-2xs">
                                 Social Media Solutions
                             </span>
                         </div>
-                        <h2 className="text-5xl md:text-6xl font-medium font-serif bg-linear-to-r from-slate-900 via-blue-900 to-purple-900 bg-clip-text text-transparent leading-tight mb-4">
-                            Unleash Your Unique Brand Story <br /> Across Digital Platforms
+                        <h2 className="text-2xl sm:text-3xl md:text-5xl lg:text-6xl font-medium font-serif bg-linear-to-r from-slate-900 via-blue-900 to-purple-900 bg-clip-text text-transparent leading-tight mb-4">
+                            Unleash Your Unique <br className="sm:hidden" /> Brand Story <br className="hidden sm:inline" /> Across Digital Platforms
                         </h2>
-                        <p className="text-slate-600 text-sm sm:text-base md:text-lg max-w-2xl mx-auto leading-relaxed">
+                        <p className="text-slate-600 text-sm sm:text-base md:text-lg max-w-2xl sm:mx-auto leading-relaxed">
                             Comprehensive, results-driven social media management and optimization campaigns built to scale your business.
                         </p>
                     </div>

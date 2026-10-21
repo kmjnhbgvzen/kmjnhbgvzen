@@ -369,7 +369,7 @@ const portfolio = () => {
     return (
         <>
             {/* Hero Section - Responsive */}
-            <div className="text-center pt-16 sm:pt-20 lg:pt-[170px] pb-6 sm:pb-10 md:pb-16 px-4 sm:px-6">
+            <div className="text-left sm:text-center pt-7 sm:pt-10 lg:pt-[170px] pb-6 sm:pb-10 md:pb-16 px-4 sm:px-6 max-w-7xl mx-auto">
                 <div className="inline-flex items-center gap-2 px-4 sm:px-6 py-2 sm:py-2.5 rounded-full text-xs sm:text-sm md:text-base font-semibold uppercase tracking-wider bg-blue-50 text-blue-900 border border-blue-200/90 shadow-2xs mb-4 sm:mb-6 md:mb-8 backdrop-blur-sm hover:scale-105 transition-transform duration-300 relative overflow-hidden">
                     <svg className="w-3.5 h-3.5 sm:w-4 sm:h-4 mr-1 text-blue-800 animate-pulse" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth="2">
                         <rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
@@ -380,13 +380,13 @@ const portfolio = () => {
                     <div className="ml-1 w-2 h-2 bg-blue-700 rounded-full animate-ping" />
                 </div>
 
-                <h1 className="text-5xl md:text-6xl font-medium font-serif bg-linear-to-r from-slate-900 via-blue-900 to-purple-900 bg-clip-text text-transparent leading-tight mb-4 sm:mb-6 px-4">
+                <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-medium font-serif bg-linear-to-r from-slate-900 via-blue-900 to-purple-900 bg-clip-text text-transparent leading-tight mb-4 sm:mb-6">
                     <span className="block">Showcasing our best</span>
                     <span className="block mt-1 sm:mt-2">
                         creative work
                     </span>
                 </h1>
-                <p className="text-base sm:text-lg md:text-xl text-slate-600 max-w-3xl mx-auto leading-relaxed px-4">
+                <p className="text-base sm:text-lg md:text-xl text-slate-600 max-w-3xl sm:mx-auto leading-relaxed">
                     Explore our collection of successful projects and digital solutions. Each portfolio piece represents our commitment to excellence, innovation, and delivering results that exceed expectations.
                 </p>
             </div>

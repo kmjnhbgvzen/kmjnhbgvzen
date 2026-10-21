@@ -48,7 +48,7 @@ const Services = () => {
     <div className="bg-white -mt-4 sm:-mt-8 pt-4 sm:pt-10 px-4 sm:px-8 pb-12 sm:pb-20">
       <div className="max-w-7xl mx-auto">
         <div className="text-left md:text-center mb-8 sm:mb-12">
-          <h2 className="text-5xl md:text-6xl font-medium font-serif bg-linear-to-r from-slate-900 via-blue-900 to-purple-900 bg-clip-text text-transparent leading-tight mb-4 sm:mb-6">Services We Offer</h2>
+          <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-medium font-serif bg-linear-to-r from-slate-900 via-blue-900 to-purple-900 bg-clip-text text-transparent leading-tight mb-4 sm:mb-6 whitespace-nowrap sm:whitespace-normal">Services We Offer</h2>
           <p className="text-base sm:text-lg md:text-xl text-slate-700 max-w-3xl mx-auto leading-relaxed text-left sm:text-center">Comprehensive solutions tailored to your needs</p>
         </div>
 

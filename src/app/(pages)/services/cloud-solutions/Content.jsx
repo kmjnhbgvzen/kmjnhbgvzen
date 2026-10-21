@@ -105,7 +105,7 @@ const CloudServicesPage = () => {
                 <span className="text-xs sm:text-sm text-blue-700 font-medium">Live Production Environment</span>
               </div>
               
-              <h1 className="text-5xl md:text-6xl font-medium font-serif bg-linear-to-r from-slate-900 via-blue-900 to-purple-900 bg-clip-text text-transparent leading-tight">
+              <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-medium font-serif bg-linear-to-r from-slate-900 via-blue-900 to-purple-900 bg-clip-text text-transparent leading-tight">
                 Enterprise Cloud<br />
                 That Just Works
               </h1>
@@ -181,7 +181,7 @@ const CloudServicesPage = () => {
       <section className="relative z-10 px-4 sm:px-6 py-8 sm:py-12 md:py-16 bg-white">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-8 sm:mb-12">
-            <h2 className="text-5xl md:text-6xl font-medium font-serif bg-linear-to-r from-slate-900 via-blue-900 to-purple-900 bg-clip-text text-transparent leading-tight mb-3 sm:mb-4">Powerful Cloud Solutions</h2>
+            <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-medium font-serif bg-linear-to-r from-slate-900 via-blue-900 to-purple-900 bg-clip-text text-transparent leading-tight mb-3 sm:mb-4">Powerful Cloud Solutions</h2>
             <p className="text-slate-600 text-sm sm:text-base md:text-lg">Enterprise-ready tools for modern applications</p>
           </div>
 
@@ -200,7 +200,7 @@ const CloudServicesPage = () => {
 
           {/* Cloud Tools Section */}
           <div className="text-center mb-6 sm:mb-8 pt-2 sm:pt-4">
-            <h2 className="text-5xl md:text-6xl font-medium font-serif bg-linear-to-r from-slate-900 via-blue-900 to-purple-900 bg-clip-text text-transparent leading-tight mb-3 sm:mb-4">Tech Toolbox</h2>
+            <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-medium font-serif bg-linear-to-r from-slate-900 via-blue-900 to-purple-900 bg-clip-text text-transparent leading-tight mb-3 sm:mb-4">Tech Toolbox</h2>
             <p className="text-slate-600 text-sm sm:text-base md:text-lg">The technologies powering our cloud solutions</p>
           </div>
 

@@ -165,7 +165,7 @@ const SoftwareDevelopmentPage = () => {
               </div>
               
               <div className="space-y-4 sm:space-y-6">
-                <h1 className="text-5xl md:text-6xl font-medium font-serif bg-linear-to-r from-slate-900 via-blue-900 to-purple-900 bg-clip-text text-transparent leading-tight">
+                <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-medium font-serif bg-linear-to-r from-slate-900 via-blue-900 to-purple-900 bg-clip-text text-transparent leading-tight">
                   Build Powerful Software Solutions
                 </h1>
                 <p className="text-base sm:text-lg md:text-xl text-slate-700 leading-relaxed">

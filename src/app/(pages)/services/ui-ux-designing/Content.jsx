@@ -57,13 +57,13 @@ const UIDesigner = () => {
     return (
         <div className="min-h-fit lg:min-h-screen bg-linear-to-br from-slate-50 via-gray-50 to-white pb-16 lg:pb-20">
             {/* Hero & Creative UI/UX Mockup Section */}
-            <section className="pt-16 sm:pt-20 lg:pt-[160px] px-4 sm:px-6 lg:px-8 pb-10 sm:pb-16">
+            <section className="pt-6 sm:pt-20 lg:pt-[160px] px-4 sm:px-6 lg:px-8 pb-10 sm:pb-16">
                 <div className="max-w-7xl mx-auto">
                     <div className="text-center mb-10 sm:mb-12">
-                        <h2 className="text-5xl md:text-6xl font-medium font-serif bg-linear-to-r from-slate-900 via-blue-900 to-purple-900 bg-clip-text text-transparent leading-tight mb-2 sm:mb-3">
+                        <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-medium font-serif bg-linear-to-r from-slate-900 via-blue-900 to-purple-900 bg-clip-text text-transparent leading-tight mb-1 sm:mb-3">
                             UI/UX
                         </h2>
-                        <h2 className="text-5xl md:text-6xl font-medium font-serif bg-linear-to-r from-slate-900 via-blue-900 to-purple-900 bg-clip-text text-transparent leading-tight mb-4">
+                        <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-medium font-serif bg-linear-to-r from-slate-900 via-blue-900 to-purple-900 bg-clip-text text-transparent leading-tight mb-4">
                             Interactive Design Showcase
                         </h2>
                         <p className="text-base sm:text-lg md:text-xl text-slate-700 max-w-3xl mx-auto leading-relaxed">
@@ -311,27 +311,30 @@ const UIDesigner = () => {
             <section className="px-4 sm:px-6 lg:px-8 py-8 sm:py-12 md:py-16">
                 <div className="max-w-7xl mx-auto space-y-6 sm:space-y-8 md:space-y-12">
                     <div className="text-center">
-                        <h2 className="text-5xl md:text-6xl font-medium font-serif bg-linear-to-r from-slate-900 via-blue-900 to-purple-900 bg-clip-text text-transparent leading-tight mb-3 sm:mb-4">Design Process</h2>
+                        <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-medium font-serif bg-linear-to-r from-slate-900 via-blue-900 to-purple-900 bg-clip-text text-transparent leading-tight mb-3 sm:mb-4">Design Process</h2>
                         <p className="text-base sm:text-lg md:text-xl text-slate-700 max-w-3xl mx-auto mb-6 sm:mb-8">
                             Our systematic approach to creating user-centered designs
                         </p>
                     </div>
 
                     <div className="relative">
-                        <div className="flex flex-col lg:flex-row items-center justify-between space-y-8 lg:space-y-0 lg:space-x-6">
+                        <div className="grid grid-cols-2 md:grid-cols-3 lg:flex lg:flex-row items-start justify-between gap-6 sm:gap-8 lg:gap-4">
                             {processSteps.map((step, index) => (
-                                <div key={index} className="flex flex-col items-center relative">
-                                    <div className={`w-20 h-20 rounded-2xl flex items-center justify-center mb-4 transition-all duration-500 ${currentProcess === index ? 'bg-linear-to-r ' + step.color + ' scale-110 shadow-2xl' : 'bg-gray-200 scale-100'
+                                <div
+                                    key={index}
+                                    className="flex flex-col items-center relative text-center"
+                                >
+                                    <div className={`w-16 h-16 sm:w-20 sm:h-20 rounded-2xl flex items-center justify-center mb-3 sm:mb-4 transition-all duration-500 ${currentProcess === index ? 'bg-linear-to-r ' + step.color + ' scale-105 sm:scale-110 shadow-xl' : 'bg-gray-200 scale-100'
                                         }`}>
-                                        <step.icon className={`w-8 h-8 transition-colors duration-500 ${currentProcess === index ? 'text-white' : 'text-gray-600'
+                                        <step.icon className={`w-7 h-7 sm:w-8 sm:h-8 transition-colors duration-500 ${currentProcess === index ? 'text-white' : 'text-gray-600'
                                             }`} />
                                     </div>
-                                    <h3 className={`font-semibold mb-2 transition-colors duration-500 ${currentProcess === index ? 'text-slate-900' : 'text-slate-700'
+                                    <h3 className={`font-semibold text-sm sm:text-base mb-1 sm:mb-2 transition-colors duration-500 ${currentProcess === index ? 'text-slate-900' : 'text-slate-700'
                                         }`}>{step.title}</h3>
-                                    <p className={`text-sm text-center max-w-32 transition-colors duration-500 ${currentProcess === index ? 'text-slate-800' : 'text-slate-600'
+                                    <p className={`text-xs sm:text-sm text-center max-w-[130px] sm:max-w-32 transition-colors duration-500 ${currentProcess === index ? 'text-slate-800' : 'text-slate-600'
                                         }`}>{step.desc}</p>
                                     {index < processSteps.length - 1 && (
-                                        <ArrowRight className="hidden lg:block absolute -right-8 top-8 text-gray-400 w-6 h-6" />
+                                        <ArrowRight className="hidden lg:block absolute -right-6 xl:-right-8 top-8 text-gray-400 w-5 h-5 xl:w-6 xl:h-6" />
                                     )}
                                 </div>
                             ))}
@@ -344,7 +347,7 @@ const UIDesigner = () => {
             <section className="px-4 sm:px-6 lg:px-8 py-8 sm:py-12 md:py-16">
                 <div className="max-w-7xl mx-auto space-y-6 sm:space-y-8 md:space-y-12">
                     <div className="text-center">
-                        <h2 className="text-5xl md:text-6xl font-medium font-serif bg-linear-to-r from-slate-900 via-blue-900 to-purple-900 bg-clip-text text-transparent leading-tight mb-3 sm:mb-4">Technology Stack</h2>
+                        <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-medium font-serif bg-linear-to-r from-slate-900 via-blue-900 to-purple-900 bg-clip-text text-transparent leading-tight mb-3 sm:mb-4">Technology Stack</h2>
                         <p className="text-base sm:text-lg md:text-xl text-slate-700 max-w-3xl mx-auto">
                             Modern tools and technologies we use to create exceptional digital experiences
                         </p>

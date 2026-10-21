@@ -17,7 +17,7 @@ const Hero = () => {
   ];
 
   return (
-    <div className="bg-white relative overflow-hidden pt-16 sm:pt-20 lg:pt-[170px] pb-8 sm:pb-12">
+    <div className="bg-white relative overflow-hidden pt-6 sm:pt-20 lg:pt-[170px] pb-8 sm:pb-12">
       {/* Decorative subtle blue ambient elements */}
       <div className="absolute w-72 h-72 rounded-full -top-20 -left-20 bg-blue-100/40 blur-3xl pointer-events-none" />
       <div className="absolute w-80 h-80 rounded-full top-1/2 -right-20 bg-sky-100/30 blur-3xl pointer-events-none" />
@@ -33,7 +33,7 @@ const Hero = () => {
               </span>
             </div>
 
-            <h1 className="text-5xl md:text-6xl font-medium font-serif bg-linear-to-r from-slate-900 via-blue-900 to-purple-900 bg-clip-text text-transparent leading-tight">
+            <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-medium font-serif bg-linear-to-r from-slate-900 via-blue-900 to-purple-900 bg-clip-text text-transparent leading-tight">
               Build Amazing<br />
               TypeScript Powered<br />
               Angular Apps!
