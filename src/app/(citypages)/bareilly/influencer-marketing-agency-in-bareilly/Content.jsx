@@ -8,7 +8,7 @@ const Content = () => {
   return (
     <div className="min-h-screen bg-white pt-0">
       <div className="flex flex-col lg:flex-row">
-        <div className="flex-1 px-4 sm:px-8 md:px-16 py-0 order-1 lg:order-1">
+        <div className="flex-1 px-4 sm:px-8 md:px-16 py-0 order-1 lg:order-1 lg:border-r lg:border-gray-100">
           <div className="space-y-8 text-gray-700 leading-relaxed max-w-4xl">
             <h2 className="text-2xl sm:text-3xl font-semibold text-gray-900">
               Influencer Marketing Agency in Bareilly &ndash; Zentrix Infotech
@@ -389,12 +389,15 @@ const Content = () => {
           </div>
         </div>
 
-        <div className="w-[400px] lg:w-[500px] p-8 order-2 lg:order-2">
-          <div className="lg:sticky lg:top-28">
+        <div className="order-2 w-full p-4 sm:p-8 lg:order-2 lg:w-[480px] xl:w-[500px] lg:sticky lg:top-32 lg:self-start">
+          <div className="lg:max-h-[calc(100vh-8.5rem)] lg:overflow-y-auto">
             <LandingEnquiry />
-            <RecentBlog />
           </div>
         </div>
+      </div>
+
+      <div className="mt-12">
+        <RecentBlog />
       </div>
     </div>
   );

@@ -19,28 +19,38 @@
   --font-body: 'Public Sans', 'Work Sans', system-ui, -apple-system, sans-serif;
 
   /* Standardized Fluid Heading Hierarchy */
-  --text-h1: clamp(2.25rem, 4.5vw, 3.5rem);        /* Main page headings (H1) */
-  --text-h2: clamp(1.75rem, 3.2vw, 2.5rem);        /* Major section headings (H2) */
-  --text-h3: clamp(1.25rem, 2vw, 1.5rem);          /* Subsections & Card titles (H3) */
-  --text-h4: clamp(1.1rem, 1.5vw, 1.25rem);        /* Group headings (H4) */
-  --text-h5: 1rem;                                 /* Micro headings (H5) */
-  --text-h6: 0.875rem;                             /* Category / eyebrow labels (H6) */
+  --text-h1: clamp(2.25rem, 4.5vw, 3.5rem);
+  /* Main page headings (H1) */
+  --text-h2: clamp(1.75rem, 3.2vw, 2.5rem);
+  /* Major section headings (H2) */
+  --text-h3: clamp(1.25rem, 2vw, 1.5rem);
+  /* Subsections & Card titles (H3) */
+  --text-h4: clamp(1.1rem, 1.5vw, 1.25rem);
+  /* Group headings (H4) */
+  --text-h5: 1rem;
+  /* Micro headings (H5) */
+  --text-h6: 0.875rem;
+  /* Category / eyebrow labels (H6) */
 
   /* Standardized Paragraph & Descriptive Text */
-  --text-paragraph: clamp(1rem, 1.3vw, 1.125rem);   /* Standard descriptive paragraphs */
-  --text-body-regular: 1rem;                       /* Standard body */
-  --text-small: 0.875rem;                          /* Card metadata, details, table text */
-  --text-caption: 0.75rem;                         /* Badges, tags, micro-text */
+  --text-paragraph: clamp(1rem, 1.3vw, 1.125rem);
+  /* Standard descriptive paragraphs */
+  --text-body-regular: 1rem;
+  /* Standard body */
+  --text-small: 0.875rem;
+  /* Card metadata, details, table text */
+  --text-caption: 0.75rem;
+  /* Badges, tags, micro-text */
 }
 
 html {
   scroll-behavior: smooth;
-  overflow-x: hidden;
+  overflow-x: clip;
   max-width: 100%;
 }
 
 body {
-  overflow-x: hidden;
+  overflow-x: clip;
   max-width: 100%;
   font-family: var(--font-body);
   font-size: var(--text-paragraph);
@@ -67,14 +77,25 @@ body {
    while preserving desktop and laptop layouts (md: / lg:) exactly.
    ===================================================================== */
 @media (max-width: 767px) {
-  h1, h2, h3, h4, h5, h6,
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
   p {
     text-align: left !important;
   }
 }
 
 /* Base typography defaults without aggressive !important overrides */
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: var(--font-heading);
 }
 
@@ -83,7 +104,12 @@ p {
 }
 
 /* Monospace preservation for code mockups & terminal */
-pre, code, kbd, samp, .font-mono, [class*="font-mono"] {
+pre,
+code,
+kbd,
+samp,
+.font-mono,
+[class*="font-mono"] {
   font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 
@@ -116,10 +142,24 @@ pre, code, kbd, samp, .font-mono, [class*="font-mono"] {
    ===================================================================== */
 
 @keyframes ring {
-  0%        { transform: rotate(0deg) scale(1); }
-  10%, 30%  { transform: rotate(15deg) scale(1.1); }
-  20%, 40%  { transform: rotate(-15deg) scale(1.1); }
-  50%, 100% { transform: rotate(0deg) scale(1); }
+  0% {
+    transform: rotate(0deg) scale(1);
+  }
+
+  10%,
+  30% {
+    transform: rotate(15deg) scale(1.1);
+  }
+
+  20%,
+  40% {
+    transform: rotate(-15deg) scale(1.1);
+  }
+
+  50%,
+  100% {
+    transform: rotate(0deg) scale(1);
+  }
 }
 
 .animate-ring {

@@ -31,7 +31,7 @@ export default function Banner() {
 
           {/* Main Heading */}
           <h5 className="mb-4 mt-6 max-w-5xl text-2xl font-bold leading-tight tracking-tight sm:text-3xl md:text-4xl lg:text-5xl">
-            Magento Website Development Company
+             Magento Development in Moradabad: Secure, Fast & Customized
           </h5>
 
           {/* Description */}

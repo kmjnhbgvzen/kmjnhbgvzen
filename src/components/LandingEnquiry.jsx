@@ -45,6 +45,13 @@ const TechServicesForm = () => {
 
       try {
         console.log('Rendering reCAPTCHA...');
+        if (recaptchaRef.current !== null && window.grecaptcha?.reset) {
+          try {
+            window.grecaptcha.reset(recaptchaRef.current);
+            setRecaptchaLoaded(true);
+            return;
+          } catch (e) {}
+        }
         container.innerHTML = '';
 
         recaptchaRef.current = window.grecaptcha.render('recaptcha-container', {
@@ -70,7 +77,11 @@ const TechServicesForm = () => {
         renderAttemptedRef.current = true;
       } catch (error) {
         console.error('reCAPTCHA render error:', error);
-        setError('Failed to initialize reCAPTCHA: ' + error.message);
+        if (error.message?.includes('already been rendered')) {
+          setRecaptchaLoaded(true);
+        } else {
+          setError('Failed to initialize reCAPTCHA: ' + error.message);
+        }
         renderAttemptedRef.current = false;
       }
     };
