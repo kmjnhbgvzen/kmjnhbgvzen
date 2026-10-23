@@ -9,8 +9,6 @@ const PopupQueryForm = () => {
   const reopenTimerRef = useRef(null);
   const [isOpen, setIsOpen] = useState(false);
   const [isClient, setIsClient] = useState(false);
-  const [recaptchaLoaded, setRecaptchaLoaded] = useState(false);
-  const recaptchaRef = useRef(null);
 
   const [formData, setFormData] = useState({
     name: "",
@@ -29,8 +27,6 @@ const PopupQueryForm = () => {
   });
 
   const [isSubmitting, setIsSubmitting] = useState(false);
-
-  const RECAPTCHA_SITE_KEY = "6LdfEigsAAAAAHguTeUVCbTNyAUs4k3oN1N4qS67";
 
   // List of major Indian cities
   const cities = [
@@ -102,104 +98,12 @@ const PopupQueryForm = () => {
       ? null
       : setTimeout(() => setIsOpen(true), 6000);
 
-    // Define the callback function globally
-    window.recaptchaCallback = () => {
-      console.log("reCAPTCHA loaded");
-      setRecaptchaLoaded(true);
-
-      setTimeout(() => {
-        if (window.grecaptcha && window.grecaptcha.render) {
-          try {
-            const container = document.getElementById(
-              "popup-recaptcha-container"
-            );
-
-            if (container && !recaptchaRef.current) {
-              container.innerHTML = "";
-
-              recaptchaRef.current = window.grecaptcha.render(
-                "popup-recaptcha-container",
-                {
-                  sitekey: RECAPTCHA_SITE_KEY,
-                  theme: "light",
-                  size: "normal",
-                }
-              );
-
-              console.log("reCAPTCHA rendered successfully");
-            }
-          } catch (error) {
-            console.error("reCAPTCHA render error:", error);
-          }
-        }
-      }, 100);
-    };
-
-    // Load reCAPTCHA script with callback
-    if (!document.getElementById("recaptcha-script")) {
-      const script = document.createElement("script");
-      script.id = "recaptcha-script";
-      script.src =
-        "https://www.google.com/recaptcha/api.js?onload=recaptchaCallback&render=explicit";
-      script.async = true;
-      script.defer = true;
-      document.head.appendChild(script);
-    } else if (window.grecaptcha && window.grecaptcha.render) {
-      window.recaptchaCallback();
-    }
-
     return () => {
       if (timer) clearTimeout(timer);
       if (reopenTimerRef.current) clearTimeout(reopenTimerRef.current);
       window.removeEventListener("open-contact-popup", handleOpenPopup);
-
-      if (recaptchaRef.current !== null && window.grecaptcha) {
-        try {
-          window.grecaptcha.reset(recaptchaRef.current);
-        } catch (e) {
-          console.error("Cleanup error:", e);
-        }
-      }
     };
   }, []);
-
-  // Re-render reCAPTCHA when popup opens
-  useEffect(() => {
-    if (
-      isOpen &&
-      recaptchaLoaded &&
-      window.grecaptcha &&
-      window.grecaptcha.render
-    ) {
-      setTimeout(() => {
-        const container = document.getElementById(
-          "popup-recaptcha-container"
-        );
-
-        if (container && recaptchaRef.current === null) {
-          try {
-            container.innerHTML = "";
-
-            recaptchaRef.current = window.grecaptcha.render(
-              "popup-recaptcha-container",
-              {
-                sitekey: RECAPTCHA_SITE_KEY,
-                theme: "light",
-                size: "normal",
-              }
-            );
-
-            console.log("reCAPTCHA rendered on popup open");
-          } catch (error) {
-            console.error(
-              "reCAPTCHA render error on open:",
-              error
-            );
-          }
-        }
-      }, 200);
-    }
-  }, [isOpen, recaptchaLoaded]);
 
   // =========================
   // FORM CHANGE + VALIDATION
@@ -363,42 +267,6 @@ const PopupQueryForm = () => {
     setIsSubmitting(true);
 
     // =========================
-    // VERIFY reCAPTCHA
-    // =========================
-    let recaptchaResponse = "";
-
-    try {
-      if (!window.grecaptcha) {
-        setError(
-          "reCAPTCHA not loaded. Please refresh the page."
-        );
-        setIsSubmitting(false);
-        return;
-      }
-
-      recaptchaResponse = window.grecaptcha.getResponse(
-        recaptchaRef.current
-      );
-
-      if (!recaptchaResponse) {
-        setError(
-          "Please complete the reCAPTCHA verification."
-        );
-        setIsSubmitting(false);
-        return;
-      }
-    } catch (err) {
-      console.error("reCAPTCHA error:", err);
-
-      setError(
-        "reCAPTCHA verification failed. Please try again."
-      );
-
-      setIsSubmitting(false);
-      return;
-    }
-
-    // =========================
     // CREATE FORM DATA
     // =========================
     const submitData = new FormData();
@@ -406,11 +274,6 @@ const PopupQueryForm = () => {
     Object.entries(formData).forEach(([key, value]) => {
       submitData.append(key, value);
     });
-
-    submitData.append(
-      "g-recaptcha-response",
-      recaptchaResponse
-    );
 
     submitData.append(
       "_next",
@@ -453,15 +316,6 @@ const PopupQueryForm = () => {
       );
 
       setIsSubmitting(false);
-
-      if (
-        window.grecaptcha &&
-        recaptchaRef.current !== null
-      ) {
-        window.grecaptcha.reset(
-          recaptchaRef.current
-        );
-      }
     }
   };
 
@@ -709,33 +563,6 @@ const PopupQueryForm = () => {
                 className="w-full px-3 py-2 border border-gray-300 rounded-lg text-xs focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all resize-none bg-white/80 backdrop-blur-sm"
               />
             </div>
-
-            {/* reCAPTCHA */}
-            <div
-              style={{
-                display: "flex",
-                justifyContent: "center",
-                alignItems: "center",
-                padding: "12px 0",
-                minHeight: "90px",
-              }}
-            >
-              <div
-                id="popup-recaptcha-container"
-                style={{
-                  transform: "scale(0.88)",
-                  transformOrigin: "center center",
-                  width: "304px",
-                  height: "78px",
-                }}
-              ></div>
-            </div>
-
-            {!recaptchaLoaded && (
-              <div className="text-center text-xs text-gray-500 py-2">
-                Loading reCAPTCHA...
-              </div>
-            )}
 
             {/* Submit Button */}
             <button

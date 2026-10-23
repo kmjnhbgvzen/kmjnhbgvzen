@@ -1,14 +1,10 @@
 'use client';
 
-import React, { useState, useEffect, useRef } from "react";
+import React, { useState, useEffect } from "react";
 import { ChevronDown } from "lucide-react";
 
 const TechServicesForm = () => {
   const [isClient, setIsClient] = useState(false);
-  const [recaptchaLoaded, setRecaptchaLoaded] = useState(false);
-  const recaptchaRef = useRef(null);
-  const scriptLoadedRef = useRef(false);
-  const renderAttemptedRef = useRef(false);
   
   const [formData, setFormData] = useState({
     name: "",
@@ -22,121 +18,9 @@ const TechServicesForm = () => {
   const [success, setSuccess] = useState(false);
   const [isSubmitting, setIsSubmitting] = useState(false);
 
-  const RECAPTCHA_SITE_KEY = "6LdfEigsAAAAAHguTeUVCbTNyAUs4k3oN1N4qS67";
-
   useEffect(() => {
     setIsClient(true);
   }, []);
-
-  useEffect(() => {
-    if (!isClient || scriptLoadedRef.current) return;
-
-    const renderRecaptcha = () => {
-      const container = document.getElementById('recaptcha-container');
-      if (!container) {
-        console.error('Container not found');
-        return;
-      }
-
-      if (!window.grecaptcha || !window.grecaptcha.render) {
-        console.log('grecaptcha not ready yet');
-        return;
-      }
-
-      try {
-        console.log('Rendering reCAPTCHA...');
-        if (recaptchaRef.current !== null && window.grecaptcha?.reset) {
-          try {
-            window.grecaptcha.reset(recaptchaRef.current);
-            setRecaptchaLoaded(true);
-            return;
-          } catch (e) {}
-        }
-        container.innerHTML = '';
-
-        recaptchaRef.current = window.grecaptcha.render('recaptcha-container', {
-          sitekey: RECAPTCHA_SITE_KEY,
-          theme: 'light',
-          size: 'normal',
-          callback: (token) => {
-            console.log('reCAPTCHA success!');
-          },
-          'error-callback': () => {
-            console.error('reCAPTCHA error - check console');
-            setError('reCAPTCHA failed. Please check that your domain is authorized in Google reCAPTCHA admin.');
-            renderAttemptedRef.current = false;
-          },
-          'expired-callback': () => {
-            console.log('reCAPTCHA expired');
-            renderAttemptedRef.current = false;
-          }
-        });
-
-        console.log('reCAPTCHA rendered with widget ID:', recaptchaRef.current);
-        setRecaptchaLoaded(true);
-        renderAttemptedRef.current = true;
-      } catch (error) {
-        console.error('reCAPTCHA render error:', error);
-        if (error.message?.includes('already been rendered')) {
-          setRecaptchaLoaded(true);
-        } else {
-          setError('Failed to initialize reCAPTCHA: ' + error.message);
-        }
-        renderAttemptedRef.current = false;
-      }
-    };
-
-    // Try to render immediately if grecaptcha is already available
-    if (window.grecaptcha && window.grecaptcha.render) {
-      console.log('grecaptcha already available');
-      setTimeout(renderRecaptcha, 100);
-      return;
-    }
-
-    window.recaptchaCallback = () => {
-      console.log('reCAPTCHA script loaded via callback');
-      setTimeout(renderRecaptcha, 100);
-    };
-
-    const existingScript = document.getElementById('recaptcha-script');
-    if (existingScript) {
-      console.log('reCAPTCHA script already in DOM');
-      if (window.grecaptcha && window.grecaptcha.render) {
-        renderRecaptcha();
-      } else {
-        const checkInterval = setInterval(() => {
-          if (window.grecaptcha && window.grecaptcha.render) {
-            clearInterval(checkInterval);
-            renderRecaptcha();
-          }
-        }, 100);
-        setTimeout(() => clearInterval(checkInterval), 10000);
-      }
-    } else {
-      console.log('Loading reCAPTCHA script...');
-      const script = document.createElement('script');
-      script.id = 'recaptcha-script';
-      script.src = `https://www.google.com/recaptcha/api.js?onload=recaptchaCallback&render=explicit`;
-      script.async = true;
-      script.defer = true;
-      script.onerror = () => {
-        console.error('Failed to load reCAPTCHA script');
-        setError('Failed to load reCAPTCHA. Please check your internet connection.');
-      };
-      document.head.appendChild(script);
-      scriptLoadedRef.current = true;
-    }
-
-    return () => {
-      if (recaptchaRef.current !== null && window.grecaptcha && window.grecaptcha.reset) {
-        try {
-          window.grecaptcha.reset(recaptchaRef.current);
-        } catch (e) {
-          console.error('Cleanup error:', e);
-        }
-      }
-    };
-  }, [isClient]);
 
   const handleChange = (e) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
@@ -156,43 +40,12 @@ const TechServicesForm = () => {
       return;
     }
 
-    // Verify reCAPTCHA
-    let recaptchaResponse = '';
-    try {
-      if (!window.grecaptcha) {
-        setError("reCAPTCHA not loaded. Please refresh the page.");
-        setIsSubmitting(false);
-        return;
-      }
-
-      if (recaptchaRef.current === null) {
-        setError("reCAPTCHA not initialized. Please refresh the page.");
-        setIsSubmitting(false);
-        return;
-      }
-
-      recaptchaResponse = window.grecaptcha.getResponse(recaptchaRef.current);
-      console.log('reCAPTCHA response received:', recaptchaResponse ? 'Yes' : 'No');
-      
-      if (!recaptchaResponse) {
-        setError("Please complete the reCAPTCHA verification by checking the box.");
-        setIsSubmitting(false);
-        return;
-      }
-    } catch (err) {
-      console.error('reCAPTCHA verification error:', err);
-      setError("reCAPTCHA verification failed: " + err.message);
-      setIsSubmitting(false);
-      return;
-    }
-
     // Create form data
     const submitData = new FormData();
     Object.entries(formData).forEach(([key, value]) => {
       submitData.append(key, value);
     });
 
-    submitData.append("g-recaptcha-response", recaptchaResponse);
     submitData.append("_next", "https://www.zentrixinfotech.com/thankyou");
     submitData.append("_subject", "New Tech Services Inquiry from " + formData.name);
     submitData.append("_captcha", "false");
@@ -220,15 +73,6 @@ const TechServicesForm = () => {
         message: "",
       });
       
-      // Reset reCAPTCHA
-      if (window.grecaptcha && recaptchaRef.current !== null) {
-        try {
-          window.grecaptcha.reset(recaptchaRef.current);
-        } catch (e) {
-          console.error('Reset error:', e);
-        }
-      }
-      
       // Redirect after 2 seconds
       setTimeout(() => {
         window.location.href = "https://www.zentrixinfotech.com/thankyou";
@@ -238,15 +82,6 @@ const TechServicesForm = () => {
       console.error("Form submission error:", error);
       setError("There was an error submitting the form. Please try again.");
       setIsSubmitting(false);
-      
-      // Reset reCAPTCHA
-      if (window.grecaptcha && recaptchaRef.current !== null) {
-        try {
-          window.grecaptcha.reset(recaptchaRef.current);
-        } catch (e) {
-          console.error('Reset error:', e);
-        }
-      }
     }
   };
 
@@ -374,27 +209,10 @@ const TechServicesForm = () => {
           />
         </div>
 
-        {/* reCAPTCHA Container */}
-        <div className="flex justify-center my-3 min-h-[78px]">
-          <div id="recaptcha-container"></div>
-        </div>
-
-        {!recaptchaLoaded && (
-          <div className="text-center text-xs text-gray-500 py-2">
-            <div className="inline-flex items-center">
-              <svg className="animate-spin h-4 w-4 mr-2 text-gray-400" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
-                <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4"></circle>
-                <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
-              </svg>
-              Loading reCAPTCHA...
-            </div>
-          </div>
-        )}
-
         <button
           type="button"
           onClick={handleSubmit}
-          disabled={isSubmitting || !recaptchaLoaded || success}
+          disabled={isSubmitting || success}
           className="w-full py-2.5 bg-gradient-to-r from-[#2eaad4] to-[#2c67f2] text-white font-semibold rounded text-sm hover:opacity-90 transition-opacity shadow-md hover:shadow-lg disabled:opacity-50 disabled:cursor-not-allowed"
         >
           {success ? "✓ Submitted!" : isSubmitting ? "Submitting..." : "Submit Enquiry"}

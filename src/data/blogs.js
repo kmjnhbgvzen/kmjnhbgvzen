@@ -6473,5 +6473,339 @@ export const blogs = [
     icons: { icon: "/favicon.ico" }
   }
 },
-
+{
+  id: 31,
+  slug: "export-website-development-for-exporters",
+  title: "Export Website Development | Foreign Buyers Can’t Find You?",
+  subtitle: "Foreign buyers can’t find your business online? Zentrix Infotech builds fast, SEO-ready export websites that attract global importers. Get a free quote today.",
+  content: "Discover how professional export website development helps Indian exporters attract international buyers through SEO, detailed product catalogues, RFQ forms, and trust-building features.",
+  image: "https://res.cloudinary.com/dxpyhablz/image/upload/v1792741714/Global_Export_E-Commerce_Breakthrough-90kb_o6wbrs.jpg",
+  date: "2026-10-23",
+  author: "Zentrix Infotech",
+  readTime: "10 min read",
+  category: "Business & Growth",
+  tags: [
+    "Export Website Development",
+    "Website for Exporters",
+    "B2B Export Website Design",
+    "Export Website SEO",
+    "International Buyers Website",
+    "RFQ Website Development"
+  ],
+  fullContent: {
+    introduction: "Your products are world-class. Your factory is certified. Your prices are competitive. Yet the inquiries from overseas buyers are slow, or they don’t come at all. The problem usually isn’t your product — it’s that foreign buyers can’t find you online. Today, an importer in Germany, the UAE, or the USA rarely starts with a trade fair or a middleman. They start with a Google search, a LinkedIn lookup, or a B2B marketplace. If your business doesn’t appear, or appears with a slow, outdated website, they move on to the next supplier within seconds. This is where professional export website development changes the game. This guide explains why buyers miss you, what an export-ready website needs, and how to turn your site into a 24/7 international sales channel.",
+    sections: [
+      {
+        heading: "Why Foreign Buyers Can’t Find Your Export Business Online",
+        content: [
+          {
+            type: "paragraph",
+            text: "Most exporters in India rely on referrals, trade shows, and marketplace listings. These work, but they leave you dependent on platforms you don’t control. When your website fails, you lose direct inquiries and the higher margins that come with them."
+          },
+          {
+            type: "subheading",
+            text: "Common Reasons Overseas Buyers Never Reach You"
+          },
+          {
+            type: "bullets",
+            items: [
+              "No website, or a brochure-style website with only a logo and phone number",
+              "Wrong keywords — your site says “manufacturer,” but buyers search “brass handicraft supplier India” or “bulk spices exporter”",
+              "Slow loading pages that lose visitors in Dubai, London, or other international markets",
+              "Missing product details such as specifications, materials, MOQ, packaging, and certifications",
+              "No clear or quick way to send an inquiry or RFQ",
+              "Lack of trust signals such as export licences, certifications, client countries, and a real business address"
+            ]
+          },
+          {
+            type: "callout",
+            style: "warning",
+            text: "If two or three of these issues sound familiar, your website may be quietly costing you international orders."
+          }
+        ]
+      },
+      {
+        heading: "What Is an Export Website and How Is It Different?",
+        content: [
+          {
+            type: "paragraph",
+            text: "An export website is built to attract, convince, and convert international B2B buyers. A regular business website tells people who you are. An export website answers the questions an importer asks before placing an order."
+          },
+          {
+            type: "bullets",
+            items: [
+              "Can this company supply my volume?",
+              "Are the products compliant with my market’s standards?",
+              "How do shipping, payment, and documentation work?",
+              "Can I trust a supplier I have never met?"
+            ]
+          },
+          {
+            type: "paragraph",
+            text: "A strong export site works as your digital showroom, sales team, and credibility proof in one place — available to global buyers around the clock."
+          }
+        ]
+      },
+      {
+        heading: "7 Features Every Export Website Needs",
+        content: [
+          {
+            type: "subheading",
+            text: "1. Buyer-Focused, Multilingual-Ready Structure"
+          },
+          {
+            type: "paragraph",
+            text: "Your content should speak to importers in their own context. Depending on your target markets, this can include language options and region-specific landing pages for the USA, UK, Europe, or the Middle East."
+          },
+          {
+            type: "subheading",
+            text: "2. Detailed Product Catalogue"
+          },
+          {
+            type: "paragraph",
+            text: "Each product page needs clear photos, specifications, material, sizes, MOQ, packaging, lead time, and certifications. Detail builds buyer confidence and helps pages rank better on Google."
+          },
+          {
+            type: "subheading",
+            text: "3. Request-a-Quote (RFQ) Forms"
+          },
+          {
+            type: "paragraph",
+            text: "Replace a generic “Contact Us” page with a short RFQ form. Ask for product, quantity, destination country, and email. Short forms get completed; long forms get abandoned."
+          },
+          {
+            type: "subheading",
+            text: "4. Fast Global Performance"
+          },
+          {
+            type: "paragraph",
+            text: "Speed is both a ranking factor and a trust factor. A modern build with optimised images, clean code, and a CDN loads quickly for buyers on any continent."
+          },
+          {
+            type: "subheading",
+            text: "5. Trust and Compliance Section"
+          },
+          {
+            type: "paragraph",
+            text: "Show your IEC, GST, ISO, or product certificates, export countries served, factory photos, and testimonials. Buyers who cannot visit your facility check these signals instead."
+          },
+          {
+            type: "subheading",
+            text: "6. Mobile-First Design"
+          },
+          {
+            type: "paragraph",
+            text: "Many buyers review suppliers on a phone between meetings. Your website must look sharp and work smoothly on small screens."
+          },
+          {
+            type: "subheading",
+            text: "7. Easy Communication Channels"
+          },
+          {
+            type: "paragraph",
+            text: "Offer email, a WhatsApp button, a phone number with the country code, and a contact form. Every additional option reduces friction for international buyers."
+          }
+        ]
+      },
+      {
+        heading: "How We Make Your Export Website Rank on Google",
+        content: [
+          {
+            type: "paragraph",
+            text: "A beautiful website that nobody finds is just an expensive brochure. At Zentrix Infotech, SEO is built in from day one, not added later."
+          },
+          {
+            type: "subheading",
+            text: "Keyword Research for Buyers, Not Browsers"
+          },
+          {
+            type: "paragraph",
+            text: "We identify the exact phrases importers type, such as “[product] manufacturer in India,” “bulk [product] exporter,” and “OEM [product] supplier.” These terms are specific and less crowded than generic keywords, making them easier to rank for."
+          },
+          {
+            type: "subheading",
+            text: "Product and Category Pages Built for Search"
+          },
+          {
+            type: "paragraph",
+            text: "Every page receives a unique title tag, meta description, clean URL, proper header structure, and descriptive image alt text."
+          },
+          {
+            type: "subheading",
+            text: "Technical SEO Foundation"
+          },
+          {
+            type: "bullets",
+            items: [
+              "Fast server and optimised performance",
+              "XML sitemap and correct indexing",
+              "Mobile-friendly responsive design",
+              "Secure HTTPS connection",
+              "Core Web Vitals optimisation"
+            ]
+          },
+          {
+            type: "subheading",
+            text: "Structured Data and Schema"
+          },
+          {
+            type: "paragraph",
+            text: "We add Organization, Product, and FAQ schema so Google understands your business and can display richer search results."
+          },
+          {
+            type: "subheading",
+            text: "Content That Builds Authority"
+          },
+          {
+            type: "paragraph",
+            text: "Blog posts and guides on packaging, shipping, compliance, and sourcing demonstrate expertise and attract buyers earlier in their research process."
+          },
+          {
+            type: "subheading",
+            text: "Local and Global Signals"
+          },
+          {
+            type: "paragraph",
+            text: "We connect your website with Google Business Profile, relevant business directories, and B2B listings so search engines see a consistent and trustworthy brand."
+          },
+          {
+            type: "paragraph",
+            text: "No agency can honestly guarantee a number-one ranking. What we do is build the right foundation, target the right buyers, and track results month by month."
+          }
+        ]
+      },
+      {
+        heading: "Industries We Build Export Sites For",
+        content: [
+          {
+            type: "paragraph",
+            text: "India’s export sectors are vast, and many exporters are still under-represented online. Our team works with businesses across major export categories."
+          },
+          {
+            type: "bullets",
+            items: [
+              "Brassware, metal, and handicrafts — a specialty of our home city, Moradabad",
+              "Spices, herbs, and food products",
+              "Textiles, garments, and home furnishings",
+              "Leather goods and footwear",
+              "Furniture and décor",
+              "Industrial parts, tiles, and building materials",
+              "Pharma, wellness, and agri-products"
+            ]
+          },
+          {
+            type: "paragraph",
+            text: "We have already built websites across e-commerce, handicrafts, spices, and manufacturing, so we understand how buyers in these industries search and make decisions."
+          }
+        ]
+      },
+      {
+        heading: "Our Simple 5-Step Process",
+        content: [
+          {
+            type: "bullets",
+            items: [
+              "Discovery call: We learn your products, target countries, and ideal buyers",
+              "Strategy and keyword plan: We map the pages and search terms that will bring importers",
+              "Design and development: We build a fast, responsive, brand-matched website",
+              "SEO and launch: We set up on-page SEO, schema, analytics, and tracking, then go live",
+              "Growth and support: We help with content, marketing, and ongoing improvements"
+            ]
+          }
+        ]
+      },
+      {
+        heading: "Why Choose Zentrix Infotech?",
+        content: [
+          {
+            type: "bullets",
+            items: [
+              "250+ projects and 270+ clients across industries",
+              "Full-service team covering web development, UI/UX, SEO, and digital marketing",
+              "Business-first approach focused on inquiries and orders, not just appearance",
+              "Transparent communication with clear timelines, pricing, and regular updates",
+              "Based in Moradabad, the Brass City of India, with deep understanding of export-driven businesses"
+            ]
+          },
+          {
+            type: "paragraph",
+            text: "Your website should work as hard as your sales team. Let’s build one that does."
+          }
+        ]
+      },
+      {
+        heading: "Get Your Free Export Website Consultation",
+        content: [
+          {
+            type: "paragraph",
+            text: "Every day your website stays invisible, a buyer somewhere chooses another supplier. A professionally developed export website helps your business appear in the right searches, build trust instantly, and convert global visitors into serious inquiries."
+          },
+          {
+            type: "paragraph",
+            text: "<strong>Stop losing orders to competitors who simply show up first. Let Zentrix Infotech build an export website that helps foreign buyers find you.</strong>"
+          },
+          {
+            type: "callout",
+            style: "danger",
+            text: "<strong>Zentrix Infotech</strong><br /><br />• Phone: <a href=\"tel:+917248800839\" style=\"color: #2563eb; text-decoration: underline; font-weight: 600;\">+91 72488 00839</a><br />• Email: <a href=\"mailto:info@zentrixinfotech.com\" style=\"color: #2563eb; text-decoration: underline; font-weight: 600;\">info@zentrixinfotech.com</a><br />• Website: <a href=\"https://www.zentrixinfotech.com\" style=\"color: #2563eb; text-decoration: underline; font-weight: 600;\">https://www.zentrixinfotech.com</a><br />• Moradabad Office: 12/11, Buddhi Vihar Phase 2, Moradabad, Uttar Pradesh 244001<br />• Contact form: <a href=\"https://www.zentrixinfotech.com/contact-us\" style=\"color: #2563eb; text-decoration: underline; font-weight: 600;\">https://www.zentrixinfotech.com/contact-us</a><br /><br />Book your free consultation today, and let’s help foreign buyers find you."
+          }
+        ]
+      }
+    ]
+  },
+  faqs: [
+    {
+      question: "What is an export website, and do I really need one?",
+      answer: "An export website is a business site designed to attract and convert international B2B buyers. If you want direct overseas inquiries instead of relying only on middlemen and marketplaces, yes, you need one. It acts as your 24/7 global showroom."
+    },
+    {
+      question: "How long does it take to build an export website?",
+      answer: "A standard business website usually takes 3 to 6 weeks, depending on the number of pages, products, and features. We share a clear timeline after the discovery call."
+    },
+    {
+      question: "Will my export website rank on Google?",
+      answer: "We build every site with SEO foundations, including keyword research, fast loading, clean structure, and schema markup. Rankings depend on competition and ongoing effort, and no honest agency can guarantee a specific position. We provide a clear plan and regular reporting."
+    },
+    {
+      question: "Can you add an inquiry form, WhatsApp, and payment options?",
+      answer: "Yes. We can add RFQ forms, WhatsApp chat, email integration, and, where relevant, secure international payment gateways."
+    },
+    {
+      question: "Do you work with exporters outside Moradabad?",
+      answer: "Absolutely. We work with businesses across India and serve clients remotely through calls, screen sharing, and regular progress updates."
+    }
+  ],
+  metaTags: {
+    title: "Export Website Development | Foreign Buyers Can’t Find You?",
+    description: "Foreign buyers can’t find your business online? Zentrix Infotech builds fast, SEO-ready export websites that attract global importers. Get a free quote today.",
+    keywords: "export website development, export website development company India, website for exporters, B2B export website design, export website SEO, website design for export import business, exporter website development Moradabad, international buyers website, RFQ website development, Zentrix Infotech",
+    alternates: {
+      canonical: "https://www.zentrixinfotech.com/blog/export-website-development-for-exporters"
+    },
+    openGraph: {
+      type: "article",
+      url: "https://www.zentrixinfotech.com/blog/export-website-development-for-exporters",
+      title: "Export Website Development | Foreign Buyers Can’t Find You?",
+      description: "Foreign buyers can’t find your business online? Zentrix Infotech builds fast, SEO-ready export websites that attract global importers. Get a free quote today.",
+      images: [
+        {
+          url: "https://res.cloudinary.com/dxpyhablz/image/upload/v1792741714/Global_Export_E-Commerce_Breakthrough-90kb_o6wbrs.jpg",
+          width: 1200,
+          height: 630
+        }
+      ]
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: "Export Website Development | Foreign Buyers Can’t Find You?",
+      description: "Zentrix Infotech builds fast, SEO-ready export websites that help Indian exporters attract global importers and generate direct inquiries.",
+      images: [
+        "https://res.cloudinary.com/dxpyhablz/image/upload/v1792741714/Global_Export_E-Commerce_Breakthrough-90kb_o6wbrs.jpg"
+      ]
+    },
+    icons: {
+      icon: "/favicon.ico"
+    }
+  }
+}
 ];
