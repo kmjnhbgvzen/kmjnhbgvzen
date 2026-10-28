@@ -11,7 +11,7 @@ const Content = () => {
         <div className="order-1 flex-1 px-4 py-0 sm:px-8 md:px-16 lg:order-1 lg:border-r lg:border-gray-100">
           <div className="max-w-4xl space-y-8 leading-relaxed text-gray-700">
             <h2 className="text-2xl font-semibold text-gray-900 sm:text-3xl">
-              Moradabad SEO Company: Grow Your Business With Search Visibility
+              SEO Company in Moradabad: Get Found on Google, Increase Enquiries
             </h2>
 
             <p>
