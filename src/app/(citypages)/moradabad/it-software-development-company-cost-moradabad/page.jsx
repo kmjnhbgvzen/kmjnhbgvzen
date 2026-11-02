@@ -16,7 +16,7 @@ export const metadata = {
 
   alternates: {
     canonical:
-      "https://www.zentrixinfotech.com/moradabad/it-software-development-company-in-moradabad",
+      "https://www.zentrixinfotech.com/moradabad/it-software-development-company-cost-moradabad",
   },
 
   openGraph: {
@@ -24,7 +24,7 @@ export const metadata = {
       "IT Software Development Company in Moradabad | Zentrix Infotech",
     description:
       "Zentrix Infotech is an IT software development company in Moradabad offering custom software, web, mobile, UI/UX, cloud and digital marketing. Get a free quote.",
-    url: "https://www.zentrixinfotech.com/moradabad/it-software-development-company-in-moradabad",
+    url: "https://www.zentrixinfotech.com/moradabad/it-software-development-company-cost-moradabad",
     siteName: "Zentrix Infotech",
     images: [
       {
