@@ -35,7 +35,9 @@ export const metadata = {
     locale: "en_IN",
     type: "website",
   },
+  
 
+  
   twitter: {
     card: "summary_large_image",
     title: "Doctor Branding Services in Moradabad | Zentrix Infotech",
